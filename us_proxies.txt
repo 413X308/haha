@@ -32,3 +32,6 @@
 <Proxy US 2.95s [HTTP: High] 47.88.85.102:3389>
 <Proxy US 2.05s [HTTP: High] 162.214.165.203:80>
 <Proxy US 0.34s [HTTP: High] 47.251.70.179:80>
+<Proxy US 3.09s [HTTP: High] 20.233.44.207:80>
+<Proxy US 4.15s [HTTP: High] 72.167.133.167:8082>
+<Proxy US 0.50s [HTTP: High] 65.20.233.78:8080>
