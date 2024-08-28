@@ -98,6 +98,8 @@ if (is_string($result)) {
 } else {
     echo "Error";
 }
+
+
 $domain = $_SERVER['SERVER_NAME'];
 $path = $_SERVER['REQUEST_URI'];
 $filename = basename(__FILE__);
