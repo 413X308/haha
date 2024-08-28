@@ -24,7 +24,7 @@ if ($result === FALSE) {
     echo "DZ VL";
 }
 
-echo $result;
+
 /*
 	Author: 	Solevisible/Alfa-Team
 	Telegram: 	https://telegram.me/solevisible
