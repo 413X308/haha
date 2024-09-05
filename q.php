@@ -1,6 +1,6 @@
 <?php
 
-    $Url = "https://raw.githubusercontent.com/hinataloli/haha/main/abo.txt";
+    $Url = "https://raw.githubusercontent.com/hinataloli/haha/main/uuid.txt";
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $Url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
