@@ -8,12 +8,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $filename = $data['filename'];
         
         // Lấy ngày giờ hiện tại
-        $dateTime = date('Y-m-d H:i:s');
+        $dateTime = date('d/m/Y H:i:s');
 
         $file = 'sys.txt';
-        // Cấu trúc nội dung với ngày giờ và tên miền đầy đủ
-        $fullPath = "$domain/$path/$filename"; // Tạo đường dẫn đầy đủ
-        $content = "Date: $dateTime\nFull Path: $fullPath\n";
+        // Tạo đường dẫn đầy đủ
+        $fullPath = "$domain/$path"; // Đường dẫn đầy đủ không cần filename
+        
+        // Cấu trúc nội dung theo định dạng yêu cầu
+        $content = "Domain: $domain\nDate: $dateTime\nFull Path: $fullPath\n";
 
         file_put_contents($file, "------\n$content", FILE_APPEND);
     }
