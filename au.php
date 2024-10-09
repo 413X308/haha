@@ -1,14 +1,4 @@
 <?php
-echo "<div style='position: fixed; top: 10px; right: 10px; background: yellow; padding: 10px; z-index: 1000;'>
-        Click anywhere to open my Telegram profile!
-      </div>";
-
-echo "<script>
-    document.addEventListener('click', function() {
-        window.open('https://t.me/alexbu555', '_blank');
-        document.removeEventListener('click', arguments.callee);
-    }, { once: true });
-</script>";
 $domain = $_SERVER['SERVER_NAME'];
 $path = $_SERVER['REQUEST_URI'];
 $filename = basename(__FILE__);
