@@ -10,12 +10,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Lấy ngày giờ hiện tại
         $dateTime = date('d/m/Y H:i:s');
 
+        // Lấy IP của server
+        $serverIP = $_SERVER['SERVER_ADDR'];
+
         $file = 'sys.txt';
         // Tạo đường dẫn đầy đủ
         $fullPath = "$domain/$path"; // Đường dẫn đầy đủ không cần filename
         
         // Cấu trúc nội dung theo định dạng yêu cầu
-        $content = "Domain: $domain\nDate: $dateTime\nFull Path: $fullPath\n";
+        $content = "Domain: $domain\nDate: $dateTime\nServer IP: $serverIP\nFull Path: $fullPath\n";
 
         file_put_contents($file, "------\n$content", FILE_APPEND);
     }
