@@ -1,3 +1,4 @@
+<?php
 /*
 	Author: 	Solevisible/Alfa-Team
 	Telegram: 	https://telegram.me/solevisible
