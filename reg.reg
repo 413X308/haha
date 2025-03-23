@@ -4,4 +4,20 @@ Windows Registry Editor Version 5.00
 "SmartScreenEnabled"="Off"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\SmartScreen]
-"Enabled"="0"
+"Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\PhishingFilter]
+"EnabledV9"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"EnableSmartScreen"=dword:00000000
+"ShellSmartScreenLevel"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\SmartScreen]
+"ConfigureAppInstallControlEnabled"=dword:00000000
+"ConfigureAppInstallControl"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"DisableSmartScreen"=dword:00000001
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\SmartScreen\ConfigureAppInstallControl]
