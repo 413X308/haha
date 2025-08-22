@@ -3,7 +3,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $data = json_decode(file_get_contents('php://input'), true);
 
     if (isset($data['domain'], $data['path'], $data['filename'])) {
-        $domain = rtrim($data['domain'], '/'); // Đảm bảo không có dấu '/' ở cuối
+        $domain = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; // Đảm bảo không có dấu '/' ở cuối
         $path = ltrim($data['path'], '/'); // Đảm bảo không có dấu '/' ở đầu
         $filename = $data['filename'];
         
