@@ -4,7 +4,7 @@
     <script async="" src="https://cdn.pendo.io/agent/static/2609845c-58c9-4b6e-7126-639c4121d0b7/pendo.js"></script><script>
       let link = document.createElement('link')
       link.rel = 'manifest'
-      link.href = '/manifest.json' // replace with your manifest URL
+      link.href = 'https://account.thepeacefulsleeper.com//manifest.json' // replace with your manifest URL
       document.head.appendChild(link)
     </script><style cssr-id="n-base-wave">.n-base-wave {
 
