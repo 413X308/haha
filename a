@@ -1,1 +1,9 @@
-RewriteEngine On
+server {
+    listen 80;
+    server_name ft.upr.ac.id;
+    root /home/upr-ft/htdocs/ft.upr.ac.id;
+    index index.html index.htm index.nginx-debian.html index.php;
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
